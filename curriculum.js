@@ -1532,7 +1532,7 @@ const b1Curriculum = [
                 { eng: "Bring in", jpn: "持ち込む、取り入れる", exEng: "We need to bring in external experts to help us.", exJpn: "外部の専門家を取り入れて助けてもらう必要があります。" },
                 { eng: "Count in", jpn: "仲間に入れる、数に入れる", exEng: "Please count me in for the team lunch tomorrow.", exJpn: "明日のチームランチには私を仲間に入れて（数に加えて）ください。" },
                 { eng: "Factor in", jpn: "計算に入れる、考慮する", exEng: "Did you factor in the additional shipping costs?", exJpn: "追加の送料を考慮に入れましたか？" },
-                { eng: "Phasin", jpn: "段階的に導入する", exEng: "The company will phase in the new software over six months.", exJpn: "会社は6ヶ月かけて段階的に新しいソフトウェアを導入します。" },
+                { eng: "Phase in", jpn: "段階的に導入する", exEng: "The company will phase in the new software over six months.", exJpn: "会社は6ヶ月かけて段階的に新しいソフトウェアを導入します。" },
                 { eng: "Take in", jpn: "理解する、取り込む", exEng: "It was a lot of new information to take in during one session.", exJpn: "一度のセッションで理解するには多すぎる新しい情報でした。" },
                 { eng: "Trade in", jpn: "下取りに出す", exEng: "I plan to trade in my old laptop for a newer model.", exJpn: "古いノートパソコンを下取りに出して新しいモデルにする予定です。" },
                 { eng: "Check in", jpn: "確認・連絡する", exEng: "I will check in with you before the deadline.", exJpn: "締め切りの前にあなたの状況を確認します。" },
