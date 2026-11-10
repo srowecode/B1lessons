@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>B1 English Mastery</title>
+    <title>B1 IT English Mastery</title>
     <style>
         :root {
             --primary: #4f46e5;       
@@ -18,6 +18,15 @@
             --error: #ef4444;         
         }
 
+        /* --- GLOBAL & RESET --- */
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            overflow-x: hidden;
+        }
+
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
             background-color: var(--bg-color);
@@ -28,185 +37,131 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        body.hide-jpn .jpn-text {
-            display: none !important;
-        }
+        body.hide-jpn .jpn-text { display: none !important; }
+        
         .toggle-jpn-btn {
-            background: var(--accent);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: 600;
-            transition: background 0.2s;
-            margin-right: 10px;
+            background: var(--accent); color: white; border: none; padding: 10px 20px;
+            border-radius: 8px; cursor: pointer; font-size: 1rem; font-weight: 600;
+            transition: background 0.2s; margin-right: 10px;
         }
-        .toggle-jpn-btn:hover {
-            background: #d97706;
+        .toggle-jpn-btn:hover { background: #d97706; }
+
+        /* --- NEW WOODBLOCK / TECH BANNER STYLE --- */
+        .banner-container {
+            width: 100%;
+            background-color: #f7ede2;
+            border-bottom: 5px solid #2b2e4a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .hero-banner {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            display: block;
         }
 
+        /* --- DYNAMIC HERO HEADER STYLES --- */
         .hero {
             position: relative;
-            width: 100%;
-            min-height: 400px;
-            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            padding: 40px 20px;
-            border-bottom: 4px solid var(--primary);
-        }
-
-        .hero-image-container {
-            position: relative;
-            z-index: 10;
-            width: 250px; 
-            height: 250px;
-            margin-bottom: 25px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .hero-image {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 50%; 
-            border: 6px solid white;
-            box-shadow: 0 20px 40px -10px rgba(79, 70, 229, 0.3);
-            position: relative;
-        }
-
-        .hero-text-wrapper {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            z-index: 10;
+            padding: 80px 20px;
             text-align: center;
+            border-bottom: 5px solid var(--primary);
+            background-color: var(--border); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: background-image 0.5s ease-in-out;
+            min-height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
-        .hero-title {
-            font-size: clamp(2.5rem, 6vw, 4.5rem);
-            font-weight: 900;
-            letter-spacing: 2px;
-            margin: 0;
-            color: var(--primary);
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(247, 250, 252, 0.85);
+            z-index: 1;
         }
 
-        .hero-subtitle {
-            font-size: clamp(1rem, 2vw, 1.2rem);
-            font-weight: 700;
-            letter-spacing: 1px;
-            margin: 10px 0 20px;
-            color: var(--text-light);
-            text-transform: uppercase;
-        }
-
-        .container {
-            max-width: 1350px; 
-            margin: -30px auto 40px; 
-            padding: 0 15px;
+        .hero-text-wrapper { 
             position: relative;
-            z-index: 20;
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            z-index: 10; 
+            text-align: center; 
+            width: 100%;
+        }
+        
+        .hero-title { 
+            font-size: clamp(2rem, 6vw, 4.5rem); 
+            font-weight: 900; 
+            letter-spacing: 2px; 
+            margin: 0; 
+            color: var(--primary); 
+            word-wrap: break-word;
+        }
+        
+        .hero-subtitle { 
+            font-size: clamp(0.9rem, 2vw, 1.2rem); 
+            font-weight: 700; 
+            letter-spacing: 1px; 
+            margin: 10px 0 20px; 
+            color: var(--text-dark); 
+            text-transform: uppercase; 
+        }
+
+        .container { 
+            max-width: 1350px; 
+            margin: 25px auto 40px; 
+            padding: 0 15px; 
+            position: relative; 
+            z-index: 20; 
         }
 
         .class-selector {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 25px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-            border: 1px solid var(--border);
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            flex-wrap: wrap;
+            background: var(--card-bg); border-radius: 12px; padding: 20px; margin-bottom: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border);
+            display: flex; align-items: center; gap: 15px; flex-wrap: wrap;
         }
-
-        .class-selector label {
-            font-weight: 700;
-            font-size: 1.1rem;
-            color: var(--primary);
-        }
-
+        .class-selector label { font-weight: 700; font-size: 1.1rem; color: var(--primary); }
         .class-selector select {
-            flex: 1;
-            min-width: 220px;
-            padding: 10px 15px;
-            font-size: 1rem;
-            border: 2px solid var(--primary-light);
-            border-radius: 8px;
-            cursor: pointer;
-            outline: none;
-            color: var(--text-dark);
-            font-weight: 600;
-            background: white;
+            flex: 1; min-width: 220px; padding: 10px 15px; font-size: 1rem;
+            border: 2px solid var(--primary-light); border-radius: 8px; cursor: pointer;
+            outline: none; color: var(--text-dark); font-weight: 600; background: white;
         }
-
-        .controls-group {
-            display: flex;
-            gap: 10px;
-            margin-left: auto;
-        }
-
+        .controls-group { display: flex; gap: 10px; margin-left: auto; }
         .export-btn {
-            background: var(--success);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: 600;
-            transition: background 0.2s;
+            background: var(--success); color: white; border: none; padding: 10px 20px;
+            border-radius: 8px; cursor: pointer; font-size: 1rem; font-weight: 600; transition: background 0.2s;
+        }
+        .export-btn:hover { background: #059669; }
+
+        .chapter-label { font-size: 1.1rem; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 5px; }
+        
+        .section-card { 
+            background: var(--card-bg); border-radius: 12px; padding: 30px; margin-bottom: 25px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border); 
+            transition: all 0.3s ease; 
+            width: 100%;
         }
 
-        .export-btn:hover {
-            background: #059669;
+        .layout-2col {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); align-items: start; gap: 25px; margin-bottom: 25px;
         }
-
-        .chapter-label {
-            font-size: 1.1rem;
-            font-weight: 800;
-            color: var(--accent);
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            margin-bottom: 5px;
-        }
-
-        .section-card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 25px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-            border: 1px solid var(--border);
-        }
+        .layout-2col .section-card { margin-bottom: 0; min-width: 0; }
 
         .layout-3col {
-            display: grid;
-            grid-template-columns: 1fr 2fr; 
-            gap: 25px;
-            margin-bottom: 25px;
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: stretch; gap: 25px; margin-bottom: 25px;
         }
-        .layout-3col .section-card {
-            margin-bottom: 0;
-            min-width: 0;
-        }
+        .layout-3col .section-card { margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column; }
 
-        .goal-overview {
-            background: #eff6ff;
-            border-radius: 12px;
-            padding: 20px 25px;
-            margin-bottom: 25px;
-            border-left: 6px solid var(--primary);
-        }
-        
+        .goal-overview { background: #eff6ff; border-radius: 12px; padding: 20px 25px; margin-bottom: 25px; border-left: 6px solid var(--primary); }
         .goal-overview p { font-size: 1.1rem; color: var(--text-dark); margin: 0; font-weight: 600;}
 
         h2 { border-bottom: 2px solid var(--border); padding-bottom: 12px; color: var(--primary); margin-top:0; font-size: 1.8rem;}
@@ -214,17 +169,16 @@
         .section-card h3:first-child { margin-top: 0; }
         h4 { color: var(--text-light); font-size: 1.1rem; margin-top: 20px; margin-bottom: 10px; }
 
-        .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; margin-bottom: 20px;}
+        .vocab-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 20px;}
         .vocab-item { background: var(--bg-color); padding: 10px 15px; border-radius: 8px; border: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;}
-        .vocab-text { display: flex; flex-direction: column; }
+        .vocab-text { display: flex; flex-direction: column; width: 100%;}
         .vocab-eng { font-weight: 700; color: var(--text-dark); font-size: 1.05rem; }
         .vocab-jpn { font-size: 0.85rem; color: var(--text-light); margin-top: 2px; }
 
         .flashcard {
-            background: white; border: 2px solid var(--border); border-radius: 8px;
-            padding: 12px 10px; display: flex; align-items: center; justify-content: center;
-            cursor: pointer; transition: all 0.2s ease; text-align: center; font-weight: 600;
-            color: var(--text-dark); min-height: 45px; user-select: none; font-size: 1.05rem;
+            background: white; border: 2px solid var(--border); border-radius: 8px; padding: 12px 10px; display: flex;
+            align-items: center; justify-content: center; cursor: pointer; transition: all 0.2s ease; text-align: center;
+            font-weight: 600; color: var(--text-dark); min-height: 50px; user-select: none; font-size: 1.05rem;
         }
         .flashcard:hover { border-color: var(--primary-light); transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
         .flashcard.flipped { background: #eff6ff; border-color: var(--primary); color: var(--primary); }
@@ -237,32 +191,17 @@
         .dialogue-speaker { font-weight: bold; color: var(--primary); margin-right: 8px; }
         .dialogue-trans { display: block; font-size: 0.9rem; color: var(--text-light); margin-left: 28px; }
         
-        .swappable {
-            text-decoration: underline;
-            text-decoration-color: var(--accent);
-            text-decoration-thickness: 2px;
-            text-underline-offset: 4px;
-        }
+        .swappable { text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+        .grammar-target { font-style: italic; font-weight: 600; color: var(--primary); }
 
-        .expressions-grid-2col { 
-            display: grid; 
-            grid-template-columns: repeat(2, 1fr); 
-            gap: 15px; 
-            margin-bottom: 20px; 
-        }
+        .expressions-grid-2col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; margin-bottom: 20px; }
         .expression-category { background: #f8fafc; padding: 15px; border-radius: 8px; border: 1px solid var(--border); }
         .expression-category h4 { margin-top: 0; color: var(--primary); font-size: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 10px; }
         .expression-list { list-style: none; padding-left: 0; margin: 0; }
-        .expression-list li { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 0.95rem; font-weight: 500; }
+        .expression-list li { display: flex; justify-content: space-between; align-items: flex-start; padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 0.95rem; font-weight: 500; transition: all 0.3s ease; }
         .expression-list li:last-child { border-bottom: none; }
 
-        .grammar-details {
-            background: #f0fdf4;
-            padding: 20px;
-            border-radius: 8px;
-            border: 1px solid #bbf7d0;
-            margin-bottom: 20px;
-        }
+        .grammar-details { background: #f0fdf4; padding: 20px; border-radius: 8px; border: 1px solid #bbf7d0; margin-bottom: 20px; transition: all 0.3s ease; }
         .grammar-details p { margin: 8px 0; font-size: 1.05rem;}
         
         .example-list { padding-left: 0; list-style: none; margin-bottom: 20px;}
@@ -274,44 +213,36 @@
         .audio-btn {
             background: none; border: none; cursor: pointer; font-size: 1.2rem;
             padding: 5px; border-radius: 50%; transition: all 0.2s; color: var(--primary);
+            flex-shrink: 0;
+            touch-action: manipulation;
         }
         .audio-btn:hover { background: #e0e7ff; transform: scale(1.1); }
 
-        .practice-container {
-            background: #fffbeb; 
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            border: 1px solid #fde68a;
-        }
-
+        .practice-container { background: #fffbeb; padding: 20px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #fde68a; }
         .word-bank { display: flex; flex-wrap: wrap; gap: 10px; margin: 15px 0; }
         .word-btn {
             background: white; border: 1px solid var(--border); color: var(--text-dark);
             padding: 8px 14px; border-radius: 20px; cursor: pointer; font-size: 1rem;
             font-weight: 500; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            touch-action: manipulation;
         }
         .word-btn:hover { background: var(--primary-light); color: white; border-color: var(--primary-light); transform: translateY(-2px);}
 
         .drop-zone {
             min-height: 50px; border: 2px dashed var(--accent); border-radius: 8px;
-            padding: 12px; display: flex; flex-wrap: wrap; gap: 10px; background: white;
-            margin-bottom: 12px;
+            padding: 12px; display: flex; flex-wrap: wrap; gap: 10px; background: white; margin-bottom: 12px;
         }
 
-        .dropdown-container {
-            background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 15px; border: 1px solid var(--border); font-size: 1.1rem;
-        }
+        .dropdown-container { background: #f8fafc; padding: 15px; border-radius: 8px; margin-bottom: 15px; border: 1px solid var(--border); font-size: 1.1rem; }
         .dropdown-container select {
             padding: 6px 10px; font-size: 1rem; border: 2px solid var(--primary-light);
-            border-radius: 6px; cursor: pointer; outline: none; margin: 0 8px;
-            color: var(--primary); font-weight: 600; background: white;
+            border-radius: 6px; cursor: pointer; outline: none; margin: 0 8px; color: var(--primary); font-weight: 600; background: white;
         }
 
         button.action-btn {
             background: var(--primary); color: white; border: none; padding: 10px 20px;
-            border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: 600; margin-top: 8px; margin-right: 8px;
-            transition: background 0.2s;
+            border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: 600; margin-top: 8px; margin-right: 8px; transition: background 0.2s;
+            touch-action: manipulation;
         }
         button.action-btn:hover { background: #4338ca; }
 
@@ -323,122 +254,317 @@
         .homework-box { background: #f0f9ff; border-left: 6px solid var(--primary-light); }
         .roleplay-box p, .homework-box p { margin-top: 0; }
 
-        .opinion-layout {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 25px;
-            margin-bottom: 30px;
-        }
-        .opinion-column {
-            background: var(--card-bg);
-            border-radius: 12px;
-            padding: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
-            border: 1px solid var(--border);
-        }
-        .opinion-column h3 {
-            margin-top: 0;
-            font-size: 1.2rem;
-        }
-        .question-list {
-            list-style-type: none;
-            padding: 0;
-        }
-        .question-list li {
-            padding: 12px 0;
-            border-bottom: 1px dashed var(--border);
-            font-size: 1.05rem;
-            color: var(--text-dark);
-        }
-        .question-list li:last-child {
-            border-bottom: none;
-        }
-        .grammar-box, .expression-box {
-            background: #f0fdf4;
-            padding: 15px;
-            border-radius: 8px;
-            border: 1px solid #bbf7d0;
-            margin-bottom: 15px;
-        }
-        .expression-box {
-            background: #eff6ff;
-            border-color: var(--primary-light);
-        }
+        .question-list { list-style-type: none; padding: 0; }
+        .question-list li { padding: 12px 0; border-bottom: 1px dashed var(--border); font-size: 1.05rem; color: var(--text-dark); transition: all 0.3s ease; }
+        .question-list li:last-child { border-bottom: none; }
+        
+        .grammar-box, .expression-box { background: #f0fdf4; padding: 15px; border-radius: 8px; border: 1px solid #bbf7d0; margin-bottom: 15px; transition: all 0.3s ease; }
+        .expression-box { background: #eff6ff; border-color: var(--primary-light); }
 
-        .casestudy-people {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-bottom: 25px;
-        }
+        .casestudy-people { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 25px; }
         .person-card {
-            background: #f8fafc;
-            border-radius: 8px;
-            padding: 20px;
-            border: 1px solid var(--border);
-            border-left: 5px solid var(--primary-light);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+            background: #f8fafc; border-radius: 8px; padding: 20px; border: 1px solid var(--border);
+            border-left: 5px solid var(--primary-light); box-shadow: 0 4px 6px rgba(0,0,0,0.02);
         }
-        .person-card h4 {
-            margin-top: 0;
-            color: var(--primary);
-            font-size: 1.15rem;
-            border-bottom: 1px solid var(--border);
-            padding-bottom: 8px;
-            margin-bottom: 12px;
-        }
+        .person-card h4 { margin-top: 0; color: var(--primary); font-size: 1.15rem; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 12px; }
         .person-card p { margin-top: 0; }
 
-        .casestudy-2col, .speakingtest-2col {
+        .casestudy-2col, .speakingtest-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .speech-prompt-card { background: #fefce8; border: 1px solid #fef08a; border-radius: 8px; padding: 20px; }
+        .example-speech-card { background: #f8fafc; border: 1px solid var(--border); border-radius: 8px; padding: 20px; }
+        .example-speech-text { font-size: 1.05rem; white-space: pre-wrap; }
+
+        .topic-card { background: white; border: 2px solid #bae6fd; border-radius: 8px; padding: 15px; margin-bottom: 15px; display: flex; align-items: flex-start; gap: 10px; transition: all 0.3s ease; }
+
+        input[type="checkbox"] {
+            transform: scale(1.3);
+            cursor: pointer;
+            margin-top: 5px;
+            accent-color: var(--accent);
+            flex-shrink: 0;
+        }
+
+        .completed {
+            opacity: 0.45;
+            background-color: #f1f5f9 !important; 
+            border-color: var(--border) !important;
+            filter: grayscale(60%);
+        }
+
+        .completed-hidden {
+            display: none !important;
+        }
+
+        /* --- AUDIO CONTROLS & SHADOWING STYLES --- */
+        .audio-controls-panel {
+            background: #e0e7ff;
+            border: 1px solid #c7d2fe;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .audio-ctrl-btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background 0.2s;
+            touch-action: manipulation;
+        }
+        .audio-ctrl-btn:hover { background: #4338ca; }
+        .audio-ctrl-btn.secondary { background: var(--text-light); }
+        .audio-ctrl-btn.secondary:hover { background: var(--text-dark); }
+
+        .shadowing-guide {
+            background: #fffbeb;
+            border: 1px solid #fde68a;
+            border-radius: 8px;
+            padding: 18px;
+            margin-bottom: 20px;
+        }
+        .shadowing-guide h5 {
+            margin-top: 0;
+            color: var(--accent);
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        .shadowing-steps {
+            list-style: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        .shadowing-steps li {
+            margin-bottom: 10px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        .shadowing-steps li strong {
+            color: var(--text-dark);
+            display: block;
+        }
+
+        /* --- PROGRESS BAR STYLES --- */
+        #progress-container {
+            overflow: visible; 
+        }
+
+        @keyframes safeBreakout {
+            0% { transform: scale(1); background-color: var(--accent); box-shadow: 0 0 10px var(--accent); }
+            50% { transform: scale(1.03) scaleX(1.05); background-color: #ecc94b; box-shadow: 0 0 25px #ecc94b; }
+            100% { transform: scale(1); background-color: var(--accent); box-shadow: 0 0 10px var(--accent); }
+        }
+
+        .progress-violent { animation: safeBreakout 2s infinite ease-in-out !important; position: relative; z-index: 50; }
+        
+        /* --- NEW LANDING PAGE GRID STYLES --- */
+        .features-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+            margin-top: 25px;
         }
-
-        .speech-prompt-card {
-            background: #fefce8;
-            border: 1px solid #fef08a;
-            border-radius: 8px;
-            padding: 20px;
-        }
-        .example-speech-card {
-            background: #f8fafc;
+        .feature-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
             border: 1px solid var(--border);
-            border-radius: 8px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+        }
+        .feature-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--accent);
+        }
+        .feature-content {
             padding: 20px;
         }
-        .example-speech-text {
-            font-size: 1.05rem;
-            white-space: pre-wrap;
+        .feature-content h3 {
+            margin-top: 0;
+            padding-left: 0;
+            border-left: none;
+            color: var(--primary);
+            font-size: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
+        .chapter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+            margin-top: 25px;
+        }
+        .chapter-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .chapter-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary-light);
+            box-shadow: 0 10px 15px rgba(79, 70, 229, 0.1);
+        }
+        .chapter-banner {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+        }
+        .chapter-content {
+            padding: 15px 20px;
+            border-top: 4px solid var(--primary);
+            flex-grow: 1;
+        }
+        .chapter-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-dark);
+            margin: 0 0 5px 0;
+        }
+        .chapter-jpn {
+            font-weight: normal;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin: 0;
+        }
+
+        /* --- SMARTPHONE / RESPONSIVE STYLES --- */
         @media (max-width: 1024px) {
+            .layout-2col { grid-template-columns: 1fr; }
+            .layout-2col .section-card { margin-bottom: 25px; }
             .layout-3col { grid-template-columns: 1fr; }
             .layout-3col .section-card { margin-bottom: 25px; }
-            .opinion-layout { grid-template-columns: 1fr; }
         }
 
         @media (max-width: 768px) {
-            .hero { min-height: 350px; }
-            .class-selector { flex-direction: column; align-items: stretch; }
-            .controls-group { flex-direction: column; width: 100%; }
-            .export-btn, .toggle-jpn-btn { width: 100%; margin: 0; }
+            .hero { 
+                min-height: auto; 
+                padding: 50px 15px; 
+            }
+            .hero-title { font-size: 2.2rem; }
+            .hero-subtitle { font-size: 1rem; margin-bottom: 0; }
+            
+            .container { 
+                margin-top: -15px; 
+            }
+            
+            .section-card {
+                padding: 20px 15px;
+            }
+
+            .class-selector { 
+                flex-direction: column; 
+                align-items: stretch; 
+                padding: 15px; 
+                gap: 10px;
+            }
+            .class-selector label {
+                margin-bottom: 0px;
+            }
+            .class-selector select {
+                width: 100%;
+                min-width: 100%;
+                margin-bottom: 10px;
+            }
+            
+            .controls-group { 
+                flex-direction: column; 
+                width: 100%; 
+                gap: 10px; 
+            }
+            .export-btn, .toggle-jpn-btn { 
+                width: 100%; 
+                margin: 0; 
+            }
+            
             .expressions-grid-2col { grid-template-columns: 1fr; }
             .casestudy-people { grid-template-columns: 1fr; }
             .casestudy-2col, .speakingtest-2col { grid-template-columns: 1fr; }
-            button.action-btn { width: 100%; margin-right: 0; margin-bottom: 8px; }
+            
+            button.action-btn { 
+                width: 100%; 
+                margin-right: 0; 
+                margin-bottom: 10px; 
+            }
+            
+            .audio-controls-panel { 
+                flex-direction: column; 
+                align-items: stretch; 
+            }
+            .audio-ctrl-btn { 
+                width: 100%; 
+                text-align: center; 
+            }
+            .audio-controls-panel label {
+                margin-left: 0 !important;
+                margin-top: 10px;
+            }
+            
+            .features-grid { grid-template-columns: 1fr; }
+            .chapter-grid { grid-template-columns: 1fr; }
+            
+            .vocab-grid { 
+                grid-template-columns: 1fr; 
+            }
+            
+            .topic-card {
+                flex-direction: column;
+            }
+            
+            .dialogue-box, .roleplay-box, .homework-box, .practice-container {
+                padding: 15px;
+            }
+            .grammar-details {
+                padding: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h2 { font-size: 1.5rem; }
+            h3 { font-size: 1.2rem; }
+            .goal-overview p { font-size: 1rem; }
+            .vocab-eng { font-size: 1rem; }
+            .vocab-jpn { font-size: 0.85rem; }
+            .flashcard { font-size: 0.95rem; }
+            .dialogue-line { font-size: 1rem; }
+            .dialogue-trans { margin-left: 0; margin-top: 5px; }
         }
     </style>
 </head>
 <body>
 
-    <header class="hero">
-        <div class="hero-image-container">
-            <img src="main.jpg" alt="B1 English Learner" class="hero-image" onerror="this.style.display='none';">
-        </div>
+    <!-- HERO HEADER WITH MINIMAL JAPANESE TECH WOODBLOCK BANNER -->
+    <div class="banner-container" id="splash-banner">
+        <img src="image_0.jpg" alt="B1 IT English Splash Banner" class="hero-banner">
+    </div>
+
+    <header class="hero" id="main-hero" style="display: none;">
         <div class="hero-text-wrapper">
-            <h1 class="hero-title">B1 ENGLISH</h1>
-            <p class="hero-subtitle">Goal-Based, Opinion & Case Study Lessons</p>
+            <h1 class="hero-title">B1 IT ENGLISH</h1>
+            <p class="hero-subtitle">Practical Speaking for Japan's IT Industry</p>
         </div>
     </header>
 
@@ -451,676 +577,1065 @@
                 <button class="export-btn" onclick="exportLessonToAnki()">📥 Download Anki Deck</button>
             </div>
         </div>
-        <div id="lessonContent"></div>
+
+        <div id="landingPage" class="section-card">
+            <h2 style="font-size: 2.2rem; margin-bottom: 10px;">B1 English Mastery for IT Professionals</h2>
+            <div class="goal-overview" style="margin-bottom: 30px;">
+                <p><strong>Course Focus:</strong> Practical Speaking Skills | CEFR B1 Level | IT Industry Context</p>
+                <p class="jpn-text" style="font-weight: normal; margin-top: 8px;"><strong>コースの焦点：</strong> 実践的なスピーキングスキル | CEFR B1レベル | 日本のIT業界向けコンテキスト</p>
+            </div>
+
+            <p style="font-size: 1.1rem;">This course is designed specifically for IT professionals working in Japan to improve their practical English speaking skills. Everything is structured precisely at the CEFR B1 level, ensuring accessible and relevant learning for daily workplace communication, team meetings, and intermediate technical reporting.</p>
+            <p class="jpn-text" style="color: var(--text-light); margin-bottom: 40px;">このコースは、日本で働くITプロフェッショナルが実践的なスピーキングスキルを向上させるために特別に設計されています。すべてCEFR B1レベルで構成されており、日常の職場でのコミュニケーション、チームミーティング、中級レベルの技術報告に役立つ内容となっています。</p>
+
+            <h2 style="font-size: 1.8rem; margin-top: 20px; border-bottom: none;">Course Features</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="course001.jpg" alt="Free Education" class="feature-img">
+                    <div class="feature-content">
+                        <h3> 100% Free</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">This content is free for anyone to use. (but cannot be sold commercially)</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">このコンテンツはどなたでも無料でご利用いただけます。（商業目的での販売不可）</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <img src="course002.jpg" alt="Streamlined UI" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Streamlined design</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">All content is on one page, no more clicking multiple links.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">すべてのコンテンツが1ページにまとまっており、複数リンクのクリックは不要です。</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <img src="course003.jpg" alt="Holistic Learning" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Holistic improvement</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Each class includes speaking, listening, reading, writing, new words, and grammar points.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各クラスには4技能の課題、新単語、表現、文法が含まれています。</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <img src="course004.jpg" alt="Interactive Homework" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Interactive homework</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Interactive activities in the homework section help you master new grammar points.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">宿題セクションのインタラクティブな活動で、新しい文法を習得できます。</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <img src="course005.jpg" alt="AI Homework Marking" class="feature-img">
+                    <div class="feature-content">
+                        <h3> AI HW marking</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Use the provided Gemini Gem in your pacing document to get immediate feedback.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">付属のGemini Gemを使用して、ライティング課題の即時フィードバックを得られます。</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <img src="course006.jpg" alt="Full Japanese Support" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Full Japanese support </h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Each lesson includes a full translation into Japanese that you can quickly turn on or off.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各レッスンには、日本語への完全な翻訳が含まれており、これを簡単にオン・オフに切り替えることができます。</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <img src="course007.jpg" alt="Anki Integration" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Anki Integration</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Each lesson includes a set of ANKI compatible flashcards that you can use to review the new words.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">各レッスンには、ANKI対応のフラッシュカードセットが含まれており、新しい単語の復習に活用できます。</p>
+                    </div>
+                </div>
+                
+                <div class="feature-card">
+                    <img src="course008.jpg" alt="Shadowing Method" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Shadowing Method</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Listen and repeat exactly what you hear to improve pronunciation and speaking fluency.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">音声を聞き、聞こえた通りに繰り返すことで発音と流暢さを向上させます。</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <img src="course009.jpg" alt="Flipped Learning" class="feature-img">
+                    <div class="feature-content">
+                        <h3> Flipped Learning</h3>
+                        <p style="font-size: 1rem; margin-bottom: 8px;">Study the material before class to maximize your active speaking time during the lesson.</p>
+                        <p class="jpn-text" style="color: var(--text-light); font-size: 0.9rem; margin: 0;">授業中のスピーキング時間を最大化するために、レッスン前に内容を学習します。</p>
+                    </div>
+                </div>
+            </div>
+
+            <h2 style="font-size: 1.8rem; margin-top: 40px; border-bottom: none;">Course Chapters</h2>
+            <p class="jpn-text" style="color: var(--text-light); margin-top: -10px; margin-bottom: 20px;">We cover lessons across various different topics. There is a mix of everyday English as well as content specific to the IT industry. (様々なトピックにわたるレッスンを網羅しています。日常的な英語に加え、IT業界特有の内容も盛り込まれています。)</p>
+            
+            <div class="chapter-grid">
+                <div class="chapter-card">
+                    <img src="chapter001.jpg" alt="First Meetings" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 1: First Meetings</p>
+                        <p class="chapter-jpn jpn-text">第1章：初対面の挨拶</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="chapter002.jpg" alt="Small Talk" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 2: Small Talk</p>
+                        <p class="chapter-jpn jpn-text">第2章：雑談</p>
+                    </div>
+                </div>
+                <div class="chapter-card">
+                    <img src="chapter003.jpg" alt="Past Projects & Bugs" class="chapter-banner">
+                    <div class="chapter-content">
+                        <p class="chapter-title">Chapter 3: Past Projects & Bugs</p>
+                        <p class="chapter-jpn jpn-text">第3章：過去のプロジェクトと不具合</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="lessonContent" style="display: none;"></div>
     </div>
 
-    <!-- LINK TO EXTERNAL CURRICULUM FILE -->
-    <script src="curriculum.js"></script>
-
+    <script src="B1curriculum.js"></script>
     <script>
+        let currentMp3Audio = null;
+
+        function updateProgress() {
+            const progressBar = document.getElementById('progress-bar');
+            const scoreDisplay = document.getElementById('score-display');
+            
+            if (!progressBar || !scoreDisplay) return;
+
+            const checkboxes = document.querySelectorAll('#lessonContent input[type="checkbox"]');
+            const checkedCount = Array.from(checkboxes).filter(cb => cb.checked).length;
+            
+            const maxTarget = 10;
+            
+            let percentage = (checkedCount / maxTarget) * 100;
+            if (percentage > 100) percentage = 100;
+            progressBar.style.width = percentage + '%';
+
+            if (checkedCount <= maxTarget) {
+                progressBar.classList.remove('progress-violent');
+                scoreDisplay.innerHTML = `${checkedCount} / ${maxTarget}`;
+            } else {
+                progressBar.classList.add('progress-violent');
+                const bonusScore = (checkedCount - maxTarget) * 500; 
+                scoreDisplay.innerHTML = `COMPLETED! <span style="color: red; font-size: 1.2rem; font-weight: 900; text-shadow: 0px 0px 5px yellow; margin-left: 10px;">+${bonusScore} BONUS!</span>`;
+            }
+        }
+
+        function toggleComplete(checkbox, elementId) {
+            const el = document.getElementById(elementId);
+            const selectVal = document.getElementById("lessonSelect").value;
+            const lesson = (selectVal !== "landing" && typeof b1Curriculum !== 'undefined') ? b1Curriculum[parseInt(selectVal)] : null;
+            
+            if (el) {
+                if (checkbox.checked) {
+                    if (lesson && (lesson.type === 'transactional' || lesson.type === 'opinion')) {
+                        el.classList.add('completed-hidden');
+                    } else {
+                        el.classList.add('completed');
+                    }
+                } else {
+                    el.classList.remove('completed');
+                    el.classList.remove('completed-hidden');
+                }
+            }
+            updateProgress();
+        }
+
+        function restoreCheckboxes() {
+            const checkboxes = document.querySelectorAll('#lessonContent input[type="checkbox"]');
+            checkboxes.forEach(cb => cb.checked = false);
+            
+            const completedElements = document.querySelectorAll('.completed, .completed-hidden');
+            completedElements.forEach(el => {
+                el.classList.remove('completed', 'completed-hidden');
+            });
+            
+            updateProgress();
+        }
+
+        function toggleElement(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+            }
+        }
+
         function playAudio(text) {
             if ('speechSynthesis' in window) {
                 window.speechSynthesis.cancel();
                 const utterance = new SpeechSynthesisUtterance(text);
                 utterance.lang = 'en-US'; 
-                utterance.rate = 0.85; 
+                utterance.rate = 1.0; 
                 window.speechSynthesis.speak(utterance);
-            } else {
-                alert("Text-to-Speech is not supported in your browser.");
+            } else { alert("Text-to-Speech is not supported in your browser."); }
+        }
+
+        function playMp3Audio(audioId) {
+            if (!currentMp3Audio || currentMp3Audio.dataset.audioId !== String(audioId)) {
+                if (currentMp3Audio) {
+                    currentMp3Audio.pause();
+                }
+                let audioFileName = '';
+                if (typeof audioId === 'string' && audioId.startsWith('intro_')) {
+                    const parts = audioId.split('_');
+                    const idNum = String(parts[1]).padStart(3, '0');
+                    const personSuffix = parts[2] ? '_p' + parts[2] : '';
+                    audioFileName = 'intro_audio' + idNum + personSuffix + '.mp3';
+                } else {
+                    const paddedId = String(audioId).padStart(3, '0');
+                    audioFileName = 'audio' + paddedId + '.mp3';
+                }
+                currentMp3Audio = new Audio(audioFileName);
+                currentMp3Audio.dataset.audioId = String(audioId);
             }
+            
+            const selectId = String(audioId).startsWith('intro_') ? 'audioSpeedSelectIntro' : 'audioSpeedSelect';
+            const speedSelect = document.getElementById(selectId);
+            if (speedSelect) {
+                currentMp3Audio.playbackRate = parseFloat(speedSelect.value);
+            }
+            
+            currentMp3Audio.play().catch(e => alert("Audio file not found or could not be played: " + currentMp3Audio.src));
+        }
+
+        function pauseMp3Audio() {
+            if (currentMp3Audio) {
+                currentMp3Audio.pause();
+            }
+        }
+
+        function skipMp3Audio(seconds) {
+            if (currentMp3Audio) {
+                currentMp3Audio.currentTime = Math.max(0, currentMp3Audio.currentTime + seconds);
+            }
+        }
+
+        function replayMp3Audio() {
+            if (currentMp3Audio) {
+                currentMp3Audio.currentTime = 0;
+                currentMp3Audio.play();
+            }
+        }
+
+        function changeAudioSpeed(speed) {
+            if (currentMp3Audio) {
+                currentMp3Audio.playbackRate = parseFloat(speed);
+            }
+        }
+
+        function toggleTask4English() {
+            toggleElement('task4-eng-text');
+        }
+
+        function toggleTask4Japanese() {
+            toggleElement('task4-jpn-text');
         }
 
         function prepareAudioText(htmlStr) {
+            if (!htmlStr) return "";
             let str = htmlStr.replace(/<br\s*[\/]?>/gi, '. '); 
-            str = str.replace(/<[^>]*>?/gm, ''); 
-            return str.replace(/'/g, "\\'"); 
+            return str.replace(/<[^>]*>?/gm, '').replace(/'/g, "\'").replace(/\n/g, ' '); 
         }
-
-        function stripHtmlTags(str) {
-            return str.replace(/<[^>]*>?/gm, '');
-        }
-
-        function flipCard(cardElement) {
-            cardElement.classList.toggle('flipped');
-        }
-
-        function toggleJapanese() {
-            document.body.classList.toggle('hide-jpn');
-        }
-
+        function stripHtmlTags(str) { return str ? str.replace(/<[^>]*>?/gm, '') : ""; }
+        function flipCard(cardElement) { cardElement.classList.toggle('flipped'); }
+        function toggleJapanese() { document.body.classList.toggle('hide-jpn'); }
+        
         function exportLessonToAnki() {
-            const index = parseInt(document.getElementById("lessonSelect").value);
-            const lesson = b1Curriculum[index];
-            let tsvContent = "";
-
-            if (lesson.vocab) {
-                lesson.vocab.forEach(v => {
-                    tsvContent += `${v.eng}\t${v.jpn}\tB1::Lesson_${lesson.id}\n`;
-                });
-            }
-
-            if (lesson.homework && lesson.homework.vocab) {
-                lesson.homework.vocab.forEach(v => {
-                    tsvContent += `${v.eng}\t${v.jpn}\tB1::Lesson_${lesson.id}_Homework\n`;
-                });
-            }
-
-            if (tsvContent === "") {
-                alert("No vocabulary available to export for this lesson.");
+            const val = document.getElementById("lessonSelect").value;
+            if (val === "landing") {
+                alert("Please select a specific lesson from the dropdown to export its vocabulary.");
                 return;
             }
-
+            const index = parseInt(val);
+            const lesson = b1Curriculum[index];
+            let tsvContent = "";
+            
+            let vocabList = lesson.vocab || [];
+            for (let i = 0; i < vocabList.length; i++) {
+                tsvContent += vocabList[i].eng + "\t" + vocabList[i].jpn + "\tB1::Lesson_" + lesson.id + "\n";
+            }
+            
+            if (lesson.homework && lesson.homework.vocab) {
+                let hwVocab = lesson.homework.vocab;
+                for (let i = 0; i < hwVocab.length; i++) {
+                    tsvContent += hwVocab[i].eng + "\t" + hwVocab[i].jpn + "\tB1::Lesson_" + lesson.id + "_Homework\n";
+                }
+            }
+            
+            if (tsvContent === "") return alert("No vocabulary available to export for this lesson.");
             const blob = new Blob([tsvContent], { type: 'text/tab-separated-values;charset=utf-8;' });
             const link = document.createElement("a");
-            link.href = URL.createObjectURL(blob);
-            link.download = `Anki_Lesson_${lesson.id}.txt`;
-            link.click();
+            link.href = URL.createObjectURL(blob); link.download = "Anki_Lesson_" + lesson.id + ".txt"; link.click();
         }
 
         function initApp() {
             if (typeof b1Curriculum === 'undefined') {
-                document.getElementById("lessonContent").innerHTML = "<p style='color:red;'>Error: curriculum.js not found or b1Curriculum is missing. Please ensure your data file is exactly named curriculum.js and is saved in the same folder.</p>";
+                document.getElementById("lessonContent").innerHTML = "<p style='color:red;'>Error: B1curriculum.js not found or b1Curriculum is missing.</p>";
+                document.getElementById("lessonContent").style.display = "block";
                 return;
             }
-
             const selectEl = document.getElementById("lessonSelect");
             
-            b1Curriculum.forEach((lesson, index) => {
-                const option = document.createElement("option");
-                option.value = index;
-                option.textContent = "B1 - " + lesson.title;
-                selectEl.appendChild(option);
-            });
+            const landingOption = document.createElement("option");
+            landingOption.value = "landing";
+            landingOption.textContent = "🏠 Course Overview";
+            selectEl.appendChild(landingOption);
 
+            for (let i = 0; i < b1Curriculum.length; i++) {
+                const option = document.createElement("option");
+                option.value = i; option.textContent = "B1 - " + b1Curriculum[i].title;
+                selectEl.appendChild(option);
+            }
+            
             loadLesson();
         }
 
-        function loadLesson() {
-            const index = parseInt(document.getElementById("lessonSelect").value);
-            renderLesson(b1Curriculum[index], index, b1Curriculum);
+        function renderPronunciation(lesson) {
+            if (!lesson.pronunciation) return "";
+            let p = lesson.pronunciation;
+            let htmlStr = '<div class="section-card" style="background-color: #faf5ff; border: 1px solid #e9d5ff; border-left: 5px solid #d946ef; padding: 20px; margin-bottom: 25px;">';
+            htmlStr += '<h3 style="margin-top: 0; color: #a21caf; border: none; padding-left: 0; margin-bottom: 12px;">🗣️ ' + p.title + '</h3>';
+            htmlStr += '<div style="display: flex; gap: 12px; align-items: flex-start;">';
+            htmlStr += '<button class="audio-btn" style="padding: 0; font-size: 1.2rem; flex-shrink: 0;" onclick="playAudio(\'' + prepareAudioText(p.eng) + '\')">🔊</button>';
+            htmlStr += '<div>';
+            htmlStr += '<p style="margin: 0 0 6px 0; font-size: 1.05rem; font-weight: 600; color: var(--text-dark);">' + p.eng + '</p>';
+            htmlStr += '<p class="jpn-text" style="margin: 0; font-size: 0.9rem; color: var(--text-light);">' + p.jpn + '</p>';
+            htmlStr += '</div></div></div>';
+            return htmlStr;
         }
 
-        function renderGrammarPoints(lesson) {
+        function renderGrammarPoints(lesson, wrapCard = true) {
             if (!lesson.grammarPoints || lesson.grammarPoints.length === 0) return "";
+            let htmlStr = '';
+            if (wrapCard) {
+                htmlStr += '<div class="section-card" style="margin-bottom: 25px;">';
+            }
+            htmlStr += '<h3>Grammar Explanations</h3>';
+            htmlStr += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Review the detailed grammar rules and examples below.</p>';
             
-            return `
-                <div class="section-card">
-                    <h3>Grammar Focus</h3>
-                    <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the grammar points, then practice making example sentences with your teacher.</p>
-                    
-                    ${lesson.grammarPoints.map(g => `
-                        <div class="grammar-details">
-                            <h4 style="margin:0 0 5px 0; color:var(--success); font-size:1.15rem;">${g.point}</h4>
-                            <p style="margin:0 0 5px 0; font-size:1.05rem;">${g.explanation}</p>
-                            <p class="jpn-text" style="margin:0 0 10px 0; font-size:0.95rem; color:var(--text-light);">${g.explanationJpn}</p>
-                            <ul class="example-list" style="margin-bottom:0;">
-                                ${g.examples.map(ex => `
-                                    <li style="padding: 8px 0; border-bottom: 1px dashed #cbd5e1; display: flex; align-items: flex-start; gap: 8px;">
-                                        <button class="audio-btn" style="padding:0; font-size:1.1rem;" onclick="playAudio('${stripHtmlTags(ex.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                        <div>
-                                            <span class="example-text" style="font-size:1.05rem;">${ex.eng}</span>
-                                            <span class="example-trans jpn-text" style="font-size:0.9rem;">${ex.jpn}</span>
-                                        </div>
-                                    </li>
-                                `).join('')}
-                            </ul>
-                        </div>
-                    `).join('')}
-                </div>
-            `;
+            let gPoints = lesson.grammarPoints || [];
+            for (let i = 0; i < gPoints.length; i++) {
+                let g = gPoints[i];
+                const boxId = `grammar-box-${lesson.id}-${i}`;
+                htmlStr += '<div class="grammar-details" id="' + boxId + '">';
+                htmlStr += '<div style="display:flex; gap:10px; align-items:flex-start;">';
+                htmlStr += '<input type="checkbox" onchange="toggleComplete(this, \'' + boxId + '\')">';
+                htmlStr += '<div style="flex-grow:1;">';
+                htmlStr += '<h4 style="margin:0 0 5px 0; color:var(--success); font-size:1.15rem;">' + g.point + '</h4>';
+                
+                if (g.examples && g.examples.length > 0) {
+                    let firstEx = g.examples[0];
+                    htmlStr += '<div style="margin-bottom: 10px; padding: 10px; background: white; border-radius: 6px; border: 1px solid var(--border); box-shadow: 0 1px 2px rgba(0,0,0,0.02);">';
+                    htmlStr += '<p style="margin: 0; font-weight: 600; color: var(--text-dark);">' + firstEx.eng + '</p>';
+                    htmlStr += '<p class="jpn-text" style="margin: 0; font-size: 0.9rem; color: var(--text-light);">' + firstEx.jpn + '</p>';
+                    htmlStr += '</div>';
+                }
+                
+                const hiddenId = `grammar-hidden-${lesson.id}-${i}`;
+                htmlStr += '<button class="action-btn" style="padding: 6px 12px; font-size: 0.9rem; margin-bottom: 10px; background: var(--primary-light);" onclick="toggleElement(\'' + hiddenId + '\')">Explain more</button>';
+                
+                htmlStr += '<div id="' + hiddenId + '" style="display: none; margin-top: 10px; border-top: 1px dashed #bbf7d0; padding-top: 15px;">';
+                htmlStr += '<p style="margin:0 0 5px 0; font-size:1.05rem;">' + g.explanation + '</p>';
+                htmlStr += '<p class="jpn-text" style="margin:0 0 15px 0; font-size:0.95rem; color:var(--text-light);">' + g.explanationJpn + '</p>';
+                htmlStr += '<ul class="example-list" style="margin-bottom:0;">';
+                
+                let examples = g.examples || [];
+                for (let j = 0; j < examples.length; j++) {
+                    let ex = examples[j];
+                    htmlStr += '<li style="padding: 8px 0; border-bottom: 1px dashed #cbd5e1; display: flex; align-items: flex-start; gap: 8px;">';
+                    htmlStr += '<button class="audio-btn" style="padding:0; font-size:1.1rem;" onclick="playAudio(\'' + prepareAudioText(ex.eng) + '\')">🔊</button>';
+                    htmlStr += '<div><span class="example-text" style="font-size:1.05rem;">' + ex.eng + '</span><span class="example-trans jpn-text" style="font-size:0.9rem;">' + ex.jpn + '</span></div></li>';
+                }
+                htmlStr += '</ul></div></div></div></div>';
+            }
+            
+            if (wrapCard) {
+                htmlStr += '</div>';
+            }
+            return htmlStr;
+        }
+
+        function loadLesson() {
+            try {
+                if (currentMp3Audio) {
+                    currentMp3Audio.pause();
+                    currentMp3Audio = null;
+                }
+                
+                const val = document.getElementById("lessonSelect").value;
+                const landingPage = document.getElementById("landingPage");
+                const lessonContent = document.getElementById("lessonContent");
+                const heroTitle = document.querySelector(".hero-title");
+                const heroSubtitle = document.querySelector(".hero-subtitle");
+                const heroEl = document.getElementById("main-hero");
+                const splashBanner = document.getElementById("splash-banner");
+
+                if (val === "landing") {
+                    landingPage.style.display = "block";
+                    lessonContent.style.display = "none";
+                    if (splashBanner) splashBanner.style.display = "flex";
+                    if (heroEl) heroEl.style.display = "none";
+                    heroTitle.innerText = "B1 IT ENGLISH";
+                    heroSubtitle.innerText = "Practical Speaking for Japan's IT Industry";
+                    if (heroEl) heroEl.style.backgroundImage = "none";
+                    return;
+                }
+
+                landingPage.style.display = "none";
+                lessonContent.style.display = "block";
+                if (splashBanner) splashBanner.style.display = "none";
+                if (heroEl) heroEl.style.display = "flex";
+
+                const index = parseInt(val);
+                const lesson = b1Curriculum[index];
+                
+                if (heroEl) {
+                    heroEl.style.backgroundImage = "url('header-" + lesson.id + ".jpg')";
+                }
+                
+                renderLesson(lesson, index, b1Curriculum);
+                updateProgress();
+            } catch (error) {
+                document.getElementById("lessonContent").innerHTML = "<p style='color: red; padding: 20px;'><strong>Error rendering lesson:</strong> " + error.message + "<br>Please check your B1curriculum.js for typos or missing arrays.</p>";
+                document.getElementById("lessonContent").style.display = "block";
+                console.error(error);
+            }
         }
 
         function renderLesson(lesson, lessonIndex, currArray) {
             const container = document.getElementById("lessonContent");
             
-            let html = `<div class="chapter-label">${lesson.chapter}</div>
-                        <h2>${lesson.title}</h2>
-                        <div class="goal-overview">
-                            <p><strong>Goal (目標):</strong> ${lesson.goal}</p>
-                        </div>`;
+            let specificAdvice = "";
+            let specificAdviceJpn = "";
+            
+            if (lesson.type === "transactional") {
+                specificAdvice = "Think about how you could apply this roleplay situation to your own life by adding extra personal details!";
+                specificAdviceJpn = "個人的な詳細を加えて、このロールプレイの状況を自分の生活にどのように応用できるか考えてみましょう！";
+            } else if (lesson.type === "opinion") {
+                specificAdvice = "Try to brainstorm a few interesting questions you can ask your classmates or teacher during the discussion!";
+                specificAdviceJpn = "ディスカッション中にクラスメイトや先生に聞ける面白い質問をいくつか考えてみましょう！";
+            } else if (lesson.type === "casestudy") {
+                specificAdvice = "Read through the information first to get a good grasp of the problem. If you can, try to think of or research similar real-world precedents!";
+                specificAdviceJpn = "まず情報を最後まで読んで、問題をしっかりと把握しましょう。可能であれば、似たような現実世界の事例を考えたり調べたりしてみてください！";
+            } else if (lesson.type === "speakingtest" || lesson.type === "speech") {
+                specificAdvice = "Look back at the grammar, vocabulary, and expressions you've studied in previous lessons and see which ones you can weave into your speech!";
+                specificAdviceJpn = "これまでのレッスンで学んだ文法、語彙、表現を振り返り、スピーチに組み込めるものがないか確認してみましょう！";
+            }
+
+            let html = '<div class="prep-advice-card" style="background: #f0f9ff; border-left: 5px solid #38bdf8; padding: 20px; border-radius: 8px; margin-bottom: 25px; border: 1px solid #bae6fd; box-shadow: 0 4px 6px rgba(0,0,0,0.02);">';
+            html += '<h4 style="margin-top: 0; color: #0284c7; font-size: 1.15rem; margin-bottom: 10px; display: flex; align-items: center; gap: 8px;">💡 How to prepare for this lesson <span class="jpn-text" style="font-size: 0.95rem; font-weight: normal; color: #0369a1;">(このレッスンの準備方法)</span></h4>';
+            
+            html += '<p style="margin: 0 0 10px 0; font-size: 1rem; color: var(--text-dark);">To prepare for your lesson, we highly recommend the <strong onclick="toggleElement(\'flipped-expl-' + lesson.id + '\')" style="color: var(--primary); cursor: pointer; text-decoration: underline; text-underline-offset: 3px;">flipped learning approach</strong>! Before the lesson begins, we recommend that you:</p>';
+            html += '<ol style="margin: 0 0 10px 0; padding-left: 20px; font-size: 1rem; color: var(--text-dark);">';
+            html += '<li>Read the content of the lesson using the Japanese translation.</li>';
+            html += '<li>Complete the homework tasks.</li>';
+            html += '</ol>';
+            html += '<p style="margin: 0 0 10px 0; font-size: 1rem; color: var(--text-dark);">By doing this, you\'ll be able to speak much more during class and build stronger, longer-lasting memories.</p>';
+
+            html += '<div class="jpn-text" style="margin: 0 0 15px 0; font-size: 0.9rem; color: var(--text-light); border-top: 1px dashed #bae6fd; padding-top: 10px;">';
+            html += '<p style="margin: 0 0 5px 0;">レッスンに備えて、<strong onclick="toggleElement(\'flipped-expl-' + lesson.id + '\')" style="color: var(--primary); cursor: pointer; text-decoration: underline; text-underline-offset: 3px;">反転授業（フリップト・ラーニング）</strong>のアプローチを強くお勧めします！レッスンが始まる前に、以下のことを行うことをお勧めします：</p>';
+            html += '<ol style="margin: 0 0 5px 0; padding-left: 20px;">';
+            html += '<li>日本語訳を使ってレッスンの内容を読む。</li>';
+            html += '<li>宿題のタスクを完了する。</li>';
+            html += '</ol>';
+            html += '<p style="margin: 0;">これにより、クラス中でより多く発言でき、より強固で長期的な記憶を築くことができます。</p>';
+            html += '</div>';
+
+            html += '<div id="flipped-expl-' + lesson.id + '" style="display: none; background: #ffffff; border: 2px solid #7dd3fc; border-radius: 8px; padding: 15px; margin: 15px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">';
+            html += '<p style="margin: 0 0 10px 0; font-weight: bold; color: #0284c7; font-size: 1.05rem;">👨‍💻 エンジニア向け解説：なぜ反転授業（フリップト・ラーニング）なのか？</p>';
+            html += '<p class="jpn-text" style="margin: 0 0 10px 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">お疲れ様です！フリップト・ラーニングって聞いたことありますか？これ、開発現場にいる人なら絶対しっくりくると思うんですけど、要するに<strong>「APIドキュメントや仕様書は非同期で事前に読んでおいて、同期ミーティング（授業）の時間はハンズオンの実装とディスカッションに全振りしようぜ」</strong>っていうアプローチなんんですよね。</p>';
+            html += '<p class="jpn-text" style="margin: 0 0 10px 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">従来の学校の授業だと「教室でインプット（講義）して、家でアウトプット（宿題）」だったのを「反転」させて、<strong>「家でインプット（事前の仕込み）して、教室でアウトプット（スピーキング）」</strong>にする仕組みです。</p>';
+            html += '<p class="jpn-text" style="margin: 0; font-size: 0.95rem; line-height: 1.6; color: var(--text-dark);">語学、特にスピーキング力を爆速で上げるにはこれがマジで効きます。せっかくの講師との貴重なセッション時間を、一人でもできる単語や文法のインプットに使うのってコスパ悪いじゃないですか。事前に知識を頭に入れておけば、レッスン中はひたすら<strong>「口を動かしてエラー（言い間違い）を出して、その場でデバッグ（修正）する」</strong>っていうアジャイルな実践サイクルに集中できるんです。事前の仕込みをバッチリやって、本番でガンガンアウトプットしていきましょう！</p>';
+            html += '</div>';
+
+            if (specificAdvice !== "") {
+                html += '<div style="background: #e0f2fe; padding: 12px; border-radius: 6px;">';
+                html += '<p style="margin: 0; font-size: 0.95rem; color: #0369a1; font-weight: 600;">✨ Pro Tip: ' + specificAdvice + '</p>';
+                html += '<p class="jpn-text" style="margin: 5px 0 0 0; font-size: 0.85rem; color: #0284c7;">' + specificAdviceJpn + '</p>';
+                html += '</div>';
+            }
+            html += '</div>';
+
+            html += '<div class="chapter-label">' + lesson.chapter + '</div>';
+            html += '<h2>' + lesson.title + '</h2>';
+            html += '<div class="goal-overview"><p><strong>Goal (目標):</strong> ' + lesson.goal + '</p></div>';
 
             let reviewVocab = [];
-            if (lesson.reviewVocab) {
-                reviewVocab = lesson.reviewVocab;
-            } else if (lessonIndex > 0) {
-                const prevLesson = currArray[lessonIndex - 1];
-                if (prevLesson.vocab) {
-                    reviewVocab = [...prevLesson.vocab];
-                }
-                if (prevLesson.homework && prevLesson.homework.vocab) {
-                    reviewVocab = [...reviewVocab, ...prevLesson.homework.vocab];
+            if (lesson.reviewVocab) reviewVocab = lesson.reviewVocab;
+            else if (lessonIndex > 0) {
+                const prev = currArray[lessonIndex - 1];
+                if (prev && prev.vocab) reviewVocab = prev.vocab.slice();
+                if (prev && prev.homework && prev.homework.vocab) {
+                    reviewVocab = reviewVocab.concat(prev.homework.vocab);
                 }
             }
 
             if (reviewVocab.length > 0) {
-                html += `<div class="section-card">
-                            <h3>Vocabulary Review (ボキャブラリー復習)</h3>
-                            <p class="jpn-text" style="color:var(--text-light); margin-top:0;">Review the words from the previous lesson. Click the card to see the English word.</p>
-                            <div class="vocab-grid">
-                                ${reviewVocab.map(wordObj => `
-                                    <div class="flashcard" onclick="flipCard(this)">
-                                        <span class="jpn-side jpn-text">${wordObj.jpn}</span>
-                                        <div class="eng-side">
-                                            <span>${wordObj.eng}</span>
-                                            <button class="audio-btn" style="padding:2px;" onclick="event.stopPropagation(); playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                        </div>
-                                    </div>
-                                `).join('')}
-                            </div>
-                         </div>`;
+                html += '<div class="section-card">';
+                html += '<h3>Vocabulary Review (ボキャブラリー復習)</h3>';
+                html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0;">Review the words from the previous lesson.</p>';
+                html += '<div class="vocab-grid">';
+                for (let i = 0; i < reviewVocab.length; i++) {
+                    let wordObj = reviewVocab[i];
+                    const hint = wordObj.eng.charAt(0).toLowerCase();
+                    html += '<div class="flashcard" onclick="flipCard(this)">';
+                    html += '<span class="jpn-side jpn-text">' + wordObj.jpn + ' <span style="font-weight: normal; color: var(--text-light); margin-left: 6px;">(' + hint + ')</span></span>';
+                    html += '<div class="eng-side"><span>' + wordObj.eng + '</span>';
+                    html += '<button class="audio-btn" style="padding:2px;" onclick="event.stopPropagation(); playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button>';
+                    html += '</div></div>';
+                }
+                html += '</div></div>';
             }
 
             if (lesson.type === "speakingtest") {
-                html += `
-                <div class="section-card">
-                    <h3>Target Vocabulary</h3>
-                    <p class="jpn-text" style="color:var(--text-light); margin-top:0;">Listen to the words and try to make a sentence for each.</p>
-                    <div class="vocab-grid">
-                        ${lesson.vocab.map(wordObj => `
-                            <div class="vocab-item">
-                                <div class="vocab-text">
-                                    <span class="vocab-eng">${wordObj.eng}</span>
-                                    <span class="vocab-jpn jpn-text">${wordObj.jpn}</span>
-                                </div>
-                                <button class="audio-btn" onclick="playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
+                html += '<div class="section-card"><h3>Target Vocabulary</h3>';
+                let vList = lesson.vocab || [];
+                let collocations = vList.slice(0, 8);
+                let informal = vList.slice(8, 12);
 
-                <div class="section-card">
-                    <div class="speakingtest-2col">
-                        <div class="speech-prompt-card">
-                            <h3 style="margin-top:0; border:none; color:#ca8a04;">Speech Prompt</h3>
-                            <p style="font-weight:bold; font-size:1.1rem;">${lesson.prompt.main}</p>
-                            <ul style="font-size:1.05rem;">
-                                ${lesson.prompt.bulletPoints.map(bp => `<li style="margin-bottom:8px;">${bp}</li>`).join('')}
-                            </ul>
-                        </div>
-                        <div class="example-speech-card">
-                            <h3 style="margin-top:0; border:none;">Example Speech (PREP)
-                                <button class="audio-btn" style="font-size:1rem; padding:2px; float:right;" onclick="playAudio('${prepareAudioText(lesson.exampleSpeech.eng)}')">🔊</button>
-                            </h3>
-                            <p class="example-speech-text">${lesson.exampleSpeech.eng}</p>
-                            <div class="jpn-text" style="margin-top:15px; padding-top:15px; border-top:1px dashed var(--border);">
-                                <p style="font-size:0.9rem; color:var(--text-light); white-space:pre-wrap; margin:0;">${lesson.exampleSpeech.jpn}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                `;
-
-                if (lesson.homework) {
-                    html += `
-                    <div class="section-card" style="background-color: #f8fafc; border: 2px dashed var(--primary-light);">
-                        <h3>Homework (宿題)</h3>
-
-                        <h4>Task 1: Vocabulary Building [ボキャブラリー構築]</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Listen to the words and try to make a sentence for each.</p>
-                        <div class="vocab-grid">
-                            ${lesson.homework.vocab.map(wordObj => `
-                                <div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">
-                                    <div style="display: flex; justify-content: space-between; width: 100%;">
-                                        <div class="vocab-text">
-                                            <span class="vocab-eng">${wordObj.eng}</span>
-                                            <span class="vocab-jpn jpn-text">${wordObj.jpn}</span>
-                                        </div>
-                                        <button class="audio-btn" onclick="playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                    </div>
-                                    ${wordObj.exEng ? `
-                                    <div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">
-                                        <span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ${wordObj.exEng}</span>
-                                        <span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：${wordObj.exJpn}</span>
-                                    </div>` : ''}
-                                </div>
-                            `).join('')}
-                        </div>
-
-                        <h4>Task 2: Reading (Dialogue)</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the extended conversation.</p>
-                        <div class="dialogue-box" style="background: white;">
-                            ${lesson.homework.expandedDialogue.map(line => `
-                                <div class="dialogue-line">
-                                    <span class="dialogue-speaker">${line.speaker}:</span> 
-                                    <span>${line.eng}</span>
-                                    <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio('${stripHtmlTags(line.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                    <span class="dialogue-trans jpn-text">${line.jpn}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-
-                        <h4>Task 3: Writing Task</h4>
-                        <div class="homework-box" style="border-left-color: var(--accent); background: white;">
-                            <p><strong>Prompt:</strong> ${lesson.homework.writingTask.promptEng}</p>
-                            <p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); margin-bottom: 0;">${lesson.homework.writingTask.promptJpn}</p>
-                        </div>
-
-                        ${lesson.homework.extendedReading ? `
-                        <h4>${lesson.homework.extendedReading.title}</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">${lesson.homework.extendedReading.instruction || "Read the article to learn more about the topic."}</p>
-                        <div class="homework-box" style="background: white;">
-                            <button class="audio-btn" style="float: right;" onclick="playAudio('${prepareAudioText(lesson.homework.extendedReading.eng)}')">🔊</button>
-                            <p style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap;">${lesson.homework.extendedReading.eng}</p>
-                            <p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">${lesson.homework.extendedReading.jpn}</p>
-                        </div>` : ''}
-                    </div>`;
+                if (collocations.length > 0) {
+                    html += '<h4 style="margin-top: 15px; color: var(--text-dark);">Collocations</h4><div class="vocab-grid">';
+                    for (let i = 0; i < collocations.length; i++) {
+                        let wordObj = collocations[i];
+                        html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
+                        html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
+                        html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
+                        html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
+                        if (wordObj.exEng) {
+                            html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
+                            html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
+                            html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
+                        }
+                        html += '</div>';
+                    }
+                    html += '</div>';
                 }
 
-                container.innerHTML = html;
-                return;
-            }
+                if (informal.length > 0) {
+                    html += '<h4 style="margin-top: 25px; color: var(--text-dark);">Informal</h4><div class="vocab-grid">';
+                    for (let i = 0; i < informal.length; i++) {
+                        let wordObj = informal[i];
+                        html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
+                        html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
+                        html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
+                        html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
+                        if (wordObj.exEng) {
+                            html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
+                            html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
+                            html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
+                        }
+                        html += '</div>';
+                    }
+                    html += '</div>';
+                }
+                html += '</div>';
+                
+                if (lesson.topicIntroduction) {
+                    html += renderTopicIntroduction(lesson);
+                }
+                
+                html += renderPronunciation(lesson);
 
-            if (lesson.type === "casestudy") {
-                html += `
-                ${lesson.vocab ? `
-                <div class="section-card">
-                    <h3>Target Vocabulary</h3>
-                    <div class="vocab-grid">
-                        ${lesson.vocab.map(wordObj => `
-                            <div class="vocab-item">
-                                <div class="vocab-text">
-                                    <span class="vocab-eng">${wordObj.eng}</span>
-                                    <span class="vocab-jpn jpn-text">${wordObj.jpn}</span>
-                                </div>
-                                <button class="audio-btn" onclick="playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>` : ''}
+                html += '<div class="section-card"><div class="speakingtest-2col">';
+                html += '<div class="speech-prompt-card"><h3 style="margin-top:0; border:none; color:#ca8a04;">Speech Prompt</h3>';
+                html += '<p style="font-weight:bold; font-size:1.1rem;">' + lesson.prompt.main + '</p><ul style="font-size:1.05rem;">';
+                let bPoints = lesson.prompt.bulletPoints || [];
+                for (let i = 0; i < bPoints.length; i++) { html += '<li style="margin-bottom:8px;">' + bPoints[i] + '</li>'; }
+                html += '</ul></div>';
+                
+                html += '<div class="example-speech-card"><h3 style="margin-top:0; border:none;">Example Speech (PREP)';
+                html += '<button class="audio-btn" style="font-size:1rem; padding:2px; float:right;" onclick="playAudio(\'' + prepareAudioText(lesson.exampleSpeech.eng) + '\')">🔊</button></h3>';
+                html += '<p class="example-speech-text">' + lesson.exampleSpeech.eng + '</p>';
+                html += '<div class="jpn-text" style="margin-top:15px; padding-top:15px; border-top:1px dashed var(--border);">';
+                html += '<p style="font-size:0.9rem; color:var(--text-light); white-space:pre-wrap; margin:0;">' + lesson.exampleSpeech.jpn + '</p></div></div></div></div>';
 
-                <div class="section-card">
-                    <h3>Situation (状況)</h3>
-                    <p style="font-size:1.1rem; color:var(--text-dark); font-weight:500;">
-                        ${lesson.situation.eng}
-                        <button class="audio-btn" style="font-size:1rem; padding:2px;" onclick="playAudio('${prepareAudioText(lesson.situation.eng)}')">🔊</button>
-                    </p>
-                    <p class="jpn-text" style="font-size:0.95rem; color:var(--text-light); border-top:1px dashed var(--border); padding-top:12px; margin-top:12px;">${lesson.situation.jpn}</p>
-                </div>
+            } else if (lesson.type === "casestudy") {
+                if (lesson.vocab) {
+                    html += '<div class="section-card"><h3>Target Vocabulary</h3>';
+                    let vList = lesson.vocab || [];
+                    let collocations = vList.slice(0, 8);
+                    let informal = vList.slice(8, 12);
 
-                <div class="casestudy-people">
-                    ${lesson.people.map(p => `
-                        <div class="person-card">
-                            <h4>${p.name}</h4>
-                            <p style="font-size:1.05rem; font-weight:500;">
-                                ${p.eng}
-                                <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio('${prepareAudioText(p.eng)}')">🔊</button>
-                            </p>
-                            <p class="jpn-text" style="font-size:0.9rem; color:var(--text-light); margin-bottom:0;">${p.jpn}</p>
-                        </div>
-                    `).join('')}
-                </div>
+                    if (collocations.length > 0) {
+                        html += '<h4 style="margin-top: 15px; color: var(--text-dark);">Collocations</h4><div class="vocab-grid">';
+                        for (let i = 0; i < collocations.length; i++) {
+                            let wordObj = collocations[i];
+                            html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
+                            html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
+                            html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
+                            html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
+                            if (wordObj.exEng) {
+                                html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
+                                html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
+                                html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
+                            }
+                            html += '</div>';
+                        }
+                        html += '</div>';
+                    }
 
-                ${renderGrammarPoints(lesson)}
+                    if (informal.length > 0) {
+                        html += '<h4 style="margin-top: 25px; color: var(--text-dark);">Informal</h4><div class="vocab-grid">';
+                        for (let i = 0; i < informal.length; i++) {
+                            let wordObj = informal[i];
+                            html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
+                            html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
+                            html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
+                            html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
+                            if (wordObj.exEng) {
+                                html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
+                                html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
+                                html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
+                            }
+                            html += '</div>';
+                        }
+                        html += '</div>';
+                    }
+                    html += '</div>';
+                }
+                
+                if (lesson.topicIntroduction) {
+                    html += renderTopicIntroduction(lesson);
+                }
+                
+                html += renderPronunciation(lesson);
 
-                <div class="section-card" style="background:#eff6ff; border-color:var(--primary-light);">
-                    <div class="casestudy-2col">
-                        <div>
-                            <h3>Discussion Points (ディスカッションポイント)</h3>
-                            <ul style="font-size:1.05rem; font-weight:600; color:var(--text-dark); padding-left: 25px;">
-                                ${lesson.discussionPoints.map(dp => `
-                                    <li style="margin-bottom:12px;">
-                                        ${dp.eng}
-                                        <div class="jpn-text" style="font-size:0.85rem; color:var(--text-light); font-weight:normal; margin-top:4px;">${dp.jpn}</div>
-                                    </li>
-                                `).join('')}
-                            </ul>
-                        </div>
-                        <div>
-                            <h3>Transitional Expressions</h3>
-                            <ul style="padding-left: 20px; margin: 0; font-size:1.05rem;">
-                                ${lesson.expressions ? lesson.expressions.map(exp => `
-                                    <li style="margin-bottom: 8px;"><strong>${exp.eng}</strong><br><span class="jpn-text" style="font-size:0.85rem; color:var(--text-light);">${exp.jpn}</span></li>
-                                `).join('') : ''}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                html += '<div class="section-card"><h3>Situation (状況)</h3>';
+                html += '<p style="font-size:1.1rem; color:var(--text-dark); font-weight:500;">' + lesson.situation.eng;
+                html += ' <button class="audio-btn" style="font-size:1rem; padding:2px;" onclick="playAudio(\'' + prepareAudioText(lesson.situation.eng) + '\')">🔊</button></p>';
+                html += '<p class="jpn-text" style="font-size:0.95rem; color:var(--text-light); border-top:1px dashed var(--border); padding-top:12px; margin-top:12px;">' + lesson.situation.jpn + '</p></div>';
+                
+                html += '<div class="casestudy-people">';
+                let ppl = lesson.people || [];
+                for (let i = 0; i < ppl.length; i++) {
+                    let p = ppl[i];
+                    html += '<div class="person-card"><h4>' + p.name + '</h4>';
+                    html += '<p style="font-size:1.05rem; font-weight:500;">' + p.eng;
+                    html += ' <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio(\'' + prepareAudioText(p.eng) + '\')">🔊</button></p>';
+                    html += '<p class="jpn-text" style="font-size:0.9rem; color:var(--text-light); margin-bottom:0;">' + p.jpn + '</p></div>';
+                }
+                html += '</div>';
 
-                <div class="section-card">
-                    <h3>Role-Play Prompt (ロールプレイ)</h3>
-                    <div class="roleplay-box">
-                        <p>${lesson.roleplay}</p>
-                    </div>
-                </div>
-                `;
-
-                if (lesson.homework) {
-                    html += `
-                    <div class="section-card" style="background-color: #f8fafc; border: 2px dashed var(--primary-light);">
-                        <h3>Homework (宿題)</h3>
-
-                        <h4>Task 1: Vocabulary Building [ボキャブラリー構築]</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Listen to the words and try to make a sentence for each.</p>
-                        <div class="vocab-grid">
-                            ${lesson.homework.vocab.map(wordObj => `
-                                <div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">
-                                    <div style="display: flex; justify-content: space-between; width: 100%;">
-                                        <div class="vocab-text">
-                                            <span class="vocab-eng">${wordObj.eng}</span>
-                                            <span class="vocab-jpn jpn-text">${wordObj.jpn}</span>
-                                        </div>
-                                        <button class="audio-btn" onclick="playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                    </div>
-                                    ${wordObj.exEng ? `
-                                    <div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">
-                                        <span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ${wordObj.exEng}</span>
-                                        <span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：${wordObj.exJpn}</span>
-                                    </div>` : ''}
-                                </div>
-                            `).join('')}
-                        </div>
-
-                        <h4>Task 2: Reading (Dialogue)</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the extended conversation.</p>
-                        <div class="dialogue-box" style="background: white;">
-                            ${lesson.homework.expandedDialogue.map(line => `
-                                <div class="dialogue-line">
-                                    <span class="dialogue-speaker">${line.speaker}:</span> 
-                                    <span>${line.eng}</span>
-                                    <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio('${stripHtmlTags(line.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                    <span class="dialogue-trans jpn-text">${line.jpn}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-
-                        <h4>Task 3: Writing Task</h4>
-                        <div class="homework-box" style="border-left-color: var(--accent); background: white;">
-                            <p><strong>Prompt:</strong> ${lesson.homework.writingTask.promptEng}</p>
-                            <p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); margin-bottom: 0;">${lesson.homework.writingTask.promptJpn}</p>
-                        </div>
-
-                        ${lesson.homework.extendedReading ? `
-                        <h4>${lesson.homework.extendedReading.title}</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">${lesson.homework.extendedReading.instruction || "Read the article to learn more about the topic."}</p>
-                        <div class="homework-box" style="background: white;">
-                            <button class="audio-btn" style="float: right;" onclick="playAudio('${prepareAudioText(lesson.homework.extendedReading.eng)}')">🔊</button>
-                            <p style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap;">${lesson.homework.extendedReading.eng}</p>
-                            <p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">${lesson.homework.extendedReading.jpn}</p>
-                        </div>` : ''}
-                    </div>`;
+                if (lesson.grammarPoints && lesson.grammarPoints.length > 0) {
+                    html += renderGrammarPoints(lesson);
                 }
 
-                container.innerHTML = html;
-                return;
-            }
+                html += '<div class="section-card" style="background:#eff6ff; border-color:var(--primary-light);"><div class="casestudy-2col"><div>';
+                html += '<h3>Discussion Points</h3><ul style="font-size:1.05rem; font-weight:600; color:var(--text-dark); padding-left: 25px;">';
+                let dPoints = lesson.discussionPoints || [];
+                for (let i = 0; i < dPoints.length; i++) {
+                    let dp = dPoints[i];
+                    html += '<li style="margin-bottom:12px;">' + dp.eng + '<div class="jpn-text" style="font-size:0.85rem; color:var(--text-light); font-weight:normal; margin-top:4px;">' + dp.jpn + '</div></li>';
+                }
+                html += '</ul></div><div><h3>Transitional Expressions</h3><ul style="padding-left: 20px; margin: 0; font-size:1.05rem;">';
+                let expList = lesson.expressions || [];
+                for (let i = 0; i < expList.length; i++) {
+                    let exp = expList[i];
+                    html += '<li style="margin-bottom: 8px;"><strong>' + exp.eng + '</strong><br><span class="jpn-text" style="font-size:0.85rem; color:var(--text-light);">' + exp.jpn + '</span></li>';
+                }
+                html += '</ul></div></div></div>';
+                
+                html += '<div class="section-card"><h3>Role-Play Prompt (ロールプレイ)</h3><div class="roleplay-box"><p>' + lesson.roleplay + '</p></div></div>';
 
-            if (lesson.type === "opinion") {
-                html += `
-                <div class="section-card">
-                    <h3>Target Vocabulary</h3>
-                    <p class="jpn-text" style="color:var(--text-light); margin-top:0;">Listen to the words and try to make a sentence for each.</p>
-                    <div class="vocab-grid">
-                        ${lesson.vocab.map(wordObj => `
-                            <div class="vocab-item">
-                                <div class="vocab-text">
-                                    <span class="vocab-eng">${wordObj.eng}</span>
-                                    <span class="vocab-jpn jpn-text">${wordObj.jpn}</span>
-                                </div>
-                                <button class="audio-btn" onclick="playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>`;
+            } else {
+                html += '<div class="section-card"><h3>Target Vocabulary</h3>';
+                let vList = lesson.vocab || [];
+                let collocations = vList.slice(0, 8);
+                let informal = vList.slice(8, 12);
 
-                html += `
-                <div class="opinion-layout">
-                    <div class="opinion-column">
-                        <h3>Discussion Questions</h3>
-                        <ul class="question-list">
-                            ${lesson.questions.map(q => `
-                                <li>
-                                    ${q.eng}
-                                    <div class="jpn-text" style="font-size:0.85rem; color:var(--text-light); margin-top:4px;">${q.jpn}</div>
-                                </li>
-                            `).join('')}
-                        </ul>
-                    </div>
+                if (collocations.length > 0) {
+                    html += '<h4 style="margin-top: 15px; color: var(--text-dark);">Collocations</h4><div class="vocab-grid">';
+                    for (let i = 0; i < collocations.length; i++) {
+                        let wordObj = collocations[i];
+                        html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
+                        html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
+                        html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
+                        html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
+                        if (wordObj.exEng) {
+                            html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
+                            html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
+                            html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
+                        }
+                        html += '</div>';
+                    }
+                    html += '</div>';
+                }
 
-                    <div class="opinion-column">
-                        <h3>Grammar & Expressions</h3>
-                        ${lesson.grammarPoints.map(g => `
-                            <div class="grammar-box">
-                                <h4 style="margin:0 0 5px 0; color:var(--success);">${g.point}</h4>
-                                <p style="margin:0 0 5px 0; font-size:0.95rem;">${g.explanation}</p>
-                                <p class="jpn-text" style="margin:0 0 10px 0; font-size:0.85rem; color:var(--text-light);">${g.explanationJpn}</p>
-                                <ul class="example-list" style="margin-bottom:0;">
-                                    ${g.examples.map(ex => `
-                                        <li style="padding: 6px 0; border-bottom: 1px dashed #cbd5e1; display: flex; align-items: flex-start; gap: 8px;">
-                                            <button class="audio-btn" style="padding:0; font-size:1rem;" onclick="playAudio('${stripHtmlTags(ex.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                            <div>
-                                                <span class="example-text" style="font-size:0.95rem;">${ex.eng}</span>
-                                                <span class="example-trans jpn-text" style="font-size:0.85rem;">${ex.jpn}</span>
-                                            </div>
-                                        </li>
-                                    `).join('')}
-                                </ul>
-                            </div>
-                        `).join('')}
+                if (informal.length > 0) {
+                    html += '<h4 style="margin-top: 25px; color: var(--text-dark);">Informal</h4><div class="vocab-grid">';
+                    for (let i = 0; i < informal.length; i++) {
+                        let wordObj = informal[i];
+                        html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
+                        html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
+                        html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
+                        html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
+                        if (wordObj.exEng) {
+                            html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
+                            html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
+                            html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
+                        }
+                        html += '</div>';
+                    }
+                    html += '</div>';
+                }
+                html += '</div>';
+                
+                if (lesson.topicIntroduction) {
+                    html += renderTopicIntroduction(lesson);
+                }
+                
+                html += renderPronunciation(lesson);
+
+                html += '<div id="progress-wrapper" style="margin-bottom: 25px; background: var(--card-bg); padding: 15px 20px; border-radius: 12px; border: 1px solid var(--border); box-shadow: 0 10px 25px rgba(0,0,0,0.05);">';
+                html += '<div style="display: flex; justify-content: space-between; font-weight: bold; margin-bottom: 10px;">';
+                html += '<span style="color: var(--primary);">Lesson Progress</span>';
+                html += '<span id="score-display" style="color: var(--text-dark);">0 / 10</span>';
+                html += '</div>';
+                html += '<div id="progress-container" style="width: 100%; height: 20px; background: var(--border); border-radius: 10px; position: relative;">';
+                html += '<div id="progress-bar" style="width: 0%; height: 100%; background: var(--accent); border-radius: 10px; transition: width 0.3s ease-in-out;"></div>';
+                html += '</div>';
+                html += '<button class="action-btn" onclick="restoreCheckboxes()" style="margin-top: 15px; width: 100%; background: var(--text-light);">Restore Checkboxes</button>';
+                html += '</div>';
+
+                if (lesson.type === "opinion") {
+                    html += '<div class="layout-3col">';
+                    
+                    // Column 1: Questions
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0;">';
+                    html += '<h3>10 Discussion Questions</h3>';
+                    html += '<ul class="question-list" style="padding-left: 0; list-style: none;">';
+                    let qs = lesson.questions || [];
+                    for (let i = 0; i < qs.length; i++) {
+                        let q = qs[i];
+                        const qId = `question-box-${i}`;
+                        html += '<li id="' + qId + '" style="display: flex; gap: 10px; align-items: flex-start;">';
+                        html += '<input type="checkbox" onchange="toggleComplete(this, \'' + qId + '\')">';
+                        html += '<div style="width: 100%;">' + q.eng + '<div class="jpn-text" style="font-size:0.85rem; color:var(--text-light); margin-top:4px;">' + q.jpn + '</div></div></li>';
+                    }
+                    html += '</ul></div>';
+
+                    // Column 2: Transitional Expressions & Grammar
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; display: flex; flex-direction: column;">';
+                    html += '<h3>Transitional Expressions</h3>';
+                    html += '<div class="expression-box" style="margin-top: 15px; background: #f8fafc; border-color: var(--border);">';
+                    html += '<ul style="padding-left: 0; list-style: none; margin: 0;">';
+                    let opExp = lesson.expressions || [];
+                    for (let i = 0; i < opExp.length; i++) {
+                        let exp = opExp[i];
+                        const expId = `expression-box-${i}`;
+                        html += '<li id="' + expId + '" style="margin-bottom: 12px; font-size: 1.05rem; display: flex; gap: 10px; align-items: flex-start;">';
+                        html += '<input type="checkbox" onchange="toggleComplete(this, \'' + expId + '\')">';
+                        html += '<div style="width: 100%;">';
+                        html += '<strong>' + exp.eng + '</strong><br><span class="jpn-text" style="font-size:0.85rem; color:var(--text-light);">' + exp.jpn + '</span>';
+                        if (exp.exampleEng) {
+                            html += '<div style="margin-top: 6px;">';
+                            html += '<button onclick="toggleElement(\'expr-ex-' + lesson.id + '-' + i + '\')" class="action-btn" style="padding: 4px 10px; font-size: 0.85rem; margin-top: 2px; background: var(--primary-light);">View example</button>';
+                            html += '<div id="expr-ex-' + lesson.id + '-' + i + '" style="display: none; margin-top: 10px; padding: 12px; background: white; border-radius: 6px; border: 1px dashed var(--border);">';
+                            html += '<p style="margin: 0 0 5px 0; font-size: 0.95rem;">' + exp.exampleEng + '</p>';
+                            html += '<p class="jpn-text" style="margin: 0; font-size: 0.85rem; color: var(--text-light);">' + exp.exampleJpn + '</p></div></div>';
+                        }
+                        html += '</div></li>';
+                    }
+                    html += '</ul></div>';
+                    
+                    html += renderGrammarPoints(lesson, false);
+                    html += '</div>';
+                    
+                    // Column 3: Discussion Topics
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; background: #faf5ff; border: 1px solid #e9d5ff; display: flex; flex-direction: column;">';
+                    html += '<h3 style="color: #9333ea; border-left-color: #a855f7;">Discussion Topics</h3>';
+                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Use these themes and sub-themes to ask questions and discuss.</p>';
+                    
+                    const topics = lesson.discussionTopics || (typeof discussionTopicsData !== 'undefined' ? discussionTopicsData[lesson.id] : null);
+                    if (topics) {
+                        html += '<div style="display: flex; flex-direction: column; gap: 15px; margin-top: 15px;">';
+                        topics.forEach((t, tIdx) => {
+                            html += '<div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid var(--border); box-shadow: 0 2px 4px rgba(0,0,0,0.02);">';
+                            html += '<div style="font-weight: bold; color: var(--text-dark); font-size: 1.05rem;">' + t.theme + '</div>';
+                            html += '<div class="jpn-text" style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 10px;">' + t.themeJpn + '</div>';
+                            html += '<ul style="margin: 0; padding-left: 0; list-style: none; font-size: 0.95rem; color: var(--text-dark);">';
+                            t.sub.forEach((s, sIdx) => {
+                                const topicId = `topic-item-${lesson.id}-${tIdx}-${sIdx}`;
+                                html += '<li id="' + topicId + '" style="margin-bottom: 8px; display: flex; gap: 8px; align-items: flex-start;">';
+                                html += '<input type="checkbox" onchange="toggleComplete(this, \'' + topicId + '\')">';
+                                html += '<div>' + s.eng + '<span class="jpn-text" style="font-size:0.85rem; color:var(--text-light); display:block; margin-top:2px;">' + s.jpn + '</span></div></li>';
+                            });
+                            html += '</ul></div>';
+                        });
+                        html += '</div>';
+                    }
+                    html += '</div>';
+
+                    html += '</div>'; // End layout-3col
+
+                } else if (lesson.type === "transactional") {
+                    html += '<div class="layout-3col">';
+                    
+                    // Column 1: Model Dialogue
+                    html += '<div class="section-card"><h3>Model Dialogue [モデル会話]</h3>';
+                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the conversation.</p><div class="dialogue-box">';
+                    let tDiag = lesson.dialogue || [];
+                    for (let i = 0; i < tDiag.length; i++) {
+                        let line = tDiag[i];
+                        html += '<div class="dialogue-line"><span class="dialogue-speaker">' + line.speaker + ':</span> <span>' + line.eng + '</span>';
+                        html += ' <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio(\'' + prepareAudioText(line.eng) + '\')">🔊</button>';
+                        html += '<span class="dialogue-trans jpn-text">' + line.jpn + '</span></div>';
+                    }
+                    html += '</div></div>';
+
+                    // Column 2: Speaking Functions
+                    html += '<div class="section-card"><h3>Speaking Functions (スピーキング機能)</h3><div class="expressions-container" style="display:flex; flex-direction:column; gap:15px;">';
+                    let tExp = lesson.expressions || [];
+                    for (let i = 0; i < tExp.length; i++) {
+                        let exp = tExp[i];
+                        html += '<div class="expression-category" style="background: #f8fafc; padding: 15px; border-radius: 8px; border: 1px solid var(--border);">';
+                        html += '<h4 style="margin-top: 0; color: var(--primary); font-size: 1rem; border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 10px;">' + exp.category + '</h4>';
+                        html += '<ul class="expression-list" style="list-style: none; padding-left: 0; margin: 0;">';
+                        let opts = exp.options || [];
+                        for (let j = 0; j < opts.length; j++) {
+                            let opt = opts[j];
+                            const optId = `exp-opt-${i}-${j}`;
+                            html += '<li id="' + optId + '" style="display: flex; padding: 8px 0; border-bottom: 1px dashed var(--border); font-size: 0.95rem; font-weight: 500; gap: 10px; align-items: flex-start;">';
+                            html += '<input type="checkbox" onchange="toggleComplete(this, \'' + optId + '\')">';
+                            html += '<div style="display: flex; justify-content: space-between; align-items: flex-start; width: 100%;"><div>';
+                            let optEng = typeof opt === 'string' ? opt : opt.eng;
+                            html += '<span style="display: block; color: var(--text-dark);">' + optEng + '</span>';
+                            if (typeof opt === 'object' && opt.jpn) html += '<span class="jpn-text" style="display: block; font-size: 0.85rem; color: var(--text-light); font-weight: normal; margin-top: 2px;">' + opt.jpn + '</span>';
+                            html += '</div><button class="audio-btn" style="font-size:0.8rem; padding:2px; margin-left: 8px;" onclick="playAudio(\'' + prepareAudioText(optEng) + '\')">🔊</button></div></li>';
+                        }
+                        html += '</ul></div>';
+                    }
+                    html += '</div></div>';
+
+                    // Column 3: Dialogue Structure & Grammar
+                    html += '<div style="display: flex; flex-direction: column; gap: 25px;">';
+                    html += '<div class="section-card" style="margin-bottom: 0;"><h3>Dialogue Structure</h3>';
+                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Conversational skeleton</p>';
+                    html += '<div style="background: #f8fafc; padding: 15px; border-radius: 8px; border: 1px solid var(--border); border-left: 4px solid var(--primary);">';
+                    let ds = lesson.dialogueStructure || [];
+                    for (let i = 0; i < ds.length; i++) {
+                        let step = ds[i];
+                        let indentStyle = step.indent ? 'margin-left: 20px; border-left: 2px solid var(--accent); padding-left: 10px;' : 'margin-top: 10px; font-weight: 600;';
+                        html += '<div style="margin-bottom: 8px; ' + indentStyle + '">';
+                        let prefix = step.indent ? '> ' : '';
+                        html += '<span style="color: var(--text-dark); font-size: 0.95rem;">' + prefix + step.eng + '</span>';
+                        html += '<span class="jpn-text" style="display: block; font-size: 0.85rem; color: var(--text-light);">' + step.jpn + '</span>';
+                        html += '</div>';
+                    }
+                    html += '</div></div>';
+                    
+                    let grammarHtml = renderGrammarPoints(lesson, true);
+                    grammarHtml = grammarHtml.replace('margin-bottom: 25px;', 'margin-bottom: 0;'); 
+                    html += grammarHtml;
+                    html += '</div>'; // End column 3
+                    html += '</div>'; // End layout-3col
+
+                    if (lesson.clickingGames || lesson.dropdownGames) {
+                        html += '<div class="section-card">';
+                        html += '<h3>Grammar Activity (文法アクティビティ)</h3>';
                         
-                        <div class="expression-box">
-                            <h4 style="margin:0 0 10px 0; color:var(--primary);">Transitional Expressions</h4>
-                            <ul style="padding-left: 20px; margin: 0;">
-                                ${lesson.expressions.map(exp => `
-                                    <li style="margin-bottom: 5px;"><strong>${exp.eng}</strong><br><span class="jpn-text" style="font-size:0.85rem; color:var(--text-light);">${exp.jpn}</span></li>
-                                `).join('')}
-                            </ul>
-                        </div>
-                    </div>
-                </div>`;
+                        if (lesson.clickingGames) {
+                            html += '<h4>Sentence Builder</h4>';
+                            for (let i = 0; i < lesson.clickingGames.length; i++) {
+                                let game = lesson.clickingGames[i];
+                                html += '<div class="practice-container">';
+                                html += '<p class="jpn-text"><strong>Translate:</strong> ' + game.prompt + '</p>';
+                                html += '<div class="drop-zone" id="drop-' + lesson.id + '-' + i + '"></div>';
+                                html += '<div class="word-bank" id="bank-' + lesson.id + '-' + i + '">';
+                                let shuffledWords = game.words.slice().sort(function() { return Math.random() - 0.5; });
+                                for (let j = 0; j < shuffledWords.length; j++) {
+                                    html += '<button class="word-btn" onclick="moveWord(this, \'drop-' + lesson.id + '-' + i + '\', \'bank-' + lesson.id + '-' + i + '\')">' + shuffledWords[j] + '</button>';
+                                }
+                                html += '</div>';
+                                html += '<button class="action-btn" onclick="checkClickGame(\'drop-' + lesson.id + '-' + i + '\', \'' + prepareAudioText(game.target) + '\', \'feedback-' + lesson.id + '-' + i + '\')">Check</button>';
+                                html += '<button class="action-btn" style="background:var(--text-light);" onclick="resetClickGame(\'' + lesson.id + '-' + i + '\')">Reset</button>';
+                                html += '<span class="feedback" id="feedback-' + lesson.id + '-' + i + '"></span></div>';
+                            }
+                        }
 
-                if (lesson.homework) {
-                    html += `
-                    <div class="section-card" style="background-color: #f8fafc; border: 2px dashed var(--primary-light);">
-                        <h3>Homework (宿題)</h3>
-
-                        <h4>Task 1: Vocabulary Building [ボキャブラリー構築]</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Listen to the words and try to make a sentence for each.</p>
-                        <div class="vocab-grid">
-                            ${lesson.homework.vocab.map(wordObj => `
-                                <div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">
-                                    <div style="display: flex; justify-content: space-between; width: 100%;">
-                                        <div class="vocab-text">
-                                            <span class="vocab-eng">${wordObj.eng}</span>
-                                            <span class="vocab-jpn jpn-text">${wordObj.jpn}</span>
-                                        </div>
-                                        <button class="audio-btn" onclick="playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                    </div>
-                                    ${wordObj.exEng ? `
-                                    <div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">
-                                        <span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ${wordObj.exEng}</span>
-                                        <span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：${wordObj.exJpn}</span>
-                                    </div>` : ''}
-                                </div>
-                            `).join('')}
-                        </div>
-
-                        <h4>Task 2: Reading (Dialogue)</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the extended conversation.</p>
-                        <div class="dialogue-box" style="background: white;">
-                            ${lesson.homework.expandedDialogue.map(line => `
-                                <div class="dialogue-line">
-                                    <span class="dialogue-speaker">${line.speaker}:</span> 
-                                    <span>${line.eng}</span>
-                                    <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio('${stripHtmlTags(line.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                    <span class="dialogue-trans jpn-text">${line.jpn}</span>
-                                </div>
-                            `).join('')}
-                        </div>
-
-                        <h4>Task 3: Writing Task</h4>
-                        <div class="homework-box" style="border-left-color: var(--accent); background: white;">
-                            <p><strong>Prompt:</strong> ${lesson.homework.writingTask.promptEng}</p>
-                            <p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); margin-bottom: 0;">${lesson.homework.writingTask.promptJpn}</p>
-                        </div>
-
-                        ${lesson.homework.extendedReading ? `
-                        <h4>${lesson.homework.extendedReading.title}</h4>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">${lesson.homework.extendedReading.instruction || "Read the article to learn more about the topic."}</p>
-                        <div class="homework-box" style="background: white;">
-                            <button class="audio-btn" style="float: right;" onclick="playAudio('${prepareAudioText(lesson.homework.extendedReading.eng)}')">🔊</button>
-                            <p style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap;">${lesson.homework.extendedReading.eng}</p>
-                            <p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">${lesson.homework.extendedReading.jpn}</p>
-                        </div>` : ''}
-                    </div>`;
+                        if (lesson.dropdownGames) {
+                            html += '<h4>Fill in the Blank [穴埋め]</h4>';
+                            for (let i = 0; i < lesson.dropdownGames.length; i++) {
+                                let game = lesson.dropdownGames[i];
+                                html += '<div class="dropdown-container">';
+                                html += '<div>' + game.before + ' ';
+                                html += '<select id="dd-' + lesson.id + '-' + i + '">';
+                                html += '<option value="">---</option>';
+                                for (let j = 0; j < game.options.length; j++) {
+                                    html += '<option value="' + game.options[j] + '">' + game.options[j] + '</option>';
+                                }
+                                html += '</select> ';
+                                html += game.after + '</div>';
+                                html += '<button class="action-btn" onclick="checkDropdown(\'dd-' + lesson.id + '-' + i + '\', \'' + game.answer + '\', \'dd-feedback-' + lesson.id + '-' + i + '\')">Check</button>';
+                                html += '<span class="feedback" id="dd-feedback-' + lesson.id + '-' + i + '"></span>';
+                                html += '</div>';
+                            }
+                        }
+                        html += '</div>';
+                    }
                 }
-
-                container.innerHTML = html;
-                return; 
             }
 
-            html += `<div class="section-card">
-                        <h3>Vocabulary Building [ボキャブラリー構築]</h3>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0;">Listen to the words and try to make a sentence for each.</p>
-                        <div class="vocab-grid">
-                            ${lesson.vocab.map(wordObj => `
-                                <div class="vocab-item">
-                                    <div class="vocab-text">
-                                        <span class="vocab-eng">${wordObj.eng}</span>
-                                        <span class="vocab-jpn jpn-text">${wordObj.jpn}</span>
-                                    </div>
-                                    <button class="audio-btn" onclick="playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                </div>
-                            `).join('')}
-                        </div>
-                     </div>`;
+            if (lesson.roleplay && lesson.type !== "casestudy") {
+                html += '<div class="section-card"><h3>Role-Play Prompt (ロールプレイ)</h3><div class="roleplay-box">';
+                if (typeof lesson.roleplay === 'object') {
+                    html += '<p><strong>Student A:</strong><br> ' + lesson.roleplay.a + '</p>';
+                    html += '<p style="margin-top:15px;"><strong>Student B:</strong><br> ' + lesson.roleplay.b + '</p>';
+                } else {
+                    html += '<p>' + lesson.roleplay + '</p>';
+                }
+                html += '</div></div>';
+            }
 
-            html += `<div class="layout-3col">
-                        <div class="section-card">
-                            <h3>Model Dialogue [モデル会話]</h3>
-                            <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the conversation.</p>
-                            <div class="dialogue-box">
-                                ${lesson.dialogue.map(line => `
-                                    <div class="dialogue-line">
-                                        <span class="dialogue-speaker">${line.speaker}:</span> 
-                                        <span>${line.eng}</span>
-                                        <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio('${stripHtmlTags(line.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                        <span class="dialogue-trans jpn-text">${line.jpn}</span>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                        <div class="section-card">
-                            <h3>Expressions (表現)</h3>
-                            <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Modify the dialogue using these options:</p>
-                            <div class="expressions-grid-2col">
-                                ${lesson.expressions.map(exp => `
-                                    <div class="expression-category">
-                                        <h4>${exp.category}</h4>
-                                        <ul class="expression-list">
-                                            ${exp.options.map(opt => `
-                                                <li>
-                                                    ${opt}
-                                                    <button class="audio-btn" style="font-size:0.8rem; padding:2px;" onclick="playAudio('${stripHtmlTags(opt).replace(/'/g, "\\'")}')">🔊</button>
-                                                </li>
-                                            `).join('')}
-                                        </ul>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                     </div>`;
+            if (lesson.homework) {
+                html += '<div class="section-card" style="background-color: #f8fafc; border: 2px dashed var(--primary-light);">';
+                html += '<h3>Homework (宿題)</h3><h4>Task 1: Vocabulary Building [ボキャブラリー構築]</h4><div class="vocab-grid">';
+                let hVocab = lesson.homework.vocab || [];
+                for (let i = 0; i < hVocab.length; i++) {
+                    let wordObj = hVocab[i];
+                    html += '<div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">';
+                    html += '<div style="display: flex; justify-content: space-between; width: 100%;">';
+                    html += '<div class="vocab-text"><span class="vocab-eng">' + wordObj.eng + '</span><span class="vocab-jpn jpn-text">' + wordObj.jpn + '</span></div>';
+                    html += '<button class="audio-btn" onclick="playAudio(\'' + prepareAudioText(wordObj.eng) + '\')">🔊</button></div>';
+                    if (wordObj.exEng) {
+                        html += '<div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">';
+                        html += '<span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ' + wordObj.exEng + '</span>';
+                        html += '<span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：' + wordObj.exJpn + '</span></div>';
+                    }
+                    html += '</div>';
+                }
+                html += '</div>';
 
-            html += renderGrammarPoints(lesson);
+                let taskNum = 2;
 
-            html += `<div class="section-card">
-                        <h3>Grammar Activity (文法アクティビティ)</h3>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Put the words in the correct order.</p>
-                        <h4>Sentence Builder</h4>
-                        ${lesson.clickingGames.map((game, i) => `
-                            <div class="practice-container">
-                                <p class="jpn-text"><strong>Translate:</strong> ${game.prompt}</p>
-                                <div class="drop-zone" id="drop-${lesson.id}-${i}"></div>
-                                <div class="word-bank" id="bank-${lesson.id}-${i}">
-                                    ${game.words.sort(() => Math.random() - 0.5).map(word => `
-                                        <button class="word-btn" onclick="moveWord(this, 'drop-${lesson.id}-${i}', 'bank-${lesson.id}-${i}')">${word}</button>
-                                    `).join('')}
-                                </div>
-                                <button class="action-btn" onclick="checkClickGame('drop-${lesson.id}-${i}', '${game.target}', 'feedback-${lesson.id}-${i}')">Check</button>
-                                <button class="action-btn" style="background:var(--text-light);" onclick="resetClickGame('${lesson.id}-${i}')">Reset</button>
-                                <span class="feedback" id="feedback-${lesson.id}-${i}"></span>
-                            </div>
-                        `).join('')}
+                if (lesson.homework.reading1) {
+                    html += '<h4>' + (lesson.homework.reading1.title || `Task ${taskNum}: Reading`) + '</h4>';
+                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">' + (lesson.homework.reading1.instruction || '') + '</p>';
+                    html += '<div class="homework-box" style="background: white;">';
+                    html += '<button class="audio-btn" style="float: right;" onclick="playAudio(\'' + prepareAudioText(lesson.homework.reading1.eng) + '\')">🔊</button>';
+                    html += '<p style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap; margin-top: 0;">' + lesson.homework.reading1.eng + '</p>';
+                    html += '<p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">' + lesson.homework.reading1.jpn + '</p>';
+                    html += '</div>';
+                    taskNum++;
+                }
 
-                        <h4>Fill in the Blank [穴埋め]</h4>
-                        ${lesson.dropdownGames.map((game, i) => `
-                            <div class="dropdown-container">
-                                <div>${game.before} 
-                                <select id="dd-${lesson.id}-${i}">
-                                    <option value="">---</option>
-                                    ${game.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}
-                                </select> 
-                                ${game.after}</div>
-                                <button class="action-btn" onclick="checkDropdown('dd-${lesson.id}-${i}', '${game.answer}', 'dd-feedback-${lesson.id}-${i}')">Check</button>
-                                <span class="feedback" id="dd-feedback-${lesson.id}-${i}"></span>
-                            </div>
-                        `).join('')}
-                     </div>`;
+                if (lesson.homework.expandedDialogue) {
+                    html += '<h4>Task ' + taskNum + ': Reading (Dialogue)</h4>';
+                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the extended conversation.</p>';
+                    html += '<div class="dialogue-box" style="background: white;">';
+                    for (let i = 0; i < lesson.homework.expandedDialogue.length; i++) {
+                        let line = lesson.homework.expandedDialogue[i];
+                        html += '<div class="dialogue-line"><span class="dialogue-speaker">' + line.speaker + ':</span> <span>' + line.eng + '</span>';
+                        html += ' <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio(\'' + prepareAudioText(line.eng) + '\')">🔊</button>';
+                        html += '<span class="dialogue-trans jpn-text">' + line.jpn + '</span></div>';
+                    }
+                    html += '</div>';
+                    taskNum++;
+                }
 
-            html += `<div class="section-card">
-                        <h3>Role-Play Prompt (ロールプレイ)</h3>
-                        <p class="jpn-text" style="color:var(--text-light); margin-top:0; margin-bottom:15px; font-size:0.95rem;">Read the situation then role-play it with your partner.</p>
-                        <div class="roleplay-box">
-                            <p><strong>Student A:</strong><br> ${lesson.roleplay.a}</p>
-                            <p style="margin-top:15px;"><strong>Student B:</strong><br> ${lesson.roleplay.b}</p>
-                        </div>
-                     </div>`;
+                if (lesson.homework.writingTask) {
+                    html += '<h4>Task ' + taskNum + ': Writing Task</h4>';
+                    html += '<div class="homework-box" style="border-left-color: var(--accent); background: white;">';
+                    html += '<p><strong>Prompt:</strong> ' + lesson.homework.writingTask.promptEng + '</p>';
+                    html += '<p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); margin-bottom: 0;">' + lesson.homework.writingTask.promptJpn + '</p>';
+                    html += '</div>';
+                    taskNum++;
+                }
 
-            if(lesson.homework) {
-                html += `<div class="section-card" style="background-color: #f8fafc; border: 2px dashed var(--primary-light);">
-                            <h3>Homework (宿題)</h3>
+                if (lesson.homework.extendedReading) {
+                    html += '<h4>' + (lesson.homework.extendedReading.title || `Task ${taskNum}: Extended Reading & Shadowing`) + '</h4>';
+                    
+                    html += '<div class="shadowing-guide">';
+                    html += '<h5>🗣️ Shadow the content (コンテンツのシャドーイング)</h5>';
+                    html += '<ul class="shadowing-steps">';
+                    html += '<li><strong>Step 1: Listening and reading (ステップ1：聞き取りとリーディング)</strong>Listen to the content and read along in your head.<br><span class="jpn-text" style="color:var(--text-light); font-size:0.85rem;">(音声を聞きながら、頭の中で一緒にテキストを読んでください。)</span></li>';
+                    html += '<li><strong>Step 2: Full paragraph shadowing with script (ステップ2：台本を使った段落ごとのシャドーイング)</strong>Listen and repeat each sentence from the first paragraph while looking at the script.<br><span class="jpn-text" style="color:var(--text-light); font-size:0.85rem;">(台本を見ながら、最初の段落の各文を聞いて、繰り返してください。)</span></li>';
+                    html += '<li><strong>Step 3: Full paragraph shadowing without script (ステップ3：台本なしで段落全体をシャドーイングする)</strong>Listen and repeat each sentence from the first paragraph without looking at the script.<br><span class="jpn-text" style="color:var(--text-light); font-size:0.85rem;">(台本を見ずに、文章全体を通して聞いて同時に真似して発声してください。)</span></li>';
+                    html += '</ul></div>';
 
-                            <h4>Task 1: Vocabulary Building [ボキャブラリー構築]</h4>
-                            <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Listen to the words and try to make a sentence for each.</p>
-                            <div class="vocab-grid">
-                                ${lesson.homework.vocab.map(wordObj => `
-                                    <div class="vocab-item" style="background: white; flex-direction: column; align-items: flex-start; gap: 8px;">
-                                        <div style="display: flex; justify-content: space-between; width: 100%;">
-                                            <div class="vocab-text">
-                                                <span class="vocab-eng">${wordObj.eng}</span>
-                                                <span class="vocab-jpn jpn-text">${wordObj.jpn}</span>
-                                            </div>
-                                            <button class="audio-btn" onclick="playAudio('${stripHtmlTags(wordObj.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                        </div>
-                                        ${wordObj.exEng ? `
-                                        <div style="background: #f1f5f9; padding: 8px; border-radius: 6px; width: 100%; box-sizing: border-box;">
-                                            <span style="display: block; font-size: 0.9rem; color: var(--text-dark); font-style: italic;">e.g., ${wordObj.exEng}</span>
-                                            <span class="jpn-text" style="display: block; font-size: 0.8rem; color: var(--text-light); margin-top: 4px;">例：${wordObj.exJpn}</span>
-                                        </div>` : ''}
-                                    </div>
-                                `).join('')}
-                            </div>
+                    html += '<div class="audio-controls-panel">';
+                    html += '<button class="audio-ctrl-btn" onclick="playMp3Audio(' + lesson.id + ')">▶️ Play</button>';
+                    html += '<button class="audio-ctrl-btn secondary" onclick="pauseMp3Audio()">⏸️ Pause</button>';
+                    html += '<button class="audio-ctrl-btn secondary" onclick="skipMp3Audio(-5)">⏪ 5s</button>';
+                    html += '<button class="audio-ctrl-btn secondary" onclick="skipMp3Audio(-10)">⏪ 10s</button>';
+                    html += '<button class="audio-ctrl-btn secondary" onclick="skipMp3Audio(-30)">⏪ 30s</button>';
+                    html += '<button class="audio-ctrl-btn secondary" onclick="replayMp3Audio()">🔄 Replay from Beginning</button>';
+                    html += '<label for="audioSpeedSelect" style="font-weight: bold; font-size: 0.9rem; margin-left: auto;">Speed:</label>';
+                    html += '<select id="audioSpeedSelect" onchange="changeAudioSpeed(this.value)" style="padding: 5px; border-radius: 4px; border: 1px solid var(--border); font-weight: bold;">';
+                    html += '<option value="0.75">0.75x</option>';
+                    html += '<option value="0.85" selected>0.85x</option>';
+                    html += '<option value="1.0">1.0x</option>';
+                    html += '<option value="1.25">1.25x</option>';
+                    html += '</select>';
+                    html += '</div>';
 
-                            <h4>Task 2: Reading (Dialogue)</h4>
-                            <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the extended conversation.</p>
-                            <div class="dialogue-box" style="background: white;">
-                                ${lesson.homework.expandedDialogue.map(line => `
-                                    <div class="dialogue-line">
-                                        <span class="dialogue-speaker">${line.speaker}:</span> 
-                                        <span>${line.eng}</span>
-                                        <button class="audio-btn" style="font-size:0.9rem; padding:2px;" onclick="playAudio('${stripHtmlTags(line.eng).replace(/'/g, "\\'")}')">🔊</button>
-                                        <span class="dialogue-trans jpn-text">${line.jpn}</span>
-                                    </div>
-                                `).join('')}
-                            </div>
+                    html += '<div style="margin-bottom: 15px; display: flex; gap: 10px; flex-wrap: wrap;">';
+                    html += '<button class="action-btn" style="background: var(--primary-light); font-size: 0.9rem; padding: 6px 12px;" onclick="toggleTask4English()">👁️ Toggle English Text</button>';
+                    html += '<button class="action-btn" style="background: var(--accent); font-size: 0.9rem; padding: 6px 12px;" onclick="toggleTask4Japanese()">👁️ Toggle Japanese Text</button>';
+                    html += '</div>';
 
-                            <h4>Task 3: Writing Task</h4>
-                            <div class="homework-box" style="border-left-color: var(--accent); background: white;">
-                                <p><strong>Prompt:</strong> ${lesson.homework.writingTask.promptEng}</p>
-                                <p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); margin-bottom: 0;">${lesson.homework.writingTask.promptJpn}</p>
-                            </div>
-
-                            ${lesson.homework.extendedReading ? `
-                            <h4>${lesson.homework.extendedReading.title}</h4>
-                            <p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">${lesson.homework.extendedReading.instruction || "Read the article to learn more about the topic."}</p>
-                            <div class="homework-box" style="background: white;">
-                                <button class="audio-btn" style="float: right;" onclick="playAudio('${prepareAudioText(lesson.homework.extendedReading.eng)}')">🔊</button>
-                                <p style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap;">${lesson.homework.extendedReading.eng}</p>
-                                <p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">${lesson.homework.extendedReading.jpn}</p>
-                            </div>` : ''}
-                         </div>`;
+                    html += '<div class="homework-box" style="background: white;">';
+                    html += '<p id="task4-eng-text" style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap; margin-top: 0;">' + lesson.homework.extendedReading.eng + '</p>';
+                    html += '<p id="task4-jpn-text" class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">' + lesson.homework.extendedReading.jpn + '</p>';
+                    html += '</div>';
+                }
+                html += '</div>';
             }
 
             container.innerHTML = html;
+        }
+
+        function renderTopicIntroduction(lesson) {
+            let html = '<div class="section-card" style="margin-bottom: 25px;">';
+            html += '<h3>Topic Introduction (トピックの紹介)</h3>';
+            html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">' + lesson.topicIntroduction.instruction + '</p>';
+
+            html += '<div class="shadowing-guide">';
+            html += '<p style="font-weight: 600; font-size: 1.05rem; margin: 0; color: var(--text-dark);">Listen or read what the three different people are talking about. Then give a detailed summary to your teacher.</p>';
+            html += '</div>';
+
+            const audioP1 = "'intro_" + lesson.id + "_1'";
+            const audioP2 = "'intro_" + lesson.id + "_2'";
+            const audioP3 = "'intro_" + lesson.id + "_3'";
+            html += '<div class="audio-controls-panel">';
+            html += '<button class="audio-ctrl-btn" onclick="playMp3Audio(' + audioP1 + ')">▶️ Person 1</button>';
+            html += '<button class="audio-ctrl-btn" onclick="playMp3Audio(' + audioP2 + ')">▶️ Person 2</button>';
+            html += '<button class="audio-ctrl-btn" onclick="playMp3Audio(' + audioP3 + ')">▶️ Person 3</button>';
+            html += '<button class="audio-ctrl-btn secondary" onclick="pauseMp3Audio()">⏸️ Pause</button>';
+            html += '<button class="audio-ctrl-btn secondary" onclick="skipMp3Audio(-5)">⏪ 5s</button>';
+            html += '<button class="audio-ctrl-btn secondary" onclick="skipMp3Audio(-10)">⏪ 10s</button>';
+            html += '<button class="audio-ctrl-btn secondary" onclick="skipMp3Audio(-30)">⏪ 30s</button>';
+            html += '<button class="audio-ctrl-btn secondary" onclick="replayMp3Audio()">🔄 Replay from Beginning</button>';
+            html += '<label for="audioSpeedSelectIntro" style="font-weight: bold; font-size: 0.9rem; margin-left: auto;">Speed:</label>';
+            html += '<select id="audioSpeedSelectIntro" onchange="changeAudioSpeed(this.value)" style="padding: 5px; border-radius: 4px; border: 1px solid var(--border); font-weight: bold;">';
+            html += '<option value="0.75">0.75x</option>';
+            html += '<option value="0.85">0.85x</option>';
+            html += '<option value="1.0" selected>1.0x</option>';
+            html += '<option value="1.25">1.25x</option>';
+            html += '</select>';
+            html += '</div>';
+
+            html += '<div class="homework-box" style="background: white; padding: 15px 20px;">';
+            lesson.topicIntroduction.speakers.forEach((speaker, index) => {
+                html += '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 15px 0; border-bottom: ' + (index < lesson.topicIntroduction.speakers.length - 1 ? '1px dashed var(--border)' : 'none') + ';">';
+                html += '<div><p style="font-size: 1.05rem; font-weight: 500; margin: 0;"><strong>' + speaker.name + ':</strong> ' + speaker.eng + '</p></div>';
+                html += '<div class="jpn-text"><p style="font-size: 0.95rem; color: var(--text-light); margin: 0;"><strong>' + speaker.name + '：</strong> ' + speaker.jpn + '</p></div>';
+                html += '</div>';
+            });
+            html += '</div></div>';
+            return html;
         }
 
         function moveWord(btn, dropId, bankId) {
@@ -1133,24 +1648,23 @@
         function checkClickGame(dropId, target, feedbackId) {
             const dropZone = document.getElementById(dropId);
             const feedback = document.getElementById(feedbackId);
-            const currentSentence = Array.from(dropZone.children).map(btn => btn.innerText).join(' '); 
-            
-            if (currentSentence === target || currentSentence.replace(/\s+/g, '') === target.replace(/\s+/g, '')) {
-                feedback.innerHTML = "✓ Correct!";
-                feedback.className = "feedback correct";
+            let currentSentence = [];
+            for (let i = 0; i < dropZone.children.length; i++) {
+                currentSentence.push(dropZone.children[i].innerText);
+            }
+            const builtStr = currentSentence.join(' ');
+            if (builtStr === target || builtStr.replace(/\s+/g, '') === target.replace(/\s+/g, '')) {
+                feedback.innerHTML = "✓ Correct!"; feedback.className = "feedback correct";
             } else {
-                feedback.innerHTML = "✗ Try again.";
-                feedback.className = "feedback incorrect";
+                feedback.innerHTML = "✗ Try again."; feedback.className = "feedback incorrect";
             }
         }
 
-        function resetClickGame(id) {
-            const dropZone = document.getElementById(`drop-${id}`);
-            const bankZone = document.getElementById(`bank-${id}`);
-            const feedback = document.getElementById(`feedback-${id}`);
-            while (dropZone.firstChild) {
-                bankZone.appendChild(dropZone.firstChild);
-            }
+        function resetClickGame(idStr) {
+            const dropZone = document.getElementById(`drop-${idStr}`);
+            const bankZone = document.getElementById(`bank-${idStr}`);
+            const feedback = document.getElementById(`feedback-${idStr}`);
+            while (dropZone.firstChild) { bankZone.appendChild(dropZone.firstChild); }
             feedback.innerHTML = "";
         }
 
