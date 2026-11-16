@@ -340,6 +340,26 @@
         .er-manual-step { margin-bottom: 15px; }
         .er-manual-num { font-weight: 900; color: var(--accent); font-size: 1.1rem; margin-right: 8px; }
 
+        /* --- CHAPTER SUMMARY STYLES --- */
+        .summary-stat-bar {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px; margin-bottom: 25px;
+        }
+        .summary-stat-box {
+            background: white; border: 1px solid var(--border); border-radius: 10px;
+            padding: 15px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .summary-stat-num {
+            display: block; font-size: 1.8rem; font-weight: 900; color: var(--primary); line-height: 1.2;
+        }
+        .summary-stat-label {
+            font-size: 0.85rem; font-weight: 700; color: var(--text-light); text-transform: uppercase;
+        }
+        .vocab-filter-input {
+            width: 100%; padding: 12px 15px; font-size: 1rem; border: 2px solid var(--border);
+            border-radius: 8px; margin-bottom: 15px; outline: none; transition: border-color 0.2s;
+        }
+        .vocab-filter-input:focus { border-color: var(--primary); }
     </style>
 </head>
 <body>
@@ -571,8 +591,79 @@
     <script>
         let currentMp3Audio = null;
         let speakTimerInterval = null;
-
         let topicAudio = null;
+        let displayCurriculum = [];
+
+        function buildDisplayCurriculum() {
+            displayCurriculum = [];
+            if (typeof b1Curriculum === 'undefined' || !Array.isArray(b1Curriculum)) return;
+
+            let currentChapterLessons = [];
+            let currentChapterName = "";
+
+            const createSummaryPage = (chapterName, lessons) => {
+                const chapterMatch = chapterName.match(/Chapter\s*(\d+)/i);
+                const chapterNum = chapterMatch ? chapterMatch[1] : lessons[0].id;
+                
+                const allVocab = [];
+                const allGrammar = [];
+                const allTransitional = [];
+                const allSpeakingFunctions = [];
+
+                lessons.forEach(l => {
+                    if (l.vocab && Array.isArray(l.vocab)) {
+                        l.vocab.forEach(v => allVocab.push({ ...v, sourceLesson: l.title }));
+                    }
+                    if (l.homework && l.homework.vocab && Array.isArray(l.homework.vocab)) {
+                        l.homework.vocab.forEach(v => allVocab.push({ ...v, sourceLesson: l.title + " (HW)" }));
+                    }
+                    if (l.grammarPoints && Array.isArray(l.grammarPoints)) {
+                        l.grammarPoints.forEach(g => allGrammar.push({ ...g, sourceLesson: l.title }));
+                    }
+                    if (l.expressions && Array.isArray(l.expressions)) {
+                        if (l.type === 'transactional') {
+                            l.expressions.forEach(cat => {
+                                allSpeakingFunctions.push({ ...cat, sourceLesson: l.title });
+                            });
+                        } else {
+                            l.expressions.forEach(exp => {
+                                allTransitional.push({ ...exp, sourceLesson: l.title });
+                            });
+                        }
+                    }
+                });
+
+                return {
+                    id: `summary-${chapterNum}`,
+                    chapterNum: chapterNum,
+                    chapter: chapterName,
+                    type: "chaptersummary",
+                    title: `${chapterName} - Chapter Summary`,
+                    goal: `Review all vocabulary (${allVocab.length} items), grammar points, transitional expressions, and speaking functions introduced in ${chapterName}. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(${chapterName}で導入されたすべての語彙、文法ポイント、トランジション表現、スピーキング機能を復習する。)</span>`,
+                    lastLessonId: lessons[lessons.length - 1].id,
+                    summaryData: {
+                        vocab: allVocab,
+                        grammarPoints: allGrammar,
+                        transitionalExpressions: allTransitional,
+                        speakingFunctions: allSpeakingFunctions
+                    }
+                };
+            };
+
+            b1Curriculum.forEach((lesson) => {
+                if (currentChapterName && lesson.chapter !== currentChapterName) {
+                    displayCurriculum.push(createSummaryPage(currentChapterName, currentChapterLessons));
+                    currentChapterLessons = [];
+                }
+                currentChapterName = lesson.chapter;
+                currentChapterLessons.push(lesson);
+                displayCurriculum.push(lesson);
+            });
+
+            if (currentChapterLessons.length > 0) {
+                displayCurriculum.push(createSummaryPage(currentChapterName, currentChapterLessons));
+            }
+        }
 
         function formatTopicTime(seconds) {
             if (isNaN(seconds)) return "0:00";
@@ -711,7 +802,6 @@
             });
         }
 
-
         document.addEventListener('click', function(e) {
             const btn = e.target.closest('.tts-btn');
             if (btn) {
@@ -730,16 +820,16 @@
             const selectEl = document.getElementById("lessonSelect");
             
             if (hash.startsWith("lesson-")) {
-                const lessonId = parseInt(hash.replace("lesson-", ""));
-                const lessonIndex = b1Curriculum.findIndex(l => l.id === lessonId);
+                const rawId = hash.replace("lesson-", "");
+                const lessonIndex = displayCurriculum.findIndex(l => String(l.id) === rawId);
                 if (lessonIndex !== -1) {
                     selectEl.value = lessonIndex;
                     loadLesson(true);
+                    return;
                 }
-            } else {
-                selectEl.value = "landing";
-                loadLesson(true);
             }
+            selectEl.value = "landing";
+            loadLesson(true);
         }
 
         function navigateLesson(value) {
@@ -749,7 +839,7 @@
             if (value === "landing") {
                 window.location.hash = "";
             } else {
-                const lesson = b1Curriculum[parseInt(value)];
+                const lesson = displayCurriculum[parseInt(value)];
                 window.location.hash = "lesson-" + lesson.id;
             }
             loadLesson(true);
@@ -757,7 +847,7 @@
         }
 
         function selectChapter(chapterNum) {
-            const index = b1Curriculum.findIndex(l => l.chapter.includes(`Chapter ${chapterNum}:`));
+            const index = displayCurriculum.findIndex(l => l.chapter.includes(`Chapter ${chapterNum}:`) && l.type !== "chaptersummary");
             if (index !== -1) {
                 navigateLesson(index);
             }
@@ -784,7 +874,7 @@
                 if (targetMatch && state[targetMatch[1]]) {
                     cb.checked = true;
                     const el = document.getElementById(targetMatch[1]);
-                    const lesson = b1Curriculum.find(l => l.id === lessonId);
+                    const lesson = displayCurriculum.find(l => String(l.id) === String(lessonId));
                     if (el) {
                         if (lesson && (lesson.type === 'transactional' || lesson.type === 'opinion')) {
                             el.classList.add('completed-hidden');
@@ -824,7 +914,7 @@
         function toggleComplete(checkbox, elementId) {
             const el = document.getElementById(elementId);
             const selectVal = document.getElementById("lessonSelect").value;
-            const lesson = (selectVal !== "landing" && typeof b1Curriculum !== 'undefined') ? b1Curriculum[parseInt(selectVal)] : null;
+            const lesson = (selectVal !== "landing" && displayCurriculum.length > 0) ? displayCurriculum[parseInt(selectVal)] : null;
             
             if (el) {
                 if (checkbox.checked) {
@@ -844,7 +934,7 @@
 
         function restoreCheckboxes() {
             const selectVal = document.getElementById("lessonSelect").value;
-            const lesson = (selectVal !== "landing") ? b1Curriculum[parseInt(selectVal)] : null;
+            const lesson = (selectVal !== "landing") ? displayCurriculum[parseInt(selectVal)] : null;
 
             const checkboxes = document.querySelectorAll('#lessonContent input[type="checkbox"]');
             checkboxes.forEach(cb => cb.checked = false);
@@ -952,27 +1042,38 @@
         function exportLessonToAnki() {
             const val = document.getElementById("lessonSelect").value;
             if (val === "landing") {
-                alert("Please select a specific lesson from the dropdown to export its vocabulary.");
+                alert("Please select a specific lesson or chapter summary from the dropdown to export its vocabulary.");
                 return;
             }
             const index = parseInt(val);
-            const lesson = b1Curriculum[index];
+            const item = displayCurriculum[index];
             let tsvContent = "";
             
-            const formatVocab = (list, suffix) => {
+            const formatVocab = (list, tag) => {
                 list.forEach(v => {
                     const example = v.exEng ? `<br><small><i>${v.exEng}</i></small><br><small><i>${v.exJpn}</i></small>` : "";
-                    tsvContent += `${v.eng}\t${v.jpn}${example}\tB1::Lesson_${lesson.id}${suffix}\n`;
+                    tsvContent += `${v.eng}\t${v.jpn}${example}\t${tag}\n`;
                 });
             };
 
-            if (lesson.vocab) formatVocab(lesson.vocab, "");
-            if (lesson.homework && lesson.homework.vocab) formatVocab(lesson.homework.vocab, "_Homework");
+            if (item.type === "chaptersummary") {
+                formatVocab(item.summaryData.vocab, `B1::Chapter_${item.chapterNum}_Summary`);
+                if (tsvContent === "") return alert("No vocabulary available to export for this chapter.");
+                const blob = new Blob([tsvContent], { type: 'text/tab-separated-values;charset=utf-8;' });
+                const link = document.createElement("a");
+                link.href = URL.createObjectURL(blob);
+                link.download = `Anki_Chapter_${item.chapterNum}_Summary.txt`;
+                link.click();
+                return;
+            }
+
+            if (item.vocab) formatVocab(item.vocab, `B1::Lesson_${item.id}`);
+            if (item.homework && item.homework.vocab) formatVocab(item.homework.vocab, `B1::Lesson_${item.id}_Homework`);
             
             if (tsvContent === "") return alert("No vocabulary available to export for this lesson.");
             const blob = new Blob([tsvContent], { type: 'text/tab-separated-values;charset=utf-8;' });
             const link = document.createElement("a");
-            link.href = URL.createObjectURL(blob); link.download = "Anki_Lesson_" + lesson.id + ".txt"; link.click();
+            link.href = URL.createObjectURL(blob); link.download = "Anki_Lesson_" + item.id + ".txt"; link.click();
         }
 
         function initApp() {
@@ -985,16 +1086,25 @@
                 document.getElementById("lessonContent").style.display = "block";
                 return;
             }
+
+            buildDisplayCurriculum();
+
             const selectEl = document.getElementById("lessonSelect");
+            selectEl.innerHTML = "";
             
             const landingOption = document.createElement("option");
             landingOption.value = "landing";
             landingOption.textContent = "🏠 Course Overview";
             selectEl.appendChild(landingOption);
 
-            for (let i = 0; i < b1Curriculum.length; i++) {
+            for (let i = 0; i < displayCurriculum.length; i++) {
                 const option = document.createElement("option");
-                option.value = i; option.textContent = "B1 - " + b1Curriculum[i].title;
+                option.value = i;
+                if (displayCurriculum[i].type === "chaptersummary") {
+                    option.textContent = "📘 " + displayCurriculum[i].title;
+                } else {
+                    option.textContent = "B1 - " + displayCurriculum[i].title;
+                }
                 selectEl.appendChild(option);
             }
             
@@ -1144,6 +1254,141 @@
             return html;
         }
 
+        function filterSummaryVocab(query) {
+            const q = query.toLowerCase().trim();
+            const items = document.querySelectorAll('#summary-vocab-grid .vocab-item');
+            items.forEach(item => {
+                const text = item.innerText.toLowerCase();
+                item.style.display = text.includes(q) ? 'flex' : 'none';
+            });
+        }
+
+        function renderChapterSummary(summaryPage, pageIndex, currArray) {
+            const container = document.getElementById("lessonContent");
+            const data = summaryPage.summaryData;
+
+            let html = '<div class="chapter-label">' + summaryPage.chapter + '</div>';
+            html += '<h2>📘 ' + summaryPage.title + '</h2>';
+            html += '<div class="goal-overview"><p><strong>Unit Review (ユニット総復習):</strong> ' + summaryPage.goal + '</p></div>';
+
+            // Summary Metrics Bar
+            html += '<div class="summary-stat-bar">';
+            html += '<div class="summary-stat-box"><span class="summary-stat-num">' + data.vocab.length + '</span><span class="summary-stat-label">Vocabulary Items</span></div>';
+            html += '<div class="summary-stat-box"><span class="summary-stat-num">' + data.grammarPoints.length + '</span><span class="summary-stat-label">Grammar Points</span></div>';
+            html += '<div class="summary-stat-box"><span class="summary-stat-num">' + data.transitionalExpressions.length + '</span><span class="summary-stat-label">Transitional Expressions</span></div>';
+            html += '<div class="summary-stat-box"><span class="summary-stat-num">' + data.speakingFunctions.length + '</span><span class="summary-stat-label">Speaking Function Groups</span></div>';
+            html += '</div>';
+
+            // 1. Grammar Points & 2. Transitional Expressions & 3. Speaking Functions
+            html += '<div class="layout-2col">';
+            
+            // Grammar Points Card
+            html += '<div class="section-card">';
+            html += '<h3>1. Grammar Points Introduced (導入された文法ポイント)</h3>';
+            if (data.grammarPoints.length > 0) {
+                data.grammarPoints.forEach((g, idx) => {
+                    const detailId = `sum-gram-${summaryPage.chapterNum}-${idx}`;
+                    html += '<div class="grammar-details" style="margin-bottom: 15px;">';
+                    html += '<div style="font-size: 0.8rem; font-weight: 700; color: var(--text-light); margin-bottom: 4px;">' + g.sourceLesson + '</div>';
+                    html += '<h4 style="margin: 0 0 8px 0; color: var(--success); font-size: 1.1rem;">' + g.point + '</h4>';
+                    html += '<p style="margin: 0 0 6px 0; font-size: 0.95rem;">' + g.explanation + '</p>';
+                    html += '<p class="jpn-text" style="margin: 0 0 10px 0; font-size: 0.85rem; color: var(--text-light);">' + g.explanationJpn + '</p>';
+                    if (g.examples && g.examples.length > 0) {
+                        html += '<div id="' + detailId + '" style="background: white; padding: 10px; border-radius: 6px; border: 1px solid var(--border);">';
+                        g.examples.forEach(ex => {
+                            html += '<div style="margin-bottom: 6px; display: flex; align-items: flex-start; gap: 8px;">';
+                            html += '<button class="audio-btn tts-btn" data-tts="' + prepareAudioText(ex.eng) + '" style="padding:0; font-size:1rem;">🔊</button>';
+                            html += '<div><span style="font-weight: 600; font-size: 0.95rem;">' + ex.eng + '</span><br><span class="jpn-text" style="font-size: 0.85rem; color: var(--text-light);">' + ex.jpn + '</span></div>';
+                            html += '</div>';
+                        });
+                        html += '</div>';
+                    }
+                    html += '</div>';
+                });
+            } else {
+                html += '<p style="color: var(--text-light);">No grammar points recorded for this chapter.</p>';
+            }
+            html += '</div>';
+
+            // Transitional Expressions & Speaking Functions Column
+            html += '<div style="display: flex; flex-direction: column; gap: 25px;">';
+            
+            // Transitional Expressions Card
+            html += '<div class="section-card" style="margin-bottom: 0;">';
+            html += '<h3>2. Transitional Expressions (トランジション表現)</h3>';
+            if (data.transitionalExpressions.length > 0) {
+                html += '<ul style="list-style: none; padding-left: 0; margin: 0;">';
+                data.transitionalExpressions.forEach(exp => {
+                    html += '<li style="padding: 10px 0; border-bottom: 1px dashed var(--border);">';
+                    html += '<div style="display: flex; justify-content: space-between; align-items: center;">';
+                    html += '<div><strong>' + exp.eng + '</strong> <span class="jpn-text" style="font-size: 0.85rem; color: var(--text-light);">(' + exp.jpn + ')</span></div>';
+                    html += '<button class="audio-btn tts-btn" data-tts="' + prepareAudioText(exp.eng) + '" style="padding:2px; font-size:0.95rem;">🔊</button>';
+                    html += '</div>';
+                    if (exp.exampleEng) {
+                        html += '<div style="font-size: 0.9rem; color: var(--text-dark); margin-top: 4px; font-style: italic;">"' + exp.exampleEng + '"</div>';
+                    }
+                    html += '</li>';
+                });
+                html += '</ul>';
+            } else {
+                html += '<p style="color: var(--text-light);">No transitional expressions recorded for this chapter.</p>';
+            }
+            html += '</div>';
+
+            // Speaking Functions Card
+            html += '<div class="section-card" style="margin-bottom: 0;">';
+            html += '<h3>3. Speaking Functions (スピーキング機能)</h3>';
+            if (data.speakingFunctions.length > 0) {
+                data.speakingFunctions.forEach(func => {
+                    html += '<div class="expression-category" style="margin-bottom: 15px;">';
+                    html += '<div style="font-size: 0.75rem; font-weight: 700; color: var(--text-light); margin-bottom: 2px;">' + func.sourceLesson + '</div>';
+                    html += '<h4>' + func.category + '</h4>';
+                    html += '<ul class="expression-list">';
+                    (func.options || []).forEach(opt => {
+                        const optEng = typeof opt === 'string' ? opt : opt.eng;
+                        const optJpn = typeof opt === 'object' ? opt.jpn : '';
+                        html += '<li>';
+                        html += '<div><span style="display:block; color: var(--text-dark);">' + optEng + '</span>';
+                        if (optJpn) html += '<span class="jpn-text" style="display:block; font-size:0.85rem; color:var(--text-light); font-weight:normal;">' + optJpn + '</span>';
+                        html += '</div>';
+                        html += '<button class="audio-btn tts-btn" data-tts="' + prepareAudioText(optEng) + '" style="padding:2px; font-size:0.9rem;">🔊</button>';
+                        html += '</li>';
+                    });
+                    html += '</ul></div>';
+                });
+            } else {
+                html += '<p style="color: var(--text-light);">No speaking functions recorded for this chapter.</p>';
+            }
+            html += '</div>';
+
+            html += '</div></div>'; // End layout-2col
+
+            // 4. Complete Chapter Vocabulary List (~210 words)
+            html += '<div class="section-card">';
+            html += '<h3>4. Complete Chapter Vocabulary (' + data.vocab.length + ' Words / Phrases)</h3>';
+            html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0;">All target and homework vocabulary introduced across ' + summaryPage.chapter + '.</p>';
+            html += '<input type="text" class="vocab-filter-input" placeholder="🔍 Search chapter vocabulary (English or Japanese)..." oninput="filterSummaryVocab(this.value)">';
+            html += '<div class="vocab-grid" id="summary-vocab-grid">';
+            data.vocab.forEach(wordObj => {
+                html += renderVocabItem(wordObj);
+            });
+            html += '</div></div>';
+
+            // Bottom Navigation
+            let navHtml = '<div style="display: flex; justify-content: space-between; margin-top: 40px; padding-top: 20px; border-top: 2px solid var(--border);">';
+            if (pageIndex > 0) {
+                navHtml += `<button class="action-btn" style="background: var(--text-light);" onclick="navigateLesson(${pageIndex - 1})">← Previous Lesson</button>`;
+            } else {
+                navHtml += `<div></div>`;
+            }
+            if (pageIndex < currArray.length - 1) {
+                navHtml += `<button class="action-btn" onclick="navigateLesson(${pageIndex + 1})">Next Chapter →</button>`;
+            }
+            navHtml += '</div>';
+            html += navHtml;
+
+            container.innerHTML = html;
+        }
         
         function loadLesson(internalCall = false) {
             try {
@@ -1157,7 +1402,6 @@
                 }
                 clearInterval(speakTimerInterval);
 
-                
                 const val = document.getElementById("lessonSelect").value;
                 const landingPage = document.getElementById("landingPage");
                 const lessonContent = document.getElementById("lessonContent");
@@ -1167,7 +1411,7 @@
                 const splashBanner = document.getElementById("splash-banner");
 
                 if (!internalCall) {
-                    window.location.hash = val === "landing" ? "" : "lesson-" + b1Curriculum[parseInt(val)].id;
+                    window.location.hash = val === "landing" ? "" : "lesson-" + displayCurriculum[parseInt(val)].id;
                 }
 
                 if (val === "landing") {
@@ -1187,11 +1431,17 @@
                 if (heroEl) heroEl.style.display = "flex";
 
                 const index = parseInt(val);
-                const lesson = b1Curriculum[index];
+                const lesson = displayCurriculum[index];
+
+                if (lesson.type === "chaptersummary") {
+                    if (heroEl) heroEl.style.backgroundImage = "url('chapter" + String(lesson.chapterNum).padStart(3, '0') + ".jpg')";
+                    renderChapterSummary(lesson, index, displayCurriculum);
+                    return;
+                }
                 
                 if (heroEl) heroEl.style.backgroundImage = "url('header-" + lesson.id + ".jpg')";
                 
-                renderLesson(lesson, index, b1Curriculum);
+                renderLesson(lesson, index, displayCurriculum);
                 loadCheckboxState(lesson.id);
             } catch (error) {
                 document.getElementById("lessonContent").innerHTML = "<p style='color: red; padding: 20px;'><strong>Error rendering lesson:</strong> " + error.message + "<br>Please check your B1curriculum.js for typos or missing arrays.</p>";
@@ -1281,7 +1531,11 @@
             let reviewVocab = [];
             if (lesson.reviewVocab) reviewVocab = lesson.reviewVocab;
             else if (lessonIndex > 0) {
-                const prev = currArray[lessonIndex - 1];
+                let prevIndex = lessonIndex - 1;
+                while (prevIndex >= 0 && currArray[prevIndex].type === "chaptersummary") {
+                    prevIndex--;
+                }
+                const prev = prevIndex >= 0 ? currArray[prevIndex] : null;
                 if (prev && prev.vocab) reviewVocab = prev.vocab.slice();
                 if (prev && prev.homework && prev.homework.vocab) {
                     reviewVocab = reviewVocab.concat(prev.homework.vocab);
@@ -1606,11 +1860,7 @@
                 }
 
                 if (lesson.homework.extendedReading) {
-                    html += '<h4>\' + (lesson.homework.extendedReading.title || `Task ${taskNum}: Extended Reading`) + \'</h4>';
-                    html += '';
-
-                    html += '';
-
+                    html += '<h4>' + (lesson.homework.extendedReading.title || `Task ${taskNum}: Extended Reading`) + '</h4>';
                     html += '<div style="margin-bottom: 15px; display: flex; gap: 10px; flex-wrap: wrap;">';
                     html += '<button class="action-btn" style="background: var(--primary-light); font-size: 0.9rem; padding: 6px 12px;" onclick="toggleTask4English()">👁️ Toggle English</button>';
                     html += '<button class="action-btn" style="background: var(--accent); font-size: 0.9rem; padding: 6px 12px;" onclick="toggleTask4Japanese()">👁️ Toggle Japanese</button>';
@@ -1632,7 +1882,9 @@
                 navHtml += `<div></div>`;
             }
             if (lessonIndex < currArray.length - 1) {
-                navHtml += `<button class="action-btn" onclick="navigateLesson(${lessonIndex + 1})">Next Lesson →</button>`;
+                const nextItem = currArray[lessonIndex + 1];
+                const nextBtnLabel = nextItem.type === "chaptersummary" ? "Chapter Summary →" : "Next Lesson →";
+                navHtml += `<button class="action-btn" onclick="navigateLesson(${lessonIndex + 1})">${nextBtnLabel}</button>`;
             }
             navHtml += '</div>';
             html += navHtml;
