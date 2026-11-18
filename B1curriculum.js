@@ -1,130 +1,127 @@
 const b1Curriculum = [
-    {
-    id: 1,
-    chapter: "Chapter 1: First Meetings",
-    type: "opinion",
-    title: "Lesson 1: Opinion Exchange - Meeting strangers",
-    goal: "Discuss first impressions and ask polite questions using indirect question structures. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(第一印象について話し合い、間接疑問文を使って丁寧に質問する。)</span>",
-    topicIntroduction: {
-        title: "Topic Introduction",
-        instruction: "Listen to three professionals introducing today's discussion themes.",
-        speakers: [
-            { name: "Person 1", eng: "When I meet someone new at a business event, I usually start with a basic and polite introduction. First, I clearly state my name and my specific role at the company. I think it is very important to speak slowly and clearly so the other person understands me well. After that, I always like to use a simple icebreaker. For example, talking about the weather, a recent sports event, or an interesting news story is a great way to make the other person feel relaxed and comfortable. I believe that people often feel nervous during first meetings. Because of this, a friendly smile and a warm voice are very helpful. I also try to ask a simple question, like how their journey to the office was. This shows that I care about them. If you follow these simple steps, you can easily build a positive connection with anyone you meet.", jpn: "ビジネスイベントで新しい人に会うとき、私は通常、基本的で丁寧な自己紹介から始めます。まず、自分の名前と会社での具体的な役割をはっきりと述べます。相手がよく理解できるように、ゆっくりと明確に話すことが非常に重要だと思います。その後、私はいつも簡単なアイスブレイクを使うのが好きです。例えば、天気や最近のスポーツイベント、あるいは興味深いニュースについて話すことは、相手をリラックスさせ、快適な気分にさせる素晴らしい方法です。初対面では緊張する人が多いと思います。そのため、フレンドリーな笑顔と温かい声は非常に役立ちます。また、オフィスまでの道のりはどうだったかなど、簡単な質問をするようにもしています。これは私が相手を気にかけていることを示します。これらの簡単なステップに従えば、出会うすべての人と簡単にポジティブなつながりを築くことができます。" },
-            { name: "Person 2", eng: "In my experience, body language is a very important part of making a good first impression. When you meet a new client or colleague, making natural eye contact and offering a firm handshake can show that you are a confident professional. This positive body language makes business networking much easier and more successful. When you exchange business cards, you should take a moment to read the card carefully instead of putting it away immediately. This shows respect for the other person. Also, asking a polite question about their company or their role helps to start an interesting conversation. Finding common interests, such as a shared hobby or a similar business goal, helps you build a strong professional network. If you look interested and listen carefully, people will remember you. Good networking is not just about collecting business cards; it is about building real relationships with other people in your industry.", jpn: "私の経験では、良い第一印象を与える上でボディーランゲージは非常に重要な部分です。新しいクライアントや同僚に会うとき、自然なアイコンタクトを取り、しっかりとした握手をすることは、あなたが自信に満ちたプロフェッショナルであることを示せます。このポジティブなボディーランゲージにより、ビジネスのネットワーキングがはるかに簡単になり、成功しやすくなります。名刺を交換する際は、すぐにしまうのではなく、少し時間を取って名刺を注意深く読むべきです。これは相手への敬意を示します。また、相手の会社や役割について丁寧な質問をすることは、興味深い会話を始めるのに役立ちます。共通の趣味や似たようなビジネスの目標など、共通の関心事を見つけることで、強固なプロフェッショナルネットワークを築くことができます。興味を持っているように見せ、注意深く話を聞けば、人々はあなたのことを覚えてくれるでしょう。良いネットワーキングとは、単に名刺を集めることではなく、業界の他の人々と本当の関係を築くことです。" },
-            { name: "Person 3", eng: "When you travel for business, it is also crucial to understand different cultural norms. For example, knowing whether to bow or shake hands when you introduce yourself shows deep respect for the local culture. If you do not learn about these customs, you might accidentally offend your new business partner. During a first meeting, I always stick to safe and friendly topics. Discussing delicious local food, popular hobbies, or famous sports teams is usually appropriate and prevents any awkward situations. You should avoid asking personal questions about age, money, or family until you know the person better. Safe topics help everyone feel relaxed and encourage a smooth conversation. I also think it is helpful to learn a few basic greeting words in the other person's native language. This small effort shows that you are a polite and caring professional who respects their background and wants to build a good relationship.", jpn: "出張の際は、異なる文化的な規範を理解することも極めて重要です。例えば、自己紹介の際にお辞儀をするか握手をするかを知ることは、現地の文化への深い敬意を示します。これらの習慣について学ばないと、誤って新しいビジネスパートナーを怒らせてしまうかもしれません。初対面の際、私は常に安全でフレンドリーな話題にとどめます。美味しい地元の食べ物、人気のある趣味、または有名なスポーツチームについて話すことは通常適切であり、気まずい状況を防ぐことができます。相手のことをよく知るまでは、年齢、お金、または家族についての個人的な質問は避けるべきです。安全な話題は、全員がリラックスし、スムーズな会話を促すのに役立ちます。また、相手の母国語でいくつかの基本的な挨拶の言葉を学ぶことも役立つと思います。この小さな努力は、あなたが相手の背景を尊重し、良い関係を築きたいと思っている、礼儀正しく思いやりのあるプロフェッショナルであることを示します。" }
-        ]
-    },
-    discussionTopics: [
-        { theme: "Introductions 📖", themeJpn: "自己紹介", sub: [{eng: "Name and role", jpn: "名前と役割"}, {eng: "Company background", jpn: "会社の背景"}, {eng: "Current projects", jpn: "現在のプロジェクト"}] },
-        { theme: "Icebreakers 📖", themeJpn: "アイスブレイク", sub: [{eng: "Weather conditions", jpn: "天候の状況"}, {eng: "Recent news", jpn: "最近のニュース"}, {eng: "Travel experiences", jpn: "旅行の経験"}] },
-        { theme: "Body Language 📖", themeJpn: "ボディーランゲージ", sub: [{eng: "Eye contact", jpn: "アイコンタクト"}, {eng: "Firm handshakes", jpn: "しっかりとした握手"}, {eng: "Friendly smiles", jpn: "フレンドリーな笑顔"}] },
-        { theme: "Networking 📖", themeJpn: "ネットワーキング", sub: [{eng: "Exchanging cards", jpn: "名刺交換"}, {eng: "Common interests", jpn: "共通の関心事"}, {eng: "Following up", jpn: "フォローアップ"}] },
-        { theme: "Cultural Norms 📖", themeJpn: "文化的な規範", sub: [{eng: "Bowing vs shaking hands", jpn: "お辞儀と握手"}, {eng: "Politeness levels", jpn: "丁寧さのレベル"}, {eng: "Personal space", jpn: "パーソナルスペース"}] },
-        { theme: "Safe Topics 📖", themeJpn: "安全な話題", sub: [{eng: "Food and drink", jpn: "食べ物と飲み物"}, {eng: "Hobbies and sports", jpn: "趣味やスポーツ"}, {eng: "Professional events", jpn: "仕事のイベント"}] }
-    ],
-    questions: [
-        { eng: "1. How do you feel when you meet new people at a business event?", jpn: "1. ビジネスイベントで新しい人に会うとき、どう感じますか？" },
-        { eng: "2. Why is it sometimes difficult to talk to a complete stranger?", jpn: "2. 全く見知らぬ人と話すのが時に難しいのはなぜですか？" },
-        { eng: "3. What is the best topic to discuss when you first meet someone?", jpn: "3. 初対面の人と話すときに最適な話題は何ですか？" },
-        { eng: "4. Do you usually shake hands or bow when introducing yourself?", jpn: "4. 自己紹介をするときは、普段握手をしますか、それともお辞儀をしますか？" },
-        { eng: "5. Why is body language important for making a good first impression?", jpn: "5. 良い第一印象を与えるために、なぜボディーランゲージが重要なのですか？" },
-        { eng: "6. What kinds of personal questions should you avoid asking right away?", jpn: "6. すぐに聞くべきではない個人的な質問にはどのようなものがありますか？" },
-        { eng: "7. Why do some people feel nervous when meeting strangers?", jpn: "7. 見知らぬ人に会うと緊張する人がいるのはなぜですか？" },
-        { eng: "8. How does a smile change a person's first impression?", jpn: "8. 笑顔は人の第一印象をどのように変えますか？" },
-        { eng: "9. Have you ever made a bad first impression on someone?", jpn: "9. 誰かに悪い第一印象を与えてしまったことはありますか？" },
-        { eng: "10. How do you usually introduce yourself to a new colleague?", jpn: "10. 新しい同僚には普段どのように自己紹介しますか？" }
-    ],
-    vocab: [
-        { eng: "Make a good first impression", jpn: "良い第一印象を与える", formality: "Neutral expression", exEng: "Wearing neat clothes helps you make a good first impression.", exJpn: "きちんとした服を着ると、良い第一印象を与えるのに役立ちます。" },
-        { eng: "Break the ice", jpn: "場の空気を和らげる（緊張をほぐす）", formality: "Neutral expression", exEng: "He told a funny joke to break the ice at the party.", exJpn: "彼はパーティーで場の空気を和らげるために面白いジョークを言いました。" },
-        { eng: "Strike up a conversation", jpn: "会話を始める（話しかける）", formality: "Neutral expression", exEng: "I struck up a conversation with the person sitting next to me on the train.", exJpn: "電車で隣に座っていた人に話しかけて会話を始めました。" },
-        { eng: "Make small talk", jpn: "世間話をする", formality: "Neutral expression", exEng: "We made small talk about the weather while waiting for the meeting to start.", exJpn: "会議が始まるのを待っている間、天気について世間話をしました。" },
-        { eng: "Get to know someone", jpn: "人を知る（親しくなる）", formality: "Neutral expression", exEng: "It takes time to really get to know someone new.", exJpn: "新しい人を本当に知るには時間がかかります。" },
-        { eng: "Have a lot in common", jpn: "共通点がたくさんある", formality: "Neutral expression", exEng: "We realized we have a lot in common, including our love for hiking.", exJpn: "ハイキングが好きであることを含め、私たちには共通点がたくさんあると気づきました。" },
-        { eng: "Hit it off immediately", jpn: "すぐに意気投合する", formality: "Casual expression", exEng: "Sarah and I hit it off immediately when we met at the conference.", exJpn: "サラと私は会議で会ったとき、すぐに意気投合しました。" },
-        { eng: "Find common ground", jpn: "共通の話題（接点）を見つける", formality: "Business expression", exEng: "Talking about movies is an easy way to find common ground.", exJpn: "映画について話すことは、共通の話題を見つける簡単な方法です。" },
-        { eng: "Bail on plans", jpn: "予定を途中で抜ける・ドタキャンする", formality: "Casual expression", exEng: "He felt too shy to go to the mixer, so he bailed on plans at the last minute.", exJpn: "彼は交流会に行くのが恥ずかしくなり、土壇場で予定をキャンセルしました。" },
-        { eng: "Bet", jpn: "了解・いいよ・もちろん（同意を表す相槌）", formality: "Casual expression", exEng: "'Want to grab coffee after class to practice English?' 'Bet!'", exJpn: "「授業の後に英語の練習がてらコーヒー飲まない？」「いいね、行こう！」" },
-        { eng: "Cringe", jpn: "痛々しい・見ていて恥ずかしくなる（ドン引きする）", formality: "Casual expression", exEng: "Trying too hard to brag about your money on a first date is so cringe.", exJpn: "初デートでお金の自慢を必死にするのは本当に痛々しいです。" },
-        { eng: "Click right away", jpn: "すぐに意気投合する（波長が合う）", formality: "Casual expression", exEng: "When we met at the concert, we clicked right away and talked for hours.", exJpn: "コンサートで会ったとき、すぐに意気投合して何時間も話し込みました。" }
-    ],
-    grammarPoints: [
-        {
-            point: "1. Questions: Indirect Questions (Wh- words)",
-            explanation: "To ask a question politely to a stranger, start with a phrase like 'Could you tell me...' or 'Do you know...' followed by the question word. The word order then becomes a normal statement (Subject + Verb).",
-            explanationJpn: "見知らぬ人に丁寧に質問するには、「Could you tell me...」や「Do you know...」などのフレーズの後に疑問詞を続けます。その後の語順は普通の肯定文（主語＋動詞）になります。",
-            examples: [
-                { eng: "Could you tell me where the station is?", jpn: "駅がどこにあるか教えていただけますか？" },
-                { eng: "Do you know what time the meeting starts?", jpn: "会議が何時に始まるか知っていますか？" }
+ {
+        id: 1,
+        chapter: "Chapter 1: First Meetings",
+        type: "opinion",
+        title: "Lesson 1: Opinion Exchange - Meeting strangers",
+        goal: "Discuss first impressions and ask polite questions using indirect question structures. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(第一印象について話し合い、間接疑問文を使って丁寧に質問する。)</span>",
+        topicIntroduction: {
+            title: "Topic Introduction",
+            instruction: "Listen to three professionals introducing today's discussion themes.",
+            speakers: [
+                { name: "Person 1", eng: "When I meet someone new at a business event, I usually start with a basic and polite introduction. First, I clearly state my name and my specific role at the company. I think it is very important to speak slowly and clearly so the other person understands me well. After that, I always like to use a simple icebreaker. For example, talking about the weather, a recent sports event, or an interesting news story is a great way to make the other person feel relaxed and comfortable. I believe that people often feel nervous during first meetings. Because of this, a friendly smile and a warm voice are very helpful. I also try to ask a simple question, like how their journey to the office was. This shows that I care about them. If you follow these simple steps, you can easily build a positive connection with anyone you meet.", jpn: "ビジネスイベントで新しい人に会うとき、私は通常、基本的で丁寧な自己紹介から始めます。まず、自分の名前と会社での具体的な役割をはっきりと述べます。相手がよく理解できるように、ゆっくりと明確に話すことが非常に重要だと思います。その後、私はいつも簡単なアイスブレイクを使うのが好きです。例えば、天気や最近のスポーツイベント、あるいは興味深いニュースについて話すことは、相手をリラックスさせ、快適な気分にさせる素晴らしい方法です。初対面では緊張する人が多いと思います。そのため、フレンドリーな笑顔と温かい声は非常に役立ちます。また、オフィスまでの道のりはどうだったかなど、簡単な質問をするようにもしています。これは私が相手を気にかけていることを示します。これらの簡単なステップに従えば、出会うすべての人と簡単にポジティブなつながりを築くことができます。" },
+                { name: "Person 2", eng: "In my experience, body language is a very important part of making a good first impression. When you meet a new client or colleague, making natural eye contact and offering a firm handshake can show that you are a confident professional. This positive body language makes business networking much easier and more successful. When you exchange business cards, you should take a moment to read the card carefully instead of putting it away immediately. This shows respect for the other person. Also, asking a polite question about their company or their role helps to start an interesting conversation. Finding common interests, such as a shared hobby or a similar business goal, helps you build a strong professional network. If you look interested and listen carefully, people will remember you. Good networking is not just about collecting business cards; it is about building real relationships with other people in your industry.", jpn: "私の経験では、良い第一印象を与える上でボディーランゲージは非常に重要な部分です。新しいクライアントや同僚に会うとき、自然なアイコンタクトを取り、しっかりとした握手をすることは、あなたが自信に満ちたプロフェッショナルであることを示せます。このポジティブなボディーランゲージにより、ビジネスのネットワーキングがはるかに簡単になり、成功しやすくなります。名刺を交換する際は、すぐにしまうのではなく、少し時間を取って名刺を注意深く読むべきです。これは相手への敬意を示します。また、相手の会社や役割について丁寧な質問をすることは、興味深い会話を始めるのに役立ちます。共通の趣味や似たようなビジネスの目標など、共通の関心事を見つけることで、強固なプロフェッショナルネットワークを築くことができます。興味を持っているように見せ、注意深く話を聞けば、人々はあなたのことを覚えてくれるでしょう。良いネットワーキングとは、単に名刺を集めることではなく、業界の他の人々と本当の関係を築くことです。" },
+                { name: "Person 3", eng: "When you travel for business, it is also crucial to understand different cultural norms. For example, knowing whether to bow or shake hands when you introduce yourself shows deep respect for the local culture. If you do not learn about these customs, you might accidentally offend your new business partner. During a first meeting, I always stick to safe and friendly topics. Discussing delicious local food, popular hobbies, or famous sports teams is usually appropriate and prevents any awkward situations. You should avoid asking personal questions about age, money, or family until you know the person better. Safe topics help everyone feel relaxed and encourage a smooth conversation. I also think it is helpful to learn a few basic greeting words in the other person's native language. This small effort shows that you are a polite and caring professional who respects their background and wants to build a good relationship.", jpn: "出張の際は、異なる文化的な規範を理解することも極めて重要です。例えば、自己紹介の際にお辞儀をするか握手をするかを知ることは、現地の文化への深い敬意を示します。これらの習慣について学ばないと、誤って新しいビジネスパートナーを怒らせてしまうかもしれません。初対面の際、私は常に安全でフレンドリーな話題にとどめます。美味しい地元の食べ物、人気のある趣味、または有名なスポーツチームについて話すことは通常適切であり、気まずい状況を防ぐことができます。相手のことをよく知るまでは、年齢、お金、または家族についての個人的な質問は避けるべきです。安全な話題は、全員がリラックスし、スムーズな会話を促すのに役立ちます。また、相手の母国語でいくつかの基本的な挨拶の言葉を学ぶことも役立つと思います。この小さな努力は、あなたが相手の背景を尊重し、良い関係を築きたいと思っている、礼儀正しく思いやりのあるプロフェッショナルであることを示します。" }
             ]
         },
-        {
-            point: "2. Questions: Indirect Questions (Yes/No)",
-            explanation: "If the original question is a Yes/No question, use 'if' or 'whether' after the polite opening phrase.",
-            explanationJpn: "元の質問が「はい/いいえ」で答えられる質問の場合は、丁寧な出だしのフレーズの後に「if」または「whether」（〜かどうか）を使用します。",
-            examples: [
-                { eng: "Do you know if the manager is in the office?", jpn: "マネージャーがオフィスにいるかどうか知っていますか？" },
-                { eng: "Could you tell me whether this seat is taken?", jpn: "この席が空いているかどうか教えていただけますか？" }
-            ]
-        }
-    ],
-    expressions: [
-        { eng: "Actually", jpn: "実は / 実際には", exampleEng: "Actually, I feel quite excited when I meet new people at a business event.", exampleJpn: "実は、ビジネスイベントで新しい人に会うとかなりワクワクします。" },
-        { eng: "After all", jpn: "結局のところ / 何しろ〜だから", exampleEng: "It is difficult to talk to a complete stranger because, after all, you don't know their interests.", exampleJpn: "全く見知らぬ人と話すのが難しいのは、何しろ相手の興味がわからないからです。" },
-        { eng: "In my opinion", jpn: "私の意見では", exampleEng: "In my opinion, the best topic to discuss is recent industry news.", exampleJpn: "私の意見では、最初に話すのに最適な話題は最近の業界ニュースです。" },
-        { eng: "For instance", jpn: "例えば", exampleEng: "Body language is important for making a good first impression; for instance, a firm handshake shows confidence.", exampleJpn: "良い第一印象を与えるためにボディーランゲージは重要です。例えば、しっかりとした握手は自信を示します。" },
-        { eng: "To sum up", jpn: "要約すると", exampleEng: "To sum up, I usually introduce myself to a new colleague by smiling and stating my role clearly.", exampleJpn: "要約すると、新しい同僚には普段、笑顔で自分の役割を明確に述べることで自己紹介します。" }
-    ],
-    homework: {
-        vocab: [
-{ eng: "Give a friendly smile", jpn: "親しみやすい笑顔を見せる", formality: "Neutral expression", exEng: "A friendly smile makes people feel comfortable talking to you.", exJpn: "親しみやすい笑顔は、人々にあなたと話す安心感を与えます。" },
-            { eng: "Use open body language", jpn: "オープンなボディランゲージを使う", formality: "Neutral expression", exEng: "Try to use open body language instead of crossing your arms.", exJpn: "腕を組む代わりに、オープンなボディランゲージを使うようにしましょう。" },
-            { eng: "Remember someone's name", jpn: "人の名前を覚える", formality: "Neutral expression", exEng: "Repeating a person's name helps you remember someone's name easily.", exJpn: "相手の名前を繰り返すことで、人の名前を簡単に覚えられます。" },
-            { eng: "Forget someone's name", jpn: "人の名前を忘れる", formality: "Neutral expression", exEng: "I feel embarrassed whenever I forget someone's name right after meeting them.", exJpn: "会った直後に人の名前を忘れてしまうときはいつでも恥ずかしく感じます。" },
-            { eng: "Mispronounce a name", jpn: "名前の発音を間違える", formality: "Neutral expression", exEng: "Please correct me if I mispronounce your name.", exJpn: "もし私があなたの名前の発音を間違えていたら訂正してください。" },
-            { eng: "Go by a nickname", jpn: "ニックネームで呼ばれる（通っている）", formality: "Casual expression", exEng: "His full name is Robert, but he goes by the nickname Rob.", exJpn: "彼のフルネームはロバートですが、ロブというニックネームで通っています。" },
-            { eng: "Ask open-ended questions", jpn: "自由回答式の質問をする", formality: "Business expression", exEng: "Ask open-ended questions so the other person can share more details.", exJpn: "相手がより詳しい話を共有できるように、自由回答式の質問をしましょう。" },
-            { eng: "Show genuine interest", jpn: "心からの関心を示す", formality: "Neutral expression", exEng: "People love talking to listeners who show genuine interest.", exJpn: "人々は心からの関心を示してくれる聞き手と話すのが大好きです。" },
-            { eng: "Listen actively", jpn: "積極的に耳を傾ける（傾聴する）", formality: "Business expression", exEng: "Nodding your head shows that you are listening actively.", exJpn: "うなずくことで、あなたが積極的に耳を傾けていることが伝わります。" },
-            { eng: "Pay close attention", jpn: "細心の注意を払う（よく聞く）", formality: "Neutral expression", exEng: "Pay close attention to what she says about her background.", exJpn: "彼女が自分の経歴について話すことによく耳を傾けてください。" },
-            { eng: "Keep the conversation going", jpn: "会話を続ける", formality: "Neutral expression", exEng: "Asking follow-up questions is the best way to keep the conversation going.", exJpn: "追加の質問をすることは、会話を続けるための最良の方法です。" },
-            { eng: "Change the subject", jpn: "話題を変える", formality: "Neutral expression", exEng: "When the topic became uncomfortable, he quickly changed the subject.", exJpn: "話題が気まずくなったとき、彼は素早く話題を変えました。" },
-            { eng: "Bring up a topic", jpn: "話題を持ち出す", formality: "Neutral expression", exEng: "Try not to bring up a controversial topic when meeting someone for the first time.", exJpn: "初対面の人と会うときは、議論を呼ぶような話題を持ち出さないようにしましょう。" },
-            { eng: "Avoid sensitive topics", jpn: "デリケートな話題を避ける", formality: "Business expression", exEng: "It is usually wise to avoid sensitive topics like politics at a first meeting.", exJpn: "初対面では政治のようなデリケートな話題を避けるのがたいてい賢明です。" },
-            { eng: "Awkward silence", jpn: "気まずい沈黙", formality: "Neutral expression", exEng: "There was an awkward silence after nobody knew what to say next.", exJpn: "次に何を言えばいいか誰もわからず、気まずい沈黙が流れました。" },
-            { eng: "Fill the silence", jpn: "沈黙を埋める", formality: "Neutral expression", exEng: "She asked about his weekend plans to fill the silence.", exJpn: "彼女は沈黙を埋めるために彼の週末の予定について尋ねました。" },
-            { eng: "Feel nervous", jpn: "緊張する", formality: "Neutral expression", exEng: "It is completely normal to feel nervous before meeting new people.", exJpn: "新しい人たちに会う前に緊張するのはまったく普通のことです。" },
-            { eng: "Put someone at ease", jpn: "人を安心させる（くつろがせる）", formality: "Neutral expression", exEng: "The host's kind words immediately put all the guests at ease.", exJpn: "主催者の優しい言葉はすぐにすべてのゲストを安心させました。" },
-            { eng: "Feel comfortable around someone", jpn: "人のそばで居心地よく感じる", formality: "Neutral expression", exEng: "He is so easygoing that I felt comfortable around him right away.", exJpn: "彼はとても気さくな人なので、私はすぐに彼のそばで居心地よく感じました。" },
-            { eng: "Make a lasting impression", jpn: "忘れられない印象を残す", formality: "Business expression", exEng: "Her enthusiasm and kindness made a lasting impression on everyone.", exJpn: "彼女の熱意と親切さは、みんなの心に忘れられない印象を残しました。" }        ],
-        expandedDialogue: [
-            { speaker: "A", eng: "Excuse me. Could you tell me if you are the new software engineer?", jpn: "すみません。あなたが新しいソフトウェアエンジニアかどうか教えていただけますか？" },
-            { speaker: "B", eng: "Yes, I am. My name is David.", jpn: "はい、そうです。私の名前はデビッドです。" },
-            { speaker: "A", eng: "Nice to meet you, David. I'm Sarah. Do you know where your desk is?", jpn: "はじめまして、デビッド。私はサラです。ご自分のデスクがどこにあるかご存知ですか？" },
-            { speaker: "B", eng: "No, I haven't found it yet. To be honest, I feel a little nervous about meeting so many strangers.", jpn: "いいえ、まだ見つけていません。正直に言うと、たくさんの見知らぬ人に会うことに少し緊張しています。" },
-            { speaker: "A", eng: "Don't worry, everyone is very friendly. I can show you where the break room is.", jpn: "心配しないで、みんなとてもフレンドリーですよ。休憩室がどこにあるか案内できます。" },
-            { speaker: "B", eng: "That's good to hear. Could you tell me what time everyone usually eats lunch?", jpn: "それを聞いて安心しました。みんな普段何時に昼食をとるか教えていただけますか？" },
-            { speaker: "A", eng: "Usually around noon. You will hang out with us today, right?", jpn: "たいてい正午くらいです。今日は私たちと一緒に過ごしますよね？" },
-            { speaker: "B", eng: "I would love to. Do you know if there are any good restaurants nearby?", jpn: "ぜひお願いします。近くに良いレストランがあるかご存知ですか？" },
-            { speaker: "A", eng: "Absolutely. We usually interact casually at a cafe down the street.", jpn: "もちろんです。私たちは普段、通りを少し行ったところにあるカフェでカジュアルに交流しています。" },
-            { speaker: "B", eng: "That sounds like a great atmosphere. I won't hesitate to join you.", jpn: "素晴らしい雰囲気のようですね。ためらわずに参加しようと思います。" },
-            { speaker: "A", eng: "Please do. We appreciate genuine curiosity. Could you tell me where you worked before?", jpn: "ぜひそうしてください。私たちは純粋な好奇心を歓迎します。以前はどこで働いていたか教えていただけますか？" },
-            { speaker: "B", eng: "I worked in marketing for three years. But programming is much more fascinating to me.", jpn: "マーケティングで3年間働いていました。でも、プログラミングの方が私にとってはるかに魅力的です。" },
-            { speaker: "A", eng: "I agree. Maintaining your skills is a fun challenge.", jpn: "同感です。スキルを維持することは楽しい挑戦ですよね。" },
-            { speaker: "B", eng: "Definitely. I look forward to working with everyone here.", jpn: "間違いありません。ここで皆さんと一緒に働くのを楽しみにしています。" }
+        discussionTopics: [
+            { theme: "Introductions 📖", themeJpn: "自己紹介", sub: [{eng: "Name and role", jpn: "名前と役割"}, {eng: "Company background", jpn: "会社の背景"}, {eng: "Current projects", jpn: "現在のプロジェクト"}] },
+            { theme: "Icebreakers 📖", themeJpn: "アイスブレイク", sub: [{eng: "Weather conditions", jpn: "天候の状況"}, {eng: "Recent news", jpn: "最近のニュース"}, {eng: "Travel experiences", jpn: "旅行の経験"}] },
+            { theme: "Body Language 📖", themeJpn: "ボディーランゲージ", sub: [{eng: "Eye contact", jpn: "アイコンタクト"}, {eng: "Firm handshakes", jpn: "しっかりとした握手"}, {eng: "Friendly smiles", jpn: "フレンドリーな笑顔"}] },
+            { theme: "Networking 📖", themeJpn: "ネットワーキング", sub: [{eng: "Exchanging cards", jpn: "名刺交換"}, {eng: "Common interests", jpn: "共通の関心事"}, {eng: "Following up", jpn: "フォローアップ"}] },
+            { theme: "Cultural Norms 📖", themeJpn: "文化的な規範", sub: [{eng: "Bowing vs shaking hands", jpn: "お辞儀と握手"}, {eng: "Politeness levels", jpn: "丁寧さのレベル"}, {eng: "Personal space", jpn: "パーソナルスペース"}] },
+            { theme: "Safe Topics 📖", themeJpn: "安全な話題", sub: [{eng: "Food and drink", jpn: "食べ物と飲み物"}, {eng: "Hobbies and sports", jpn: "趣味やスポーツ"}, {eng: "Professional events", jpn: "仕事のイベント"}] }
         ],
-        writingTask: {
-            promptEng: "Write a short paragraph answering this question: What do you usually do to make a good first impression when you meet a stranger?",
-            promptJpn: "「見知らぬ人に会うとき、良い第一印象を与えるために普段何をしますか？」という質問に答える短い段落を書いてください。"
-        },
-      extendedReading: {
-            title: "Task 4: Authentic Reading (Online Course Reviews)",
-            instruction: "Read these detailed online reviews for a popular business communication seminar. Notice how the reviewers express their opinions and describe their experiences.",
-            eng: "<div class='er-template'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Highly Recommended for Beginners!</strong></div><span class='er-author'>By: Sarah T. | October 12</span></div><p style='margin:0;'>I decided to take this seminar to improve my professional networking skills. Before this course, I always felt incredibly nervous when meeting new people at business events. The instructor gave us great tips on how to break the ice naturally. For example, we learned how to strike up a conversation by asking simple questions about the weather or the venue. It was incredibly helpful for my confidence. Now, I know exactly what to say to make a good first impression. I also realized that having a lot in common with someone is not necessary to start a friendly chat. You just need to show genuine interest in their answers. I definitely recommend this program to anyone who struggles with social anxiety at work.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>Good, but a bit too basic</strong></div><span class='er-author'>By: Kenji M. | October 15</span></div><p style='margin:0;'>The advice about making a good first impression was quite useful, but overall, the course was a bit too simple for my current career level. I already knew how to introduce myself and how to make small talk about safe topics. I was hoping to learn more advanced strategies, such as how to politely change the subject when a conversation becomes awkward, or how to politely bail on plans when you are too busy. The section on indirect questions was a nice review. We practiced asking things like, 'Could you tell me what time the presentation starts?' However, I felt that we spent too much time on basic greetings. It is a fantastic course for university students, but maybe not for experienced managers.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>Very practical and interactive</strong></div><span class='er-author'>By: Emma L. | October 20</span></div><p style='margin:0;'>I absolutely loved the interactive role-play activities in this seminar! We practiced striking up a conversation with complete strangers, which forced everyone to step outside their comfort zone. The instructor emphasized that body language is just as important as the words you choose. We practiced maintaining a friendly smile, giving a firm handshake, and standing with open body language. These small details really help you get to know someone much faster because they feel comfortable around you. My only complaint is that the conference room was a little too cold, and the coffee breaks were too short. Otherwise, it was a wonderful experience, and I met some amazing people.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Life-changing communication skills</strong></div><span class='er-author'>By: David K. | November 2</span></div><p style='margin:0;'>This course changed my mind about networking. I used to think networking was just about collecting business cards and forcing a connection. Actually, it is about finding common ground. We learned that you should never ask sensitive personal questions right away. Instead, you should find safe, everyday topics. The teacher explained that if you listen actively and pay close attention, you will easily find something interesting to discuss. We also learned how to use polite expressions to keep the conversation going smoothly. I hit it off immediately with several other students in the class, and we are still in touch today. I highly recommend spending your weekend taking this course.</p></div></div>",
-            jpn: "<div class='er-template'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>初心者には強くお勧めします！</strong></div><span class='er-author'>投稿者：サラ・T | 10月12日</span></div><p style='margin:0;'>プロフェッショナルな人脈作りのスキルを向上させるために、このセミナーを受講することにしました。このコースを受講する前は、ビジネスイベントで新しい人に会うといつも信じられないほど緊張していました。講師は、自然に緊張をほぐすための素晴らしいヒントをくれました。例えば、天気や会場についての簡単な質問をして会話を始める方法を学びました。私の自信にとって信じられないほど役立ちました。今では、良い第一印象を与えるために何を言うべきか正確にわかっています。また、友好的な会話を始めるために、誰かと多くの共通点を持つ必要はないことにも気づきました。ただ相手の答えに純粋な関心を示すだけでいいのです。職場の社交不安に悩むすべての人に、このプログラムを間違いなくお勧めします。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>良いが、少し基礎的すぎる</strong></div><span class='er-author'>投稿者：ケンジ・M | 10月15日</span></div><p style='margin:0;'>良い第一印象を与えることについてのアドバイスは非常に役立ちましたが、全体的に見て、私の現在のキャリアレベルにとっては少しシンプルすぎました。私はすでに自己紹介の方法や、安全な話題について世間話をする方法は知っていました。会話が気まずくなったときに丁寧に話題を変える方法や、忙しすぎるときに丁寧に予定をキャンセルする方法など、もっと高度な戦略を学びたいと思っていました。間接疑問文のセクションは良い復習になりました。「プレゼンテーションが何時に始まるか教えていただけますか？」といった質問の練習をしました。しかし、基本的な挨拶に時間をかけすぎたと感じました。大学生には素晴らしいコースですが、経験豊富なマネージャー向けではないかもしれません。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>非常に実践的でインタラクティブ</strong></div><span class='er-author'>投稿者：エマ・L | 10月20日</span></div><p style='margin:0;'>このセミナーのインタラクティブなロールプレイ活動が絶対に気に入りました！全く見知らぬ人と会話を始める練習をしたことで、全員が快適な領域（コンフォートゾーン）から一歩踏み出すことを余儀なくされました。講師は、ボディランゲージは選ぶ言葉と同じくらい重要であると強調しました。親しみやすい笑顔を保ち、しっかりとした握手をし、オープンなボディランゲージで立つ練習をしました。これらの小さな細部は、相手があなたのそばで居心地よく感じるため、はるかに早く相手を知るのに本当に役立ちます。唯一の不満は、会議室が少し寒すぎたことと、コーヒーブレイクが短すぎたことです。それ以外は素晴らしい経験で、素晴らしい人たちに出会えました。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>人生を変えるコミュニケーションスキル</strong></div><span class='er-author'>投稿者：デビッド・K | 11月2日</span></div><p style='margin:0;'>このコースはネットワーキングに対する私の見方を変えました。以前は、ネットワーキングとは単に名刺を集め、無理やりつながりを作ることだと思っていました。実際には、共通の話題を見つけることなのです。すぐにデリケートな個人的な質問をするべきではないと学びました。代わりに、安全で日常的な話題を見つけるべきです。先生は、積極的に耳を傾け、細心の注意を払えば、議論すべき面白い話題が簡単に見つかると説明しました。また、会話をスムーズに続けるための丁寧な表現の使い方も学びました。クラスの他の数人の生徒とすぐに意気投合し、今日でも連絡を取り合っています。週末を費やしてこのコースを受講することを強くお勧めします。</p></div></div>"
+        questions: [
+            { eng: "1. How do you feel when you meet new people at a business event?", jpn: "1. ビジネスイベントで新しい人に会うとき、どう感じますか？" },
+            { eng: "2. Why is it sometimes difficult to talk to a complete stranger?", jpn: "2. 全く見知らぬ人と話すのが時に難しいのはなぜですか？" },
+            { eng: "3. What is the best topic to discuss when you first meet someone?", jpn: "3. 初対面の人と話すときに最適な話題は何ですか？" },
+            { eng: "4. Do you usually shake hands or bow when introducing yourself?", jpn: "4. 自己紹介をするときは、普段握手をしますか、それともお辞儀をしますか？" },
+            { eng: "5. Why is body language important for making a good first impression?", jpn: "5. 良い第一印象を与えるために、なぜボディーランゲージが重要なのですか？" },
+            { eng: "6. What kinds of personal questions should you avoid asking right away?", jpn: "6. すぐに聞くべきではない個人的な質問にはどのようなものがありますか？" },
+            { eng: "7. Why do some people feel nervous when meeting strangers?", jpn: "7. 見知らぬ人に会うと緊張する人がいるのはなぜですか？" },
+            { eng: "8. How does a smile change a person's first impression?", jpn: "8. 笑顔は人の第一印象をどのように変えますか？" },
+            { eng: "9. Have you ever made a bad first impression on someone?", jpn: "9. 誰かに悪い第一印象を与えてしまったことはありますか？" },
+            { eng: "10. How do you usually introduce yourself to a new colleague?", jpn: "10. 新しい同僚には普段どのように自己紹介しますか？" }
+        ],
+        vocab: [
+{ eng: "Make a good first impression", jpn: "良い第一印象を与える", formality: "Neutral expression", exEng: "Wearing neat clothes helps you make a good first impression.", exJpn: "きちんとした服を着ると、良い第一印象を与えるのに役立ちます。" },																									
+{ eng: "Break the ice", jpn: "場の空気を和らげる（緊張をほぐす）", formality: "Neutral expression", exEng: "He told a funny joke to break the ice at the party.", exJpn: "彼はパーティーで場の空気を和らげるために面白いジョークを言いました。" },																									
+{ eng: "Strike up a conversation", jpn: "会話を始める（話しかける）", formality: "Neutral expression", exEng: "I struck up a conversation with the person sitting next to me on the train.", exJpn: "電車で隣に座っていた人に話しかけて会話を始めました。" },																									
+{ eng: "Make small talk", jpn: "世間話をする", formality: "Neutral expression", exEng: "We made small talk about the weather while waiting for the meeting to start.", exJpn: "会議が始まるのを待っている間、天気について世間話をしました。" },																									
+{ eng: "Get to know someone", jpn: "人を知る（親しくなる）", formality: "Neutral expression", exEng: "It takes time to really get to know someone new.", exJpn: "新しい人を本当に知るには時間がかかります。" },																									
+{ eng: "Have a lot in common", jpn: "共通点がたくさんある", formality: "Neutral expression", exEng: "We realized we have a lot in common, including our love for hiking.", exJpn: "ハイキングが好きであることを含め、私たちには共通点がたくさんあると気づきました。" },																									
+{ eng: "Hit it off immediately", jpn: "すぐに意気投合する", formality: "Casual expression", exEng: "Sarah and I hit it off immediately when we met at the conference.", exJpn: "サラと私は会議で会ったとき、すぐに意気投合しました。" },																									
+{ eng: "Find common ground", jpn: "共通の話題（接点）を見つける", formality: "Business expression", exEng: "Talking about movies is an easy way to find common ground.", exJpn: "映画について話すことは、共通の話題を見つける簡単な方法です。" },																									
+{ eng: "Bail on plans", jpn: "予定を途中で抜ける・ドタキャンする", formality: "Casual expression", exEng: "He felt too shy to go to the mixer, so he bailed on plans at the last minute.", exJpn: "彼は交流会に行くのが恥ずかしくなり、土壇場で予定をキャンセルしました。" },																									
+{ eng: "Introduce yourself to someone", jpn: "人に自己紹介をする", formality: "Neutral expression", exEng: "Don't be afraid to walk up and introduce yourself to someone new.", exJpn: "怖がらずに歩み寄って、新しい人に自己紹介をしましょう。" },																									
+{ eng: "Shake hands firmly", jpn: "しっかりと握手をする", formality: "Business expression", exEng: "In many countries, it is polite to shake hands firmly when you meet.", exJpn: "多くの国では、会ったときにしっかりと握手をするのが礼儀です。" },																									
+{ eng: "Make eye contact", jpn: "アイコンタクトをとる（目を合わせる）", formality: "Neutral expression", exEng: "Making eye contact shows that you are listening carefully.", exJpn: "アイコンタクトをとることは、注意深く聞いていることを示します。" },																																																		
+        ],
+        grammarPoints: [
+            {
+                point: "1. Questions: Indirect Questions (Wh- words)",
+                explanation: "To ask a question politely to a stranger, start with a phrase like 'Could you tell me...' or 'Do you know...' followed by the question word. The word order then becomes a normal statement (Subject + Verb).",
+                explanationJpn: "見知らぬ人に丁寧に質問するには、「Could you tell me...」や「Do you know...」などのフレーズの後に疑問詞を続けます。その後の語順は普通の肯定文（主語＋動詞）になります。",
+                examples: [
+                    { eng: "Could you tell me where the station is?", jpn: "駅がどこにあるか教えていただけますか？" },
+                    { eng: "Do you know what time the meeting starts?", jpn: "会議が何時に始まるか知っていますか？" }
+                ]
+            },
+            {
+                point: "2. Questions: Indirect Questions (Yes/No)",
+                explanation: "If the original question is a Yes/No question, use 'if' or 'whether' after the polite opening phrase.",
+                explanationJpn: "元の質問が「はい/いいえ」で答えられる質問の場合は、丁寧な出だしのフレーズの後に「if」または「whether」（〜かどうか）を使用します。",
+                examples: [
+                    { eng: "Do you know if the manager is in the office?", jpn: "マネージャーがオフィスにいるかどうか知っていますか？" },
+                    { eng: "Could you tell me whether this seat is taken?", jpn: "この席が空いているかどうか教えていただけますか？" }
+                ]
+            }
+        ],
+        expressions: [
+            { eng: "Actually", jpn: "実は / 実際には", exampleEng: "Actually, I feel quite excited when I meet new people at a business event.", exampleJpn: "実は、ビジネスイベントで新しい人に会うとかなりワクワクします。" },
+            { eng: "After all", jpn: "結局のところ / 何しろ〜だから", exampleEng: "It is difficult to talk to a complete stranger because, after all, you don't know their interests.", exampleJpn: "全く見知らぬ人と話すのが難しいのは、何しろ相手の興味がわからないからです。" },
+            { eng: "In my opinion", jpn: "私の意見では", exampleEng: "In my opinion, the best topic to discuss is recent industry news.", exampleJpn: "私の意見では、最初に話すのに最適な話題は最近の業界ニュースです。" },
+            { eng: "For instance", jpn: "例えば", exampleEng: "Body language is important for making a good first impression; for instance, a firm handshake shows confidence.", exampleJpn: "良い第一印象を与えるためにボディーランゲージは重要です。例えば、しっかりとした握手は自信を示します。" },
+            { eng: "To sum up", jpn: "要約すると", exampleEng: "To sum up, I usually introduce myself to a new colleague by smiling and stating my role clearly.", exampleJpn: "要約すると、新しい同僚には普段、笑顔で自分の役割を明確に述べることで自己紹介します。" }
+        ],
+        homework: {
+            vocab: [
+               { eng: "Exchange business cards", jpn: "名刺を交換する", formality: "Business expression", exEng: "We exchanged business cards before the seminar began.", exJpn: "セミナーが始まる前に私たちは名刺を交換しました。" },																									
+{ eng: "Swap contact info", jpn: "連絡先を交換する", formality: "Casual expression", exEng: "Let's swap contact info before you leave the party.", exJpn: "あなたがパーティーを出る前に連絡先を交換しましょう。" },																									
+{ eng: "Put a face to the name", jpn: "名前と顔を一致させる", formality: "Neutral expression", exEng: "After emailing for months, it is great to finally put a face to the name.", exJpn: "何ヶ月もメールをしていたので、ついに名前と顔が一致して嬉しいです。" },																									
+{ eng: "Catch someone's name", jpn: "人の名前を聞き取る", formality: "Neutral expression", exEng: "I'm sorry, I didn't quite catch your name earlier.", exJpn: "すみません、先ほどお名前をうまく聞き取れませんでした。" },																									
+{ eng: "Have a familiar face", jpn: "見覚えのある顔である", formality: "Neutral expression", exEng: "She had a familiar face, so I asked if we had met before.", exJpn: "彼女はどこか見覚えのある顔だったので、以前に会ったことがあるか尋ねました。" },																									
+{ eng: "Ring a bell", jpn: "ピンとくる（心当たりがある）", formality: "Casual expression", exEng: "His name rings a bell, but I can't remember where we met.", exJpn: "彼の名前にはピンとくるものがありますが、どこで会ったか思い出せません。" },																									
+{ eng: "Click with someone", jpn: "人とウマが合う（意気投合する）", formality: "Casual expression", exEng: "I really clicked with my new roommate on the very first day.", exJpn: "初日に新しいルームメイトと本当にウマが合いました。" },																									
+{ eng: "Get along well", jpn: "仲良くやっていく（気が合う）", formality: "Neutral expression", exEng: "It was obvious from our first chat that we would get along well.", exJpn: "最初の雑談から、私たちが仲良くやっていけることは明らかでした。" },																									
+{ eng: "Get off on the wrong foot", jpn: "幸先の悪いスタートを切る（第一印象でつまずく）", formality: "Neutral expression", exEng: "We got off on the wrong foot because I was twenty minutes late.", exJpn: "私が20分遅刻したせいで、私たちは幸先の悪いスタートを切りました。" },																									
+{ eng: "Get off to a good start", jpn: "順調な滑り出しを見せる", formality: "Neutral expression", exEng: "Our first meeting got off to a good start thanks to her warm welcome.", exJpn: "彼女の温かい歓迎のおかげで、私たちの初対面は順調な滑り出しを見せました。" },																									
+{ eng: "Come across as friendly", jpn: "親しみやすい印象を与える", formality: "Neutral expression", exEng: "He was a bit quiet, but he still came across as friendly.", exJpn: "彼は少し物静かでしたが、それでも親しみやすい印象を与えました。" },																									
+{ eng: "Come on too strong", jpn: "グイグイ行き過ぎる（押しが強すぎる）", formality: "Casual expression", exEng: "Try not to come on too strong when you first meet her parents.", exJpn: "彼女の両親に初めて会うときは、グイグイ行き過ぎないように気をつけて。" },																									
+{ eng: "Give off a good vibe", jpn: "良い雰囲気を醸し出す", formality: "Casual expression", exEng: "The new manager gives off a really good vibe.", exJpn: "新しいマネージャーはとても良い雰囲気を醸し出しています。" },																									
+{ eng: "Feel awkward silence", jpn: "気まずい沈黙を感じる", formality: "Neutral expression", exEng: "There was a moment of awkward silence after we said hello.", exJpn: "挨拶をした後、一瞬気まずい沈黙がありました。" },																									
+{ eng: "Fill the silence", jpn: "沈黙を埋める", formality: "Neutral expression", exEng: "I talked about my dog just to fill the silence.", exJpn: "沈黙を埋めるためだけに、自分の犬について話しました。" },																									
+{ eng: "Run out of things to say", jpn: "話すことがなくなる", formality: "Neutral expression", exEng: "I was worried we might run out of things to say on our first date.", exJpn: "初デートで話すことがなくなるのではないかと心配していました。" },																									
+{ eng: "Keep the conversation flowing", jpn: "会話を弾ませる（途切れさせない）", formality: "Neutral expression", exEng: "Asking open questions helps keep the conversation flowing.", exJpn: "自由回答形式の質問をすると、会話を途切れさせずに続けるのに役立ちます。" },																									
+{ eng: "Warm up to someone", jpn: "人に打ち解ける", formality: "Neutral expression", exEng: "She seemed shy at first, but she quickly warmed up to us.", exJpn: "彼女は最初は恥ずかしがり屋に見えましたが、すぐに私たちに打ち解けました。" },																									
+{ eng: "Open up to someone", jpn: "人に心を開く", formality: "Neutral expression", exEng: "It is rare for him to open up to someone on the first day.", exJpn: "彼が初日に誰かに心を開くのは珍しいことです。" },																									
+{ eng: "Come out of your shell", jpn: "自分の殻を破る（社交的になる）", formality: "Neutral expression", exEng: "Going to college helped me come out of my shell and meet people.", exJpn: "大学に進学したことで、自分の殻を破り、人々と出会うことができました。" },																									
+            ],
+            clickingGames: [
+                // Grammar Point 1: Indirect Questions (Wh- words) - 4 sentences
+                { prompt: "駅がどこにあるか教えていただけますか？", target: "Could you tell me where the station is?", words: ["Could", "you", "tell", "me", "where", "the", "station", "is?"] },
+                { prompt: "会議が何時に始まるか知っていますか？", target: "Do you know what time the meeting starts?", words: ["Do", "you", "know", "what", "time", "the", "meeting", "starts?"] },
+                { prompt: "新しいマネージャーが誰か教えていただけますか？", target: "Could you tell me who the new manager is?", words: ["Could", "you", "tell", "me", "who", "the", "new", "manager", "is?"] },
+                { prompt: "彼らがどこで昼食をとるか知っていますか？", target: "Do you know where they eat lunch?", words: ["Do", "you", "know", "where", "they", "eat", "lunch?"] },
+                // Grammar Point 2: Indirect Questions (Yes/No) - 4 sentences
+                { prompt: "マネージャーがオフィスにいるかどうか知っていますか？", target: "Do you know if the manager is in the office?", words: ["Do", "you", "know", "if", "the", "manager", "is", "in", "the", "office?"] },
+                { prompt: "この席が空いているかどうか教えていただけますか？", target: "Could you tell me whether this seat is taken?", words: ["Could", "you", "tell", "me", "whether", "this", "seat", "is", "taken?"] },
+                { prompt: "近くに良いレストランがあるかどうか知っていますか？", target: "Do you know if there are any good restaurants nearby?", words: ["Do", "you", "know", "if", "there", "are", "any", "good", "restaurants", "nearby?"] },
+                { prompt: "あなたが新しいエンジニアかどうか教えていただけますか？", target: "Could you tell me if you are the new engineer?", words: ["Could", "you", "tell", "me", "if", "you", "are", "the", "new", "engineer?"] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Online Course Reviews)",
+                instruction: "Read these detailed online reviews for a popular business communication seminar. Notice how the reviewers express their opinions and describe their experiences.",
+                eng: "<div class='er-template'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Highly Recommended for Beginners!</strong></div><span class='er-author'>By: Sarah T. | October 12</span></div><p style='margin:0;'>I decided to take this seminar to improve my professional networking skills. Before this course, I always felt incredibly nervous when meeting new people at business events. The instructor gave us great tips on how to break the ice naturally. For example, we learned how to strike up a conversation by asking simple questions about the weather or the venue. It was incredibly helpful for my confidence. Now, I know exactly what to say to make a good first impression. I also realized that having a lot in common with someone is not necessary to start a friendly chat. You just need to show genuine interest in their answers. I definitely recommend this program to anyone who struggles with social anxiety at work.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>Good, but a bit too basic</strong></div><span class='er-author'>By: Kenji M. | October 15</span></div><p style='margin:0;'>The advice about making a good first impression was quite useful, but overall, the course was a bit too simple for my current career level. I already knew how to introduce myself and how to make small talk about safe topics. I was hoping to learn more advanced strategies, such as how to politely change the subject when a conversation becomes awkward, or how to politely bail on plans when you are too busy. The section on indirect questions was a nice review. We practiced asking things like, 'Could you tell me what time the presentation starts?' However, I felt that we spent too much time on basic greetings. It is a fantastic course for university students, but maybe not for experienced managers.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>Very practical and interactive</strong></div><span class='er-author'>By: Emma L. | October 20</span></div><p style='margin:0;'>I absolutely loved the interactive role-play activities in this seminar! We practiced striking up a conversation with complete strangers, which forced everyone to step outside their comfort zone. The instructor emphasized that body language is just as important as the words you choose. We practiced maintaining a friendly smile, giving a firm handshake, and standing with open body language. These small details really help you get to know someone much faster because they feel comfortable around you. My only complaint is that the conference room was a little too cold, and the coffee breaks were too short. Otherwise, it was a wonderful experience, and I met some amazing people.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Life-changing communication skills</strong></div><span class='er-author'>By: David K. | November 2</span></div><p style='margin:0;'>This course changed my mind about networking. I used to think networking was just about collecting business cards and forcing a connection. Actually, it is about finding common ground. We learned that you should never ask sensitive personal questions right away. Instead, you should find safe, everyday topics. The teacher explained that if you listen actively and pay close attention, you will easily find something interesting to discuss. We also learned how to use polite expressions to keep the conversation going smoothly. I hit it off immediately with several other students in the class, and we are still in touch today. I highly recommend spending your weekend taking this course.</p></div></div>",
+                jpn: "<div class='er-template'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>初心者には強くお勧めします！</strong></div><span class='er-author'>投稿者：サラ・T | 10月12日</span></div><p style='margin:0;'>プロフェッショナルな人脈作りのスキルを向上させるために、このセミナーを受講することにしました。このコースを受講する前は、ビジネスイベントで新しい人に会うといつも信じられないほど緊張していました。講師は、自然に緊張をほぐすための素晴らしいヒントをくれました。例えば、天気や会場についての簡単な質問をして会話を始める方法を学びました。私の自信にとって信じられないほど役立ちました。今では、良い第一印象を与えるために何を言うべきか正確にわかっています。また、友好的な会話を始めるために、誰かと多くの共通点を持つ必要はないことにも気づきました。ただ相手の答えに純粋な関心を示すだけでいいのです。職場の社交不安に悩むすべての人に、このプログラムを間違いなくお勧めします。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>良いが、少し基礎的すぎる</strong></div><span class='er-author'>投稿者：ケンジ・M | 10月15日</span></div><p style='margin:0;'>良い第一印象を与えることについてのアドバイスは非常に役立ちましたが、全体的に見て、私の現在のキャリアレベルにとっては少しシンプルすぎました。私はすでに自己紹介の方法や、安全な話題について世間話をする方法は知っていました。会話が気まずくなったときに丁寧に話題を変える方法や、忙しすぎるときに丁寧に予定をキャンセルする方法など、もっと高度な戦略を学びたいと思っていました。間接疑問文のセクションは良い復習になりました。「プレゼンテーションが何時に始まるか教えていただけますか？」といった質問の練習をしました。しかし、基本的な挨拶に時間をかけすぎたと感じました。大学生には素晴らしいコースですが、経験豊富なマネージャー向けではないかもしれません。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>非常に実践的でインタラクティブ</strong></div><span class='er-author'>投稿者：エマ・L | 10月20日</span></div><p style='margin:0;'>このセミナーのインタラクティブなロールプレイ活動が絶対に気に入りました！全く見知らぬ人と会話を始める練習をしたことで、全員が快適な領域（コンフォートゾーン）から一歩踏み出すことを余儀なくされました。講師は、ボディランゲージは選ぶ言葉と同じくらい重要であると強調しました。親しみやすい笑顔を保ち、しっかりとした握手をし、オープンなボディランゲージで立つ練習をしました。これらの小さな細部は、相手があなたのそばで居心地よく感じるため、はるかに早く相手を知るのに本当に役立ちます。唯一の不満は、会議室が少し寒すぎたことと、コーヒーブレイクが短すぎたことです。それ以外は素晴らしい経験で、素晴らしい人たちに出会えました。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>人生を変えるコミュニケーションスキル</strong></div><span class='er-author'>投稿者：デビッド・K | 11月2日</span></div><p style='margin:0;'>このコースはネットワーキングに対する私の見方を変えました。以前は、ネットワーキングとは単に名刺を集め、無理やりつながりを作ることだと思っていました。実際には、共通の話題を見つけることなのです。すぐにデリケートな個人的な質問をするべきではないと学びました。代わりに、安全で日常的な話題を見つけるべきです。先生は、積極的に耳を傾け、細心の注意を払えば、議論すべき面白い話題が簡単に見つかると説明しました。また、会話をスムーズに続けるための丁寧な表現の使い方も学びました。クラスの他の数人の生徒とすぐに意気投合し、今日でも連絡を取り合っています。週末を費やしてこのコースを受講することを強くお勧めします。</p></div></div>"
+            },
+            writingTask: {
+                promptEng: "Write a short paragraph answering this question: What do you usually do to make a good first impression when you meet a stranger?",
+                promptJpn: "「見知らぬ人に会うとき、良い第一印象を与えるために普段何をしますか？」という質問に答える短い段落を書いてください。"
+            }
         }
-    }
-},
+    },
     {
         id: 2,
         chapter: "Chapter 1: First Meetings",
@@ -132,33 +129,32 @@ const b1Curriculum = [
         title: "Lesson 2: How to welcome guests",
         goal: "Welcome guests to the office, introduce others, and offer refreshments or assistance. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(オフィスにゲストを歓迎し、他の人を紹介し、飲み物や手助けを申し出る。)</span>",
         vocab: [
-{ eng: "Have a first impression", jpn: "第一印象を抱く", formality: "Neutral expression", exEng: "My first impression of him was that he was very shy.", exJpn: "彼に対する私の第一印象は、とても内気な人だというものでした。" },
-{ eng: "Change your mind about someone", jpn: "人に対する見方（考え）を変える", formality: "Neutral expression", exEng: "Once we talked, I completely changed my mind about her.", exJpn: "一度話をすると、彼女に対する見方が完全に変わりました。" },
-{ eng: "Exchange contact details", jpn: "連絡先を交換する", formality: "Business expression", exEng: "Before leaving the event, we decided to exchange contact details.", exJpn: "イベントを去る前に、私たちは連絡先を交換することにしました。" },
-{ eng: "Swap phone numbers", jpn: "電話番号を交換する", formality: "Casual expression", exEng: "Let's swap phone numbers so we can meet up for coffee sometime.", exJpn: "いつかコーヒーを飲みに行けるように電話番号を交換しましょう。" },
-{ eng: "Connect on social media", jpn: "SNSでつながる", formality: "Neutral expression", exEng: "Many young professionals prefer to connect on social media after networking.", exJpn: "多くの若いビジネスパーソンは、交流の後にSNSでつながることを好みます。" },
-{ eng: "Add someone on LinkedIn", jpn: "LinkedInで人を追加する", formality: "Business expression", exEng: "I will add you on LinkedIn after today's seminar.", exJpn: "今日のセミナーの後、LinkedInであなたを追加しますね。" },
-{ eng: "Stay in touch", jpn: "連絡を取り合う", formality: "Neutral expression", exEng: "It was great meeting you; let's definitely stay in touch!", exJpn: "お会いできて本当に良かったです。ぜひ連絡を取り合いましょう！" },
-{ eng: "Keep in contact", jpn: "連絡を保ち続ける", formality: "Business expression", exEng: "We promised to keep in contact even though we live in different cities.", exJpn: "別の都市に住んでいますが、連絡を保ち続けることを約束しました。" },
-{ eng: "Flake on someone", jpn: "約束をドタキャンする・すっぽかす", formality: "Casual expression", exEng: "I hope she doesn't flake on me right before our first study session.", exJpn: "最初の勉強会の直前に彼女がドタキャンしないといいな。" },
-{ eng: "Flex", jpn: "自慢する・見せびらかす", formality: "Casual expression", exEng: "He kept mentioning his expensive watch to flex in front of the new interns.", exJpn: "彼は新しいインターン生の前で見せびらかすために、高級時計の話を何度もしていました。" },
-{ eng: "Geek out", jpn: "オタク全開で熱く語る（好きな話題で興奮して盛り上がる）", formality: "Casual expression", exEng: "We started talking about retro video games and totally geeked out together.", exJpn: "レトロゲームの話を始めたら、2人ともオタク全開でめちゃくちゃ盛り上がりました。" },
-{ eng: "Hit someone up", jpn: "人に連絡する（メールや電話をする）", formality: "Casual expression", exEng: "Hit me up if you are ever in Tokyo and want a tour guide.", exJpn: "もし東京に来ることがあって案内が必要なら、いつでも連絡してね。" },																						
+            { eng: "Keep to yourself", jpn: "他人と関わらないようにする（一人でいる）", formality: "Neutral expression", exEng: "At big parties, he usually stands in the corner and keeps to himself.", exJpn: "大きなパーティーでは、彼はたいてい隅に立って一人で過ごします。" },																									
+{ eng: "Mingle with the guests", jpn: "ゲストと歓談する（混ざって話す）", formality: "Neutral expression", exEng: "The host encouraged everyone to mingle with the guests.", exJpn: "主催者は全員にゲストと歓談するよう促しました。" },																									
+{ eng: "Work the room", jpn: "会場を回って愛想を振りまく", formality: "Business expression", exEng: "As a salesperson, she knows how to work the room at networking events.", exJpn: "営業担当者として、彼女は交流会で会場を回ってうまく立ち回る方法を知っています。" },																									
+{ eng: "Rub shoulders with someone", jpn: "（有名人や有力者と）顔を合わせる・交流する", formality: "Casual expression", exEng: "The reception was a chance to rub shoulders with company executives.", exJpn: "そのレセプションは会社の重役たちと交流するチャンスでした。" },																									
+{ eng: "Bump into someone", jpn: "人にばったり会う", formality: "Casual expression", exEng: "I bumped into my new neighbor at the local coffee shop.", exJpn: "地元のカフェで新しい隣人にばったり会いました。" },																									
+{ eng: "Run into someone", jpn: "人に偶然出会う", formality: "Casual expression", exEng: "You never know when you might run into a future employer.", exJpn: "将来の雇用主にいつ偶然出会うかわかりません。" },																									
+{ eng: "Meet through a mutual friend", jpn: "共通の友人を通じて知り合う", formality: "Neutral expression", exEng: "We met through a mutual friend at a barbecue last summer.", exJpn: "私たちは昨年の夏、バーベキューで共通の友人を通じて知り合いました。" },																									
+{ eng: "Put in a good word", jpn: "口添えをする（ 추천・褒める）", formality: "Neutral expression", exEng: "Before I met the director, my colleague put in a good word for me.", exJpn: "私が部長に会う前に、同僚が私について良い口添えをしてくれました。" },																									
+{ eng: "Set someone up on a blind date", jpn: "人にブラインドデート（紹介デート）をセッティングする", formality: "Casual expression", exEng: "My sister wants to set me up on a blind date with her coworker.", exJpn: "姉は自分の同僚と私のブラインドデートをセッティングしたがっています。" },																									
+{ eng: "Swipe right on someone", jpn: "（マッチングアプリで）人に「いいね」をする", formality: "Casual expression", exEng: "We matched after I swiped right on his profile picture.", exJpn: "私が彼のプロフィール写真を右にスワイプした後、私たちはマッチしました。" },																									
+{ eng: "Slide into someone's DMs", jpn: "人にさりげなくダイレクトメッセージを送る", formality: "Casual expression", exEng: "He slid into her DMs to ask if she wanted to grab coffee.", exJpn: "彼はコーヒーでもどうかと誘うために、彼女のDMにメッセージを送りました。" },																									
+{ eng: "Meet in person", jpn: "直接会う（対面で会う）", formality: "Neutral expression", exEng: "After gaming together online for a year, we finally met in person.", exJpn: "1年間オンラインで一緒にゲームをした後、私たちはついに直接会いました。" },																									
         ],
-dialogue: [
+        dialogue: [
             { speaker: "A", eng: "<span class='swappable'>Welcome to our headquarters in Azabudai Hills!</span> Please, do come in and make yourself comfortable.", jpn: "麻布台ヒルズの本社へようこそ！どうぞ、お入りになっておくつろぎください。" },
             { speaker: "B", eng: "Thank you so much. <span class='swappable'>The view from up here is absolutely incredible.</span> It's a pleasure to finally be here.", jpn: "本当にありがとうございます。ここからの景色は本当に信じられません。ついにここに来られて光栄です。" },
             { speaker: "A", eng: "How was your journey from the hotel? Did you have any trouble finding the building?", jpn: "ホテルからの道中はいかがでしたか？建物を見つけるのに苦労はしませんでしたか？" },
             { speaker: "B", eng: "Not at all, the directions you sent were perfect. It was a very smooth trip.", jpn: "全く問題ありません、送っていただいた道案内が完璧でした。とてもスムーズな道のりでした。" },
             { speaker: "A", eng: "<span class='swappable'>Let me take your coat and bag for you.</span> Can I get you something to drink before we start?", jpn: "コートとバッグをお預かりします。始める前に何かお飲み物をお持ちしましょうか？" },
-            { speaker: "B", eng: "I would love some coffee, thank you. I really appreciate your hospitality.</span>", jpn: "コーヒーをいただけると嬉しいです、ありがとうございます。あなたのおもてなしに本当に感謝しています。" },
-            { speaker: "A", eng: "Of course, I'll have that brought right in. Would you like the guest Wi-Fi details</span> to set up your laptop for the presentation?", jpn: "もちろんです、すぐにお持ちします。プレゼンテーションに向けてノートパソコンを設定するための、ゲスト用Wi-Fiの詳細をご希望ですか？" },
+            { speaker: "B", eng: "I would love some coffee, thank you. I really appreciate your hospitality.", jpn: "コーヒーをいただけると嬉しいです、ありがとうございます。あなたのおもてなしに本当に感謝しています。" },
+            { speaker: "A", eng: "Of course, I'll have that brought right in. Would you like the guest Wi-Fi details to set up your laptop for the presentation?", jpn: "もちろんです、すぐにお持ちします。プレゼンテーションに向けてノートパソコンを設定するための、ゲスト用Wi-Fiの詳細をご希望ですか？" },
             { speaker: "B", eng: "Yes, please. That would be very helpful so I can get my slides ready.", jpn: "はい、お願いします。スライドの準備ができるので大変助かります。" },
             { speaker: "A", eng: "Great. While you set up, <span class='swappable'>let me introduce you to our lead developer</span>, who will be joining us today.", jpn: "素晴らしい。準備をされている間に、本日参加する私たちのリード開発者を紹介させてください。" },
-            { speaker: "B", eng: "That sounds excellent. I look forward to discussing the API integration with them.</span>", jpn: "それは素晴らしいですね。彼らとAPI連携について話し合うのを楽しみにしています。" },
+            { speaker: "B", eng: "That sounds excellent. I look forward to discussing the API integration with them.", jpn: "それは素晴らしいですね。彼らとAPI連携について話し合うのを楽しみにしています。" },
             { speaker: "A", eng: "Shall we head over to the main conference room once you are connected?", jpn: "接続が完了したら、メインの会議室へ向かいましょうか？" },
             { speaker: "B", eng: "Yes, I am all set and ready to begin.", jpn: "はい、準備はすべて整っており、始めることができます。" }
-        
         ],
         dialogueStructure: [
             { eng: "Greet + Welcome to headquarters", jpn: "挨拶 ＋ 本社へ歓迎する", indent: false },
@@ -174,13 +170,11 @@ dialogue: [
             { eng: "Suggest moving to the conference room", jpn: "会議室への移動を提案する", indent: false },
             { eng: "Confirm readiness to begin", jpn: "始める準備ができていることを確認する", indent: true }
         ],
-   
-
-expressions: [
+        expressions: [
             { 
                 category: "1. Welcoming politely (丁寧な歓迎)", 
                 options: [
-                    { eng: "Thank you for making the trip to the Tokyo office.", jpn: "東京オフィスまでお越しいただき、ありがとうございました。。" },
+                    { eng: "Thank you for making the trip to the Tokyo office.", jpn: "東京オフィスまでお越しいただき、ありがとうございました。" },
                     { eng: "It's great to finally meet you in person.", jpn: "ついに直接お会いできて光栄です。" },
                     { eng: "I'm so glad we could finally connect in person.", jpn: "ようやく直接お会いできて、本当に嬉しいです。" }
                 ] 
@@ -193,7 +187,7 @@ expressions: [
                     { eng: "This is a very impressive workspace.", jpn: "とても立派なワークスペースですね。" }
                 ] 
             },
-       { 
+            { 
                 category: "3. Offering assistance (手助けを申し出る)", 
                 options: [
                     { eng: "Allow me to take your coat and bag.", jpn: "コートとバッグをお預かりさせてください。" },
@@ -201,8 +195,6 @@ expressions: [
                     { eng: "Please, let me help you with your coat and bag.", jpn: "コートとバッグ、私がお手伝いしましょうか。" }
                 ] 
             },
-          
-
             { 
                 category: "4. Introducing Colleagues (同僚を紹介する)", 
                 options: [
@@ -212,110 +204,89 @@ expressions: [
                 ] 
             }
         ],
-
-
-       grammarPoints: [
-    {
-        point: "1. Modifiers: Modifying nongradable adjectives (absolutely, completely)",
-        explanation: "Nongradable adjectives (like 'incredible', 'perfect', or 'exhausted') express extreme or absolute qualities. Instead of using 'very', we use modifiers like 'absolutely', 'completely', or 'totally' to emphasize them.",
-        explanationJpn: "「incredible（信じられない）」や「perfect（完璧な）」のような段階のない形容詞（極限・絶対的な性質を表す形容詞）には、「very」の代わりに「absolutely」や「completely」、「totally」などの修飾語を使って強調します。",
-        examples: [
-            { eng: "The view from up here is absolutely incredible.", jpn: "ここからの眺めは本当に素晴らしいです。" },
-            { eng: "The new system design is completely perfect.", jpn: "新しいシステムの設計は完全に完璧です。" }
-        ]
-    },
-    {
-        point: "2. Causative Verbs: Have something done",
-        explanation: "Use the structure 'have + object + past participle' to talk about arranging for someone else to do an action for you, rather than doing it yourself.",
-        explanationJpn: "「have + 目的語 + 過去分詞」の構造を使って、自分が行動するのではなく、他の人に何かをしてもらうように手配することを表します。",
-        examples: [
-            { eng: "I'll have that brought right in.", jpn: "すぐにお持ちさせます（運ばせます）。" },
-            { eng: "We need to have the contract signed by tomorrow.", jpn: "明日までに契約書にサインしてもらう必要があります。" }
-        ]
-    },
-    {
-        point: "3. Conjunctions: Using 'once' (as soon as / after)",
-        explanation: "Use 'once' as a conjunction meaning 'as soon as' or 'after'. It connects two actions, showing that the second action will happen immediately after the first one is finished.",
-        explanationJpn: "「once」は「〜するとすぐに」や「〜した後」という意味の接続詞として使います。2つのアクションを繋ぎ、1つ目のアクションが終わった直後に2つ目のアクションが起こることを示します。",
-        examples: [
-            { eng: "Shall we head over to the main conference room once you are connected?", jpn: "接続が完了しましたら、メイン会議室に向かいましょうか？" },
-            { eng: "Once the meeting is over, I will send you the report.", jpn: "会議が終わり次第、報告書をお送りします。" }
-        ]
-    }
-],
-clickingGames: [
-    { prompt: "ここからの眺めは本当に素晴らしいです。", target: "The view from up here is absolutely incredible.", words: ["The", "view", "from", "up", "here", "is", "absolutely", "incredible."] },
-    { prompt: "すぐにお持ちさせます。", target: "I'll have that brought right in.", words: ["I'll", "have", "that", "brought", "right", "in."] },
-    { prompt: "接続が完了しましたら、メイン会議室に向かいましょうか？", target: "Shall we head over to the main conference room once you are connected?", words: ["Shall", "we", "head", "over", "to", "the", "main", "conference", "room", "once", "you", "are", "connected?"] },
-    { prompt: "彼のプレゼンテーションは全く完璧でした。", target: "His presentation was absolutely perfect.", words: ["His", "presentation", "was", "absolutely", "perfect."] },
-    { prompt: "明日までに書類を印刷してもらいます。", target: "I will have the documents printed by tomorrow.", words: ["I", "will", "have", "the", "documents", "printed", "by", "tomorrow."] }
-],
-dropdownGames: [
-    { before: "The view from up here is", options: ["absolutely", "very", "much"], answer: "absolutely", after: " incredible." },
-    { before: "I'll", options: ["have", "make", "let"], answer: "have", after: " that brought right in." },
-    { before: "Shall we head over to the main conference room", options: ["once", "while", "during"], answer: "once", after: " you are connected?" },
-    { before: "The new office design is", options: ["completely", "highly", "very"], answer: "completely", after: " perfect." },
-    { before: "We should have the computers", options: ["repaired", "repair", "repairing"], answer: "repaired", after: " today." },
-    { before: "", options: ["Once", "Unless", "Although"], answer: "Once", after: " the presentation is ready, we can start." },
-    { before: "I was", options: ["totally", "very", "too"], answer: "totally", after: " exhausted after the long business trip." },
-    { before: "She is going to have the report", options: ["translated", "translate", "translating"], answer: "translated", after: " into Japanese." },
-    { before: "Please let me know", options: ["once", "until", "despite"], answer: "once", after: " you finish reading the email." },
-    { before: "We need to have the files", options: ["sent", "send", "sending"], answer: "sent", after: " to the client immediately." }
-],
-        
-
-roleplay: {
+        grammarPoints: [
+            {
+                point: "1. Modifiers: Modifying nongradable adjectives (absolutely, completely)",
+                explanation: "Nongradable adjectives (like 'incredible', 'perfect', or 'exhausted') express extreme or absolute qualities. Instead of using 'very', we use modifiers like 'absolutely', 'completely', or 'totally' to emphasize them.",
+                explanationJpn: "「incredible（信じられない）」や「perfect（完璧な）」のような段階のない形容詞（極限・絶対的な性質を表す形容詞）には、「very」の代わりに「absolutely」や「completely」、「totally」などの修飾語を使って強調します。",
+                examples: [
+                    { eng: "The view from up here is absolutely incredible.", jpn: "ここからの眺めは本当に素晴らしいです。" },
+                    { eng: "The new system design is completely perfect.", jpn: "新しいシステムの設計は完全に完璧です。" }
+                ]
+            },
+            {
+                point: "2. Causative Verbs: Have something done",
+                explanation: "Use the structure 'have + object + past participle' to talk about arranging for someone else to do an action for you, rather than doing it yourself.",
+                explanationJpn: "「have + 目的語 + 過去分詞」の構造を使って、自分が行動するのではなく、他の人に何かをしてもらうように手配することを表します。",
+                examples: [
+                    { eng: "I'll have that brought right in.", jpn: "すぐにお持ちさせます（運ばせます）。" },
+                    { eng: "We need to have the contract signed by tomorrow.", jpn: "明日までに契約書にサインしてもらう必要があります。" }
+                ]
+            },
+            {
+                point: "3. Conjunctions: Using 'once' (as soon as / after)",
+                explanation: "Use 'once' as a conjunction meaning 'as soon as' or 'after'. It connects two actions, showing that the second action will happen immediately after the first one is finished.",
+                explanationJpn: "「once」は「〜するとすぐに」や「〜した後」という意味の接続詞として使います。2つのアクションを繋ぎ、1つ目のアクションが終わった直後に2つ目のアクションが起こることを示します。",
+                examples: [
+                    { eng: "Shall we head over to the main conference room once you are connected?", jpn: "接続が完了しましたら、メイン会議室に向かいましょうか？" },
+                    { eng: "Once the meeting is over, I will send you the report.", jpn: "会議が終わり次第、報告書をお送りします。" }
+                ]
+            }
+        ],
+        roleplay: {
             a: "You are welcoming an international tech partner to your company's headquarters in Azabudai Hills, Tokyo. Greet them, ask about their flight or journey from the hotel, and offer them a drink. Offer to take their coat or bag using 'Let me', and politely ask if they need to connect to the guest Wi-Fi before the meeting using 'Would you like' or 'Can I'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは、東京の麻布台ヒルズにある自社の本社に海外のテックパートナーを歓迎しています。彼らに挨拶し、フライトやホテルからの道中について尋ね、飲み物を勧めてください。「Let me」を使ってコートやバッグを預かることを申し出、会議が始まる前にゲスト用Wi-Fiに接続する必要があるかどうかを「Would you like」や「Can I」を使って丁寧に尋ねてください。)</span>",
             b: "You are the visiting partner arriving at the tech company's Tokyo office for the first time. Express your gratitude for the warm welcome and comment on the impressive office. Accept the drink and assistance with your coat politely. Finally, ask for the Wi-Fi details so you can set up your laptop for the upcoming presentation. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはテック企業の東京オフィスに初めて訪問しているパートナーです。温かい歓迎に対して感謝の意を表し、印象的なオフィスについてコメントしてください。飲み物とコートを預かる手助けを丁寧に受け入れてください。最後に、これからのプレゼンテーションに向けてノートパソコンを準備できるよう、Wi-Fiの詳細を尋ねてください。)</span>"
         },
-
-
         homework: {
             vocab: [
-{ eng: "Talk about your hometown", jpn: "出身地について話す", formality: "Neutral expression", exEng: "People always enjoy talking about their hometown when they meet travelers.", exJpn: "人々は旅行者に会うと、いつも自分の出身地について話すのを楽しみます。" },
-{ eng: "Mention mutual friends", jpn: "共通の友人について触れる", formality: "Neutral expression", exEng: "We discovered we knew each other's cousins when we mentioned mutual friends.", exJpn: "共通の友人について触れたとき、お互いのいとこを知っていることがわかりました。" },
-{ eng: "Have a mutual acquaintance", jpn: "共通の知人がいる", formality: "Formal expression", exEng: "It turns out we have a mutual acquaintance from our old workplace.", exJpn: "以前の職場に共通の知人がいることがわかりました。" },
-{ eng: "Attend a networking event", jpn: "ネットワーキングイベント（交流会）に参加する", formality: "Business expression", exEng: "I attended a networking event last night to meet people in my industry.", exJpn: "同じ業界の人々と出会うために、昨夜ネットワーキングイベントに参加しました。" },
-{ eng: "Mingle with guests", jpn: "ゲストたちと交流する（混じって話す）", formality: "Neutral expression", exEng: "The host encouraged everyone to grab a drink and mingle with guests.", exJpn: "主催者はみんなに飲み物を取ってゲストたちと交流するよう勧めました。" },
-{ eng: "Join a group conversation", jpn: "グループの会話に加わる", formality: "Neutral expression", exEng: "Excuse me, mind if I join your group conversation?", exJpn: "すみません、皆さんの会話に加わってもよろしいですか？" },
-{ eng: "Excuse yourself politely", jpn: "丁寧に席を外す（中座する）", formality: "Formal expression", exEng: "When you need to leave a chat, excuse yourself politely.", exJpn: "会話を離れる必要があるときは、丁寧に席を外しましょう。" },
-{ eng: "Build rapport", jpn: "信頼関係（親近感）を築く", formality: "Business expression", exEng: "Good salespeople know how to build rapport with new clients quickly.", exJpn: "優秀な営業担当者は、新しい顧客と素早く信頼関係を築く方法を知っています。" },
-{ eng: "Establish trust", jpn: "信頼を確立する", formality: "Business expression", exEng: "Being honest from the beginning helps establish trust in any relationship.", exJpn: "最初から誠実であることは、どんな関係においても信頼を確立するのに役立ちます。" },
-{ eng: "Sense of humor", jpn: "ユーモアのセンス", formality: "Neutral expression", exEng: "Having a good sense of humor makes meeting new people much easier.", exJpn: "ユーモアのセンスがあると、新しい人と会うのがずっと楽になります。" },
-{ eng: "Share a laugh", jpn: "一緒に笑う", formality: "Casual expression", exEng: "We shared a laugh over our terrible cooking skills.", exJpn: "お互いのひどい料理の腕前について一緒に笑いました。" },
-{ eng: "Tell an anecdote", jpn: "ちょっとした逸話（体験談）を話す", formality: "Neutral expression", exEng: "He told a short anecdote about his first day in Tokyo.", exJpn: "彼は東京での初日についての短い体験談を話しました。" },
-{ eng: "Give a compliment", jpn: "褒め言葉を言う", formality: "Neutral expression", exEng: "Giving a sincere compliment is a great way to start a friendly chat.", exJpn: "心からの褒め言葉を言うことは、友好的なおしゃべりを始める素晴らしい方法です。" },
-{ eng: "Accept a compliment", jpn: "褒め言葉を受け入れる", formality: "Neutral expression", exEng: "Just smile and say thank you to accept a compliment gracefully.", exJpn: "褒め言葉を上品に受け入れるには、ただ笑顔でありがとうと言いましょう。" },
-{ eng: "Ask for someone's opinion", jpn: "人の意見を求める", formality: "Neutral expression", exEng: "People feel valued when you ask for their opinion during a discussion.", exJpn: "話し合いの中で意見を求められると、人は自分が大切にされていると感じます。" },
-{ eng: "Express your interest", jpn: "興味（関心）を表す", formality: "Business expression", exEng: "She expressed her interest in learning more about Japanese culture.", exJpn: "彼女は日本文化についてもっと学びたいという関心を表しました。" },
-{ eng: "Be open-minded", jpn: "心が広い（偏見を持たない）", formality: "Neutral expression", exEng: "Try to be open-minded when meeting people from different backgrounds.", exJpn: "異なる背景を持つ人々と会うときは、偏見を持たないように心がけましょう。" },
-{ eng: "Be approachable", jpn: "話しかけやすい（親しみやすい）", formality: "Business expression", exEng: "Standing near the refreshments makes you look more approachable.", exJpn: "軽食の近くに立っていると、より話しかけやすい印象になります。" },
-{ eng: "Seem reserved", jpn: "控えめ（無口）に見える", formality: "Neutral expression", exEng: "He seemed reserved at first, but he became very talkative later.", exJpn: "彼は最初は控えめに見えましたが、後でとてもおしゃべりになりました。" },
-{ eng: "Come across as confident", jpn: "自信があるように見える（印象を与える）", formality: "Business expression", exEng: "Speaking clearly helps you come across as confident and professional.", exJpn: "はっきりと話すことで、自信がありプロフェッショナルな印象を与えることができます。" },            ],
-            expandedDialogue: [
-                { speaker: "A", eng: "Welcome to Tokyo! Please, do come in. How was your flight?", jpn: "東京へようこそ！どうぞ、お入りください。フライトはいかがでしたか？" },
-                { speaker: "B", eng: "It was a bit tiring, but I'm glad to be here. I really appreciate your hospitality.", jpn: "少し疲れましたが、ここに来られて嬉しいです。あなたのおもてなしに本当に感謝しています。" },
-                { speaker: "A", eng: "We are so happy you arrived safely. Let me take your coat and luggage.", jpn: "無事に到着されて大変嬉しいです。コートと荷物をお預かりします（私に取らせてください）。" },
-                { speaker: "B", eng: "Thank you so much. I need to sort out my schedule for tomorrow.", jpn: "本当にありがとうございます。明日のスケジュールを整理する必要があります。" },
-                { speaker: "A", eng: "Of course. Can I get you something to drink while you rest? Would you like some tea?", jpn: "もちろんです。休んでいる間に何かお飲み物をお持ちしましょうか？お茶はいかがですか？" },
-                { speaker: "B", eng: "Tea would be wonderful, thank you. Are we meeting the rest of the team later?", jpn: "お茶をいただけると素晴らしいです、ありがとうございます。後で他のチームメンバーにお会いしますか？" },
-                { speaker: "A", eng: "Yes! Let me introduce you to the project manager first. Then we will eat out at a nice restaurant.", jpn: "はい！まずはプロジェクトマネージャーにあなたを紹介させてください。それから、素敵なレストランで外食します。" },
-                { speaker: "B", eng: "I would love to. I want to familiarize myself with the local culture.", jpn: "ぜひお願いします。地元の文化に慣れ親しみたいと思っています。" },
-                { speaker: "A", eng: "We have arranged some delicious Japanese food. Who is coordinating your afternoon briefing tomorrow?", jpn: "美味しい日本食を手配しています。明日の午後のブリーフィングは誰が調整していますか？" },
-                { speaker: "B", eng: "I believe Sarah is. Are we taking a tour of the headquarters afterward?", jpn: "サラだと思います。その後、本社の見学ツアーはありますか？" },
-                { speaker: "A", eng: "Yes, I will personally escort you around the premises.", jpn: "はい、私が個人的に敷地内をご案内いたします。" },
-                { speaker: "B", eng: "Excellent. I am looking forward to a very productive week.", jpn: "素晴らしいですね。非常に生産的な一週間になることを楽しみにしています。" }
+ { eng: "Meet face-to-face", jpn: "顔を合わせて会う", formality: "Neutral expression", exEng: "A video call is fine, but it is better to meet face-to-face.", exJpn: "ビデオ通話でもいいですが、顔を合わせて会う方が良いです。" },																									
+{ eng: "Size someone up", jpn: "人を値踏みする（見定める）", formality: "Casual expression", exEng: "The two boxers sized each other up before the match.", exJpn: "2人のボクサーは試合前にお互いを見定めました。" },																									
+{ eng: "Judge a book by its cover", jpn: "見かけで人を判断する", formality: "Neutral expression", exEng: "He looks tough, but don't judge a book by its cover.", exJpn: "彼は怖そうに見えますが、見かけで判断してはいけません。" },																									
+{ eng: "Take a shine to someone", jpn: "人をすぐに気に入る", formality: "Casual expression", exEng: "My grandmother took a shine to my new boyfriend right away.", exJpn: "祖母は私の新しい彼氏をすぐに気に入りました。" },																									
+{ eng: "Hit it off right away", jpn: "一瞬で意気投合する", formality: "Casual expression", exEng: "The kids hit it off right away and started playing together.", exJpn: "子どもたちは一瞬で意気投合し、一緒に遊び始めました。" },																									
+{ eng: "Get on like a house on fire", jpn: "驚くほど気が合う（すぐに仲良くなる）", formality: "Casual expression", exEng: "I was nervous about them meeting, but they got on like a house on fire.", exJpn: "彼らが会うのを心配していましたが、驚くほどすぐに仲良くなりました。" },																									
+{ eng: "Speak the same language", jpn: "話が通じる（価値観や考え方が合う）", formality: "Neutral expression", exEng: "As fellow designers, we felt like we spoke the same language.", exJpn: "同じデザイナーとして、私たちは話がよく通じると感じました。" },																									
+{ eng: "Be on the same wavelength", jpn: "波長が合う", formality: "Neutral expression", exEng: "It is wonderful to meet someone who is on the same wavelength as you.", exJpn: "自分と波長が合う人に出会えるのは素晴らしいことです。" },																									
+{ eng: "See eye to eye", jpn: "意見が一致する", formality: "Neutral expression", exEng: "We didn't see eye to eye at first, but we respect each other now.", exJpn: "最初は意見が合いませんでしたが、今は互いを尊重しています。" },																									
+{ eng: "Rub someone the wrong way", jpn: "人をイラつかせる（神経を逆なでする）", formality: "Casual expression", exEng: "His arrogant attitude rubbed everyone the wrong way on his first day.", exJpn: "彼の傲慢な態度は、初日にみんなの神経を逆なでしました。" },																									
+{ eng: "Put someone at ease", jpn: "人を安心させる（緊張をほぐす）", formality: "Neutral expression", exEng: "Her warm smile immediately put me at ease during the interview.", exJpn: "彼女の温かい笑顔は、面接中の私の緊張をすぐにほぐしてくれました。" },																									
+{ eng: "Calm your nerves", jpn: "神経を落ち着かせる（緊張を和らげる）", formality: "Neutral expression", exEng: "I took a few deep breaths to calm my nerves before going inside.", exJpn: "中に入る前に、緊張を和らげるために数回深呼吸をしました。" },																									
+{ eng: "Have butterflies in your stomach", jpn: "緊張して胸がドキドキする（そわそわする）", formality: "Casual expression", exEng: "I always have butterflies in my stomach before meeting new clients.", exJpn: "新しいクライアントに会う前はいつも緊張してドキドキします。" },																									
+{ eng: "Be a bundle of nerves", jpn: "極度に緊張している", formality: "Casual expression", exEng: "He was a bundle of nerves before meeting his girlfriend's father.", exJpn: "彼は彼女の父親に会う前、ガチガチに緊張していました。" },																									
+{ eng: "Put your best foot forward", jpn: "最善を尽くす（良い印象を与えようと頑張る）", formality: "Neutral expression", exEng: "The first day of school is the time to put your best foot forward.", exJpn: "学校の初日は、良い印象を与えるために最善を尽くす時です。" },																									
+{ eng: "Dress to impress", jpn: "好印象を与えるために着飾る（ビシッと決める）", formality: "Neutral expression", exEng: "Make sure you dress to impress for the client presentation.", exJpn: "クライアントへのプレゼンには、好印象を与える服装で臨んでください。" },																									
+{ eng: "Look the part", jpn: "（役職や場に）ふさわしい見た目をする", formality: "Neutral expression", exEng: "He bought a new suit so he would look the part at the conference.", exJpn: "彼は会議でふさわしい見た目になるよう、新しいスーツを買いました。" },																									
+{ eng: "Flash a warm smile", jpn: "温かい笑顔を見せる", formality: "Neutral expression", exEng: "She flashed a warm smile as she walked into the meeting room.", exJpn: "彼女は会議室に入ってきながら温かい笑顔を見せました。" },																									
+{ eng: "Extend a hand", jpn: "（握手のために）手を差し出す", formality: "Business expression", exEng: "The CEO stood up and extended a hand to welcome the visitor.", exJpn: "CEOは立ち上がり、訪問者を歓迎するために手を差し出しました。" },																									
+{ eng: "Give a polite nod", jpn: "丁寧に会釈する（うなずく）", formality: "Neutral expression", exEng: "He gave a polite nod to the people across the table.", exJpn: "彼はテーブルの向こう側にいる人々に丁寧に会釈しました。" },																									
             ],
+            clickingGames: [
+                // Grammar Point 1: Modifying nongradable adjectives - 4 sentences
+                { prompt: "ここからの眺めは本当に素晴らしいです。", target: "The view from up here is absolutely incredible.", words: ["The", "view", "from", "up", "here", "is", "absolutely", "incredible."] },
+                { prompt: "新しいシステムの設計は完全に完璧です。", target: "The new system design is completely perfect.", words: ["The", "new", "system", "design", "is", "completely", "perfect."] },
+                { prompt: "彼のプレゼンテーションは全く完璧でした。", target: "His presentation was absolutely perfect.", words: ["His", "presentation", "was", "absolutely", "perfect."] },
+                { prompt: "私は長い出張の後に完全に疲れ果てていました。", target: "I was totally exhausted after the long business trip.", words: ["I", "was", "totally", "exhausted", "after", "the", "long", "business", "trip."] },
+                // Grammar Point 2: Causative Verbs (Have something done) - 4 sentences
+                { prompt: "すぐにお持ちさせます。", target: "I'll have that brought right in.", words: ["I'll", "have", "that", "brought", "right", "in."] },
+                { prompt: "明日までに契約書にサインしてもらう必要があります。", target: "We need to have the contract signed by tomorrow.", words: ["We", "need", "to", "have", "the", "contract", "signed", "by", "tomorrow."] },
+                { prompt: "明日までに書類を印刷してもらいます。", target: "I will have the documents printed by tomorrow.", words: ["I", "will", "have", "the", "documents", "printed", "by", "tomorrow."] },
+                { prompt: "今日コンピューターを修理してもらうべきです。", target: "We should have the computers repaired today.", words: ["We", "should", "have", "the", "computers", "repaired", "today."] },
+                // Grammar Point 3: Conjunctions (Using 'once') - 4 sentences
+                { prompt: "接続が完了しましたら、メイン会議室に向かいましょうか？", target: "Shall we head over to the main conference room once you are connected?", words: ["Shall", "we", "head", "over", "to", "the", "main", "conference", "room", "once", "you", "are", "connected?"] },
+                { prompt: "会議が終わり次第、報告書をお送りします。", target: "Once the meeting is over, I will send you the report.", words: ["Once", "the", "meeting", "is", "over,", "I", "will", "send", "you", "the", "report."] },
+                { prompt: "プレゼンテーションの準備ができ次第、始められます。", target: "Once the presentation is ready, we can start.", words: ["Once", "the", "presentation", "is", "ready,", "we", "can", "start."] },
+                { prompt: "メールを読み終えたら知らせてください。", target: "Please let me know once you finish reading the email.", words: ["Please", "let", "me", "know", "once", "you", "finish", "reading", "the", "email."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Advice Forum)",
+                instruction: "Read this online workplace forum where employees discuss the best ways to welcome VIP guests and offer assistance politely.",
+                eng: "<div class='er-template er-forum'><div class='er-forum-q'>👤 <strong>NewHire99 asks:</strong><br>Hello everyone. I have to welcome a very important international client to our office next week, and I am the first person they will meet. I am feeling quite nervous because I have never hosted a VIP before. Last year, our team made a bad first impression on a different client, so my manager wants everything to be perfect this time. What should I do to make a great impression? How can I politely offer them food, drinks, or help with their luggage? Any detailed advice would be highly appreciated!</div><div class='er-forum-a'>💬 <strong>Reply by OfficePro:</strong><br>Don't worry, it is completely normal to feel nervous! First, you should make sure you know exactly how to pronounce their name correctly. When they arrive at the reception desk, stand up, smile warmly, and greet them clearly. You can say, 'Welcome to our office. It's a pleasure to finally meet you in person.' To offer help with their items, use 'Let me'. For example, you can say, 'Let me take your coat and luggage for you.' These small, polite gestures immediately make tired travelers feel at ease. After a long flight, hospitality is always deeply appreciated.</div><div class='er-forum-a'>💬 <strong>Reply by ManagerDan:</strong><br>I completely agree with OfficePro. Adding to that, you should definitely offer them some refreshments before the main meeting starts. Using modal verbs makes your offers sound much more professional. You can ask, 'Would you like a cup of coffee or some tea?' or 'Can I get you a glass of water?' If they accept, serve it quickly. Also, try to ask a simple, friendly question about their journey. For example, 'How was your flight from London?' It shows genuine interest and helps break the awkward silence while you wait for your manager to arrive.</div><div class='er-forum-a'>💬 <strong>Reply by GlobalHost:</strong><br>Those are excellent tips. I would also add that you should prepare a brief introduction of yourself. Simply state your name and your role in the company, so the guest knows exactly who is taking care of them. Furthermore, observe their body language carefully. If they look exhausted from their trip, do not force too much small talk. Keep the conversation light and polite. Let them rest in the waiting lounge. Finally, when it is time to move, you can say, 'Let me introduce you to the team, please follow me.' Good luck, you will do great!</div></div>",
+                jpn: "<div class='er-template er-forum'><div class='er-forum-q'>👤 <strong>NewHire99の質問：</strong><br>皆さんこんにちは。来週、非常に重要な海外のクライアントをオフィスでお迎えしなければならず、私が彼らが最初に会う人物になります。VIPを接待したことがないので、かなり緊張しています。昨年、私たちのチームは別のクライアントに悪い第一印象を与えてしまったため、マネージャーは今回すべてを完璧にしたいと考えています。素晴らしい印象を与えるためには何をすべきですか？食べ物や飲み物、荷物の手助けを丁寧に申し出るにはどうすればよいですか？詳細なアドバイスをいただけると大変ありがたいです！</div><div class='er-forum-a'>💬 <strong>OfficeProの返信：</strong><br>心配しないでください、緊張するのは全く普通のことです！まず、相手の名前を正確に発音できるか確認するべきです。彼らが受付に到着したら、立ち上がり、温かく微笑み、はっきりと挨拶しましょう。「オフィスへようこそ。ついにお会いできて光栄です」と言うことができます。持ち物の手助けを申し出るには、「Let me」を使います。例えば、「コートと荷物をお預かりします（私に取らせてください）」と言うことができます。これらの小さくて丁寧な気遣いは、疲れた旅行者をすぐに安心させます。長時間のフライトの後、おもてなしは常に深く感謝されます。</div><div class='er-forum-a'>💬 <strong>ManagerDanの返信：</strong><br>OfficeProの意見に完全に同意します。それに加えて、主要な会議が始まる前に必ず飲み物を勧めるべきです。法助動詞を使うことで、あなたの申し出はずっとプロフェッショナルに聞こえます。「コーヒーかお茶はいかがですか？」や「お水をお持ちしましょうか？」と尋ねることができます。彼らが受け入れたら、すぐに提供しましょう。また、道中についてシンプルでフレンドリーな質問をしてみてください。例えば、「ロンドンからのフライトはいかがでしたか？」といった具合です。それは純粋な関心を示し、マネージャーの到着を待つ間の気まずい沈黙を破るのに役立ちます。</div><div class='er-forum-a'>💬 <strong>GlobalHostの返信：</strong><br>それは素晴らしいヒントですね。私からも付け加えると、簡単な自己紹介を準備しておくべきです。あなたの名前と会社での役割をシンプルに述べることで、ゲストは誰が自分のお世話をしてくれているのかを正確に知ることができます。さらに、彼らのボディーランゲージを注意深く観察してください。もし彼らが旅行で疲れ切っているように見えたら、世間話を無理強いしないでください。会話は軽く、丁寧なものにとどめましょう。待合ラウンジで休ませてあげてください。最後に、移動する時間になったら、「チームにあなたを紹介させてください、ついて来てください」と言うことができます。幸運を祈ります、きっとうまくいきますよ！</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph explaining how you would welcome a new employee to your company.",
                 promptJpn: "新入社員を会社でどのように歓迎するかを説明する短い段落を書いてください。"
-            },
-extendedReading: {
-            title: "Task 4: Authentic Reading (Advice Forum)",
-            instruction: "Read this online workplace forum where employees discuss the best ways to welcome VIP guests and offer assistance politely.",
-            eng: "<div class='er-template er-forum'><div class='er-forum-q'>👤 <strong>NewHire99 asks:</strong><br>Hello everyone. I have to welcome a very important international client to our office next week, and I am the first person they will meet. I am feeling quite nervous because I have never hosted a VIP before. Last year, our team made a bad first impression on a different client, so my manager wants everything to be perfect this time. What should I do to make a great impression? How can I politely offer them food, drinks, or help with their luggage? Any detailed advice would be highly appreciated!</div><div class='er-forum-a'>💬 <strong>Reply by OfficePro:</strong><br>Don't worry, it is completely normal to feel nervous! First, you should make sure you know exactly how to pronounce their name correctly. When they arrive at the reception desk, stand up, smile warmly, and greet them clearly. You can say, 'Welcome to our office. It's a pleasure to finally meet you in person.' To offer help with their items, use 'Let me'. For example, you can say, 'Let me take your coat and luggage for you.' These small, polite gestures immediately make tired travelers feel at ease. After a long flight, hospitality is always deeply appreciated.</div><div class='er-forum-a'>💬 <strong>Reply by ManagerDan:</strong><br>I completely agree with OfficePro. Adding to that, you should definitely offer them some refreshments before the main meeting starts. Using modal verbs makes your offers sound much more professional. You can ask, 'Would you like a cup of coffee or some tea?' or 'Can I get you a glass of water?' If they accept, serve it quickly. Also, try to ask a simple, friendly question about their journey. For example, 'How was your flight from London?' It shows genuine interest and helps break the awkward silence while you wait for your manager to arrive.</div><div class='er-forum-a'>💬 <strong>Reply by GlobalHost:</strong><br>Those are excellent tips. I would also add that you should prepare a brief introduction of yourself. Simply state your name and your role in the company, so the guest knows exactly who is taking care of them. Furthermore, observe their body language carefully. If they look exhausted from their trip, do not force too much small talk. Keep the conversation light and polite. Let them rest in the waiting lounge. Finally, when it is time to move, you can say, 'Let me introduce you to the team, please follow me.' Good luck, you will do great!</div></div>",
-            jpn: "<div class='er-template er-forum'><div class='er-forum-q'>👤 <strong>NewHire99の質問：</strong><br>皆さんこんにちは。来週、非常に重要な海外のクライアントをオフィスでお迎えしなければならず、私が彼らが最初に会う人物になります。VIPを接待したことがないので、かなり緊張しています。昨年、私たちのチームは別のクライアントに悪い第一印象を与えてしまったため、マネージャーは今回すべてを完璧にしたいと考えています。素晴らしい印象を与えるためには何をすべきですか？食べ物や飲み物、荷物の手助けを丁寧に申し出るにはどうすればよいですか？詳細なアドバイスをいただけると大変ありがたいです！</div><div class='er-forum-a'>💬 <strong>OfficeProの返信：</strong><br>心配しないでください、緊張するのは全く普通のことです！まず、相手の名前を正確に発音できるか確認するべきです。彼らが受付に到着したら、立ち上がり、温かく微笑み、はっきりと挨拶しましょう。「オフィスへようこそ。ついにお会いできて光栄です」と言うことができます。持ち物の手助けを申し出るには、「Let me」を使います。例えば、「コートと荷物をお預かりします（私に取らせてください）」と言うことができます。これらの小さくて丁寧な気遣いは、疲れた旅行者をすぐに安心させます。長時間のフライトの後、おもてなしは常に深く感謝されます。</div><div class='er-forum-a'>💬 <strong>ManagerDanの返信：</strong><br>OfficeProの意見に完全に同意します。それに加えて、主要な会議が始まる前に必ず飲み物を勧めるべきです。法助動詞を使うことで、あなたの申し出はずっとプロフェッショナルに聞こえます。「コーヒーかお茶はいかがですか？」や「お水をお持ちしましょうか？」と尋ねることができます。彼らが受け入れたら、すぐに提供しましょう。また、道中についてシンプルでフレンドリーな質問をしてみてください。例えば、「ロンドンからのフライトはいかがでしたか？」といった具合です。それは純粋な関心を示し、マネージャーの到着を待つ間の気まずい沈黙を破るのに役立ちます。</div><div class='er-forum-a'>💬 <strong>GlobalHostの返信：</strong><br>それは素晴らしいヒントですね。私からも付け加えると、簡単な自己紹介を準備しておくべきです。あなたの名前と会社での役割をシンプルに述べることで、ゲストは誰が自分のお世話をしてくれているのかを正確に知ることができます。さらに、彼らのボディーランゲージを注意深く観察してください。もし彼らが旅行で疲れ切っているように見えたら、世間話を無理強いしないでください。会話は軽く、丁寧なものにとどめましょう。待合ラウンジで休ませてあげてください。最後に、移動する時間になったら、「チームにあなたを紹介させてください、ついて来てください」と言うことができます。幸運を祈ります、きっとうまくいきますよ！</div></div>"
-        }
+            }
         }
     },
     {
@@ -328,9 +299,9 @@ extendedReading: {
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { name: "Person 1", eng: "A professional appearance can leave a great first impression when you meet new colleagues or important clients. Wearing a neat suit, a clean shirt, or nice business casual clothes shows that you respect your workplace and take your job seriously. When you dress smartly, you naturally feel more confident, and other people notice this positive energy. Additionally, a professional attitude is just as important as the clothes you wear. Giving sincere responses to questions and showing quiet confidence helps people trust you immediately. If you are polite and helpful, people will want to work with you. I always make sure my shoes are clean and my hair is tidy before a big meeting. These small details show that you are an organized and careful worker. Overall, combining a clean appearance with a kind and professional attitude is the best way to succeed and build strong relationships in any business environment.", jpn: "新しい同僚や重要なクライアントに会うとき、プロフェッショナルな外見は素晴らしい第一印象を残すことができます。きちんとしたスーツ、清潔なシャツ、または素敵なビジネスカジュアルな服を着ることは、職場を尊重し、真剣に仕事に取り組んでいることを示します。きちんとした服装をすると、自然と自信が湧き、他の人もこのポジティブなエネルギーに気づきます。さらに、プロフェッショナルな態度は、着ている服と同じくらい重要です。質問に誠実に答え、静かな自信を示すことで、人々はすぐにあなたを信頼するようになります。礼儀正しく、親切にすれば、人々はあなたと一緒に働きたいと思うでしょう。大きな会議の前には、靴が清潔で髪が整っているかを必ず確認します。これらの小さな細部は、あなたが整理整頓された慎重な働き手であることを示します。全体的に、清潔な外見と親切でプロフェッショナルな態度を組み合わせることが、あらゆるビジネス環境で成功し、強い関係を築くための最良の方法です。" },
-                { name: "Person 2", eng: "In the modern workplace, people often notice your non-verbal cues before you even speak a single word. Maintaining good posture by sitting or standing straight makes you look strong and professional. Furthermore, using friendly facial expressions, like a warm smile, makes you seem much more approachable to your coworkers. If you cross your arms or look down, people might think you are angry or bored. Nowadays, digital impressions also matter a lot because many people work from home. A clear, professional profile picture on your company account and a polite email greeting can affect how colleagues perceive you. When you join a video call, you should check your camera background to make sure it is clean and not distracting. Looking directly at the camera while you speak is similar to making eye contact in real life. These digital and non-verbal habits help you create an excellent professional image everywhere.", jpn: "現代の職場では、人々はあなたが話す前から非言語的なサインに気づくことがよくあります。背筋を伸ばして座ったり立ったりして良い姿勢を保つことで、強くてプロフェッショナルに見えます。さらに、温かい笑顔など、フレンドリーな表情を使うことで、同僚にとってずっと親しみやすくなります。腕を組んだり下を向いたりすると、怒っている、または退屈していると思われるかもしれません。多くの人が在宅勤務をしている今日では、デジタルでの印象も非常に重要です。会社のアカウントにある鮮明でプロフェッショナルなプロフィール写真や、礼儀正しいメールの挨拶は、同僚からの認識に影響を与えます。ビデオ通話に参加するときは、カメラの背景が清潔で気を散らすものがないか確認するべきです。話している間にカメラを直接見ることは、実生活でアイコンタクトを取るのと同じです。これらのデジタルおよび非言語的な習慣は、あらゆる場所で優れたプロフェッショナルなイメージを作り出すのに役立ちます。" },
-                { name: "Person 3", eng: "We all make mistakes, but if you make a bad first impression, correcting your errors quickly is essential. Apologizing politely and clarifying any misunderstandings immediately shows true professional maturity. For instance, if you are late to a meeting or forget someone's name, simply say you are sorry and move forward. Do not make long excuses. Ultimately, strong character traits like reliability and punctuality are what people remember the most over time. Arriving at the office on time every day and completing your work before the deadline builds a deep level of trust. These positive traits prove to your manager that you are a valuable and hardworking team member. Even if you start with a bad impression, your daily actions can change how people see you. By consistently showing respect, working hard, and communicating honestly with your team, you can build a fantastic reputation and a very successful, long-lasting career.", jpn: "誰でもミスをしますが、もし悪い第一印象を与えてしまった場合、ミスをすぐに修正することが不可欠です。丁寧に謝罪し、誤解をすぐに解くことは、真のプロフェッショナルとしての成熟さを示します。例えば、会議に遅れたり、誰かの名前を忘れたりした場合は、単に謝罪して前に進みましょう。長い言い訳はしないでください。最終的に、時間が経つにつれて人々が最も記憶に残るのは、信頼性や時間厳守といった強固な性格の特徴です。毎日時間通りにオフィスに到着し、締め切り前に仕事を終わらせることは、深いレベルの信頼を築きます。これらのポジティブな特徴は、あなたが価値があり、勤勉なチームメンバーであることをマネージャーに証明します。たとえ悪い印象から始まったとしても、日々の行動で人々の見方を変えることができます。継続的に敬意を示し、一生懸命働き、チームと正直にコミュニケーションをとることで、素晴らしい評判と非常に成功した、長続きするキャリアを築くことができます。" }
+                { name: "Person 1", eng: "Looking neat and professional helps you make a great first impression with coworkers and clients. Wearing a clean suit or nice business clothes shows that you respect your job. When you dress well, you feel more confident, and people notice your positive energy. Also, how you act is just as important as your clothes. Giving honest answers and acting calm helps people trust you. If you are polite and helpful, people will want to work with you. I always check that my clothes and hair are clean before a big meeting. These small things show that you are a careful worker. Overall, dressing well and being kind are the best ways to succeed at work..", jpn: "清潔感がありプロフェッショナルに見えることは、同僚やクライアントに素晴らしい第一印象を与えるのに役立ちます。きちんとしたスーツや素敵なビジネスカジュアルを着ることは、仕事への敬意を示します。身なりを整えると自信が湧き、周りの人もあなたのポジティブなエネルギーに気づきます。また、行動の仕方も服装と同じくらい大切です。誠実に答え、落ち着いて行動することで、人々はあなたを信頼してくれます。礼儀正しく親切であれば、みんなあなたと一緒に働きたいと思うようになります。私は大きな会議の前には必ず服装や髪がきれいか確認します。こうした些細な点が、あなたが丁寧な働き手であることを示しています。全体として、身なりを整えて親切にすることが、仕事で成功するための最高の方法です。。" },
+                { name: "Person 2", eng: "At work, people notice your body language before you even speak. Sitting or standing up straight makes you look strong and professional. Also, a warm smile makes you look friendly and easy to talk to. If you cross your arms or look down, people might think you are angry or bored. Today, digital impressions are also very important because many people work from home. A clear profile picture and a polite email help people see you in a good way. When you join a video call, make sure your room background is clean and tidy. Looking at the camera when you speak is like making eye contact in real life. These good habits help you look professional everywhere.", jpn: "職場では、話す前のボディーランゲージにも注目されます。背筋を伸ばして座ったり立ったりすると、しっかりしたプロフェッショナルな印象を与えられます。また、温かい笑顔を向ければ、話しかけやすいフレンドリーな人に見えます。腕を組んだり下を向いたりしていると、怒っているや退屈していると思われるかもしれません。現在では、多くの人が自宅で仕事をしているため、オンライン上の印象も非常に大切です。きれいなプロフィール写真や丁寧なメールは、良い印象を与える助けになります。ビデオ通話に参加する際は、背景がすっきりと片付いているか確認しましょう。話すときにカメラを見ることは、現実でアイコンタクトを取るのと同じです。こうした良い習慣によって、どこにいてもプロフェッショナルな印象を与えることができます。" },
+                { name: "Person 3", eng: "Everyone makes mistakes, but if you make a bad first impression, fixing it fast is important. Saying sorry politely and clearing up misunderstandings shows you are a true professional. For example, if you are late or forget a name, just say sorry and move on. Do not give long excuses. Over time, people remember your reliability and punctuality the most. Coming to work on time every day and finishing tasks before the deadline builds deep trust. These good habits prove to your manager that you are a hardworking team member. Even if you start with a bad impression, your daily actions can change how people see you. By being honest and working hard, you can build a great reputation and a successful career.", jpn: "誰でもミスはしますが、もし悪い第一印象を与えてしまったら、すぐに修正することが大切です。丁寧に謝罪して誤解を解くことは、真のプロフェッショナルである証拠です。例えば、遅刻をしたり名前を忘れたりした場合は、素直に謝って次に進みましょう。長い言い訳をする必要はありません。時間が経つと、人々が最もよく覚えているのは、誠実さや時間厳守といった特徴です。毎日時間通りに働き、締め切り前に仕事を終わらせることで、深い信頼が生まれます。こうした良い習慣は、あなたが熱心なチームメンバーであることを上司に証明してくれます。たとえ最初の印象が悪くても、日々の行動で周囲の見方を変えることができます。誠実に働き続けることで、素晴らしい評判と成功するキャリアを築くことができます。" }
             ]
         },
         discussionTopics: [
@@ -354,17 +325,18 @@ extendedReading: {
             { eng: "10. In what ways can you improve the first impression you give to others?", jpn: "10. 他人に与える第一印象を改善するには、どのような方法がありますか？" }
         ],
         vocab: [
-{ eng: "Come across as arrogant", jpn: "傲慢なように見える（印象を与える）", exEng: "Talking only about your achievements can make you come across as arrogant.", exJpn: "自分の実績ばかり話すと、傲慢な印象を与えてしまうことがあります。" },																									
-{ eng: "Have a warm personality", jpn: "温かい人柄である", exEng: "Everyone likes Maria because she has a very warm personality.", exJpn: "マリアはとても温かい人柄なので、みんなに好かれています。" },																									
-{ eng: "Have a bubbly personality", jpn: "明るく元気な性格である", exEng: "Her bubbly personality immediately brightened up the whole room.", exJpn: "彼女の明るく元気な性格は、すぐに部屋全体を明るくしました。" },																									
-{ eng: "Be a good listener", jpn: "聞き上手である", exEng: "You don't have to talk a lot to be popular; just be a good listener.", exJpn: "人気者になるためにたくさん話す必要はありません。ただ聞き上手であればいいのです。" },																									
-{ eng: "Dominate the conversation", jpn: "会話を独占する", exEng: "It is rude to dominate the conversation and not let others speak.", exJpn: "会話を独占して他の人に話させないのは失礼です。" },																									
-{ eng: "Interrupt someone", jpn: "人の話を遮る", exEng: "Wait until she finishes her sentence so you don't interrupt someone.", exJpn: "人の話を遮らないように、彼女が文を言い終えるまで待ちましょう。" },																									
-{ eng: "Show respect", jpn: "敬意を示す", exEng: "Bowing slightly is a common way to show respect in Japan.", exJpn: "軽くお辞儀をすることは、日本で敬意を示す一般的な方法です。" },																									
-{ eng: "Mind your manners", jpn: "行儀よくする（マナーに気をつける）", exEng: "Remember to mind your manners when meeting your partner's parents.", exJpn: "パートナーの両親に会うときはマナーに気をつけることを忘れないでください。" },																					{ eng: "Keep tabs on someone", jpn: "人の動向をチェックする（SNSなどで様子を見る）", exEng: "We exchanged Instagrams so we can keep tabs on each other's travels.", exJpn: "お互いの旅行の様子をチェックできるようにインスタグラムを交換しました。" },
-{ eng: "Low-key", jpn: "控えめに・密かに・ちょっと", exEng: "I am low-key nervous about meeting my partner's parents tonight.", exJpn: "今夜パートナーの両親に会うのが、実はちょっと緊張しています。" },
-{ eng: "Name-drop", jpn: "有名人や有力者の名前を会話に出して自慢する", exEng: "Nobody likes it when someone tries to name-drop five minutes into a chat.", exJpn: "会話を始めて5分で有名人の名前を出して自慢する人は、誰にも好かれません。" },
-{ eng: "No cap", jpn: "嘘なしで・マジで・本当に", exEng: "That was the best first conversation I have ever had, no cap.", exJpn: "マジで今までで一番最高の初対面トークだったよ。" },																							
+          { eng: "Bow politely", jpn: "丁寧にお辞儀をする", formality: "Business expression", exEng: "In Japan, people bow politely when greeting someone for the first time.", exJpn: "日本では、初対面の人に挨拶するときに丁寧にお辞儀をします。" },																									
+{ eng: "Break into a smile", jpn: "笑顔がこぼれる（急に微笑む）", formality: "Neutral expression", exEng: "His serious face broke into a smile when I mentioned his hometown.", exJpn: "私が彼の故郷について触れると、彼の真剣な顔から笑顔がこぼれました。" },																									
+{ eng: "Ask about someone's background", jpn: "人の経歴や生い立ちについて尋ねる", formality: "Neutral expression", exEng: "It is natural to ask about someone's background when you first meet.", exJpn: "初対面のときに相手の経歴について尋ねるのは自然なことです。" },																									
+{ eng: "Talk shop", jpn: "仕事の話をする", formality: "Casual expression", exEng: "Even at the welcome party, the engineers started talking shop.", exJpn: "歓迎会でさえ、エンジニアたちは仕事の話を始めました。" },																									
+{ eng: "Steer clear of sensitive topics", jpn: "デリケートな話題を避ける", formality: "Neutral expression", exEng: "It is wise to steer clear of sensitive topics like politics at first.", exJpn: "最初は政治のようなデリケートな話題を避けるのが賢明です。" },																									
+{ eng: "Bring up a topic", jpn: "話題を出す（持ち出す）", formality: "Neutral expression", exEng: "She brought up the topic of travel, and everyone joined in.", exJpn: "彼女が旅行の話題を出すと、全員が会話に加わりました。" },																									
+{ eng: "Change the subject", jpn: "話題を変える", formality: "Neutral expression", exEng: "When the conversation got awkward, I quickly changed the subject.", exJpn: "会話が気まずくなったとき、私は素早く話題を変えました。" },																									
+{ eng: "Put your foot in your mouth", jpn: "うっかり失言をする", formality: "Casual expression", exEng: "I really put my foot in my mouth when I asked if she was pregnant.", exJpn: "彼女に妊娠しているのかと尋ねてしまい、本当にひどい失言をしてしまいました。" },																									
+{ eng: "Say the wrong thing", jpn: "言ってはいけないことを言う（失言する）", formality: "Neutral expression", exEng: "He was so nervous that he was afraid of saying the wrong thing.", exJpn: "彼はとても緊張していて、失言をしてしまうのではないかと恐れていました。" },																									
+{ eng: "Take something the wrong way", jpn: "誤解する（悪く受け取る）", formality: "Neutral expression", exEng: "Please don't take this the wrong way, but you look like a famous actor.", exJpn: "変に誤解しないでほしいのですが、あなたは有名な俳優に似ていますね。" },																									
+{ eng: "Clear up a misunderstanding", jpn: "誤解を解く", formality: "Neutral expression", exEng: "We laughed after we cleared up the misunderstanding about our names.", exJpn: "お互いの名前についての誤解を解いた後、私たちは笑いました。" },																									
+{ eng: "Have a good sense of humor", jpn: "ユーモアのセンスがある", formality: "Neutral expression", exEng: "I immediately liked her because she has a good sense of humor.", exJpn: "彼女はユーモアのセンスがあるので、すぐに好きになりました。" },																									
         ],
         grammarPoints: [
             {
@@ -395,57 +367,49 @@ extendedReading: {
         ],
         homework: {
             vocab: [
-   { eng: "Arrange a blind date", jpn: "ブラインドデート（初対面同士のデート）をセッティングする", exEng: "My best friend arranged a blind date for me with her coworker.", exJpn: "親友が同僚と私のブラインドデートをセッティングしてくれました。" },																									
-{ eng: "Go on a first date", jpn: "初デートに行く", exEng: "They decided to go to a quiet coffee shop on their first date.", exJpn: "彼らは初デートに静かなコーヒーショップに行くことにしました。" },																									
-{ eng: "Feel a connection", jpn: "つながり（相性の良さ）を感じる", exEng: "From our very first conversation, I felt a strong connection with her.", exJpn: "最初の会話から、彼女と強い相性の良さを感じました。" },																									
-{ eng: "Have chemistry", jpn: "相性が良い（波長が合う）", exEng: "The two actors had great chemistry from the moment they met.", exJpn: "その2人の俳優は出会った瞬間から素晴らしい相性の良さを見せました。" },																									
-{ eng: "Clash with someone", jpn: "人と意見（性格）が衝突する", exEng: "Sometimes two strong personalities clash with each other immediately.", exJpn: "時には2つの強い個性がすぐに衝突することがあります。" },																									
-{ eng: "Take an instant dislike to someone", jpn: "会ってすぐに人を嫌いになる", exEng: "He was so rude to the waiter that I took an instant dislike to him.", exJpn: "彼がウェイターにとても失礼だったので、私は会ってすぐに彼を嫌いになりました。" },																									
-{ eng: "Take an instant liking to someone", jpn: "会ってすぐに人を好きになる", exEng: "My dog took an instant liking to our new mail carrier.", exJpn: "うちの犬は新しい郵便配達員を会ってすぐに好きになりました。" },																									
-{ eng: "Recognize a face", jpn: "顔に見覚えがある", exEng: "I recognize your face, but I can't remember where we met.", exJpn: "お顔に見覚えがあるのですが、どこでお会いしたか思い出せません。" },																									
-{ eng: "Look familiar", jpn: "見覚えがあるように見える", exEng: "That man over there looks familiar; did he go to our high school?", exJpn: "あそこにいる男性に見覚えがあります。私たちの高校に通っていましたか？" },																									
-{ eng: "Bump into someone", jpn: "人に偶然出くわす", exEng: "I bumped into an old classmate at the supermarket yesterday.", exJpn: "昨日スーパーで昔の同級生に偶然出くわしました。" },																									
-{ eng: "Run into a stranger", jpn: "見知らぬ人とばったり会う", exEng: "I ran into a friendly stranger who helped me carry my heavy bags.", exJpn: "重い荷物を運ぶのを手伝ってくれた親切な見知らぬ人とばったり会いました。" },																									
-{ eng: "Cross paths with someone", jpn: "人と出会う（人生が交差する）", exEng: "I am so glad our paths crossed at that summer festival.", exJpn: "あの夏祭りで私たちが巡り会えて本当に嬉しいです。" },																									
-{ eng: "Welcome a new neighbor", jpn: "新しい隣人を歓迎する", exEng: "We baked cookies to welcome a new neighbor who moved in next door.", exJpn: "隣に引っ越してきた新しい隣人を歓迎するためにクッキーを焼きました。" },																									
-{ eng: "Greet someone warmly", jpn: "人に温かく挨拶する", exEng: "The reception staff greeted us warmly as soon as we walked in.", exJpn: "私たちが中に入るとすぐに、受付スタッフが温かく挨拶してくれました。" },																									
-{ eng: "Exchange pleasantries", jpn: "儀礼的な挨拶（世間話）を交わす", exEng: "We exchanged pleasantries for a few minutes before starting the interview.", exJpn: "面接を始める前に、数分間儀礼的な挨拶を交わしました。" },																									
-{ eng: "State your name clearly", jpn: "自分の名前をはっきり名乗る", exEng: "When answering a business call, always state your name clearly.", exJpn: "ビジネス電話に出るときは、いつも自分の名前をはっきり名乗りましょう。" },																									
-{ eng: "Spell your name", jpn: "名前のスペルを言う", exEng: "Could you please spell your name so I can write it down correctly?", exJpn: "正しく書き留められるように、お名前のスペルを教えていただけますか？" },																									
-{ eng: "Explain your role", jpn: "自分の役割（職種）を説明する", exEng: "Each team member took turns to explain their role in the company.", exJpn: "各チームメンバーが順番に会社での自分の役割を説明しました。" },																									
+       { eng: "Crack a joke", jpn: "ジョークを飛ばす", formality: "Casual expression", exEng: "The instructor cracked a joke to relax the new students.", exJpn: "講師は新入生たちをリラックスさせるためにジョークを飛ばしました。" },																									
+{ eng: "Lighten the mood", jpn: "場の雰囲気を明るくする（和ませる）", formality: "Neutral expression", exEng: "Playing background music helped lighten the mood in the room.", exJpn: "BGMを流すことで、部屋の雰囲気を和ませることができました。" },																									
+{ eng: "Show genuine interest", jpn: "心からの関心を示す", formality: "Neutral expression", exEng: "People appreciate it when you show genuine interest in their stories.", exJpn: "自分の話に心からの関心を示してくれると、人は嬉しいものです。" },																									
+{ eng: "Pay someone a compliment", jpn: "人を褒める（お世辞を言う）", formality: "Neutral expression", exEng: "Paying someone a compliment is an easy way to start a chat.", exJpn: "相手を褒めることは、会話を始める簡単な方法です。" },																									
+{ eng: "Flatter someone", jpn: "人をおだてる", formality: "Neutral expression", exEng: "He tried to flatter the boss on his very first day at work.", exJpn: "彼は仕事の初日に上司をおだてようとしました。" },																									
+{ eng: "Butter someone up", jpn: "人にごまをする（お世辞を言う）", formality: "Casual expression", exEng: "You don't need to butter me up; just tell me what you need.", exJpn: "ごまをする必要はありませんよ。何が必要か言ってください。" },																									
+{ eng: "Hit it off from the get-go", jpn: "最初から意気投合する", formality: "Casual expression", exEng: "The two business partners hit it off from the get-go.", exJpn: "その2人のビジネスパートナーは最初から意気投合しました。" },																									
+{ eng: "Bond over shared interests", jpn: "共通の趣味を通じて絆を深める（仲良くなる）", formality: "Neutral expression", exEng: "We bonded over our shared interest in classic rock music.", exJpn: "私たちはクラシックロックという共通の趣味を通じて仲良くなりました。" },																									
+{ eng: "Click right away", jpn: "すぐに意気投合する", formality: "Casual expression", exEng: "Sometimes you meet someone and just click right away.", exJpn: "誰かに会って、すぐに意気投合することが時々あります。" },																									
+{ eng: "Vibe with someone", jpn: "人とノリが合う（波長が合う）", formality: "Casual expression", exEng: "I really vibed with the people I met at the surf camp.", exJpn: "サーフキャンプで出会った人たちと本当にノリが合いました。" },																									
+{ eng: "Pass the vibe check", jpn: "雰囲気が良いと認められる（ノリが合格点である）", formality: "Casual expression", exEng: "The new guy on our team definitely passed the vibe check.", exJpn: "私たちのチームの新しいメンバーは、間違いなくノリが良くて合格点でした。" },																									
+{ eng: "Be a people person", jpn: "社交的な人である（人付き合いが好きである）", formality: "Neutral expression", exEng: "She loves meeting new clients because she is a real people person.", exJpn: "彼女は本当に人付き合いが好きなので、新しいクライアントに会うのが大好きです。" },																									
+{ eng: "Be a social butterfly", jpn: "社交家である（誰とでも楽しく話せる人）", formality: "Casual expression", exEng: "My sister is a social butterfly who makes friends everywhere she goes.", exJpn: "私の姉は社交家で、どこへ行っても友達を作ります。" },																									
+{ eng: "Be a wallflower", jpn: "（パーティーなどで）輪に入れず隅にいる人である", formality: "Casual expression", exEng: "I used to be a wallflower at school dances because I was shy.", exJpn: "私は恥ずかしがり屋だったので、学校のダンスパーティーではいつも隅にいるタイプでした。" },																									
+{ eng: "Feel like a fish out of water", jpn: "場違いな感じがする（居心地が悪い）", formality: "Neutral expression", exEng: "At the fancy gala, I felt like a fish out of water.", exJpn: "高級な祝賀パーティーで、私は場違いな感じがして居心地が悪かったです。" },																									
+{ eng: "Feel out of place", jpn: "場違いだと感じる", formality: "Neutral expression", exEng: "He was the only one wearing jeans, so he felt out of place.", exJpn: "ジーンズを履いているのは彼だけだったので、彼は場違いだと感じました。" },																									
+{ eng: "Fit right in", jpn: "すぐに馴染む", formality: "Neutral expression", exEng: "Everyone was so welcoming that I fit right in on my first day.", exJpn: "みんなとても温かく迎えてくれたので、初日にすぐ馴染むことができました。" },																									
+{ eng: "Blend in with the crowd", jpn: "周囲に溶け込む", formality: "Neutral expression", exEng: "New students often want to blend in with the crowd at first.", exJpn: "新入生は最初、周囲に溶け込みたいと思うことが多いです。" },																									
+{ eng: "Stand out from the crowd", jpn: "周囲から際立つ（目立つ）", formality: "Neutral expression", exEng: "Her bright red coat made her stand out from the crowd.", exJpn: "彼女の明るい赤いコートは、人混みの中で彼女を際立たせていました。" },																									
+{ eng: "Make your presence felt", jpn: "存在感を示す", formality: "Business expression", exEng: "He made his presence felt at his first board meeting by asking smart questions.", exJpn: "彼は最初の役員会議で賢明な質問をすることで、存在感を示しました。" },																									
             ],
-            reading1: {
-                title: "Task 2: Reading (Review Model: Assessing Character)",
-                instruction: "Read the blog post. Notice how the writer recycles the lesson's vocabulary, grammar (multiple adjectives), and transitional expressions.",
-                eng: "Generally speaking, evaluating someone's character based solely on their appearance can be deceptive. In my previous job, I met a manager who seemed strict and demanding. However, my initial perception was completely wrong. He was actually a sincere and approachable leader. Additionally, he always maintained excellent posture, which made him look like a confident, experienced professional. In contrast, another colleague dressed beautifully but lacked a reliable attitude. Overall, I believe that observing how someone interacts with others is more valuable than analyzing their clothes.",
-                jpn: "一般的に言えば、外見だけで誰かの性格を評価することは当てにならない場合があります。前の職場で、私は厳格で要求が多そうに見えるマネージャーに会いました。しかし、私の最初の認識は完全に間違っていました。彼は実際には誠実で親しみやすいリーダーでした。さらに、彼は常に素晴らしい姿勢を維持しており、それが彼を自信に満ちた経験豊かなプロフェッショナルに見せていました。対照的に、別の同僚は美しく服を着こなしていましたが、信頼できる態度に欠けていました。全体的に、誰かが他人とどのように交流するかを観察することは、その人の服を分析することよりも価値があると私は信じています。"
+            clickingGames: [
+                // Grammar Point 1: Linking descriptors - 4 sentences
+                { prompt: "私たちの新しいマネージャーは誠実で親しみやすいです。", target: "Our new manager is sincere and approachable.", words: ["Our", "new", "manager", "is", "sincere", "and", "approachable."] },
+                { prompt: "そのクライアントはせっかちで要求が多かったです。", target: "The client was impatient and demanding.", words: ["The", "client", "was", "impatient", "and", "demanding."] },
+                { prompt: "彼はとてもエネルギッシュで創造的に見えます。", target: "He seems very energetic and creative.", words: ["He", "seems", "very", "energetic", "and", "creative."] },
+                { prompt: "その応募者は自信に満ちていて信頼できました。", target: "The candidate was confident and reliable.", words: ["The", "candidate", "was", "confident", "and", "reliable."] },
+                // Grammar Point 2: Order of adjectives - 4 sentences
+                { prompt: "彼は私に、彼のスタイリッシュな新しいスマホを見せてくれました。", target: "He showed me his stylish, new phone.", words: ["He", "showed", "me", "his", "stylish,", "new", "phone."] },
+                { prompt: "彼女はエネルギッシュで若いプロフェッショナルです。", target: "She is an energetic, young professional.", words: ["She", "is", "an", "energetic,", "young", "professional."] },
+                { prompt: "彼はスタイリッシュな青いスーツを着ていました。", target: "He wore a stylish, blue suit.", words: ["He", "wore", "a", "stylish,", "blue", "suit."] },
+                { prompt: "彼女はスマートで経験豊富なリーダーです。", target: "She is a smart, experienced leader.", words: ["She", "is", "a", "smart,", "experienced", "leader."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Professional Blog)",
+                instruction: "Read this professional blog post about how first impressions work. Notice how the writer uses multiple adjectives and transition words.",
+                eng: "<div class='er-template er-blog'><h3 class='er-blog-title'>The Halo Effect in Real Life: Looking Beyond Appearance</h3><span class='er-blog-meta'>By: Tech Leader David | 📅 October 14</span><p>In general, we all know that first impressions are very important in the business world. Whenever you meet a new coworker or a possible client, your brain makes many quick decisions in just a few seconds. Experts often call this the 'halo effect'. This means that if we notice one very good quality in a person, we naturally think that all of their other qualities are good, too. However, this way of thinking can sometimes cause serious mistakes at work.</p><p>Last month, I had this exact experience. Our team really needed a new programmer, so I interviewed a person for an important engineering job. When he arrived at the office, he looked very professional. He was wearing a stylish, new, dark-blue suit, and he stood up straight during our whole introduction. His face was friendly, and he gave me a strong, confident handshake. Because of his neat and impressive appearance, I immediately thought he was a reliable, smart, and hardworking person. I was ready to offer him the job right away.</p><p>However, my first impression was completely wrong. As the interview continued, I started to ask him clear, detailed questions about computer programming. Suddenly, his honest and confident attitude disappeared. His answers were unclear, slow, and confusing. He tried to hide his nervousness, but his body language changed. He started looking down and avoiding eye contact. It quickly became clear that he did not have the real programming skills needed for the daily work of the job. His resume was not completely true, and he was trying to depend only on his charm.</p><p>Overall, this experience taught me a very useful lesson. A clean, professional appearance is a great start, and it certainly helps you look confident. Also, having a cheerful or warm personality makes it easy for coworkers to talk to you. However, as a manager, we must always look deeper than the outside. We must check a person's real skills and personality, instead of just looking at their nice clothes. Unlike my first impression, a quiet, shy person might actually be the smartest and most helpful worker on the team.</p></div>",
+                jpn: "<div class='er-template er-blog'><h3 class='er-blog-title'>実生活におけるハロー効果：外見の先を見る</h3><span class='er-blog-meta'>執筆者：テックリーダー デビッド | 📅 10月14日</span><p>一般的に、ビジネスの世界では第一印象がとても大切だということを私たちは皆知っています。新しい同僚や将来の顧客に会うたびに、脳はわずか数秒で多くの素早い判断をします。専門家はよくこれを「ハロー効果」と呼びます。これは、ある人に1つのとても良い長所を見つけると、その人の他の長所もすべて良いと自然に思い込んでしまうことを意味します。しかし、このような考え方は、時に仕事で深刻なミスを引き起こすことがあります。</p><p>先月、私はまさにこの経験をしました。私たちのチームは新しいプログラマーを本当に必要としていたため、私は重要なエンジニア職の応募者と面接をしました。彼がオフィスに到着したとき、彼はとてもプロフェッショナルに見えました。彼はスタイリッシュで新しい濃紺のスーツを着ており、自己紹介の間ずっと背筋をピンと伸ばしていました。表情は親しみやすく、力強く自信に満ちた握手をしてくれました。このきちんとしていて印象的な外見のおかげで、私はすぐに彼が信頼でき、賢く、勤勉な人だと思いました。私はその場で彼に仕事を提供する準備ができていました。</p><p>しかし、私の第一印象は完全に間違っていました。面接が進むにつれて、私はコンピュータープログラミングについて明確で詳しい質問をし始めました。すると突然、彼の誠実で自信に満ちた態度は消えてしまいました。彼の答えは不明瞭で遅く、分かりにくいものでした。彼は緊張を隠そうとしましたが、ボディーランゲージが変わりました。下を向き始め、目を合わせるのを避けるようになったのです。日々の仕事に必要な本当のプログラミングスキルが彼にないことはすぐに明らかになりました。彼の履歴書は完全な事実ではなく、彼は自分の魅力だけに頼ろうとしていたのです。</p><p>全体として、この経験は私にとても役に立つ教訓を教えてくれました。清潔でプロフェッショナルな外見は素晴らしいスタートであり、自信があるように見せるのに確かに役立ちます。また、明るく温かい性格であれば、同僚も話しかけやすくなります。しかし、マネージャーとして、私たちは常に表面よりも深く見なければなりません。素敵な服だけを見るのではなく、その人の本当のスキルや性格を確かめる必要があります。私の第一印象とは違い、静かで内気な人が、実際にはチームで最も賢く頼りになる働き手であるかもしれないのです。</p></div>"
             },
-            expandedDialogue: [
-                { speaker: "A", eng: "Have you had a chance to evaluate the new marketing candidate yet?", jpn: "新しいマーケティングの候補者を評価する機会はもうありましたか？" },
-                { speaker: "B", eng: "Yes, I interviewed him this morning. He seems very energetic and creative.", jpn: "はい、今朝彼と面接しました。彼はとてもエネルギッシュで創造的に見えます。" },
-                { speaker: "A", eng: "That's great. Was his appearance professional?", jpn: "それは素晴らしいですね。彼の外見はプロフェッショナルでしたか？" },
-                { speaker: "B", eng: "Absolutely. He wore a stylish, blue suit and maintained great posture.", jpn: "間違いありません。彼はスタイリッシュな青いスーツを着て、素晴らしい姿勢を保っていました。" },
-                { speaker: "A", eng: "Posture is crucial. It shows that a person is confident and reliable.", jpn: "姿勢は極めて重要です。それはその人が自信に満ち、信頼できることを示します。" },
-                { speaker: "B", eng: "I agree. Additionally, his communication style was very expressive.", jpn: "同感です。さらに、彼のコミュニケーションスタイルは非常に表現力豊かでした。" },
-                { speaker: "A", eng: "Did he seem approachable? We need someone who works well in a team.", jpn: "彼は親しみやすそうでしたか？チームでうまく働ける人が必要なのです。" },
-                { speaker: "B", eng: "Yes, he smiled often and gave sincere answers. He didn't hesitate at all.", jpn: "はい、彼はよく微笑み、誠実な回答をしていました。全くためらいがありませんでした。" },
-                { speaker: "A", eng: "In contrast, the previous candidate seemed a bit deceptive, didn't she?", jpn: "対照的に、前の候補者は少し当てにならないように見えましたよね？" },
-                { speaker: "B", eng: "Yes. Her attitude was polite, but her responses felt rehearsed.", jpn: "ええ。彼女の態度は礼儀正しかったですが、回答がリハーサルされたもののように感じました。" },
-                { speaker: "A", eng: "Overall, do you think we should offer this new candidate the position?", jpn: "全体的に見て、この新しい候補者に役職をオファーすべきだと思いますか？" },
-                { speaker: "B", eng: "Generally speaking, I highly recommend him. He left a fantastic impression.", jpn: "一般的に言えば、彼を強くお勧めします。彼は素晴らしい印象を残しました。" },
-                { speaker: "A", eng: "Excellent. Let's set up a final meeting to wrap up the hiring process.", jpn: "素晴らしい。採用プロセスを締めくくるために最終会議を設定しましょう。" },
-                { speaker: "B", eng: "I will bring up the contract details during the meeting. I'll send you the invite now.", jpn: "会議中に契約の詳細を持ち出しますね。今すぐ招待状を送ります。" }
-            ],
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a person you respect using multiple adjectives. What makes their appearance or attitude stand out?",
                 promptJpn: "「あなたが尊敬する人物を、複数の形容詞を使って説明してください。その人の外見や態度の何が際立っていますか？」という質問に答える短い段落を書いてください。"
-            },
-extendedReading: {
- title: "Task 4: Authentic Reading (Professional Blog)",
-            instruction: "Read this professional blog post about how first impressions work. Notice how the writer uses multiple adjectives and transition words.",
-            eng: "<div class='er-template er-blog'><h3 class='er-blog-title'>The Halo Effect in Real Life: Looking Beyond Appearance</h3><span class='er-blog-meta'>By: Tech Leader David | 📅 October 14</span><p>In general, we all know that first impressions are very important in the business world. Whenever you meet a new coworker or a possible client, your brain makes many quick decisions in just a few seconds. Experts often call this the 'halo effect'. This means that if we notice one very good quality in a person, we naturally think that all of their other qualities are good, too. However, this way of thinking can sometimes cause serious mistakes at work.</p><p>Last month, I had this exact experience. Our team really needed a new programmer, so I interviewed a person for an important engineering job. When he arrived at the office, he looked very professional. He was wearing a stylish, new, dark-blue suit, and he stood up straight during our whole introduction. His face was friendly, and he gave me a strong, confident handshake. Because of his neat and impressive appearance, I immediately thought he was a reliable, smart, and hardworking person. I was ready to offer him the job right away.</p><p>However, my first impression was completely wrong. As the interview continued, I started to ask him clear, detailed questions about computer programming. Suddenly, his honest and confident attitude disappeared. His answers were unclear, slow, and confusing. He tried to hide his nervousness, but his body language changed. He started looking down and avoiding eye contact. It quickly became clear that he did not have the real programming skills needed for the daily work of the job. His resume was not completely true, and he was trying to depend only on his charm.</p><p>Overall, this experience taught me a very useful lesson. A clean, professional appearance is a great start, and it certainly helps you look confident. Also, having a cheerful or warm personality makes it easy for coworkers to talk to you. However, as a manager, we must always look deeper than the outside. We must check a person's real skills and personality, instead of just looking at their nice clothes. Unlike my first impression, a quiet, shy person might actually be the smartest and most helpful worker on the team.</p></div>",
-            jpn: "<div class='er-template er-blog'><h3 class='er-blog-title'>実生活におけるハロー効果：外見の先を見る</h3><span class='er-blog-meta'>執筆者：テックリーダー デビッド | 📅 10月14日</span><p>一般的に、ビジネスの世界では第一印象がとても大切だということを私たちは皆知っています。新しい同僚や将来の顧客に会うたびに、脳はわずか数秒で多くの素早い判断をします。専門家はよくこれを「ハロー効果」と呼びます。これは、ある人に1つのとても良い長所を見つけると、その人の他の長所もすべて良いと自然に思い込んでしまうことを意味します。しかし、このような考え方は、時に仕事で深刻なミスを引き起こすことがあります。</p><p>先月、私はまさにこの経験をしました。私たちのチームは新しいプログラマーを本当に必要としていたため、私は重要なエンジニア職の応募者と面接をしました。彼がオフィスに到着したとき、彼はとてもプロフェッショナルに見えました。彼はスタイリッシュで新しい濃紺のスーツを着ており、自己紹介の間ずっと背筋をピンと伸ばしていました。表情は親しみやすく、力強く自信に満ちた握手をしてくれました。このきちんとしていて印象的な外見のおかげで、私はすぐに彼が信頼でき、賢く、勤勉な人だと思いました。私はその場で彼に仕事を提供する準備ができていました。</p><p>しかし、私の第一印象は完全に間違っていました。面接が進むにつれて、私はコンピュータープログラミングについて明確で詳しい質問をし始めました。すると突然、彼の誠実で自信に満ちた態度は消えてしまいました。彼の答えは不明瞭で遅く、分かりにくいものでした。彼は緊張を隠そうとしましたが、ボディーランゲージが変わりました。下を向き始め、目を合わせるのを避けるようになったのです。日々の仕事に必要な本当のプログラミングスキルが彼にないことはすぐに明らかになりました。彼の履歴書は完全な事実ではなく、彼は自分の魅力だけに頼ろうとしていたのです。</p><p>全体として、この経験は私にとても役に立つ教訓を教えてくれました。清潔でプロフェッショナルな外見は素晴らしいスタートであり、自信があるように見せるのに確かに役立ちます。また、明るく温かい性格であれば、同僚も話しかけやすくなります。しかし、マネージャーとして、私たちは常に表面よりも深く見なければなりません。素敵な服だけを見るのではなく、その人の本当のスキルや性格を確かめる必要があります。私の第一印象とは違い、静かで内気な人が、実際にはチームで最も賢く頼りになる働き手であるかもしれないのです。</p></div>"
-        }
+            }
         }
     },
 {
@@ -453,60 +417,78 @@ extendedReading: {
         chapter: "Chapter 1: First Meetings",
         type: "transactional",
         title: "Lesson 4: How to exchange contact details",
-        goal: "Ask for contact information politely and offer various networking choices. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(連絡先情報を丁寧に尋ね、様々なネットワーキングの選択肢を提案する。)</span>",
+        goal: "Wrap up a conversation politely, exchange business cards, and connect on LinkedIn. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(会話を丁寧に切り上げ、名刺を交換し、LinkedInでつながる。)</span>",
         vocab: [
-{ eng: "Give a brief introduction", jpn: "簡単な自己紹介をする", exEng: "The teacher asked each student to give a brief introduction on day one.", exJpn: "先生は初日に各生徒に簡単な自己紹介をするよう求めました。" },																									
-{ eng: "Prepare an elevator pitch", jpn: "エレベーターピッチ（短い自己PR）を用意する", exEng: "It helps to prepare an elevator pitch when attending job fairs.", exJpn: "就職説明会に参加するときは、短い自己PRを用意しておくと役立ちます。" },																									
-{ eng: "Hand out business cards", jpn: "名刺を配る", exEng: "He walked around the conference room handing out business cards.", exJpn: "彼は会議室を歩き回って名刺を配りました。" },																									
-{ eng: "Accept a business card", jpn: "名刺を受け取る", exEng: "Always accept a business card with both hands in formal settings.", exJpn: "フォーマルな場では、必ず両手で名刺を受け取りましょう。" },																									
-{ eng: "Start off on the right foot", jpn: "良いスタートを切る", exEng: "Arriving ten minutes early helped us start off on the right foot.", exJpn: "10分早く到着したことで、良いスタートを切ることができました。" },																									
-{ eng: "Start off on the wrong foot", jpn: "悪いスタートを切る（最初からつまずく）", exEng: "We started off on the wrong foot because I accidentally spilled coffee on him.", exJpn: "私がうっかり彼にコーヒーをこぼしてしまったせいで、最初からつまずいてしまいました。" },																									
-{ eng: "Clear up a misunderstanding", jpn: "誤解を解く", exEng: "A quick phone call helped clear up a misunderstanding between the two new partners.", exJpn: "短い電話のおかげで、2人の新しいパートナー間の誤解が解けました。" },																									
-{ eng: "Make someone feel welcome", jpn: "人に歓迎されていると感じさせる", exEng: "Thank you so much for making me feel welcome on my first day here.", exJpn: "ここでの初日に、私が歓迎されていると感じられるようにしてくれて本当にありがとうございます。" },																									
-{ eng: "No-show", jpn: "約束の場所に連絡なしで現れないこと（ドタキャンする人）", exEng: "We planned to meet for coffee, but he was a complete no-show.", exJpn: "コーヒーを飲みに行く約束をしていたのに、彼は連絡なしで完全に現れませんでした。" },
-{ eng: "One-up someone", jpn: "相手よりすごい話をしてマウンティングをとる", exEng: "Whenever I mentioned a trip, he tried to one-up me with a crazier story.", exJpn: "私が旅行の話をするたびに、彼はもっとすごい話をしてマウンティングをとろうとしました。" },
-{ eng: "Overshare", jpn: "（初対面なのに）個人的な秘密や深い話をしすぎる", exEng: "I got nervous on our first coffee chat and accidentally overshared about my childhood.", exJpn: "最初のコーヒーチャットで緊張して、うっかり子供時代の深い話をしすぎてしまいました。" },
-{ eng: "Pass the vibe check", jpn: "いい感じの雰囲気・相性である（好印象を与える）", exEng: "Your new roommate definitely passes the vibe check; she is super friendly!", exJpn: "あなたの新しいルームメイトは間違いなくいい感じの子だね、すごくフレンドリー！" },																									
+            { eng: "Leave a lasting impression", jpn: "強い（心に残る）印象を残す", formality: "Neutral expression", exEng: "Her kindness during our first encounter left a lasting impression on me.", exJpn: "初対面のときの彼女の親切さは、私に心に残る印象を与えました。" },
+            { eng: "Strike someone as intelligent", jpn: "人に知的な印象を与える", formality: "Neutral expression", exEng: "The candidate struck me as very intelligent and well-prepared.", exJpn: "その候補者は私に、非常に知的で準備が整っているという印象を与えました。" },
+            { eng: "Seem approachable", jpn: "話しかけやすそうに見える（親しみやすい）", formality: "Neutral expression", exEng: "Smiling makes you seem much more approachable to strangers.", exJpn: "笑顔でいると、見知らぬ人から見てずっと話しかけやすそうに見えます。" },
+            { eng: "Look intimidating", jpn: "近寄りがたく見える（威圧感がある）", formality: "Neutral expression", exEng: "The coach looked intimidating at first, but he is actually very kind.", exJpn: "コーチは最初は怖そうに見えましたが、実際はとても親切です。" },
+            { eng: "Have a resting angry face", jpn: "無表情だと怒っているように見える顔である", formality: "Casual expression", exEng: "People think I'm mad when they meet me, but I just have a resting angry face.", exJpn: "初対面の人に怒っていると思われますが、ただ無表情だと怖く見える顔なだけです。" },
+            { eng: "Give someone the cold shoulder", jpn: "人に冷たい態度をとる（よそよそしくする）", formality: "Casual expression", exEng: "I tried to say hello, but she gave me the cold shoulder.", exJpn: "挨拶しようとしましたが、彼女は私に冷たい態度をとりました。" },
+            { eng: "Brush someone off", jpn: "人を軽くあしらう（無視する）", formality: "Casual expression", exEng: "He tried to introduce himself, but the celebrity brushed him off.", exJpn: "彼は自己紹介をしようとしましたが、その有名人は彼を軽くあしらいました。" },
+            { eng: "Give someone the brush-off", jpn: "人を冷たくあしらう", formality: "Casual expression", exEng: "I asked for her number, and she totally gave me the brush-off.", exJpn: "彼女に電話番号を聞きましたが、完全に冷たくあしらわれました。" },
+            { eng: "Welcome someone with open arms", jpn: "人を双手を挙げて（大いに）歓迎する", formality: "Neutral expression", exEng: "The local community welcomed the new family with open arms.", exJpn: "地域社会は新しい家族を心から大歓迎しました。" },
+            { eng: "Roll out the red carpet", jpn: "丁重にもてなす（大歓迎する）", formality: "Neutral expression", exEng: "They really rolled out the red carpet for the visiting clients.", exJpn: "彼らは訪問してきたクライアントを本当に丁重にもてなしました。" },
+            { eng: "Show someone around", jpn: "人を案内する", formality: "Neutral expression", exEng: "On my first morning, a coworker offered to show me around the office.", exJpn: "最初の朝、同僚がオフィスを案内すると申し出てくれました。" },
+            { eng: "Learn the ropes", jpn: "仕事のコツ（要領）を覚える", formality: "Neutral expression", exEng: "It takes a few weeks to meet everyone and learn the ropes.", exJpn: "全員に会って仕事の要領を覚えるには数週間かかります。" }
         ],
         dialogue: [
-            { speaker: "A", eng: "It was wonderful speaking with you today at the tech summit.", jpn: "本日はテックサミットでお話しできて素晴らしかったです。" },
-            { speaker: "B", eng: "I completely agree. It is always great to expand my professional network.", jpn: "完全に同意します。プロフェッショナルな人脈を広げるのは常に素晴らしいことです。" },
-            { speaker: "A", eng: "<span class='swappable'>Could you possibly share your contact details with me?</span>", jpn: "連絡先を私に教えていただくことは可能でしょうか？" },
-            { speaker: "B", eng: "Of course. <span class='swappable'>Would you mind connecting on LinkedIn first?</span>", jpn: "もちろんです。まずはLinkedInでつながってもよろしいですか？" },
-            { speaker: "A", eng: "That works perfectly. I will look up your profile right away.", jpn: "それで完璧です。すぐにあなたのプロフィールを調べます。" },
-            { speaker: "B", eng: "Excellent. <span class='swappable'>Is email also a convenient way to reach you?</span>", jpn: "素晴らしい。メールもあなたに連絡を取るのに便利な方法ですか？" },
-            { speaker: "A", eng: "Yes, <span class='swappable'>my preferred platform for formal daily updates is email.</span>", jpn: "はい、正式な日々の最新情報について私が希望するプラットフォームはメールです。" },
-            { speaker: "B", eng: "I see. <span class='swappable'>Let me give you my physical business card as well.</span>", jpn: "なるほど。私の物理的な名刺も渡させてください。" },
-            { speaker: "A", eng: "Thank you very much. <span class='swappable'>I will inform you when I send the digital invitation.</span>", jpn: "どうもありがとうございます。デジタルの招待状を送る際にお知らせしますね。" },
-            { speaker: "B", eng: "Great. When can I expect to hear from you?", jpn: "素晴らしい。いつ頃ご連絡をいただけるでしょうか？" },
-            { speaker: "A", eng: "I will reach out to you early next Monday morning.", jpn: "来週の月曜日の朝早くにご連絡いたします。" },
-            { speaker: "B", eng: "Perfect. I am looking forward to discussing our ideas further.", jpn: "完璧です。私たちのアイデアについてさらに話し合えるのを楽しみにしています。" },
-            { speaker: "A", eng: "Me too. Have a safe trip back to your headquarters.", jpn: "私もです。本社まで気をつけてお帰りください。" },
-            { speaker: "B", eng: "Thank you. See you next week!", jpn: "ありがとうございます。また来週！" }
+            { speaker: "A", eng: "<span class='swappable'>I have really enjoyed chatting with you, but I need to head to the next session soon.</span>", jpn: "お話しできて本当に楽しかったのですが、そろそろ次のセッションへ向かわなければなりません。" },
+            { speaker: "B", eng: "Of course, I shouldn't keep you! It was really great talking with you today.", jpn: "もちろんです、お引き止めしてはいけませんね！本日はお話しできて本当に良かったです。" },
+            { speaker: "A", eng: "Before I go, <span class='swappable'>could you possibly give me your business card?</span> I would love to stay in touch.", jpn: "行く前に、お名刺をいただくことは可能でしょうか？ぜひ今後も連絡を取り合いたいです。" },
+            { speaker: "B", eng: "Certainly, here you go. Do you have a card on you as well?", jpn: "もちろんです、どうぞ。あなたもお名刺をお持ちですか？" },
+            { speaker: "A", eng: "Yes, here is mine. Also, are you on LinkedIn?", jpn: "はい、こちらが私の名刺です。あと、LinkedInはやっていらっしゃいますか？" },
+            { speaker: "B", eng: "Yes, I use it all the time. <span class='swappable'>Would you mind adding me on LinkedIn?</span>", jpn: "はい、いつも使っています。LinkedInで私を追加していただけますか？" },
+            { speaker: "A", eng: "Not at all! I will search for your name and send you a request right after this session.", jpn: "もちろんです！このセッションが終わったらすぐに、お名前を検索してリクエストを送りますね。" },
+            { speaker: "B", eng: "Sounds great. <span class='swappable'>I will send you a message next week so we can grab coffee sometime</span>.", jpn: "いいですね。今度コーヒーでもご一緒できるように、来週メッセージを送りますよ。" },
+            { speaker: "A", eng: "I would love that. Enjoy the rest of the conference!", jpn: "ぜひお願いします。カンファレンスの残りも楽しんでください！" },
+            { speaker: "B", eng: "Thank you! Talk to you soon.", jpn: "ありがとうございます！また近いうちにお話ししましょう。" }
         ],
         dialogueStructure: [
-            { eng: "Express pleasure of meeting", jpn: "会えた喜びを表現する", indent: false },
-            { eng: "Agree + State benefit", jpn: "同意する ＋ 利点を述べる", indent: true },
-            { eng: "Ask for contact details indirectly", jpn: "間接的に連絡先を尋ねる", indent: false },
-            { eng: "Agree + Ask for platform preference", jpn: "同意する ＋ プラットフォームの希望を尋ねる", indent: true },
-            { eng: "Acknowledge + State action", jpn: "応じる ＋ 行動を述べる", indent: false },
-            { eng: "Confirm + Ask about alternatives", jpn: "確認する ＋ 代替手段について尋ねる", indent: true },
-            { eng: "State preferred platform", jpn: "希望するプラットフォームを述べる", indent: false },
-            { eng: "Acknowledge + Offer physical item", jpn: "応じる ＋ 物理的なアイテムを提供する", indent: true },
-            { eng: "Accept politely + Promise future action", jpn: "丁寧に受け入れる ＋ 将来の行動を約束する", indent: false },
-            { eng: "Ask for timeline", jpn: "スケジュールについて尋ねる", indent: true },
-            { eng: "State timeline for follow-up", jpn: "フォローアップのスケジュールを述べる", indent: false },
-            { eng: "Express anticipation", jpn: "期待を表現する", indent: true },
-            { eng: "Conclude conversation", jpn: "会話を締めくくる", indent: false },
-            { eng: "Thank + Say goodbye", jpn: "感謝する ＋ 別れの挨拶", indent: true }
+            { eng: "Signal the end of the conversation politely", jpn: "会話の終わりを丁寧に切り出す", indent: false },
+            { eng: "Acknowledge + Express pleasure of talking", jpn: "応じる ＋ 話せた喜びを伝える", indent: true },
+            { eng: "Ask for a business card + Express desire to stay in touch", jpn: "名刺を尋ねる ＋ 連絡を取り合いたいと伝える", indent: false },
+            { eng: "Give business card + Ask for theirs", jpn: "名刺を渡す ＋ 相手の名刺も尋ねる", indent: true },
+            { eng: "Give business card + Ask about LinkedIn", jpn: "名刺を渡す ＋ LinkedInについて尋ねる", indent: false },
+            { eng: "Confirm + Ask to connect on LinkedIn", jpn: "確認する ＋ LinkedInでの追加をお願いする", indent: true },
+            { eng: "Agree + Promise to send a request", jpn: "同意する ＋ リクエストを送ると約束する", indent: false },
+            { eng: "Promise to follow up next week", jpn: "来週連絡すると約束する", indent: true },
+            { eng: "Accept + Wish them well at the event", jpn: "受け入れる ＋ イベントを楽しむよう伝える", indent: false },
+            { eng: "Thank + Say goodbye", jpn: "感謝する ＋ 別れの挨拶をする", indent: true }
         ],
         expressions: [
-            { category: "1. Asking indirectly (間接的に尋ねる)", options: ["Could you possibly share your contact details?", "I was wondering if we could exchange emails.", "Would it be possible to get your business card?"] },
-            { category: "2. Asking for permission (許可を求める)", options: ["Would you mind connecting on LinkedIn?", "Do you mind if I send you a quick message later?", "Would it be okay to call you tomorrow?"] },
-            { category: "3. Confirming convenience (都合を確認する)", options: ["Is email also a convenient way to reach you?", "What is the best way to contact you?", "Are you reachable via this messaging application?"] },
-            { category: "4. Stating preferences (好みを述べる)", options: ["My preferred platform for daily updates is email.", "I usually use this networking application.", "I prefer discussing details over a phone call."] },
-            { category: "5. Offering items (物を提供する)", options: ["Let me give you my business card as well.", "Here is a link to my professional profile.", "I can forward my details to your assistant."] },
-            { category: "6. Promising future action (将来の行動を約束する)", options: ["I will inform you when I send the digital invitation.", "I will reach out to you next Monday.", "I will update you as soon as possible."] }
+            { 
+                category: "1. Ending a conversation politely (会話を丁寧に切り上げる)", 
+                options: [
+                    { eng: "It's been fun talking with you, but I have a meeting coming up soon so...", jpn: "あなたとお話しできて楽しかったです。でも、もうすぐ会議があるので……" },
+                    { eng: "It was great talking to you, but I actually have to catch my train soon.", jpn: "お話しできて素晴らしかったのですが、実はもうすぐ電車に乗らなければなりません。" },
+                    { eng: "I don't want to take up too much of your time, so I should get going.", jpn: "お時間を取らせすぎてはいけませんので、そろそろ失礼いたします。" }
+                ] 
+            },
+            { 
+                category: "2. Exchanging business cards (名刺を交換する)", 
+                options: [
+                    { eng: "Do you have a business card on you?", jpn: "名刺はお持ちですか？" },
+                    { eng: "Would you mind exchanging business cards before we leave?", jpn: "出発する前に名刺を交換してもよろしいですか？" },
+                    { eng: "Let me give you my card.", jpn: "私の名刺をお渡ししましょう。" }
+                ] 
+            },
+            { 
+                category: "3. Connecting on LinkedIn (LinkedInでつながる)", 
+                options: [
+                    { eng: "Would it OK if I added you on LinkedIn?", jpn: "LinkedInであなたを友達追加してもいいですか？" },
+                    { eng: "Could I possibly add you on LinkedIn?", jpn: "LinkedInであなたを追加することは可能でしょうか？" },
+                    { eng: "I will send you a friend request on LinkedIn later today.", jpn: "今日中にLinkedInでつながりリクエストをお送りします。" }
+                ] 
+            },
+            { 
+                category: "4. Promising to stay in touch (今後の連絡を約束する)", 
+                options: [
+                    { eng: "Hit me up the next time you are in the area.", jpn: "またこの辺りに来るときは、ぜひ連絡してね。" },
+                    { eng: "Let's stay in touch and grab coffee sometime soon.", jpn: "引き続き連絡を取り合って、近いうちにコーヒーでも飲みに行きましょう。" },
+                    { eng: "I look forward to talking with you again soon.", jpn: "また近いうちにお話しできるのを楽しみにしています。" }
+                ] 
+            }
         ],
         grammarPoints: [
             {
@@ -514,7 +496,7 @@ extendedReading: {
                 explanation: "To make a request sound extremely polite and unassertive in business, add 'possibly' after 'Could you' or 'Could I'.",
                 explanationJpn: "ビジネスで要求を極めて丁寧に、かつ控えめに聞こえさせるには、「Could you」や「Could I」の後に「possibly」を加えます。",
                 examples: [
-                    { eng: "Could you possibly share your contact details?", jpn: "連絡先を教えていただくことは可能でしょうか？" },
+                    { eng: "Could you possibly give me your business card?", jpn: "お名刺をいただくことは可能でしょうか？" },
                     { eng: "Could I possibly borrow your pen for a moment?", jpn: "少しの間、ペンをお借りすることは可能でしょうか？" }
                 ]
             },
@@ -523,83 +505,63 @@ extendedReading: {
                 explanation: "Use 'Would you mind' followed by a gerund (-ing verb) to formally ask for permission. Note: Answering 'No' means 'I do not mind' (Yes, you can do it).",
                 explanationJpn: "「Would you mind」の後に動名詞（-ing形の動詞）を続けて、正式に許可を求めます。注意：「No」と答えることは「気にしません（はい、やっていいですよ）」を意味します。",
                 examples: [
-                    { eng: "Would you mind connecting on LinkedIn?", jpn: "LinkedInでつながってもよろしいですか（気にしませんか）？" },
+                    { eng: "Would you mind adding me on LinkedIn?", jpn: "LinkedInで私を追加していただけますか（気にしませんか）？" },
                     { eng: "Would you mind exchanging business cards?", jpn: "名刺を交換してもよろしいですか？" }
                 ]
             }
         ],
-        clickingGames: [
-            { prompt: "あなたの連絡先を教えていただくことは可能でしょうか？", target: "Could you possibly share your contact details?", words: ["Could", "you", "possibly", "share", "your", "contact", "details?"] },
-            { prompt: "LinkedInでつながってもよろしいですか？", target: "Would you mind connecting on LinkedIn?", words: ["Would", "you", "mind", "connecting", "on", "LinkedIn?"] },
-            { prompt: "メールも便利な連絡方法ですか？", target: "Is email a convenient way to reach you?", words: ["Is", "email", "a", "convenient", "way", "to", "reach", "you?"] },
-            { prompt: "私が希望するプラットフォームはメールです。", target: "My preferred platform is email.", words: ["My", "preferred", "platform", "is", "email."] },
-            { prompt: "私の名刺も渡させてください。", target: "Let me give you my business card.", words: ["Let", "me", "give", "you", "my", "business", "card."] }
-        ],
-        dropdownGames: [
-            { before: "Could you", options: ["possibly", "probably", "mostly"], answer: "possibly", after: " send me an email tomorrow?" },
-            { before: "Would you", options: ["mind", "care", "like"], answer: "mind", after: " exchanging business cards right now?" },
-            { before: "What is the most", options: ["convenient", "convenience", "convene"], answer: "convenient", after: " time to call you?" },
-            { before: "My", options: ["preferred", "prefer", "preference"], answer: "preferred", after: " application for chatting is Slack." },
-            { before: "I will", options: ["inform", "information", "informative"], answer: "inform", after: " you when the meeting starts." },
-            { before: "Is it okay if I", options: ["reach", "reach out", "reaching"], answer: "reach", after: " you by phone next week?" },
-            { before: "Let me", options: ["give", "gave", "giving"], answer: "give", after: " you a link to my professional profile." },
-            { before: "I was", options: ["wondering", "wonder", "wondered"], answer: "wondering", after: " if we could connect online." },
-            { before: "Would it be", options: ["possible", "possibly", "possibility"], answer: "possible", after: " to get your contact details?" },
-            { before: "Would you mind", options: ["updating", "update", "updated"], answer: "updating", after: " me on the project status?" }
-        ],
         roleplay: {
-            a: "You just finished a great business meeting. Politely ask your partner for their contact details using 'Could you possibly...'. Ask if they use a specific platform like LinkedIn. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは素晴らしいビジネス会議を終えたところです。「Could you possibly...」を使って、パートナーの連絡先を丁寧に尋ねてください。LinkedInなどの特定のプラットフォームを使っているか尋ねてください。)</span>",
-            b: "Agree to share your details. Explain what your preferred method of contact is (e.g., email or a messaging application). Ask for permission to send them a message using 'Would you mind...'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(連絡先を共有することに同意してください。あなたが希望する連絡方法（メールやメッセージングアプリなど）は何か説明してください。「Would you mind...」を使って、彼らにメッセージを送ってもよいか許可を求めてください。)</span>"
+            a: "You are having a great chat with someone at a tech conference, but you need to leave for your next session soon. Politely end the conversation, ask for their business card using 'Could you possibly...', and ask if they use LinkedIn. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはテックカンファレンスで誰かと楽しく話していますが、もうすぐ次のセッションへ向かわなければなりません。丁寧に会話を切り上げ、「Could you possibly...」を使って相手の名刺を尋ね、LinkedInを使っているか聞いてください。)</span>",
+            b: "Agree to wrap up the conversation and exchange business cards. Ask your partner to connect on LinkedIn using 'Would you mind...', and suggest grabbing coffee sometime next week. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(会話を切り上げることに同意し、名刺を交換してください。「Would you mind...」を使ってLinkedInでつながるようお願いし、来週あたりコーヒーでも飲みに行こうと提案してください。)</span>"
         },
         homework: {
             vocab: [
-   { eng: "Make a new friend", jpn: "新しい友達を作る", exEng: "Traveling solo is actually one of the easiest ways to make a new friend.", exJpn: "一人旅は、実は新しい友達を作る最も簡単な方法の1つです。" },																									
-{ eng: "Form a friendship", jpn: "友情を築く", exEng: "They formed a close friendship after sharing a dorm room in college.", exJpn: "彼らは大学で寮の部屋を共有した後、親密な友情を築きました。" },																									
-{ eng: "Develop a relationship", jpn: "関係を築く（発展させる）", exEng: "It takes regular communication to develop a strong working relationship.", exJpn: "強い仕事上の関係を築くには、定期的なコミュニケーションが必要です。" },																									
-{ eng: "Get along well", jpn: "うまくやっていく（仲良くなる）", exEng: "My new roommate and I get along well despite our different habits.", exJpn: "習慣は違いますが、新しいルームメイトと私はうまくやっています。" },																									
-{ eng: "See eye to eye", jpn: "意見が一致する", exEng: "We didn't see eye to eye on everything, but we respected each other.", exJpn: "すべてのことで意見が一致したわけではありませんが、お互いを尊重しました。" },																									
-{ eng: "Have a shared interest", jpn: "共通の趣味（関心）を持つ", exEng: "Having a shared interest in photography gave us plenty to talk about.", exJpn: "写真という共通の趣味があったおかげで、話すことがたくさんありました。" },																									
-{ eng: "Bond over something", jpn: "何かを通じて絆を深める", exEng: "We bonded over our shared love for spicy food.", exJpn: "辛い食べ物への共通の愛を通じて絆を深めました。" },																									
-{ eng: "Discover a connection", jpn: "つながり（縁）を発見する", exEng: "While chatting, we discovered a connection: we were born in the same hospital!", exJpn: "おしゃべりしているうちに、同じ病院で生まれたという縁を発見しました！" },																									
-{ eng: "Speak the same language", jpn: "同じ言語を話す（気が合う）", exEng: "Even though we come from different countries, we really speak the same language.", exJpn: "違う国の出身ですが、私たちは本当に気が合います。" },																									
-{ eng: "Bridge the language barrier", jpn: "言葉の壁を乗り越える", exEng: "Smiles and gestures helped us bridge the language barrier.", exJpn: "笑顔と身振り手振りが、言葉の壁を乗り越えるのに役立ちました。" },																									
-{ eng: "Learn basic greetings", jpn: "基本的な挨拶を学ぶ", exEng: "Always learn basic greetings before visiting a foreign country.", exJpn: "外国を訪れる前には、必ず基本的な挨拶を学びましょう。" },																									
-{ eng: "Respect cultural differences", jpn: "文化の違いを尊重する", exEng: "When meeting international guests, it is important to respect cultural differences.", exJpn: "海外からのゲストと会うときは、文化の違いを尊重することが大切です。" },																									
-{ eng: "Bow politely", jpn: "丁寧にお辞儀をする", exEng: "In East Asia, people often bow politely instead of shaking hands.", exJpn: "東アジアでは、握手をする代わりに丁寧にお辞儀をすることがよくあります。" },																									
-{ eng: "Kiss on the cheek", jpn: "頬にキスをする", exEng: "In France, friends often kiss on the cheek when greeting each other.", exJpn: "フランスでは、挨拶をするときに友人同士で頬にキスをすることがよくあります。" },																									
-{ eng: "Wave hello", jpn: "手を振って挨拶する", exEng: "I saw her across the street and waved hello.", exJpn: "通りの向こう側に彼女を見かけたので、手を振って挨拶しました。" },																									
-{ eng: "Nod in greeting", jpn: "挨拶としてうなずく（会釈する）", exEng: "We pass each other every morning and usually just nod in greeting.", exJpn: "私たちは毎朝すれ違い、たいてい軽く会釈をするだけです。" },																									
-{ eng: "Introduce a guest speaker", jpn: "ゲストスピーカーを紹介する", exEng: "The event organizer stepped onto the stage to introduce a guest speaker.", exJpn: "イベント主催者はゲストスピーカーを紹介するためにステージに上がりました。" },																									
-{ eng: "Welcome someone aboard", jpn: "（チームや会社に）人を歓迎して迎え入れる", exEng: "The manager sent an email to welcome the new designer aboard.", exJpn: "マネージャーは新しいデザイナーを歓迎して迎え入れるメールを送りました。" },																									
+                { eng: "Put names to faces", jpn: "顔と名前を一致させる", formality: "Neutral expression", exEng: "With thirty new students, it took the teacher a while to put names to faces.", exJpn: "30人の新入生がいたので、先生が顔と名前を一致させるのに少し時間がかかりました。" },
+                { eng: "Have a terrible memory for names", jpn: "人の名前を覚えるのがすごく苦手である", formality: "Neutral expression", exEng: "Please forgive me if I ask again; I have a terrible memory for names.", exJpn: "もう一度聞いたら許してください。私は名前を覚えるのがすごく苦手なんです。" },
+                { eng: "Draw a blank", jpn: "頭が真っ白になる（思い出せない）", formality: "Casual expression", exEng: "I wanted to introduce him to my wife, but I completely drew a blank on his name.", exJpn: "彼を妻に紹介したかったのですが、彼の名前がまったく思い出せませんでした。" },
+                { eng: "Be on the tip of your tongue", jpn: "（言葉や名前が）喉まで出かかっている", formality: "Neutral expression", exEng: "Her name was on the tip of my tongue, but I couldn't say it.", exJpn: "彼女の名前が喉まで出かかっていたのですが、言えませんでした。" },
+                { eng: "Slip your mind", jpn: "うっかり忘れる（度忘れする）", formality: "Neutral expression", exEng: "I'm so sorry, your name has completely slipped my mind.", exJpn: "本当にすみません、あなたのお名前をうっかり度忘れしてしまいました。" },
+                { eng: "Go by a nickname", jpn: "ニックネームで通っている（呼ばれている）", formality: "Neutral expression", exEng: "My full name is Robert, but I usually go by the nickname Rob.", exJpn: "私のフルネームはロバートですが、普段はロブというニックネームで通っています。" },
+                { eng: "Be on a first-name basis", jpn: "ファーストネーム（下の名前）で呼び合う仲である", formality: "Neutral expression", exEng: "At our company, everyone is on a first-name basis from day one.", exJpn: "私たちの会社では、初日から全員が下の名前で呼び合う仲です。" },
+                { eng: "Address someone formally", jpn: "人を敬称で（丁寧に）呼ぶ", formality: "Business expression", exEng: "You should address clients formally until they tell you otherwise.", exJpn: "クライアントから特別な指示がない限り、敬称をつけて丁寧に呼ぶべきです。" },
+                { eng: "Break the tension", jpn: "緊張をほぐす", formality: "Neutral expression", exEng: "Spilling my coffee accidentally actually helped break the tension.", exJpn: "うっかりコーヒーをこぼしてしまったことが、かえって緊張をほぐす助けになりました。" },
+                { eng: "Ease into a conversation", jpn: "徐々に会話に入っていく", formality: "Neutral expression", exEng: "Talking about the venue is a nice way to ease into a conversation.", exJpn: "会場について話すことは、徐々に会話に入っていくのに良い方法です。" },
+                { eng: "Strike up a friendship", jpn: "友情を育み始める（友達になる）", formality: "Neutral expression", exEng: "They struck up a friendship while waiting in line for concert tickets.", exJpn: "彼らはコンサートのチケットの列に並んでいる間に友達になりました。" },
+                { eng: "Make someone's acquaintance", jpn: "人と知り合いになる", formality: "Business expression", exEng: "I am very pleased to finally make your acquaintance, Dr. Smith.", exJpn: "スミス博士、ついにあなたとお知り合いになれて大変光栄です。" },
+                { eng: "Cross paths with someone", jpn: "人と巡り会う（出くわす）", formality: "Neutral expression", exEng: "We worked in the same building for years before we finally crossed paths.", exJpn: "私たちはついに顔を合わせるまで、何年も同じビルで働いていました。" },
+                { eng: "Know someone by sight", jpn: "顔見知りである（顔だけは知っている）", formality: "Neutral expression", exEng: "I knew her by sight from the gym, but we had never spoken.", exJpn: "ジムで彼女の顔だけは知っていましたが、話したことはありませんでした。" },
+                { eng: "Know someone by reputation", jpn: "噂（評判）で人を知っている", formality: "Business expression", exEng: "I don't know him personally, but I know him by reputation.", exJpn: "彼を個人的には知りませんが、評判は聞いています。" },
+                { eng: "Hear a lot about someone", jpn: "人についてたくさんの噂（話）を聞く", formality: "Neutral expression", exEng: "It is great to meet you! I've heard a lot about you from Mark.", exJpn: "お会いできて嬉しいです！マークからあなたのお話はたくさん聞いています。" },
+                { eng: "Live up to the hype", jpn: "前評判通りである（期待に違わない）", formality: "Casual expression", exEng: "Everyone said the new director was amazing, and she really lived up to the hype.", exJpn: "新しいディレクターは素晴らしいとみんな言っていて、彼女は本当に前評判通りでした。" },
+                { eng: "Exceed expectations", jpn: "期待を上回る", formality: "Business expression", exEng: "Our first consultation with the lawyer exceeded expectations.", exJpn: "弁護士との初回の相談は期待を上回るものでした。" },
+                { eng: "Fall flat", jpn: "（ジョークなどが）スベる・不発に終わる", formality: "Casual expression", exEng: "I tried to tell a funny story to break the ice, but it fell flat.", exJpn: "場を和ませようと面白い話をしようとしましたが、スベってしまいました。" },
+                { eng: "Go down well", jpn: "好評を博す（ウケが良い）", formality: "Neutral expression", exEng: "Bringing homemade cookies on my first day went down really well.", exJpn: "初日に手作りのクッキーを持参したのは、とてもウケが良かったです。" }
             ],
-            expandedDialogue: [
-                { speaker: "A", eng: "It was wonderful speaking with you today at the conference.", jpn: "本日はカンファレンスでお話しできて素晴らしかったです。" },
-                { speaker: "B", eng: "I agree. It is always great to expand my professional network.", jpn: "同感です。プロフェッショナルな人脈を広げるのは常に素晴らしいことです。" },
-                { speaker: "A", eng: "Could you possibly share your contact details with me?", jpn: "連絡先を私に教えていただくことは可能でしょうか？" },
-                { speaker: "B", eng: "Of course. Would you mind connecting on LinkedIn?", jpn: "もちろんです。LinkedInでつながってもよろしいですか？" },
-                { speaker: "A", eng: "Not at all. I will look up your profile right away.", jpn: "全く構いません。すぐにあなたのプロフィールを調べます。" },
-                { speaker: "B", eng: "Excellent. Is email also a convenient way to reach you during the week?", jpn: "素晴らしい。平日に連絡を取るにはメールも便利な方法ですか？" },
-                { speaker: "A", eng: "Yes, I check my inbox frequently. However, my preferred platform for quick updates is Slack.", jpn: "はい、頻繁に受信トレイをチェックします。しかしながら、素早い最新情報について私が希望するプラットフォームはSlackです。" },
-                { speaker: "B", eng: "I see. I usually rely on email for formal requests.", jpn: "なるほど。私は通常、正式な依頼にはメールを頼りにしています。" },
-                { speaker: "A", eng: "That makes sense. Let me give you my physical business card as well.", jpn: "それは理にかなっていますね。私の物理的な名刺も渡させてください。" },
-                { speaker: "B", eng: "Thank you very much. I will pass on your details to my manager.", jpn: "どうもありがとうございます。あなたの詳細をマネージャーに伝えておきます。" },
-                { speaker: "A", eng: "I appreciate that. Could you possibly inform me when your team makes a decision?", jpn: "感謝します。あなたのチームが決定を下した時にお知らせいただくことは可能でしょうか？" },
-                { speaker: "B", eng: "Definitely. I will update you as soon as we finish the review.", jpn: "間違いありません。レビューが終わり次第、最新情報をお知らせします。" },
-                { speaker: "A", eng: "Perfect. I look forward to working on this project together.", jpn: "完璧です。このプロジェクトに一緒に取り組めるのを楽しみにしています。" },
-                { speaker: "B", eng: "Me too. Have a safe trip back to the headquarters.", jpn: "私もです。本社まで気をつけてお帰りください。" }
+            clickingGames: [
+                // Grammar Point 1: Polite requests (Could you possibly...) - 4 sentences
+                { prompt: "お名刺をいただくことは可能でしょうか？", target: "Could you possibly give me your business card?", words: ["Could", "you", "possibly", "give", "me", "your", "business", "card?"] },
+                { prompt: "少しの間、ペンをお借りすることは可能でしょうか？", target: "Could I possibly borrow your pen for a moment?", words: ["Could", "I", "possibly", "borrow", "your", "pen", "for", "a", "moment?"] },
+                { prompt: "今日、彼に提案書をメールしていただくことは可能でしょうか？", target: "Could you possibly email him the proposal today?", words: ["Could", "you", "possibly", "email", "him", "the", "proposal", "today?"] },
+                { prompt: "LinkedInであなたを追加することは可能でしょうか？", target: "Could I possibly add you on LinkedIn?", words: ["Could", "I", "possibly", "add", "you", "on", "LinkedIn?"] },
+                // Grammar Point 2: Asking permission (Would you mind...) - 4 sentences
+                { prompt: "LinkedInで私を追加していただけますか？", target: "Would you mind adding me on LinkedIn?", words: ["Would", "you", "mind", "adding", "me", "on", "LinkedIn?"] },
+                { prompt: "名刺を交換してもよろしいですか？", target: "Would you mind exchanging business cards?", words: ["Would", "you", "mind", "exchanging", "business", "cards?"] },
+                { prompt: "彼のアドレスを送っていただけますか？", target: "Would you mind sending me his address?", words: ["Would", "you", "mind", "sending", "me", "his", "address?"] },
+                { prompt: "プロジェクトの状況について最新情報を教えていただけますか？", target: "Would you mind updating me on the project status?", words: ["Would", "you", "mind", "updating", "me", "on", "the", "project", "status?"] }
             ],
-            writingTask: {
-                promptEng: "Write a short paragraph answering this question: What is your preferred platform for professional networking, and why?",
-                promptJpn: "「あなたが仕事上の人脈作りに希望するプラットフォームは何ですか？またそれはなぜですか？」という質問に答える短い段落を書いてください。"
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Team Chat Thread)",
+                instruction: "Read this simulated workplace chat. Notice the polite and informal expressions the team uses to request contact details and coordinate their networking efforts.",
+                eng: "<div class='er-template er-chat'><div style='font-weight:bold; margin-bottom:10px;'>💬 #marketing-alpha-team</div><div class='er-chat-msg'><span class='er-chat-time'>[09:15 AM]</span> <span class='er-chat-user'>@Sarah:</span> Good morning, team! The global tech summit yesterday was fantastic. We started off on the right foot with several new vendors. Does anyone have the contact details for Mr. Clark from the security division?</div><div class='er-chat-msg'><span class='er-chat-time'>[09:18 AM]</span> <span class='er-chat-user'>@John:</span> Morning! I think I have his physical business card. I'll check my wallet. Could you possibly email him the new proposal document today? He seemed very interested in our software.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:22 AM]</span> <span class='er-chat-user'>@Sarah:</span> Yes, my preferred platform is definitely email for these official documents. Would you mind sending me his address when you find it? I don't want to keep him waiting.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:25 AM]</span> <span class='er-chat-user'>@Mike:</span> Actually, John, you don't need to search for the card. Mr. Clark and I connected on LinkedIn yesterday afternoon. We exchanged pleasantries, and he gave me a brief introduction to his team. I can forward you his profile link right now.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:28 AM]</span> <span class='er-chat-user'>@Sarah:</span> That works perfectly! Thanks, Mike. Is he reachable via the LinkedIn messaging application, or should I stick to traditional email?</div><div class='er-chat-msg'><span class='er-chat-time'>[09:31 AM]</span> <span class='er-chat-user'>@Mike:</span> He told me that email is a more convenient way to reach him during the week. His email address is listed directly on his profile page. He is very approachable, so don't worry about being too formal. Just clear up the details about the pricing model.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:35 AM]</span> <span class='er-chat-user'>@Sarah:</span> Excellent. I will inform you all as soon as I send the digital invitation for the follow-up meeting. Let's aim for next Tuesday.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:37 AM]</span> <span class='er-chat-user'>@John:</span> Sounds like a great plan. Thanks for handling this, Sarah. Let's make sure nobody is a no-show for that meeting!</div></div>",
+                jpn: "<div class='er-template er-chat'><div style='font-weight:bold; margin-bottom:10px;'>💬 #marketing-alpha-team</div><div class='er-chat-msg'><span class='er-chat-time'>[09:15 AM]</span> <span class='er-chat-user'>@Sarah:</span> チームの皆さん、おはようございます！昨日のグローバルテックサミットは素晴らしかったですね。いくつかの新しいベンダーと良いスタートを切ることができました。セキュリティ部門のクラーク氏の連絡先を持っている人はいますか？</div><div class='er-chat-msg'><span class='er-chat-time'>[09:18 AM]</span> <span class='er-chat-user'>@John:</span> おはようございます！彼の物理的な名刺を持っていると思います。財布を確認してみますね。今日、彼に新しい提案書をメールしていただくことは可能でしょうか？彼は私たちのソフトウェアにとても興味を持っているようでした。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:22 AM]</span> <span class='er-chat-user'>@Sarah:</span> はい、このような公式な文書には間違いなくメールが私の希望するプラットフォームです。見つけたら彼のアドレスを送っていただけますか？彼を待たせたくありません。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:25 AM]</span> <span class='er-chat-user'>@Mike:</span> 実は、ジョン、名刺を探す必要はないですよ。クラーク氏と私は昨日の午後にLinkedInでつながりました。儀礼的な挨拶を交わし、彼は自分のチームについて簡単な自己紹介をしてくれました。今すぐ彼のプロフィールのリンクを転送できますよ。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:28 AM]</span> <span class='er-chat-user'>@Sarah:</span> それでバッチリです！ありがとう、マイク。彼はLinkedInのメッセージングアプリ経由で連絡が取れますか、それとも伝統的なメールにこだわるべきですか？</div><div class='er-chat-msg'><span class='er-chat-time'>[09:31 AM]</span> <span class='er-chat-user'>@Mike:</span> 平日に連絡を取るにはメールの方が便利な方法だと彼は言っていました。彼のメールアドレスはプロフィールページに直接記載されています。彼はとても親しみやすいので、フォーマルになりすぎることを心配する必要はありません。価格モデルについての詳細だけクリアにしてください。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:35 AM]</span> <span class='er-chat-user'>@Sarah:</span> 素晴らしい。フォローアップ会議のためのデジタルの招待状を送付し次第、皆さんにお知らせします。来週の火曜日を目指しましょう。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:37 AM]</span> <span class='er-chat-user'>@John:</span> 素晴らしい計画ですね。これを処理してくれてありがとう、サラ。その会議で誰もドタキャンしないように確実にしましょう！</div></div>"
             },
-extendedReading: {
-            title: "Task 4: Authentic Reading (Team Chat Thread)",
-            instruction: "Read this simulated workplace chat. Notice the polite and informal expressions the team uses to request contact details and coordinate their networking efforts.",
-            eng: "<div class='er-template er-chat'><div style='font-weight:bold; margin-bottom:10px;'>💬 #marketing-alpha-team</div><div class='er-chat-msg'><span class='er-chat-time'>[09:15 AM]</span> <span class='er-chat-user'>@Sarah:</span> Good morning, team! The global tech summit yesterday was fantastic. We started off on the right foot with several new vendors. Does anyone have the contact details for Mr. Clark from the security division?</div><div class='er-chat-msg'><span class='er-chat-time'>[09:18 AM]</span> <span class='er-chat-user'>@John:</span> Morning! I think I have his physical business card. I'll check my wallet. Could you possibly email him the new proposal document today? He seemed very interested in our software.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:22 AM]</span> <span class='er-chat-user'>@Sarah:</span> Yes, my preferred platform is definitely email for these official documents. Would you mind sending me his address when you find it? I don't want to keep him waiting.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:25 AM]</span> <span class='er-chat-user'>@Mike:</span> Actually, John, you don't need to search for the card. Mr. Clark and I connected on LinkedIn yesterday afternoon. We exchanged pleasantries, and he gave me a brief introduction to his team. I can forward you his profile link right now.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:28 AM]</span> <span class='er-chat-user'>@Sarah:</span> That works perfectly! Thanks, Mike. Is he reachable via the LinkedIn messaging application, or should I stick to traditional email?</div><div class='er-chat-msg'><span class='er-chat-time'>[09:31 AM]</span> <span class='er-chat-user'>@Mike:</span> He told me that email is a more convenient way to reach him during the week. His email address is listed directly on his profile page. He is very approachable, so don't worry about being too formal. Just clear up the details about the pricing model.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:35 AM]</span> <span class='er-chat-user'>@Sarah:</span> Excellent. I will inform you all as soon as I send the digital invitation for the follow-up meeting. Let's aim for next Tuesday.</div><div class='er-chat-msg'><span class='er-chat-time'>[09:37 AM]</span> <span class='er-chat-user'>@John:</span> Sounds like a great plan. Thanks for handling this, Sarah. Let's make sure nobody is a no-show for that meeting!</div></div>",
-            jpn: "<div class='er-template er-chat'><div style='font-weight:bold; margin-bottom:10px;'>💬 #marketing-alpha-team</div><div class='er-chat-msg'><span class='er-chat-time'>[09:15 AM]</span> <span class='er-chat-user'>@Sarah:</span> チームの皆さん、おはようございます！昨日のグローバルテックサミットは素晴らしかったですね。いくつかの新しいベンダーと良いスタートを切ることができました。セキュリティ部門のクラーク氏の連絡先を持っている人はいますか？</div><div class='er-chat-msg'><span class='er-chat-time'>[09:18 AM]</span> <span class='er-chat-user'>@John:</span> おはようございます！彼の物理的な名刺を持っていると思います。財布を確認してみますね。今日、彼に新しい提案書をメールしていただくことは可能でしょうか？彼は私たちのソフトウェアにとても興味を持っているようでした。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:22 AM]</span> <span class='er-chat-user'>@Sarah:</span> はい、このような公式な文書には間違いなくメールが私の希望するプラットフォームです。見つけたら彼のアドレスを送っていただけますか？彼を待たせたくありません。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:25 AM]</span> <span class='er-chat-user'>@Mike:</span> 実は、ジョン、名刺を探す必要はないですよ。クラーク氏と私は昨日の午後にLinkedInでつながりました。儀礼的な挨拶を交わし、彼は自分のチームについて簡単な自己紹介をしてくれました。今すぐ彼のプロフィールのリンクを転送できますよ。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:28 AM]</span> <span class='er-chat-user'>@Sarah:</span> それでバッチリです！ありがとう、マイク。彼はLinkedInのメッセージングアプリ経由で連絡が取れますか、それとも伝統的なメールにこだわるべきですか？</div><div class='er-chat-msg'><span class='er-chat-time'>[09:31 AM]</span> <span class='er-chat-user'>@Mike:</span> 平日に連絡を取るにはメールの方が便利な方法だと彼は言っていました。彼のメールアドレスはプロフィールページに直接記載されています。彼はとても親しみやすいので、フォーマルになりすぎることを心配する必要はありません。価格モデルについての詳細だけクリアにしてください。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:35 AM]</span> <span class='er-chat-user'>@Sarah:</span> 素晴らしい。フォローアップ会議のためのデジタルの招待状を送付し次第、皆さんにお知らせします。来週の火曜日を目指しましょう。</div><div class='er-chat-msg'><span class='er-chat-time'>[09:37 AM]</span> <span class='er-chat-user'>@John:</span> 素晴らしい計画ですね。これを処理してくれてありがとう、サラ。その会議で誰もドタキャンしないように確実にしましょう！</div></div>"
+            writingTask: {
+                promptEng: "Write a short paragraph answering this question: When you meet someone at a business event, do you prefer exchanging paper business cards or connecting on LinkedIn, and why?",
+                promptJpn: "「ビジネスイベントで誰かに会ったとき、紙の名刺を交換するのとLinkedInでつながるのとではどちらを好みますか？またそれはなぜですか？」という質問に答える短い段落を書いてください。"
+            }
         }
-        }
-    },    {
+    },
+    {
         id: 5,
         chapter: "Chapter 1: First Meetings",
         type: "opinion",
@@ -609,9 +571,9 @@ extendedReading: {
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { name: "Person 1", eng: "Good team collaboration requires every team member to share their ideas openly and divide all tasks fairly. When everyone respects the schedule and meets their deadlines, the project usually goes very smoothly. This shared effort creates a positive and productive atmosphere in the office. However, when different people work closely together, tension and disagreements can sometimes happen. If tension happens, resolving these conflicts quickly and politely is extremely important. Ignoring a problem will only make the situation worse. Finding a fair compromise and staying completely calm helps the team move forward without damaging personal relationships. I believe that listening carefully to your colleagues is the best way to understand their feelings and opinions. When everyone feels heard and respected, it is much easier to solve complex problems together. Clear communication and a shared goal are the most important keys to maintaining harmony and achieving great success in any team project.", jpn: "良好なチームの協力には、すべてのチームメンバーがアイデアをオープンに共有し、すべてのタスクを公平に分担することが必要です。全員がスケジュールを尊重し、締め切りを守れば、プロジェクトは通常とてもスムーズに進みます。この共有された努力は、オフィスにポジティブで生産的な雰囲気を作り出します。しかし、異なる人々が緊密に協力して働くと、時として緊張や意見の相違が生じることがあります。緊張が生じた場合は、これらの対立を迅速かつ丁寧に解決することが極めて重要です。問題を無視することは状況を悪化させるだけです。公平な妥協点を見つけ、完全に冷静さを保つことは、人間関係を損なうことなくチームが前進するのに役立ちます。同僚の意見を注意深く聞くことが、彼らの感情や意見を理解する最良の方法だと私は信じています。全員が話を聞いてもらい、尊重されていると感じれば、複雑な問題を一緒に解決するのははるかに簡単になります。明確なコミュニケーションと共有の目標は、調和を維持し、あらゆるチームプロジェクトで大きな成功を収めるための最も重要な鍵です。" },
-                { name: "Person 2", eng: "In my professional opinion, mentoring is a great way to support new employees and build a friendly company culture. Experienced staff members should always give helpful feedback and offer valuable career guidance to junior workers. This kind of support helps new people learn their jobs faster and feel more confident. Mentoring is especially important for remote work, because working from home can sometimes feel very lonely. During virtual meetings, managers should spend a few minutes checking in on their team members' well-being. This simple action ensures that everyone stays connected and feels supported by the company. You can ask them about their weekend or if they need any help with their current tasks. Regular online chats and friendly video calls can easily replace the casual conversations we usually have in a real office. Building strong bonds through digital mentoring keeps the whole team happy, highly motivated, and very productive.", jpn: "私の専門的な意見では、メンタリングは新入社員をサポートし、フレンドリーな企業文化を築くための素晴らしい方法です。経験豊富なスタッフは常に、若手労働者に対して役立つフィードバックを与え、価値あるキャリアの指導を提供するべきです。このようなサポートは、新しい人が仕事を早く覚え、自信を持つのに役立ちます。在宅勤務は時にとても孤独に感じることがあるため、リモートワークにおいてメンタリングは特に重要です。バーチャル会議中、マネージャーはチームメンバーの健康状態を確認するために数分を費やすべきです。この単純な行動により、全員がつながりを保ち、会社からサポートされていると感じることができます。週末について尋ねたり、現在のタスクで手助けが必要かどうかを聞くことができます。定期的なオンラインチャットやフレンドリーなビデオ通話は、実際のオフィスで普段行っているカジュアルな会話の代わりになります。デジタルメンタリングを通じて強い絆を築くことで、チーム全体がハッピーで、意欲が高く、非常に生産的な状態を維持できます。" },
-                { name: "Person 3", eng: "Socializing with your colleagues outside of normal daily tasks builds a much stronger bond within the team. For example, chatting casually during short coffee breaks or organizing welcome lunches for new staff makes the office a friendlier place. When you know your coworkers personally, it is much easier to ask them for help or share new ideas. All of these fun social activities contribute greatly to workplace harmony and reduce daily stress. However, while team building is wonderful, respecting personal boundaries is also extremely important. Some people prefer to keep their private lives separate from their work, and we must always respect their choices. Communicating openly about these preferences creates a safe and positive environment for everyone in the company. If we balance friendly social events with a deep respect for personal time, we can create a fantastic workplace where every single employee feels comfortable, valued, and truly happy.", jpn: "通常の日常業務以外で同僚と交流することは、チーム内にはるかに強い絆を築きます。例えば、短いコーヒー休憩中にカジュアルに雑談したり、新しいスタッフのための歓迎ランチを企画したりすることで、オフィスはよりフレンドリーな場所になります。同僚を個人的に知っていれば、助けを求めたり新しいアイデアを共有したりすることがずっと簡単になります。これらの楽しい社会的活動のすべてが、職場の調和に大きく貢献し、日々のストレスを軽減します。しかし、チームビルディングは素晴らしいことですが、個人の境界線を尊重することも極めて重要です。仕事と私生活を分けたいと考える人もおり、私たちは常に彼らの選択を尊重しなければなりません。これらの好みについてオープンにコミュニケーションをとることで、社内のすべての人にとって安全でポジティブな環境が生まれます。フレンドリーな社交イベントと個人の時間への深い配慮のバランスをとることができれば、すべての従業員が快適で、価値を認められ、本当に幸せだと感じる素晴らしい職場を作ることができます。" }
+                { name: "Person 1", eng: "Good teamwork means everyone shares ideas and helps with tasks. When people follow the plan and finish on time, the project goes well. This makes the office a happy and helpful place. But when people work close together, problems can happen. If there is a problem, it is very important to talk and fix it fast. Do not ignore the problem, because that makes it worse. Finding a fair middle ground and staying calm helps the team move forward. I think listening to your coworkers is the best way to understand them. When everyone feels happy and respected, it is easy to solve hard problems together. Clear talk and teamwork are the keys to success.", jpn: "良いチームワークとは、全員がアイデアを出し合い、タスクを手伝うことを意味します。みんなが計画を守り、時間通りに終わらせれば、プロジェクトは順調に進みます。これにより、オフィスは楽しくて助け合う場所になります。しかし、人々が近くで一緒に働くと、問題が起きることがあります。問題が起きたときは、話し合ってすぐに直すことがとても大切です。問題を放置すると悪化するだけなので、無視してはいけません。公平な妥協点を見つけ、落ち着いていることが、チームが前進する助けになります。同僚の意見を聞くことが、相手を理解する一番の方法だと思います。全員が嬉しく、尊重されていると感じれば、難しい問題も一緒に簡単に解決できます。明確な会話とチームワークが成功の鍵です。。" },
+                { name: "Person 2", eng: "Helping new workers is a great way to build a friendly company. Older workers should give good advice and help the new staff. This helps new people learn their jobs fast and feel sure of themselves. Helping others is very important for remote work, because working at home can feel lonely. During online video calls, managers should take a few minutes to ask how the team is doing. This shows that the company cares and supports everyone. You can ask about their weekend or if they need help with work. Regular online chats can replace normal office talks. Staying connected keeps the team happy and hard-working.", jpn: "新しい従業員を助けることは、フレンドリーな会社を作る素晴らしい方法です。ベテランの従業員は、良いアドバイスを与えて新しいスタッフを助けるべきです。これにより、新しい人は仕事を早く覚え、自分に自信を持てるようになります。家で働くリモートワークでは孤独を感じることがあるため、人を助けることはとても重要です。オンラインのビデオ通話中、マネージャーはチームの様子を数分かけて尋ねるべきです。これにより、会社がみんなを気にかけてサポートしていることがわかります。週末のことや、仕事で助けが必要か尋ねることができます。定期的なオンラインチャットは、通常のオフィスの会話の代わりになります。つながりを保つことで、チームは楽しく熱心に働くことができます。。" },
+                { name: "Person 3", eng: "Talking with coworkers outside of normal work makes the team much stronger. For example, chatting during coffee breaks or having a welcome lunch makes the office a friendlier place. When you know your coworkers well, it is easy to ask for help or share new ideas. These fun activities help lower stress and bring the team together. However, respecting personal time is also very important. Some people like to keep their home life separate from work, and we must respect that. Talking openly about this makes a safe place for everyone. If we balance fun events with respect for private time, every worker will feel comfortable and happy..", jpn: "通常の仕事以外の時間で同僚と話すことは、チームをずっと強くします。例えば、コーヒーブレイク中に雑談したり、歓迎ランチをしたりすることで、オフィスはより友好的な場所になります。同僚のことをよく知っていれば、助けを頼んだり新しいアイデアを共有したりすることが簡単になります。こうした楽しい活動は、ストレスを減らし、チームを一つにするのに役立ちます。しかし、個人の時間を尊重することも非常に重要です。仕事と私生活を分けたいという人もいるため、私たちはそれを尊重しなければなりません。このことについてオープンに話すことで、全員にとって安全な場所が作れます。楽しいイベントとプライベートな時間への配慮のバランスを取れば、すべての労働者が快適で幸せだと感じられるはずです。。" }
             ]
         },
         discussionTopics: [
@@ -635,18 +597,18 @@ extendedReading: {
             { eng: "10. Should companies encourage employees to socialize after working hours?", jpn: "10. 企業は就業時間後に従業員が交流することを奨励すべきですか？" }
         ],
         vocab: [
-{ eng: "Show someone the ropes", jpn: "人に仕事のやり方（コツ）を教える", exEng: "Don't worry about your first day; Tom will show you the ropes.", exJpn: "初日のことは心配しないでください。トムが仕事のやり方を教えてくれますよ。" },																									
-{ eng: "Pair up with someone", jpn: "人とペアを組む", exEng: "Please pair up with someone you haven't spoken to yet.", exJpn: "まだ話したことのない人とペアを組んでください。" },																									
-{ eng: "Work in pairs", jpn: "ペアで作業する", exEng: "The instructor asked us to work in pairs to practice introductions.", exJpn: "講師は自己紹介の練習をするためにペアで作業するよう求めました。" },																									
-{ eng: "Break into small groups", jpn: "小グループに分かれる", exEng: "Let's break into small groups so everyone has a chance to speak.", exJpn: "全員に話す機会があるように、小グループに分かれましょう。" },																									
-{ eng: "Share your background", jpn: "自分の経歴を共有する", exEng: "Could you briefly share your background with the rest of the team?", exJpn: "チームの他のメンバーに簡単に自分の経歴を共有してもらえますか？" },																									
-{ eng: "Talk about your hobbies", jpn: "趣味について話す", exEng: "People's eyes light up when you ask them to talk about their hobbies.", exJpn: "趣味について話してもらうと、人々の目が輝きます。" },																									
-{ eng: "Mention your occupation", jpn: "職業について触れる", exEng: "In some cultures, people rarely mention their occupation right away.", exJpn: "一部の文化では、人々はすぐに自分の職業について触れることはめったにありません。" },																									
-{ eng: "Ask what someone does for a living", jpn: "人に職業を尋ねる", exEng: "It is very common in English to ask what someone does for a living.", exJpn: "英語では、人に仕事は何をしているのか尋ねることは非常に一般的です。" },																									
-{ eng: "Pick someone's brain", jpn: "人の知恵（意見・知識）を借りる・いろいろ質問する", exEng: "I would love to buy you lunch and pick your brain about working in design.", exJpn: "ランチをご馳走するので、デザインの仕事についていろいろお話を聞かせてください。" },
-{ eng: "Rain check", jpn: "またの機会にする約束（今回は断るが次回ぜひ会いたいという意思表示）", exEng: "I have to work late tonight, so can I take a rain check on dinner?", exJpn: "今夜は遅くまで仕事をしなければならないので、夕食はまたの機会にしてもらえますか？" },
-{ eng: "Read the room", jpn: "場の空気を読む", exEng: "He kept telling loud jokes at a quiet dinner—he really needs to read the room.", exJpn: "彼は静かな夕食の席で大声でジョークを言い続けていて、本当に空気を読む必要があります。" },
-{ eng: "Smooth over", jpn: "気まずさや問題をうまく取り繕う・丸く収める", exEng: "She laughed and changed the topic to smooth over the awkward moment.", exJpn: "彼女は笑って話題を変え、気まずい瞬間をうまく取り繕いました。" },																									
+           { eng: "Win someone over", jpn: "人の心をつかむ（味方につける）", formality: "Neutral expression", exEng: "He won her parents over with his polite manners and charm.", exJpn: "彼は礼儀正しいマナーと魅力で、彼女の両親の心をつかみました。" },																									
+{ eng: "Charm the pants off someone", jpn: "人をすっかり魅了する", formality: "Casual expression", exEng: "The new intern charmed the pants off everyone in the department.", exJpn: "新しいインターンは部署の全員をすっかり魅了しました。" },																									
+{ eng: "Make a fool of yourself", jpn: "恥をかく（馬鹿なふるまいをする）", formality: "Neutral expression", exEng: "I was terrified of tripping and making a fool of myself.", exJpn: "つまずいて恥をかくのではないかとビクビクしていました。" },																									
+{ eng: "Save face", jpn: "面目を保つ（体裁を繕う）", formality: "Neutral expression", exEng: "When I forgot his title, my colleague stepped in to help me save face.", exJpn: "私が彼の肩書きを忘れたとき、同僚が助け舟を出して私の面目を保ってくれました。" },																									
+{ eng: "Laugh it off", jpn: "笑い飛ばす", formality: "Neutral expression", exEng: "We both reached for the door at the same time, bumped heads, and laughed it off.", exJpn: "私たちは同時にドアに手を伸ばして頭をぶつけましたが、それを笑い飛ばしました。" },																									
+{ eng: "Break the awkwardness", jpn: "気まずさを解消する", formality: "Neutral expression", exEng: "Asking about her dog was a great way to break the awkwardness.", exJpn: "彼女の犬について尋ねることは、気まずさを解消する素晴らしい方法でした。" },																									
+{ eng: "Test the waters", jpn: "様子を見る（相手の反応を探る）", formality: "Neutral expression", exEng: "I made a small joke to test the waters and see how strict he was.", exJpn: "彼がどれくらい厳しいか様子を見るために、軽いジョークを言いました。" },																									
+{ eng: "Read the room", jpn: "場の空気を読む", formality: "Neutral expression", exEng: "When meeting a new team, it is important to read the room first.", exJpn: "新しいチームに会うときは、まず場の空気を読むことが大切です。" },																									
+{ eng: "Pick up on social cues", jpn: "社交上のサイン（相手の反応や空気）を察知する", formality: "Neutral expression", exEng: "He was so nervous that he failed to pick up on her social cues.", exJpn: "彼はあまりに緊張していて、彼女のサインを察知できませんでした。" },																									
+{ eng: "Give off a nervous energy", jpn: "緊張した雰囲気を発する", formality: "Neutral expression", exEng: "Try to sit still so you don't give off a nervous energy.", exJpn: "緊張した雰囲気を出さないように、じっと座るようにしてみて。" },																									
+{ eng: "Play it cool", jpn: "平静を装う（クールに振る舞う）", formality: "Casual expression", exEng: "Even though I was excited to meet the author, I tried to play it cool.", exJpn: "その作家に会えて興奮していましたが、クールに振る舞おうとしました。" },																									
+{ eng: "Be yourself", jpn: "自分らしく振る舞う", formality: "Neutral expression", exEng: "The best advice for a first date is simply to relax and be yourself.", exJpn: "初デートへの最高のアドバイスは、ただリラックスして自分らしくいることです。" },																									
         ],
         grammarPoints: [
             {
@@ -677,102 +639,95 @@ extendedReading: {
         ],
         homework: {
             vocab: [
-              { eng: "Offer someone a drink", jpn: "人に飲み物を勧める", exEng: "Always offer someone a drink shortly after they arrive at your home.", exJpn: "誰かが家に着いたら、すぐに飲み物を勧めるようにしましょう。" },																									
-{ eng: "Accept an invitation", jpn: "招待を受け入れる", exEng: "I happily accepted an invitation to join their weekend barbecue.", exJpn: "私は彼らの週末のバーベキューに参加する招待を喜んで受け入れました。" },																									
-{ eng: "Decline an invitation politely", jpn: "招待を丁寧に断る", exEng: "If you are too busy, make sure to decline an invitation politely.", exJpn: "忙しすぎる場合は、必ず丁寧に招待を断るようにしましょう。" },																									
-{ eng: "Follow up after a meeting", jpn: "会った後にフォローアップ（連絡）をする", exEng: "It is good manners to follow up after a meeting with a short thank-you message.", exJpn: "会った後に短いお礼のメッセージでフォローアップをするのは良いマナーです。" },																									
-{ eng: "Send a friend request", jpn: "友達リクエストを送る", exEng: "I will send a friend request so we can share photos from tonight.", exJpn: "今夜の写真を共有できるように友達リクエストを送りますね。" },																									
-{ eng: "Accept a friend request", jpn: "友達リクエストを承認する", exEng: "She accepted my friend request the very next morning.", exJpn: "彼女は翌朝すぐに私の友達リクエストを承認してくれました。" },																									
-{ eng: "Drop someone a line", jpn: "人にちょっと連絡（メール・手紙）をする", exEng: "Drop me a line next time you are visiting my city!", exJpn: "今度私の街を訪れるときは、ぜひちょっと連絡してくださいね！" },																									
-{ eng: "Catch up over coffee", jpn: "コーヒーを飲みながら近況を話し合う", exEng: "Let's catch up over coffee next week and talk more about your new project.", exJpn: "来週コーヒーを飲みながら、あなたの新しいプロジェクトについてもっと話しましょう。" },																									
-{ eng: "Make plans together", jpn: "一緒に計画を立てる", exEng: "We got along so well that we immediately started making plans together.", exJpn: "とても気が合ったので、私たちはすぐに一緒に計画を立て始めました。" },																									
-{ eng: "Have a memorable conversation", jpn: "記憶に残る会話をする", exEng: "I had a memorable conversation with an elderly artist on the train.", exJpn: "電車の中で年配の芸術家と記憶に残る会話をしました。" },																									
-{ eng: "Spark a lively discussion", jpn: "活発な議論を引き起こす", exEng: "Her question about travel experiences sparked a lively discussion at the table.", exJpn: "旅行経験についての彼女の質問は、テーブルで活発な議論を引き起こしました。" },																									
-{ eng: "Share similar values", jpn: "似た価値観を共有する", exEng: "True friendships often grow when two people share similar values.", exJpn: "真の友情は、2人が似た価値観を共有しているときに育つことが多いです。" },																									
-{ eng: "Hold different views", jpn: "異なる見解（意見）を持つ", exEng: "You can still be friendly with someone even if you hold different views.", exJpn: "異なる見解を持っていても、人と友好的に接することはできます。" },																									
-{ eng: "Agree to disagree", jpn: "意見の相違を認め合う（平行線のままにする）", exEng: "We realized we wouldn't convince each other, so we decided to agree to disagree.", exJpn: "お互いを説得できないと悟ったので、意見の相違を認め合うことにしました。" },																									
-{ eng: "Feel instantly comfortable", jpn: "すぐに居心地よく感じる", exEng: "His warm smile made me feel instantly comfortable in the new office.", exJpn: "彼の温かい笑顔のおかげで、新しいオフィスですぐに居心地よく感じました。" },																									
-{ eng: "Sense tension", jpn: "緊張感を感じ取る", exEng: "You could immediately sense tension in the room when the two rivals met.", exJpn: "2人のライバルが会ったとき、部屋の緊張感をすぐに感じ取ることができました。" },																									
-{ eng: "Ease the tension", jpn: "緊張を和らげる", exEng: "Offering everyone a cup of tea helped ease the tension.", exJpn: "みんなに一杯のお茶を出すことで、緊張を和らげることができました。" },																									
-{ eng: "Be on your best behavior", jpn: "できる限り行儀よく振る舞う", exEng: "The kids promised to be on their best behavior when meeting their new teacher.", exJpn: "子供たちは新しい先生に会うとき、できる限り行儀よく振る舞うと約束しました。" },																									
+              { eng: "Put on an act", jpn: "猫をかぶる（演技をする・取り繕う）", formality: "Neutral expression", exEng: "People can usually tell when you are putting on an act.", exJpn: "あなたが猫をかぶって取り繕っていると、人はたいてい気づくものです。" },																									
+{ eng: "Try too hard", jpn: "頑張りすぎる（空回りする）", formality: "Neutral expression", exEng: "He wanted everyone to like him, so he ended up trying too hard.", exJpn: "彼はみんなに好かれたくて、結局頑張りすぎて空回りしてしまいました。" },																									
+{ eng: "Keep your guard up", jpn: "警戒を解かない（心を開かない）", formality: "Neutral expression", exEng: "She tends to keep her guard up around people she doesn't know well.", exJpn: "彼女はよく知らない人の周りでは警戒を解かない傾向があります。" },																									
+{ eng: "Let your guard down", jpn: "警戒を解く（気を許す）", formality: "Neutral expression", exEng: "After a few laughs, he finally let his guard down and relaxed.", exJpn: "何度か笑い合った後、彼はついに警戒を解いてリラックスしました。" },																									
+{ eng: "Take someone at face value", jpn: "人の言葉や態度を額面通りに受け取る", formality: "Neutral expression", exEng: "When I first meet people, I usually take them at face value.", exJpn: "人と初めて会うとき、私はたいてい相手を額面通りに受け取ります。" },																									
+{ eng: "Read between the lines", jpn: "行間を読む（言外の意味を汲み取る）", formality: "Neutral expression", exEng: "During a job interview, you often have to read between the lines.", exJpn: "採用面接では、しばしば言外の意味を汲み取らなければなりません。" },																									
+{ eng: "Get a read on someone", jpn: "人がどんな人物か把握する（読み取る）", formality: "Casual expression", exEng: "He was so quiet during lunch that I couldn't get a read on him.", exJpn: "彼は昼食中とても静かだったので、どんな人なのか把握できませんでした。" },																									
+{ eng: "Figure someone out", jpn: "人がどんな人か理解する", formality: "Neutral expression", exEng: "It took a few meetings before I could really figure her out.", exJpn: "彼女が本当はどんな人なのか理解するまでに、数回会う必要がありました。" },																									
+{ eng: "Spot a red flag", jpn: "危険信号（警戒すべき兆候）に気づく", formality: "Casual expression", exEng: "Being rude to the waiter on a first date is an easy way to spot a red flag.", exJpn: "初デートでウェイターに無礼な態度をとるのは、警戒すべき兆候として分かりやすいものです。" },																									
+{ eng: "See a green flag", jpn: "好感の持てる兆候（良いサイン）を見る", formality: "Casual expression", exEng: "When he listened carefully without interrupting, I saw a big green flag.", exJpn: "彼が口を挟まずに注意深く話を聞いてくれたとき、すごく良いサインだと感じました。" },																									
+{ eng: "Ghost someone", jpn: "連絡を絶つ（音信不通にする）", formality: "Casual expression", exEng: "I thought our first coffee date went well, so I was shocked when he ghosted me.", exJpn: "最初のカフェデートはうまくいったと思ったので、彼と音信不通になってショックでした。" },																									
+{ eng: "Stand someone up", jpn: "（デートや待ち合わせを）すっぽかす", formality: "Casual expression", exEng: "I waited at the restaurant for an hour before realizing she had stood me up.", exJpn: "彼女にすっぽかされたと気づくまで、レストランで1時間待ちました。" },																									
+{ eng: "Hit it off over drinks", jpn: "お酒を飲みながら意気投合する", formality: "Casual expression", exEng: "The new colleagues hit it off over drinks after work.", exJpn: "新しい同僚たちは、仕事帰りにお酒を飲みながら意気投合しました。" },																									
+{ eng: "Grab a cup of coffee", jpn: "コーヒーを一杯飲みに行く", formality: "Casual expression", exEng: "Would you like to grab a cup of coffee sometime and chat?", exJpn: "今度いつかコーヒーでも飲みながらおしゃべりしませんか？" },																									
+{ eng: "Go Dutch", jpn: "割り勘にする", formality: "Casual expression", exEng: "On a first date, many modern couples prefer to go Dutch.", exJpn: "初デートでは、多くの現代のカップルが割り勘にすることを好みます。" },																									
+{ eng: "Split the bill", jpn: "お会計を割り勘にする", formality: "Neutral expression", exEng: "We decided to split the bill evenly at the end of the meal.", exJpn: "食事の最後に、お会計を均等に割り勘にすることにしました。" },																									
+{ eng: "Pick up the tab", jpn: "勘定を持つ（おごる）", formality: "Casual expression", exEng: "Since he invited me to the business lunch, he picked up the tab.", exJpn: "彼が私をビジネスランチに誘ったので、彼が勘定を持ちました。" },																									
+{ eng: "Treat someone to lunch", jpn: "人にランチをごちそうする", formality: "Neutral expression", exEng: "The team leader treated the new hire to lunch on her first day.", exJpn: "チームリーダーは初日に新入社員にランチをごちそうしました。" },																									
+{ eng: "Break bread with someone", jpn: "人と食事を共にする（親睦を深める）", formality: "Neutral expression", exEng: "Breaking bread with someone is the fastest way to build trust.", exJpn: "誰かと食事を共にすることは、信頼を築く最も早い方法です。" },																									
+{ eng: "Have a mutual acquaintance", jpn: "共通の知人がいる", formality: "Business expression", exEng: "We discovered that we had a mutual acquaintance in the publishing industry.", exJpn: "出版業界に共通の知人がいることが分かりました。" },																									
             ],
-            expandedDialogue: [
-                { speaker: "A", eng: "Usually, I work alone, but this new project requires lots of teamwork.", jpn: "たいてい私は一人で働きますが、この新しいプロジェクトにはたくさんのチームワークが必要です。" },
-                { speaker: "B", eng: "I understand. I am always happy to collaborate with different departments.", jpn: "わかります。私はいつも喜んで異なる部署と協力しますよ。" },
-                { speaker: "A", eng: "To be honest, I feel a little tension with the design team.", jpn: "正直に言うと、デザインチームとの間に少し緊張を感じているんです。" },
-                { speaker: "B", eng: "Why is that? Are they frequently missing deadlines?", jpn: "それはなぜですか？彼らは頻繁に締め切りを逃しているのですか？" },
-                { speaker: "A", eng: "Not exactly. They are rarely late, but they refuse to compromise on features.", jpn: "そうではありません。彼らが遅れることはめったにありませんが、機能について妥協することを拒否するのです。" },
-                { speaker: "B", eng: "I see. Ordinarily, the best way to resolve this is a face-to-face meeting.", jpn: "なるほど。普通は、これを解決する最良の方法は対面での会議ですね。" },
-                { speaker: "A", eng: "You're right. Sometimes, emails cause too many misunderstandings.", jpn: "その通りですね。時々、メールは多すぎる誤解を引き起こします。" },
-                { speaker: "B", eng: "Exactly. Specifically, you should address the conflict before it grows.", jpn: "まさに。具体的に言うと、対立が大きくなる前に対処すべきです。" },
-                { speaker: "A", eng: "I will set up a meeting tomorrow. Thanks to your advice, I feel better.", jpn: "明日会議を設定します。あなたのアドバイスのおかげで気分が良くなりました。" },
-                { speaker: "B", eng: "I am glad to help. Maintaining harmony is crucial for a strong bond.", jpn: "お役に立てて嬉しいです。強い絆のためには調和を維持することが極めて重要です。" },
-                { speaker: "A", eng: "Yes, I agree. At the same time, we must ensure the product is good.", jpn: "はい、同感です。同時に、私たちは製品が良いものであることを保証しなければなりません。" },
-                { speaker: "B", eng: "Of course. If we encourage open communication, the project will pull off perfectly.", jpn: "もちろんです。オープンなコミュニケーションを奨励すれば、プロジェクトは完璧に成功する（やってのけられる）でしょう。" },
-                { speaker: "A", eng: "I will keep that in mind. Let's wrap up for today.", jpn: "それを覚えておきます。今日はここで締めくくりましょう。" },
-                { speaker: "B", eng: "Sounds good. See you tomorrow morning.", jpn: "いいですね。また明日の朝。" }
+            clickingGames: [
+                // Grammar Point 1: Adverbs of Frequency (Mid/Front position) - 4 sentences
+                { prompt: "たいてい、私は午後5時まで働きます。", target: "Usually, I work until 5 PM.", words: ["Usually,", "I", "work", "until", "5", "PM."] },
+                { prompt: "時々、私たちはデザインチームと協力します。", target: "Sometimes, we collaborate with the design team.", words: ["Sometimes,", "we", "collaborate", "with", "the", "design", "team."] },
+                { prompt: "私たちは普段、ウェルカムランチを企画します。", target: "We usually organize welcome lunches.", words: ["We", "usually", "organize", "welcome", "lunches."] },
+                { prompt: "時々、メールは誤解を引き起こします。", target: "Sometimes, emails cause misunderstandings.", words: ["Sometimes,", "emails", "cause", "misunderstandings."] },
+                // Grammar Point 2: Adverbs of Frequency (After the 'be' verb) - 4 sentences
+                { prompt: "同僚を助けるのはいつでも嬉しいです。", target: "I am always happy to help my colleagues.", words: ["I", "am", "always", "happy", "to", "help", "my", "colleagues."] },
+                { prompt: "彼女が朝の会議に遅れることはめったにありません。", target: "She is rarely late for morning meetings.", words: ["She", "is", "rarely", "late", "for", "morning", "meetings."] },
+                { prompt: "新しいスタッフはたいてい最初は緊張しています。", target: "New staff are usually nervous at first.", words: ["New", "staff", "are", "usually", "nervous", "at", "first."] },
+                { prompt: "私たちのマネージャーはいつもとても親しみやすいです。", target: "Our manager is always very approachable.", words: ["Our", "manager", "is", "always", "very", "approachable."] }
             ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Event FAQ)",
+                instruction: "Read this company retreat schedule and FAQ. Notice how the information is structured for quick reading, and how frequency adverbs describe habits.",
+                eng: "<div class='er-template er-faq'><h3 style='margin-top:0;'>📅 Annual IT Team-Building Retreat</h3><p><strong>9:00 AM:</strong> Welcome Breakfast & Casual Mingling. Please grab a coffee and introduce yourself to someone from a different department.<br><strong>10:30 AM:</strong> Small Group Workshops. Specifically, we will focus on solving disagreements smoothly and giving helpful career advice to junior staff.<br><strong>1:00 PM:</strong> Catered Lunch & Free Time. <br><strong>3:00 PM:</strong> Outdoor Problem-Solving Challenge. Teams will be chosen at random.</p><hr style='border:0; border-top:1px dashed #cbd5e1; margin: 20px 0;'><h3 style='margin-bottom:10px;'>❓ Frequently Asked Questions (FAQ)</h3><div class='er-faq-item'><span class='er-faq-q'>Q: How often does the company organize these retreats?</span><div class='er-faq-a'>Usually, we host this big team event once a year. However, different departments sometimes plan smaller welcome lunches or coffee breaks every month to keep a friendly office culture.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: Do I have to join every single activity?</span><div class='er-faq-a'>Most of the time, we strongly encourage everyone to join the group activities. Joining helps you build a stronger bond with your coworkers. But we also respect your personal time. If you feel tired or need a quiet break, you can politely excuse yourself and skip the afternoon challenge.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: What is the dress code for the weekend?</span><div class='er-faq-a'>Please wear comfortable, casual clothes. You will work in pairs outdoors during the problem-solving challenge, so sneakers and sporty clothes are best. You definitely do not need to wear a business suit!</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: How should I talk to senior managers during the retreat?</span><div class='er-faq-a'>While we want to be professional, this event is meant to break down barriers. To be honest, most managers prefer that you keep the chat relaxed and friendly. Do not be afraid to start a conversation or ask them questions about work trends.</div></div></div>",
+                jpn: "<div class='er-template er-faq'><h3 style='margin-top:0;'>📅 年次ITチームビルディング合宿</h3><p><strong>9:00 AM:</strong> 歓迎の朝食とカジュアルな交流。コーヒーを取って、違う部署の人に自己紹介してください。<br><strong>10:30 AM:</strong> 小グループワークショップ。具体的には、意見の不一致をスムーズに解決することと、若手スタッフに役立つキャリアのアドバイスを行うことに焦点を当てます。<br><strong>1:00 PM:</strong> ケータリングランチと自由時間。<br><strong>3:00 PM:</strong> 屋外での問題解決チャレンジ。チームはランダムに選ばれます。</p><hr style='border:0; border-top:1px dashed #cbd5e1; margin: 20px 0;'><h3 style='margin-bottom:10px;'>❓ よくある質問 (FAQ)</h3><div class='er-faq-item'><span class='er-faq-q'>Q: 会社はどのくらいの頻度でこれらの合宿を企画しますか？</span><div class='er-faq-a'>たいていの場合、この大きなチームイベントを年に1回開催します。しかし、フレンドリーなオフィス文化を維持するために、各部署が時々月に1回小さな歓迎ランチやコーヒーブレイクを計画することもあります。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: すべてのアクティビティに必ず参加しなければなりませんか？</span><div class='er-faq-a'>ほとんどの場合、全員がグループアクティビティに参加することを強くお勧めしています。参加することで、同僚とより強い絆を築くことができます。しかし、私たちは個人の時間も尊重します。疲れたり、静かな休憩が必要だと感じた場合は、丁寧に断って午後のチャレンジをスキップしても構いません。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 週末の服装規定は何ですか？</span><div class='er-faq-a'>快適でカジュアルな服を着てください。問題解決チャレンジ中は屋外でペアになって作業するため、スニーカーやスポーティな服が一番です。ビジネススーツを着る必要は間違いありません！</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 合宿中、上級マネージャーにはどのように話しかければよいですか？</span><div class='er-faq-a'>プロらしくありたい一方で、このイベントは壁を取り払うためのものです。正直なところ、ほとんどのマネージャーは、会話がリラックスしてフレンドリーであることを好みます。会話を始めたり、仕事のトレンドについて質問したりすることを恐れないでください。</div></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: What is the most effective way to maintain harmony in the office?",
                 promptJpn: "「オフィスで調和を維持する最も効果的な方法は何ですか？」という質問に答える短い段落を書いてください。"
-            },
-extendedReading: {
-            title: "Task 4: Authentic Reading (Event FAQ)",
-            instruction: "Read this company retreat schedule and FAQ. Notice how the information is structured for quick reading, and how frequency adverbs describe habits.",
-            eng: "<div class='er-template er-faq'><h3 style='margin-top:0;'>📅 Annual IT Team-Building Retreat</h3><p><strong>9:00 AM:</strong> Welcome Breakfast & Casual Mingling. Please grab a coffee and introduce yourself to someone from a different department.<br><strong>10:30 AM:</strong> Small Group Workshops. Specifically, we will focus on resolving conflicts smoothly and giving effective career guidance to junior staff.<br><strong>1:00 PM:</strong> Catered Lunch & Free Time. <br><strong>3:00 PM:</strong> Outdoor Problem-Solving Challenge. Teams will be randomly selected.</p><hr style='border:0; border-top:1px dashed #cbd5e1; margin: 20px 0;'><h3 style='margin-bottom:10px;'>❓ Frequently Asked Questions (FAQ)</h3><div class='er-faq-item'><span class='er-faq-q'>Q: How often does the company organize these retreats?</span><div class='er-faq-a'>Ordinarily, we host this large team-building event once a year. However, individual departments sometimes organize smaller welcome lunches or coffee breaks every month to maintain a friendly office culture.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: Do I have to participate in every single activity?</span><div class='er-faq-a'>Usually, we strongly encourage everyone to join the group activities. Participating helps you build a stronger bond with your remote colleagues. However, we completely respect personal boundaries. If you feel overwhelmed or simply need a quiet break, you can politely excuse yourself and skip the afternoon challenge.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: What is the dress code for the weekend?</span><div class='er-faq-a'>Please wear comfortable, casual clothes. You will be working in pairs outdoors during the problem-solving challenge, so sneakers and athletic wear are highly recommended. You definitely don't need to wear a business suit!</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: How should I address senior managers during the retreat?</span><div class='er-faq-a'>At the same time that we maintain professionalism, this event is designed to break down barriers. To be honest, most managers prefer that you keep the chat casual and relaxed. Don't be afraid to strike up a conversation or pick their brain about industry trends.</div></div></div>",
-            jpn: "<div class='er-template er-faq'><h3 style='margin-top:0;'>📅 年次ITチームビルディング合宿</h3><p><strong>9:00 AM:</strong> 歓迎の朝食とカジュアルな交流。コーヒーを取って、違う部署の人に自己紹介してください。<br><strong>10:30 AM:</strong> 小グループワークショップ。具体的には、対立をスムーズに解決することと、若手スタッフに効果的なキャリア指導を行うことに焦点を当てます。<br><strong>1:00 PM:</strong> ケータリングランチと自由時間。<br><strong>3:00 PM:</strong> 屋外での問題解決チャレンジ。チームはランダムに選ばれます。</p><hr style='border:0; border-top:1px dashed #cbd5e1; margin: 20px 0;'><h3 style='margin-bottom:10px;'>❓ よくある質問 (FAQ)</h3><div class='er-faq-item'><span class='er-faq-q'>Q: 会社はどのくらいの頻度でこれらの合宿を企画しますか？</span><div class='er-faq-a'>普通は、この大規模なチームビルディングイベントを年に1回開催します。しかし、フレンドリーなオフィス文化を維持するために、個々の部署が時々月に1回程度の小さな歓迎ランチやコーヒーブレイクを企画することもあります。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: すべてのアクティビティに必ず参加しなければなりませんか？</span><div class='er-faq-a'>通常は、全員がグループアクティビティに参加することを強くお勧めしています。参加することで、リモートの同僚とより強い絆を築くことができます。しかし、私たちは個人の境界線を完全に尊重します。もし圧倒されたり、単に静かな休憩が必要だと感じた場合は、丁寧に断って午後のチャレンジをスキップしても構いません。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 週末の服装規定は何ですか？</span><div class='er-faq-a'>快適でカジュアルな服を着てください。問題解決チャレンジ中は屋外でペアになって作業するため、スニーカーとスポーツウェアを強くお勧めします。ビジネススーツを着る必要は間違いなくありません！</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 合宿中、シニアマネージャーにはどのように接するべきですか？</span><div class='er-faq-a'>プロ意識を保つと同時に、このイベントは壁を取り払うように設計されています。正直に言うと、ほとんどのマネージャーは、おしゃべりを気楽でリラックスした感じに保つことを好みます。恐れずに会話を切り出したり、業界のトレンドについて彼らの知恵を借りたり（いろいろ質問したり）してください。</div></div></div>"
-        }
+            }
         }
     },
-{
+ {
         id: 6,
         chapter: "Chapter 1: First Meetings",
         type: "casestudy",
-        title: "Lesson 6: Case Study - The Disastrous Welcome",
-        goal: "Analyze a complex business failure, discuss regrets using past modals, and propose a multi-step solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(複雑なビジネスの失敗を分析し、過去の法助動詞を使って後悔について話し合い、複数ステップの解決策を提案する。)</span>",
+        title: "Lesson 6: Case Study - The Mystery of the Lost Sales",
+        goal: "Read the case study clues to diagnose why the company is losing money, discuss past mistakes using modals, and propose a solution. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(ケーススタディの手がかりを読んで会社が損失を出している原因を診断し、過去の法助動詞を使ってミスについて話し合い、解決策を提案する。)</span>",
         vocab: [
-{ eng: "Make an effort to chat", jpn: "おしゃべりしようと努力する", exEng: "Even if you are tired, make an effort to chat with the other guests.", exJpn: "たとえ疲れていても、他のゲストとおしゃべりしようと努力しましょう。" },																									
-{ eng: "Draw a blank", jpn: "頭が真っ白になる（思い出せない）", exEng: "I wanted to introduce him, but I suddenly drew a blank on his name.", exJpn: "彼を紹介したかったのですが、突然彼の名前が思い出せなくなりました。" },																									
-{ eng: "Put a name to a face", jpn: "顔と名前を一致させる", exEng: "It is so nice to finally put a name to a face after all our phone calls!", exJpn: "何度も電話でお話しした後、ようやく顔と名前が一致して本当に嬉しいです！" },																									
-{ eng: "Misread social cues", jpn: "場の空気（社会的サイン）を読み間違える", exEng: "He kept talking because he misread social cues that she needed to leave.", exJpn: "彼女が帰る必要があるというサインを読み間違えたため、彼は話し続けました。" },																									
-{ eng: "Pick up on body language", jpn: "ボディランゲージから察する", exEng: "Good communicators quickly pick up on body language during a first meeting.", exJpn: "コミュニケーション上手な人は、初対面の際にボディランゲージから素早く察します。" },																									
-{ eng: "Maintain a polite distance", jpn: "礼儀正しい距離感を保つ", exEng: "Until you know someone better, it is best to maintain a polite distance.", exJpn: "相手のことをよく知るまでは、礼儀正しい距離感を保つのが一番です。" },																									
-{ eng: "Invade someone's personal space", jpn: "人のパーソナルスペースに踏み込む", exEng: "Standing too close when talking can invade someone's personal space.", exJpn: "話すときに近づきすぎると、人のパーソナルスペースに踏み込んでしまうことがあります。" },																									
-{ eng: "Speak in a friendly tone", jpn: "親しみやすい口調で話す", exEng: "Always speak in a friendly tone when greeting customers at the front desk.", exJpn: "フロントでお客様に挨拶するときは、いつも親しみやすい口調で話しましょう。" },																									
-{ eng: "Sound enthusiastic", jpn: "熱意があるように聞こえる", exEng: "Smiling while you talk makes your voice sound enthusiastic.", exJpn: "話しながら笑顔を作ると、声が熱意のあるように聞こえます。" },																									
-{ eng: "Listen without interrupting", jpn: "話を遮らずに聞く", exEng: "Show patience and listen without interrupting while they tell their story.", exJpn: "相手が話をしている間は忍耐強く、話を遮らずに聞きましょう。" },																									
-{ eng: "Summarize what someone said", jpn: "相手の言ったことを要約する", exEng: "Repeating or summarizing what someone said proves you were paying attention.", exJpn: "相手の言ったことを繰り返したり要約したりすると、よく聞いていたことが証明されます。" },																									
-{ eng: "Ask thoughtful questions", jpn: "思いやりのある（気の利いた）質問をする", exEng: "Asking thoughtful questions shows that you care about the other person's experience.", exJpn: "気の利いた質問をすることで、相手の経験を大切に思っていることが伝わります。" },																									
+        { eng: "Small world", jpn: "世間は狭いですね", formality: "Neutral expression", exEng: "When we realized we grew up on the same street, we both said, 'Small world!'", exJpn: "同じ通りで育ったと気づいたとき、私たちは二人とも「世間は狭いね！」と言いました。" },																									
+{ eng: "Make a connection", jpn: "つながりを作る（関係を築く）", formality: "Neutral expression", exEng: "Conferences are a great place to make a connection with industry peers.", exJpn: "会議は同業他社の人々とつながりを作るのに素晴らしい場所です。" },																									
+{ eng: "Establish rapport", jpn: "信頼関係（ラポール）を築く", formality: "Business expression", exEng: "A good salesperson can establish rapport with a customer in minutes.", exJpn: "優れた営業担当者は、数分で顧客と信頼関係を築くことができます。" },																									
+{ eng: "Build a relationship", jpn: "関係を構築する", formality: "Neutral expression", exEng: "The first meeting is all about starting to build a relationship.", exJpn: "初回の面談は、関係の構築を始めることがすべてです。" },																									
+{ eng: "Lay the groundwork", jpn: "土台を築く（基礎を作る）", formality: "Business expression", exEng: "Our initial chat laid the groundwork for a successful partnership.", exJpn: "私たちの最初の雑談が、成功するパートナーシップの土台を築きました。" },																									
+{ eng: "Touch base with someone", jpn: "人と連絡をとる（軽く話し合う）", formality: "Business expression", exEng: "I wanted to touch base with you before our official kickoff meeting.", exJpn: "公式のキックオフミーティングの前に、一度あなたと軽くお話ししておきたかったのです。" },																									
+{ eng: "Put a name to a face", jpn: "顔と名前を一致させる", formality: "Neutral expression", exEng: "I've seen you in the hallway, so I'm glad to finally put a name to a face.", exJpn: "廊下でお見かけしていたので、ついに顔と名前が一致して嬉しいです。" },																									
+{ eng: "Introduce someone around", jpn: "人を周囲のみんなに紹介して回る", formality: "Neutral expression", exEng: "Let me introduce you around so you know who sits where.", exJpn: "誰がどこに座っているか分かるように、周囲のみんなにあなたを紹介して回りましょう。" },																									
+{ eng: "Make the introductions", jpn: "引き合わせる（紹介の労をとる）", formality: "Neutral expression", exEng: "Since I knew both groups, I stepped in and made the introductions.", exJpn: "私は両方のグループを知っていたので、間に入って紹介しました。" },																									
+{ eng: "Break the ice with a game", jpn: "ゲームで場の空気を和ませる", formality: "Neutral expression", exEng: "The camp counselor broke the ice with a game so we could learn everyone's names.", exJpn: "キャンプの指導員は、全員の名前を覚えられるようにゲームで場の空気を和ませました。" },																									
+{ eng: "Go around the room", jpn: "（部屋の端から）順番に発言する・自己紹介する", formality: "Neutral expression", exEng: "Let's go around the room and say our names and favorite hobbies.", exJpn: "順番に回って、名前と好きな趣味を言いましょう。" },																									
+{ eng: "Say a few words about yourself", jpn: "自分について簡単に自己紹介する", formality: "Neutral expression", exEng: "Could you stand up and say a few words about yourself to the class?", exJpn: "立ち上がって、クラスのみんなに簡単に自己紹介をしてもらえますか？" },																									
         ],
         situation: {
-            eng: "Apex Solutions hosted a welcome event for a crucial international client, Mr. Robertson. The event was a complete disaster, and the client is threatening to cancel their million-dollar contract. The failure was not just one mistake; the entire team lacked basic professionalism. Multiple staff members made different social errors, ruining the first impression. The company's reputation is heavily damaged, and management needs a comprehensive plan to fix the relationship and improve future greetings.",
-            jpn: "Apex Solutions社は、極めて重要な海外のクライアントであるロバートソン氏のために歓迎イベントを主催しました。イベントは完全に失敗に終わり、クライアントは100万ドルの契約をキャンセルすると脅しています。失敗は一つのミスだけではありませんでした。チーム全体に基本的なプロ意識が欠けていたのです。複数のスタッフがそれぞれ異なる社会的なミスを犯し、第一印象を台無しにしました。会社の評判は大きく傷つき、経営陣は関係を修復し、将来の挨拶を改善するための包括的な計画を必要としています。"
+            eng: "Apex Solutions is a mid-sized IT company in Tokyo that sells cloud security software. Six months ago, the company released its best product ever. Technology magazines gave the software five-star reviews, and the marketing department generated hundreds of appointments with interested companies. To handle all these new appointments, the company hired a new team of young salespeople who graduated from top universities with high grades in computer science.\n\nAt first, the executives expected record-breaking profits. However, over the last three months, the company has been losing a lot of money, and new sales have dropped by thirty-five percent. Strangely, potential customers are very excited when they book their first appointment, but almost eighty percent of them cancel their second meeting and never reply to emails again.\n\nThe CEO and Sales Director are completely confused. Some managers think the software price is too expensive, while others worry that a rival company is secretly stealing their clients. The engineering team has checked the software for bugs three times, but everything works perfectly. Because management does not know why customers are walking away after the first meeting, they have interviewed three junior salespeople and one potential client. Read their statements carefully, diagnose the real problem, and create a plan to fix it.",
+            jpn: "Apex Solutionsは、クラウドセキュリティソフトウェアを販売する東京の中堅IT企業です。6ヶ月前、同社は過去最高の製品をリリースしました。技術雑誌はこのソフトウェアに5つ星の評価を与え、マーケティング部門は興味を持った企業との何百ものアポイントメントを獲得しました。これらすべての新しいアポイントメントに対応するため、同社はコンピュータサイエンスで優秀な成績を収めてトップ大学を卒業した若い営業スタッフの新チームを採用しました。\n\n当初、役員たちは記録的な利益を期待していました。しかし、過去3ヶ月間で会社は多額の損失を出しており、新規売上は35％減少しました。奇妙なことに、見込み客は最初の予約をする際には非常に乗り気なのですが、その約80％が2回目の会議をキャンセルし、二度とメールに返信してこないのです。\n\nCEOと営業ディレクターは完全に困惑しています。ソフトウェアの価格が高すぎると考えるマネージャーもいれば、ライバル企業が密かに顧客を奪っているのではないかと心配するマネージャーもいます。エンジニアリングチームはソフトウェアのバグを3回チェックしましたが、すべて完璧に動作しています。なぜ顧客が初回の会議の後に離れてしまうのか経営陣には分からないため、彼らは3人の若手営業スタッフと1人の見込み客にインタビューを行いました。彼らの証言を注意深く読み、本当の問題を診断し、それを解決するための計画を作成してください。"
         },
         people: [
             {
-                name: "Person 1: Ken (Junior Sales)",
-                eng: "I was extremely nervous. I shouldn't have relied on my memory. I forgot the client's name and repeatedly addressed him as 'Mr. Robinson' all evening. I wish I had checked his business card.",
-                jpn: "私は極度に緊張していました。自分の記憶に頼るべきではありませんでした。クライアントの名前を忘れ、一晩中彼を『ロビンソン氏』と繰り返し呼んでしまいました。彼の名刺を確認しておけばよかったです。"
+                name: "Person 1: Ken (Junior Salesperson)",
+                eng: "I don't understand why my clients aren't buying our software. I know all the technical numbers by heart! However, I admit that I get very anxious when I meet older executives for the first time. Last week, I met the president of a bank, and my mind went completely blank. After he handed me his business card, I put it in my pocket right away and forgot his name. I think I called him 'Mr. Tanaka' instead of 'Mr. Takada' three times. I shouldn't have put his card away so quickly. Also, because I was nervous, I stared at my laptop screen the whole time instead of looking at his face. Still, our software is great, so why didn't he call me back?",
+                jpn: "なぜクライアントが私たちのソフトウェアを買わないのか理解できません。私は技術的な数値をすべて暗記しています！ただ、年配の役員に初めて会うときにとても不安になることは認めます。先週、ある銀行の頭取にお会いした際、頭が完全に真っ白になってしまいました。彼から名刺を受け取った後、すぐにポケットにしまい、彼の名前を忘れてしまいました。「タカダさん」ではなく「タナカさん」と3回呼んでしまったと思います。あんなに早く名刺をしまうべきではありませんでした。また、緊張していたため、彼の顔を見ずにずっと自分のノートパソコンの画面を見つめていました。それでも、私たちのソフトウェアは素晴らしいのに、なぜ彼は折り返し電話をくれなかったのでしょうか？"
             },
             {
-                name: "Person 2: Lisa (Manager)",
-                eng: "I should have made polite small talk to break the ice. Instead, I ignored him during dinner and aggressively pushed the business contract right away. He looked very uncomfortable.",
-                jpn: "緊張をほぐすために丁寧な雑談をするべきでした。その代わりに、私は夕食中に彼を無視し、すぐにビジネスの契約を強引に推し進めました。彼はとても不快そうに見えました。"
+                name: "Person 2: Maya (Junior Salesperson)",
+                eng: "I think our prices must be too high because my meetings always end early. I love our software, and I want to tell customers every single detail as fast as possible. Yesterday, when a client started talking about her company's history, I stopped her after ten seconds because I wanted to show her our new security feature. I had so much information to share that I didn't let her ask any questions. When I walked around the table and stood right next to her chair to point at her computer screen, she suddenly looked annoyed and said she had another appointment. I wish I had finished my presentation, because she left before I even showed her the final slides!",
+                jpn: "私の会議はいつも早く終わってしまうので、きっと私たちの価格が高すぎるのだと思います。私は自社のソフトウェアが大好きで、顧客にすべての詳細をできるだけ早く伝えたいと思っています。昨日、あるクライアントが自社の歴史について話し始めたとき、私は新しいセキュリティ機能を彼女に見せたかったので、10秒後に彼女の話を止めました。共有したい情報が山ほどあったので、彼女には一切質問をさせませんでした。テーブルを回り込み、彼女のパソコン画面を指さすために彼女の椅子の真横に立ったとき、彼女は突然イライラした様子になり、別の予定があると言いました。最後のスライドを見せる前に彼女が帰ってしまったので、プレゼンテーションを最後まで終えられればよかったです！"
             },
             {
-                name: "Person 3: Alex (Designer)",
-                eng: "I arrived 20 minutes late to the dinner. I shouldn't have worn casual jeans and a t-shirt to a formal business event. I didn't realize the dress code was so strict.",
-                jpn: "私は夕食会に20分遅れて到着しました。フォーマルなビジネスイベントにカジュアルなジーンズとTシャツを着て行くべきではありませんでした。服装規定がそれほど厳しいとは気づきませんでした。"
+                name: "Person 3: Leo (Junior Salesperson)",
+                eng: "Most of my appointments are online video calls, and honestly, customers today are so picky. I am a very serious engineer, so I don't believe in wasting time with silly jokes, smiles, or questions about the weather. When a video call starts, I don't turn on my camera because I want the client to focus on the data. I immediately share my screen and read our thirty-page technical manual word for word in a quiet, steady voice. Last Friday, a client stopped me after ten minutes and said he wasn't interested. I wish I had sent him the manual before the meeting. Maybe our software is just too advanced for normal businesspeople to understand.",
+                jpn: "私のアポイントメントのほとんどはオンラインのビデオ通話ですが、正直なところ、最近の顧客は注文が多すぎます。私は非常に真面目なエンジニアなので、くだらないジョークや笑顔、天気についての質問で時間を無駄にするのは良くないと思っています。ビデオ通話が始まると、クライアントにデータに集中してほしいので、私は自分のカメラをオンにしません。すぐに画面を共有し、30ページの技術マニュアルを静かで一定の声で一字一句読み上げます。先週の金曜日、あるクライアントが10分後に私を止め、興味がないと言いました。会議の前に彼にマニュアルを送っておけばよかったです。たぶん、私たちのソフトウェアは普通のビジネスパーソンが理解するには高度すぎるのだと思います。"
             },
             {
-                name: "Person 4: Emma (Receptionist)",
-                eng: "When Mr. Robertson first arrived at the office, I was looking at my phone. I didn't stand up, smile, or offer to take his coat. I should have greeted him professionally.",
-                jpn: "ロバートソン氏が最初にオフィスに到着したとき、私はスマホを見ていました。立ち上がったり、微笑んだり、コートを預かると申し出たりしませんでした。プロとして彼に挨拶するべきでした。"
-            },
-            {
-                name: "Person 5: Mr. Robertson (Client)",
-                eng: "The entire team lacks basic manners. They got my name wrong, they dressed poorly, the manager ignored me, and the receptionist was rude. If they act like this, I cannot trust them with my business.",
-                jpn: "チーム全体に基本的なマナーが欠けています。彼らは私の名前を間違え、服装もひどく、マネージャーは私を無視し、受付係は無礼でした。彼らがこのような振る舞いをするなら、私は自分のビジネスで彼らを信頼することはできません。"
+                name: "Person 4: Mr. Robertson (Potential Client)",
+                eng: "My company wanted to spend one hundred thousand dollars on new security software, and Apex Solutions had the best technology on the market. However, after our first meeting with their salesperson last Tuesday, we decided to buy from their competitor instead. The young man we met arrived wearing a wrinkled t-shirt and never once smiled or said hello warmly. He didn't ask a single question about our company's problems; he just talked non-stop about computer code and interrupted me twice. Buying software is a long-term partnership. If a company's staff cannot show basic respect or make us feel comfortable during the very first meeting, we will never do business with them.",
+                jpn: "私の会社は新しいセキュリティソフトウェアに10万ドルを費やしたいと考えており、Apex Solutionsは市場で最高の技術を持っていました。しかし、先週の火曜日に彼らの営業担当者と初回の会議を行った後、私たちは代わりに競合他社から購入することにしました。私たちが会った若い男性は、しわくちゃのTシャツを着て到着し、一度も笑顔を見せず、温かく挨拶することもありませんでした。彼は私たちの会社の問題についてただの一つも質問せず、コンピュータのコードについて休みなく話し続け、私の話を2回遮りました。ソフトウェアの購入は長期的なパートナーシップです。最初の会議で基本的な敬意を示したり、私たちを安心させたりすることができないスタッフがいる会社とは、私たちは決して取引をしません。"
             }
         ],
         grammarPoints: [
@@ -781,8 +736,8 @@ extendedReading: {
                 explanation: "To express that an action was a good idea in the past but it did not happen (a missed opportunity or mistake), use 'should have' followed by the past participle verb.",
                 explanationJpn: "過去においてある行動が良いアイデアであったが、実現しなかったこと（逃した機会や間違い）を表現するには、「should have」の後に過去分詞の動詞を続けます。",
                 examples: [
-                    { eng: "Ken should have checked the business card.", jpn: "ケンは名刺を確認すべきでした（確認しなかった）。" },
-                    { eng: "Alex shouldn't have worn jeans.", jpn: "アレックスはジーンズを履くべきではありませんでした（履いてしまった）。" }
+                    { eng: "Ken shouldn't have put the business card away so quickly.", jpn: "ケンはあんなに早く名刺をしまうべきではありませんでした。" },
+                    { eng: "Maya should have listened without interrupting.", jpn: "マヤは話を遮らずに聞くべきでした。" }
                 ]
             },
             {
@@ -790,16 +745,16 @@ extendedReading: {
                 explanation: "To express personal regret about your own past actions, you can use 'I wish I had' + past participle, or 'I wish I hadn't' + past participle.",
                 explanationJpn: "自分自身の過去の行動に対する個人的な後悔を表現するには、「I wish I had + 過去分詞」、または「I wish I hadn't + 過去分詞」を使用できます。",
                 examples: [
-                    { eng: "I wish I hadn't made that embarrassing mistake.", jpn: "あんな恥ずかしい間違いをしなければよかったと願っています。" },
-                    { eng: "I wish I had smiled at the client.", jpn: "クライアントに微笑みかければよかったです。" }
+                    { eng: "I wish I had remembered the client's name.", jpn: "クライアントの名前を覚えていればよかったです。" },
+                    { eng: "I wish I hadn't interrupted the customer.", jpn: "顧客の話を遮らなければよかったです。" }
                 ]
             }
         ],
         discussionPoints: [
-            { eng: "What are the four different mistakes the team made when meeting the client?", jpn: "チームがクライアントに会ったときに犯した4つの異なるミスは何ですか？" },
-            { eng: "How did a lack of internal communication contribute to Alex's mistake?", jpn: "社内コミュニケーションの欠如は、アレックスのミスにどのように寄与しましたか？" },
-            { eng: "What is the most professional way for the company to apologize to the client now?", jpn: "今、会社がクライアントに謝罪する最もプロフェッショナルな方法は何ですか？" },
-            { eng: "What new rules or protocols should Apex Solutions create to prevent this in the future?", jpn: "将来これを防ぐために、Apex Solutionsはどのような新しいルールやプロトコルを作成すべきですか？" }
+            { eng: "Based on the four statements, what is the real reason Apex Solutions is losing sales?", jpn: "4人の証言に基づくと、Apex Solutionsが売上を失っている本当の理由は何ですか？" },
+            { eng: "What specific mistakes did Ken, Maya, and Leo make during their meetings? Use 'should have' or 'shouldn't have' to explain.", jpn: "ケン、マヤ、レオは会議中にどのような具体的なミスを犯しましたか？「should have」または「shouldn't have」を使って説明してください。" },
+            { eng: "Why do Ken, Maya, and Leo fail to realize that their own behavior is the problem?", jpn: "なぜケン、マヤ、レオは自分自身の行動が問題であることに気づかないのでしょうか？" },
+            { eng: "What 3-step training plan should the company introduce to fix this problem and win back clients?", jpn: "この問題を解決してクライアントを取り戻すために、会社はどのような3ステップの研修計画を導入すべきですか？" }
         ],
         expressions: [
             { eng: "In hindsight", jpn: "後知恵で / 今振り返ってみると" },
@@ -808,52 +763,52 @@ extendedReading: {
             { eng: "Regardless of", jpn: "〜に関わらず" },
             { eng: "Moving forward", jpn: "今後は / 前進するために" }
         ],
-        roleplay: "Role-play a crisis meeting between Lisa (Manager) and the HR Director. Discuss the multiple things that went wrong during the welcome event using past modals (should have, shouldn't have). Then, create a 3-step action plan to save the contract and train the staff. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(リサ（マネージャー）と人事ディレクターの間の危機対策会議のロールプレイを行ってください。過去の法助動詞（should have, shouldn't have）を使って歓迎イベント中にうまくいかなかった複数の事柄について話し合ってください。その後、契約を守りスタッフを訓練するための3ステップの行動計画を作成してください。)</span>",
+        roleplay: "You are a business consultant hired by Apex Solutions, and your teacher is the Sales Director. First, explain to the Sales Director what the real problem is based on the four interviews. Next, use past modals ('should have', 'shouldn't have') to explain what Ken, Maya, and Leo did wrong. Finally, propose a 3-step action plan to fix the sales team's performance. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはApex Solutionsに雇われたビジネスコンサルタントで、先生は営業ディレクターです。まず、4つのインタビューに基づいて本当の問題が何であるかを営業ディレクターに説明してください。次に、過去の法助動詞（should have, shouldn't have）を使って、ケン、マヤ、レオが何を間違えたのかを説明してください。最後に、営業チームのパフォーマンスを改善するための3ステップの行動計画を提案してください。)</span>",
         homework: {
             vocab: [
-{ eng: "Share a funny story", jpn: "面白い話を共有する", exEng: "Sharing a funny story about your travels is a great icebreaker.", exJpn: "旅行についての面白い話を共有することは、素晴らしいアイスブレイクになります。" },																									
-{ eng: "Keep things lighthearted", jpn: "雰囲気を明るく気楽に保つ", exEng: "On a first meeting, it is best to keep things lighthearted and fun.", exJpn: "初対面では、雰囲気を明るく楽しく保つのが一番です。" },																									
-{ eng: "Avoid awkwardness", jpn: "気まずさを避ける", exEng: "Preparing a few basic questions beforehand helps avoid awkwardness.", exJpn: "あらかじめいくつかの基本的な質問を用意しておくと、気まずさを避けるのに役立ちます。" },																									
-{ eng: "Leave on a positive note", jpn: "良い雰囲気のまま別れる", exEng: "Thanking them for their time ensures you leave on a positive note.", exJpn: "時間を作ってくれたことに感謝することで、良い雰囲気のまま別れることができます。" },																									
-{ eng: "Say how nice it was to meet", jpn: "会えて本当に良かったと伝える", exEng: "Before walking away, always say how nice it was to meet them.", exJpn: "立ち去る前に、いつも「お会いできて本当に良かったです」と伝えましょう。" },																									
-{ eng: "Wish someone a safe trip home", jpn: "人の無事な帰宅を祈る（気をつけて帰ってねと言う）", exEng: "We stood at the door and wished our new friends a safe trip home.", exJpn: "私たちはドアのところに立ち、新しい友人たちに気をつけて帰ってねと声をかけました。" },																									
-{ eng: "Look forward to meeting again", jpn: "また会えるのを楽しみにする", exEng: "I really enjoyed our conversation and look forward to meeting again soon.", exJpn: "お話しできて本当に楽しかったです。またすぐにお会いできるのを楽しみにしています。" },																									
-{ eng: "Send a follow-up message", jpn: "フォローアップのメッセージを送る", exEng: "Send a follow-up message the next day so they remember you.", exJpn: "相手に覚えていてもらえるよう、翌日にフォローアップのメッセージを送りましょう。" },																									
-{ eng: "Remember small details", jpn: "小さな詳細を覚えている", exEng: "People are always touched when you remember small details from your first chat.", exJpn: "最初の会話での小さな詳細を覚えていると、人はいつも感動します。" },																									
-{ eng: "Build a lasting friendship", jpn: "長く続く友情を築く", exEng: "Sometimes a simple hello in a coffee shop can build a lasting friendship.", exJpn: "時にはコーヒーショップでのシンプルな挨拶が、長く続く友情を築くこともあります。" },																									
-{ eng: "Form a positive opinion", jpn: "好意的な意見（印象）を抱く", exEng: "Based on his polite manners, everyone formed a positive opinion of him.", exJpn: "彼の礼儀正しい態度から、誰もが彼に対して好意的な印象を抱きました。" },																									
-{ eng: "Second-guess your first impression", jpn: "第一印象を疑い直す（再考する）", exEng: "Don't be afraid to second-guess your first impression as you learn more about someone.", exJpn: "相手についてもっと知るにつれて、第一印象を再考することを恐れないでください。" },																									
-{ eng: "Give someone a second chance", jpn: "人に二度目のチャンスを与える", exEng: "He was nervous when we first met, so I decided to give him a second chance.", exJpn: "最初に会ったとき彼は緊張していたので、二度目のチャンスを与えることにしました。" },																									
-{ eng: "Turn a stranger into a friend", jpn: "見知らぬ人を友達に変える", exEng: "A little kindness and curiosity can easily turn a stranger into a friend.", exJpn: "少しの親切心と好奇心があれば、見知らぬ人を簡単に友達に変えることができます。" },																									
-{ eng: "Welcome someone with open arms", jpn: "両手を広げて（大歓迎で）人を迎え入れる", exEng: "The local community welcomed the new family with open arms.", exJpn: "地域社会は新しい家族を大歓迎で迎え入れました。" },																									
-{ eng: "Make someone feel at home", jpn: "人に自宅にいるようにくつろいでもらう", exEng: "Good hosts always try to make new visitors feel at home.", exJpn: "良いホストは、いつも新しい訪問者に自宅にいるようにくつろいでもらおうとします。" },																									
-{ eng: "Break down barriers", jpn: "壁を取り払う", exEng: "Sharing a meal together is a wonderful way to break down barriers between strangers.", exJpn: "一緒に食事をすることは、見知らぬ人同士の壁を取り払う素晴らしい方法です。" },																									
-{ eng: "Connect on a deeper level", jpn: "より深いレベルでつながる", exEng: "Moving past small talk allows you to connect on a deeper level.", exJpn: "世間話の先へ進むことで、より深いレベルでつながることができます。" },																									
+              { eng: "Share a fun fact", jpn: "（自己紹介などで）自分の面白いエピソードを共有する", formality: "Neutral expression", exEng: "During orientation, everyone had to share a fun fact about themselves.", exJpn: "オリエンテーション中、全員が自分に関する面白いエピソードを一つ話さなければなりませんでした。" },																									
+{ eng: "Put someone on the spot", jpn: "人に急に話を振って困らせる", formality: "Neutral expression", exEng: "I didn't mean to put you on the spot by asking you to speak first.", exJpn: "最初に話してほしいと頼んで、あなたを困らせるつもりはなかったんです。" },																									
+{ eng: "Steal the spotlight", jpn: "注目を独り占めする（主役の座を奪う）", formality: "Neutral expression", exEng: "His funny introduction completely stole the spotlight at the meeting.", exJpn: "彼の面白い自己紹介は、会議で完全に注目を独り占めしました。" },																									
+{ eng: "Hold court", jpn: "人々の注目を集めて楽しく話す（話題の中心になる）", formality: "Casual expression", exEng: "Within ten minutes of arriving, he was holding court by the snack table.", exJpn: "到着して10分も経たないうちに、彼は軽食テーブルのそばで話題の中心になっていました。" },																									
+{ eng: "Hold someone's attention", jpn: "人の興味（注意）を引きつける", formality: "Neutral expression", exEng: "She is a great storyteller who knows how to hold someone's attention.", exJpn: "彼女は人の注意を引きつける方法を知っている素晴らしい話し手です。" },																									
+{ eng: "Talk someone's ear off", jpn: "人に一方的にまくしたてる（長話をする）", formality: "Casual expression", exEng: "The guy sitting next to me on the plane talked my ear off for three hours.", exJpn: "飛行機で隣に座っていた男性は、3時間も私に一方的に話し続けました。" },																									
+{ eng: "Get a word in edgewise", jpn: "（相手が喋り続けていて）話に割り込む・口を挟む", formality: "Casual expression", exEng: "She was so talkative that I could barely get a word in edgewise.", exJpn: "彼女があまりにおしゃべりなので、私はほとんど口を挟むことができませんでした。" },																									
+{ eng: "Dominate the conversation", jpn: "会話を独占する", formality: "Neutral expression", exEng: "When meeting new people, try to listen and not dominate the conversation.", exJpn: "新しい人に会うときは、会話を独占せずに聞くように心がけましょう。" },																									
+{ eng: "Listen attentively", jpn: "熱心に耳を傾ける", formality: "Neutral expression", exEng: "Listening attentively is the best way to make someone feel valued.", exJpn: "熱心に耳を傾けることは、相手に大切にされていると感じてもらう最良の方法です。" },																									
+{ eng: "Nod in agreement", jpn: "同意してうなずく", formality: "Neutral expression", exEng: "She nodded in agreement as I explained my idea for the project.", exJpn: "私がプロジェクトのアイデアを説明すると、彼女は同意してうなずきました。" },																									
+{ eng: "Ask follow-up questions", jpn: "掘り下げた質問をする（追加の質問をする）", formality: "Neutral expression", exEng: "Asking follow-up questions proves that you are actually paying attention.", exJpn: "追加の質問をすることは、実際に注意を払って聞いていることの証明になります。" },																									
+{ eng: "Find a common thread", jpn: "共通点（つながり）を見つける", formality: "Neutral expression", exEng: "We talked for a few minutes until we found a common thread—we both love jazz.", exJpn: "私たちは二人ともジャズが大好きだという共通点を見つけるまで、数分間話しました。" },																									
+{ eng: "Click on a personal level", jpn: "個人的なレベルで意気投合する", formality: "Neutral expression", exEng: "Not only do we work well together, but we also clicked on a personal level.", exJpn: "私たちは仕事でうまくやれるだけでなく、個人的なレベルでも意気投合しました。" },																									
+{ eng: "Have good chemistry", jpn: "相性が良い", formality: "Neutral expression", exEng: "You could tell from their first scene together that the actors had good chemistry.", exJpn: "最初の共演シーンから、その俳優たちの相性が良いことが分かりました。" },																									
+{ eng: "Sparks fly", jpn: "（恋愛感情などの）火花が散る・一瞬で惹かれ合う", formality: "Casual expression", exEng: "When they met at the wedding, sparks flew almost immediately.", exJpn: "彼らが結婚式で出会ったとき、ほぼ一瞬で恋の火花が散りました。" },																									
+{ eng: "Fall head over heels", jpn: "ぞっこん惚れ込む（夢中になる）", formality: "Casual expression", exEng: "He fell head over heels for her the very first time they met.", exJpn: "彼は初めて会ったときに、彼女にぞっこん惚れ込みました。" },																									
+{ eng: "Love at first sight", jpn: "一目惚れ", formality: "Neutral expression", exEng: "Do you believe in love at first sight, or does love take time?", exJpn: "一目惚れを信じますか、それとも愛には時間がかかると思いますか？" },																									
+{ eng: "Catch someone's eye", jpn: "人の目を引く（視線を集める）", formality: "Neutral expression", exEng: "She caught my eye across the crowded room before we even spoke.", exJpn: "言葉を交わす前から、混雑した部屋の向こうにいる彼女が私の目を引きました。" },																									
+{ eng: "Sweep someone off their feet", jpn: "人を夢中にさせる（うっとりさせる）", formality: "Casual expression", exEng: "He brought flowers to our first date and swept me off my feet.", exJpn: "彼は初デートに花を持ってきて、私をすっかり夢中にさせました。" },																									
+{ eng: "Play hard to get", jpn: "つれない素振りをする（気がないふりをする）", formality: "Casual expression", exEng: "She liked him right away, but she decided to play hard to get.", exJpn: "彼女はすぐに彼を気に入りましたが、気がないふりをすることにしました。" },																									
             ],
-            expandedDialogue: [
-                { speaker: "A", eng: "Lisa, we need to address the email from Mr. Robertson. The client is highly offended.", jpn: "リサ、ロバートソン氏からのメールに対処する必要があります。クライアントは非常に腹を立てています。" },
-                { speaker: "B", eng: "I know. I feel awful. The welcome dinner was a complete disaster.", jpn: "わかっています。最悪な気分です。歓迎の夕食会は完全に大失敗でした。" },
-                { speaker: "A", eng: "Ken shouldn't have called him Mr. Robinson. It was incredibly unprofessional.", jpn: "ケンは彼をロビンソン氏と呼ぶべきではありませんでした。信じられないほどプロ意識に欠けていました。" },
-                { speaker: "B", eng: "I agree. But I share the blame. In hindsight, I should have made small talk instead of pushing the contract immediately.", jpn: "同感です。でも私にも責任があります。今振り返ってみると、すぐに契約を押し付けるのではなく、雑談をするべきでした。" },
-                { speaker: "A", eng: "Exactly. Furthermore, why was Alex wearing jeans? He should have dressed formally.", jpn: "その通りです。さらに、なぜアレックスはジーンズを履いていたのですか？彼はフォーマルな服を着るべきでした。" },
-                { speaker: "B", eng: "I wish I had informed the team about the strict dress code. I completely overlooked it.", jpn: "厳しい服装規定についてチームに知らせておけばよかったです。完全に忘れていました（見落としていました）。" },
-                { speaker: "A", eng: "To make matters worse, Emma ignored him at the reception desk. She shouldn't have been looking at her phone.", jpn: "さらに悪いことに、エマは受付で彼を無視しました。彼女はスマホを見ているべきではありませんでした。" },
-                { speaker: "B", eng: "You are right. We made too many mistakes. How should we reply to his email?", jpn: "あなたの言う通りです。私たちはあまりにも多くのミスを犯しました。彼のメールにどう返信するべきでしょうか？" },
-                { speaker: "A", eng: "We must write a sincere apology email right now. We cannot make any excuses.", jpn: "今すぐ誠実な謝罪メールを書かなければなりません。言い訳は一切できません。" },
-                { speaker: "B", eng: "Understood. Moving forward, I will create a strict protocol for welcoming international clients.", jpn: "承知しました。今後は、海外のクライアントを歓迎するための厳格なプロトコルを作成します。" },
-                { speaker: "A", eng: "Good. We should have trained the staff better. Let's look into setting up a meeting to retrain everyone.", jpn: "良いですね。私たちはスタッフをより良く訓練しておくべきでした。全員を再訓練するための会議を設定することを検討（調査）しましょう。" },
-                { speaker: "B", eng: "I will set it up today. Thank you for stepping in to help me.", jpn: "今日設定します。助けるために介入してくれてありがとうございます。" }
+            clickingGames: [
+                // Grammar Point 1: Advice about the past (Should have + PP) - 4 sentences
+                { prompt: "ケンはあんなに早く名刺をしまうべきではありませんでした。", target: "Ken shouldn't have put the business card away so quickly.", words: ["Ken", "shouldn't", "have", "put", "the", "business", "card", "away", "so", "quickly."] },
+                { prompt: "マヤは話を遮らずに聞くべきでした。", target: "Maya should have listened without interrupting.", words: ["Maya", "should", "have", "listened", "without", "interrupting."] },
+                { prompt: "レオはビデオ通話中にカメラをオンにするべきでした。", target: "Leo should have turned on his camera during the video call.", words: ["Leo", "should", "have", "turned", "on", "his", "camera", "during", "the", "video", "call."] },
+                { prompt: "その営業担当者はしわくちゃのTシャツを着るべきではありませんでした。", target: "The salesperson shouldn't have worn a wrinkled t-shirt.", words: ["The", "salesperson", "shouldn't", "have", "worn", "a", "wrinkled", "t-shirt."] },
+                // Grammar Point 2: Regrets (I wish I had / hadn't) - 4 sentences
+                { prompt: "クライアントの名前を覚えていればよかったです。", target: "I wish I had remembered the client's name.", words: ["I", "wish", "I", "had", "remembered", "the", "client's", "name."] },
+                { prompt: "顧客の話を遮らなければよかったです。", target: "I wish I hadn't interrupted the customer.", words: ["I", "wish", "I", "hadn't", "interrupted", "the", "customer."] },
+                { prompt: "礼儀正しい距離感を保てばよかったです。", target: "I wish I had maintained a polite distance.", words: ["I", "wish", "I", "had", "maintained", "a", "polite", "distance."] },
+                { prompt: "親しみやすい口調で話せばよかったです。", target: "I wish I had spoken in a friendly tone.", words: ["I", "wish", "I", "had", "spoken", "in", "a", "friendly", "tone."] }
             ],
-            writingTask: {
-                promptEng: "Write a short paragraph answering this question: Describe a time when multiple things went wrong at work or school. What should you and your team have done differently?",
-                promptJpn: "「職場や学校で複数のことがうまくいかなかった時のことを説明してください。あなたとチームはどう違った行動をとるべきでしたか？」という質問に答える短い段落を書いてください。"
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Internal Job Posting)",
+                instruction: "Read this internal job post created after the company diagnosed its sales problem. Look for the workplace skills the company needs.",
+                eng: "<div class='er-template er-job'><h3 class='er-job-title'>📌 Senior Sales Communication Coach</h3><span class='er-job-tag'>Full-Time</span> <span class='er-job-tag'>Tokyo HQ (Hybrid)</span><p><strong>Company Background & Role Summary:</strong><br>Over the last three months, Apex Solutions has lost several major sales contracts. After investigating the issue, we realized that our new sales staff have been struggling to build rapport during their first meetings with clients. In hindsight, we know we should have trained our junior salespeople in business etiquette before sending them to meet customers. Moving forward, we are looking for an experienced Senior Sales Communication Coach to retrain our team and rebuild trust with our clients.</p><p><strong>💼 Key Responsibilities:</strong></p><ul><li>Create a clear training program for welcoming and greeting new clients, both in person and on video calls.</li><li>Lead weekly role-play workshops to teach junior staff how to make friendly small talk, remember names, and avoid awkward silence.</li><li>Shadow junior salespeople during their first meetings and give them helpful feedback afterward.</li><li>Contact lost clients to apologize professionally and ask for a second chance to present our software.</li></ul><p><strong>🎓 Ideal Candidate Qualifications:</strong></p><ul><li>Must be able to pick up on body language quickly and notice how clients feel right away.</li><li>Must speak in a friendly tone and sound enthusiastic, even in stressful business situations.</li><li>Proven ability to listen without interrupting, summarize what a client said, and ask thoughtful follow-up questions.</li><li>Experience mentoring young professionals and helping them gain confidence in social situations.</li></ul><p style='margin-bottom:0; margin-top:15px; font-weight:bold; color:#166534;'>Regardless of which department you work in now, if you have the skills to turn a stranger into a loyal client, please send your application to HR by Friday.</p></div>",
+                jpn: "<div class='er-template er-job'><h3 class='er-job-title'>📌 シニア・セールスコミュニケーション・コーチ</h3><span class='er-job-tag'>正社員</span> <span class='er-job-tag'>東京本社（ハイブリッド）</span><p><strong>会社の背景と役割の概要：</strong><br>過去3ヶ月間、Apex Solutionsはいくつかの主要な販売契約を失いました。問題を調査した結果、私たちの新しい営業スタッフがクライアントとの初回会議で信頼関係を築くのに苦労していたことが分かりました。今振り返ってみると、顧客に会わせる前に若手営業スタッフにビジネスマナーを訓練しておくべきだったと私たちは分かっています。今後は、チームを再教育し、クライアントとの信頼を再構築するために、経験豊富なシニア・セールスコミュニケーション・コーチを募集します。</p><p><strong>💼 主な責任：</strong></p><ul><li>対面とビデオ通話の両方で、新しいクライアントを歓迎し挨拶するための明確な研修プログラムを作成する。</li><li>毎週のロールプレイワークショップを主導し、若手スタッフに親しみやすい世間話の仕方、名前の覚え方、気まずい沈黙の避け方を教える。</li><li>若手営業スタッフの初回会議に同行し、後で役立つフィードバックを与える。</li><li>失ったクライアントに連絡してプロとして謝罪し、当社のソフトウェアを提案する二度目のチャンスを求める。</li></ul><p><strong>🎓 理想的な候補者の資格：</strong></p><ul><li>ボディランゲージから素早く察し、クライアントがどう感じているかにすぐに気づくことができること。</li><li>ストレスの多いビジネス状況でも、親しみやすい口調で話し、熱意があるように聞こえること。</li><li>話を遮らずに聞き、クライアントが言ったことを要約し、思いやりのある追加の質問をする確かな能力。</li><li>若いプロフェッショナルを指導し、彼らが社交的な場面で自信を得るのを助けた経験。</li></ul><p style='margin-bottom:0; margin-top:15px; font-weight:bold; color:#166534;'>現在どの部署で働いているかに関わらず、見知らぬ人を忠実なクライアントに変えるスキルをお持ちの方は、金曜日までに人事部へ応募書類をお送りください。</p></div>"
             },
-extendedReading: {
-            title: "Task 4: Authentic Reading (Internal Job Posting)",
-            instruction: "Read this internal job post. Look for the specific workplace skills the company needs to fix a past mistake.",
-            eng: "<div class='er-template er-job'><h3 class='er-job-title'>📌 Senior Client Relations Manager</h3><span class='er-job-tag'>Full-Time</span> <span class='er-job-tag'>Tokyo HQ (Hybrid)</span><p><strong>Company Background & Role Summary:</strong><br>Last month, Apex Solutions held a welcome event for a very important international client. Unfortunately, the event went very badly. Looking back, we realize that several staff members missed important social signs, did not follow the dress code, and stood too close to our guests. The client threatened to cancel a million-dollar contract. To be clear, we know we should have trained our staff better before the meeting. From now on, we are looking for a skilled Senior Client Relations Manager to rebuild trust with our international partners and make sure this mistake never happens again.</p><p><strong>💼 Key Responsibilities:</strong></p><ul><li>Create clear rules for welcoming important international guests, so all team members understand local customs and polite behavior.</li><li>Lead training sessions to teach new staff how to start conversations, make friendly small talk, and avoid uncomfortable silence.</li><li>Quickly notice and solve problems if a client feels uncomfortable or upset.</li><li>Be the main contact person for important clients during business dinners and social events.</li></ul><p><strong>🎓 Ideal Candidate Qualifications:</strong></p><ul><li>Must have strong body language skills and be able to notice how others feel right away.</li><li>Must be able to speak in a friendly, positive voice, even in very stressful situations.</li><li>A good record of fixing uncomfortable moments and saying sorry honestly without making long excuses.</li><li>You should be good at repeating main points clearly and asking polite follow-up questions.</li></ul><p style='margin-bottom:0; margin-top:15px; font-weight:bold; color:#166534;'>No matter which department you work in now, if you believe you have the skills to turn a stranger into a loyal friend, please send your application by Friday.</p></div>",
-            jpn: "<div class='er-template er-job'><h3 class='er-job-title'>📌 シニア・クライアントリレーションズ・マネージャー</h3><span class='er-job-tag'>正社員</span> <span class='er-job-tag'>東京本社（ハイブリッド）</span><p><strong>会社の背景と役割の概要：</strong><br>先月、Apex Solutionsは非常に重要な海外クライアントのための歓迎イベントを開催しました。残念ながら、イベントはとてもうまくいきませんでした。振り返ってみると、何人かのスタッフが大切な社交上のサインを見落とし、服装のルールを守らず、お客様に近づきすぎていたことに私たちは気づいています。クライアントは100万ドルの契約をキャンセルすると言いました。はっきりさせておくと、会議の前にスタッフをもっとよく訓練しておくべきだったと私たちはわかっています。これからは、海外パートナーとの信頼を取り戻し、このような失敗が二度と起きないようにするため、経験豊富なシニア・クライアントリレーションズ・マネージャーを募集します。</p><p><strong>💼 主な責任：</strong></p><ul><li>重要な海外のお客様を歓迎するための明確なルールを作り、チーム全員が地域の習慣や礼儀正しい行動を理解できるようにする。</li><li>新人スタッフに、会話の始め方、親しみやすい雑談の仕方、気まずい沈黙の避け方を教えるトレーニングを行う。</li><li>クライアントが不快に感じたり怒ったりした場合、すぐに気づいて問題を解決する。</li><li>ビジネスディナーや交流イベントの間、重要なクライアントの主な連絡窓口になる。</li></ul><p><strong>🎓 理想的な候補者の資格：</strong></p><ul><li>優れたボディランゲージのスキルがあり、相手の気持ちにすぐに気づくことができること。</li><li>非常にストレスの多い状況でも、親しみやすく前向きな声で話せること。</li><li>気まずい瞬間をうまく直し、長い言い訳をせずに誠実に謝ってきた良い実績があること。</li><li>要点を分かりやすく繰り返し、丁寧な追加の質問をするのが得意であること。</li></ul><p style='margin-bottom:0; margin-top:15px; font-weight:bold; color:#166534;'>現在どの部署で働いていても、見知らぬ人を信頼できる友人に変えるスキルがあると信じる方は、金曜日までに応募書類を送ってください。</p></div>"
-        }
+            writingTask: {
+                promptEng: "Write a short paragraph answering this question: Based on the case study, what is the main reason Apex Solutions is losing money, and what is the most important change the sales team needs to make?",
+                promptJpn: "「ケーススタディに基づくと、Apex Solutionsが損失を出している主な理由は何ですか？また、営業チームが行う必要がある最も重要な変化は何ですか？」という質問に答える短い段落を書いてください。"
+            }
         }
     },
     {
@@ -863,18 +818,18 @@ extendedReading: {
         title: "Lesson 7: Speaking Test - People you know",
         goal: "Prepare and deliver a short speech about a memorable first encounter using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、記憶に残る初対面についての短いスピーチを準備し、発表する。)</span>",
         vocab: [
-{ eng: "Initiate a conversation", jpn: "会話を切り出す（始める）", exEng: "Sometimes it takes a bit of courage to initiate a conversation with a stranger.", exJpn: "見知らぬ人と会話を切り出すには、少しの勇気が必要なこともあります。" },
-{ eng: "Introduce yourself warmly", jpn: "温かく自己紹介をする", exEng: "Step forward, smile, and introduce yourself warmly to the new team.", exJpn: "一歩前に出て笑顔を見せ、新しいチームに温かく自己紹介をしましょう。" },
-{ eng: "Make an introduction", jpn: "紹介をする", exEng: "The host walked over to make an introduction between the two guests.", exJpn: "主催者は2人のゲストを紹介するために歩み寄りました。" },
-{ eng: "Extend a warm greeting", jpn: "温かい挨拶を交わす（迎える）", exEng: "The receptionist always extends a warm greeting to everyone entering the building.", exJpn: "受付係は建物に入ってくるすべての人にいつも温かい挨拶をしてくれます。" },
-{ eng: "Return a smile", jpn: "笑顔を返す", exEng: "When someone smiles at you in the hallway, it is polite to return a smile.", exJpn: "廊下で誰かが笑顔を向けてくれたら、笑顔を返すのが礼儀です。" },
-{ eng: "Maintain eye contact", jpn: "アイコンタクトを保つ", exEng: "Try to maintain eye contact while listening so they know you are focused.", exJpn: "集中していることが相手に伝わるよう、話を聞いている間はアイコンタクトを保つようにしましょう。" },
-{ eng: "Avoid eye contact", jpn: "目を合わせるのを避ける", exEng: "When people feel very shy, they often look down and avoid eye contact.", exJpn: "人はとても恥ずかしいと感じると、よく下を向いて目を合わせるのを避けます。" },
-{ eng: "Offer a seat", jpn: "席を勧める", exEng: "When a visitor arrives at your desk, stand up and offer a seat.", exJpn: "来客が自分のデスクに来たら、立ち上がって席を勧めましょう。" },
-{ eng: "Accept an offer", jpn: "申し出を受け入れる", exEng: "I happily accepted an offer for a cup of tea while waiting in the lobby.", exJpn: "ロビーで待っている間、お茶の申し出を喜んで受け入れました。" },
-{ eng: "Ask for clarification", jpn: "説明（明確化）を求める", exEng: "If you do not catch someone's job title, politely ask for clarification.", exJpn: "相手の肩書きが聞き取れなかった場合は、丁寧に説明を求めましょう。" },
-{ eng: "Repeat someone's name", jpn: "相手の名前を繰り返す", exEng: "Saying 'Nice to meet you, David' helps you repeat someone's name and remember it.", exJpn: "「はじめまして、デビッドさん」と相手の名前を繰り返すことで、覚えやすくなります。" },
-{ eng: "Pronounce a name correctly", jpn: "名前を正しく発音する", exEng: "Taking the time to pronounce a name correctly shows great respect.", exJpn: "時間をかけて名前を正しく発音することは、大きな敬意を表します。" },
+            { eng: "Make the first move", jpn: "自分からアプローチする（最初の一歩を踏み出す）", formality: "Neutral expression", exEng: "We kept looking at each other until I finally made the first move and said hi.", exJpn: "私がついに最初の一歩を踏み出して挨拶するまで、私たちは見つめ合っていました。" },																									
+{ eng: "Shoot your shot", jpn: "ダメ元でアプローチしてみる（挑戦する）", formality: "Casual expression", exEng: "If you think he's cute, go over there and shoot your shot!", exJpn: "彼がかっこいいと思うなら、あそこに行ってダメ元で話しかけてみなよ！" },																									
+{ eng: "Break the touch barrier", jpn: "（親しみを込めて）さりげなくボディタッチをする", formality: "Casual expression", exEng: "Touching his arm when she laughed was a subtle way to break the touch barrier.", exJpn: "笑いながら彼の腕に触れたのは、さりげなく距離を縮める方法でした。" },																									
+{ eng: "Friendzone someone", jpn: "人を「ただの友達」枠に入れる", formality: "Casual expression", exEng: "We had a great first hangout, but she friendzoned me at the end of the night.", exJpn: "最初のデートはとても楽しかったのですが、夜の終わりに彼女から「友達でいよう」と言われました。" },																									
+{ eng: "Feel a spark", jpn: "ときめき（ピンとくるもの）を感じる", formality: "Neutral expression", exEng: "He was very polite and handsome, but I just didn't feel a spark.", exJpn: "彼はとても礼儀正しくてハンサムでしたが、どうしてもときめきを感じませんでした。" },																									
+{ eng: "Let someone down easy", jpn: "人を傷つけないようにやんわり断る", formality: "Casual expression", exEng: "When he asked for a second date, I tried to let him down easy.", exJpn: "彼に2回目のデートに誘われたとき、傷つけないようにやんわりと断ろうとしました。" },																									
+{ eng: "Part on good terms", jpn: "気持ちよく別れる（良い関係のまま別れる）", formality: "Neutral expression", exEng: "Even though we didn't sign the contract, we parted on good terms.", exJpn: "契約には至りませんでしたが、私たちは良い関係のまま別れました。" },																									
+{ eng: "Wrap up a conversation", jpn: "会話を締めくくる（切り上げる）", formality: "Neutral expression", exEng: "Looking at your watch is a rude way to wrap up a conversation.", exJpn: "時計を見るのは、会話を切り上げる方法としては失礼です。" },																									
+{ eng: "Make a polite exit", jpn: "丁寧にその場を立ち去る", formality: "Neutral expression", exEng: "When you are stuck in a boring chat, excuse yourself to get a drink to make a polite exit.", exJpn: "退屈な雑談から抜け出せないときは、飲み物を取りに行くと断って丁寧にその場を立ち去りましょう。" },																									
+{ eng: "Excuse yourself", jpn: "中座する（断って席を外す）", formality: "Neutral expression", exEng: "I excused myself for a moment to take an urgent phone call.", exJpn: "緊急の電話に出るため、少しの間断って席を外しました。" },																									
+{ eng: "Keep in touch", jpn: "連絡を取り合う", formality: "Neutral expression", exEng: "It was wonderful meeting you today; let's definitely keep in touch!", exJpn: "今日はお会いできて素晴らしかったです。ぜひ連絡を取り合いましょう！" },																									
+{ eng: "Stay in contact", jpn: "連絡を保つ", formality: "Business expression", exEng: "Here is my email address so we can stay in contact after the expo.", exJpn: "展示会の後も連絡を保てるよう、こちらが私のメールアドレスです。" },																									
         ],
         prompt: {
             main: "Describe a time when you met an important colleague or client for the first time.",
@@ -891,57 +846,49 @@ extendedReading: {
         },
         homework: {
             vocab: [
-{ eng: "Ask about someone's background", jpn: "人の経歴や生い立ちについて尋ねる", exEng: "It is interesting to ask about someone's background when meeting international students.", exJpn: "留学生と会うときは、相手の生い立ちについて尋ねると興味深い話が聞けます。" },																									
-{ eng: "Share an experience", jpn: "経験を共有する", exEng: "We discovered we had both studied in Spain and began to share an experience.", exJpn: "2人ともスペインに留学していたことがわかり、その経験を共有し始めました。" },																									
-{ eng: "Find a shared passion", jpn: "共通の情熱（大好きなこと）を見つける", exEng: "Finding a shared passion for cooking turned two strangers into close friends.", exJpn: "料理という共通の大好きなことを見つけたことで、見知らぬ2人が親しい友人になりました。" },																									
-{ eng: "Discover similar tastes", jpn: "似た好みを発見する", exEng: "While chatting about music, we quickly discovered similar tastes in bands.", exJpn: "音楽についておしゃべりしているうちに、好きなバンドの好みが似ていることをすぐに発見しました。" },																									
-{ eng: "Explore common interests", jpn: "共通の興味を探る", exEng: "Asking about weekend activities is a natural way to explore common interests.", exJpn: "週末の活動について尋ねることは、共通の興味を探る自然な方法です。" },																									
-{ eng: "Steer the conversation", jpn: "会話の方向を導く", exEng: "When the chat got too serious, she gently steered the conversation toward travel.", exJpn: "話が真面目になりすぎたとき、彼女は会話の方向を旅行の話題へと優しく導きました。" },																									
-{ eng: "Keep the chat casual", jpn: "おしゃべりを気楽な（カジュアルな）感じに保つ", exEng: "At a neighborhood barbecue, it is best to keep the chat casual and relaxed.", exJpn: "近所のバーベキューでは、おしゃべりを気楽でリラックスした感じに保つのが一番です。" },																									
-{ eng: "Ask a follow-up question", jpn: "追加の質問（深掘りする質問）をする", exEng: "Show you are listening by asking a follow-up question about their story.", exJpn: "相手の話について追加の質問をすることで、しっかり聞いていることを示しましょう。" },																									
-{ eng: "Nod in agreement", jpn: "同意してうなずく", exEng: "Everyone at the table nodded in agreement when she mentioned how busy Mondays are.", exJpn: "彼女が月曜日はどれほど忙しいかを口にすると、テーブルの全員が同意してうなずきました。" },																									
-{ eng: "Show empathy", jpn: "共感を示す", exEng: "Saying 'I know how that feels' is a simple way to show empathy.", exJpn: "「その気持ちよくわかります」と言うことは、共感を示すシンプルな方法です。" },																									
-{ eng: "Relate to someone's story", jpn: "人の話に共感する（自分の経験と結びつける）", exEng: "I could easily relate to his story about getting lost on his first day of work.", exJpn: "初出勤の日に道に迷ったという彼の話に、私は簡単に共感できました。" },																									
-{ eng: "Express admiration", jpn: "称賛（感心）を表す", exEng: "She expressed admiration for his ability to speak four languages fluently.", exJpn: "彼女は4ヶ国語を流暢に話す彼の能力に対して称賛を表しました。" },																									
-{ eng: "Give sincere praise", jpn: "心からの褒め言葉を送る", exEng: "People can usually tell when you give sincere praise rather than empty words.", exJpn: "お世辞ではなく心からの褒め言葉を送っているときは、たいてい相手に伝わるものです。" },																									
-{ eng: "React with enthusiasm", jpn: "熱意をもって反応する", exEng: "When someone shares good news, try to react with enthusiasm.", exJpn: "誰かが良いニュースを共有してくれたときは、熱意をもって反応するようにしましょう。" },																									
-{ eng: "Lighten the mood", jpn: "場の空気を和らげる（明るくする）", exEng: "A gentle joke about the rainy weather helped lighten the mood in the waiting room.", exJpn: "雨の天気についてのちょっとした冗談が、待合室の空気を和らげるのに役立ちました。" },																									
-{ eng: "Break the tension", jpn: "緊張をほぐす", exEng: "The interviewer smiled kindly to break the tension before asking the first question.", exJpn: "面接官は最初の質問をする前に、緊張をほぐすために優しく微笑みました。" },																									
-{ eng: "Hide your nervousness", jpn: "緊張を隠す", exEng: "Taking a deep breath before walking in helps you hide your nervousness.", exJpn: "中に入る前に深呼吸をすると、緊張を隠すのに役立ちます。" },																									
-{ eng: "Gain confidence", jpn: "自信を得る", exEng: "The more new people you talk to, the faster you will gain confidence.", exJpn: "新しい人と話せば話すほど、より早く自信がつきます。" },																									
+                { eng: "Add someone on social media", jpn: "SNSで人を友達追加する（フォローする）", formality: "Neutral expression", exEng: "After studying together once, she added me on social media.", exJpn: "一度一緒に勉強した後、彼女はSNSで私を追加してくれました。" },
+{ eng: "Connect on LinkedIn", jpn: "LinkedIn（ビジネスSNS）でつながる", formality: "Business expression", exEng: "After a networking event, it is standard practice to connect on LinkedIn.", exJpn: "交流会の後は、LinkedInでつながるのが一般的な慣習です。" },
+{ eng: "Drop someone a line", jpn: "人に短いメッセージ（連絡）を送る", formality: "Casual expression", exEng: "Drop me a line when you get back to town and we'll grab lunch.", exJpn: "街に戻ったら連絡してね、ランチに行こう。" },
+{ eng: "Follow up with an email", jpn: "フォローアップ（お礼や確認）のメールを送る", formality: "Business expression", exEng: "Always follow up with an email within twenty-four hours of meeting a client.", exJpn: "クライアントに会ってから24時間以内に、必ずフォローアップのメールを送りましょう。" },
+{ eng: "Put someone's name in your phone", jpn: "スマホに人の名前を登録する", formality: "Neutral expression", exEng: "Let me put your name in my phone right now so I don't forget it.", exJpn: "忘れないように、今すぐスマホにあなたの名前を登録させてください。" },
+{ eng: "Hit someone up", jpn: "人に連絡する", formality: "Casual expression", exEng: "It was cool meeting you! Hit me up if you ever want to play tennis.", exJpn: "会えてよかったよ！もしテニスをしたくなったら連絡してね。" },
+{ eng: "Catch up sometime", jpn: "今度またゆっくり話す", formality: "Neutral expression", exEng: "I have to run to my next class, but let's catch up sometime soon!", exJpn: "次の授業に走らないといけないけど、近いうちにまたゆっくり話そう！" },
+{ eng: "Take a rain check", jpn: "（誘いを）またの機会にする", formality: "Casual expression", exEng: "I can't join you for drinks tonight, but can I take a rain check?", exJpn: "今夜は飲みに参加できないんだけど、またの機会にしてもいいかな？" },
+{ eng: "pencil someone in", jpn: "（予定を）仮押さえする・仮に入れておく", formality: "Business expression", exEng: "Let's pencil you in for a coffee meeting next Tuesday morning.", exJpn: "来週の火曜日の朝に、コーヒーミーティングの予定を仮に入れておきましょう。" },
+{ eng: "Set up a meeting", jpn: "会議（面談）をセッティングする", formality: "Business expression", exEng: "My assistant will call you to set up a meeting for next week.", exJpn: "来週の面談をセッティングするために、私のアシスタントからあなたにお電話させます。" },
+{ eng: "Arrange an introduction", jpn: "紹介の手配をする", formality: "Business expression", exEng: "If you want to meet the investor, I can arrange an introduction.", exJpn: "もしその投資家に会いたいのであれば、私が紹介の手配をすることができます。" },
+{ eng: "Vouch for someone", jpn: "人の身元や人柄を保証する", formality: "Neutral expression", exEng: "I didn't know the babysitter, but my neighbor vouched for her.", exJpn: "私はそのベビーシッターを知りませんでしたが、隣人が彼女の人柄を保証してくれました。" },
+{ eng: "Come highly recommended", jpn: "非常に高い推薦を受けている（評判がとても良い）", formality: "Business expression", exEng: "We are excited to meet you because you come highly recommended.", exJpn: "あなたについては非常に高い推薦を受けているので、お会いできてワクワクしています。" },
+{ eng: "Break the ice with humor", jpn: "ユーモアで場の緊張をほぐす", formality: "Neutral expression", exEng: "Using self-deprecating jokes is a safe way to break the ice with humor.", exJpn: "自虐的なジョークを使うことは、ユーモアで場の緊張をほぐす安全な方法です。" },
+{ eng: "Put on a brave face", jpn: "平気な顔をする（強がる）", formality: "Neutral expression", exEng: "Even though I was terrified on my first day, I put on a brave face.", exJpn: "初日は怖くてたまりませんでしたが、私は平気な顔をして振る舞いました。" },
+{ eng: "Fake it till you make it", jpn: "自信があるふりをして乗り切る（形から入る）", formality: "Casual expression", exEng: "If you don't feel confident at networking events, just fake it till you make it.", exJpn: "交流会で自信が持てないなら、とにかく自信があるふりをして乗り切りましょう。" },
+{ eng: "Strike a chord", jpn: "心に響く（共感を呼ぶ）", formality: "Neutral expression", exEng: "His story about moving to a new city really struck a chord with me.", exJpn: "新しい街に引っ越したという彼の話は、本当に私の心に響きました。" },
+{ eng: "Throw someone off guard", jpn: "人の油断を誘う（意表を突く）", formality: "Casual expression", exEng: "Her unexpected question completely threw me off guard during our intro.", exJpn: "自己紹介のとき、彼女の予想外の質問に完全に意表を突かれました。" },
+{ eng: "Size up the competition", jpn: "ライバルの実力や様子を見定める", formality: "Business expression", exEng: "At the networking mixer, everyone was trying to size up the competition.", exJpn: "ネットワーキングの交流会で、誰もがライバルの様子を見定めようとしていました。" },
+{ eng: "Clear the air", jpn: "（気まずい雰囲気や誤解を解消して）すっきりさせる", formality: "Neutral expression", exEng: "Having a direct talk helped clear the air after our clumsy first meeting.", exJpn: "率直に話し合ったことで、気まずかった初対面の後の雰囲気がすっきりしました。" },
             ],
-            reading1: {
-                title: "Task 2: Reading (Review Model: A Memorable Speech)",
-                instruction: "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar (past modals), and transitional expressions.",
-                eng: "In my opinion, meeting an important client for the first time is always challenging. Actually, I recently encountered a CEO who left a memorable impact on me. At first, I hesitated to approach her. In hindsight, I shouldn't have felt so nervous. I eventually figured out a polite way to introduce myself. We had a fascinating conversation about market trends. To sum up, her genuine professionalism and approachable attitude made her stand out. I wish I hadn't worried so much beforehand, because establishing a solid connection turned out to be quite natural.",
-                jpn: "私の意見では、重要なクライアントに初めて会うことは常に挑戦的です。実は、私は最近、私に記憶に残る影響を残したCEOに遭遇しました。最初は彼女にアプローチするのをためらいました。後から考えると、あんなに緊張すべきではありませんでした。私は最終的に、礼儀正しく自己紹介する方法を考え出しました。私たちは市場のトレンドについて魅力的な会話をしました。要約すると、彼女の純粋なプロ意識と親しみやすい態度は、彼女を際立たせていました。事前にあんなに心配しなければよかったと思います。なぜなら、しっかりとしたつながりを築くことは非常に自然なことだという結果になったからです。"
+            clickingGames: [
+                // Chapter Review Point 1: Indirect Questions & Polite Requests - 4 sentences
+                { prompt: "基調講演がいつ始まるか教えていただけますか？", target: "Could you tell me when the keynote speech starts?", words: ["Could", "you", "tell", "me", "when", "the", "keynote", "speech", "starts?"] },
+                { prompt: "地域ディレクターがもうここにいるかどうか知っていますか？", target: "Do you know if the regional director is here yet?", words: ["Do", "you", "know", "if", "the", "regional", "director", "is", "here", "yet?"] },
+                { prompt: "連絡先を交換してもよろしいですか？", target: "Would you mind exchanging contact details?", words: ["Would", "you", "mind", "exchanging", "contact", "details?"] },
+                { prompt: "あなたの新しいプロジェクトについて教えていただくことは可能でしょうか？", target: "Could you possibly tell me about your new project?", words: ["Could", "you", "possibly", "tell", "me", "about", "your", "new", "project?"] },
+                // Chapter Review Point 2: Past Modals & Regrets - 4 sentences
+                { prompt: "あんなに緊張すべきではありませんでした。", target: "I shouldn't have felt so nervous.", words: ["I", "shouldn't", "have", "felt", "so", "nervous."] },
+                { prompt: "事前にあんなに心配しなければよかったです。", target: "I wish I hadn't worried so much beforehand.", words: ["I", "wish", "I", "hadn't", "worried", "so", "much", "beforehand."] },
+                { prompt: "もっと早く自己紹介をするべきでした。", target: "I should have introduced myself earlier.", words: ["I", "should", "have", "introduced", "myself", "earlier."] },
+                { prompt: "追加の質問をすればよかったです。", target: "I wish I had asked a follow-up question.", words: ["I", "wish", "I", "had", "asked", "a", "follow-up", "question."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Magazine Quiz)",
+                instruction: "Read this short personality quiz about professional networking styles. Notice the varied vocabulary used to describe social interactions.",
+                eng: "<div class='er-template er-quiz'><h3 style='margin-top:0;'>🧠 QUIZ: What is your Professional Networking Style?</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>We all have different ways of communicating when we meet new people. Answer these three quick questions to discover your true networking personality!</p><span class='er-quiz-q'>1. When you enter a large conference room full of complete strangers, you usually...</span><span class='er-quiz-opt'>A) Step forward, maintain excellent eye contact, and introduce yourself warmly to the nearest group.</span><span class='er-quiz-opt'>B) Stand near the refreshments, observe the room, and wait for someone else to initiate a conversation.</span><span class='er-quiz-opt'>C) Look for people who are wearing similar business badges and try to discover a shared passion.</span><span class='er-quiz-q'>2. If you accidentally mispronounce an important client's name during a chat, you...</span><span class='er-quiz-opt'>A) Politely apologize, ask for clarification immediately, and repeat their name correctly to remember it.</span><span class='er-quiz-opt'>B) Avoid eye contact, feel incredibly nervous, and hope they don't notice your mistake.</span><span class='er-quiz-opt'>C) Lighten the mood with a quick, gentle joke and steer the conversation back to the main topic.</span><span class='er-quiz-q'>3. To keep a conversation going smoothly, your favorite strategy is to...</span><span class='er-quiz-opt'>A) Ask an engaging follow-up question and summarize what the other person just said.</span><span class='er-quiz-opt'>B) Nod quietly in agreement and show empathy when they share an experience.</span><span class='er-quiz-opt'>C) Share a funny anecdote about your own background to break down the barriers.</span><div class='er-quiz-res'><strong>📊 Results:</strong><br><br><strong>Mostly A's: The Confident Connector!</strong><br>You are a natural leader. You easily bridge language barriers and show genuine enthusiasm. People instantly feel comfortable around you because you extend a warm greeting and maintain professional etiquette.<br><br><strong>Mostly B's: The Quiet Observer!</strong><br>You might be a bit hesitant in large groups, but you are a fantastic, active listener. You prefer to connect on a deeper level in one-on-one situations. You never interrupt, which makes clients feel deeply respected.<br><br><strong>Mostly C's: The Friendly Storyteller!</strong><br>You use humor and shared experiences to turn strangers into friends. You are excellent at breaking the tension and making everyone feel at home, even in a strict corporate environment.</div></div>",
+                jpn: "<div class='er-template er-quiz'><h3 style='margin-top:0;'>🧠 クイズ：あなたのプロフェッショナル・ネットワーキングスタイルは？</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>初対面の人と会うとき、私たちは皆それぞれ異なるコミュニケーション方法を持っています。これら3つの簡単な質問に答えて、あなたの本当のネットワーキングの性格を発見しましょう！</p><span class='er-quiz-q'>1. 全く見知らぬ人でいっぱいの大きな会議室に入ったとき、あなたはたいてい...</span><span class='er-quiz-opt'>A) 一歩前に出て、素晴らしいアイコンタクトを保ち、一番近いグループに温かく自己紹介をする。</span><span class='er-quiz-opt'>B) 軽食の近くに立ち、部屋を観察し、誰か他の人が会話を切り出すのを待つ。</span><span class='er-quiz-opt'>C) 似たようなビジネスバッジをつけている人を探し、共通の情熱（大好きなこと）を発見しようとする。</span><span class='er-quiz-q'>2. おしゃべり中にうっかり重要なクライアントの名前の発音を間違えてしまったら、あなたは...</span><span class='er-quiz-opt'>A) 丁寧に謝り、すぐに説明を求め、覚えるために彼らの名前を正しく繰り返す。</span><span class='er-quiz-opt'>B) 目を合わせるのを避け、信じられないほど緊張し、相手がミスに気づかないことを願う。</span><span class='er-quiz-opt'>C) 手短で優しいジョークでその場の空気を和らげ、会話を本題へと導く。</span><span class='er-quiz-q'>3. 会話をスムーズに続けるために、あなたのお気に入りの戦略は...</span><span class='er-quiz-opt'>A) 魅力的な追加の質問をし、相手がたった今言ったことを要約する。</span><span class='er-quiz-opt'>B) 同意して静かにうなずき、相手が経験を共有したときに共感を示す。</span><span class='er-quiz-opt'>C) 壁を取り払うために、自分自身の経歴についての面白いちょっとした体験談を共有する。</span><div class='er-quiz-res'><strong>📊 結果：</strong><br><br><strong>Aが多い人：自信に満ちたコネクター！</strong><br>あなたは生まれながらのリーダーです。言葉の壁を簡単に乗り越え、純粋な熱意を示します。温かい挨拶をし、プロフェッショナルなエチケットを維持するため、人々はあなたのそばですぐに居心地の良さを感じます。<br><br><strong>Bが多い人：静かな観察者！</strong><br>大人数のグループでは少し躊躇するかもしれませんが、あなたは素晴らしい、積極的な聞き手です。1対1の状況でより深いレベルでつながることを好みます。決して話を遮らないので、クライアントは深く尊重されていると感じます。<br><br><strong>Cが多い人：フレンドリーなストーリーテラー！</strong><br>ユーモアと共有した経験を使って、見知らぬ人を友人に変えます。厳しい企業環境においてさえ、緊張をほぐし、全員に自宅にいるようにくつろいでもらうことに長けています。</div></div>"
             },
-            expandedDialogue: [
-                { speaker: "A", eng: "Are you ready for your speaking test on first impressions?", jpn: "第一印象についてのスピーキングテストの準備はできていますか？" },
-                { speaker: "B", eng: "I think so. I am going to discuss a memorable encounter with a senior colleague.", jpn: "そう思います。先輩同僚との記憶に残る出会いについて話すつもりです。" },
-                { speaker: "A", eng: "That sounds interesting. What specific characteristics made them stand out?", jpn: "それは面白そうですね。どのような具体的な特徴が彼らを際立たせていたのですか？" },
-                { speaker: "B", eng: "Their genuine professionalism. They maintained excellent eye contact and a sincere smile.", jpn: "彼らの純粋なプロ意識です。彼らは素晴らしいアイコンタクトと誠実な笑顔を維持していました。" },
-                { speaker: "A", eng: "Did you hesitate to approach them initially?", jpn: "最初は彼らにアプローチするのをためらいましたか？" },
-                { speaker: "B", eng: "Yes, I did. I shouldn't have been so nervous. It created unnecessary tension.", jpn: "はい、ためらいました。あんなに緊張すべきではありませんでした。不要な緊張を生んでしまいました。" },
-                { speaker: "A", eng: "It's normal to feel anxious. How did you figure out a way to break the ice?", jpn: "不安を感じるのは普通のことです。緊張をほぐす方法をどのように見つけ出したのですか？" },
-                { speaker: "B", eng: "I asked a simple, indirect question about the conference schedule.", jpn: "カンファレンスのスケジュールについて、シンプルで間接的な質問をしました。" },
-                { speaker: "A", eng: "That's a smart strategy. Did the conversation turn out to be engaging?", jpn: "それは賢い戦略ですね。会話は魅力的なものになりましたか？" },
-                { speaker: "B", eng: "Absolutely. We found out we share similar interests in technology.", jpn: "間違いありません。私たちがテクノロジーに対して似たような興味を共有していることが判明しました。" },
-                { speaker: "A", eng: "It sounds like you successfully established a valuable connection.", jpn: "価値あるつながりを築くことに見事成功したようですね。" },
-                { speaker: "B", eng: "I did. To sum up, maintaining an approachable attitude is crucial for anyone.", jpn: "はい。要約すると、親しみやすい態度を維持することは誰にとっても極めて重要です。" },
-                { speaker: "A", eng: "I completely agree. Good luck with your presentation tomorrow.", jpn: "完全に同意します。明日のプレゼンテーション頑張ってください。" },
-                { speaker: "B", eng: "Thank you. I will carry out your advice and speak confidently.", jpn: "ありがとうございます。あなたのアドバイスを実行して、自信を持って話します。" }
-            ],
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a memorable first encounter you had with a professional colleague. What characteristics made them stand out?",
                 promptJpn: "「プロフェッショナルな同僚との記憶に残る初対面について説明してください。どのような特徴が彼らを際立たせていましたか？」という質問に答える短い段落を書いてください。"
-            },
-extendedReading: {
-            title: "Task 4: Authentic Reading (Magazine Quiz)",
-            instruction: "Read this short personality quiz about professional networking styles. Notice the varied vocabulary used to describe social interactions.",
-            eng: "<div class='er-template er-quiz'><h3 style='margin-top:0;'>🧠 QUIZ: What is your Professional Networking Style?</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>We all have different ways of communicating when we meet new people. Answer these three quick questions to discover your true networking personality!</p><span class='er-quiz-q'>1. When you enter a large conference room full of complete strangers, you usually...</span><span class='er-quiz-opt'>A) Step forward, maintain excellent eye contact, and introduce yourself warmly to the nearest group.</span><span class='er-quiz-opt'>B) Stand near the refreshments, observe the room, and wait for someone else to initiate a conversation.</span><span class='er-quiz-opt'>C) Look for people who are wearing similar business badges and try to discover a shared passion.</span><span class='er-quiz-q'>2. If you accidentally mispronounce an important client's name during a chat, you...</span><span class='er-quiz-opt'>A) Politely apologize, ask for clarification immediately, and repeat their name correctly to remember it.</span><span class='er-quiz-opt'>B) Avoid eye contact, feel incredibly nervous, and hope they don't notice your mistake.</span><span class='er-quiz-opt'>C) Lighten the mood with a quick, gentle joke and steer the conversation back to the main topic.</span><span class='er-quiz-q'>3. To keep a conversation going smoothly, your favorite strategy is to...</span><span class='er-quiz-opt'>A) Ask an engaging follow-up question and summarize what the other person just said.</span><span class='er-quiz-opt'>B) Nod quietly in agreement and show empathy when they share an experience.</span><span class='er-quiz-opt'>C) Share a funny anecdote about your own background to break down the barriers.</span><div class='er-quiz-res'><strong>📊 Results:</strong><br><br><strong>Mostly A's: The Confident Connector!</strong><br>You are a natural leader. You easily bridge language barriers and show genuine enthusiasm. People instantly feel comfortable around you because you extend a warm greeting and maintain professional etiquette.<br><br><strong>Mostly B's: The Quiet Observer!</strong><br>You might be a bit hesitant in large groups, but you are a fantastic, active listener. You prefer to connect on a deeper level in one-on-one situations. You never interrupt, which makes clients feel deeply respected.<br><br><strong>Mostly C's: The Friendly Storyteller!</strong><br>You use humor and shared experiences to turn strangers into friends. You are excellent at breaking the tension and making everyone feel at home, even in a strict corporate environment.</div></div>",
-            jpn: "<div class='er-template er-quiz'><h3 style='margin-top:0;'>🧠 クイズ：あなたのプロフェッショナル・ネットワーキングスタイルは？</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>初対面の人と会うとき、私たちは皆それぞれ異なるコミュニケーション方法を持っています。これら3つの簡単な質問に答えて、あなたの本当のネットワーキングの性格を発見しましょう！</p><span class='er-quiz-q'>1. 全く見知らぬ人でいっぱいの大きな会議室に入ったとき、あなたはたいてい...</span><span class='er-quiz-opt'>A) 一歩前に出て、素晴らしいアイコンタクトを保ち、一番近いグループに温かく自己紹介をする。</span><span class='er-quiz-opt'>B) 軽食の近くに立ち、部屋を観察し、誰か他の人が会話を切り出すのを待つ。</span><span class='er-quiz-opt'>C) 似たようなビジネスバッジをつけている人を探し、共通の情熱（大好きなこと）を発見しようとする。</span><span class='er-quiz-q'>2. おしゃべり中にうっかり重要なクライアントの名前の発音を間違えてしまったら、あなたは...</span><span class='er-quiz-opt'>A) 丁寧に謝り、すぐに説明を求め、覚えるために彼らの名前を正しく繰り返す。</span><span class='er-quiz-opt'>B) 目を合わせるのを避け、信じられないほど緊張し、相手がミスに気づかないことを願う。</span><span class='er-quiz-opt'>C) 手短で優しいジョークでその場の空気を和らげ、会話を本題へと導く。</span><span class='er-quiz-q'>3. 会話をスムーズに続けるために、あなたのお気に入りの戦略は...</span><span class='er-quiz-opt'>A) 魅力的な追加の質問をし、相手がたった今言ったことを要約する。</span><span class='er-quiz-opt'>B) 同意して静かにうなずき、相手が経験を共有したときに共感を示す。</span><span class='er-quiz-opt'>C) 壁を取り払うために、自分自身の経歴についての面白いちょっとした体験談を共有する。</span><div class='er-quiz-res'><strong>📊 結果：</strong><br><br><strong>Aが多い人：自信に満ちたコネクター！</strong><br>あなたは生まれながらのリーダーです。言葉の壁を簡単に乗り越え、純粋な熱意を示します。温かい挨拶をし、プロフェッショナルなエチケットを維持するため、人々はあなたのそばですぐに居心地の良さを感じます。<br><br><strong>Bが多い人：静かな観察者！</strong><br>大人数のグループでは少し躊躇するかもしれませんが、あなたは素晴らしい、積極的な聞き手です。1対1の状況でより深いレベルでつながることを好みます。決して話を遮らないので、クライアントは深く尊重されていると感じます。<br><br><strong>Cが多い人：フレンドリーなストーリーテラー！</strong><br>ユーモアと共有した経験を使って、見知らぬ人を友人に変えます。厳しい企業環境においてさえ、緊張をほぐし、全員に自宅にいるようにくつろいでもらうことに長けています。</div></div>"
-        }
+            }
         }
     },
 {
@@ -12526,48 +12473,47 @@ extendedReading: {
 ];
 
 const coreRules = [
- {
-        title: "Silent 'L' in Modals",
-        eng: "The 'L' in 'could' and 'should' is completely silent. Practice 'shouldn't' (/ʃʊdnt/) with a sharp stop.",
-        jpn: "「could」や「should」の「L」は完全に無音です。鋭く止める「shouldn't（/ʃʊdnt/）」を練習しましょう。"
+{
+        title: "Palatalization in 'Could you' (Hint 1)",
+        eng: "When asking polite indirect questions like 'Could you tell me where the station is?', the /d/ in 'could' and /j/ in 'you' blend into a /dʒ/ sound: 'COULD-ja' (/ˈkʊdʒə/).",
+        jpn: "「Could you tell me where the station is?」のように丁寧な間接疑問文を使う際、「could」の /d/ と「you」の /j/ が繋がり、「クッジャ（/ˈkʊdʒə/）」のように発音されます。"
     },
 
     {
-        title: "Linking 'update it' ",
-        eng: "When saying 'update it', the 't' in update links to the 'i'. It sounds like 'up-day-tit'.",
-        jpn: "「update it」と言う時、updateの「t」が次の「i」に繋がります。「アップ・デイ・ティット」のように聞こえます。"
+        title: "Word Stress in 'inCREDible' & 'deVELoper' (Hint 2)",
+        eng: "In 4-syllable words like 'incredible' and 'developer', stress the second syllable (in-CRED-i-ble, de-VEL-op-er) and reduce the other vowels to a weak schwa (/ə/).",
+        jpn: "「incredible」や「developer」のような4音節の単語では、2番目の音節にアクセントを置き（in-CRED-i-ble, de-VEL-op-er）、他の母音は弱いあいまい母音（/ə/）に弱화させます。"
     },
 
     {
-        title: "Stress on 'DEveloper' (Hint 3)",
-        eng: "The stress in 'developer' is on the second syllable: de-VEL-o-per. Don't stress the first syllable.",
-        jpn: "「developer」のアクセントは2番目の音節（de-VEL-o-per）にあります。最初の音節を強調しないでください。"
+        title: "Intonation in Paired Adjectives (Hint 3)",
+        eng: "When linking two adjectives like 'sincere and approachable', use a slight rising tone on 'sincere', reduce 'and' to '/ən/', and use a falling tone on 'approachable'.",
+        jpn: "「sincere and approachable」のように2つの形容詞を繋ぐ際、「sincere」で少し語調を上げ、「and」を「/ən/」と弱く発音し、「approachable」で語調を下げます。"
     },
 
     {
-        title: "Flap T in 'Data' (Hint 4)",
-        eng: "In American English, 'data' is pronounced with a quick flap 't' sounding like a 'd': DAY-duh.",
-        jpn: "アメリカ英語では、「data」の「t」は速い「d」のように発音されます：DAY-duh（デイダ）。"
+        title: "Blending 'Would you mind' (Hint 4)",
+        eng: "In polite requests like 'Would you mind connecting on LinkedIn?', link 'would' and 'you' into 'WOOD-ja' (/ˈwʊdʒə/), and drop the final /d/ in 'mind' before the next consonant.",
+        jpn: "「Would you mind connecting on LinkedIn?」のような丁寧な依頼では、「would」と「you」を繋げて「ウッジャ（/ˈwʊdʒə/）」と発音し、次の子音の前の「mind」の最後の /d/ を省略します。"
     },
 
     {
-        title: "Silent 'E' at the end of verbs (Hint 5)",
-        eng: "The 'e' in 'configure' or 'update' is silent. It makes the previous vowel longer, but doesn't make a sound itself.",
-        jpn: "「configure」や「update」の最後の「e」は発音しません。前の母音を長くしますが、それ自身の音はありません。"
+        title: "Silent 'T' in 'Often' & Schwa in 'Usually' (Hint 5)",
+        eng: "In frequency adverbs, the 't' in 'often' (/ˈɔːfən/) is usually silent, and 'usually' is compressed from four syllables into three: 'YOO-zhuh-lee' (/ˈjuːʒəli/).",
+        jpn: "頻度の副詞では、「often（/ˈɔːfən/）」の「t」は通常発音せず、「usually」は4音節から3音節の「ユージュアリー（/ˈjuːʒəli/）」に短縮して発音されます。"
     },
 
     {
-        title: "Pronouncing 'Agile' (Hint 6)",
-        eng: "The 'g' in 'agile' is a soft /dʒ/ sound, like in 'jump'. It sounds like AJ-aisle or AJ-ul.",
-        jpn: "「agile」の「g」は「jump」のような柔らかい/dʒ/音です。「アジャイル」または「アジュル」のように聞こえます。"
+        title: "Weak 'Have' in 'Should have' (Hint 6)",
+        eng: "When expressing past regrets like 'I should have made polite small talk', 'have' is unstressed and reduced to '/əv/', sounding like 'SHOULD-uv' (/ˈʃʊdəv/).",
+        jpn: "「I should have made polite small talk」のように過去の後悔を表す際、「have」は強調されず「/əv/」に弱まり、「シュダヴ（/ˈʃʊdəv/）」のように聞こえます。"
     },
 
     {
-        title: "Voiced 'S' in 'Version' (Hint 7)",
-        eng: "The 's' in 'version' is pronounced like a soft 'zh' (/ʒ/), similar to 'vision'.",
-        jpn: "「version」の「s」は、「vision」と同じように濁った柔らかい「zh（/ʒ/）」の音になります。"
+        title: "Thought Groups & Pausing in Speeches (Hint 7)",
+        eng: "In a presentation, pause briefly after transition phrases to sound clear and confident: 'Today, / I would like to talk about / a memorable first encounter.'",
+        jpn: "スピーチでは、繋ぎ言葉の後に短い間（ポーズ）を置くことで、明確で自信のある話し方になります：「Today, / I would like to talk about / a memorable first encounter.」"
     },
-
     {
         title: "Linking Consonant to Vowel (Log in) (Hint 8)",
         eng: "Link the 'g' in 'log' to the 'i' in 'in'. It sounds like 'law-gin'.",

@@ -88,6 +88,8 @@
         .layout-2col .section-card { margin-bottom: 0; min-width: 0; }
         .layout-3col { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: stretch; gap: 25px; margin-bottom: 25px; }
         .layout-3col .section-card { margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column; }
+        .layout-4col { display: grid; grid-template-columns: repeat(4, 1fr); align-items: stretch; gap: 20px; margin-bottom: 25px; }
+        .layout-4col .section-card { margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column; padding: 20px; }
 
         .goal-overview { background: #eff6ff; border-radius: 12px; padding: 20px 25px; margin-bottom: 25px; border-left: 6px solid var(--primary); }
         .goal-overview p { font-size: 1.1rem; color: var(--text-dark); margin: 0; font-weight: 600;}
@@ -122,6 +124,10 @@
         .flashcard .eng-side { display: none; align-items: center; gap: 8px; }
         .flashcard.flipped .jpn-side { display: none; }
         .flashcard.flipped .eng-side { display: flex; }
+        .flashcard-eng-first .eng-side { display: flex !important; align-items: center; gap: 8px; }
+        .flashcard-eng-first .jpn-side { display: none !important; }
+        .flashcard-eng-first.flipped .eng-side { display: none !important; }
+        .flashcard-eng-first.flipped .jpn-side { display: block !important; }
         
         .dialogue-box { background: #f8fafc; padding: 20px; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 20px; }
         .dialogue-line { margin-bottom: 12px; font-size: 1.1rem; }
@@ -242,9 +248,13 @@
         .chapter-title { font-size: 1.1rem; font-weight: 700; color: var(--text-dark); margin: 0 0 5px 0; }
         .chapter-jpn { font-weight: normal; font-size: 0.9rem; color: var(--text-light); margin: 0; }
 
+        @media (max-width: 1150px) {
+            .layout-4col { grid-template-columns: repeat(2, 1fr); }
+        }
+
         @media (max-width: 1024px) {
-            .layout-2col, .layout-3col { grid-template-columns: 1fr; }
-            .layout-2col .section-card, .layout-3col .section-card { margin-bottom: 25px; }
+            .layout-2col, .layout-3col, .layout-4col { grid-template-columns: 1fr; }
+            .layout-2col .section-card, .layout-3col .section-card, .layout-4col .section-card { margin-bottom: 25px; }
         }
 
         @media (max-width: 768px) {
@@ -1363,14 +1373,86 @@
 
             html += '</div></div>'; // End layout-2col
 
-            // 4. Complete Chapter Vocabulary List (~210 words)
-            html += '<div class="section-card">';
-            html += '<h3>4. Complete Chapter Vocabulary (' + data.vocab.length + ' Words / Phrases)</h3>';
+            // 4. Complete Chapter Vocabulary List (~210 words) - Hidden by default to save space
+            html += '<div class="section-card" style="padding: 18px 30px;">';
+            html += '<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">';
+            html += '<h3 style="margin: 0;">4. Complete Chapter Vocabulary (' + data.vocab.length + ' Words / Phrases)</h3>';
+            html += '<button class="action-btn" style="margin: 0; background: var(--primary-light); font-size: 0.9rem; padding: 8px 16px;" onclick="toggleElement(\'summary-vocab-collapse\')">👁️ Show / Hide Full List</button>';
+            html += '</div>';
+            html += '<div id="summary-vocab-collapse" style="display: none; margin-top: 20px;">';
             html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0;">All target and homework vocabulary introduced across ' + summaryPage.chapter + '.</p>';
             html += '<input type="text" class="vocab-filter-input" placeholder="🔍 Search chapter vocabulary (English or Japanese)..." oninput="filterSummaryVocab(this.value)">';
             html += '<div class="vocab-grid" id="summary-vocab-grid">';
             data.vocab.forEach(wordObj => {
                 html += renderVocabItem(wordObj);
+            });
+            html += '</div></div></div>';
+
+            // 5. Vocabulary Review Game (32 Random Words)
+            html += '<div class="section-card">';
+            html += '<h3>5. Vocabulary Review Game (English First)</h3>';
+            html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0;">Test yourself with 32 random words from this chapter. Click to reveal the Japanese meaning.</p>';
+            html += '<div class="vocab-grid">';
+            let shuffledVocab = [...data.vocab].sort(() => 0.5 - Math.random()).slice(0, 32);
+            shuffledVocab.forEach(wordObj => {
+                html += '<div class="flashcard flashcard-eng-first" onclick="flipCard(this)">';
+                html += '<div class="eng-side"><span>' + wordObj.eng + '</span>';
+                html += '<button class="audio-btn tts-btn" data-tts="' + prepareAudioText(wordObj.eng) + '" style="padding:2px;">🔊</button>';
+                html += '</div>';
+                html += '<span class="jpn-side jpn-text" style="font-weight:bold;">' + wordObj.jpn + '</span>';
+                html += '</div>';
+            });
+            html += '</div></div>';
+
+            // 6. Teacher Review Activities (21 blocks for 210 words)
+            html += '<div class="section-card">';
+            html += '<h3>6. Teacher Review Activities</h3>';
+            html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0;">Use these 21 activities with your teacher to practice the vocabulary above (10 words per activity).</p>';
+
+            const activities = [
+                { title: "Sentence Clustering", desc: "Select 3 to 5 unrelated words from your 10-word block and combine them into a single, grammatically correct sentence or short business email." },
+                { title: "Taboo (Definition Challenge)", desc: "The teacher points to a word. Explain the concept or give examples without using the actual word or its root until the teacher guesses it." },
+                { title: "The Elevator Pitch", desc: "You have two minutes to prepare a short pitch for a fake product or project, utilizing all 10 words in your presentation." },
+                { title: "Rapid-Fire Synonyms & Antonyms", desc: "The teacher says a word from the block. Immediately respond with a valid synonym, an antonym, or a common collocation." },
+                { title: "Scenario Roleplay", desc: "The teacher assigns a specific situation (e.g., resolving a client complaint). Have a back-and-forth conversation weaving the 10 words into the dialogue." },
+                { title: "Categorization & Justification", desc: "Group the 10 words into categories of your choosing (e.g., positive/negative) and explain your rationale to the teacher." },
+                { title: "Spot the Error", desc: "The teacher creates sentences using the words but intentionally uses 3 or 4 incorrectly. Stop the teacher, identify the error, and explain the correct usage." },
+                { title: "Yes, and... Storytelling", desc: "The teacher starts a story using the first word. Continue the narrative by adding a sentence using the second word, going back and forth." },
+                { title: "Debate Prompts", desc: "The teacher asks a controversial question. Defend your opinion while incorporating at least 5 words from the 10-word block." },
+                { title: "The Cloze Conversation", desc: "The teacher speaks naturally but deliberately leaves a 'blank' at the end of a sentence. Provide the word that best fits the blank." }
+            ];
+
+            // Repeat the 10 activities twice plus 1 more to make 21 blocks (210 words)
+            const allActivities = [...activities, ...activities, activities[0]];
+
+            html += '<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; width: 100%; margin-top: 20px;">';
+            allActivities.forEach((act, idx) => {
+                const startIndex = idx * 10;
+                const endIndex = startIndex + 10;
+                const wordStart = startIndex + 1;
+                const wordChunk = data.vocab.slice(startIndex, endIndex);
+                const wordEnd = startIndex + 10;
+
+                html += '<div style="background: #f8fafc; border: 1px solid var(--border); padding: 15px; border-radius: 8px; border-left: 4px solid var(--accent); display: flex; flex-direction: column;">';
+                html += '<h4 style="margin-top: 0; color: var(--primary); font-size: 1.05rem; margin-bottom: 8px;">Activity ' + (idx + 1) + ': ' + act.title + ' <span style="color: var(--text-light); font-size: 0.9rem;">(Words ' + wordStart + '-' + wordEnd + ')</span></h4>';
+                html += '<p style="margin: 0 0 12px 0; font-size: 0.95rem; color: var(--text-dark);">' + act.desc + '</p>';
+                
+                if (wordChunk.length > 0) {
+                    html += '<div style="display: flex; flex-direction: column; gap: 6px; margin-top: 4px; border-top: 1px dashed var(--border); padding-top: 12px;">';
+                    wordChunk.forEach(w => {
+                        const cleanWord = stripHtmlTags(w.eng).trim();
+                        const yarnUrl = 'https://yarn.co/yarn-find?text=' + encodeURIComponent(cleanWord);
+                        html += '<div style="background: white; padding: 8px 12px; border-radius: 6px; border: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center;">';
+                        html += '<div class="vocab-text">';
+                        html += '<span class="vocab-eng" style="font-size: 0.95rem;"><a href="' + yarnUrl + '" target="_blank" rel="noopener noreferrer" title="Search video clips on Yarn">' + w.eng + '</a></span>';
+                        html += '<span class="vocab-jpn jpn-text" style="font-size: 0.8rem;">' + w.jpn + '</span>';
+                        html += '</div>';
+                        html += '<button class="audio-btn tts-btn" data-tts="' + prepareAudioText(w.eng) + '" style="font-size: 1rem; padding: 4px;">🔊</button>';
+                        html += '</div>';
+                    });
+                    html += '</div>';
+                }
+                html += '</div>';
             });
             html += '</div></div>';
 
@@ -1600,18 +1682,9 @@
                 if (lesson.vocab) {
                     html += '<div class="section-card"><h3>Target Vocabulary</h3>';
                     let vList = lesson.vocab || [];
-                    let collocations = vList.slice(0, 8);
-                    let informal = vList.slice(8, 12);
-
-                    if (collocations.length > 0) {
-                        html += '<h4 style="margin-top: 15px; color: var(--text-dark);">Collocations</h4><div class="vocab-grid">';
-                        for (let i = 0; i < collocations.length; i++) html += renderVocabItem(collocations[i]);
-                        html += '</div>';
-                    }
-
-                    if (informal.length > 0) {
-                        html += '<h4 style="margin-top: 25px; color: var(--text-dark);">Informal</h4><div class="vocab-grid">';
-                        for (let i = 0; i < informal.length; i++) html += renderVocabItem(informal[i]);
+                    if (vList.length > 0) {
+                        html += '<div class="vocab-grid" style="margin-top: 15px;">';
+                        for (let i = 0; i < vList.length; i++) html += renderVocabItem(vList[i]);
                         html += '</div>';
                     }
                     html += '</div>';
@@ -1681,10 +1754,10 @@
                 html += '</div>';
 
                 if (lesson.type === "opinion") {
-                    html += '<div class="layout-3col">';
-                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0;">';
+                    html += '<div class="layout-4col">';
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column;">';
                     html += '<h3>10 Discussion Questions</h3>';
-                    html += '<ul class="question-list" style="padding-left: 0; list-style: none;">';
+                    html += '<ul class="question-list" style="padding-left: 0; list-style: none; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; margin-bottom: 0;">';
                     let qs = lesson.questions || [];
                     for (let i = 0; i < qs.length; i++) {
                         let q = qs[i];
@@ -1695,7 +1768,7 @@
                     }
                     html += '</ul></div>';
 
-                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; display: flex; flex-direction: column;">';
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column;">';
                     html += '<h3>Transitional Expressions</h3>';
                     html += '<div class="expression-box" style="margin-top: 15px; background: #f8fafc; border-color: var(--border);">';
                     html += '<ul style="padding-left: 0; list-style: none; margin: 0;">';
@@ -1718,16 +1791,17 @@
                     }
                     html += '</ul></div>';
                     
+                    html += '<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-end;">';
                     html += renderGrammarPoints(lesson, false);
-                    html += '</div>';
+                    html += '</div></div>';
                     
-                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; background: #faf5ff; border: 1px solid #e9d5ff; display: flex; flex-direction: column;">';
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; background: #faf5ff; border: 1px solid #e9d5ff; display: flex; flex-direction: column;">';
                     html += '<h3 style="color: #9333ea; border-left-color: #a855f7;">Discussion Topics</h3>';
                     html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Use these themes and sub-themes to ask questions and discuss.</p>';
                     
                     const topics = lesson.discussionTopics || (typeof discussionTopicsData !== 'undefined' ? discussionTopicsData[lesson.id] : null);
                     if (topics) {
-                        html += '<div style="display: flex; flex-direction: column; gap: 15px; margin-top: 15px;">';
+                        html += '<div style="display: flex; flex-direction: column; gap: 15px; margin-top: 15px; flex-grow: 1; justify-content: space-between;">';
                         topics.forEach((t, tIdx) => {
                             html += '<div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid var(--border); box-shadow: 0 2px 4px rgba(0,0,0,0.02);">';
                             html += '<div style="font-weight: bold; color: var(--text-dark); font-size: 1.05rem;">' + t.theme + '</div>';
@@ -1743,7 +1817,30 @@
                         });
                         html += '</div>';
                     }
-                    html += '</div></div>';
+                    html += '</div>';
+
+                    // 4th Column: Target Vocabulary
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; background: #f0fdf4; border: 1px solid #bbf7d0; display: flex; flex-direction: column;">';
+                    html += '<h3 style="color: #15803d; border-left-color: #22c55e;">Target Vocabulary</h3>';
+                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Try to include these words in your answers.</p>';
+                    html += '<ul style="padding-left: 0; list-style: none; margin: 15px 0 0 0; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 10px;">';
+                    let opVocab = lesson.vocab || [];
+                    for (let i = 0; i < opVocab.length; i++) {
+                        let v = opVocab[i];
+                        const vId = `op-vocab-box-${lesson.id}-${i}`;
+                        const cleanWord = stripHtmlTags(v.eng).trim();
+                        const yarnUrl = 'https://yarn.co/yarn-find?text=' + encodeURIComponent(cleanWord);
+                        html += '<li id="' + vId + '" style="background: white; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border); display: flex; gap: 10px; align-items: flex-start; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">';
+                        html += '<input type="checkbox" onchange="toggleComplete(this, \'' + vId + '\')">';
+                        html += '<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 6px;">';
+                        html += '<div class="vocab-text">';
+                        html += '<span class="vocab-eng" style="font-size: 0.95rem;"><a href="' + yarnUrl + '" target="_blank" rel="noopener noreferrer" title="Search video clips on Yarn">' + v.eng + '</a></span>';
+                        html += '<span class="vocab-jpn jpn-text" style="font-size: 0.8rem;">' + v.jpn + '</span>';
+                        html += '</div>';
+                        html += '<button class="audio-btn tts-btn" data-tts="' + prepareAudioText(v.eng) + '" style="font-size: 0.95rem; padding: 2px;">🔊</button>';
+                        html += '</div></li>';
+                    }
+                    html += '</ul></div></div>';
 
                 } else if (lesson.type === "transactional") {
                     html += '<div class="layout-3col">';
@@ -1819,48 +1916,43 @@
 
             if (lesson.homework) {
                 html += '<div class="section-card" style="background-color: #f8fafc; border: 2px dashed var(--primary-light);">';
-                html += '<h3>Homework (宿題)</h3><h4>Task 1: Vocabulary Building [ボキャブラリー構築]</h4><div class="vocab-grid">';
+                html += '<h3>Homework (宿題)</h3>';
+                
+                // Task 1: Vocabulary Building
+                html += '<h4>Task 1: Vocabulary Building [ボキャブラリー構築]</h4><div class="vocab-grid">';
                 let hVocab = lesson.homework.vocab || [];
                 for (let i = 0; i < hVocab.length; i++) html += renderVocabItem(hVocab[i]);
                 html += '</div>';
 
-                let taskNum = 2;
-                if (lesson.homework.reading1) {
-                    html += '<h4>' + (lesson.homework.reading1.title || `Task ${taskNum}: Reading`) + '</h4>';
-                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">' + (lesson.homework.reading1.instruction || '') + '</p>';
-                    html += '<div class="homework-box" style="background: white;">';
-                    html += '<button class="audio-btn tts-btn" data-tts="' + prepareAudioText(lesson.homework.reading1.eng) + '" style="float: right;">🔊</button>';
-                    html += '<p style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap; margin-top: 0;">' + lesson.homework.reading1.eng + '</p>';
-                    html += '<p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">' + lesson.homework.reading1.jpn + '</p>';
-                    html += '</div>';
-                    taskNum++;
-                }
-
-                if (lesson.homework.expandedDialogue) {
-                    html += '<h4>Task ' + taskNum + ': Reading (Dialogue)</h4>';
-                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Read the extended conversation.</p>';
-                    html += '<div class="dialogue-box" style="background: white;">';
-                    for (let i = 0; i < lesson.homework.expandedDialogue.length; i++) {
-                        let line = lesson.homework.expandedDialogue[i];
-                        html += '<div class="dialogue-line"><span class="dialogue-speaker">' + line.speaker + ':</span> <span>' + line.eng + '</span>';
-                        html += ' <button class="audio-btn tts-btn" data-tts="' + prepareAudioText(line.eng) + '" style="font-size:0.9rem; padding:2px;">🔊</button>';
-                        html += '<span class="dialogue-trans jpn-text">' + line.jpn + '</span></div>';
+                // Task 2: Grammar Activity (Sentence Builder)
+                let hwGames = lesson.homework.clickingGames || lesson.clickingGames || [];
+                if (hwGames.length > 0) {
+                    html += '<h4>Task 2: Grammar Activity (Sentence Builder) [文法アクティビティ]</h4>';
+                    for (let i = 0; i < hwGames.length; i++) {
+                        let game = hwGames[i];
+                        const hwGameId = 'hw-' + lesson.id + '-' + i;
+                        html += '<div class="practice-container">';
+                        html += '<p class="jpn-text"><strong>Translate:</strong> ' + game.prompt + '</p>';
+                        html += '<div class="drop-zone" id="drop-' + hwGameId + '"></div>';
+                        html += '<div class="word-bank" id="bank-' + hwGameId + '">';
+                        let shuffledWords = game.words.slice().sort(function() { return Math.random() - 0.5; });
+                        for (let j = 0; j < shuffledWords.length; j++) {
+                            html += '<button class="word-btn" onclick="moveWord(this, \'drop-' + hwGameId + '\', \'bank-' + hwGameId + '\')">' + shuffledWords[j] + '</button>';
+                        }
+                        html += '</div>';
+                        html += '<button class="action-btn" onclick="checkClickGame(\'drop-' + hwGameId + '\', \'' + prepareAudioText(game.target) + '\', \'feedback-' + hwGameId + '\')">Check</button>';
+                        html += '<button class="action-btn" style="background:var(--text-light);" onclick="resetClickGame(\'' + hwGameId + '\')">Reset</button>';
+                        html += '<span class="feedback" id="feedback-' + hwGameId + '"></span></div>';
                     }
-                    html += '</div>';
-                    taskNum++;
                 }
 
-                if (lesson.homework.writingTask) {
-                    html += '<h4>Task ' + taskNum + ': Writing Task</h4>';
-                    html += '<div class="homework-box" style="border-left-color: var(--accent); background: white;">';
-                    html += '<p><strong>Prompt:</strong> ' + lesson.homework.writingTask.promptEng + '</p>';
-                    html += '<p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); margin-bottom: 0;">' + lesson.homework.writingTask.promptJpn + '</p>';
-                    html += '</div>';
-                    taskNum++;
-                }
-
+                // Task 3: Authentic Reading
                 if (lesson.homework.extendedReading) {
-                    html += '<h4>' + (lesson.homework.extendedReading.title || `Task ${taskNum}: Extended Reading`) + '</h4>';
+                    let erTitle = (lesson.homework.extendedReading.title || 'Task 3: Authentic Reading').replace(/^Task \d+:/i, 'Task 3:');
+                    html += '<h4>' + erTitle + '</h4>';
+                    if (lesson.homework.extendedReading.instruction) {
+                        html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">' + lesson.homework.extendedReading.instruction + '</p>';
+                    }
                     html += '<div style="margin-bottom: 15px; display: flex; gap: 10px; flex-wrap: wrap;">';
                     html += '<button class="action-btn" style="background: var(--primary-light); font-size: 0.9rem; padding: 6px 12px;" onclick="toggleTask4English()">👁️ Toggle English</button>';
                     html += '<button class="action-btn" style="background: var(--accent); font-size: 0.9rem; padding: 6px 12px;" onclick="toggleTask4Japanese()">👁️ Toggle Japanese</button>';
@@ -1869,6 +1961,15 @@
                     html += '<div class="homework-box" style="background: white;">';
                     html += '<div id="task4-eng-text" style="font-size: 1.05rem; font-weight: 500; white-space: pre-wrap; margin-top: 0;">' + lesson.homework.extendedReading.eng + '</div>';
                     html += '<div id="task4-jpn-text" class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px; white-space: pre-wrap;">' + lesson.homework.extendedReading.jpn + '</div>';
+                    html += '</div>';
+                }
+
+                // Task 4: Writing Task
+                if (lesson.homework.writingTask) {
+                    html += '<h4>Task 4: Writing Task [ライティング課題]</h4>';
+                    html += '<div class="homework-box" style="border-left-color: var(--accent); background: white;">';
+                    html += '<p><strong>Prompt:</strong> ' + lesson.homework.writingTask.promptEng + '</p>';
+                    html += '<p class="jpn-text" style="font-size: 0.95rem; color: var(--text-light); margin-bottom: 0;">' + lesson.homework.writingTask.promptJpn + '</p>';
                     html += '</div>';
                 }
                 html += '</div>';
