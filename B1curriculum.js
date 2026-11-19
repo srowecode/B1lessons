@@ -901,30 +901,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "When I want to relax after a long day at work, I usually watch a popular TV series on a streaming platform. In the past, people had to wait a whole week for a new episode, but now we can watch an entire season in one weekend. This is known as binge-watching. While it is incredibly entertaining, it can also disrupt your sleep schedule if you are not careful. I also love exploring different genres. Sometimes I want to watch a thrilling action movie, and other times I prefer a lighthearted comedy. Trying new genres helps me discover amazing stories that I would normally ignore. I think streaming services have completely changed how we experience visual media, making it easier than ever to access international content.", 
-                    jpn: "仕事の後の長い一日の終わりにリラックスしたいとき、私はたいていストリーミングプラットフォームで人気のあるテレビシリーズを見ます。昔は新しいエピソードのために1週間丸々待たなければなりませんでしたが、今では1つのシーズン全体を1週末で見ることができます。これはイッキ見（ビンジウォッチング）として知られています。信じられないほど面白い反面、気をつけていないと睡眠スケジュールを乱す可能性もあります。また、私はさまざまなジャンルを探求するのも好きです。スリリングなアクション映画を見たい時もあれば、気軽なコメディを好む時もあります。新しいジャンルに挑戦することで、普段なら無視してしまうような素晴らしい物語を発見することができます。ストリーミングサービスは私たちが視覚メディアを体験する方法を完全に変え、海外のコンテンツにアクセスするのをかつてないほど簡単にしたと思います。" 
+                {
+                    name: "Person 1",
+                    eng: "When I want to relax after a long day at work, I usually watch a popular TV series on a streaming platform. In the past, people had to wait a whole week for a new episode, but now we can watch an entire season in one weekend. This is known as binge-watching. While it is incredibly entertaining, it can also disrupt your sleep schedule if you are not careful. I also love exploring different genres. Sometimes I want to watch a thrilling action movie, and other times I prefer a lighthearted comedy. Trying new genres helps me discover amazing stories that I would normally ignore. I think streaming services have completely changed how we experience visual media, making it easier than ever to access international content.",
+                    jpn: "仕事の後の長い一日の終わりにリラックスしたいとき、私はたいていストリーミングプラットフォームで人気のあるテレビシリーズを見ます。昔は新しいエピソードのために1週間丸々待たなければなりませんでしたが、今では1つのシーズン全体を1週末で見ることができます。これはイッキ見（ビンジウォッチング）として知られています。信じられないほど面白い反面、気をつけていないと睡眠スケジュールを乱す可能性もあります。また、私はさまざまなジャンルを探求するのも好きです。スリリングなアクション映画を見たい時もあれば、気軽なコメディを好む時もあります。新しいジャンルに挑戦することで、普段なら無視してしまうような素晴らしい物語を発見することができます。ストリーミングサービスは私たちが視覚メディアを体験する方法を完全に変え、海外のコンテンツにアクセスするのをかつてないほど簡単にしたと思います。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "For me, the cinematic experience is still very important, despite the convenience of streaming. Going to the movie theater is a special event. The massive screen, the surround sound system, and the shared excitement of the audience make blockbuster movies much more impactful. Action movies and science fiction films, in particular, rely heavily on computer-generated imagery (CGI) and special effects that you simply cannot fully appreciate on a small smartphone or tablet. Furthermore, storytelling in modern cinema has become highly sophisticated. Directors are experimenting with complex plot twists and non-linear timelines. When you watch a movie in a dark theater, you are completely focused on the narrative without any household distractions. It forces you to truly pay attention to the director's artistic vision.", 
-                    jpn: "私にとって、ストリーミングの利便性にもかかわらず、映画館での体験は依然として非常に重要です。映画館に行くことは特別なイベントです。巨大なスクリーン、サラウンドサウンドシステム、そして観客と共有する興奮が、大作映画をはるかにインパクトのあるものにします。特にアクション映画やSF映画は、小さなスマートフォンやタブレットでは十分に堪能できないCG（コンピューター生成画像）や特殊効果に大きく依存しています。さらに、現代映画のストーリーテリングは非常に洗練されてきています。監督たちは複雑な予想外の展開（どんでん返し）や非直線的なタイムラインを試みています。暗い劇場で映画を見るとき、家事などの気を散らすものなしに物語に完全に集中できます。それは、監督の芸術的なビジョンに真剣に注意を向けることを促すのです。" 
+                {
+                    name: "Person 2",
+                    eng: "For me, the cinematic experience is still very important, despite the convenience of streaming. Going to the movie theater is a special event. The massive screen, the surround sound system, and the shared excitement of the audience make blockbuster movies much more impactful. Action movies and science fiction films, in particular, rely heavily on computer-generated imagery (CGI) and special effects that you simply cannot fully appreciate on a small smartphone or tablet. Furthermore, storytelling in modern cinema has become highly sophisticated. Directors are experimenting with complex plot twists and non-linear timelines. When you watch a movie in a dark theater, you are completely focused on the narrative without any household distractions. It forces you to truly pay attention to the director's artistic vision.",
+                    jpn: "私にとって、ストリーミングの利便性にもかかわらず、映画館での体験は依然として非常に重要です。映画館に行くことは特別なイベントです。巨大なスクリーン、サラウンドサウンドシステム、そして観客と共有する興奮が、大作映画をはるかにインパクトのあるものにします。特にアクション映画やSF映画は、小さなスマートフォンやタブレットでは十分に堪能できないCG（コンピューター生成画像）や特殊効果に大きく依存しています。さらに、現代映画のストーリーテリングは非常に洗練されてきています。監督たちは複雑な予想外の展開（どんでん返し）や非直線的なタイムラインを試みています。暗い劇場で映画を見るとき、家事などの気を散らすものなしに物語に完全に集中できます。それは、監督の芸術的なビジョンに真剣に注意を向けることを促すのです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I am fascinated by how actors bring fictional characters to life. A brilliant lead actor can make a predictable story feel fresh and exciting. However, I often find that supporting actors are the ones who truly make a show memorable. They provide necessary comic relief or emotional depth to the main storyline. Beyond just entertainment, movies and TV shows have a massive social impact. They reflect our cultural values and can spark important conversations about real-world issues. Documentaries and historical dramas educate the public on topics they might never research independently. When a TV show becomes globally popular, it creates a shared cultural moment. People from different countries can connect and debate the character's choices online, proving that media is a powerful tool for global communication.", 
-                    jpn: "私は俳優がいかにして架空のキャラクターに命を吹き込むかに魅了されています。素晴らしい主演俳優は、予測可能なストーリーを新鮮でエキサイティングなものに感じさせることができます。しかし、番組を本当に記憶に残るものにしているのは助演俳優であることが多いと私はよく感じます。彼らはメインのストーリーラインに必要なコミカルな安らぎや感情的な深みを提供します。単なる娯楽を超えて、映画やテレビ番組は社会に多大な影響を与えます。それらは私たちの文化的価値観を反映し、現実世界の問題についての重要な会話のきっかけを作ることができます。ドキュメンタリーや歴史ドラマは、人々が自主的には決して調べないようなトピックについて大衆を教育します。テレビ番組が世界的に人気になると、それは共有される文化的な瞬間を作り出します。異なる国の人々がオンラインでつながり、キャラクターの選択について議論できることは、メディアがグローバルなコミュニケーションのための強力なツールであることを証明しています。" 
+                {
+                    name: "Person 3",
+                    eng: "I am fascinated by how actors bring fictional characters to life. A brilliant lead actor can make a predictable story feel fresh and exciting. However, I often find that supporting actors are the ones who truly make a show memorable. They provide necessary comic relief or emotional depth to the main storyline. Beyond just entertainment, movies and TV shows have a massive social impact. They reflect our cultural values and can spark important conversations about real-world issues. Documentaries and historical dramas educate the public on topics they might never research independently. When a TV show becomes globally popular, it creates a shared cultural moment. People from different countries can connect and debate the character's choices online, proving that media is a powerful tool for global communication.",
+                    jpn: "私は俳優がいかにして架空のキャラクターに命を吹き込むかに魅了されています。素晴らしい主演俳優は、予測可能なストーリーを新鮮でエキサイティングなものに感じさせることができます。しかし、番組を本当に記憶に残るものにしているのは助演俳優であることが多いと私はよく感じます。彼らはメインのストーリーラインに必要なコミカルな安らぎや感情的な深みを提供します。単なる娯楽を超えて、映画やテレビ番組は社会に多大な影響を与えます。それらは私たちの文化的価値観を反映し、現実世界の問題についての重要な会話のきっかけを作ることができます。ドキュメンタリーや歴史ドラマは、人々が自主的には決して調べないようなトピックについて大衆を教育します。テレビ番組が世界的に人気になると、それは共有される文化的な瞬間を作り出します。異なる国の人々がオンラインでつながり、キャラクターの選択について議論できることは、メディアがグローバルなコミュニケーションのための強力なツールであることを証明しています。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Viewing Habits 📖", themeJpn: "視聴習慣", sub: [{eng: "Binge-watching", jpn: "イッキ見"}, {eng: "Weekend routines", jpn: "週末のルーティン"}, {eng: "Screen time limits", jpn: "スクリーンタイムの制限"}] },
-            { theme: "Media Genres 📖", themeJpn: "メディアのジャンル", sub: [{eng: "Action and Sci-Fi", jpn: "アクションとSF"}, {eng: "Lighthearted comedy", jpn: "気軽なコメディ"}, {eng: "Documentaries", jpn: "ドキュメンタリー"}] },
-            { theme: "Cinema vs Streaming 📖", themeJpn: "映画館とストリーミング", sub: [{eng: "Surround sound", jpn: "サラウンドサウンド"}, {eng: "Convenience", jpn: "利便性"}, {eng: "Audience reactions", jpn: "観客の反応"}] },
-            { theme: "Storytelling 📖", themeJpn: "ストーリーテリング", sub: [{eng: "Plot twists", jpn: "予想外の展開"}, {eng: "Character development", jpn: "キャラクターの成長"}, {eng: "Visual effects", jpn: "視覚効果"}] },
-            { theme: "Acting 📖", themeJpn: "演技", sub: [{eng: "Lead roles", jpn: "主役"}, {eng: "Supporting cast", jpn: "助演キャスト"}, {eng: "Emotional depth", jpn: "感情的な深み"}] },
-            { theme: "Social Impact 📖", themeJpn: "社会的影響", sub: [{eng: "Cultural trends", jpn: "文化的なトレンド"}, {eng: "Global conversations", jpn: "グローバルな会話"}, {eng: "Educational value", jpn: "教育的価値"}] }
+            { theme: "Viewing Habits 📖", themeJpn: "視聴習慣", sub: [{ eng: "Binge-watching", jpn: "イッキ見" }, { eng: "Weekend routines", jpn: "週末のルーティン" }, { eng: "Screen time limits", jpn: "スクリーンタイムの制限" }] },
+            { theme: "Media Genres 📖", themeJpn: "メディアのジャンル", sub: [{ eng: "Action and Sci-Fi", jpn: "アクションとSF" }, { eng: "Lighthearted comedy", jpn: "気軽なコメディ" }, { eng: "Documentaries", jpn: "ドキュメンタリー" }] },
+            { theme: "Cinema vs Streaming 📖", themeJpn: "映画館とストリーミング", sub: [{ eng: "Surround sound", jpn: "サラウンドサウンド" }, { eng: "Convenience", jpn: "利便性" }, { eng: "Audience reactions", jpn: "観客の反応" }] },
+            { theme: "Storytelling 📖", themeJpn: "ストーリーテリング", sub: [{ eng: "Plot twists", jpn: "予想外の展開" }, { eng: "Character development", jpn: "キャラクターの成長" }, { eng: "Visual effects", jpn: "視覚効果" }] },
+            { theme: "Acting 📖", themeJpn: "演技", sub: [{ eng: "Lead roles", jpn: "主役" }, { eng: "Supporting cast", jpn: "助演キャスト" }, { eng: "Emotional depth", jpn: "感情的な深み" }] },
+            { theme: "Social Impact 📖", themeJpn: "社会的影響", sub: [{ eng: "Cultural trends", jpn: "文化的なトレンド" }, { eng: "Global conversations", jpn: "グローバルな会話" }, { eng: "Educational value", jpn: "教育的価値" }] }
         ],
         questions: [
             { eng: "1. How has streaming changed your weekly viewing habits?", jpn: "1. ストリーミングはあなたの毎週の視聴習慣をどのように変えましたか？" },
@@ -1002,15 +1002,27 @@ const b1Curriculum = [
                 { eng: "Suffer from", jpn: "〜に苦しむ", exEng: "The sequel suffered from a low budget.", exJpn: "その続編は低予算に苦しみました。" },
                 { eng: "Recover from", jpn: "〜から回復する", exEng: "The actor is recovering from a minor injury.", exJpn: "その俳優は軽傷から回復しつつあります。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Expressing a fairly significant degree - 4 sentences
+                { prompt: "それはかなり長い映画ですが、素晴らしいです。", target: "It is a fairly long movie, but it is excellent.", words: ["It", "is", "a", "fairly", "long", "movie,", "but", "it", "is", "excellent."] },
+                { prompt: "シーズンの最終回はかなり驚きでした。", target: "The season finale was pretty surprising.", words: ["The", "season", "finale", "was", "pretty", "surprising."] },
+                { prompt: "彼はかなり有名な主演俳優です。", target: "He is a rather famous lead actor.", words: ["He", "is", "a", "rather", "famous", "lead", "actor."] },
+                { prompt: "そのドキュメンタリーはかなり教育的でした。", target: "The documentary was quite educational.", words: ["The", "documentary", "was", "quite", "educational."] },
+                // Grammar Point 2: Expressing limits that have been exceeded (too + adj) - 4 sentences
+                { prompt: "その映画は怖すぎて一人では見られませんでした。", target: "The movie was too scary to watch alone.", words: ["The", "movie", "was", "too", "scary", "to", "watch", "alone."] },
+                { prompt: "新しいシリーズのイッキ見を始めるには遅すぎます。", target: "It is too late to start binge-watching a new series.", words: ["It", "is", "too", "late", "to", "start", "binge-watching", "a", "new", "series."] },
+                { prompt: "ストーリーが複雑すぎて理解できませんでした。", target: "The plot was too complicated to understand.", words: ["The", "plot", "was", "too", "complicated", "to", "understand."] },
+                { prompt: "その番組は長すぎて一晩では見切れませんでした。", target: "The show was too long to finish in one night.", words: ["The", "show", "was", "too", "long", "to", "finish", "in", "one", "night."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 8 - Timeline & Comparison Guide)",
+                instruction: "Read this comparison guide on how viewing habits have changed over time. Notice the degree adverbs and 'too + adjective' phrases.",
+                eng: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>📺 How Our Viewing Habits Changed: Then vs. Now</h3><p><strong>1990s — Scheduled TV &amp; Video Stores:</strong> In the past, viewers had to plan their evenings around fixed broadcast times. If you missed a show, you had to wait for a rerun or visit a local rental shop. Waiting a whole week for the next episode was fairly normal, and spoilers were much easier to avoid when people watched at different times.</p><p><strong>2010s — Early Streaming &amp; Binge-Watching:</strong> High-speed internet and streaming apps made it possible to watch several episodes in one sitting. Binge-watching quickly became a popular weekend habit. However, on the other hand, having thousands of titles on screen made choosing a film rather slow. Many viewers spent too much time scrolling through menus to pick just one movie.</p><p><strong>Today — Big Screens vs. Pocket Screens:</strong> Modern platforms let us watch shows on phones, tablets, or smart TVs anywhere. As a matter of fact, mobile viewing is convenient during a train ride. Yet for big action films or sci-fi blockbusters, a phone screen is simply too small to enjoy the special effects. Going to a movie theater remains a pretty exciting experience because the sound system and large screen pull you into the story.</p><p><strong>Supporting Cast &amp; Lasting Stories:</strong> Whether we watch on the tube at home or in a dark cinema, good stories depend on strong characters. Lead actors often get the attention, while supporting roles add humor and emotion. Furthermore, a great plot twist can make an ordinary evening memorable. In my view, finding a balance between quick streaming and focused watching helps us enjoy media without feeling tired.</p></div>",
+                jpn: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>📺 私たちの視聴習慣はどう変わったか：昔と今</h3><p><strong>1990年代 — 決まった時間のテレビとレンタル店：</strong> 昔、視聴者は決まった放送時間に合わせて夜の予定を立てる必要がありました。番組を見逃すと、再放送を待つか近くのレンタル店に行くしかありませんでした。次のエピソードまで1週間丸々待つのはかなり普通で、人々が違う時間に見ていたため、ネタバレを避けるのもずっと簡単でした。</p><p><strong>2010年代 — ストリーミング初期とイッキ見：</strong> 高速インターネットとストリーミングアプリにより、一度に複数のエピソードを見ることが可能になりました。イッキ見はすぐに人気の週末の習慣になりました。しかし、その一方で、画面上に何千もの作品があると、映画を選ぶのにかなり時間がかかりました。多くの視聴者が、たった1本の映画を選ぶためにメニューをスクロールしすぎて時間を浪費しました。</p><p><strong>現在 — 大画面対ポケット画面：</strong> 最新のプラットフォームのおかげで、どこにいてもスマホやタブレット、スマートTVで番組を見ることができます。実際のところ、電車の移動中にモバイルで視聴するのは便利です。それでも、大きなアクション映画やSF大作の場合、スマホの画面は特殊効果を楽しむには小さすぎます。音響システムと大画面が物語に引き込んでくれるため、映画館へ行くことはかなりワクワクする体験のままです。</p><p><strong>助演キャストと心に残る物語：</strong> 家でテレビを見るにしても、暗い映画館で見るにしても、良い物語は魅力的なキャラクターにかかっています。主演俳優が注目されがちですが、助演の役がユーモアや感情を加えます。さらに、素晴らしい予想外の展開は普通の夜を思い出深いものにしてくれます。私の見解では、気軽なストリーミングと集中した視聴のバランスをとることが、疲れを感じずにメディアを楽しむ助けになります。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you prefer watching movies at a cinema or streaming them at home? Use transitional expressions and adverbs of degree.",
                 promptJpn: "「映画館で映画を見るのと、家でストリーミングするのとでは、どちらが好きですか？トランジション表現と程度の副詞を使って答えてください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Evolution of Streaming Culture)",
-                instruction: "Read this authentic article to learn more about the impact of streaming services on modern media consumption.",
-                eng: "Over the past decade, the way we consume entertainment has undergone a massive transformation. Before high-speed internet became common, people relied on physical media like DVDs or scheduled television programming to watch their favorite shows. Today, streaming platforms dominate the market, offering thousands of hours of content at the push of a button. This shift has created the modern phenomenon of 'binge-watching,' where viewers consume multiple episodes of a series in a single sitting. For many, this is a fairly relaxing weekend activity, allowing them to completely immerse themselves in complex storylines.\n\nHowever, this convenience brings new challenges. With so much content available, some viewers suffer from decision fatigue. It can take a rather long time just to choose a movie, and frequently, people spend more time scrolling through options than actually watching a film. Furthermore, the traditional cinematic experience is facing severe competition. Theaters argue that small screens cannot replicate the immersive surround sound and massive visual scale that directors intend for their movies. For this reason, some filmmakers insist that their projects are too visually stunning to watch on a smartphone.\n\nDespite these debates, the social impact of streaming is undeniable. Global platforms can release a show in over a hundred countries simultaneously, creating a worldwide cultural event. People from diverse backgrounds can log online to discuss plot twists, praise lead actors, and share fan theories. As technology continues to evolve, the line between traditional cinema and home entertainment will blur even further, permanently changing the art of storytelling.",
-                jpn: "過去10年間で、私たちのエンターテインメントの消費方法は大規模な変革を遂げました。高速インターネットが普及する前、人々はお気に入りの番組を見るためにDVDのような物理メディアや予定されたテレビ番組に依存していました。今日では、ストリーミングプラットフォームが市場を支配し、ボタンを1つ押すだけで何千時間ものコンテンツを提供しています。この変化は「イッキ見（ビンジウォッチング）」という現代の現象を生み出し、視聴者は一度にシリーズの複数のエピソードを消費します。多くの人にとって、これはかなりリラックスできる週末の活動であり、複雑なストーリー展開に完全に没頭することができます。\n\nしかし、この利便性は新たな課題ももたらします。利用可能なコンテンツが多すぎるため、一部の視聴者は決定疲れに苦しんでいます。映画を選ぶだけでもかなり長い時間がかかり、実際に映画を見るよりも選択肢をスクロールするのに多くの時間を費やすことがよくあります。さらに、伝統的な映画館での体験は厳しい競争に直面しています。映画館側は、小さな画面では監督が映画に意図した没入感のあるサラウンドサウンドや巨大な視覚的スケールを再現できないと主張しています。このような理由から、一部の映画製作者は、自分たちのプロジェクトはスマートフォンで見るには視覚的に素晴らしすぎると強く主張しています。\n\nこれらの議論にもかかわらず、ストリーミングの社会的影響は否定できません。グローバルなプラットフォームは100カ国以上で同時に番組をリリースし、世界規模の文化イベントを作り出すことができます。多様な背景を持つ人々がオンラインにログインして、予想外の展開について議論し、主演俳優を称賛し、ファンの考察を共有することができます。テクノロジーが進化し続けるにつれて、伝統的な映画館と家庭用エンターテインメントの境界はさらに曖昧になり、ストーリーテリングの芸術を永久に変えていくでしょう。"
             }
         }
     },
@@ -1061,46 +1073,38 @@ const b1Curriculum = [
             { eng: "Thank for the recommendation", jpn: "推薦に感謝する", indent: false }
         ],
         expressions: [
-            { category: "1. Recommending a show (番組を推薦する)", options: ["I highly recommend this series.", "You should really check out this movie.", "It is an absolute must-see."] },           
-            { category: "2. Asking for a summary (あらすじを尋ねる)", options: ["What is the general plot about?", "Can you give me a brief synopsis?", "What happens in the story?"] }, 
-            { category: "3. Giving a synopsis (あらすじを説明する)", options: ["It is set in the future and follows explorers.", "The story focuses on a complex mystery.", "It is about a detective who solves crimes."] },
-            { category: "4. Expressing hesitation (ためらいを表現する)", options: ["I'm a little hesitant because I don't have time.", "I have mixed feelings about that genre.", "I'm not sure if it's worth watching."] },
-            { category: "5. Agreeing to watch (見ることに同意する)", options: ["I will give it a shot this weekend.", "I might watch the first episode tonight.", "Alright, you convinced me to try it."] },
-            { category: "6. Thanking for recommendation (推薦に感謝する)", options: ["Thanks for the recommendation.", "I appreciate the suggestion.", "Thanks, I was looking for something new."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Pronouns: Grouping things (something/nothing + adjective)",
-                explanation: "When you use indefinite pronouns (something, anything, nothing, everything, someone), place the adjective directly AFTER the pronoun, not before it.",
-                explanationJpn: "不定代名詞（something, anything, nothing, everything, someone）を使用する場合、形容詞は代名詞の前ののではなく、直後に置きます。",
-                examples: [
-                    { eng: "I am looking for something exciting to watch.", jpn: "何かエキサイティングな見るものを探しています。" },
-                    { eng: "There is nothing boring in the first season.", jpn: "第1シーズンには退屈なものは何もありません。" }
+                category: "1. Recommending a show (番組を推薦する)",
+                options: [
+                    { eng: "I highly recommend this series.", jpn: "このシリーズを強くお勧めします。" },
+                    { eng: "You should really check out this movie.", jpn: "この映画をぜひチェックしてみてください。" },
+                    { eng: "It is an absolute must-see.", jpn: "絶対に必見の作品です。" }
                 ]
             },
             {
-                point: "2. Adjectives: Expressing multiple good/bad points 1 (adj and adj)",
-                explanation: "When describing a media piece, you can link two adjectives with 'and'. Usually, you group positive adjectives together or negative adjectives together to create a smooth rhythm.",
-                explanationJpn: "メディア作品を説明する際、「and」で2つの形容詞をつなぐことができます。通常、スムーズなリズムを作るために、肯定的な形容詞同士、または否定的な形容詞同士をまとめます。",
-                examples: [
-                    { eng: "The movie is dark and beautiful.", jpn: "その映画は暗くて美しいです。" },
-                    { eng: "The plot was slow and confusing.", jpn: "ストーリーの展開は遅くて混乱するものでした。" }
+                category: "2. Asking for a synopsis (あらすじを尋ねる)",
+                options: [
+                    { eng: "What is the general plot about?", jpn: "全体的なあらすじは何ですか？" },
+                    { eng: "Can you give me a brief synopsis?", jpn: "簡単なあらすじを教えていただけますか？" },
+                    { eng: "What happens in the story?", jpn: "物語では何が起こるのですか？" }
+                ]
+            },
+            {
+                category: "3. Expressing hesitation (ためらいを表現する)",
+                options: [
+                    { eng: "I'm a little hesitant because I don't have time.", jpn: "時間がないので少し躊躇しています。" },
+                    { eng: "I have mixed feelings about that genre.", jpn: "そのジャンルについては複雑な気持ちがあります。" },
+                    { eng: "I'm not sure if it's worth watching.", jpn: "見る価値があるかどうか分かりません。" }
+                ]
+            },
+            {
+                category: "4. Agreeing to watch (見ることに同意する)",
+                options: [
+                    { eng: "I will give it a shot this weekend.", jpn: "今週末に試してみます。" },
+                    { eng: "I might watch the first episode tonight.", jpn: "今夜、第1話を見てみるかもしれません。" },
+                    { eng: "Alright, you convinced me to try it.", jpn: "わかりました、試してみる気になりましたよ。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "何か新しい見るものを探しています。", target: "I am looking for something new to watch.", words: ["I", "am", "looking", "for", "something", "new", "to", "watch."] },
-            { prompt: "その映画は長くて退屈でした。", target: "The movie was long and boring.", words: ["The", "movie", "was", "long", "and", "boring."] },
-            { prompt: "第1話には面白いものは何もありません。", target: "There is nothing interesting in the first episode.", words: ["There", "is", "nothing", "interesting", "in", "the", "first", "episode."] },
-            { prompt: "全体的なあらすじは何ですか？", target: "What is the general plot about?", words: ["What", "is", "the", "general", "plot", "about?"] },
-            { prompt: "今週末に試してみます（見てみます）。", target: "I will give it a shot this weekend.", words: ["I", "will", "give", "it", "a", "shot", "this", "weekend."] }
-        ],
-        dropdownGames: [
-            { before: "I am looking for", options: ["exciting something", "something exciting", "anything exciting"], answer: "something exciting", after: " on Netflix." },
-            { before: "The story is completely", options: ["thrilling and smart", "thrill and smartly", "thrilled and smart"], answer: "thrilling and smart", after: "." },
-            { before: "I highly", options: ["recommend", "recommendation", "recommended"], answer: "recommend", after: " the new documentary." },
-            { before: "Can you give me a brief", options: ["synopsis", "symphony", "sympathy"], answer: "synopsis", after: " of the film?" },
-            { before: "I have", options: ["mixed", "mix", "mixing"], answer: "mixed", after: " feelings about that genre." }
         ],
         roleplay: {
             a: "You loved a recent movie and want to recommend it. Give a brief synopsis and reassure your partner when they express hesitation. Use 'something + adjective' (e.g., something exciting). <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(最近見た映画が大好きで、それをお勧めしたいと思っています。簡単なあらすじを説明し、相手がためらいを示したら安心させてください。「something + 形容詞」を使ってください。)</span>",
@@ -1127,15 +1131,27 @@ const b1Curriculum = [
                 { eng: "Find out", jpn: "見つけ出す", exEng: "I can't wait to find out what happens next.", exJpn: "次に何が起こるか見つけ出す（知る）のが待ちきれません。" },
                 { eng: "Point out", jpn: "指摘する", exEng: "The reviewer pointed out several plot holes.", exJpn: "レビューアーはいくつかの設定の矛盾を指摘しました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Grouping things (something/nothing + adjective) - 4 sentences
+                { prompt: "何か新しい見るものを探しています。", target: "I am looking for something new to watch.", words: ["I", "am", "looking", "for", "something", "new", "to", "watch."] },
+                { prompt: "第1シーズンには退屈なものは何もありません。", target: "There is nothing boring in the first season.", words: ["There", "is", "nothing", "boring", "in", "the", "first", "season."] },
+                { prompt: "何かエキサイティングな番組を見たいです。", target: "I want to watch something exciting.", words: ["I", "want", "to", "watch", "something", "exciting."] },
+                { prompt: "そのエピソードには予測不可能なものは何もありませんでした。", target: "There was nothing unpredictable in that episode.", words: ["There", "was", "nothing", "unpredictable", "in", "that", "episode."] },
+                // Grammar Point 2: Multiple good/bad points 1 (adj and adj) - 4 sentences
+                { prompt: "その映画は暗くて美しいです。", target: "The movie is dark and beautiful.", words: ["The", "movie", "is", "dark", "and", "beautiful."] },
+                { prompt: "ストーリーの展開は遅くて混乱するものでした。", target: "The plot was slow and confusing.", words: ["The", "plot", "was", "slow", "and", "confusing."] },
+                { prompt: "そのシリーズはスリリングでスマートです。", target: "The series is thrilling and smart.", words: ["The", "series", "is", "thrilling", "and", "smart."] },
+                { prompt: "結末は感情的で忘れられないものでした。", target: "The ending was emotional and unforgettable.", words: ["The", "ending", "was", "emotional", "and", "unforgettable."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 9 - Split Cards & Quick Pitch)",
+                instruction: "Read these quick show pitches from coworkers. Notice how they give a synopsis and respond to hesitation without spoilers.",
+                eng: "<div class='er-template er-layout-9'><div class='er-card'><h4>🚀 Pitch 1: 'Orbit' (Sci-Fi Mystery)</h4><p>If you want something smart and exciting after work, this show is worth watching. It is set on a deep-space station where two scientists lose contact with Earth. There is nothing slow or confusing in the first three episodes, and every twist keeps you guessing. Even if you have mixed feelings about space dramas, it is a great show to give a shot.</p></div><div class='er-card'><h4>🕵️ Pitch 2: 'Night Shift' (Detective Series)</h4><p>A coworker told me they felt hesitant about starting a long crime series, so I gave a brief synopsis first. It follows a quiet night-shift detective who solves small local cases. The tone is calm and clever rather than loud or violent. I highly recommend watching just one episode tonight to see if it catches your attention—it is definitely not a waste of time.</p></div><div class='er-card'><h4>🎭 Pitch 3: 'The Bakery Road' (Light Comedy)</h4><p>When you are tired and do not want anything heavy, comedy is a smart choice. This series is set in a small neighborhood bakery where two rival chefs have to work together. The humor is warm and funny, and there is nothing boring about the kitchen scenes. It is an easy must-see if you need a good laugh before bed.</p></div></div>",
+                jpn: "<div class='er-template er-layout-9'><div class='er-card'><h4>🚀 紹介1：『Orbit』（SFミステリー）</h4><p>仕事後に何かスマートでエキサイティングなものを見たいなら、この番組は見る価値があります。2人の科学者が地球との連絡を絶つ深宇宙ステーションが舞台です。最初の3話には遅い展開や分かりにくいものはなく、毎回のどんでん返しがハラハラさせます。宇宙ドラマに複雑な気持ちがあっても、試してみるのに良い作品です。</p></div><div class='er-card'><h4>🕵️ 紹介2：『Night Shift』（刑事シリーズ）</h4><p>長い犯罪シリーズを始めるのをためらっていると同僚に言われたので、まず簡単なあらすじを伝えました。小さな地域の事件を解決する物静かな夜勤刑事を描いています。派手さや暴力性よりも、落ち着いていて知的なトーンです。注意を引かれるかどうか、今夜1話だけ見ることを強くお勧めします。時間の無駄には絶対になりません。</p></div><div class='er-card'><h4>🎭 紹介3：『The Bakery Road』（ライトコメディ）</h4><p>疲れていて重いものを見たくないとき、コメディは賢い選択です。ライバルのシェフ2人が一緒に働かなければならない小さな町のパン屋が舞台のシリーズです。ユーモアは温かくて面白く、キッチンのシーンに退屈な要素はありません。寝る前に思いっきり笑いたいなら、手軽に見られる必見作です。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph recommending your favorite TV show or movie. Include a brief synopsis and explain why it is worth watching.",
                 promptJpn: "「あなたのお気に入りのテレビ番組や映画を推薦する短い段落を書いてください。簡単なあらすじを含め、なぜ見る価値があるのかを説明してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Art of the Review)",
-                instruction: "Read this authentic text about how to evaluate media professionally.",
-                eng: "Recommending a television series or a movie to a colleague can be an excellent way to build rapport in the workplace. When engaging in small talk, sharing media preferences is a universally safe and engaging topic. However, giving a good recommendation requires more than simply saying, 'It was good.' To truly capture someone's attention, you must be able to deliver a brief but compelling synopsis without revealing any major spoilers.\n\nA strong review usually starts by stating the genre and the setting. For example, mentioning that a story is set in a dystopian future immediately helps the listener visualize the atmosphere. Next, the reviewer should group things conceptually—highlighting something unique or something exciting about the plot. Using clear, paired adjectives like 'fast and thrilling' or 'smart and emotional' gives the listener a strong sense of the pacing and tone. It is also completely acceptable to have mixed feelings. Honest reviews that mention both the strengths and weaknesses of a show are often more trusted than overly positive hype.\n\nWhen a colleague expresses hesitation, perhaps because they lack free time, a polite approach is to suggest giving it a shot for just one episode. Media connects us by providing shared narratives, and by mastering the art of the brief recommendation, you can effortlessly maintain friendly, dynamic conversations with your peers.",
-                jpn: "同僚にテレビシリーズや映画を勧めることは、職場で信頼関係を築くための素晴らしい方法になり得ます。雑談をする際、メディアの好みを共有することは、普遍的に安全で魅力的な話題です。しかし、良い推薦をするには、単に「良かった」と言う以上のことが求められます。誰かの注意を本当に引きつけるには、大きなネタバレを明かすことなく、短くても説得力のあるあらすじを伝えることができなければなりません。\n\n強力なレビューは通常、ジャンルと舞台を述べることから始まります。例えば、物語がディストピアの未来を舞台にしていると述べることで、聞き手はすぐにその雰囲気を視覚化しやすくなります。次に、レビューする人は概念的に物事をグループ化し、プロットについて何かユニークなこと、あるいは何かエキサイティングなことを強調するべきです。「速くてスリリング」や「スマートで感情的」のような明確なペアの形容詞を使うことで、聞き手にテンポとトーンの強い感覚を与えます。複雑な感情を抱くことも完全に受け入れられます。番組の長所と短所の両方に言及する正直なレビューは、過度に肯定的な誇大宣伝よりも信頼されることがよくあります。\n\n同僚が、おそらく自由時間がないためにためらいを示したとき、礼儀正しいアプローチは、1エピソードだけでも試してみることを提案することです。メディアは共有された物語を提供することで私たちを結びつけます。短い推薦の技術を習得することで、あなたは同僚との友好的でダイナミックな会話を楽に維持することができるのです。"
             }
         }
     },
@@ -1149,30 +1165,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "I subscribe to several streaming platforms because my family has very different tastes in movies. My husband loves action movies, my kids watch animated series, and I prefer historical dramas. However, managing all these subscriptions has become quite expensive recently. Every few months, the prices seem to increase. Some of my friends have started sharing passwords to save money, but the streaming companies are making that much harder now. I think it is frustrating that we cannot find all the content we want on a single platform. Sometimes, I consider canceling a few of them and going back to reading books instead.", 
-                    jpn: "私の家族は映画の好みが全く違うので、私はいくつかのストリーミングプラットフォームに登録しています。夫はアクション映画が大好きで、子供たちはアニメシリーズを見て、私は歴史ドラマを好みます。しかし、これらすべてのサブスクリプションを管理することは、最近かなり高額になっています。数ヶ月ごとに価格が上がっているように思えます。私の友人の何人かはお金を節約するためにパスワードを共有し始めましたが、ストリーミング企業は今、それをはるかに難しくしています。見たいコンテンツがすべて1つのプラットフォームで見つからないのは不満だと思います。時々、そのうちのいくつかを解約して、代わりに本を読むことに戻ろうかと考えることがあります。" 
+                {
+                    name: "Person 1",
+                    eng: "I subscribe to several streaming platforms because my family has very different tastes in movies. My husband loves action movies, my kids watch animated series, and I prefer historical dramas. However, managing all these subscriptions has become quite expensive recently. Every few months, the prices seem to increase. Some of my friends have started sharing passwords to save money, but the streaming companies are making that much harder now. I think it is frustrating that we cannot find all the content we want on a single platform. Sometimes, I consider canceling a few of them and going back to reading books instead.",
+                    jpn: "私の家族は映画の好みが全く違うので、私はいくつかのストリーミングプラットフォームに登録しています。夫はアクション映画が大好きで、子供たちはアニメシリーズを見て、私は歴史ドラマを好みます。しかし、これらすべてのサブスクリプションを管理することは、最近かなり高額になっています。数ヶ月ごとに価格が上がっているように思えます。私の友人の何人かはお金を節約するためにパスワードを共有し始めましたが、ストリーミング企業は今、それをはるかに難しくしています。見たいコンテンツがすべて1つのプラットフォームで見つからないのは不満だと思います。時々、そのうちのいくつかを解約して、代わりに本を読むことに戻ろうかと考えることがあります。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "The problem with having too many streaming options is choice overload. When I log in after work, I spend twenty minutes just scrolling through menus trying to find something interesting. Both of the major platforms recommend shows based on algorithms, but they often suggest things I have no interest in. It feels like the market is flooded with average content instead of high-quality masterpieces. Because of this, I rely heavily on recommendations from my colleagues and social media reviews. If a show generates enough hype, I will give it a shot, but I rarely browse randomly anymore. I genuinely miss the simplicity of traditional television schedules where the choices were limited.", 
-                    jpn: "ストリーミングの選択肢が多すぎる問題は、選択の過多です。仕事の後にログインすると、何か面白いものを見つけようとしてメニューをスクロールするだけで20分も費やしてしまいます。主要なプラットフォームはどちらもアルゴリズムに基づいて番組を推薦してきますが、私が全く興味のないものを提案してくることがよくあります。高品質な傑作の代わりに、市場が平均的なコンテンツで溢れかえっているように感じます。このため、私は同僚からの推薦やソーシャルメディアのレビューに大きく依存しています。もし番組が十分な話題を呼べば試してみますが、もうランダムにブラウジングすることはめったにありません。選択肢が限られていた伝統的なテレビのスケジュールのシンプルさが純粋に恋しいです。" 
+                {
+                    name: "Person 2",
+                    eng: "The problem with having too many streaming options is choice overload. When I log in after work, I spend twenty minutes just scrolling through menus trying to find something interesting. Both of the major platforms recommend shows based on algorithms, but they often suggest things I have no interest in. It feels like the market is flooded with average content instead of high-quality masterpieces. Because of this, I rely heavily on recommendations from my colleagues and social media reviews. If a show generates enough hype, I will give it a shot, but I rarely browse randomly anymore. I genuinely miss the simplicity of traditional television schedules where the choices were limited.",
+                    jpn: "ストリーミングの選択肢が多すぎる問題は、選択の過多です。仕事の後にログインすると、何か面白いものを見つけようとしてメニューをスクロールするだけで20分も費やしてしまいます。主要なプラットフォームはどちらもアルゴリズムに基づいて番組を推薦してきますが、私が全く興味のないものを提案してくることがよくあります。高品質な傑作の代わりに、市場が平均的なコンテンツで溢れかえっているように感じます。このため、私は同僚からの推薦やソーシャルメディアのレビューに大きく依存しています。もし番組が十分な話題を呼べば試してみますが、もうランダムにブラウジングすることはめったにありません。選択肢が限られていた伝統的なテレビのスケジュールのシンプルさが純粋に恋しいです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I believe the current subscription model is great for independent filmmakers and niche genres. In the past, television networks only produced shows that appealed to a massive audience. Now, streaming platforms invest heavily in diverse stories, international cinema, and unique documentaries. Even if only a few of the subscribers watch a specific Korean drama or a French film, the platform still considers it valuable. This global approach has dramatically improved the quality and variety of storytelling. While managing multiple subscriptions is annoying, I am happy to pay for access to art from all over the world. It is a fantastic era for creative professionals and global audiences alike.", 
-                    jpn: "現在のサブスクリプションモデルは、独立系の映画製作者やニッチなジャンルにとって素晴らしいものだと私は信じています。過去には、テレビネットワークは大規模な視聴者にアピールする番組しか制作しませんでした。現在、ストリーミングプラットフォームは、多様な物語、国際的な映画、ユニークなドキュメンタリーに多額の投資をしています。たとえ少数の加入者しか特定の韓国ドラマやフランス映画を見なくても、プラットフォームはそれを価値あるものと見なします。このグローバルなアプローチは、ストーリーテリングの質と多様性を劇的に向上させました。複数のサブスクリプションを管理するのは面倒ですが、世界中の芸術にアクセスするためにお金を払うことには満足しています。クリエイティブな専門家にとっても、グローバルな視聴者にとっても、素晴らしい時代です。" 
+                {
+                    name: "Person 3",
+                    eng: "I believe the current subscription model is great for independent filmmakers and niche genres. In the past, television networks only produced shows that appealed to a massive audience. Now, streaming platforms invest heavily in diverse stories, international cinema, and unique documentaries. Even if only a few of the subscribers watch a specific Korean drama or a French film, the platform still considers it valuable. This global approach has dramatically improved the quality and variety of storytelling. While managing multiple subscriptions is annoying, I am happy to pay for access to art from all over the world. It is a fantastic era for creative professionals and global audiences alike.",
+                    jpn: "現在のサブスクリプションモデルは、独立系の映画製作者やニッチなジャンルにとって素晴らしいものだと私は信じています。過去には、テレビネットワークは大規模な視聴者にアピールする番組しか制作しませんでした。現在、ストリーミングプラットフォームは、多様な物語、国際的な映画、ユニークなドキュメンタリーに多額の投資をしています。たとえ少数の加入者しか特定の韓国ドラマやフランス映画を見なくても、プラットフォームはそれを価値あるものと見なします。このグローバルなアプローチは、ストーリーテリングの質と多様性を劇的に向上させました。複数のサブスクリプションを管理するのは面倒ですが、世界中の芸術にアクセスするためにお金を払うことには満足しています。クリエイティブな専門家にとっても、グローバルな視聴者にとっても、素晴らしい時代です。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Subscription Costs 📖", themeJpn: "サブスクリプションの費用", sub: [{eng: "Monthly budgets", jpn: "毎月の予算"}, {eng: "Price increases", jpn: "価格の引き上げ"}, {eng: "Password sharing", jpn: "パスワードの共有"}] },
-            { theme: "Content Overload 📖", themeJpn: "コンテンツの過多", sub: [{eng: "Choice fatigue", jpn: "選択の疲れ"}, {eng: "Scrolling time", jpn: "スクロールする時間"}, {eng: "Algorithm recommendations", jpn: "アルゴリズムの推薦"}] },
-            { theme: "Quality vs Quantity 📖", themeJpn: "質対量", sub: [{eng: "Masterpieces", jpn: "傑作"}, {eng: "Average content", jpn: "平均的なコンテンツ"}, {eng: "Niche genres", jpn: "ニッチなジャンル"}] },
-            { theme: "Global Access 📖", themeJpn: "グローバルなアクセス", sub: [{eng: "International films", jpn: "国際的な映画"}, {eng: "Diverse stories", jpn: "多様な物語"}, {eng: "Subtitles vs dubbing", jpn: "字幕対吹き替え"}] },
-            { theme: "Recommendations 📖", themeJpn: "推薦", sub: [{eng: "Word of mouth", jpn: "口コミ"}, {eng: "Social media hype", jpn: "ソーシャルメディアの話題"}, {eng: "Critic reviews", jpn: "評論家のレビュー"}] },
-            { theme: "Traditional TV 📖", themeJpn: "伝統的なテレビ", sub: [{eng: "Scheduled programming", jpn: "予定された番組"}, {eng: "Commercials", jpn: "CM / 広告"}, {eng: "Live events", jpn: "ライブイベント"}] }
+            { theme: "Subscription Costs 📖", themeJpn: "サブスクリプションの費用", sub: [{ eng: "Monthly budgets", jpn: "毎月の予算" }, { eng: "Price increases", jpn: "価格の引き上げ" }, { eng: "Password sharing", jpn: "パスワードの共有" }] },
+            { theme: "Content Overload 📖", themeJpn: "コンテンツの過多", sub: [{ eng: "Choice fatigue", jpn: "選択の疲れ" }, { eng: "Scrolling time", jpn: "スクロールする時間" }, { eng: "Algorithm recommendations", jpn: "アルゴリズムの推薦" }] },
+            { theme: "Quality vs Quantity 📖", themeJpn: "質対量", sub: [{ eng: "Masterpieces", jpn: "傑作" }, { eng: "Average content", jpn: "平均的なコンテンツ" }, { eng: "Niche genres", jpn: "ニッチなジャンル" }] },
+            { theme: "Global Access 📖", themeJpn: "グローバルなアクセス", sub: [{ eng: "International films", jpn: "国際的な映画" }, { eng: "Diverse stories", jpn: "多様な物語" }, { eng: "Subtitles vs dubbing", jpn: "字幕対吹き替え" }] },
+            { theme: "Recommendations 📖", themeJpn: "推薦", sub: [{ eng: "Word of mouth", jpn: "口コミ" }, { eng: "Social media hype", jpn: "ソーシャルメディアの話題" }, { eng: "Critic reviews", jpn: "評論家のレビュー" }] },
+            { theme: "Traditional TV 📖", themeJpn: "伝統的なテレビ", sub: [{ eng: "Scheduled programming", jpn: "予定された番組" }, { eng: "Commercials", jpn: "CM / 広告" }, { eng: "Live events", jpn: "ライブイベント" }] }
         ],
         questions: [
             { eng: "1. How many streaming subscriptions do you currently pay for?", jpn: "1. 現在いくつのストリーミングサブスクリプションにお金を払っていますか？" },
@@ -1248,20 +1264,31 @@ const b1Curriculum = [
                 { eng: "Pay for", jpn: "〜の代金を支払う", exEng: "I don't want to pay for a service I rarely use.", exJpn: "めったに使わないサービスの代金を支払いたくありません。" },
                 { eng: "Subscribe to", jpn: "〜を定期購読する / 登録する", exEng: "She subscribes to three different music platforms.", exJpn: "彼女は3つの異なる音楽プラットフォームに登録しています。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Expressing 2/2 things (both of) - 4 sentences
+                { prompt: "主要なプラットフォームはどちらもアルゴリズムに基づいて番組を推薦します。", target: "Both of the major platforms recommend shows based on algorithms.", words: ["Both", "of", "the", "major", "platforms", "recommend", "shows", "based", "on", "algorithms."] },
+                { prompt: "私は2つの映画を見ましたが、両方ともひどかったです。", target: "I watched two movies, and both of them were terrible.", words: ["I", "watched", "two", "movies,", "and", "both", "of", "them", "were", "terrible."] },
+                { prompt: "両方のサービスが最近月額料金を値上げしました。", target: "Both of the services raised their monthly fees recently.", words: ["Both", "of", "the", "services", "raised", "their", "monthly", "fees", "recently."] },
+                { prompt: "私は両方のドキュメンタリーを見ましたが、どちらも考えさせられるものでした。", target: "I saw both of the documentaries, and both were thought-provoking.", words: ["I", "saw", "both", "of", "the", "documentaries,", "and", "both", "were", "thought-provoking."] },
+                // Grammar Point 2: Expressing a small number (some of / a few of) - 4 sentences
+                { prompt: "私の友人の何人かはお金を節約するためにパスワードを共有しています。", target: "Some of my friends share passwords to save money.", words: ["Some", "of", "my", "friends", "share", "passwords", "to", "save", "money."] },
+                { prompt: "私はサブスクリプションのうちのいくつかを解約しようかと考えています。", target: "I am considering canceling a few of my subscriptions.", words: ["I", "am", "considering", "canceling", "a", "few", "of", "my", "subscriptions."] },
+                { prompt: "一部のユーザーは選択の疲れを経験しています。", target: "Some of the users experience choice fatigue.", words: ["Some", "of", "the", "users", "experience", "choice", "fatigue."] },
+                { prompt: "海外のドラマのうちのいくつかは素晴らしいです。", target: "A few of the international shows are incredible.", words: ["A", "few", "of", "the", "international", "shows", "are", "incredible."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 10 - Feature Box & Pros/Cons Breakdown)",
+                instruction: "Read this breakdown of streaming subscription habits and notice how pronouns like 'both of', 'some of', and 'a few of' are used.",
+                eng: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>💡 Streaming Subscriptions: What Are Viewers Doing Now?</h3><p>Many households pay for more than one streaming service today. For instance, one person might want sports while another prefers dramas or comedies. Both of the biggest streaming services in our survey recently raised prices, which made viewers look closer at their monthly budgets. Even if prices go up, some of the subscribers stay because they enjoy watching new series with friends.</p><p><strong>👍 Benefits for Viewers &amp; Creators:</strong> Streaming gives people access to international films and niche shows that traditional TV rarely aired. A few of my coworkers love reading subtitles to watch foreign series, and they say it helps them learn about other cultures. Creators and viewers alike enjoy having more choices without waiting for a weekly schedule.</p><p><strong>👎 Drawbacks to Watch Out For:</strong> Due to choice overload, people often spend twenty minutes scrolling through menus before they pick anything. Some of the users suffer from subscription fatigue and end up paying for services they rarely open. Because of this, a few of my friends plan to cancel an extra account and focus on one or two platforms instead.</p></div></div>",
+                jpn: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>💡 ストリーミングのサブスクリプション：視聴者は今どうしている？</h3><p>今日、多くの家庭が複数のストリーミングサービスにお金を払っています。例えば、スポーツを見たい人がいる一方で、ドラマやコメディを好む人もいます。私たちの調査で最大手のストリーミングサービス2社はどちらも最近値上げを行い、視聴者に毎月の予算をより注意深く見直させました。たとえ価格が上がっても、友人と一緒に新しいシリーズを見るのを楽しめるため、加入者の何人かは継続しています。</p><p><strong>👍 視聴者とクリエイターにとってのメリット：</strong> ストリーミングによって、従来のテレビではめったに放送されなかった国際映画やニッチな番組に人々がアクセスできるようになりました。私の同僚のうち数人は、字幕を読んで外国のシリーズを見るのが大好きで、他の文化について学ぶ助けになると言っています。クリエイターも視聴者も同様に、週ごとのスケジュールを待たずに多くの選択肢を楽しめることを喜んでいます。</p><p><strong>👎 注意すべきデメリット：</strong> 選択の過多により、何かを選ぶ前にメニューをスクロールするだけで20分費やすことがよくあります。ユーザーの一部はサブスクリプション疲れに苦しみ、結局めったに開かないサービスにお金を払い続けています。このため、私の友人のうち数人は追加のアカウントを解約し、代わりに1つか2つのプラットフォームに絞る予定を立てています。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think the current streaming subscription model is too expensive? Use pronouns like 'some of' or 'both of' in your answer.",
                 promptJpn: "「現在のストリーミングのサブスクリプションモデルは高額すぎると考えますか？『some of』や『both of』のような代名詞を使って答えてください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Subscription Economy)",
-                instruction: "Read this authentic text about the business model behind streaming media.",
-                eng: "The entertainment industry operates on a fundamentally different business model today than it did twenty years ago. The rise of the 'subscription economy' has transformed how consumers interact with media companies. Instead of purchasing individual movies or paying for expensive cable packages, customers now pay small, recurring monthly fees to access vast libraries of digital content. On the surface, this model seems incredibly beneficial for consumers, offering unlimited viewing for a fraction of traditional costs. However, as the market becomes saturated with competitors, the reality is becoming much more complicated.\n\nToday, major studios are removing their content from shared platforms to launch their own exclusive streaming services. For instance, a family wanting to watch sports, animated movies, and serious dramas might need to subscribe to three or four different platforms. Both of the leading streaming giants have recently increased their prices, arguing that producing high-quality original content requires massive investments. Consequently, a few of these users are experiencing 'subscription fatigue.' Managing multiple accounts, remembering passwords, and paying several bills each month is causing frustration among consumers who originally just wanted a cheaper alternative to cable TV.\n\nDespite these financial complaints, the subscription model has democratized global content. Shows produced in non-English speaking countries are now reaching massive international audiences. The algorithms used by these platforms, while sometimes annoying, successfully introduce viewers to niche genres they would never have discovered otherwise. Ultimately, the industry will likely see a period of consolidation, where smaller platforms merge to survive, but the convenience of on-demand streaming is undoubtedly here to stay.",
-                jpn: "エンターテインメント業界は今日、20年前とは根本的に異なるビジネスモデルで運営されています。「サブスクリプション経済」の台頭により、消費者がメディア企業と関わる方法が一変しました。個々の映画を購入したり、高額なケーブルテレビのパッケージに支払ったりする代わりに、顧客は今、膨大なデジタルコンテンツのライブラリにアクセスするために少額の定期的な月額料金を支払っています。表面上、このモデルは消費者にとって信じられないほど有益に見え、従来のコストのほんの一部で無制限の視聴を提供します。しかし、市場が競争相手で飽和状態になるにつれて、現実ははるかに複雑になってきています。\n\n今日、主要なスタジオは共有プラットフォームから自社のコンテンツを撤退させ、独自の独占的なストリーミングサービスを立ち上げています。例えば、スポーツ、アニメ映画、シリアスなドラマを見たい家族は、3つか4つの異なるプラットフォームに登録する必要があるかもしれません。ストリーミングの大手2社はどちらも最近、高品質なオリジナルコンテンツを制作するには多額の投資が必要だと主張して、価格を引き上げました。その結果、これらのユーザーの何人かは「サブスクリプション疲れ」を経験しています。複数のアカウントを管理し、パスワードを覚え、毎月いくつもの請求書を支払うことは、元々はケーブルテレビよりも安い代替手段を望んでいただけの消費者の間で不満を引き起こしています。\n\nこれらの財政的な不満にもかかわらず、サブスクリプションモデルはグローバルなコンテンツを民主化しました。英語圏以外の国で制作された番組が、今や大規模な国際的視聴者に届いています。これらのプラットフォームが使用するアルゴリズムは、時として鬱陶しいものの、視聴者が他では決して発見できなかったであろうニッチなジャンルに出会うことに成功しています。最終的に、業界は小規模なプラットフォームが生き残るために合併する統合の時期を迎える可能性が高いですが、オンデマンドストリーミングの利便性が今後も確実に残っていくことは間違いありません。"
             }
         }
     },
-
-{
+    {
         id: 11,
         chapter: "Chapter 2: Movies & TV Shows",
         type: "transactional",
@@ -1308,46 +1335,38 @@ const b1Curriculum = [
             { eng: "Confirm plans", jpn: "計画を確定させる", indent: false }
         ],
         expressions: [
-            { category: "1. Asking about plans (予定を尋ねる)", options: ["Are you doing anything special this weekend?", "Do you have any plans for Friday night?", "Are you free this coming Saturday?"] },           
-            { category: "2. Inviting to a movie (映画に誘う)", options: ["Would you be interested in catching a movie?", "Do you want to go to the cinema?", "How about seeing a film together?"] }, 
-            { category: "3. Asking what's playing (上映中のものを尋ねる)", options: ["What is playing right now?", "What's showing at the theater?", "Do you know what movies are out?"] },
-            { category: "4. Expressing indifference (どちらでもいいと表現する)", options: ["We can watch either.", "Either option is fine with me.", "I don't mind either way."] },
-            { category: "5. Stating a preference (好みを述べる)", options: ["I would prefer to watch the comedy.", "I'd rather see the action movie.", "I lean towards the documentary."] },
-            { category: "6. Making a suggestion (提案する)", options: ["Shall we grab a bite to eat beforehand?", "Why don't we get dinner first?", "Let's meet up for coffee before the show."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Pronouns: Expressing 1/2 things (either)",
-                explanation: "We can use 'either' to express a choice between two options. It can mean 'one or the other' and is often used to show you are happy with both choices.",
-                explanationJpn: "「either」を使って2つの選択肢からの選択を表現できます。「どちらか一方」という意味で、両方の選択肢に満足していることを示すためによく使われます。",
-                examples: [
-                    { eng: "We can watch either.", jpn: "どちらでも見られますよ。" },
-                    { eng: "Either movie is fine with me.", jpn: "どちらの映画でも私は構いません。" }
+                category: "1. Inviting to a movie (映画に誘う)",
+                options: [
+                    { eng: "Would you be interested in catching a movie?", jpn: "映画を見に行きませんか？" },
+                    { eng: "Do you want to go to the cinema?", jpn: "映画館に行きたいですか？" },
+                    { eng: "How about seeing a film together?", jpn: "一緒に映画を見るのはどうですか？" }
                 ]
             },
             {
-                point: "2. Modals: Polite offers (Shall I / Shall we)",
-                explanation: "We can use 'shall I' or 'shall we' followed by a base verb to make polite offers or suggestions.",
-                explanationJpn: "「shall I」や「shall we」の後に動詞の原形を続けて、丁寧な申し出や提案をすることができます。",
-                examples: [
-                    { eng: "Shall I book the tickets online?", jpn: "オンラインでチケットを予約しましょうか？" },
-                    { eng: "Shall we grab a bite to eat?", jpn: "軽く食事をしませんか？" }
+                category: "2. Expressing indifference (どちらでもいいと表現する)",
+                options: [
+                    { eng: "We can watch either.", jpn: "どちらでも見られますよ。" },
+                    { eng: "Either option is fine with me.", jpn: "どちらの選択肢でも私は構いません。" },
+                    { eng: "I don't mind either way.", jpn: "どちらでも気にしませんよ。" }
+                ]
+            },
+            {
+                category: "3. Stating a preference (好みを述べる)",
+                options: [
+                    { eng: "I would prefer to watch the comedy.", jpn: "コメディを見る方がいいですね。" },
+                    { eng: "I'd rather see the action movie.", jpn: "アクション映画を見たいです。" },
+                    { eng: "I lean towards the documentary.", jpn: "ドキュメンタリーに惹かれます。" }
+                ]
+            },
+            {
+                category: "4. Making a suggestion (提案する)",
+                options: [
+                    { eng: "Shall we grab a bite to eat beforehand?", jpn: "事前に軽く食事をしませんか？" },
+                    { eng: "Why don't we get dinner first?", jpn: "先に夕食をとるのはどうですか？" },
+                    { eng: "Let's meet up for coffee before the show.", jpn: "上映前にコーヒーで待ち合わせましょう。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "オンラインでチケットを予約しましょうか？", target: "Shall I book the tickets online?", words: ["Shall", "I", "book", "the", "tickets", "online?"] },
-            { prompt: "どちらの映画でも私は構いません。", target: "Either movie is fine with me.", words: ["Either", "movie", "is", "fine", "with", "me."] },
-            { prompt: "コメディを見る方がいいですね。", target: "I would prefer to watch the comedy.", words: ["I", "would", "prefer", "to", "watch", "the", "comedy."] },
-            { prompt: "事前に軽く食事をしませんか？", target: "Shall we grab a bite to eat beforehand?", words: ["Shall", "we", "grab", "a", "bite", "to", "eat", "beforehand?"] },
-            { prompt: "今週末、何か特別なことをする予定はありますか？", target: "Are you doing anything special this weekend?", words: ["Are", "you", "doing", "anything", "special", "this", "weekend?"] }
-        ],
-        dropdownGames: [
-            { before: "Would you be interested in", options: ["catch", "catching", "caught"], answer: "catching", after: " a movie on Saturday?" },
-            { before: "We can watch", options: ["either", "neither", "both of"], answer: "either", after: "." },
-            { before: "", options: ["Shall I", "Will I", "Do I"], answer: "Shall I", after: " book the tickets?" },
-            { before: "I would", options: ["prefer", "preferring", "preferred"], answer: "prefer", after: " to watch the action film." },
-            { before: "Let's grab a", options: ["bite", "bit", "biting"], answer: "bite", after: " to eat beforehand." }
         ],
         roleplay: {
             a: "Invite your colleague to see a movie this weekend. Present two different genres as options. Use 'Shall I' to offer to buy the tickets. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(同僚を今週末の映画に誘ってください。2つの異なるジャンルを選択肢として提示してください。「Shall I」を使ってチケットを買うことを申し出てください。)</span>",
@@ -1374,15 +1393,27 @@ const b1Curriculum = [
                 { eng: "Point out", jpn: "指摘する", exEng: "He pointed out a funny mistake in the background.", exJpn: "彼は背景の面白い間違いを指摘しました。" },
                 { eng: "Work out", jpn: "上手くいく、解決する", exEng: "I hope our plans work out this weekend.", exJpn: "今週末の私たちの計画が上手くいくことを願っています。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Expressing 1/2 things (either) - 4 sentences
+                { prompt: "どちらの映画でも私は構いません。", target: "Either movie is fine with me.", words: ["Either", "movie", "is", "fine", "with", "me."] },
+                { prompt: "どちらでも見られますよ。", target: "We can watch either.", words: ["We", "can", "watch", "either."] },
+                { prompt: "土曜日の夕方でも日曜日の午後でも、どちらでも大丈夫です。", target: "Either Saturday evening or Sunday afternoon works for me.", words: ["Either", "Saturday", "evening", "or", "Sunday", "afternoon", "works", "for", "me."] },
+                { prompt: "どちらの座席でも構いませんよ。", target: "Either seat is fine with me.", words: ["Either", "seat", "is", "fine", "with", "me."] },
+                // Grammar Point 2: Polite offers (Shall I / Shall we) - 4 sentences
+                { prompt: "オンラインでチケットを予約しましょうか？", target: "Shall I book the tickets online?", words: ["Shall", "I", "book", "the", "tickets", "online?"] },
+                { prompt: "事前に軽く食事をしませんか？", target: "Shall we grab a bite to eat beforehand?", words: ["Shall", "we", "grab", "a", "bite", "to", "eat", "beforehand?"] },
+                { prompt: "今夜の上映時間を確認しましょうか？", target: "Shall I check the showtimes for tonight?", words: ["Shall", "I", "check", "the", "showtimes", "for", "tonight?"] },
+                { prompt: "映画の後でコーヒーを飲みに行きましょうか？", target: "Shall we get coffee after the movie?", words: ["Shall", "we", "get", "coffee", "after", "the", "movie?"] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 1 - Online Cinema Reviews)",
+                instruction: "Read these reviews from moviegoers planning an evening out. Notice how they talk about choices, tickets, and plans.",
+                eng: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Smooth Weekend Plans With Our Team</strong></div><span class='er-author'>By: Kenji S. | Saturday</span></div><p style='margin:0;'>Last week, I asked my coworker if she was doing anything special on Saturday. We checked showtimes online and saw a comedy and an action blockbuster. Either movie sounded fun to me, so I let her choose. She preferred the comedy, and I booked the tickets early so we could grab good seats. Shall we eat first? Yes—we grabbed a bite at a nearby cafe and caught up before the film started. Everything worked out smoothly because we confirmed the time early.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>Check Showtimes Before You Go!</strong></div><span class='er-author'>By: Rina T. | Sunday</span></div><p style='margin:0;'>We decided to catch a movie after work on Friday without booking tickets first. Sadly, the evening show was sold out! Instead of canceling plans completely, we asked if another film was playing at a later time. Either a comedy or a drama was fine with both of us. We watched a trailer on our phones, grabbed a quick dinner at a diner, and went to the 8:15 PM show. Reading reviews and booking ahead would have saved us time, but we still had a relaxing night.</p></div></div>",
+                jpn: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>チームとのスムーズな週末の予定</strong></div><span class='er-author'>投稿者：ケンジ・S | 土曜日</span></div><p style='margin:0;'>先週、同僚に土曜日に何か特別な予定があるか聞きました。オンラインで上映時間を確認すると、コメディとアクション大作がありました。どちらの映画も楽しそうだったので、彼女に選んでもらいました。彼女はコメディの方がいいと言い、良い席を確保できるように早めにチケットを予約しました。先に食事をしようか？はい、映画が始まる前に近くのカフェで軽く食べて近況を話し合いました。早めに時間を確認していたので、すべてがスムーズに進みました。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>行く前に上映時間を確認しよう！</strong></div><span class='er-author'>投稿者：リナ・T | 日曜日</span></div><p style='margin:0;'>金曜日の仕事終わりに、チケットを予約せずに映画を見に行くことにしました。残念ながら、夜の回は売り切れでした！予定を完全にキャンセルする代わりに、別の映画が後の時間に上映されているか尋ねました。2人ともコメディでもドラマでもどちらでも構いませんでした。スマホで予告編を見て、ダイナーでさっと夕食をとり、20時15分の回に行きました。事前にレビューを読んで予約していれば時間を節約できたはずですが、それでもリラックスできる夜になりました。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short dialogue where you invite a friend to a movie, discuss what to watch, and make a plan for beforehand.",
                 promptJpn: "友人を映画に誘い、何を見るか話し合い、事前の計画を立てる短い対話を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Cinema Experience)",
-                instruction: "Read this text about planning a trip to the movies.",
-                eng: "Even in the age of streaming, organizing a trip to the cinema with friends remains a popular social activity. It is not just about watching a film; it is about the shared experience. Usually, the process starts with a simple invitation. Colleagues or friends will check showtimes online and discuss their genre preferences. Because movie tickets can be expensive, many people read reviews or watch trailers before committing to a choice.\n\nOnce a film is selected, the logistics must be arranged. Reserving tickets online has become the standard, ensuring that the group can grab good seats without waiting in long queues. Furthermore, a trip to the cinema is rarely just about the movie. People often suggest grabbing a bite to eat beforehand or getting coffee afterward to debate the plot twists and character development. This turns a two-hour film into an entire evening of entertainment.\n\nHowever, making plans requires flexibility. Sometimes, a highly anticipated blockbuster is completely sold out, forcing the group to watch a different film or reschedule. Using polite suggestions like 'Shall we watch something else?' or 'I would prefer a comedy' helps maintain harmony when plans change unexpectedly. Ultimately, the cinema provides an immersive environment that cannot be replicated at home, making the effort of planning well worth it.",
-                jpn: "ストリーミングの時代にあっても、友人と映画館へ行く計画を立てることは人気の社交活動であり続けています。それは単に映画を見ることだけではなく、共有する体験についてなのです。通常、プロセスは簡単な誘いから始まります。同僚や友人はオンラインで上映時間を確認し、ジャンルの好みを話し合います。映画のチケットは高価な場合があるため、多くの人が選択を確定する前にレビューを読んだり予告編を見たりします。\n\n映画が選ばれたら、段取りを整えなければなりません。オンラインでのチケット予約は標準となっており、グループが長い列に並ぶことなく良い席を確保できることを保証します。さらに、映画館への外出はめったに映画だけにとどまりません。人々はしばしば、予想外の展開やキャラクターの成長について議論するために、事前に軽く食事をしたり、後でコーヒーを飲んだりすることを提案します。これにより、2時間の映画がエンターテインメントの夕べ全体へと変わります。\n\nしかし、計画を立てるには柔軟性が必要です。時として、非常に期待されている大ヒット作が完全に売り切れており、グループが別の映画を見るか予定を変更せざるを得ないこともあります。「何か他のものを見ましょうか？」や「コメディの方がいいです」のような丁寧な提案を使うことは、計画が予期せず変更されたときに調和を保つのに役立ちます。最終的に、映画館は家では再現できない没入型の環境を提供し、計画を立てる労力を十分に見合うものにしてくれるのです。"
             }
         }
     },
@@ -1396,30 +1427,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "Television shows and movies have an enormous impact on modern culture. They do not just entertain us; they shape how we view the world. For instance, when a show features diverse characters and explores complex social issues, it encourages viewers to think differently about society. Documentaries, in particular, can highlight global crises like climate change or poverty, pushing audiences to take real-world action. However, media can also spread stereotypes if we are not careful. Writers and directors have a massive responsibility to portray characters authentically. I think that parents should actively discuss the themes of popular media with their children. By analyzing what we watch, we can consume media more critically and appreciate the positive social changes it can inspire.", 
-                    jpn: "テレビ番組や映画は、現代文化に多大な影響を与えています。それらは単に私たちを楽しませるだけでなく、私たちが世界をどう見るかを形作ります。例えば、番組が多様なキャラクターを登場させ、複雑な社会問題を探求するとき、それは視聴者に社会について違った考え方をするよう促します。特にドキュメンタリーは、気候変動や貧困といった世界的な危機を浮き彫りにし、観客に現実世界の行動を起こすよう後押しすることができます。しかし、気をつけていないとメディアは固定観念を広める可能性もあります。脚本家や監督には、キャラクターを真実に描写する大きな責任があります。私は、親が人気のあるメディアのテーマについて子供たちと積極的に話し合うべきだと思います。私たちが見るものを分析することで、メディアをより批判的に消費し、それが引き起こす可能性のあるポジティブな社会的変化を理解することができます。" 
+                {
+                    name: "Person 1",
+                    eng: "Television shows and movies have an enormous impact on modern culture. They do not just entertain us; they shape how we view the world. For instance, when a show features diverse characters and explores complex social issues, it encourages viewers to think differently about society. Documentaries, in particular, can highlight global crises like climate change or poverty, pushing audiences to take real-world action. However, media can also spread stereotypes if we are not careful. Writers and directors have a massive responsibility to portray characters authentically. I think that parents should actively discuss the themes of popular media with their children. By analyzing what we watch, we can consume media more critically and appreciate the positive social changes it can inspire.",
+                    jpn: "テレビ番組や映画は、現代文化に多大な影響を与えています。それらは単に私たちを楽しませるだけでなく、私たちが世界をどう見るかを形作ります。例えば、番組が多様なキャラクターを登場させ、複雑な社会問題を探求するとき、それは視聴者に社会について違った考え方をするよう促します。特にドキュメンタリーは、気候変動や貧困といった世界的な危機を浮き彫りにし、観客に現実世界の行動を起こすよう後押しすることができます。しかし、気をつけていないとメディアは固定観念を広める可能性もあります。脚本家や監督には、キャラクターを真実に描写する大きな責任があります。私は、親が人気のあるメディアのテーマについて子供たちと積極的に話し合うべきだと思います。私たちが見るものを分析することで、メディアをより批判的に消費し、それが引き起こす可能性のあるポジティブな社会的変化を理解することができます。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "The globalization of media is one of the most fascinating trends today. Thanks to streaming platforms, a series produced in Spain or South Korea can become a massive hit in the United States overnight. This exposure to foreign languages and customs helps break down cultural barriers. Viewers naturally learn about different lifestyles, historical events, and traditions without ever leaving their living rooms. It builds global empathy. I absolutely love watching international cinema because it offers a completely fresh perspective on familiar themes like love, family, or ambition. Some people complain about reading subtitles, but I believe it is a small price to pay for such rich storytelling. Ultimately, global media proves that human emotions are universal.", 
-                    jpn: "メディアのグローバル化は、今日最も魅力的なトレンドの1つです。ストリーミングプラットフォームのおかげで、スペインや韓国で制作されたシリーズが一夜にしてアメリカで大ヒットすることがあります。このように外国語や習慣に触れることは、文化的な障壁を打ち破るのに役立ちます。視聴者は居間から一歩も出ることなく、異なるライフスタイル、歴史的出来事、伝統について自然に学びます。それはグローバルな共感を築きます。私は国際的な映画を見るのが絶対に好きです。なぜなら、愛、家族、野心といった馴染みのあるテーマに対して、全く新鮮な視点を提供してくれるからです。字幕を読むことに不満を言う人もいますが、私はそれがこれほど豊かなストーリーテリングに対する小さな代償だと信じています。最終的に、グローバルメディアは人間の感情が普遍的であることを証明しています。" 
+                {
+                    name: "Person 2",
+                    eng: "The globalization of media is one of the most fascinating trends today. Thanks to streaming platforms, a series produced in Spain or South Korea can become a massive hit in the United States overnight. This exposure to foreign languages and customs helps break down cultural barriers. Viewers naturally learn about different lifestyles, historical events, and traditions without ever leaving their living rooms. It builds global empathy. I absolutely love watching international cinema because it offers a completely fresh perspective on familiar themes like love, family, or ambition. Some people complain about reading subtitles, but I believe it is a small price to pay for such rich storytelling. Ultimately, global media proves that human emotions are universal.",
+                    jpn: "メディアのグローバル化は、今日最も魅力的なトレンドの1つです。ストリーミングプラットフォームのおかげで、スペインや韓国で制作されたシリーズが一夜にしてアメリカで大ヒットすることがあります。このように外国語や習慣に触れることは、文化的な障壁を打ち破るのに役立ちます。視聴者は居間から一歩も出ることなく、異なるライフスタイル、歴史的出来事、伝統について自然に学びます。それはグローバルな共感を築きます。私は国際的な映画を見るのが絶対に好きです。なぜなら、愛、家族、野心といった馴染みのあるテーマに対して、全く新鮮な視点を提供してくれるからです。字幕を読むことに不満を言う人もいますが、私はそれがこれほど豊かなストーリーテリングに対する小さな代償だと信じています。最終的に、グローバルメディアは人間の感情が普遍的であることを証明しています。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I often think about the psychological effects of binge-watching and media consumption. While watching a gripping thriller can be a great escape from daily stress, spending entire weekends staring at a screen is not healthy. It promotes a sedentary lifestyle and can lead to sleep deprivation. Furthermore, social media platforms are filled with extreme hype and spoilers, which creates an intense pressure to watch shows immediately just to join the conversation. 'Fear of missing out' is a real phenomenon in entertainment today. I try to limit my screen time and focus on quality rather than quantity. Watching one excellent, thought-provoking film a week is much more rewarding for me than passively consuming hours of average television.", 
-                    jpn: "私はよく、イッキ見やメディア消費の心理的影響について考えます。手に汗握るスリラーを見ることは日々のストレスからの素晴らしい逃避になり得ますが、週末丸ごと画面を見つめて過ごすことは健康的ではありません。それは座りがちなライフスタイルを助長し、睡眠不足につながる可能性があります。さらに、ソーシャルメディアのプラットフォームは極端な誇大宣伝やネタバレで溢れており、会話に参加するためだけに番組をすぐに見なければならないという強いプレッシャーを生み出しています。「見逃すことへの恐怖（FOMO）」は、今日のエンターテインメントにおける現実の現象です。私はスクリーンタイムを制限し、量よりも質に集中するようにしています。週に1本、考えさせられる素晴らしい映画を見ることは、平均的なテレビ番組を何時間も受動的に消費するよりも、私にとってずっと価値があります。" 
+                {
+                    name: "Person 3",
+                    eng: "I often think about the psychological effects of binge-watching and media consumption. While watching a gripping thriller can be a great escape from daily stress, spending entire weekends staring at a screen is not healthy. It promotes a sedentary lifestyle and can lead to sleep deprivation. Furthermore, social media platforms are filled with extreme hype and spoilers, which creates an intense pressure to watch shows immediately just to join the conversation. 'Fear of missing out' is a real phenomenon in entertainment today. I try to limit my screen time and focus on quality rather than quantity. Watching one excellent, thought-provoking film a week is much more rewarding for me than passively consuming hours of average television.",
+                    jpn: "私はよく、イッキ見やメディア消費の心理的影響について考えます。手に汗握るスリラーを見ることは日々のストレスからの素晴らしい逃避になり得ますが、週末丸ごと画面を見つめて過ごすことは健康的ではありません。それは座りがちなライフスタイルを助長し、睡眠不足につながる可能性があります。さらに、ソーシャルメディアのプラットフォームは極端な誇大宣伝やネタバレで溢れており、会話に参加するためだけに番組をすぐに見なければならないという強いプレッシャーを生み出しています。「見逃すことへの恐怖（FOMO）」は、今日のエンターテインメントにおける現実の現象です。私はスクリーンタイムを制限し、量よりも質に集中するようにしています。週に1本、考えさせられる素晴らしい映画を見ることは、平均的なテレビ番組を何時間も受動的に消費するよりも、私にとってずっと価値があります。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Social Awareness 📖", themeJpn: "社会意識", sub: [{eng: "Highlighting crises", jpn: "危機を浮き彫りにすること"}, {eng: "Diverse representation", jpn: "多様な表現"}, {eng: "Challenging stereotypes", jpn: "固定観念への挑戦"}] },
-            { theme: "Global Empathy 📖", themeJpn: "グローバルな共感", sub: [{eng: "Cultural barriers", jpn: "文化的な障壁"}, {eng: "Foreign customs", jpn: "外国の習慣"}, {eng: "Universal emotions", jpn: "普遍的な感情"}] },
-            { theme: "Psychological Effects 📖", themeJpn: "心理的影響", sub: [{eng: "Escapism", jpn: "現実逃避"}, {eng: "Sleep deprivation", jpn: "睡眠不足"}, {eng: "Fear of missing out", jpn: "見逃すことへの恐怖 (FOMO)"}] },
-            { theme: "Media Responsibility 📖", themeJpn: "メディアの責任", sub: [{eng: "Authentic portrayal", jpn: "真実の描写"}, {eng: "Parental guidance", jpn: "親の指導"}, {eng: "Critical consumption", jpn: "批判的な消費"}] },
-            { theme: "Healthy Habits 📖", themeJpn: "健康的な習慣", sub: [{eng: "Screen time limits", jpn: "スクリーンタイムの制限"}, {eng: "Quality vs Quantity", jpn: "質対量"}, {eng: "Sedentary lifestyle", jpn: "座りがちなライフスタイル"}] },
-            { theme: "Cultural Impact 📖", themeJpn: "文化的影響", sub: [{eng: "Shared moments", jpn: "共有される瞬間"}, {eng: "Sparking conversations", jpn: "会話のきっかけ"}, {eng: "Shaping values", jpn: "価値観の形成"}] }
+            { theme: "Social Awareness 📖", themeJpn: "社会意識", sub: [{ eng: "Highlighting crises", jpn: "危機を浮き彫りにすること" }, { eng: "Diverse representation", jpn: "多様な表現" }, { eng: "Challenging stereotypes", jpn: "固定観念への挑戦" }] },
+            { theme: "Global Empathy 📖", themeJpn: "グローバルな共感", sub: [{ eng: "Cultural barriers", jpn: "文化的な障壁" }, { eng: "Foreign customs", jpn: "外国の習慣" }, { eng: "Universal emotions", jpn: "普遍的な感情" }] },
+            { theme: "Psychological Effects 📖", themeJpn: "心理的影響", sub: [{ eng: "Escapism", jpn: "現実逃避" }, { eng: "Sleep deprivation", jpn: "睡眠不足" }, { eng: "Fear of missing out", jpn: "見逃すことへの恐怖 (FOMO)" }] },
+            { theme: "Media Responsibility 📖", themeJpn: "メディアの責任", sub: [{ eng: "Authentic portrayal", jpn: "真実の描写" }, { eng: "Parental guidance", jpn: "親の指導" }, { eng: "Critical consumption", jpn: "批判的な消費" }] },
+            { theme: "Healthy Habits 📖", themeJpn: "健康的な習慣", sub: [{ eng: "Screen time limits", jpn: "スクリーンタイムの制限" }, { eng: "Quality vs Quantity", jpn: "質対量" }, { eng: "Sedentary lifestyle", jpn: "座りがちなライフスタイル" }] },
+            { theme: "Cultural Impact 📖", themeJpn: "文化的影響", sub: [{ eng: "Shared moments", jpn: "共有される瞬間" }, { eng: "Sparking conversations", jpn: "会話のきっかけ" }, { eng: "Shaping values", jpn: "価値観の形成" }] }
         ],
         questions: [
             { eng: "1. Can a documentary actually change how people behave in society?", jpn: "1. ドキュメンタリーは実際に社会における人々の行動を変えることができますか？" },
@@ -1495,15 +1526,27 @@ const b1Curriculum = [
                 { eng: "Succeed in", jpn: "〜に成功する", exEng: "The director succeeded in sparking a global conversation.", exJpn: "監督はグローバルな会話のきっかけを作ることに成功しました。" },
                 { eng: "Appeal to", jpn: "〜にアピールする", exEng: "This documentary will appeal to history lovers.", exJpn: "このドキュメンタリーは歴史愛好家にアピールするでしょう。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Expressing certainty (definitely/probably) - 4 sentences
+                { prompt: "このドキュメンタリーは間違いなくあなたの視点を変えるでしょう。", target: "This documentary will definitely change your perspective.", words: ["This", "documentary", "will", "definitely", "change", "your", "perspective."] },
+                { prompt: "彼女は今、おそらく映画を見ています。", target: "She is probably watching a movie right now.", words: ["She", "is", "probably", "watching", "a", "movie", "right", "now."] },
+                { prompt: "海外映画は間違いなくグローバルな共感を築きます。", target: "Foreign films definitely build global empathy.", words: ["Foreign", "films", "definitely", "build", "global", "empathy."] },
+                { prompt: "その番組はおそらく来月シーズン2が始まるでしょう。", target: "The show will probably start season two next month.", words: ["The", "show", "will", "probably", "start", "season", "two", "next", "month."] },
+                // Grammar Point 2: Expressing alternatives (rather than) - 4 sentences
+                { prompt: "私は量よりも質に集中します。", target: "I focus on quality rather than quantity.", words: ["I", "focus", "on", "quality", "rather", "than", "quantity."] },
+                { prompt: "平均的なテレビを見るよりも、本を読む方が好きです。", target: "I prefer to read a book rather than watching average TV.", words: ["I", "prefer", "to", "read", "a", "book", "rather", "than", "watching", "average", "TV."] },
+                { prompt: "浅はかなステレオタイプよりも、真実味のある描写が求められています。", target: "Audiences want authentic portrayal rather than shallow stereotypes.", words: ["Audiences", "want", "authentic", "portrayal", "rather", "than", "shallow", "stereotypes."] },
+                { prompt: "週末丸ごと画面を見るよりも、外に出かけるべきです。", target: "We should go outside rather than staring at a screen all weekend.", words: ["We", "should", "go", "outside", "rather", "than", "staring", "at", "a", "screen", "all", "weekend."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 2 - Workplace Forum)",
+                instruction: "Read this forum discussion about how movies and TV shows affect culture, empathy, and daily habits.",
+                eng: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>MediaLearner asks:</strong><br>Do you think TV shows and movies really change how people think in real life? Sometimes I watch a drama and feel inspired, while other times I just feel tired after binge-watching all weekend.</div><div class='er-forum-a'>💬 <strong>Reply by GlobalViewer:</strong><br>Without a doubt, stories can shape our views. Thanks to streaming, I watch foreign films and learn about customs in other countries. That definitely builds empathy rather than keeping us stuck in one point of view. In particular, historical dramas help me understand how people lived in the past.</div><div class='er-forum-a'>💬 <strong>Reply by HealthCheck:</strong><br>I agree that documentaries can spark helpful talks about social issues, and creators have a responsibility to avoid stereotypes. However, too much screen time can lead to sleep deprivation. Watching one thought-provoking movie rather than spending all Sunday in front of a screen is probably healthier for most of us.</div></div>",
+                jpn: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>MediaLearnerの質問：</strong><br>テレビ番組や映画は、現実世界で人々の考え方を本当に変えると思いますか？ドラマを見て刺激を受けることもあれば、週末ずっとイッキ見をして疲れるだけのこともあります。</div><div class='er-forum-a'>💬 <strong>GlobalViewerの返信：</strong><br>間違いなく、物語は私たちの見方を形作ることができます。ストリーミングのおかげで、私は外国映画を見て他国の習慣について学んでいます。それは1つの視点にとどまるのではなく、間違いなく共感を育みます。特に歴史ドラマは、過去の生活を理解する助けになります。</div><div class='er-forum-a'>💬 <strong>HealthCheckの返信：</strong><br>ドキュメンタリーが社会問題について役立つ話し合いのきっかけになり得ることや、クリエイターにステレオタイプを避ける責任があることには同意します。しかし、画面を見る時間が長すぎると睡眠不足につながる可能性があります。日曜日を画面の前で過ごすよりも、考えさせられる映画を1本見る方が、私たちにとってはおそらくより健康的です。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think movies and TV shows have a positive or negative impact on society? Use adverbs of certainty and 'rather than'.",
                 promptJpn: "「映画やテレビ番組は社会にポジティブな影響、ネガティブな影響のどちらを与えていると思いますか？確実性の副詞と『rather than』を使って答えてください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Power of Screen Representation)",
-                instruction: "Read this text about how media representation influences cultural values.",
-                eng: "The media we consume acts as a mirror reflecting society's values, but it also functions as a window into experiences outside our own. Psychologists have long argued that representation in film and television profoundly affects our worldview. When audiences see diverse cultures, complex female leads, and authentic portrayals of minorities on screen, it normalizes these identities in everyday life. Without a doubt, a well-crafted movie can build global empathy rather than simply offering two hours of mindless escapism.\n\nConversely, poor representation can be highly damaging. If certain groups are consistently shown as villains or comedic relief, it reinforces harmful stereotypes. Audiences, especially children, subconsciously absorb these biases. Therefore, media creators hold a significant responsibility. They must carefully research and construct characters who are nuanced and human. In recent years, public pressure on social media has definitely forced Hollywood to rethink casting and storytelling. Activists and fans alike are demanding authenticity rather than shallow tropes.\n\nUltimately, viewing media is not entirely a passive activity. Audiences must practice critical consumption. By questioning the narratives presented to us and actively seeking out international and independent films, we challenge our own perspectives. Documentaries and thought-provoking dramas can spark essential conversations about politics, climate change, and human rights. In this way, the screen is not just for entertainment; it is a powerful catalyst for real-world social change.",
-                jpn: "私たちが消費するメディアは、社会の価値観を映し出す鏡として機能する一方で、私たち自身の外にある経験への窓としても機能します。心理学者は長年、映画やテレビにおける表現が私たちの世界観に深い影響を与えると主張してきました。観客が多様な文化、複雑な女性の主役、マイノリティの真実の描写をスクリーンで見るとき、それは日常生活においてこれらのアイデンティティを標準化します。間違いなく、よく練られた映画は、単に2時間の無心な現実逃避を提供するよりもむしろ、グローバルな共感を築くことができるのです。\n\n逆に、質の悪い表現は非常に有害になり得ます。特定のグループが一貫して悪役やコミカルな安らぎとして描かれる場合、それは有害な固定観念を強化します。観客、特に子供たちは、無意識のうちにこれらの偏見を吸収します。したがって、メディアのクリエイターは重大な責任を負っています。彼らは慎重にリサーチを行い、ニュアンスのある人間らしいキャラクターを構築しなければなりません。近年、ソーシャルメディア上の世論の圧力は間違いなく、ハリウッドにキャスティングやストーリーテリングの再考を強いています。活動家もファンも同様に、浅はかな比喩（お決まりのパターン）ではなく真実性を求めているのです。\n\n最終的に、メディアを見ることは完全に受動的な活動ではありません。観客は批判的な消費を実践しなければなりません。提示された物語に疑問を投げかけ、国際映画や独立系映画を積極的に探し求めることで、私たちは自分自身の視点に挑戦します。ドキュメンタリーや考えさせられるドラマは、政治、気候変動、人権についての不可欠な会話のきっかけになり得ます。このように、スクリーンは単なる娯楽のためではなく、現実世界の社会変化のための強力な触媒なのです。"
             }
         }
     },
@@ -1581,6 +1624,15 @@ const b1Curriculum = [
                     { eng: "The technical issues are not being fixed quickly enough.", jpn: "技術的な問題は十分に早く修正されていません。" },
                     { eng: "The target audience is not being reached.", jpn: "ターゲット層に到達していません（リーチされていません）。" }
                 ]
+            },
+            {
+                point: "3. Passive Voice with Modals: Recommending changes (must/should be + PP)",
+                explanation: "Use modal + 'be' + past participle to recommend necessary actions or restructuring in business proposals.",
+                explanationJpn: "ビジネス提案で必要な行動や再編を推奨するには、「法助動詞 + be + 過去分詞」を使います。",
+                examples: [
+                    { eng: "The budget must be restructured immediately.", jpn: "予算は直ちに再構築されなければなりません。" },
+                    { eng: "Popular classic movies should be brought back.", jpn: "人気のクラシック映画は復活させるべきです。" }
+                ]
             }
         ],
         discussionPoints: [
@@ -1595,7 +1647,7 @@ const b1Curriculum = [
             { eng: "Therefore...", jpn: "それゆえに..." },
             { eng: "Ultimately...", jpn: "最終的には..." }
         ],
-        roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
+        roleplay: "Role-play presenting your solution to management. Do the following using a simple three-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
         homework: {
             vocab: [
                 { eng: "Point out", jpn: "指摘する", exEng: "The analyst pointed out the budget flaws.", exJpn: "アナリストは予算の欠陥を指摘しました。" },
@@ -1617,20 +1669,36 @@ const b1Curriculum = [
                 { eng: "Apologize for", jpn: "〜について謝罪する", exEng: "We should apologize for the service interruptions.", exJpn: "サービスの中断について謝罪するべきです。" },
                 { eng: "Lead to", jpn: "〜につながる", exEng: "Poor quality control led to massive subscription cancellations.", exJpn: "ずさんな品質管理が大規模なサブスクリプションの解約につながりました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Past passive (was/were + PP) - 4 sentences
+                { prompt: "オリジナルコンテンツはテストされませんでした。", target: "The original content was not tested.", words: ["The", "original", "content", "was", "not", "tested."] },
+                { prompt: "サーバーのメンテナンス予算は昨年削減されました。", target: "The server maintenance budget was cut last year.", words: ["The", "server", "maintenance", "budget", "was", "cut", "last", "year."] },
+                { prompt: "3つのSF番組はすべて大失敗でした。", target: "All three sci-fi shows were total flops.", words: ["All", "three", "sci-fi", "shows", "were", "total", "flops."] },
+                { prompt: "人気のクラシック映画は多くが削除されました。", target: "Many popular classic movies were removed.", words: ["Many", "popular", "classic", "movies", "were", "removed."] },
+                // Grammar Point 2: Present continuous passive (is/are + being + PP) - 4 sentences
+                { prompt: "技術的な問題は十分に早く修正されていません。", target: "The technical issues are not being fixed quickly enough.", words: ["The", "technical", "issues", "are", "not", "being", "fixed", "quickly", "enough."] },
+                { prompt: "ターゲット層に到達していません。", target: "The target audience is not being reached.", words: ["The", "target", "audience", "is", "not", "being", "reached."] },
+                { prompt: "アプリの技術的な不具合は現在調査中です。", target: "The technical glitches are being investigated now.", words: ["The", "technical", "glitches", "are", "being", "investigated", "now."] },
+                { prompt: "新しいマーケティング戦略が作成されています。", target: "A new marketing strategy is being developed.", words: ["A", "new", "marketing", "strategy", "is", "being", "developed."] },
+                // Grammar Point 3: Passive voice with modals (must/should be + PP) - 4 sentences
+                { prompt: "予算は直ちに再構築されなければなりません。", target: "The budget must be restructured immediately.", words: ["The", "budget", "must", "be", "restructured", "immediately."] },
+                { prompt: "人気のクラシック映画は復活させるべきです。", target: "Popular classic movies should be brought back.", words: ["Popular", "classic", "movies", "should", "be", "brought", "back."] },
+                { prompt: "スマートTVのバグは早急に修正されるべきです。", target: "Smart TV bugs should be fixed right away.", words: ["Smart", "TV", "bugs", "should", "be", "fixed", "right", "away."] },
+                { prompt: "推薦アルゴリズムは改善されなければなりません。", target: "The recommendation algorithm must be improved.", words: ["The", "recommendation", "algorithm", "must", "be", "improved."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 3 - Business Case Blog)",
+                instruction: "Read this case study blog analyzing why StreamLine lost subscribers and how passive voice describes company problems and fixes.",
+                eng: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>Case Study: Why StreamLine Lost Two Million Viewers</h3><span class='er-blog-meta'>By: Business Editor Hana | 📅 October 28</span><p>Last year, StreamLine spent heavily on new shows while losing market share. Several expensive original series were released without focus group testing, and many turned out to be flops. At the same time, the server maintenance budget was cut to pay for production. Because of that choice, the app became buggy and crashed during season finales. Subscribers got frustrated when popular classic movies were removed while monthly prices went up.</p><p>Right now, technical glitches on smart TVs are not being fixed quickly enough, and the right audience is not being reached by the ads. Therefore, the company needs a clear recovery plan. The content budget must be restructured so quality is not lost for quantity. In addition, server stability should be improved before new launches, and customer retention should be supported with fair pricing. Ultimately, fixing basic reliability is the first step to winning back trust.</p></div>",
+                jpn: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>ケーススタディ：なぜStreamLineは200万人の視聴者を失ったのか</h3><span class='er-blog-meta'>執筆者：ビジネス編集者 ハナ | 📅 10月28日</span><p>昨年、StreamLineは新作番組に多額の費用をかける一方で市場シェアを失いました。いくつかの高額なオリジナルシリーズはフォーカスグループでのテストなしにリリースされ、多くが大失敗に終わりました。同時に、制作費を賄うためにサーバーのメンテナンス予算が削減されました。その選択のせいで、アプリはバグだらけになり、シーズン最終回中にクラッシュしました。月額料金が上がった一方で人気のクラシック映画が削除されたとき、加入者は不満を募らせました。</p><p>現在、スマートTVの技術的な不具合は十分に早く修正されておらず、広告によって適切な視聴者層に届いていません。そのため、同社には明確な再生計画が必要です。量のために質が失われないよう、コンテンツ予算は直ちに再構築されなければなりません。さらに、新規公開の前にサーバーの安定性を改善すべきであり、公正な価格設定によって顧客維持を支えるべきです。最終的に、基本的な信頼性を直すことが信頼を取り戻す第一歩となります。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph outlining your proposed solution for StreamLine. Use passive voice (e.g., 'The budget must be reduced') and transitional expressions.",
                 promptJpn: "「StreamLineのためのあなたの提案する解決策を概説する短い段落を書いてください。受動態（例：『予算は削減されなければならない』）とトランジション表現を使用してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Streaming Wars)",
-                instruction: "Read this authentic text about the competitive landscape of media platforms.",
-                eng: "The period known as the 'Streaming Wars' began when major tech and media companies realized the massive profitability of subscription-based entertainment. Initially, the market was dominated by a single pioneer that offered an enormous library of licensed classic movies and television shows. Consumers loved it because it was cheap, convenient, and ad-free. However, as the success of this model became obvious, every major Hollywood studio decided to launch its own platform. They stopped licensing their content to competitors, which fragmented the market and frustrated viewers.\n\nTo survive, streaming companies began producing massive amounts of original content. Budgets ballooned to billions of dollars a year. While this resulted in some brilliant, award-winning television, it also created a tremendous amount of average, forgettable media. For business analysts, the fundamental flaw in this strategy soon became apparent: producing movies is extremely expensive, but the monthly subscription fee limits revenue. If a platform produces a 200-million-dollar flop, that money cannot easily be recovered. Consequently, many platforms are currently burning cash at unsustainable rates.\n\nTo correct these financial issues, the industry is undergoing severe restructuring. Marketing budgets are being reduced, and many mediocre projects are being cancelled before production begins. Furthermore, companies are exploring alternative revenue streams, such as introducing cheaper subscription tiers that include commercial breaks. Technical reliability is also being prioritized over volume, as companies realize that a buggy app causes higher cancellation rates than a lack of new shows. Ultimately, only platforms that balance high-quality storytelling with strict financial discipline and excellent user experience will survive the coming decade.",
-                jpn: "「ストリーミング戦争」として知られる時代は、主要なテクノロジー企業やメディア企業が、サブスクリプション型エンターテインメントの莫大な収益性に気づいたときに始まりました。当初、市場はライセンス供与されたクラシック映画やテレビ番組の膨大なライブラリを提供する単一の先駆者によって支配されていました。安価で便利で広告がないため、消費者はそれを愛していました。しかし、このモデルの成功が明らかになるにつれて、ハリウッドの主要スタジオはすべて独自のプラットフォームを立ち上げることを決定しました。彼らは競合他社へのコンテンツのライセンス供与を停止し、それが市場を細分化させ、視聴者を苛立たせました。\n\n生き残るために、ストリーミング企業は大量のオリジナルコンテンツの制作を始めました。予算は年間数十億ドルに膨れ上がりました。これはいくつかの素晴らしく、受賞歴のあるテレビ番組を生み出した一方で、平均的で記憶に残らない膨大な量のメディアも作り出しました。ビジネスアナリストにとって、この戦略の根本的な欠陥はすぐに明らかになりました。映画の制作は非常に高額ですが、月額のサブスクリプション料金は収益を制限するということです。プラットフォームが2億ドルの大失敗作を制作した場合、そのお金を簡単に回収することはできません。その結果、多くのプラットフォームは現在、持続不可能なペースで現金を浪費しています。\n\nこれらの財政問題を修正するために、業界は厳しい再編を進めています。マーケティング予算は削減され、多くの平凡なプロジェクトが制作開始前にキャンセルされています。さらに、企業はCM休憩を含むより安価なサブスクリプション階層を導入するなど、代替の収益源を模索しています。企業は、バグの多いアプリが新しい番組の不足よりも高い解約率を引き起こすことに気づいているため、量よりも技術的な信頼性も優先されています。最終的に、高品質なストーリーテリングと厳格な財務規律、そして優れたユーザーエクスペリエンスのバランスをとるプラットフォームだけが、これからの10年を生き残るでしょう。"
             }
         }
     },
-
-{
+    {
         id: 14,
         chapter: "Chapter 2: Movies & TV Shows",
         type: "speakingtest",
@@ -1684,41 +1752,31 @@ const b1Curriculum = [
                 { eng: "Turn out", jpn: "〜という結果になる", exEng: "The villain turned out to be his father.", exJpn: "悪役は彼の父親であるという結果になりました（判明しました）。" },
                 { eng: "Catch up", jpn: "追いつく、まとめ見する", exEng: "I need to catch up on the latest season.", exJpn: "最新シーズンの遅れを取り戻す（まとめ見する）必要があります。" }
             ],
-            reading1: {
-                title: "Task 2: Reading (Review Model: A Memorable Movie)",
-                instruction: "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar, and transitional expressions.",
-                eng: "In my opinion, science fiction movies are often the most thought-provoking. Actually, I recently watched a film that left a lasting impact on me. The plot focused on an astronaut stranded alone on Mars. At first, I was a little hesitant to watch it because I thought it would be too depressing. In hindsight, I shouldn't have worried. I eventually figured out that it was a story about hope and human resilience. We saw how the main character used science to survive. To sum up, the brilliant acting and stunning visual effects made it stand out. I wish I hadn't waited so long to see it, because the movie turned out to be an absolute masterpiece.",
-                jpn: "私の意見では、SF映画はしばしば最も考えさせられるものです。実は、私は最近、私に永続的な影響を残した映画を見ました。あらすじは、火星に一人取り残された宇宙飛行士に焦点を当てていました。最初は、あまりにも憂鬱だろうと思ったので、見るのを少し躊躇していました。後から考えると、心配するべきではありませんでした。最終的に、それが希望と人間の回復力についての物語であると理解しました。私たちは、主人公が生き残るために科学をどのように使うかを見ました。要約すると、素晴らしい演技と見事な視覚効果がそれを際立たせていました。もっと早く見ればよかったと後悔しています。なぜなら、その映画は絶対的な傑作だという結果になった（判明した）からです。"
-            },
-            expandedDialogue: [
-                { speaker: "A", eng: "Are you ready for your speaking test today?", jpn: "今日のアセスメントテストの準備はできていますか？" },
-                { speaker: "B", eng: "I think so. I am going to talk about a documentary I watched last year.", jpn: "そう思います。去年見たドキュメンタリーについて話すつもりです。" },
-                { speaker: "A", eng: "That sounds interesting. What is the general plot about?", jpn: "面白そうですね。全体的なあらすじは何ですか？" },
-                { speaker: "B", eng: "It explores the history of the internet and how it changed society.", jpn: "インターネットの歴史と、それが社会をどう変えたかを探求しています。" },
-                { speaker: "A", eng: "Did you find it educational or mostly entertaining?", jpn: "それは教育的だと思いましたか、それとも主に娯楽的でしたか？" },
-                { speaker: "B", eng: "Both, actually. It was fairly long, but definitely thought-provoking.", jpn: "実は両方です。かなり長かったですが、間違いなく考えさせられるものでした。" },
-                { speaker: "A", eng: "Why did it have such a strong impact on your perspective?", jpn: "なぜそれがあなたの視点にそれほど強い影響を与えたのですか？" },
-                { speaker: "B", eng: "It made me realize how much we rely on technology for daily communication.", jpn: "私たちが日常のコミュニケーションでいかにテクノロジーに依存しているかを気づかせてくれたからです。" },
-                { speaker: "A", eng: "I agree. We spend too much time staring at screens.", jpn: "同感です。私たちは画面を見つめるのに時間を費やしすぎています。" },
-                { speaker: "B", eng: "Exactly. The director succeeded in highlighting our addiction to smartphones.", jpn: "まさに。監督は私たちがスマートフォンに依存していることを浮き彫りにすることに成功しました。" },
-                { speaker: "A", eng: "Would you recommend this documentary to me?", jpn: "このドキュメンタリーを私にお勧めしますか？" },
-                { speaker: "B", eng: "Without a doubt. I highly recommend it. It's an absolute must-see.", jpn: "間違いありません。強くお勧めします。絶対に見るべき作品です。" },
-                { speaker: "A", eng: "Great! Good luck with your speech.", jpn: "素晴らしい！スピーチ頑張ってください。" },
-                { speaker: "B", eng: "Thanks. I'll do my best.", jpn: "ありがとう。全力を尽くします。" }
+            clickingGames: [
+                // Chapter 2 Review Point 1: Degree, Limits & Grouping (too + adj / something + adj) - 4 sentences
+                { prompt: "その映画は怖すぎて一人では見られませんでした。", target: "The movie was too scary to watch alone.", words: ["The", "movie", "was", "too", "scary", "to", "watch", "alone."] },
+                { prompt: "何か考えさせられる映画を見たいです。", target: "I want to watch something thought-provoking.", words: ["I", "want", "to", "watch", "something", "thought-provoking."] },
+                { prompt: "第1シーズンには退屈なものは何もありませんでした。", target: "There was nothing boring in the first season.", words: ["There", "was", "nothing", "boring", "in", "the", "first", "season."] },
+                { prompt: "そのドキュメンタリーはかなり感動的でした。", target: "The documentary was fairly emotional.", words: ["The", "documentary", "was", "fairly", "emotional."] },
+                // Chapter 2 Review Point 2: Pronouns, Certainty & Alternatives (both of / some of / rather than) - 4 sentences
+                { prompt: "両方の映画が私の視点に強い影響を与えました。", target: "Both of the movies had a strong impact on my perspective.", words: ["Both", "of", "the", "movies", "had", "a", "strong", "impact", "on", "my", "perspective."] },
+                { prompt: "一部の視聴者は結末に驚きました。", target: "Some of the viewers were surprised by the ending.", words: ["Some", "of", "the", "viewers", "were", "surprised", "by", "the", "ending."] },
+                { prompt: "そのシリーズは間違いなく見る価値があります。", target: "The series is definitely worth watching.", words: ["The", "series", "is", "definitely", "worth", "watching."] },
+                { prompt: "受動的にスクロールするよりも、良い映画を1本見る方が好きです。", target: "I prefer watching one good film rather than scrolling passively.", words: ["I", "prefer", "watching", "one", "good", "film", "rather", "than", "scrolling", "passively."] }
             ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 4 - Study Group Chat)",
+                instruction: "Read this study chat where learners practice talking about a movie or show that changed their perspective.",
+                eng: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #speaking-prep-ch2</div><div class='er-chat-msg'><span class='er-chat-time'>[07:05 PM]</span> <span class='er-chat-user'>@Daiki:</span> Hi everyone! I'm preparing my speech on a show that left a strong impression on me. I watched a nature series last year about ocean life.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:08 PM]</span> <span class='er-chat-user'>@Mei:</span> Nice! How did you feel while watching it? Did it change your perspective on daily habits?</div><div class='er-chat-msg'><span class='er-chat-time'>[07:10 PM]</span> <span class='er-chat-user'>@Daiki:</span> Yes, some of the scenes were fairly sad when I saw plastic waste near the coast. It was too real to ignore, so I started carrying a reusable bottle rather than buying plastic ones every day.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:13 PM]</span> <span class='er-chat-user'>@Mei:</span> That's a great example for the PREP method. I'm talking about a drama that explores family life and work balance. The main character was easy to relate to, and the ending was not predictable at all.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:16 PM]</span> <span class='er-chat-user'>@Daiki:</span> Sounds binge-worthy! Make sure you explain why the story mattered to you rather than just summarizing the whole plot.</div></div>",
+                jpn: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #speaking-prep-ch2</div><div class='er-chat-msg'><span class='er-chat-time'>[07:05 PM]</span> <span class='er-chat-user'>@Daiki:</span> みんな、こんにちは！私に強い印象を残した番組についてのスピーチを準備しています。去年、海の生き物についての自然シリーズを見ました。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:08 PM]</span> <span class='er-chat-user'>@Mei:</span> いいね！見ている間はどう感じましたか？日常の習慣に対する視点が変わりましたか？</div><div class='er-chat-msg'><span class='er-chat-time'>[07:10 PM]</span> <span class='er-chat-user'>@Daiki:</span> うん、海岸近くのプラスチックごみを見たとき、いくつかのシーンはかなり悲しかったです。無視するには現実的すぎて、毎日プラスチックボトルを買うのではなく、マイボトルを持ち歩くようにしました。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:13 PM]</span> <span class='er-chat-user'>@Mei:</span> それはPREP法にぴったりの良い例だね。私は家族生活と仕事のバランスを探求するドラマについて話すよ。主人公に共感しやすく、結末もまったく予測できませんでした。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:16 PM]</span> <span class='er-chat-user'>@Daiki:</span> イッキ見したくなるね！あらすじ全体をまとめるだけでなく、なぜその物語が自分にとって大切だったのかを必ず説明しよう。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a movie or TV show that changed your opinion on a specific topic. Explain what the topic was and how your view changed.",
                 promptJpn: "「特定のトピックに対するあなたの意見を変えた映画やテレビ番組について説明してください。そのトピックは何だったのか、そしてあなたの見方がどのように変わったのかを説明してください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Influence of Cinematic Storytelling)",
-                instruction: "Read this authentic article to learn more about how media shapes our worldviews. This section provides real-world context for B1 learners.",
-                eng: "Throughout history, storytelling has been the primary method humans use to pass down knowledge, culture, and moral values. Today, cinema and television serve as the most powerful platforms for modern storytelling. When we sit down to watch a compelling movie, we do more than just relax; we briefly step into someone else's reality. This immersive experience is why visual media has such a profound capability to shape public opinion and alter personal perspectives.\n\nResearchers suggest that humans are naturally wired for empathy. When we watch a character struggle, overcome obstacles, or suffer tragic losses, our brains react as if we are experiencing those emotions ourselves. For instance, many people who watch documentaries about environmental destruction report changing their daily habits immediately afterward. They begin recycling, reducing waste, or advocating for policy changes. The visual evidence presented on screen is often much more persuasive than reading a textbook or listening to a lecture. By blending factual information with emotional narratives, filmmakers can effectively bypass a viewer's natural defenses and inspire genuine change.\n\nHowever, this powerful influence highlights the immense responsibility placed on content creators. If a movie relies on negative stereotypes or presents historical inaccuracies, it can easily mislead millions of viewers. Therefore, while audiences should allow themselves to be moved by a beautifully directed film, they must also remain critical thinkers. A memorable movie is not just one that entertains us for two hours; it is one that challenges our assumptions, sparks meaningful conversations, and leaves a lasting, positive impact on our lives.",
-                jpn: "歴史を通じて、ストーリーテリングは人間が知識、文化、そして道徳的価値観を後世に伝えるために使用する主要な方法でした。今日、映画とテレビは現代のストーリーテリングのための最も強力なプラットフォームとして機能しています。私たちが座って魅力的な映画を見るとき、私たちは単にリラックスする以上のことをしています。つまり、短い間、他人の現実の中に入り込むのです。この没入型の体験こそが、視覚メディアが世論を形成し、個人の視点を変えるほど深い能力を持っている理由です。\n\n研究者たちは、人間は生まれつき共感するようにできていると示唆しています。キャラクターが苦闘したり、障害を乗り越えたり、悲劇的な喪失に苦しんだりするのを見るとき、私たちの脳はまるで自分自身がその感情を経験しているかのように反応します。例えば、環境破壊に関するドキュメンタリーを見た多くの人々は、その直後に自分の日常の習慣を変えたと報告しています。彼らはリサイクルを始めたり、無駄を減らしたり、政策の変更を主張したりします。スクリーンに提示された視覚的な証拠は、教科書を読んだり講義を聞いたりするよりもはるかに説得力があることがよくあります。事実の情報と感情的な物語を融合させることで、映画製作者は視聴者の自然な防衛線を効果的にすり抜け、純粋な変化を引き起こすことができるのです。\n\nしかし、この強力な影響力は、コンテンツクリエイターに課せられた計り知れない責任を浮き彫りにしています。映画が否定的な固定観念に依存したり、歴史的な不正確さを提示したりすれば、何百万人もの視聴者を簡単に誤解させる可能性があります。したがって、観客は美しく監督された映画に感動することを自分自身に許すべきですが、同時に批判的思考を持ち続けなければなりません。記憶に残る映画とは、単に私たちを2時間楽しませてくれるものではありません。それは、私たちの思い込みに挑戦し、意味のある会話のきっかけを作り、私たちの生活に永続的でポジティブな影響を残すものなのです。"
             }
         }
     },
-    {
+{
         id: 15,
         chapter: "Chapter 3: Business Travel",
         type: "opinion",
@@ -1728,30 +1786,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "I have been traveling for work since I joined the sales team five years ago. At first, I found it extremely glamorous to stay in nice hotels and eat at fancy restaurants. However, constantly packing a suitcase and rushing to airports is becoming more and more exhausting. Business travel disrupts your daily routine, making it hard to exercise regularly or maintain a healthy diet. You often eat fast food because you are rushing between meetings. Additionally, jet lag is a serious problem for international travelers. Despite these challenges, traveling allows me to meet our clients face-to-face. I firmly believe that shaking hands and having dinner together builds a much stronger relationship than just sending an email. It shows the client that they are truly important to our company.", 
-                    jpn: "私は5年前に営業チームに参加して以来、仕事のために出張を続けています。最初は、素敵なホテルに泊まり、高級なレストランで食事をすることを非常に魅力的に感じていました。しかし、常にスーツケースに荷物を詰め、空港に急ぐことは、ますます疲れ果てるものになってきています。出張は日々のルーティンを乱し、定期的に運動したり健康的な食事を維持したりすることを難しくします。会議と会議の間を急いでいるため、ファストフードを食べることがよくあります。さらに、海外出張者にとって時差ぼけは深刻な問題です。これらの課題にもかかわらず、出張することでクライアントと直接会うことができます。握手をして一緒に夕食をとることは、ただメールを送るよりもはるかに強い関係を築くと私は固く信じています。それは、クライアントが私たちの会社にとって本当に重要であることを示しているのです。" 
+                {
+                    name: "Person 1",
+                    eng: "I have been traveling for work since I joined the sales team five years ago. At first, I found it extremely glamorous to stay in nice hotels and eat at fancy restaurants. However, constantly packing a suitcase and rushing to airports is becoming more and more exhausting. Business travel disrupts your daily routine, making it hard to exercise regularly or maintain a healthy diet. You often eat fast food because you are rushing between meetings. Additionally, jet lag is a serious problem for international travelers. Despite these challenges, traveling allows me to meet our clients face-to-face. I firmly believe that shaking hands and having dinner together builds a much stronger relationship than just sending an email. It shows the client that they are truly important to our company.",
+                    jpn: "私は5年前に営業チームに参加して以来、仕事のために出張を続けています。最初は、素敵なホテルに泊まり、高級なレストランで食事をすることを非常に魅力的に感じていました。しかし、常にスーツケースに荷物を詰め、空港に急ぐことは、ますます疲れ果てるものになってきています。出張は日々のルーティンを乱し、定期的に運動したり健康的な食事を維持したりすることを難しくします。会議と会議の間を急いでいるため、ファストフードを食べることがよくあります。さらに、海外出張者にとって時差ぼけは深刻な問題です。これらの課題にもかかわらず、出張することでクライアントと直接会うことができます。握手をして一緒に夕食をとることは、ただメールを送るよりもはるかに強い関係を築くと私は固く信じています。それは、クライアントが私たちの会社にとって本当に重要であることを示しているのです。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "In my experience, the financial cost of corporate travel is something every company must carefully consider. Flight tickets, accommodation, and daily allowances add up very quickly. With the rise of reliable video conferencing software, many executives are questioning if business trips are actually worth the expense. Why spend two thousand dollars on a flight when you can negotiate a contract online for free? That being said, some situations definitely require an in-person visit. If you are inspecting a new factory, checking product quality, or resolving a major conflict, being there in reality is crucial. I think companies are getting smarter and smarter about this. They are reducing unnecessary domestic trips but still approving travel for high-value strategic meetings.", 
-                    jpn: "私の経験では、企業出張の金銭的コストは、どの会社も慎重に考慮しなければならないものです。航空券、宿泊費、日当は非常に早く積み重なります。信頼性の高いビデオ会議ソフトウェアの普及により、多くの幹部が出張に実際それだけの費用をかける価値があるのかと疑問視しています。オンラインで無料で契約交渉ができるのに、なぜフライトに2000ドルも費やす必要があるのでしょうか？そうは言っても、状況によっては絶対に直接の訪問が必要になります。新しい工場を視察したり、製品の品質を確認したり、大きな対立を解決したりする場合、実際にその場にいることが極めて重要です。企業はこの点についてますます賢くなってきていると思います。不要な国内出張は減らしていますが、価値の高い戦略的な会議のための出張は依然として承認しています。" 
+                {
+                    name: "Person 2",
+                    eng: "In my experience, the financial cost of corporate travel is something every company must carefully consider. Flight tickets, accommodation, and daily allowances add up very quickly. With the rise of reliable video conferencing software, many executives are questioning if business trips are actually worth the expense. Why spend two thousand dollars on a flight when you can negotiate a contract online for free? That being said, some situations definitely require an in-person visit. If you are inspecting a new factory, checking product quality, or resolving a major conflict, being there in reality is crucial. I think companies are getting smarter and smarter about this. They are reducing unnecessary domestic trips but still approving travel for high-value strategic meetings.",
+                    jpn: "私の経験では、企業出張の金銭的コストは、どの会社も慎重に考慮しなければならないものです。航空券、宿泊費、日当は非常に早く積み重なります。信頼性の高いビデオ会議ソフトウェアの普及により、多くの幹部が出張に実際それだけの費用をかける価値があるのかと疑問視しています。オンラインで無料で契約交渉ができるのに、なぜフライトに2000ドルも費やす必要があるのでしょうか？そうは言っても、状況によっては絶対に直接の訪問が必要になります。新しい工場を視察したり、製品の品質を確認したり、大きな対立を解決したりする場合、実際にその場にいることが極めて重要です。企業はこの点についてますます賢くなってきていると思います。不要な国内出張は減らしていますが、価値の高い戦略的な会議のための出張は依然として承認しています。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "For me, the best part of traveling for work is the opportunity for cultural exchange. Visiting a foreign country gives you a totally different perspective on how business operates globally. You learn how to adapt your communication style and respect local customs. This makes you a more flexible and empathetic professional. On the downside, being away from home frequently can be tough on your family. Missing a child's birthday or leaving your partner to manage everything alone creates a lot of guilt. Companies that force employees to travel too much often see high burnout rates. A good employer should offer flexible schedules and extra days off to employees after long business trips. Striking a healthy balance between career ambition and family life is the key to enjoying business travel.", 
-                    jpn: "私にとって、仕事で旅行することの最も良い部分は、文化交流の機会です。外国を訪れることは、ビジネスがグローバルにどのように機能しているかについて全く異なる視点を与えてくれます。自分のコミュニケーションスタイルを適応させ、現地の習慣を尊重する方法を学びます。これにより、より柔軟で共感力のあるプロフェッショナルになることができます。マイナス面としては、頻繁に家を空けることは家族にとってつらいことです。子供の誕生日を逃したり、パートナーにすべてを一人で任せて家を離れることは、多くの罪悪感を生み出します。従業員に過度な出張を強いる企業は、しばしば高い燃え尽き症候群（バーンアウト）の割合を目にします。良い雇用主は、長い出張の後に従業員に柔軟なスケジュールや追加の休暇を提供するべきです。キャリアへの野心と家族生活との間に健康的なバランスを打ち立てることが、出張を楽しむための鍵です。" 
+                {
+                    name: "Person 3",
+                    eng: "For me, the best part of traveling for work is the opportunity for cultural exchange. Visiting a foreign country gives you a totally different perspective on how business operates globally. You learn how to adapt your communication style and respect local customs. This makes you a more flexible and empathetic professional. On the downside, being away from home frequently can be tough on your family. Missing a child's birthday or leaving your partner to manage everything alone creates a lot of guilt. Companies that force employees to travel too much often see high burnout rates. A good employer should offer flexible schedules and extra days off to employees after long business trips. Striking a healthy balance between career ambition and family life is the key to enjoying business travel.",
+                    jpn: "私にとって、仕事で旅行することの最も良い部分は、文化交流の機会です。外国を訪れることは、ビジネスがグローバルにどのように機能しているかについて全く異なる視点を与えてくれます。自分のコミュニケーションスタイルを適応させ、現地の習慣を尊重する方法を学びます。これにより、より柔軟で共感力のあるプロフェッショナルになることができます。マイナス面としては、頻繁に家を空けることは家族にとってつらいことです。子供の誕生日を逃したり、パートナーにすべてを一人で任せて家を離れることは、多くの罪悪感を生み出します。従業員に過度な出張を強いる企業は、しばしば高い燃え尽き症候群（バーンアウト）の割合を目にします。良い雇用主は、長い出張の後に従業員に柔軟なスケジュールや追加の休暇を提供するべきです。キャリアへの野心と家族生活との間に健康的なバランスを打ち立てることが、出張を楽しむための鍵です。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Health & Routine 📖", themeJpn: "健康とルーティン", sub: [{eng: "Jet lag", jpn: "時差ぼけ"}, {eng: "Healthy diet", jpn: "健康的な食事"}, {eng: "Exercise habits", jpn: "運動習慣"}] },
-            { theme: "Relationship Building 📖", themeJpn: "関係構築", sub: [{eng: "Face-to-face meetings", jpn: "対面での会議"}, {eng: "Client dinners", jpn: "クライアントとの夕食"}, {eng: "Building trust", jpn: "信頼の構築"}] },
-            { theme: "Financial Costs 📖", themeJpn: "金銭的コスト", sub: [{eng: "Flight and hotel expenses", jpn: "フライトとホテルの費用"}, {eng: "Daily allowances", jpn: "日当"}, {eng: "Video conferencing savings", jpn: "ビデオ会議による節約"}] },
-            { theme: "When to Travel 📖", themeJpn: "いつ出張すべきか", sub: [{eng: "Factory inspections", jpn: "工場の視察"}, {eng: "Contract negotiations", jpn: "契約交渉"}, {eng: "Resolving conflicts", jpn: "対立の解決"}] },
-            { theme: "Cultural Exchange 📖", themeJpn: "文化交流", sub: [{eng: "Local customs", jpn: "現地の習慣"}, {eng: "Communication styles", jpn: "コミュニケーションスタイル"}, {eng: "Global perspective", jpn: "グローバルな視点"}] },
-            { theme: "Work-Life Balance 📖", themeJpn: "ワークライフバランス", sub: [{eng: "Family commitments", jpn: "家族への責任・約束"}, {eng: "Employee burnout", jpn: "従業員の燃え尽き"}, {eng: "Extra days off", jpn: "追加の休暇"}] }
+            { theme: "Health & Routine 📖", themeJpn: "健康とルーティン", sub: [{ eng: "Jet lag", jpn: "時差ぼけ" }, { eng: "Healthy diet", jpn: "健康的な食事" }, { eng: "Exercise habits", jpn: "運動習慣" }] },
+            { theme: "Relationship Building 📖", themeJpn: "関係構築", sub: [{ eng: "Face-to-face meetings", jpn: "対面での会議" }, { eng: "Client dinners", jpn: "クライアントとの夕食" }, { eng: "Building trust", jpn: "信頼の構築" }] },
+            { theme: "Financial Costs 📖", themeJpn: "金銭的コスト", sub: [{ eng: "Flight and hotel expenses", jpn: "フライトとホテルの費用" }, { eng: "Daily allowances", jpn: "日当" }, { eng: "Video conferencing savings", jpn: "ビデオ会議による節約" }] },
+            { theme: "When to Travel 📖", themeJpn: "いつ出張すべきか", sub: [{ eng: "Factory inspections", jpn: "工場の視察" }, { eng: "Contract negotiations", jpn: "契約交渉" }, { eng: "Resolving conflicts", jpn: "対立の解決" }] },
+            { theme: "Cultural Exchange 📖", themeJpn: "文化交流", sub: [{ eng: "Local customs", jpn: "現地の習慣" }, { eng: "Communication styles", jpn: "コミュニケーションスタイル" }, { eng: "Global perspective", jpn: "グローバルな視点" }] },
+            { theme: "Work-Life Balance 📖", themeJpn: "ワークライフバランス", sub: [{ eng: "Family commitments", jpn: "家族への責任・約束" }, { eng: "Employee burnout", jpn: "従業員の燃え尽き" }, { eng: "Extra days off", jpn: "追加の休暇" }] }
         ],
         questions: [
             { eng: "1. How often do you usually travel for work in a year?", jpn: "1. 1年のうち、普段どのくらいの頻度で出張しますか？" },
@@ -1827,15 +1885,27 @@ const b1Curriculum = [
                 { eng: "Participate in", jpn: "〜に参加する", exEng: "I will participate in the conference next week.", exJpn: "来週のカンファレンスに参加します。" },
                 { eng: "Succeed in", jpn: "〜に成功する", exEng: "We succeeded in securing the new client.", exJpn: "私たちは新しいクライアントを獲得することに成功しました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Present perfect progressive (have/has been + ing) - 4 sentences
+                { prompt: "会社に入社して以来、私は仕事で出張を続けています。", target: "I have been traveling for work since I joined the company.", words: ["I", "have", "been", "traveling", "for", "work", "since", "I", "joined", "the", "company."] },
+                { prompt: "彼女はこのレポートに3時間取り組んでいます。", target: "She has been working on this report for three hours.", words: ["She", "has", "been", "working", "on", "this", "report", "for", "three", "hours."] },
+                { prompt: "彼らは今年、多くの国内出張を行っています。", target: "They have been taking many domestic trips this year.", words: ["They", "have", "been", "taking", "many", "domestic", "trips", "this", "year."] },
+                { prompt: "私は先週からクライアントとの夕食を手配し続けています。", target: "I have been arranging client dinners since last week.", words: ["I", "have", "been", "arranging", "client", "dinners", "since", "last", "week."] },
+                // Grammar Point 2: Continuous change (comparative + and + comparative) - 4 sentences
+                { prompt: "出張はますます疲れ果てるものになってきています。", target: "Business travel is becoming more and more exhausting.", words: ["Business", "travel", "is", "becoming", "more", "and", "more", "exhausting."] },
+                { prompt: "企業は経費についてますます賢くなってきています。", target: "Companies are getting smarter and smarter about expenses.", words: ["Companies", "are", "getting", "smarter", "and", "smarter", "about", "expenses."] },
+                { prompt: "フライトの費用はますます高くなってきています。", target: "Flight costs are getting higher and higher.", words: ["Flight", "costs", "are", "getting", "higher", "and", "higher."] },
+                { prompt: "ビデオ会議はますます便利になってきています。", target: "Video meetings are becoming more and more convenient.", words: ["Video", "meetings", "are", "becoming", "more", "and", "more", "convenient."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 5 - Workplace FAQ)",
+                instruction: "Read this company travel FAQ. Notice how present perfect progressive and continuous change expressions are used.",
+                eng: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>✈️ Corporate Travel Policy: Common Questions</h3><div class='er-faq-item'><span class='er-faq-q'>Q: Why has our team been flying less for regular updates?</span><div class='er-faq-a'>We have been using video calls for routine team meetings for two years now. Travel expenses are becoming more and more costly, so online check-ins help us save budget and time. That being said, we still approve face-to-face trips for important client deals.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: How can travelers avoid burnout on long trips?</span><div class='er-faq-a'>Employees who have been traveling all month often deal with jet lag and tired routines. On the downside, rushing between airports and hotels makes healthy meals harder. In my experience, taking a short rest day after long international travel helps people recover well.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: When is an in-person visit still necessary?</span><div class='er-faq-a'>Despite good video tools, visiting a factory or solving a serious problem face-to-face is still important. Customers are getting more and more selective about partnerships, and shaking hands builds trust that a screen cannot replace.</div></div></div>",
+                jpn: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>✈️ 企業出張ポリシー：よくある質問</h3><div class='er-faq-item'><span class='er-faq-q'>Q: なぜ私たちのチームは定例報告でのフライトを減らしているのですか？</span><div class='er-faq-a'>私たちは2年前から定例のチーム会議にビデオ通話を使い続けています。出張経費はますます高くなってきているため、オンラインでの連絡は予算と時間の節約に役立ちます。そうは言っても、重要なクライアントとの商談のための対面出張は引き続き承認しています。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 長期出張で出張者が燃え尽きるのを防ぐにはどうすればよいですか？</span><div class='er-faq-a'>1ヶ月間ずっと出張し続けている従業員は、しばしば時差ぼけや生活リズムの乱れに直面します。マイナス面としては、空港とホテルの間を急ぐと健康的な食事が難しくなります。私の経験では、長い海外出張の後に短い休息日をとることが、しっかり回復するのに役立ちます。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: どのような場合に直接の訪問がまだ必要ですか？</span><div class='er-faq-a'>優れたビデオツールがあっても、工場を視察したり深刻な問題を解決したりするには、対面が依然として重要です。顧客はパートナーシップに対してますます慎重になってきており、握手をすることで画面では代替できない信頼が築かれます。</div></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think companies should reduce business travel in the future? Use 'present perfect progressive' and transitional expressions.",
                 promptJpn: "「企業は将来的に出張を減らすべきだと思いますか？現在完了進行形とトランジション表現を使って答えてください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Future of Corporate Travel)",
-                instruction: "Read this authentic article to learn more about how business travel is changing.",
-                eng: "For decades, being a 'road warrior' was seen as a symbol of corporate success. Executives took pride in flying millions of miles to close deals, attend conferences, and inspect global operations. However, the corporate travel landscape has been changing rapidly in recent years. Advancements in video conferencing and a growing awareness of carbon footprints have forced companies to re-evaluate their travel budgets. Today, many managers believe that routine meetings can be handled perfectly well online, saving both time and money.\n\nThat being said, human psychology still favors in-person interactions. Building trust with a new client is becoming harder and harder through a computer screen. When professionals meet face-to-face, they communicate through subtle body language, share meals, and engage in casual small talk. These informal moments often lead to the strongest business partnerships. In my experience, while you can maintain an existing relationship via email, launching a completely new venture often requires a handshake. Therefore, while companies are cutting down on internal travel—such as flying employees to a different office just for a staff meeting—they are still investing heavily in external, client-facing trips.\n\nFurthermore, modern employees are increasingly demanding a better work-life balance. Frequent travel can lead to severe burnout, disrupted sleep schedules, and strained family relationships. To combat this, progressive companies have been implementing 'bleisure' policies (blending business and leisure). They allow employees to extend their work trips by a few days to explore the destination personally. Ultimately, the future of corporate travel will focus on intentionality; companies will travel less frequently, but those trips will be much more strategic and highly valued.",
-                jpn: "何十年もの間、「ロードウォリアー（頻繁に出張する人）」であることは企業の成功の象徴と見なされていました。幹部たちは、契約をまとめ、カンファレンスに参加し、グローバルな事業を視察するために何百万マイルも飛行機に乗ることを誇りに思っていました。しかし、企業出張の状況は近年急速に変化しています。ビデオ会議の進歩と二酸化炭素排出量に対する意識の高まりにより、企業は出張予算の再評価を迫られています。今日、多くのマネージャーは、日常的な会議はオンラインで完璧に処理でき、時間とお金の両方を節約できると信じています。\n\nそうは言っても、人間の心理は依然として対面での交流を好みます。新しいクライアントと信頼を築くことは、コンピューターの画面越しではますます難しくなってきています。プロフェッショナルが直接会うとき、彼らは微妙なボディーランゲージを通じてコミュニケーションをとり、食事を共にし、カジュアルな雑談をします。これらの非公式な瞬間が、しばしば最も強力なビジネスパートナーシップにつながります。私の経験では、既存の関係はメールで維持できますが、全く新しいベンチャーを立ち上げるには、しばしば握手が必要になります。したがって、企業は単なるスタッフミーティングのために従業員を別のオフィスに飛ばすような社内出張を削減している一方で、社外のクライアント向けの出張には依然として多額の投資を行っています。\n\nさらに、現代の従業員はより良いワークライフバランスをますます求めています。頻繁な出張は、深刻な燃え尽き症候群、睡眠スケジュールの乱れ、家族関係の緊張につながる可能性があります。これに対抗するため、進歩的な企業は「ブレジャー（ビジネスとレジャーの融合）」ポリシーを導入しています。彼らは、従業員が個人的に目的地を探索するために出張を数日間延長することを許可しています。最終的に、企業出張の未来は意図性に焦点が当てられるでしょう。企業が出張する頻度は減りますが、それらの出張ははるかに戦略的で高く評価されるものになるでしょう。"
             }
         }
     },
@@ -1888,46 +1958,38 @@ const b1Curriculum = [
             { eng: "Confirm actions + Promise follow-up", jpn: "行動を確認する ＋ フォローアップを約束する", indent: true }
         ],
         expressions: [
-            { category: "1. Asking about departure (出発について尋ねる)", options: ["When exactly will you be departing?", "What time are you flying out?", "When is your scheduled departure?"] },           
-            { category: "2. Stating departure politely (出発を丁寧に述べる)", options: ["I will be leaving on Monday morning.", "I will be flying out at 9 AM.", "I will be taking the afternoon flight."] }, 
-            { category: "3. Stating seating preference (座席の希望を述べる)", options: ["I would like a window seat, please.", "I prefer an aisle seat if possible.", "Could I get a seat near the front?"] },
-            { category: "4. Expressing lack of willingness/malfunction (モノが動かないことを表現する)", options: ["The payment page won't load.", "My credit card won't go through.", "The booking system won't accept this date."] },
-            { category: "5. Suggesting alternatives (代替案を提案する)", options: ["Can we try booking through a different portal?", "Should we call the airline directly?", "Why don't we try another hotel?"] },
-            { category: "6. Requesting accommodation (宿泊施設を要求する)", options: ["Could you reserve a room near the center?", "I need to book a hotel downtown.", "Please find a place close to the venue."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Future Progressive: Describing future plans politely (will be + ing)",
-                explanation: "We can use the future progressive tense to express a plan in the future. This sounds quite polite and professional, making it popular in business English. It is often used with short action verbs like 'arrive', 'leave', or 'fly'.",
-                explanationJpn: "未来進行形を使って未来の計画を表現できます。これは非常に丁寧でプロフェッショナルに聞こえるため、ビジネス英語で人気があります。「arrive（到着する）」「leave（出発する）」「fly（飛ぶ）」などの短い動作の動詞とよく使われます。",
-                examples: [
-                    { eng: "I will be leaving on Monday morning at 9 AM.", jpn: "私は月曜日の午前9時に出発する予定です。" },
-                    { eng: "The client will be arriving at the hotel soon.", jpn: "クライアントはまもなくホテルに到着する予定です。" }
+                category: "1. Asking about departure (出発について尋ねる)",
+                options: [
+                    { eng: "When exactly will you be departing?", jpn: "正確にはいつ出発する予定ですか？" },
+                    { eng: "What time are you flying out?", jpn: "何時に出発するのですか？" },
+                    { eng: "When is your scheduled departure?", jpn: "予定されている出発はいつですか？" }
                 ]
             },
             {
-                point: "2. Modals: Expressing a lack of willingness in the present (won't + verb)",
-                explanation: "We can use 'won't' to express that an item is broken or not performing its correct function. It sounds as if the item is stubbornly refusing to help you.",
-                explanationJpn: "「won't」を使って、アイテムが壊れている、または正しく機能していないことを表現できます。まるでそのアイテムが頑なに助けてくれることを拒否しているかのように聞こえます。",
-                examples: [
-                    { eng: "The payment page won't load.", jpn: "支払いページが読み込まれません（どうしても動こうとしません）。" },
-                    { eng: "My computer won't turn on.", jpn: "私のコンピューターの電源が入りません（どうしても起動しようとしません）。" }
+                category: "2. Stating seating preference (座席の希望を述べる)",
+                options: [
+                    { eng: "I would like a window seat, please.", jpn: "窓側の席をお願いします。" },
+                    { eng: "I prefer an aisle seat if possible.", jpn: "可能であれば通路側の席がいいです。" },
+                    { eng: "Could I get a seat near the front?", jpn: "前の方の席をもらえますか？" }
+                ]
+            },
+            {
+                category: "3. Expressing malfunction with 'won't' (モノが動かないことを表現する)",
+                options: [
+                    { eng: "The payment page won't load.", jpn: "支払いページが読み込まれません。" },
+                    { eng: "My credit card won't go through.", jpn: "クレジットカードが通りません。" },
+                    { eng: "The booking system won't accept this date.", jpn: "予約システムがこの日付を受け付けません。" }
+                ]
+            },
+            {
+                category: "4. Suggesting alternatives (代替案を提案する)",
+                options: [
+                    { eng: "Can we try booking through a different portal?", jpn: "別の旅行ポータルから予約してみることはできますか？" },
+                    { eng: "Should we call the airline directly?", jpn: "航空会社に直接電話するべきでしょうか？" },
+                    { eng: "Why don't we try another hotel?", jpn: "別のホテルを試してみませんか？" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "私は月曜日の午前9時に出発する予定です。", target: "I will be leaving on Monday morning.", words: ["I", "will", "be", "leaving", "on", "Monday", "morning."] },
-            { prompt: "支払いページが読み込まれません。", target: "The payment page won't load.", words: ["The", "payment", "page", "won't", "load."] },
-            { prompt: "正確にはいつ出発する予定ですか？", target: "When exactly will you be departing?", words: ["When", "exactly", "will", "you", "be", "departing?"] },
-            { prompt: "別の旅行ポータルから予約してみることはできますか？", target: "Can we try booking through a different portal?", words: ["Can", "we", "try", "booking", "through", "a", "different", "portal?"] },
-            { prompt: "エコノミークラスの窓側の席をお願いします。", target: "I would like a window seat in economy class.", words: ["I", "would", "like", "a", "window", "seat", "in", "economy", "class."] }
-        ],
-        dropdownGames: [
-            { before: "I will", options: ["be leaving", "be leave", "leaving"], answer: "be leaving", after: " on the red-eye flight tonight." },
-            { before: "The booking system", options: ["don't", "won't", "isn't"], answer: "won't", after: " accept my credit card." },
-            { before: "When exactly will you be", options: ["depart", "departing", "departure"], answer: "departing", after: "?" },
-            { before: "Could you reserve a", options: ["room", "rooming", "rooms"], answer: "room", after: " at a hotel downtown?" },
-            { before: "I prefer an aisle", options: ["sit", "seat", "seating"], answer: "seat", after: " if possible." }
         ],
         roleplay: {
             a: "You need your assistant to book a flight and hotel for you. Politely state when you will be departing using 'will be -ing' and ask for a specific seat preference. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(アシスタントにフライトとホテルの予約をお願いする必要があります。「will be -ing」を使っていつ出発するかを丁寧に述べ、特定の座席の希望を伝えてください。)</span>",
@@ -1954,20 +2016,31 @@ const b1Curriculum = [
                 { eng: "Speed up", jpn: "スピードを上げる、早める", exEng: "Using the self-service kiosk speeds up check-in.", exJpn: "セルフサービスのキオスクを使うとチェックインが早まります。" },
                 { eng: "Slow down", jpn: "スピードを落とす、遅らせる", exEng: "Security checks can slow down the boarding process.", exJpn: "手荷物検査は搭乗プロセスを遅らせる可能性があります。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Future progressive (will be + ing) - 4 sentences
+                { prompt: "私は月曜日の午前9時に出発する予定です。", target: "I will be leaving on Monday morning at 9 AM.", words: ["I", "will", "be", "leaving", "on", "Monday", "morning", "at", "9", "AM."] },
+                { prompt: "正確にはいつ出発する予定ですか？", target: "When exactly will you be departing?", words: ["When", "exactly", "will", "you", "be", "departing?"] },
+                { prompt: "クライアントはまもなくホテルに到着する予定です。", target: "The client will be arriving at the hotel soon.", words: ["The", "client", "will", "be", "arriving", "at", "the", "hotel", "soon."] },
+                { prompt: "私たちは明日の午後にシンガポールへ飛ぶ予定です。", target: "We will be flying to Singapore tomorrow afternoon.", words: ["We", "will", "be", "flying", "to", "Singapore", "tomorrow", "afternoon."] },
+                // Grammar Point 2: Lack of willingness in present (won't + verb) - 4 sentences
+                { prompt: "支払いページが読み込まれません。", target: "The payment page won't load.", words: ["The", "payment", "page", "won't", "load."] },
+                { prompt: "私のコンピューターの電源が入りません。", target: "My computer won't turn on.", words: ["My", "computer", "won't", "turn", "on."] },
+                { prompt: "予約システムがこの日付を受け付けません。", target: "The booking system won't accept this date.", words: ["The", "booking", "system", "won't", "accept", "this", "date."] },
+                { prompt: "そのドアの鍵が開きません。", target: "The hotel room door won't open.", words: ["The", "hotel", "room", "door", "won't", "open."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 6 - Internal Job / Role Brief)",
+                instruction: "Read this role brief for a corporate travel assistant. Notice future progressive plans and 'won't' for system glitches.",
+                eng: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 Travel &amp; Logistics Coordinator Brief</h3><span class='er-job-tag'>Operations</span> <span class='er-job-tag'>Hybrid Office</span><p><strong>Role Overview:</strong><br>Our team supports engineers and managers who travel to client sites and conferences. You will be helping travelers book flights, reserve rooms near meeting venues, and confirm bookings ahead of busy travel weeks. When a manager asks, 'When will you be departing for the expo?', you need clear schedules and backup options ready.</p><p><strong>💼 Daily Responsibilities:</strong></p><ul><li>Compare economy class flights, check baggage rules, and watch out for hidden fees or budget airline limits.</li><li>Reserve rooms at clean hotels close to the conference center so travelers avoid long morning rides.</li><li>Troubleshoot booking portals when a payment page won't load or a card won't go through, then sort out a fast alternative.</li><li>Check travelers in online, send boarding passes early, and keep them updated if a flight is full or delayed.</li></ul></div>",
+                jpn: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 トラベル＆ロジスティクス・コーディネーター概要</h3><span class='er-job-tag'>オペレーション</span> <span class='er-job-tag'>ハイブリッド勤務</span><p><strong>役割の概要：</strong><br>私たちのチームは、クライアント先やカンファレンスに出張するエンジニアやマネージャーをサポートします。繁忙期の出張の前に、フライトの予約、会議会場近くの部屋の手配、予約の確認を手伝います。マネージャーから「いつ展示会へ出発する予定ですか？」と聞かれた際、明確なスケジュールと代替案を用意しておく必要があります。</p><p><strong>💼 日々の業務：</strong></p><ul><li>エコノミークラスのフライトを比較し、手荷物ルールを確認し、隠れた手数料や格安航空会社の制限に注意する。</li><li>出張者が朝の長い移動を避けられるよう、カンファレンスセンターに近い清潔なホテルの部屋を予約する。</li><li>支払いページが読み込まれない、またはカードが通らないといった予約ポータルの不具合に対応し、素早く代替案を手配する。</li><li>オンラインでチェックインを行い、搭乗券を早めに送り、フライトが満席や遅延になった場合は最新情報を伝える。</li></ul></div>"
+            },
             writingTask: {
                 promptEng: "Write a short dialogue where you ask a travel agent to book a flight for you. State your departure time politely using 'will be -ing' and describe a technical issue using 'won't'.",
                 promptJpn: "「旅行代理店にフライトの予約をお願いする短い対話を書いてください。『will be -ing』を使って出発時間を丁寧に述べ、『won't』を使って技術的な問題を説明してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Booking Process)",
-                instruction: "Read this authentic text about arranging corporate travel.",
-                eng: "Organizing corporate travel can be a highly stressful task for administrative assistants. Unlike planning a personal vacation, business travel requires strict adherence to company budgets, tight schedules, and the specific preferences of executives. The process usually begins with a simple request. An executive will state, 'I will be leaving for Tokyo on Wednesday,' and the assistant must immediately begin comparing flight options. While budget airlines often provide the cheapest tickets, they are famous for hidden fees and strict luggage limits, which can be frustrating for a business traveler who needs flexibility.\n\nOnce the ideal flight is found, the assistant must navigate the booking system. Unfortunately, corporate booking portals are notoriously unreliable. It is very common to hear complaints like, 'The payment page won't load' or 'The system won't accept this corporate credit card.' When these technical glitches occur, assistants must remain calm and quickly sort out an alternative solution, such as calling the airline directly or using a different browser. After securing the flight, they must reserve a room that is geographically close to the meeting venue to minimize local transit time.\n\nFinally, keeping the traveler informed is crucial. A good assistant will check the executive in online 24 hours before departure, print out or email the digital boarding pass, and send a clear itinerary. They must also monitor the flight status, as airlines sometimes bump flights or experience sudden delays. By anticipating problems and managing the logistics smoothly, assistants ensure that the executive can focus entirely on their upcoming business meetings rather than stressing about their travel arrangements.",
-                jpn: "企業出張の手配は、管理アシスタントにとって非常にストレスの多い業務になる可能性があります。個人的な休暇の計画とは異なり、ビジネス出張には、会社の予算への厳格な遵守、タイトなスケジュール、そして幹部の特定の好みが求められます。プロセスは通常、簡単な依頼から始まります。幹部が「水曜日に東京へ出発する予定です」と述べると、アシスタントは直ちにフライトの選択肢の比較を始めなければなりません。格安航空会社はしばしば最も安いチケットを提供しますが、隠れた手数料や厳しい荷物制限で有名であり、柔軟性を必要とする出張者にとってはフラストレーションの原因になり得ます。\n\n理想的なフライトが見つかったら、アシスタントは予約システムを操作しなければなりません。残念ながら、企業の予約ポータルは信頼性が低いことで有名です。「支払いページが読み込まれない」や「システムがこの法人クレジットカードを受け付けない」といった苦情を聞くことは非常に一般的です。これらの技術的な不具合が発生した場合、アシスタントは冷静さを保ち、航空会社に直接電話をしたり別のブラウザを使用したりするなど、代替の解決策を迅速に手配（整理）しなければなりません。フライトを確保した後、現地の移動時間を最小限に抑えるために、会議の会場に地理的に近い部屋を予約しなければなりません。\n\n最後に、旅行者に常に情報を提供し続けることが極めて重要です。優れたアシスタントは、出発の24時間前に幹部のオンラインチェックインを済ませ、デジタルの搭乗券を印刷またはメールで送信し、明確な旅程表を送ります。航空会社は時としてフライトを振り替えたり、突然の遅延を経験したりするため、フライトの状況も監視しなければなりません。問題を予測し、段取りをスムーズに管理することで、アシスタントは幹部が旅行の手配についてストレスを感じるのではなく、今後のビジネス会議に完全に集中できることを保証するのです。"
             }
         }
     },
-
-{
+    {
         id: 17,
         chapter: "Chapter 3: Business Travel",
         type: "opinion",
@@ -1977,30 +2050,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "When you travel internationally for business, understanding local customs is just as important as knowing your product. In my experience, greeting styles vary wildly. In some countries, a firm handshake is expected, while in others, a respectful bow is the standard. I once met a CEO whose entire team preferred a highly formal exchange of business cards using both hands. If you do not learn these small details, you might accidentally offend the person you are trying to impress. Furthermore, time management is viewed differently across the globe. In Germany, being five minutes early is considered on time, but in other cultures, meetings start much more casually. Adapting to these norms shows that you are a respectful and empathetic global professional.", 
-                    jpn: "仕事で海外に出張する際、現地の習慣を理解することは、自分の製品を知ることと同じくらい重要です。私の経験では、挨拶のスタイルは大きく異なります。しっかりとした握手が期待される国もあれば、丁寧なお辞儀が標準である国もあります。私はかつて、チーム全員が両手を使って非常にフォーマルな名刺交換を好むCEOに会ったことがあります。これらの小さな詳細を学ばなければ、好印象を与えようとしている相手を誤って怒らせてしまうかもしれません。さらに、時間管理も世界中で異なって見られています。ドイツでは5分前行動が時間通りと見なされますが、他の文化では会議はずっとカジュアルに始まります。これらの規範に適応することは、あなたが敬意と思いやりを持ったグローバルなプロフェッショナルであることを示します。" 
+                {
+                    name: "Person 1",
+                    eng: "When you travel internationally for business, understanding local customs is just as important as knowing your product. In my experience, greeting styles vary wildly. In some countries, a firm handshake is expected, while in others, a respectful bow is the standard. I once met a CEO whose entire team preferred a highly formal exchange of business cards using both hands. If you do not learn these small details, you might accidentally offend the person you are trying to impress. Furthermore, time management is viewed differently across the globe. In Germany, being five minutes early is considered on time, but in other cultures, meetings start much more casually. Adapting to these norms shows that you are a respectful and empathetic global professional.",
+                    jpn: "仕事で海外に出張する際、現地の習慣を理解することは、自分の製品を知ることと同じくらい重要です。私の経験では、挨拶のスタイルは大きく異なります。しっかりとした握手が期待される国もあれば、丁寧なお辞儀が標準である国もあります。私はかつて、チーム全員が両手を使って非常にフォーマルな名刺交換を好むCEOに会ったことがあります。これらの小さな詳細を学ばなければ、好印象を与えようとしている相手を誤って怒らせてしまうかもしれません。さらに、時間管理も世界中で異なって見られています。ドイツでは5分前行動が時間通りと見なされますが、他の文化では会議はずっとカジュアルに始まります。これらの規範に適応することは、あなたが敬意と思いやりを持ったグローバルなプロフェッショナルであることを示します。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "Dining etiquette is another massive challenge during business trips. Sharing a meal is a common way to build trust, but the rules of the dinner table change depending on where you are. I remember a client who I took out for dinner in Asia; he explained that leaving a little food on your plate shows that the host provided enough to eat. In my home country, leaving food is considered rude. Also, alcohol consumption plays a different role in various business cultures. In some regions, sharing a few drinks after work is an essential bonding activity, while in others, it is strictly forbidden. Observing what your host does and following their lead is usually the safest strategy.", 
-                    jpn: "食事のエチケットは、出張中のもう一つの大きな課題です。食事を共有することは信頼を築く一般的な方法ですが、食卓のルールはあなたがいる場所によって変わります。アジアで夕食に連れて行ったクライアントを覚えていますが、彼は、お皿に少し食べ物を残すことは、ホストが十分な食事を提供したことを示すのだと説明してくれました。私の母国では、食べ物を残すことは失礼だと見なされます。また、アルコールの消費は様々なビジネス文化において異なる役割を果たします。仕事の後に何杯かお酒を酌み交わすことが不可欠な親睦活動である地域もあれば、厳格に禁止されている地域もあります。ホストが何をするかを観察し、彼らに従うことが通常最も安全な戦略です。" 
+                {
+                    name: "Person 2",
+                    eng: "Dining etiquette is another massive challenge during business trips. Sharing a meal is a common way to build trust, but the rules of the dinner table change depending on where you are. I remember a client who I took out for dinner in Asia; he explained that leaving a little food on your plate shows that the host provided enough to eat. In my home country, leaving food is considered rude. Also, alcohol consumption plays a different role in various business cultures. In some regions, sharing a few drinks after work is an essential bonding activity, while in others, it is strictly forbidden. Observing what your host does and following their lead is usually the safest strategy.",
+                    jpn: "食事のエチケットは、出張中のもう一つの大きな課題です。食事を共有することは信頼を築く一般的な方法ですが、食卓のルールはあなたがいる場所によって変わります。アジアで夕食に連れて行ったクライアントを覚えていますが、彼は、お皿に少し食べ物を残すことは、ホストが十分な食事を提供したことを示すのだと説明してくれました。私の母国では、食べ物を残すことは失礼だと見なされます。また、アルコールの消費は様々なビジネス文化において異なる役割を果たします。仕事の後に何杯かお酒を酌み交わすことが不可欠な親睦活動である地域もあれば、厳格に禁止されている地域もあります。ホストが何をするかを観察し、彼らに従うことが通常最も安全な戦略です。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "Communication styles are perhaps the most complex cultural differences to navigate. In some Western countries, direct communication is highly valued. People say exactly what they mean, and they appreciate honest, straightforward feedback. Conversely, many Eastern cultures rely on indirect communication to preserve harmony and avoid embarrassing anyone publicly. I recently worked with a designer whose manager never explicitly said 'no' to a bad idea; instead, he gently suggested 'studying it further.' If you do not understand these subtle cues, you might think an agreement was reached when it actually wasn't. Successful international business requires a lot of patience, active listening, and a genuine willingness to step outside your own cultural comfort zone.", 
-                    jpn: "コミュニケーションのスタイルは、おそらく最も複雑な文化の違いです。一部の欧米諸国では、直接的なコミュニケーションが高く評価されます。人々は自分が意図していることを正確に言い、正直で単刀直入なフィードバックを歓迎します。逆に、多くの東洋の文化では、調和を保ち、公の場で誰かに恥をかかせるのを避けるために、間接的なコミュニケーションに依存します。最近一緒に仕事をしたデザイナーのマネージャーは、悪いアイデアに対して決して明確に「ノー」とは言わず、代わりに「さらに検討する」ことを優しく提案していました。これらの微妙なサインを理解していないと、実際には合意に達していないのに、合意に達したと思い込んでしまうかもしれません。国際ビジネスを成功させるには、多くの忍耐、積極的な傾聴、そして自分自身の文化的な安全地帯から踏み出そうとする純粋な意欲が必要です。" 
+                {
+                    name: "Person 3",
+                    eng: "Communication styles are perhaps the most complex cultural differences to navigate. In some Western countries, direct communication is highly valued. People say exactly what they mean, and they appreciate honest, straightforward feedback. Conversely, many Eastern cultures rely on indirect communication to preserve harmony and avoid embarrassing anyone publicly. I recently worked with a designer whose manager never explicitly said 'no' to a bad idea; instead, he gently suggested 'studying it further.' If you do not understand these subtle cues, you might think an agreement was reached when it actually wasn't. Successful international business requires a lot of patience, active listening, and a genuine willingness to step outside your own cultural comfort zone.",
+                    jpn: "コミュニケーションのスタイルは、おそらく最も複雑な文化の違いです。一部の欧米諸国では、直接的なコミュニケーションが高く評価されます。人々は自分が意図していることを正確に言い、正直で単刀直入なフィードバックを歓迎します。逆に、多くの東洋の文化では、調和を保ち、公の場で誰かに恥をかかせるのを避けるために、間接的なコミュニケーションに依存します。最近一緒に仕事をしたデザイナーのマネージャーは、悪いアイデアに対して決して明確に「ノー」とは言わず、代わりに「さらに検討する」ことを優しく提案していました。これらの微妙なサインを理解していないと、実際には合意に達していないのに、合意に達したと思い込んでしまうかもしれません。国際ビジネスを成功させるには、多くの忍耐、積極的な傾聴、そして自分自身の文化的な安全地帯から踏み出そうとする純粋な意欲が必要です。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Greetings 📖", themeJpn: "挨拶", sub: [{eng: "Handshakes and bows", jpn: "握手とお辞儀"}, {eng: "Exchanging cards", jpn: "名刺交換"}, {eng: "Formality levels", jpn: "フォーマルさの度合い"}] },
-            { theme: "Time Management 📖", themeJpn: "時間管理", sub: [{eng: "Punctuality", jpn: "時間厳守"}, {eng: "Meeting schedules", jpn: "会議のスケジュール"}, {eng: "Deadlines", jpn: "締め切り"}] },
-            { theme: "Dining Etiquette 📖", themeJpn: "食事のエチケット", sub: [{eng: "Table manners", jpn: "テーブルマナー"}, {eng: "Paying the bill", jpn: "お会計"}, {eng: "Alcohol consumption", jpn: "アルコールの消費"}] },
-            { theme: "Communication 📖", themeJpn: "コミュニケーション", sub: [{eng: "Direct vs Indirect", jpn: "直接的対間接的"}, {eng: "Saying 'no'", jpn: "「ノー」の言い方"}, {eng: "Reading the room", jpn: "空気を読むこと"}] },
-            { theme: "Gift Giving 📖", themeJpn: "贈り物の習慣", sub: [{eng: "Appropriate items", jpn: "適切な品物"}, {eng: "Wrapping customs", jpn: "包装の習慣"}, {eng: "When to give", jpn: "贈るタイミング"}] },
-            { theme: "Dress Codes 📖", themeJpn: "服装規定", sub: [{eng: "Formal business attire", jpn: "フォーマルなビジネス服"}, {eng: "Business casual", jpn: "ビジネスカジュアル"}, {eng: "Modesty standards", jpn: "控えめさの基準"}] }
+            { theme: "Greetings 📖", themeJpn: "挨拶", sub: [{ eng: "Handshakes and bows", jpn: "握手とお辞儀" }, { eng: "Exchanging cards", jpn: "名刺交換" }, { eng: "Formality levels", jpn: "フォーマルさの度合い" }] },
+            { theme: "Time Management 📖", themeJpn: "時間管理", sub: [{ eng: "Punctuality", jpn: "時間厳守" }, { eng: "Meeting schedules", jpn: "会議のスケジュール" }, { eng: "Deadlines", jpn: "締め切り" }] },
+            { theme: "Dining Etiquette 📖", themeJpn: "食事のエチケット", sub: [{ eng: "Table manners", jpn: "テーブルマナー" }, { eng: "Paying the bill", jpn: "お会計" }, { eng: "Alcohol consumption", jpn: "アルコールの消費" }] },
+            { theme: "Communication 📖", themeJpn: "コミュニケーション", sub: [{ eng: "Direct vs Indirect", jpn: "直接的対間接的" }, { eng: "Saying 'no'", jpn: "「ノー」の言い方" }, { eng: "Reading the room", jpn: "空気を読むこと" }] },
+            { theme: "Gift Giving 📖", themeJpn: "贈り物の習慣", sub: [{ eng: "Appropriate items", jpn: "適切な品物" }, { eng: "Wrapping customs", jpn: "包装の習慣" }, { eng: "When to give", jpn: "贈るタイミング" }] },
+            { theme: "Dress Codes 📖", themeJpn: "服装規定", sub: [{ eng: "Formal business attire", jpn: "フォーマルなビジネス服" }, { eng: "Business casual", jpn: "ビジネスカジュアル" }, { eng: "Modesty standards", jpn: "控えめさの基準" }] }
         ],
         questions: [
             { eng: "1. Have you ever experienced a cultural misunderstanding while traveling?", jpn: "1. 旅行中に文化的な誤解を経験したことはありますか？" },
@@ -2076,15 +2149,27 @@ const b1Curriculum = [
                 { eng: "Show around", jpn: "案内する", exEng: "My host showed me around the historic city center.", exJpn: "ホストが歴史的な市内中心部を案内してくれました。" },
                 { eng: "Brush up on", jpn: "（忘れていた知識などを）やり直す、磨きをかける", exEng: "I need to brush up on my Spanish before the trip.", exJpn: "旅行の前にスペイン語に磨きをかけ直す（復習する）必要があります。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Defining people by interaction (who + subject + verb) - 4 sentences
+                { prompt: "彼は私が東京で会ったクライアントです。", target: "He is the client who I met in Tokyo.", words: ["He", "is", "the", "client", "who", "I", "met", "in", "Tokyo."] },
+                { prompt: "サラは私たちが昨日メールしたマネージャーです。", target: "Sarah is the manager we emailed yesterday.", words: ["Sarah", "is", "the", "manager", "we", "emailed", "yesterday."] },
+                { prompt: "あの人は私が夕食に招待した同僚です。", target: "She is the coworker who I invited to dinner.", words: ["She", "is", "the", "coworker", "who", "I", "invited", "to", "dinner."] },
+                { prompt: "彼らが会議で話していたパートナーはその人です。", target: "That is the partner who they met at the conference.", words: ["That", "is", "the", "partner", "who", "they", "met", "at", "the", "conference."] },
+                // Grammar Point 2: Defining someone by possessions (whose) - 4 sentences
+                { prompt: "私は、チームがフォーマルな挨拶を好むCEOに会いました。", target: "I met a CEO whose team prefers formal greetings.", words: ["I", "met", "a", "CEO", "whose", "team", "prefers", "formal", "greetings."] },
+                { prompt: "あの人は、スケジュールがいつもいっぱいのマネージャーです。", target: "That is the manager whose schedule is always full.", words: ["That", "is", "the", "manager", "whose", "schedule", "is", "always", "full."] },
+                { prompt: "私は、家族が海外に住んでいる同僚と働いています。", target: "I work with a colleague whose family lives abroad.", words: ["I", "work", "with", "a", "colleague", "whose", "family", "lives", "abroad."] },
+                { prompt: "そのホストは、地元の習慣をとてもよく知っている人です。", target: "The host is someone whose local knowledge is very helpful.", words: ["The", "host", "is", "someone", "whose", "local", "knowledge", "is", "very", "helpful."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 7 - Quick Cultural Style Quiz)",
+                instruction: "Read this quick guide on workplace customs across cultures. Notice relative clauses with 'who' and 'whose'.",
+                eng: "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>🌍 CHECK: How Well Do You Read Cultural Cues?</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>When you visit a partner office abroad, small customs matter. Think about how you respond in these situations:</p><span class='er-quiz-q'>1. You meet a senior director whose team takes time before talking business. You usually...</span><span class='er-quiz-opt'>A) Start with polite small talk and read the room before sharing numbers.</span><span class='er-quiz-opt'>B) Jump straight into pricing because your style is very direct.</span><span class='er-quiz-q'>2. At a client dinner, a host who you met in Osaka leaves a little food on their plate. You...</span><span class='er-quiz-opt'>A) Observe local table manners instead of assuming it means the meal was bad.</span><span class='er-quiz-opt'>B) Ask why they did not finish everything right at the table.</span><div class='er-quiz-res'><strong>💡 Takeaway:</strong><br>In short, professionals who notice subtle cues build stronger trust. Conversely, ignoring local customs can offend a partner whose expectations are different from yours.</div></div>",
+                jpn: "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>🌍 チェック：あなたはどれくらい文化的なサインを読み取れますか？</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>海外のパートナーオフィスを訪れる際、ちょっとした習慣が重要になります。次のような状況でどう対応するか考えてみましょう：</p><span class='er-quiz-q'>1. ビジネスの話をする前に時間をかけるチームを持つシニアディレクターに会いました。あなたは普段...</span><span class='er-quiz-opt'>A) 丁寧な雑談から始め、数字を出す前に場の空気を読む。</span><span class='er-quiz-opt'>B) 自分のスタイルはとても直接的なので、すぐに価格の話に入る。</span><span class='er-quiz-q'>2. クライアントとの夕食で、大阪で会ったホストがお皿に少し食べ物を残しました。あなたは...</span><span class='er-quiz-opt'>A) 食事がまずかったという意味だと決めつけず、現地のテーブルマナーを観察する。</span><span class='er-quiz-opt'>B) なぜテーブルで全部食べきらなかったのかその場で聞く。</span><div class='er-quiz-res'><strong>💡 ポイント：</strong><br>要するに、微妙なサインに気づくプロフェッショナルはより強い信頼を築きます。逆に、現地の習慣を無視すると、自分とは異なる期待を持つパートナーを怒らせてしまう可能性があります。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a time you had to adapt to a different environment or rule. Use relative clauses with 'who' or 'whose'.",
                 promptJpn: "「異なる環境やルールに適応しなければならなかった時のことを説明してください。『who』や『whose』を使った関係詞節を使用して答えてください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Navigating Cross-Cultural Business)",
-                instruction: "Read this authentic article about the importance of cultural intelligence in global trade.",
-                eng: "In an increasingly interconnected global economy, business travel involves much more than simply arriving at meetings and signing contracts. Today, possessing a high level of 'Cultural Intelligence' (CQ) is recognized as a vital professional skill. Cultural intelligence is the ability to adapt smoothly to new cultural settings, understand diverse social cues, and interact effectively with people from entirely different backgrounds. When an executive travels to a foreign country, they are not just representing their company; they are acting as an international diplomat. A failure to understand the local etiquette can instantly derail months of careful negotiations.\n\nOne of the most complex areas of cultural difference is the concept of 'high-context' versus 'low-context' communication. In low-context cultures, such as the United States and Germany, communication is expected to be clear, explicit, and direct. The words themselves carry the primary meaning. Conversely, in high-context cultures, like those found in Japan and the Middle East, much of the meaning is unspoken. It is embedded in the context, body language, and the relationship between the speakers. A businessperson who ignores these dynamics might mistake politeness for agreement, leading to severe project delays and immense frustration.\n\nTo build lasting global partnerships, professionals must prioritize empathy and active observation. Before stepping onto an airplane, smart travelers thoroughly research the destination's social norms, hierarchy structures, and negotiation styles. When mistakes inevitably happen, an authentic apology and a willingness to learn usually bridge the gap. Ultimately, showing genuine respect for a partner's culture is the most effective way to establish trust, proving that true business success relies on human connection just as much as financial strategy.",
-                jpn: "ますます相互に結びついたグローバル経済において、出張は単に会議に到着して契約書に署名する以上のことを伴います。今日、高いレベルの「文化的知能（CQ）」を持つことは、不可欠なプロフェッショナルスキルとして認識されています。文化的知能とは、新しい文化環境にスムーズに適応し、多様な社会的なサインを理解し、全く異なる背景を持つ人々と効果的に交流する能力のことです。幹部が外国に出張する際、彼らは単に会社を代表しているだけではなく、国際的な外交官として行動しているのです。現地のタブー（エチケット）を理解できないと、数ヶ月にわたる慎重な交渉が即座に頓挫する可能性があります。\n\n文化の違いの最も複雑な分野の一つは、「高コンテキスト」対「低コンテキスト」コミュニケーションという概念です。アメリカやドイツなどの低コンテキスト文化では、コミュニケーションは明確で、明示的で、直接的であることが期待されます。言葉自体が主要な意味を持ちます。逆に、日本や中東で見られるような高コンテキスト文化では、意味の多くは語られません。それは文脈、ボディーランゲージ、そして話し手間の関係に埋め込まれています。これらの力学を無視するビジネスパーソンは、礼儀正しさを合意と勘違いし、深刻なプロジェクトの遅延と計り知れないフラストレーションを引き起こす可能性があります。\n\n長続きするグローバルなパートナーシップを築くために、プロフェッショナルは共感と積極的な観察を優先しなければなりません。飛行機に乗り込む前に、賢明な旅行者は目的地の社会規範、階層構造、交渉スタイルを徹底的に調査します。必然的にミスが起きた場合でも、誠実な謝罪と学ぶ意欲が通常は溝を埋めてくれます。最終的に、パートナーの文化に純粋な敬意を示すことが信頼を確立する最も効果的な方法であり、真のビジネスの成功は財務戦略と同じくらい人間のつながりに依存していることを証明しています。"
             }
         }
     },
@@ -2137,46 +2222,38 @@ const b1Curriculum = [
             { eng: "Acknowledge + Express gratitude", jpn: "応じる ＋ 感謝を表現する", indent: true }
         ],
         expressions: [
-            { category: "1. Stating purpose of visit (訪問の目的を述べる)", options: ["I am visiting for a business conference.", "I am here on a business trip.", "The purpose of my visit is corporate meetings."] },           
-            { category: "2. Stating duration (滞在期間を述べる)", options: ["How long will you be staying?", "I will be staying for five days.", "My return flight is on Friday."] }, 
-            { category: "3. Declaring items (物品を申告する)", options: ["I don't have anything to declare.", "I have some commercial samples to declare.", "Just my personal laptop and clothes."] },
-            { category: "4. Stating limits (制限を述べる)", options: ["You must only conduct business.", "You can just stay for 90 days.", "I will only be attending meetings."] },
-            { category: "5. Stating conditional obligations (条件付きの義務を述べる)", options: ["If you extend, you will need to apply.", "If you work, you will have to get a visa.", "If you lose your passport, you must report it."] },
-            { category: "6. Confirming instructions (指示を確認する)", options: ["I will keep that in mind.", "Understood, thank you.", "I make sure to follow the rules."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Modals: Expressing a limit for an obligation (must only)",
-                explanation: "We can use 'must' with 'just' or 'only' to express the strict limit of an obligation or rule. This is very common in official instructions, like immigration or company policies.",
-                explanationJpn: "「must」と一緒に「just」または「only」を使用して、義務や規則の厳格な制限を表現できます。これは入国審査や会社の方針など、公式な指示で非常によく使われます。",
-                examples: [
-                    { eng: "You must only conduct business related to your visa.", jpn: "あなたはビザに関連するビジネスのみを行わなければなりません。" },
-                    { eng: "You must only bring one carry-on bag.", jpn: "機内持ち込み手荷物は1つだけ持ち込まなければなりません。" }
+                category: "1. Stating purpose of visit (訪問の目的を述べる)",
+                options: [
+                    { eng: "I am visiting for a business conference.", jpn: "ビジネスのカンファレンスのために訪問しています。" },
+                    { eng: "I am here on a business trip.", jpn: "出張でこちらに来ています。" },
+                    { eng: "The purpose of my visit is corporate meetings.", jpn: "訪問の目的は企業の会議です。" }
                 ]
             },
             {
-                point: "2. Modals: Expressing conditional obligation (If... will need to)",
-                explanation: "We can use the first conditional ('If' + present tense) to express a possible future condition, and then state the obligation using 'will have to' or 'will need to'.",
-                explanationJpn: "ファースト・コンディショナル（「If」＋現在形）を使って起こりうる未来の条件を表現し、その後「will have to」または「will need to」を使って義務を述べることができます。",
-                examples: [
-                    { eng: "If you want to extend your stay, you will need to apply.", jpn: "滞在を延長したい場合は、申請する必要があります。" },
-                    { eng: "If your bag is too heavy, you will have to pay a fee.", jpn: "荷物が重すぎる場合は、手数料を支払わなければなりません。" }
+                category: "2. Declaring items (物品を申告する)",
+                options: [
+                    { eng: "I don't have anything to declare.", jpn: "申告するものは何もありません。" },
+                    { eng: "I have some commercial samples to declare.", jpn: "申告する商業サンプルがあります。" },
+                    { eng: "Just my personal laptop and clothes.", jpn: "個人のノートパソコンと服だけです。" }
+                ]
+            },
+            {
+                category: "3. Stating strict limits (制限を述べる)",
+                options: [
+                    { eng: "You must only conduct business.", jpn: "ビジネスのみを行わなければなりません。" },
+                    { eng: "You can just stay for 90 days.", jpn: "90日間だけ滞在できます。" },
+                    { eng: "I will only be attending meetings.", jpn: "会議に出席するだけです。" }
+                ]
+            },
+            {
+                category: "4. Expressing conditional obligations (条件付きの義務を述べる)",
+                options: [
+                    { eng: "If you extend, you will need to apply.", jpn: "延長する場合は申請する必要があります。" },
+                    { eng: "If you work, you will have to get a visa.", jpn: "働く場合はビザを取得しなければなりません。" },
+                    { eng: "If you lose your passport, you must report it.", jpn: "パスポートを紛失した場合は届け出なければなりません。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "ビジネスのカンファレンスのために訪問しています。", target: "I am visiting for a business conference.", words: ["I", "am", "visiting", "for", "a", "business", "conference."] },
-            { prompt: "申告するものは何もありません。", target: "I don't have anything to declare.", words: ["I", "don't", "have", "anything", "to", "declare."] },
-            { prompt: "あなたはこの国にどのくらい滞在する予定ですか？", target: "How long will you be staying in the country?", words: ["How", "long", "will", "you", "be", "staying", "in", "the", "country?"] },
-            { prompt: "滞在を延長したい場合は、申請する必要があります。", target: "If you want to extend your stay, you will need to apply.", words: ["If", "you", "want", "to", "extend", "your", "stay,", "you", "will", "need", "to", "apply."] },
-            { prompt: "あなたはビジネスのみを行わなければなりません。", target: "You must only conduct business.", words: ["You", "must", "only", "conduct", "business."] }
-        ],
-        dropdownGames: [
-            { before: "I will be staying", options: ["to", "for", "in"], answer: "for", after: " five days." },
-            { before: "I don't have anything to", options: ["declare", "declaring", "declared"], answer: "declare", after: "." },
-            { before: "If you lose your ticket, you", options: ["will need to", "must only", "could possibly"], answer: "will need to", after: " buy a new one." },
-            { before: "You", options: ["must only", "might only", "could only"], answer: "must only", after: " bring one piece of luggage." },
-            { before: "Where", options: ["will", "are", "do"], answer: "will", after: " you be staying during your visit?" }
         ],
         roleplay: {
             a: "You are arriving at immigration. State the purpose of your trip (business) and where you are staying. Tell the officer you do not have any items to declare. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたが入国審査に到着しました。旅行の目的（ビジネス）と滞在先を述べてください。審査官に申告する物品はないと伝えてください。)</span>",
@@ -2203,15 +2280,27 @@ const b1Curriculum = [
                 { eng: "Touch down", jpn: "着陸する", exEng: "The flight touched down exactly on time.", exJpn: "フライトは正確に定刻に着陸しました。" },
                 { eng: "Stop over", jpn: "途中降機する", exEng: "We will stop over in Frankfurt for the night.", exJpn: "私たちは夜にフランクフルトで途中降機します。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Strict limit for obligation (must only) - 4 sentences
+                { prompt: "あなたはビザに関連するビジネスのみを行わなければなりません。", target: "You must only conduct business related to your visa.", words: ["You", "must", "only", "conduct", "business", "related", "to", "your", "visa."] },
+                { prompt: "機内持ち込み手荷物は1つだけ持ち込まなければなりません。", target: "You must only bring one carry-on bag.", words: ["You", "must", "only", "bring", "one", "carry-on", "bag."] },
+                { prompt: "乗客は指定された出発ゲートのみを使用しなければなりません。", target: "Passengers must only use the assigned departure gate.", words: ["Passengers", "must", "only", "use", "the", "assigned", "departure", "gate."] },
+                { prompt: "申告する物品のみを税関で提示しなければなりません。", target: "You must only declare items for commercial use.", words: ["You", "must", "only", "declare", "items", "for", "commercial", "use."] },
+                // Grammar Point 2: Conditional obligation (If... will need to) - 4 sentences
+                { prompt: "滞在を延長したい場合は、申請する必要があります。", target: "If you want to extend your stay, you will need to apply.", words: ["If", "you", "want", "to", "extend", "your", "stay,", "you", "will", "need", "to", "apply."] },
+                { prompt: "荷物が重すぎる場合は、手数料を支払わなければなりません。", target: "If your bag is too heavy, you will need to pay a fee.", words: ["If", "your", "bag", "is", "too", "heavy,", "you", "will", "need", "to", "pay", "a", "fee."] },
+                { prompt: "乗り継ぎ便を逃した場合は、新しい便を予約する必要があります。", target: "If you miss your connecting flight, you will need to rebook.", words: ["If", "you", "miss", "your", "connecting", "flight,", "you", "will", "need", "to", "rebook."] },
+                { prompt: "申告する食品がある場合は、用紙に記入する必要があります。", target: "If you have food to declare, you will need to fill out the form.", words: ["If", "you", "have", "food", "to", "declare,", "you", "will", "need", "to", "fill", "out", "the", "form."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 8 - Step-by-Step Airport Flow)",
+                instruction: "Read this step-by-step airport guide for business travelers. Notice obligation limits and conditional rules.",
+                eng: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>🛫 Airport Step-by-Step: From Check-In to Arrivals</h3><p><strong>Step 1 — Check-In &amp; Security:</strong> Arrive early so you have time to check in luggage, get your boarding pass, and go through security. Take out laptops and liquids before the tray goes in. If your carry-on bag is too heavy, you will need to check it at the counter.</p><p><strong>Step 2 — Boarding &amp; Layovers:</strong> Watch the departure gate screen for updates, especially if you have a connecting flight. During a layover, keep your boarding pass handy and stay near the gate. You must only board during your assigned group or zone.</p><p><strong>Step 3 — Immigration Questions:</strong> When you land, show your passport and state your business purpose clearly. Officers often ask how long you will be staying and where your hotel is. On a business entry, you must only attend meetings or conferences—not take a local job.</p><p><strong>Step 4 — Baggage &amp; Customs:</strong> Claim your baggage at the carousel and check if you have items to declare. If you carry commercial goods or restricted food, you will need to speak with a customs officer. Otherwise, say you do not have anything to declare and head to your meeting.</p></div>",
+                jpn: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>🛫 空港ステップガイド：チェックインから到着まで</h3><p><strong>ステップ1 — チェックインと保安検査：</strong> 手荷物を預け、搭乗券を受け取り、保安検査を通過する時間が取れるよう早めに到着しましょう。トレイに入れる前にノートパソコンや液体を取り出してください。機内持ち込み手荷物が重すぎる場合は、カウンターで預ける必要があります。</p><p><strong>ステップ2 — 搭乗と乗り継ぎ：</strong> 特に乗り継ぎ便がある場合は、出発ゲートの表示で最新情報を確認しましょう。乗り継ぎ待ちの間は搭乗券を手元に置き、ゲートの近くにいてください。指定されたグループまたはゾーンの間のみ搭乗しなければなりません。</p><p><strong>ステップ3 — 入国審査の質問：</strong> 着陸したらパスポートを提示し、ビジネス目的を明確に述べてください。審査官は滞在期間やホテルの場所をよく尋ねます。ビジネス入国では、現地の仕事に就くのではなく、会議やカンファレンスへの出席のみを行わなければなりません。</p><p><strong>ステップ4 — 手荷物受取と税関：</strong> 回転コンベアで手荷物を受け取り、申告する物品があるか確認してください。商業用の品物や制限された食品を持っている場合は、税関職員と話す必要があります。そうでなければ、申告するものは何もないと伝えて会議に向かいましょう。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short dialogue where an immigration officer asks about your trip. State your business purpose and use 'If... will need to' to explain a rule.",
                 promptJpn: "「入国審査官があなたの旅行について尋ねる短い対話を書いてください。ビジネスの目的を述べ、『If... will need to』を使って規則を説明してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Navigating Airport Security and Immigration)",
-                instruction: "Read this text about the procedures of international business travel.",
-                eng: "Navigating international airports can be one of the most stressful parts of business travel. From the moment you arrive, you must follow strict schedules and security protocols. First, travelers must check in their luggage and secure their boarding passes. For frequent flyers, checking in online and using a digital boarding pass speeds up the process significantly. Next is the security checkpoint, where you must take out laptops and liquids. Security checks often hold up the line, so business travelers must arrive with plenty of time before their flight takes off.\n\nUpon landing in a foreign country, the next major hurdle is immigration and customs. Immigration officers are trained to ask specific questions to verify the purpose of your visit. A business traveler must clearly state their intentions, such as attending a conference or meeting with clients. Providing vague answers can lead to delays. Additionally, officers will outline strict visa limits. For instance, they might warn, 'You must only conduct business meetings; if you want to work for a local company, you will need to apply for a different visa.' Understanding and respecting these obligations ensures a smooth entry into the country.\n\nFinally, customs officers ensure that no prohibited goods enter the nation. Travelers are required to declare agricultural products, large amounts of cash, or commercial goods. Attempting to hide items or failing to fill out the declaration form properly can result in heavy fines. Once through customs, the professional can finally claim their baggage, step out of the airport, and focus on their upcoming corporate responsibilities.",
-                jpn: "国際空港の移動は、出張の中で最もストレスの多い部分の1つになる可能性があります。到着した瞬間から、厳格なスケジュールとセキュリティプロトコルに従わなければなりません。まず、旅行者は手荷物を預け、搭乗券を確保しなければなりません。頻繁に飛行機を利用する人にとって、オンラインでチェックインしデジタルの搭乗券を使用することは、プロセスを大幅に早めます。次は保安検査場で、ノートパソコンや液体を取り出さなければなりません。手荷物検査はしばしば列を遅らせるため、出張者はフライトが離陸する前に十分な時間を持って到着しなければなりません。\n\n外国に着陸した際、次の大きなハードルは入国審査と税関です。入国審査官は、訪問の目的を確認するために特定の質問をするよう訓練されています。出張者は、カンファレンスへの参加やクライアントとの会議など、自分の意図を明確に述べなければなりません。曖昧な答えを提供すると遅延につながる可能性があります。さらに、審査官は厳格なビザの制限を概説します。例えば、「あなたはビジネスミーティングのみを行わなければなりません。地元の企業で働きたい場合は、別のビザを申請する必要があります」と警告するかもしれません。これらの義務を理解し尊重することが、その国へのスムーズな入国を保証します。\n\n最後に、税関職員は禁止されている品物が国内に入らないようにします。旅行者は、農産物、多額の現金、または商業用の品物を申告するよう求められます。品物を隠そうとしたり、申告書に正しく記入しなかったりすると、高額な罰金が科せられる可能性があります。税関を通過すれば、プロフェッショナルはついに自分の荷物を受け取り、空港を出て、今後の企業の責任に集中することができるのです。"
             }
         }
     },
@@ -2225,30 +2314,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "The environmental impact of corporate travel is a massive issue that companies can no longer ignore. Every time an executive takes a long-haul flight, they generate a huge carbon footprint. In fact, aviation is one of the fastest-growing sources of greenhouse gas emissions globally. While taking a train is much more eco-friendly, it is simply not practical for crossing oceans or entire continents. To address this, many corporations are purchasing carbon offsets. They pay to plant trees or fund renewable energy projects to 'cancel out' the emissions from their flights. However, some critics argue that this is just 'greenwashing'—a way to look environmentally responsible without actually changing behavior. We need to focus on reducing travel altogether, rather than just paying to hide the damage.", 
-                    jpn: "企業出張の環境への影響は、企業がもはや無視できない大きな問題です。幹部が長距離フライトを利用するたびに、巨大な二酸化炭素排出量（カーボンフットプリント）が発生します。実際、航空は世界的に最も急速に成長している温室効果ガス排出源の1つです。電車に乗ることははるかに環境に優しいですが、海や大陸全体を横断するのには単に現実的ではありません。これに対処するため、多くの企業がカーボンオフセットを購入しています。彼らはフライトからの排出を『相殺する』ために、植林や再生可能エネルギープロジェクトへの資金提供にお金を払います。しかし、一部の批評家は、これは単なる『グリーンウォッシュ』（実際に行動を変えることなく環境に責任があるように見せる方法）だと主張しています。私たちは、ダメージを隠すためにお金を払うのではなく、旅行（出張）自体を減らすことに集中する必要があります。" 
+                {
+                    name: "Person 1",
+                    eng: "The environmental impact of corporate travel is a massive issue that companies can no longer ignore. Every time an executive takes a long-haul flight, they generate a huge carbon footprint. In fact, aviation is one of the fastest-growing sources of greenhouse gas emissions globally. While taking a train is much more eco-friendly, it is simply not practical for crossing oceans or entire continents. To address this, many corporations are purchasing carbon offsets. They pay to plant trees or fund renewable energy projects to 'cancel out' the emissions from their flights. However, some critics argue that this is just 'greenwashing'—a way to look environmentally responsible without actually changing behavior. We need to focus on reducing travel altogether, rather than just paying to hide the damage.",
+                    jpn: "企業出張の環境への影響は、企業がもはや無視できない大きな問題です。幹部が長距離フライトを利用するたびに、巨大な二酸化炭素排出量（カーボンフットプリント）が発生します。実際、航空は世界的に最も急速に成長している温室効果ガス排出源の1つです。電車に乗ることははるかに環境に優しいですが、海や大陸全体を横断するのには単に現実的ではありません。これに対処するため、多くの企業がカーボンオフセットを購入しています。彼らはフライトからの排出を『相殺する』ために、植林や再生可能エネルギープロジェクトへの資金提供にお金を払います。しかし、一部の批評家は、これは単なる『グリーンウォッシュ』（実際に行動を変えることなく環境に責任があるように見せる方法）だと主張しています。私たちは、ダメージを隠すためにお金を払うのではなく、旅行（出張）自体を減らすことに集中する必要があります。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "I believe the shift to virtual meetings is the best solution for the environment. A video call requires so much less energy than flying a team of ten people across the country. During the pandemic, we proved that most routine business operations can continue effectively without constant travel. Virtual collaboration tools are becoming much more sophisticated, allowing for real-time document sharing and instant communication. The financial savings are obvious, but the environmental benefits are even more critical. Of course, shaking hands builds trust, but is that handshake really worth burning hundreds of gallons of jet fuel? If companies restricted business trips to only the most vital, high-level negotiations, we could easily cut corporate travel emissions by half.", 
-                    jpn: "私は、バーチャルミーティングへの移行が環境にとって最良の解決策だと信じています。ビデオ通話は、10人のチームを国を越えて飛行機で飛ばすよりも、はるかに少ないエネルギーしか必要としません。パンデミックの間、私たちはほとんどの日常的な業務が絶え間ない出張なしでも効果的に継続できることを証明しました。バーチャルなコラボレーションツールはますます洗練されており、リアルタイムのドキュメント共有と即時のコミュニケーションを可能にしています。財政的な節約は明らかですが、環境への利点はさらに重要です。もちろん、握手は信頼を築きますが、その握手は本当に何百ガロンものジェット燃料を燃やす価値があるのでしょうか？企業が出張を最も重要で高度な交渉のみに制限すれば、企業の出張による排出量を簡単に半分に減らすことができるでしょう。" 
+                {
+                    name: "Person 2",
+                    eng: "I believe the shift to virtual meetings is the best solution for the environment. A video call requires so much less energy than flying a team of ten people across the country. During the pandemic, we proved that most routine business operations can continue effectively without constant travel. Virtual collaboration tools are becoming much more sophisticated, allowing for real-time document sharing and instant communication. The financial savings are obvious, but the environmental benefits are even more critical. Of course, shaking hands builds trust, but is that handshake really worth burning hundreds of gallons of jet fuel? If companies restricted business trips to only the most vital, high-level negotiations, we could easily cut corporate travel emissions by half.",
+                    jpn: "私は、バーチャルミーティングへの移行が環境にとって最良の解決策だと信じています。ビデオ通話は、10人のチームを国を越えて飛行機で飛ばすよりも、はるかに少ないエネルギーしか必要としません。パンデミックの間、私たちはほとんどの日常的な業務が絶え間ない出張なしでも効果的に継続できることを証明しました。バーチャルなコラボレーションツールはますます洗練されており、リアルタイムのドキュメント共有と即時のコミュニケーションを可能にしています。財政的な節約は明らかですが、環境への利点はさらに重要です。もちろん、握手は信頼を築きますが、その握手は本当に何百ガロンものジェット燃料を燃やす価値があるのでしょうか？企業が出張を最も重要で高度な交渉のみに制限すれば、企業の出張による排出量を簡単に半分に減らすことができるでしょう。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "While reducing travel is important, we also need to pressure airlines and hotels to become more sustainable. The hospitality and aviation industries use incredibly wasteful practices. Think about the tiny plastic bottles of shampoo in hotels or the massive amount of food waste on airplanes. Fortunately, some businesses are starting to change. Airlines are slowly investing in sustainable aviation fuel (SAF), which produces much lower emissions than traditional jet fuel. Additionally, modern eco-hotels are removing single-use plastics and using solar power for energy. When our company books corporate travel, we actively choose vendors that demonstrate a real commitment to sustainability. By spending our budget on green alternatives, we can force the entire travel industry to innovate and protect the planet.", 
-                    jpn: "旅行を減らすことも重要ですが、航空会社やホテルにより持続可能になるようプレッシャーをかける必要もあります。ホスピタリティ産業と航空産業は、信じられないほど無駄の多い慣行を行っています。ホテルの小さなプラスチック製のシャンプーボトルや、飛行機での大量の食品廃棄物を考えてみてください。幸いなことに、一部の企業は変わり始めています。航空会社は、従来のジェット燃料よりもはるかに排出量が少ない持続可能な航空燃料（SAF）にゆっくりと投資しています。さらに、現代のエコホテルは使い捨てプラスチックを排除し、エネルギーに太陽光発電を使用しています。私たちの会社が出張を予約する際、私たちは持続可能性への真の取り組みを示しているベンダーを積極的に選んでいます。私たちの予算を環境に優しい代替案に費やすことで、旅行業界全体に革新を促し、地球を保護させることができるのです。" 
+                {
+                    name: "Person 3",
+                    eng: "While reducing travel is important, we also need to pressure airlines and hotels to become more sustainable. The hospitality and aviation industries use incredibly wasteful practices. Think about the tiny plastic bottles of shampoo in hotels or the massive amount of food waste on airplanes. Fortunately, some businesses are starting to change. Airlines are slowly investing in sustainable aviation fuel (SAF), which produces much lower emissions than traditional jet fuel. Additionally, modern eco-hotels are removing single-use plastics and using solar power for energy. When our company books corporate travel, we actively choose vendors that demonstrate a real commitment to sustainability. By spending our budget on green alternatives, we can force the entire travel industry to innovate and protect the planet.",
+                    jpn: "旅行を減らすことも重要ですが、航空会社やホテルにより持続可能になるようプレッシャーをかける必要もあります。ホスピタリティ産業と航空産業は、信じられないほど無駄の多い慣行を行っています。ホテルの小さなプラスチック製のシャンプーボトルや、飛行機での大量の食品廃棄物を考えてみてください。幸いなことに、一部の企業は変わり始めています。航空会社は、従来のジェット燃料よりもはるかに排出量が少ない持続可能な航空燃料（SAF）にゆっくりと投資しています。さらに、現代のエコホテルは使い捨てプラスチックを排除し、エネルギーに太陽光発電を使用しています。私たちの会社が出張を予約する際、私たちは持続可能性への真の取り組みを示しているベンダーを積極的に選んでいます。私たちの予算を環境に優しい代替案に費やすことで、旅行業界全体に革新を促し、地球を保護させることができるのです。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Carbon Footprint 📖", themeJpn: "二酸化炭素排出量", sub: [{eng: "Flight emissions", jpn: "フライトの排出量"}, {eng: "Carbon offsets", jpn: "カーボンオフセット"}, {eng: "Greenwashing", jpn: "グリーンウォッシュ"}] },
-            { theme: "Virtual Alternatives 📖", themeJpn: "バーチャルな代替案", sub: [{eng: "Video conferencing", jpn: "ビデオ会議"}, {eng: "Energy savings", jpn: "エネルギーの節約"}, {eng: "Vital meetings only", jpn: "重要な会議のみ"}] },
-            { theme: "Sustainable Aviation 📖", themeJpn: "持続可能な航空", sub: [{eng: "Alternative fuels (SAF)", jpn: "代替燃料 (SAF)"}, {eng: "Food waste on flights", jpn: "フライトでの食品廃棄"}, {eng: "Efficient routes", jpn: "効率的なルート"}] },
-            { theme: "Eco-Hotels 📖", themeJpn: "エコホテル", sub: [{eng: "Single-use plastics", jpn: "使い捨てプラスチック"}, {eng: "Renewable energy", jpn: "再生可能エネルギー"}, {eng: "Green certifications", jpn: "環境認証"}] },
-            { theme: "Corporate Policies 📖", themeJpn: "企業の方針", sub: [{eng: "Travel budgets", jpn: "出張予算"}, {eng: "Choosing green vendors", jpn: "環境に優しいベンダーの選択"}, {eng: "Internal travel limits", jpn: "社内出張の制限"}] },
-            { theme: "Transportation Modes 📖", themeJpn: "交通手段", sub: [{eng: "Trains vs Planes", jpn: "電車対飛行機"}, {eng: "Public transit", jpn: "公共交通機関"}, {eng: "Electric vehicles", jpn: "電気自動車"}] }
+            { theme: "Carbon Footprint 📖", themeJpn: "二酸化炭素排出量", sub: [{ eng: "Flight emissions", jpn: "フライトの排出量" }, { eng: "Carbon offsets", jpn: "カーボンオフセット" }, { eng: "Greenwashing", jpn: "グリーンウォッシュ" }] },
+            { theme: "Virtual Alternatives 📖", themeJpn: "バーチャルな代替案", sub: [{ eng: "Video conferencing", jpn: "ビデオ会議" }, { eng: "Energy savings", jpn: "エネルギーの節約" }, { eng: "Vital meetings only", jpn: "重要な会議のみ" }] },
+            { theme: "Sustainable Aviation 📖", themeJpn: "持続可能な航空", sub: [{ eng: "Alternative fuels (SAF)", jpn: "代替燃料 (SAF)" }, { eng: "Food waste on flights", jpn: "フライトでの食品廃棄" }, { eng: "Efficient routes", jpn: "効率的なルート" }] },
+            { theme: "Eco-Hotels 📖", themeJpn: "エコホテル", sub: [{ eng: "Single-use plastics", jpn: "使い捨てプラスチック" }, { eng: "Renewable energy", jpn: "再生可能エネルギー" }, { eng: "Green certifications", jpn: "環境認証" }] },
+            { theme: "Corporate Policies 📖", themeJpn: "企業の方針", sub: [{ eng: "Travel budgets", jpn: "出張予算" }, { eng: "Choosing green vendors", jpn: "環境に優しいベンダーの選択" }, { eng: "Internal travel limits", jpn: "社内出張の制限" }] },
+            { theme: "Transportation Modes 📖", themeJpn: "交通手段", sub: [{ eng: "Trains vs Planes", jpn: "電車対飛行機" }, { eng: "Public transit", jpn: "公共交通機関" }, { eng: "Electric vehicles", jpn: "電気自動車" }] }
         ],
         questions: [
             { eng: "1. Should companies be taxed based on the number of flights their employees take?", jpn: "1. 企業は従業員が利用するフライトの数に基づいて課税されるべきですか？" },
@@ -2324,20 +2413,31 @@ const b1Curriculum = [
                 { eng: "Care about", jpn: "〜を気にかける", exEng: "Consumers care about eco-friendly business practices.", exJpn: "消費者は環境に優しいビジネス慣行を気にかけます。" },
                 { eng: "Argue against", jpn: "〜に反対の議論をする", exEng: "Environmentalists argue against unnecessary flights.", exJpn: "環境保護主義者は不要なフライトに反対の議論をします。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Big difference (much / so much + comparative) - 4 sentences
+                { prompt: "電車に乗ることは、飛行機に乗るよりもはるかに環境に優しいです。", target: "Taking a train is much more eco-friendly than flying.", words: ["Taking", "a", "train", "is", "much", "more", "eco-friendly", "than", "flying."] },
+                { prompt: "ビデオ通話はエネルギーの使用量がずっと少ないです。", target: "Video calls use so much less energy.", words: ["Video", "calls", "use", "so", "much", "less", "energy."] },
+                { prompt: "オンライン会議は出張よりもはるかに安いです。", target: "Online meetings are much cheaper than business travel.", words: ["Online", "meetings", "are", "much", "cheaper", "than", "business", "travel."] },
+                { prompt: "長距離フライトは国内線よりもずっと多くの排出物を出します。", target: "Long flights create so much more emissions than short ones.", words: ["Long", "flights", "create", "so", "much", "more", "emissions", "than", "short", "ones."] },
+                // Grammar Point 2: Small difference (a little / a bit + comparative) - 4 sentences
+                { prompt: "持続可能な燃料は、通常のジェット燃料よりも少し高価です。", target: "Sustainable fuel is a little more expensive than regular fuel.", words: ["Sustainable", "fuel", "is", "a", "little", "more", "expensive", "than", "regular", "fuel."] },
+                { prompt: "新しいエコホテルは中心部から少し遠いです。", target: "The new eco-hotel is a bit farther from the center.", words: ["The", "new", "eco-hotel", "is", "a", "bit", "farther", "from", "the", "center."] },
+                { prompt: "このルートは少し時間がかかりますが、より環境に優しいです。", target: "This route takes a little longer, but it is greener.", words: ["This", "route", "takes", "a", "little", "longer,", "but", "it", "is", "greener."] },
+                { prompt: "グリーンなチケットは少し高いですが、排出量が少ないです。", target: "The green ticket is a bit pricier, with lower emissions.", words: ["The", "green", "ticket", "is", "a", "bit", "pricier,", "with", "lower", "emissions."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 9 - Split Cards on Green Travel)",
+                instruction: "Read these short cards comparing green travel choices. Notice comparatives with 'much' and 'a bit'.",
+                eng: "<div class='er-template er-layout-9'><div class='er-card'><h4>🚄 Trains vs. Flights</h4><p>For regional trips, taking a train is much more eco-friendly than flying and uses so much less fuel. Consequently, many companies now ask staff to take trains for shorter routes. Long flights across oceans are still a bit harder to replace, so cutting extra trips matters most.</p></div><div class='er-card'><h4>💻 Virtual Calls vs. Trips</h4><p>On the contrary, virtual meetings are not a weak second choice—they save time and cut carbon footprints. A quick video call is much faster than traveling to another city for a one-hour chat. Above all, saving flights for key meetings helps reduce emissions.</p></div><div class='er-card'><h4>🌱 Eco-Hotels &amp; Offsets</h4><p>Modern eco-hotels cut single-use plastics and use renewable energy. A green hotel room might cost a bit more, while carbon offsets alone can feel like greenwashing if flights do not drop. Furthermore, choosing sustainable vendors pushes the travel industry forward.</p></div></div>",
+                jpn: "<div class='er-template er-layout-9'><div class='er-card'><h4>🚄 電車対フライト</h4><p>近距離の移動では、電車に乗ることは飛行機よりもはるかに環境に優しく、燃料の使用量もずっと少ないです。その結果として、多くの企業が短距離ルートでは電車を使うようスタッフに求めています。海を越える長距離フライトはまだ少し代替が難しいため、余分な移動を減らすことが最も重要です。</p></div><div class='er-card'><h4>💻 バーチャル通話対出張</h4><p>それどころか、バーチャル会議は弱い代替案ではなく、時間を節約し二酸化炭素排出量を減らします。1時間の打ち合わせのために別の都市へ移動するよりも、短いビデオ通話の方がはるかに速いです。何よりも、重要な会議にフライトを絞ることが排出量削減に役立ちます。</p></div><div class='er-card'><h4>🌱 エコホテルとオフセット</h4><p>最新のエコホテルは使い捨てプラスチックを減らし、再生可能エネルギーを利用します。エコホテルの客室は少し高くなるかもしれませんが、フライトが減らないままカーボンオフセットだけに頼るとグリーンウォッシュのように感じられることもあります。さらに、持続可能なベンダーを選ぶことが旅行業界を前進させます。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: What is the most effective way for a company to reduce its carbon footprint? Use comparatives with 'much' or 'a little'.",
                 promptJpn: "「企業が二酸化炭素排出量を減らすための最も効果的な方法は何ですか？『much』や『a little』を使った比較級を使用して答えてください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Shift to Sustainable Corporate Travel)",
-                instruction: "Read this authentic article about how the corporate world is addressing its environmental impact.",
-                eng: "As global awareness of climate change increases, the corporate travel industry is facing intense scrutiny. For decades, business travel was an unquestioned necessity, driven by the belief that face-to-face meetings were the only way to secure high-value contracts. Consequently, the aviation sector saw massive growth, contributing heavily to global greenhouse gas emissions. Today, however, stakeholders are demanding that corporations take accountability for their carbon footprints. This has sparked a vital debate: can corporate travel become genuinely sustainable, or must it be drastically reduced?\n\nOne of the most debated solutions is the use of carbon offsets. Many major companies proudly announce that their travel is 'carbon neutral' because they invest in planting trees or renewable energy projects. While this sounds positive, environmental critics argue that offsets are much more complex and often less effective than advertised. They warn against 'greenwashing,' suggesting that offsets simply allow corporations to continue polluting without making any fundamental changes to their behavior. To be precise, true sustainability requires actually cutting emissions at the source, rather than just attempting to cancel them out later.\n\nBecause of this, progressive companies are rethinking their travel policies entirely. The integration of high-quality video conferencing has proven that virtual meetings are much more efficient for routine communication. Furthermore, when physical travel is absolutely necessary, companies are encouraging employees to use high-speed trains for domestic routes, as they give off so much less carbon than airplanes. In the hospitality sector, corporate clients are actively choosing eco-hotels that have phased out single-use plastics and utilize solar energy. Ultimately, by adjusting their policies and prioritizing green alternatives, businesses have the power to drive the entire travel industry toward a much more sustainable future.",
-                jpn: "気候変動に対する世界的な認識が高まるにつれ、企業の出張業界は厳しい監視の目に直面しています。何十年もの間、対面での会議が価値の高い契約を確保する唯一の方法であるという信念に後押しされ、出張は疑う余地のない必要性でした。その結果として、航空セクターは大規模な成長を遂げ、世界の温室効果ガス排出に大きく貢献しました。しかし今日、利害関係者は企業に自分たちの二酸化炭素排出量に対する責任を取るよう求めています。これは、企業の出張は真に持続可能なものになり得るのか、それとも大幅に削減されなければならないのかという重要な議論を引き起こしました。\n\n最も議論されている解決策の一つは、カーボンオフセットの利用です。多くの主要企業は、植林や再生可能エネルギープロジェクトに投資しているため、自社の出張は「カーボンニュートラル」であると誇らしげに発表しています。これは肯定的に聞こえますが、環境批評家は、オフセットははるかに複雑であり、しばしば宣伝されているほど効果的ではないと主張しています。彼らは「グリーンウォッシュ」に警告を発し、オフセットは単に企業がその行動に根本的な変化を加えることなく汚染を続けることを許しているだけだと示唆しています。正確に言えば、真の持続可能性は、後で相殺しようとするのではなく、実際に発生源で排出を削減することを求めているのです。\n\nこのため、進歩的な企業は自社の出張方針を完全に見直しています。高品質なビデオ会議の統合により、日常的なコミュニケーションにはバーチャル会議の方がはるかに効率的であることが証明されました。さらに、物理的な移動がどうしても必要な場合、飛行機よりも二酸化炭素の排出量がはるかに少ないため、企業は国内ルートで高速鉄道を使用することを従業員に奨励しています。ホスピタリティ部門では、法人のクライアントは、使い捨てプラスチックを段階的に廃止し、太陽エネルギーを利用するエコホテルを積極的に選んでいます。最終的に、方針を調整し環境に優しい代替案を優先することで、企業は旅行業界全体をはるかに持続可能な未来へと推進する力を持っているのです。"
             }
         }
     },
-
-{
+    {
         id: 20,
         chapter: "Chapter 3: Business Travel",
         type: "casestudy",
@@ -2411,6 +2511,15 @@ const b1Curriculum = [
                     { eng: "That is the best way to handle the budget.", jpn: "それが予算を処理する最良の方法です。" },
                     { eng: "Losing receipts is the worst mistake you can make.", jpn: "領収書を紛失することは、あなたが犯しうる最悪のミスです。" }
                 ]
+            },
+            {
+                point: "3. Superlative Adverbs: Expressing extremes in actions (the most / the best / the worst)",
+                explanation: "Use superlative adverbs ('the most carefully', 'the best', 'the worst') to describe how an action is performed or judged at the extreme level.",
+                explanationJpn: "行動が極端なレベルで行われたり評価されたりする様子を説明するには、最上級の副詞（「the most carefully」「the best」「the worst」）を使います。",
+                examples: [
+                    { eng: "Plan travel schedules the most carefully before departure.", jpn: "出発前に出張スケジュールを最も慎重に計画してください。" },
+                    { eng: "Last-minute bookings cost the most overall.", jpn: "土壇場の予約は全体として最もコストがかかります。" }
+                ]
             }
         ],
         discussionPoints: [
@@ -2425,7 +2534,7 @@ const b1Curriculum = [
             { eng: "Therefore...", jpn: "それゆえに..." },
             { eng: "Ultimately...", jpn: "最終的には..." }
         ],
-        roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
+        roleplay: "Role-play presenting your solution to management. Do the following using a simple three-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
         homework: {
             vocab: [
                 { eng: "Pay for", jpn: "〜の代金を支払う", exEng: "The company will pay for your economy flight.", exJpn: "会社があなたのエコノミーフライトの代金を支払います。" },
@@ -2447,19 +2556,36 @@ const b1Curriculum = [
                 { eng: "Account for", jpn: "説明する、〜の理由となる", exEng: "You must account for every dollar spent on the trip.", exJpn: "出張で使った1ドルごとに説明をしなければなりません。" },
                 { eng: "Track down", jpn: "探し出す", exEng: "I had to track down the missing invoice.", exJpn: "紛失した請求書を探し出さなければなりませんでした。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Superlatives with 2+ syllables (the most + adj) - 4 sentences
+                { prompt: "これは私たちが今まで行った中で最も高価な出張でした。", target: "This was the most expensive trip we have ever taken.", words: ["This", "was", "the", "most", "expensive", "trip", "we", "have", "ever", "taken."] },
+                { prompt: "これは最も複雑な財務上のエラーです。", target: "This is the most complicated financial error.", words: ["This", "is", "the", "most", "complicated", "financial", "error."] },
+                { prompt: "土壇場のフライトは常に最もコストのかかる選択肢です。", target: "Last-minute flights are always the most costly option.", words: ["Last-minute", "flights", "are", "always", "the", "most", "costly", "option."] },
+                { prompt: "最も手頃なホテルを予約することに集中しましょう。", target: "Let's focus on booking the most affordable hotels.", words: ["Let's", "focus", "on", "booking", "the", "most", "affordable", "hotels."] },
+                // Grammar Point 2: Irregular superlatives (the best / the worst) - 4 sentences
+                { prompt: "それが予算を処理する最良の方法です。", target: "That is the best way to handle the budget.", words: ["That", "is", "the", "best", "way", "to", "handle", "the", "budget."] },
+                { prompt: "領収書を紛失することは、あなたが犯しうる最悪のミスです。", target: "Losing receipts is the worst mistake you can make.", words: ["Losing", "receipts", "is", "the", "worst", "mistake", "you", "can", "make."] },
+                { prompt: "事前予約はフライトの費用を抑える最良の習慣です。", target: "Booking in advance is the best habit for flight costs.", words: ["Booking", "in", "advance", "is", "the", "best", "habit", "for", "flight", "costs."] },
+                { prompt: "予算を200%超過することは最悪の結果でした。", target: "Exceeding the budget by 200% was the worst outcome.", words: ["Exceeding", "the", "budget", "by", "200%", "was", "the", "worst", "outcome."] },
+                // Grammar Point 3: Superlative adverbs - 4 sentences
+                { prompt: "出発前に出張スケジュールを最も慎重に計画してください。", target: "Plan travel schedules the most carefully before departure.", words: ["Plan", "travel", "schedules", "the", "most", "carefully", "before", "departure."] },
+                { prompt: "土壇場の予約は全体として最もコストがかかります。", target: "Last-minute bookings cost the most overall.", words: ["Last-minute", "bookings", "cost", "the", "most", "overall."] },
+                { prompt: "経費アプリは領収書を最も早く記録できます。", target: "Expense apps track receipts the most quickly.", words: ["Expense", "apps", "track", "receipts", "the", "most", "quickly."] },
+                { prompt: "ホテルのルールを最もよく守ったチームが予算内に収まりました。", target: "The team that followed rules the best stayed on budget.", words: ["The", "team", "that", "followed", "rules", "the", "best", "stayed", "on", "budget."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 10 - Feature Box on Budget Recovery)",
+                instruction: "Read this policy summary on fixing travel overspending. Notice superlative adjectives and budget rules.",
+                eng: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>💡 Fixing a Travel Budget Crisis: Key Policy Steps</h3><p>A major problem happens when travel teams exceed their budget without clear approval or expense tracking. After the Europe trip, NovaTech faced the most expensive travel quarter in its history because of last-minute flights, luxury hotels, and missing receipts. Consequently, finance could not reimburse out-of-pocket costs quickly, and one minor contract was not enough to cover the loss.</p><p><strong>✅ The Best Steps to Reset Spending:</strong> First, book flights and hotels in advance through an approved portal rather than picking the most costly options at the last minute. Second, require digital receipt photos right after meals so staff never lose paper records—losing receipts is the worst mistake during expense reporting. Third, train every sales rep on spending limits before departure.</p><p><strong>🎯 Final Takeaway:</strong> Ultimately, clear travel rules protect both the company budget and the team's reputation with clients.</p></div></div>",
+                jpn: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>💡 出張予算危機の立て直し：重要なポリシーのステップ</h3><p>明確な承認や経費追跡なしに出張チームが予算を超過すると、大きな問題が起こります。ヨーロッパ出張の後、NovaTechは土壇場のフライト、高級ホテル、領収書の紛失により、過去最も高価な出張四半期に直面しました。その結果、財務部は自腹経費を素早く払い戻すことができず、小さな契約1件では損失を補うのに不十分でした。</p><p><strong>✅ 支出をリセットする最良のステップ：</strong> 第一に、土壇場で最もコストのかかる選択肢を選ぶのではなく、承認されたポータルを通じて事前にフライトとホテルを予約すること。第二に、スタッフが紙の記録を失わないよう食事の直後にデジタル領収書の写真を義務付けること（経費精算中に領収書を紛失するのは最悪のミスです）。第三に、出発前にすべての営業担当者に支出制限のトレーニングを行うこと。</p><p><strong>🎯 最終的なまとめ：</strong> 最終的に、明確な出張ルールは会社の予算とクライアントからのチームの評判の両方を守ります。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph outlining your proposed solution for NovaTech Solutions. Use superlative adjectives (e.g., 'the most efficient way') and transitional expressions.",
                 promptJpn: "「NovaTech Solutionsのためのあなたの提案する解決策を概説する短い段落を書いてください。最上級の形容詞（例：『the most efficient way』）とトランジション表現を使用してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Managing Corporate Travel Spend)",
-                instruction: "Read this authentic text about corporate travel management and budgeting.",
-                eng: "Managing a corporate travel budget is one of the most challenging tasks for any finance department. While traveling to meet clients is essential for closing deals and building trust, expenses can quickly spiral out of control if strict policies are not enforced. Without clear guidelines, employees might unknowingly choose the most expensive flight options or book luxury hotels simply because they prefer the brand. This leads to massive budgetary waste and creates friction between the sales team and the accounting department.\n\nTo prevent overspending, organizations must implement robust travel management systems. The most successful companies mandate that all bookings be made through a centralized corporate portal. This ensures that employees only see approved, budget-friendly options. Additionally, transitioning from paper receipts to digital expense-tracking applications is crucial. Modern apps allow employees to take photos of their receipts immediately after a meal, ensuring that important financial documents are never lost. For instance, if an employee loses a paper receipt, the finance team cannot legally reimburse the expense, which leaves the employee frustrated and out of pocket.\n\nUltimately, a healthy travel culture relies on education. HR and Finance must collaborate to train all new hires on exact spending limits and the proper use of corporate credit cards. If an employee understands that saving money on travel helps the company invest in other areas—like bonuses or product development—they are much more likely to comply with the rules. Clear communication is the most effective tool for maintaining financial discipline while still allowing teams to travel successfully.",
-                jpn: "企業の出張予算の管理は、どの財務部門にとっても最も困難な課題の1つです。クライアントと会うための出張は取引をまとめ信頼を築くために不可欠ですが、厳格な方針が施行されなければ、経費はすぐに制御不能になる可能性があります。明確なガイドラインがなければ、従業員は単にそのブランドが好きだからという理由で、知らないうちに最も高価なフライトの選択肢を選んだり、高級ホテルを予約したりするかもしれません。これは莫大な予算の無駄遣いにつながり、営業チームと経理部門の間に摩擦を生み出します。\n\n支出超過を防ぐために、組織は強固な出張管理システムを導入しなければなりません。最も成功している企業は、すべての予約を集中化された企業ポータルを通じて行うことを義務付けています。これにより、従業員は承認された予算に優しい選択肢しか見ることができなくなります。さらに、紙の領収書からデジタルの経費追跡アプリケーションへの移行が極めて重要です。最新のアプリでは、従業員が食事の直後に領収書の写真を撮ることができるため、重要な財務書類が失われることは決してありません。例えば、従業員が紙の領収書を紛失した場合、財務チームは法的に経費を払い戻すことができず、その結果、従業員は不満を抱き自腹を切ることになります。\n\n最終的に、健全な出張文化は教育にかかっています。人事と財務は協力して、正確な支出制限と法人クレジットカードの適切な使用についてすべての新入社員を訓練しなければなりません。出張費を節約することが、ボーナスや製品開発など他の分野への投資に役立つと従業員が理解すれば、彼らは規則に従う可能性がはるかに高くなります。明確なコミュニケーションは、チームが成功裏に出張できるようにしつつ、財務規律を維持するための最も効果的なツールなのです。"
             }
         }
     },
-    {
+{
         id: 21,
         chapter: "Chapter 3: Business Travel",
         type: "speakingtest",
@@ -2513,41 +2639,31 @@ const b1Curriculum = [
                 { eng: "Focus on", jpn: "集中する", exEng: "I tried to focus on the positive experiences.", exJpn: "ポジティブな経験に集中しようと努めました。" },
                 { eng: "Learn from", jpn: "〜から学ぶ", exEng: "We can learn from making travel mistakes.", exJpn: "旅行の失敗から学ぶことができます。" }
             ],
-            reading1: {
-                title: "Task 2: Reading (Review Model: A Memorable Trip)",
-                instruction: "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar (superlatives, past modals), and transitional expressions.",
-                eng: "In my opinion, traveling abroad is the most effective way to grow professionally. Actually, I recently took a business trip to Seoul that was incredibly memorable. The main purpose was to meet with our manufacturing partners. At first, navigating the subway was the most difficult challenge I faced. I got completely lost. In hindsight, I should have downloaded a local map app beforehand. However, I eventually figured out the routes by asking for help. To sum up, observing their highly efficient work culture broadened my horizons. I wish I had stayed a few days longer, because adapting to their customs turned out to be a fantastic learning experience.",
-                jpn: "私の意見では、海外へ行くことは仕事上で成長するための最も効果的な方法です。実は、私は最近、信じられないほど記憶に残るソウルへの出張に行きました。主な目的は、当社の製造パートナーと会うことでした。最初は、地下鉄を利用することが私が直面した最も困難な課題でした。完全に道に迷ってしまったのです。後から考えると、事前に現地の地図アプリをダウンロードしておくべきでした。しかし、助けを求めることで最終的にルートを理解しました。要約すると、彼らの非常に効率的な労働文化を観察することは私の視野を広げました。彼らの習慣に適応することは素晴らしい学習体験となったので、あと数日長く滞在すればよかったと思います。"
-            },
-            expandedDialogue: [
-                { speaker: "A", eng: "Are you ready for your speaking test on travel experiences?", jpn: "旅行体験についてのスピーキングテストの準備はできていますか？" },
-                { speaker: "B", eng: "Yes, I am. I will talk about the most challenging trip I ever took.", jpn: "はい、できています。私が今まで行った中で最も困難だった旅行について話します。" },
-                { speaker: "A", eng: "Oh? Where did you go, and why was it so difficult?", jpn: "おや？どこへ行ったのですか、そしてなぜそんなに難しかったのですか？" },
-                { speaker: "B", eng: "I went to London. The most frustrating part was losing my luggage.", jpn: "ロンドンに行きました。最も苛立たしかったのは荷物を紛失したことです。" },
-                { speaker: "A", eng: "That is terrible. You shouldn't have to deal with that on a business trip.", jpn: "それはひどいですね。出張でそんなことに対処しなければならないなんて。" },
-                { speaker: "B", eng: "I agree. In hindsight, I should have packed an extra shirt in my carry-on bag.", jpn: "同感です。今振り返ってみると、機内持ち込み手荷物に予備のシャツを詰めておくべきでした。" },
-                { speaker: "A", eng: "How did you manage to sort it out?", jpn: "どのようにしてそれを解決（整理）したのですか？" },
-                { speaker: "B", eng: "I had to buy new clothes out of pocket before my big presentation.", jpn: "大きなプレゼンテーションの前に、自腹で新しい服を買わなければなりませんでした。" },
-                { speaker: "A", eng: "Despite that, did you notice any interesting cultural differences?", jpn: "それにもかかわらず、何か興味深い文化の違いに気づきましたか？" },
-                { speaker: "B", eng: "Yes, the communication style was a little more indirect than I expected.", jpn: "はい、コミュニケーションスタイルが予想していたよりも少し間接的でした。" },
-                { speaker: "A", eng: "Did that experience broaden your horizons?", jpn: "その経験はあなたの視野を広げましたか？" },
-                { speaker: "B", eng: "Without a doubt. Adapting to unexpected problems made me much more confident.", jpn: "間違いありません。予期せぬ問題に適応することで、私はずっと自信を持てるようになりました。" },
-                { speaker: "A", eng: "That is a great point to include in your speech. Good luck!", jpn: "それはスピーチに含めるべき素晴らしいポイントですね。幸運を祈ります！" },
-                { speaker: "B", eng: "Thanks! I am really looking forward to presenting it.", jpn: "ありがとう！発表するのを本当に楽しみにしています。" }
+            clickingGames: [
+                // Chapter 3 Review Point 1: Ongoing Actions & Continuous Change - 4 sentences
+                { prompt: "私は5年前から仕事で出張を続けています。", target: "I have been traveling for work for five years.", words: ["I", "have", "been", "traveling", "for", "work", "for", "five", "years."] },
+                { prompt: "出張はますます疲れ果てるものになってきています。", target: "Business travel is becoming more and more exhausting.", words: ["Business", "travel", "is", "becoming", "more", "and", "more", "exhausting."] },
+                { prompt: "彼女は今朝から旅行スケジュールを準備し続けています。", target: "She has been preparing the travel schedule since morning.", words: ["She", "has", "been", "preparing", "the", "travel", "schedule", "since", "morning."] },
+                { prompt: "バーチャル会議はますます一般的になってきています。", target: "Virtual meetings are getting more and more common.", words: ["Virtual", "meetings", "are", "getting", "more", "and", "more", "common."] },
+                // Chapter 3 Review Point 2: Comparatives, Superlatives & Past Modals - 4 sentences
+                { prompt: "電車に乗ることは、飛行機に乗るよりもはるかに環境に優しいです。", target: "Taking a train is much more eco-friendly than flying.", words: ["Taking", "a", "train", "is", "much", "more", "eco-friendly", "than", "flying."] },
+                { prompt: "それが予算を処理する最良の方法です。", target: "That is the best way to handle the budget.", words: ["That", "is", "the", "best", "way", "to", "handle", "the", "budget."] },
+                { prompt: "事前に現地の地図アプリをダウンロードしておくべきでした。", target: "I should have downloaded a local map app beforehand.", words: ["I", "should", "have", "downloaded", "a", "local", "map", "app", "beforehand."] },
+                { prompt: "それは私たちが今まで行った中で最も高価な出張でした。", target: "It was the most expensive trip we have ever taken.", words: ["It", "was", "the", "most", "expensive", "trip", "we", "have", "ever", "taken."] }
             ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 1 - Learner Trip Reflections)",
+                instruction: "Read these reflections from professionals sharing memorable work and study trips. Notice how they describe challenges, cultural differences, and growth.",
+                eng: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>First Tech Expo in Berlin: Worth Every Step</strong></div><span class='er-author'>By: Kenji T. | Study &amp; Work Trip</span></div><p style='margin:0;'>Traveling abroad for our annual tech conference was the most memorable experience of my career so far. I had been preparing my presentation for weeks, and I felt a little culture shock on day one because everyone arrived early and spoke so directly. My biggest challenge was getting lost near the station while jet-lagged. Instead of giving up, I asked a local worker for help and figured out the train route quickly. Navigating public transport on my own broadened my horizons and gave me real confidence for international teamwork.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>Adapting to a New Office in Singapore</strong></div><span class='er-author'>By: Yumi K. | Client Visit</span></div><p style='margin:0;'>Last month, I spent two weeks visiting a partner team in Singapore to plan a new product launch. Trying local cuisine and exploring the city after work helped me relax and adapt to the local pace. At first, understanding subtle communication cues was a little tricky compared to my usual office routine. I should have reviewed their meeting style earlier, yet asking polite follow-up questions helped me overcome that challenge. Overall, the trip improved my communication skills and helped me build strong trust with our overseas partners.</p></div></div>",
+                jpn: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>ベルリンでの初のテックエキスポ：一歩ずつが価値あるものに</strong></div><span class='er-author'>投稿者：ケンジ・T | 研修・出張</span></div><p style='margin:0;'>年次のテックカンファレンスで海外へ行ったことは、これまでのキャリアで最も記憶に残る体験でした。何週間もプレゼンテーションの準備をしてきましたが、初日はみんなが早く到着し、とても率直に話すので少しカルチャーショックを感じました。最大の困難は、時差ぼけの状態で駅の近くで道に迷ったことです。諦める代わりに、地元のスタッフに助けを求め、電車のルートを素早く理解しました。自分で公共交通機関を利用したことで視野が広がり、国際的なチームワークへの本当の自信がつきました。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>シンガポールの新しいオフィスへの適応</strong></div><span class='er-author'>投稿者：ユミ・K | クライアント訪問</span></div><p style='margin:0;'>先月、新製品のローンチを計画するためにシンガポールのパートナーチームを2週間訪問しました。地元の料理を試したり、仕事後に街を探索したりしたことで、リラックスして現地のペースに適応できました。最初は、普段のオフィスルーティンと比べて微妙なコミュニケーションのサインを理解するのが少し難しかったです。彼らのミーティングスタイルをもっと早く確認しておくべきでしたが、丁寧に追加の質問をしたことでその課題を乗り越えられました。全体として、その出張は私のコミュニケーションスキルを高め、海外パートナーとの強い信頼を築くのに役立ちました。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a time you traveled for work or study and faced a problem. How did you overcome it?",
                 promptJpn: "「仕事や勉強のために旅行し、問題に直面した時のことを説明してください。どのようにしてそれを乗り越えましたか？」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Value of Global Exposure)",
-                instruction: "Read this authentic article to learn more about the benefits of international travel. This section provides real-world context for B1 learners.",
-                eng: "Traveling abroad for business or education is widely considered one of the most effective ways to accelerate personal and professional growth. When professionals step outside their familiar environments, they are immediately exposed to new languages, distinct cultural norms, and different ways of solving problems. This phenomenon, often referred to as 'global exposure,' forces individuals to adapt quickly. While dealing with severe jet lag, confusing public transport systems, or language barriers can be highly stressful, these challenges ultimately build resilience. Overcoming obstacles in a foreign country teaches travelers to remain calm under pressure and think creatively.\n\nFurthermore, experiencing culture shock is actually a vital part of the learning process. For example, a professional might discover that their usual direct communication style is considered rude in an Asian market, or that their casual approach to time management is unacceptable in Northern Europe. These realizations help individuals develop cultural intelligence and empathy. By reflecting on these differences, travelers learn to modify their behavior and communicate more effectively with diverse teams. This flexibility is a highly sought-after skill in today's globalized economy.\n\nUltimately, a successful international trip provides much more than just a signed contract or a university credit. It broadens a person's horizons and permanently changes their perspective on the world. The memories and lessons gained from navigating a foreign city stay with a person for a lifetime. Therefore, despite the exhausting flights and potential logistical nightmares, the long-term benefits of international travel make it an invaluable investment in one's future career.",
-                jpn: "仕事や教育のために海外へ旅行することは、個人的および専門的な成長を加速させる最も効果的な方法の1つとして広く考えられています。プロフェッショナルが慣れ親しんだ環境から一歩外に出ると、彼らは即座に新しい言語、独特の文化的規範、そして異なる問題解決方法にさらされます。しばしば「グローバルな経験（露出）」と呼ばれるこの現象は、個人に迅速な適応を強います。ひどい時差ぼけ、複雑な公共交通機関、言葉の壁に対処することは非常にストレスの多いことですが、これらの課題は最終的に回復力（レジリエンス）を構築します。外国での障害を乗り越えることは、プレッシャーの下でも冷静さを保ち、創造的に考えることを旅行者に教えるのです。\n\nさらに、カルチャーショックを経験することは、実際のところ学習プロセスにおいて不可欠な部分です。例えば、プロフェッショナルは、自分のいつもの直接的なコミュニケーションスタイルがアジア市場では失礼と見なされたり、時間管理に対するカジュアルなアプローチが北欧では受け入れられなかったりすることを発見するかもしれません。これらの気づきは、個人が文化的知能と共感力を発達させるのに役立ちます。これらの違いについて熟考することで、旅行者は自分の行動を修正し、多様なチームとより効果的にコミュニケーションをとることを学びます。この柔軟性は、今日のグローバル化された経済において非常に求められているスキルです。\n\n最終的に、成功した海外旅行は、単なる署名された契約書や大学の単位以上のものをはるかに多く提供します。それは人の視野を広げ、世界に対する見方を永久に変えるのです。外国の都市を移動することで得られた記憶と教訓は、一生その人と共にあります。したがって、疲れ果てるフライトや潜在的なロジスティクスの悪夢にもかかわらず、海外旅行の長期的な利点は、それを自分の将来のキャリアに対する非常に価値のある投資にしているのです。"
             }
         }
     },
-    {
+{
         id: 22,
         chapter: "Chapter 4: E-commerce",
         type: "opinion",
@@ -2557,30 +2673,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "I buy almost everything online nowadays, from groceries to electronics. The convenience of clicking a button and having items delivered to my door the next day is simply unbeatable. I usually rely heavily on customer reviews before making a purchase. However, I have noticed that there are too many fake reviews on some platforms, which makes it hard to trust the ratings. Another problem is impulse buying. Because mobile shopping apps are so easy to use, I sometimes spend too much money on things I don't really need. It is very easy to get addicted to the thrill of online sales. Despite these drawbacks, the ability to easily compare prices across different stores saves me a lot of time and money in the long run.", 
-                    jpn: "最近は食料品から電子機器まで、ほとんどすべてのものをオンラインで購入しています。ボタンをクリックするだけで翌日に商品が玄関に届く利便性は、単に無敵です。私はたいてい、購入する前にカスタマーレビューに大きく依存しています。しかし、一部のプラットフォームには偽のレビューが多すぎることに気づき、評価を信頼するのが難しくなっています。もう一つの問題は衝動買いです。モバイルショッピングアプリはとても使いやすいため、私は時々、本当は必要のないものに多すぎるお金を費やしてしまいます。オンラインセールのスリルに病みつきになるのはとても簡単です。これらの欠点にもかかわらず、さまざまな店で価格を簡単に比較できる機能は、長い目で見れば私の時間とお金を大幅に節約してくれます。" 
+                {
+                    name: "Person 1",
+                    eng: "I buy almost everything online nowadays, from groceries to electronics. The convenience of clicking a button and having items delivered to my door the next day is simply unbeatable. I usually rely heavily on customer reviews before making a purchase. However, I have noticed that there are too many fake reviews on some platforms, which makes it hard to trust the ratings. Another problem is impulse buying. Because mobile shopping apps are so easy to use, I sometimes spend too much money on things I don't really need. It is very easy to get addicted to the thrill of online sales. Despite these drawbacks, the ability to easily compare prices across different stores saves me a lot of time and money in the long run.",
+                    jpn: "最近は食料品から電子機器まで、ほとんどすべてのものをオンラインで購入しています。ボタンをクリックするだけで翌日に商品が玄関に届く利便性は、単に無敵です。私はたいてい、購入する前にカスタマーレビューに大きく依存しています。しかし、一部のプラットフォームには偽のレビューが多すぎることに気づき、評価を信頼するのが難しくなっています。もう一つの問題は衝動買いです。モバイルショッピングアプリはとても使いやすいため、私は時々、本当は必要のないものに多すぎるお金を費やしてしまいます。オンラインセールのスリルに病みつきになるのはとても簡単です。これらの欠点にもかかわらず、さまざまな店で価格を簡単に比較できる機能は、長い目で見れば私の時間とお金を大幅に節約してくれます。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "As a small business owner, transitioning to e-commerce was essential for my survival. Selling products online allowed me to reach a global audience instead of just local customers. However, managing an online store requires a lot of technical maintenance and customer service. Customers expect free shipping and instant replies to their messages, which can be too much pressure for a small team to handle. Furthermore, the return policies are often a nightmare. People order three different sizes of a shirt, try them on at home, and send two back. Processing these returns eats into our profits. I think big platforms have trained consumers to expect perfection, making it incredibly difficult for independent retailers to compete fairly.", 
-                    jpn: "中小企業の経営者として、Eコマースへの移行は生き残るために不可欠でした。オンラインで製品を販売することで、地元の顧客だけでなく世界中の視聴者にリーチできるようになりました。しかし、オンラインストアの管理には多くの技術的なメンテナンスとカスタマーサービスが必要です。顧客は送料無料やメッセージへの即時の返信を期待しますが、それは小さなチームが対処するには大きすぎるプレッシャーになることがあります。さらに、返品ポリシーはしばしば悪夢です。人々はシャツの異なる3つのサイズを注文し、家で試着して、2つを送り返します。これらの返品処理は私たちの利益を食いつぶします。巨大なプラットフォームが消費者に完璧さを期待するように訓練してしまったため、独立した小売業者が公平に競争するのは信じられないほど難しくなっていると思います。" 
+                {
+                    name: "Person 2",
+                    eng: "As a small business owner, transitioning to e-commerce was essential for my survival. Selling products online allowed me to reach a global audience instead of just local customers. However, managing an online store requires a lot of technical maintenance and customer service. Customers expect free shipping and instant replies to their messages, which can be too much pressure for a small team to handle. Furthermore, the return policies are often a nightmare. People order three different sizes of a shirt, try them on at home, and send two back. Processing these returns eats into our profits. I think big platforms have trained consumers to expect perfection, making it incredibly difficult for independent retailers to compete fairly.",
+                    jpn: "中小企業の経営者として、Eコマースへの移行は生き残るために不可欠でした。オンラインで製品を販売することで、地元の顧客だけでなく世界中の視聴者にリーチできるようになりました。しかし、オンラインストアの管理には多くの技術的なメンテナンスとカスタマーサービスが必要です。顧客は送料無料やメッセージへの即時の返信を期待しますが、それは小さなチームが対処するには大きすぎるプレッシャーになることがあります。さらに、返品ポリシーはしばしば悪夢です。人々はシャツの異なる3つのサイズを注文し、家で試着して、2つを送り返します。これらの返品処理は私たちの利益を食いつぶします。巨大なプラットフォームが消費者に完璧さを期待するように訓練してしまったため、独立した小売業者が公平に競争するのは信じられないほど難しくなっていると思います。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "The environmental impact of e-commerce is something I worry about constantly. Think about the massive amount of cardboard packaging, bubble wrap, and plastic bags used for every single online order. It generates way too much waste. Also, the carbon footprint of delivery trucks driving through neighborhoods to drop off tiny packages is alarming. Many companies offer 'next-day delivery,' but this usually means delivery vans are not fully loaded, making the routes very inefficient. I have started choosing 'eco-friendly shipping' options when available, which means my items might take a few extra days to arrive, but they use less packaging and optimized routes. We need to completely rethink how online retail impacts our planet before the pollution gets worse.", 
-                    jpn: "Eコマースの環境への影響は、私が常に心配していることです。すべてのオンライン注文に使われる段ボールの梱包材、気泡緩衝材（プチプチ）、ビニール袋の膨大な量を考えてみてください。それはあまりにも多すぎるゴミを生み出します。また、小さな荷物を届けるために近所を走り回る配送トラックの二酸化炭素排出量も憂慮すべきものです。多くの企業が「翌日配送」を提供していますが、これは通常、配送用バンが満載ではないことを意味し、ルートが非常に非効率になります。私は利用可能な場合は「エコフレンドリーな配送」オプションを選ぶようにし始めました。これは商品が到着するまでに数日余分にかかるかもしれませんが、パッケージの量が減り、最適化されたルートが使用されます。汚染が悪化する前に、オンライン小売が私たちの地球にどのような影響を与えているかを完全に再考する必要があります。" 
+                {
+                    name: "Person 3",
+                    eng: "The environmental impact of e-commerce is something I worry about constantly. Think about the massive amount of cardboard packaging, bubble wrap, and plastic bags used for every single online order. It generates way too much waste. Also, the carbon footprint of delivery trucks driving through neighborhoods to drop off tiny packages is alarming. Many companies offer 'next-day delivery,' but this usually means delivery vans are not fully loaded, making the routes very inefficient. I have started choosing 'eco-friendly shipping' options when available, which means my items might take a few extra days to arrive, but they use less packaging and optimized routes. We need to completely rethink how online retail impacts our planet before the pollution gets worse.",
+                    jpn: "Eコマースの環境への影響は、私が常に心配していることです。すべてのオンライン注文に使われる段ボールの梱包材、気泡緩衝材（プチプチ）、ビニール袋の膨大な量を考えてみてください。それはあまりにも多すぎるゴミを生み出します。また、小さな荷物を届けるために近所を走り回る配送トラックの二酸化炭素排出量も憂慮すべきものです。多くの企業が「翌日配送」を提供していますが、これは通常、配送用バンが満載ではないことを意味し、ルートが非常に非効率になります。私は利用可能な場合は「エコフレンドリーな配送」オプションを選ぶようにし始めました。これは商品が到着するまでに数日余分にかかるかもしれませんが、パッケージの量が減り、最適化されたルートが使用されます。汚染が悪化する前に、オンライン小売が私たちの地球にどのような影響を与えているかを完全に再考する必要があります。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Shopping Habits 📖", themeJpn: "買い物の習慣", sub: [{eng: "Mobile apps", jpn: "モバイルアプリ"}, {eng: "Impulse buying", jpn: "衝動買い"}, {eng: "Comparing prices", jpn: "価格の比較"}] },
-            { theme: "Customer Reviews 📖", themeJpn: "カスタマーレビュー", sub: [{eng: "Trusting ratings", jpn: "評価を信頼すること"}, {eng: "Fake reviews", jpn: "偽のレビュー"}, {eng: "Reading feedback", jpn: "フィードバックを読むこと"}] },
-            { theme: "Delivery & Returns 📖", themeJpn: "配送と返品", sub: [{eng: "Next-day delivery", jpn: "翌日配送"}, {eng: "Free shipping", jpn: "送料無料"}, {eng: "Return policies", jpn: "返品ポリシー"}] },
-            { theme: "Small Businesses 📖", themeJpn: "中小企業", sub: [{eng: "Global reach", jpn: "グローバルなリーチ"}, {eng: "Customer expectations", jpn: "顧客の期待"}, {eng: "Competing with giants", jpn: "巨大企業との競争"}] },
-            { theme: "Environmental Impact 📖", themeJpn: "環境への影響", sub: [{eng: "Packaging waste", jpn: "梱包のゴミ"}, {eng: "Delivery emissions", jpn: "配送による排出"}, {eng: "Eco-friendly options", jpn: "エコフレンドリーな選択肢"}] },
-            { theme: "Digital Security 📖", themeJpn: "デジタルセキュリティ", sub: [{eng: "Payment safety", jpn: "支払いの安全性"}, {eng: "Data privacy", jpn: "データプライバシー"}, {eng: "Scams", jpn: "詐欺"}] }
+            { theme: "Shopping Habits 📖", themeJpn: "買い物の習慣", sub: [{ eng: "Mobile apps", jpn: "モバイルアプリ" }, { eng: "Impulse buying", jpn: "衝動買い" }, { eng: "Comparing prices", jpn: "価格の比較" }] },
+            { theme: "Customer Reviews 📖", themeJpn: "カスタマーレビュー", sub: [{ eng: "Trusting ratings", jpn: "評価を信頼すること" }, { eng: "Fake reviews", jpn: "偽のレビュー" }, { eng: "Reading feedback", jpn: "フィードバックを読むこと" }] },
+            { theme: "Delivery & Returns 📖", themeJpn: "配送と返品", sub: [{ eng: "Next-day delivery", jpn: "翌日配送" }, { eng: "Free shipping", jpn: "送料無料" }, { eng: "Return policies", jpn: "返品ポリシー" }] },
+            { theme: "Small Businesses 📖", themeJpn: "中小企業", sub: [{ eng: "Global reach", jpn: "グローバルなリーチ" }, { eng: "Customer expectations", jpn: "顧客の期待" }, { eng: "Competing with giants", jpn: "巨大企業との競争" }] },
+            { theme: "Environmental Impact 📖", themeJpn: "環境への影響", sub: [{ eng: "Packaging waste", jpn: "梱包のゴミ" }, { eng: "Delivery emissions", jpn: "配送による排出" }, { eng: "Eco-friendly options", jpn: "エコフレンドリーな選択肢" }] },
+            { theme: "Digital Security 📖", themeJpn: "デジタルセキュリティ", sub: [{ eng: "Payment safety", jpn: "支払いの安全性" }, { eng: "Data privacy", jpn: "データプライバシー" }, { eng: "Scams", jpn: "詐欺" }] }
         ],
         questions: [
             { eng: "1. What was the last thing you bought online, and why?", jpn: "1. 最後にオンラインで買ったものは何ですか？またそれはなぜですか？" },
@@ -2656,20 +2772,31 @@ const b1Curriculum = [
                 { eng: "Give away", jpn: "無料で提供する、プレゼントする", exEng: "The store is giving away free samples today.", exJpn: "その店は今日、無料サンプルを提供しています。" },
                 { eng: "Bring down", jpn: "（価格などを）下げる", exEng: "Sales events bring down the cost of electronics.", exJpn: "セールイベントは電子機器のコストを下げます。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Exceeded limits (too much / too many) - 4 sentences
+                { prompt: "私は必要のないものに多すぎるお金を使ってしまいます。", target: "I spend too much money on things I don't need.", words: ["I", "spend", "too", "much", "money", "on", "things", "I", "don't", "need."] },
+                { prompt: "そのウェブサイトには偽のレビューが多すぎます。", target: "There are too many fake reviews on that website.", words: ["There", "are", "too", "many", "fake", "reviews", "on", "that", "website."] },
+                { prompt: "オンライン注文は多すぎる梱包ゴミを出します。", target: "Online orders create too much packaging waste.", words: ["Online", "orders", "create", "too", "much", "packaging", "waste."] },
+                { prompt: "小さなチームには多すぎるプレッシャーになることがあります。", target: "It can be too much pressure for a small team.", words: ["It", "can", "be", "too", "much", "pressure", "for", "a", "small", "team."] },
+                // Grammar Point 2: Expressing a process (in the process of + ing) - 4 sentences
+                { prompt: "私たちは返品ポリシーを更新している最中です。", target: "We are in the process of updating our return policy.", words: ["We", "are", "in", "the", "process", "of", "updating", "our", "return", "policy."] },
+                { prompt: "私は注文をキャンセルしている最中です。", target: "I am in the process of canceling my order.", words: ["I", "am", "in", "the", "process", "of", "canceling", "my", "order."] },
+                { prompt: "彼らはより良い配送オプションをテストしている最中です。", target: "They are in the process of testing greener delivery options.", words: ["They", "are", "in", "the", "process", "of", "testing", "greener", "delivery", "options."] },
+                { prompt: "私たちは新しいオンラインストアを構築している最中です。", target: "We are in the process of building a new online store.", words: ["We", "are", "in", "the", "process", "of", "building", "a", "new", "online", "store."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 2 - Retail Discussion Forum)",
+                instruction: "Read this forum thread on online shopping habits, impulse buying, and packaging waste. Notice 'too much', 'too many', and 'in the process of'.",
+                eng: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>ShopperDan asks:</strong><br>Nowadays I buy almost everything online because it saves time, but I feel like I spend too much money during flash sales. Also, there are too many fake reviews when I compare prices. How do you avoid bad purchases?</div><div class='er-forum-a'>💬 <strong>Reply by EcoBuyer:</strong><br>I used to buy on impulse too, instead of waiting a day. Now I check recent verified reviews and pick eco-friendly shipping when I do not need next-day delivery. Our shop is even in the process of using less bubble wrap and smaller boxes to cut waste.</div><div class='er-forum-a'>💬 <strong>Reply by StoreOwner_M:</strong><br>From a small business view, free returns add way too much cost when customers order three sizes and send two back. In the long run, clear size guides and honest photos help both shoppers and independent retailers.</div></div>",
+                jpn: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>ShopperDanの質問：</strong><br>最近は時間を節約できるためほとんどすべてのものをオンラインで買っていますが、タイムセール中に多すぎるお金を使ってしまう気がします。また、価格を比較するときに偽のレビューが多すぎます。悪い買い物を避けるにはどうしていますか？</div><div class='er-forum-a'>💬 <strong>EcoBuyerの返信：</strong><br>私も以前は1日待つ代わりに衝動買いをしていました。今は最近の確認済みレビューを確認し、翌日配送が必要ないときはエコフレンドリーな配送を選んでいます。私たちの店でも、ゴミを減らすために気泡緩衝材（プチプチ）を減らし、小さな箱にする取り組みを進めている最中です。</div><div class='er-forum-a'>💬 <strong>StoreOwner_Mの返信：</strong><br>中小企業の視点からすると、顧客が3つのサイズを注文して2つを返品する際、返品無料はあまりにも多すぎるコストを追加します。長い目で見れば、分かりやすいサイズガイドと正直な写真が買い物客と独立系小売業者の双方に役立ちます。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: What are the negative effects of online shopping? Use 'too much' or 'too many' to explain your points.",
                 promptJpn: "「オンラインショッピングの悪影響は何ですか？『too much』や『too many』を使って要点を説明する短い段落を書いてください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Hidden Costs of E-Commerce)",
-                instruction: "Read this authentic article to learn more about the impacts of online retail. This section provides real-world context for B1 learners.",
-                eng: "The explosion of e-commerce has undeniably revolutionized how we acquire goods. With a few taps on a smartphone, consumers can purchase groceries, clothing, and electronics, expecting them to arrive at their doorstep within 24 hours. While the convenience is unparalleled, this shift in consumer behavior carries significant, often hidden, costs. One major issue is the psychological effect of seamless purchasing. Retailers design their mobile applications to reduce friction, making it incredibly easy to click 'Buy Now.' Consequently, many consumers struggle with impulse buying, accumulating debt because they spend too much money on items they do not truly need.\n\nFurthermore, the environmental footprint of online shopping is staggering. Every individual order requires cardboard boxes, plastic wrapping, and shipping labels. This generates way too much packaging waste, much of which ends up in landfills. Additionally, the logistics of 'last-mile delivery'—the final step of bringing a package to a house—are highly inefficient. Thousands of delivery vans navigate residential streets daily, contributing heavily to urban traffic congestion and greenhouse gas emissions. The popular trend of 'free returns' makes this worse. Consumers often over-order clothing to try on at home, returning the items that don't fit. Transporting, inspecting, and repackaging these returns uses massive amounts of energy, and sadly, many returned items are simply thrown away because it is cheaper than restocking them.\n\nHowever, the industry is in the process of changing. Consumers are becoming more aware of these negative impacts and are demanding better practices. Some major platforms now offer options to consolidate deliveries, meaning fewer boxes and fewer truck trips. Independent retailers are also switching to biodegradable packaging materials. Ultimately, while e-commerce provides fantastic benefits, shoppers must balance their desire for instant gratification with mindful, sustainable purchasing habits.",
-                jpn: "Eコマースの爆発的な普及は、私たちが商品を手に入れる方法に間違いなく革命をもたらしました。スマートフォンの数回のタップで、消費者は食料品、衣類、電子機器を購入し、24時間以内に玄関先に届くことを期待できます。その利便性は比類のないものですが、この消費者行動の変化は重大な、しばしば隠されたコストを伴います。一つの大きな問題は、シームレスな購買の心理的影響です。小売業者は摩擦を減らすようにモバイルアプリケーションを設計し、「今すぐ購入」をクリックすることを信じられないほど簡単にしています。その結果、多くの消費者が衝動買いに苦しみ、本当は必要のないものに多すぎるお金を費やすため、借金を抱えることになります。\n\nさらに、オンラインショッピングの環境フットプリント（環境への負荷）は驚異的です。すべての個別の注文には、段ボール箱、プラスチックの包装、配送ラベルが必要です。これはあまりにも多すぎる梱包ゴミを生み出し、その多くが埋め立て地に運ばれます。さらに、「ラストマイル配送（荷物を家に届ける最終段階）」のロジスティクスは非常に非効率です。毎日何千台もの配送バンが住宅街を走り回り、都市の交通渋滞と温室効果ガス排出に大きく貢献しています。「返品無料」という人気のトレンドはこれをさらに悪化させます。消費者はしばしば家で試着するために衣類を過剰に注文し、合わなかった品物を返品します。これらの返品の輸送、検査、再梱包には大量のエネルギーが使われ、悲しいことに、多くの返品商品は在庫に戻すよりも安上がりであるため、単に捨てられてしまいます。\n\nしかし、業界は変化の途中にあります。消費者はこれらの悪影響をより認識するようになり、より良い慣行を求めています。一部の主要プラットフォームは現在、配送をまとめるオプションを提供しており、これは箱の数やトラックの移動回数が減ることを意味します。独立系の小売業者も生分解性の梱包材に切り替えています。最終的に、Eコマースは素晴らしい利点を提供しますが、買い物客は即時の欲求不満の解消と、意識的で持続可能な購買習慣とのバランスを取らなければなりません。"
             }
         }
     },
-
-{
+    {
         id: 23,
         chapter: "Chapter 4: E-commerce",
         type: "transactional",
@@ -2718,46 +2845,38 @@ const b1Curriculum = [
             { eng: "Thank the agent", jpn: "担当者に感謝する", indent: true }
         ],
         expressions: [
-            { category: "1. Expressing a broken promise (破られた約束を表現する)", options: ["It was supposed to arrive on Tuesday.", "The package was supposed to be here.", "You were supposed to deliver it yesterday."] },           
-            { category: "2. Asking for details (詳細を尋ねる)", options: ["Could you please provide your order number?", "May I have your shipping address?", "Can you tell me your account ID?"] }, 
-            { category: "3. Apologizing professionally (プロとして謝罪する)", options: ["I am truly sorry that we made this mistake.", "I apologize for the inconvenience.", "Please accept my sincere apologies."] },
-            { category: "4. Offering a solution (解決策を提案する)", options: ["I can send a replacement right now.", "I will issue a full refund immediately.", "We will ship a new item via express delivery."] },
-            { category: "5. Adding compensation (補償を追加する)", options: ["Plus, I will issue a full refund.", "Additionally, I will give you a discount voucher.", "Plus, we will waive the shipping fee."] },
-            { category: "6. Promising follow-up (フォローアップを約束する)", options: ["I will email you the tracking details.", "I will send a confirmation message shortly.", "I will personally monitor this shipment."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Verbs: Expressing broken promises (was/were supposed to)",
-                explanation: "We use 'was supposed to' or 'were supposed to' followed by a base verb to express an expectation or a promise made in the past that was not fulfilled.",
-                explanationJpn: "過去に期待されていたこと、または約束されていたが果たされなかったことを表現するために、「was supposed to」または「were supposed to」の後に動詞の原形を使用します。",
-                examples: [
-                    { eng: "The package was supposed to arrive on Tuesday.", jpn: "その荷物は火曜日に到着するはずでした（到着しなかった）。" },
-                    { eng: "They were supposed to issue a refund yesterday.", jpn: "彼らは昨日返金を発行するはずでした。" }
+                category: "1. Expressing a broken promise (破られた約束を表現する)",
+                options: [
+                    { eng: "It was supposed to arrive on Tuesday.", jpn: "火曜日に到着するはずだったのですが。" },
+                    { eng: "The package was supposed to be here.", jpn: "荷物はここにあるはずでした。" },
+                    { eng: "You were supposed to deliver it yesterday.", jpn: "昨日配達するはずでしたよね。" }
                 ]
             },
             {
-                point: "2. Conjunctions: Adding additional information (Plus)",
-                explanation: "In casual or spoken business English, you can use 'Plus' at the beginning of a sentence to add an extra point or offer, similar to 'Additionally' or 'Also'.",
-                explanationJpn: "カジュアルまたは口語のビジネス英語では、文の最初に「Plus」を使って追加のポイントや申し出を加えることができます。「Additionally」や「Also」と似ています。",
-                examples: [
-                    { eng: "I will send a replacement. Plus, I will issue a full refund.", jpn: "交換品をお送りします。加えて、全額返金を発行いたします。" },
-                    { eng: "The item is out of stock. Plus, the factory is closed.", jpn: "その商品は在庫切れです。加えて、工場は閉鎖されています。" }
+                category: "2. Apologizing professionally (プロとして謝罪する)",
+                options: [
+                    { eng: "I am truly sorry that we made this mistake.", jpn: "私たちがこのミスをしてしまい、本当に申し訳ございません。" },
+                    { eng: "I apologize for the inconvenience.", jpn: "ご不便をおかけして申し訳ありません。" },
+                    { eng: "Please accept my sincere apologies.", jpn: "心よりお詫び申し上げます。" }
+                ]
+            },
+            {
+                category: "3. Offering a solution (解決策を提案する)",
+                options: [
+                    { eng: "I can send a replacement right now.", jpn: "今すぐ交換品をお送りすることができます。" },
+                    { eng: "I will issue a full refund immediately.", jpn: "すぐに全額返金を発行いたします。" },
+                    { eng: "We will ship a new item via express delivery.", jpn: "速達で新しい商品を出荷いたします。" }
+                ]
+            },
+            {
+                category: "4. Adding compensation with 'Plus' (補償を追加する)",
+                options: [
+                    { eng: "Plus, I will issue a full refund.", jpn: "加えて、全額返金を発行いたします。" },
+                    { eng: "Plus, I will give you a discount voucher.", jpn: "加えて、割引券をお渡しします。" },
+                    { eng: "Plus, we will waive the shipping fee.", jpn: "加えて、配送料を無料にいたします。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "その荷物は昨日到着するはずでした。", target: "The package was supposed to arrive yesterday.", words: ["The", "package", "was", "supposed", "to", "arrive", "yesterday."] },
-            { prompt: "注文番号を教えていただけますでしょうか？", target: "Could you please provide your order number?", words: ["Could", "you", "please", "provide", "your", "order", "number?"] },
-            { prompt: "ご不便をおかけして申し訳ありません。", target: "I apologize for the inconvenience.", words: ["I", "apologize", "for", "the", "inconvenience."] },
-            { prompt: "今すぐ速達で交換品をお送りすることができます。", target: "I can send a replacement via express delivery.", words: ["I", "can", "send", "a", "replacement", "via", "express", "delivery."] },
-            { prompt: "加えて、全額返金を発行いたします。", target: "Plus, I will issue a full refund.", words: ["Plus,", "I", "will", "issue", "a", "full", "refund."] }
-        ],
-        dropdownGames: [
-            { before: "The delivery", options: ["was suppose to", "was supposed to", "supposed to"], answer: "was supposed to", after: " happen this morning." },
-            { before: "Could you please", options: ["provide", "providing", "provided"], answer: "provide", after: " your tracking ID?" },
-            { before: "I will", options: ["issue", "issuing", "issued"], answer: "issue", after: " a full refund to your credit card." },
-            { before: "We will send a", options: ["replace", "replacement", "replaced"], answer: "replacement", after: " item immediately." },
-            { before: "", options: ["Plus", "Although", "Despite"], answer: "Plus", after: ", we will offer you a 20% discount on your next order." }
         ],
         roleplay: {
             a: "You ordered a laptop, but it arrived with a broken screen. Call customer service. Explain that the item was damaged and that it was supposed to be a gift for tomorrow. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(ノートパソコンを注文しましたが、画面が割れた状態で届きました。カスタマーサービスに電話してください。商品が破損していたこと、そしてそれが明日のための贈り物であるはずだったことを説明してください。)</span>",
@@ -2784,15 +2903,27 @@ const b1Curriculum = [
                 { eng: "Get back to", jpn: "〜に後で連絡する", exEng: "I will get back to you once I have an update.", exJpn: "最新情報が入り次第、折り返しご連絡いたします。" },
                 { eng: "Pass on", jpn: "伝える", exEng: "I will pass on your feedback to the management team.", exJpn: "あなたのご意見を経営陣に伝えます。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Broken promises (was/were supposed to) - 4 sentences
+                { prompt: "その荷物は昨日到着するはずでした。", target: "The package was supposed to arrive yesterday.", words: ["The", "package", "was", "supposed", "to", "arrive", "yesterday."] },
+                { prompt: "彼らは昨日返金を発行するはずでした。", target: "They were supposed to issue a refund yesterday.", words: ["They", "were", "supposed", "to", "issue", "a", "refund", "yesterday."] },
+                { prompt: "交換品は火曜日に届くはずでした。", target: "The replacement item was supposed to arrive on Tuesday.", words: ["The", "replacement", "item", "was", "supposed", "to", "arrive", "on", "Tuesday."] },
+                { prompt: "サポート担当者は朝に電話をかけるはずでした。", target: "The support agent was supposed to call in the morning.", words: ["The", "support", "agent", "was", "supposed", "to", "call", "in", "the", "morning."] },
+                // Grammar Point 2: Adding additional information (Plus) - 4 sentences
+                { prompt: "交換品をお送りします。加えて、全額返金を発行いたします。", target: "I will send a replacement. Plus, I will issue a full refund.", words: ["I", "will", "send", "a", "replacement.", "Plus,", "I", "will", "issue", "a", "full", "refund."] },
+                { prompt: "加えて、次回のご注文で使える割引券をお渡しします。", target: "Plus, I will give you a discount voucher for next time.", words: ["Plus,", "I", "will", "give", "you", "a", "discount", "voucher", "for", "next", "time."] },
+                { prompt: "その商品は在庫切れです。加えて、配送に遅れが出ています。", target: "The item is out of stock. Plus, shipping is delayed.", words: ["The", "item", "is", "out", "of", "stock.", "Plus,", "shipping", "is", "delayed."] },
+                { prompt: "速達で発送します。加えて、配送料は無料にいたします。", target: "We will ship by express. Plus, we will waive the fee.", words: ["We", "will", "ship", "by", "express.", "Plus,", "we", "will", "waive", "the", "fee."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 3 - Support Team Blog)",
+                instruction: "Read this customer support blog post on handling late or damaged orders. Notice 'was supposed to' and 'Plus'.",
+                eng: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>How Our Support Team Turns Order Mistakes Into Trust</h3><span class='er-blog-meta'>By: Support Lead Mei | 📅 November 2</span><p>Even with good systems, online orders sometimes go wrong. A parcel gets lost in transit, warehouse staff mix up shipping labels, or damaged goods arrive at a customer's door. When an order was supposed to arrive before a big meeting or event, a late delivery feels even more stressful. Apologizing right away and checking the order number shows the customer that we care.</p><p>The best fix starts with a clear, honest response instead of excuses. If a shipment is delayed, we can send a replacement item via express delivery and share new tracking details fast. Plus, we often issue a partial refund or discount code to make up for the trouble. When customers see that we sort out mistakes quickly, they feel respected and stay loyal to the store.</p></div>",
+                jpn: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>私たちのサポートチームがいかに注文ミスを信頼に変えるか</h3><span class='er-blog-meta'>執筆者：サポートリーダー メイ | 📅 11月2日</span><p>良いシステムがあっても、オンライン注文は時にうまくいかないことがあります。荷物が輸送中に紛失したり、倉庫スタッフが配送ラベルを取り違えたり、破損した商品が顧客の玄関に届いたりします。大切な会議やイベントの前に到着するはずだった注文が遅れると、配送の遅れはさらにストレスに感じられます。すぐに謝罪して注文番号を確認することで、私たちが親身になっていることを顧客に示せます。</p><p>最良の解決策は、言い訳ではなく明確で誠実な対応から始まります。発送が遅れている場合、速達で交換品を送り、新しい追跡の詳細を素早く共有できます。加えて、手間をかけた埋め合わせとして一部返金や割引コードを発行することもよくあります。私たちがミスを素早く解決するのを見ると、顧客は尊重されていると感じ、ストアへの信頼を保ち続けます。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short dialogue between a customer complaining about a wrong item and an agent fixing the problem. Use 'was supposed to' and 'Plus'.",
                 promptJpn: "「間違った商品について苦情を言う顧客と、問題を解決する担当者の間の短い対話を書いてください。『was supposed to』と『Plus』を使用してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Customer Service in E-Commerce)",
-                instruction: "Read this authentic text about handling customer complaints in the online retail industry.",
-                eng: "In the highly competitive world of e-commerce, customer service is often the primary factor that separates successful companies from failing ones. When a consumer makes an online purchase, they expect a seamless experience from the moment they click 'Buy' to the moment the package arrives at their door. However, logistical errors are inevitable. Packages get lost in transit, warehouse staff occasionally mix up shipping labels, and fragile items can arrive completely shattered. When these broken promises occur, how a company responds determines whether they lose a customer forever or build long-term brand loyalty.\n\nA frustrated customer who calls to say, 'This was supposed to arrive three days ago,' is not just looking for an explanation; they are looking for immediate action and empathy. Professional support agents are trained to never argue with the customer. Instead, they acknowledge the frustration, apologize sincerely, and immediately pivot to a solution. The most effective resolution usually involves replacing the item at no extra cost and offering additional compensation. For example, an agent might say, 'I will dispatch a replacement today. Plus, I am issuing a 20% refund to make up for the delay.'\n\nThis strategy, often called 'service recovery,' is incredibly powerful. Studies show that a customer who experiences a problem that is resolved quickly and generously is actually more likely to purchase from that company again than a customer who never experienced a problem at all. In e-commerce, turning a logistical disaster into a moment of exceptional hospitality is the ultimate key to retaining a dedicated customer base.",
-                jpn: "競争の激しいEコマースの世界において、カスタマーサービスはしばしば成功する企業と失敗する企業を分ける主要な要因となります。消費者がオンラインで購入する際、彼らは「購入」をクリックした瞬間から荷物が玄関に届く瞬間まで、シームレスな体験を期待しています。しかし、物流上のエラーは避けられません。荷物が輸送中に紛失したり、倉庫のスタッフが時折配送ラベルを取り違えたり、壊れやすい商品が完全に粉砕されて届くこともあります。これらの破られた約束が発生したとき、企業がどのように対応するかが、顧客を永久に失うか、長期的なブランドロイヤルティを築くかを決定します。\n\n「これは3日前に届くはずだった」と電話をしてくる苛立った顧客は、単に説明を求めているわけではありません。彼らは即座の行動と共感を求めているのです。プロのサポート担当者は、顧客と決して口論しないように訓練されています。その代わりに、彼らは顧客のフラストレーションを認め、誠実に謝罪し、直ちに解決策へと方向転換します。最も効果的な解決策は通常、追加費用なしでアイテムを交換し、追加の補償を提供することです。例えば、担当者は「本日交換品を発送いたします。加えて、遅延の埋め合わせとして20%の返金を発行いたします」と言うかもしれません。\n\n「サービス・リカバリー」とよく呼ばれるこの戦略は、信じられないほど強力です。研究によると、問題を経験したものの迅速かつ寛大に解決された顧客は、全く問題を経験しなかった顧客よりも、実際にはその企業から再び購入する可能性が高いことが示されています。Eコマースにおいて、物流上の大惨事を卓越したおもてなしの瞬間に変えることは、献身的な顧客ベースを維持するための究極の鍵なのです。"
             }
         }
     },
@@ -2806,30 +2937,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "The rise of e-commerce has been incredible, but it is slowly destroying the traditional 'high street.' In my town, many independent shops and local bookstores have closed down because they simply cannot compete with the low prices and fast shipping of massive online retailers. I think it is tragic. When physical stores close, local communities lose their character and people lose their jobs. While shopping online is highly convenient, I try to buy my clothes and groceries locally rather than ordering everything on the internet. Supporting local businesses keeps money in our community. If we don't change our habits, our cities will just become empty spaces filled with delivery trucks and giant warehouses.", 
-                    jpn: "Eコマースの台頭は驚くべきものですが、それはゆっくりと伝統的な「ハイストリート（大通り/商店街）」を破壊しています。私の町では、巨大なオンライン小売業者の低価格と迅速な配送に単に太刀打ちできないという理由で、多くの独立したお店や地元の書店が閉店してしまいました。私はそれが悲劇的だと思います。実店舗が閉鎖されると、地域社会はその個性を失い、人々は仕事を失います。オンラインショッピングは非常に便利ですが、インターネットですべてを注文するよりも、服や食料品は地元で買うようにしています。地元のビジネスを支援することは、コミュニティ内にお金を留まらせることになります。私たちが習慣を変えなければ、私たちの都市は配送トラックと巨大な倉庫で満たされた単なる空っぽの空間になってしまうでしょう。" 
+                {
+                    name: "Person 1",
+                    eng: "The rise of e-commerce has been incredible, but it is slowly destroying the traditional 'high street.' In my town, many independent shops and local bookstores have closed down because they simply cannot compete with the low prices and fast shipping of massive online retailers. I think it is tragic. When physical stores close, local communities lose their character and people lose their jobs. While shopping online is highly convenient, I try to buy my clothes and groceries locally rather than ordering everything on the internet. Supporting local businesses keeps money in our community. If we don't change our habits, our cities will just become empty spaces filled with delivery trucks and giant warehouses.",
+                    jpn: "Eコマースの台頭は驚くべきものですが、それはゆっくりと伝統的な「ハイストリート（大通り/商店街）」を破壊しています。私の町では、巨大なオンライン小売業者の低価格と迅速な配送に単に太刀打ちできないという理由で、多くの独立したお店や地元の書店が閉店してしまいました。私はそれが悲劇的だと思います。実店舗が閉鎖されると、地域社会はその個性を失い、人々は仕事を失います。オンラインショッピングは非常に便利ですが、インターネットですべてを注文するよりも、服や食料品は地元で買うようにしています。地元のビジネスを支援することは、コミュニティ内にお金を留まらせることになります。私たちが習慣を変えなければ、私たちの都市は配送トラックと巨大な倉庫で満たされた単なる空っぽの空間になってしまうでしょう。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "I see the shift to online retail as a natural evolution of technology. Consumers want convenience, and e-commerce platforms provide exactly that. Physical stores are not dying; they are just transforming. Successful brands are now creating 'experiential retail' spaces. Instead of packing a store with hundreds of products, they use the physical space as a showroom where customers can touch and feel the items before ordering them online via a tablet. It blends the digital and physical worlds beautifully. In the future, I believe we will see augmented reality (AR) technology playing a huge role. You will be able to 'try on' a virtual jacket using your smartphone camera or see how a new sofa looks in your living room before purchasing.", 
-                    jpn: "私はオンライン小売への移行をテクノロジーの自然な進化だと見ています。消費者は利便性を求めており、Eコマースプラットフォームはまさにそれを提供しています。実店舗は死に絶えつつあるのではなく、変化しているだけです。成功しているブランドは現在、「体験型小売」スペースを作り出しています。店舗に何百もの製品を詰め込む代わりに、物理的なスペースをショールームとして使い、顧客がタブレット経由でオンライン注文する前にアイテムに触れて感じることができるようにしています。それはデジタルと物理の世界を見事に融合させています。将来的には、拡張現実（AR）テクノロジーが大きな役割を果たすのを目にすることになるだろうと私は信じています。購入前にスマートフォンのカメラを使って仮想のジャケットを「試着」したり、新しいソファがリビングルームにどう見えるかを確認したりできるようになるでしょう。" 
+                {
+                    name: "Person 2",
+                    eng: "I see the shift to online retail as a natural evolution of technology. Consumers want convenience, and e-commerce platforms provide exactly that. Physical stores are not dying; they are just transforming. Successful brands are now creating 'experiential retail' spaces. Instead of packing a store with hundreds of products, they use the physical space as a showroom where customers can touch and feel the items before ordering them online via a tablet. It blends the digital and physical worlds beautifully. In the future, I believe we will see augmented reality (AR) technology playing a huge role. You will be able to 'try on' a virtual jacket using your smartphone camera or see how a new sofa looks in your living room before purchasing.",
+                    jpn: "私はオンライン小売への移行をテクノロジーの自然な進化だと見ています。消費者は利便性を求めており、Eコマースプラットフォームはまさにそれを提供しています。実店舗は死に絶えつつあるのではなく、変化しているだけです。成功しているブランドは現在、「体験型小売」スペースを作り出しています。店舗に何百もの製品を詰め込む代わりに、物理的なスペースをショールームとして使い、顧客がタブレット経由でオンライン注文する前にアイテムに触れて感じることができるようにしています。それはデジタルと物理の世界を見事に融合させています。将来的には、拡張現実（AR）テクノロジーが大きな役割を果たすのを目にすることになるだろうと私は信じています。購入前にスマートフォンのカメラを使って仮想のジャケットを「試着」したり、新しいソファがリビングルームにどう見えるかを確認したりできるようになるでしょう。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I am fascinated by how logistics and delivery methods will change in the next decade. Currently, we rely heavily on delivery vans, which cause massive traffic jams and pollution. However, the future of e-commerce delivery lies in automation. We are already seeing tests with delivery drones dropping packages directly into people's backyards, and autonomous robots navigating sidewalks to deliver groceries. While some people worry about privacy and safety regarding drones, I think the efficiency is unbeatable. Receiving a package within thirty minutes of ordering it will become the new normal. Retailers will need to build highly advanced, automated micro-fulfillment centers right in the middle of major cities to support this lightning-fast delivery network.", 
-                    jpn: "私は、今後10年間でロジスティクスと配送方法がどのように変化するかに魅了されています。現在、私たちは配送バンに大きく依存していますが、それは大規模な交通渋滞と汚染を引き起こしています。しかし、Eコマース配送の未来は自動化にあります。私たちはすでに、配達用ドローンが人々の裏庭に直接荷物を投下したり、自律走行ロボットが食料品を届けるために歩道を移動したりするテストを目の当たりにしています。ドローンに関するプライバシーや安全性を心配する人もいますが、私はその効率性は無敵だと思います。注文から30分以内に荷物を受け取ることが新たな常識となるでしょう。小売業者は、この電光石火の配送ネットワークをサポートするために、主要都市のど真ん中に高度に進化した自動化マイクロフルフィルメント（小規模出荷）センターを建設する必要があるでしょう。" 
+                {
+                    name: "Person 3",
+                    eng: "I am fascinated by how logistics and delivery methods will change in the next decade. Currently, we rely heavily on delivery vans, which cause massive traffic jams and pollution. However, the future of e-commerce delivery lies in automation. We are already seeing tests with delivery drones dropping packages directly into people's backyards, and autonomous robots navigating sidewalks to deliver groceries. While some people worry about privacy and safety regarding drones, I think the efficiency is unbeatable. Receiving a package within thirty minutes of ordering it will become the new normal. Retailers will need to build highly advanced, automated micro-fulfillment centers right in the middle of major cities to support this lightning-fast delivery network.",
+                    jpn: "私は、今後10年間でロジスティクスと配送方法がどのように変化するかに魅了されています。現在、私たちは配送バンに大きく依存していますが、それは大規模な交通渋滞と汚染を引き起こしています。しかし、Eコマース配送の未来は自動化にあります。私たちはすでに、配達用ドローンが人々の裏庭に直接荷物を投下したり、自律走行ロボットが食料品を届けるために歩道を移動したりするテストを目の当たりにしています。ドローンに関するプライバシーや安全性を心配する人もいますが、私はその効率性は無敵だと思います。注文から30分以内に荷物を受け取ることが新たな常識となるでしょう。小売業者は、この電光石火の配送ネットワークをサポートするために、主要都市のど真ん中に高度に進化した自動化マイクロフルフィルメント（小規模出荷）センターを建設する必要があるでしょう。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "The High Street 📖", themeJpn: "商店街 / 実店舗", sub: [{eng: "Independent shops", jpn: "独立したお店"}, {eng: "Community impact", jpn: "コミュニティへの影響"}, {eng: "Supporting local", jpn: "地元の支援"}] },
-            { theme: "Experiential Retail 📖", themeJpn: "体験型小売", sub: [{eng: "Showrooms", jpn: "ショールーム"}, {eng: "Touching the product", jpn: "製品に触れること"}, {eng: "Blending digital and physical", jpn: "デジタルと物理の融合"}] },
-            { theme: "Future Technology 📖", themeJpn: "未来のテクノロジー", sub: [{eng: "Augmented Reality (AR)", jpn: "拡張現実 (AR)"}, {eng: "Virtual try-ons", jpn: "仮想試着"}, {eng: "Smart fitting rooms", jpn: "スマート試着室"}] },
-            { theme: "Delivery Drones 📖", themeJpn: "配送ドローン", sub: [{eng: "Automation", jpn: "自動化"}, {eng: "Privacy concerns", jpn: "プライバシーの懸念"}, {eng: "30-minute delivery", jpn: "30分配送"}] },
-            { theme: "Urban Logistics 📖", themeJpn: "都市のロジスティクス", sub: [{eng: "Traffic jams", jpn: "交通渋滞"}, {eng: "Sidewalk robots", jpn: "歩道ロボット"}, {eng: "Micro-fulfillment centers", jpn: "小規模出荷センター"}] },
-            { theme: "Consumer Habits 📖", themeJpn: "消費者の習慣", sub: [{eng: "Convenience vs Ethics", jpn: "利便性対倫理"}, {eng: "Immediate gratification", jpn: "即時の満足感"}, {eng: "Changing expectations", jpn: "変化する期待"}] }
+            { theme: "The High Street 📖", themeJpn: "商店街 / 実店舗", sub: [{ eng: "Independent shops", jpn: "独立したお店" }, { eng: "Community impact", jpn: "コミュニティへの影響" }, { eng: "Supporting local", jpn: "地元の支援" }] },
+            { theme: "Experiential Retail 📖", themeJpn: "体験型小売", sub: [{ eng: "Showrooms", jpn: "ショールーム" }, { eng: "Touching the product", jpn: "製品に触れること" }, { eng: "Blending digital and physical", jpn: "デジタルと物理の融合" }] },
+            { theme: "Future Technology 📖", themeJpn: "未来のテクノロジー", sub: [{ eng: "Augmented Reality (AR)", jpn: "拡張現実 (AR)" }, { eng: "Virtual try-ons", jpn: "仮想試着" }, { eng: "Smart fitting rooms", jpn: "スマート試着室" }] },
+            { theme: "Delivery Drones 📖", themeJpn: "配送ドローン", sub: [{ eng: "Automation", jpn: "自動化" }, { eng: "Privacy concerns", jpn: "プライバシーの懸念" }, { eng: "30-minute delivery", jpn: "30分配送" }] },
+            { theme: "Urban Logistics 📖", themeJpn: "都市のロジスティクス", sub: [{ eng: "Traffic jams", jpn: "交通渋滞" }, { eng: "Sidewalk robots", jpn: "歩道ロボット" }, { eng: "Micro-fulfillment centers", jpn: "小規模出荷センター" }] },
+            { theme: "Consumer Habits 📖", themeJpn: "消費者の習慣", sub: [{ eng: "Convenience vs Ethics", jpn: "利便性対倫理" }, { eng: "Immediate gratification", jpn: "即時の満足感" }, { eng: "Changing expectations", jpn: "変化する期待" }] }
         ],
         questions: [
             { eng: "1. Are physical stores in your hometown closing down because of e-commerce?", jpn: "1. あなたの故郷の実店舗はEコマースの影響で閉店していますか？" },
@@ -2905,15 +3036,27 @@ const b1Curriculum = [
                 { eng: "Give up", jpn: "諦める", exEng: "Many small bookstores have given up trying to compete.", exJpn: "多くの小さな書店が競争を諦めました。" },
                 { eng: "Point out", jpn: "指摘する", exEng: "He pointed out the environmental cost of drones.", exJpn: "彼はドローンの環境的コストを指摘しました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Comparing two ideas (rather than) - 4 sentences
+                { prompt: "私はオンラインで注文するよりも、地元で買う方を好みます。", target: "I prefer to buy locally rather than ordering online.", words: ["I", "prefer", "to", "buy", "locally", "rather", "than", "ordering", "online."] },
+                { prompt: "単に商品を売ることよりも、体験に焦点を当てるべきです。", target: "We should focus on experience rather than just selling items.", words: ["We", "should", "focus", "on", "experience", "rather", "than", "just", "selling", "items."] },
+                { prompt: "急いでネット注文するよりも、実店舗で試着したいです。", target: "I want to try on clothes rather than ordering in a rush.", words: ["I", "want", "to", "try", "on", "clothes", "rather", "than", "ordering", "in", "a", "rush."] },
+                { prompt: "大きなモールよりも、独立した地元の店を支援したいです。", target: "I support independent shops rather than huge malls.", words: ["I", "support", "independent", "shops", "rather", "than", "huge", "malls."] },
+                // Grammar Point 2: Grouping things (everywhere/everything + adjective) - 4 sentences
+                { prompt: "オンラインで利用可能なものはすべて、たいていより安価です。", target: "Everything available online is usually cheaper.", words: ["Everything", "available", "online", "is", "usually", "cheaper."] },
+                { prompt: "混雑したモールよりも、どこか静かな場所に行きたいです。", target: "I want to go somewhere quiet rather than a crowded mall.", words: ["I", "want", "to", "go", "somewhere", "quiet", "rather", "than", "a", "crowded", "mall."] },
+                { prompt: "今やどこでも便利なスマホ決済が使えます。", target: "Mobile payment is available everywhere convenient now.", words: ["Mobile", "payment", "is", "available", "everywhere", "convenient", "now."] },
+                { prompt: "ショーウィンドウに並んだものはどれも魅力的に見えました。", target: "Everything displayed in the showroom looked inviting.", words: ["Everything", "displayed", "in", "the", "showroom", "looked", "inviting."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 4 - Retail Future Group Chat)",
+                instruction: "Read this group chat discussing physical stores, AR showrooms, and delivery drones. Notice 'rather than' and pronouns + adjectives.",
+                eng: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #retail-trends-chat</div><div class='er-chat-msg'><span class='er-chat-time'>[04:05 PM]</span> <span class='er-chat-user'>@Taro:</span> Many shops on our local high street closed down last year. On the whole, I prefer buying locally rather than ordering everything online.</div><div class='er-chat-msg'><span class='er-chat-time'>[04:08 PM]</span> <span class='er-chat-user'>@Chloe:</span> I see physical stores changing rather than dying out. Some brands build experiential retail spaces with augmented reality so you can test items before ordering.</div><div class='er-chat-msg'><span class='er-chat-time'>[04:11 PM]</span> <span class='er-chat-user'>@Taro:</span> True, going somewhere interactive is fun. What about delivery drones and autonomous robots? It seems to me they could cut traffic jams, though safety matters too.</div><div class='er-chat-msg'><span class='er-chat-time'>[04:14 PM]</span> <span class='er-chat-user'>@Chloe:</span> Alternatively, smaller eco-friendly hubs can support both online orders and local shops. To clarify, I still love browsing real bookstores on weekends!</div></div>",
+                jpn: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #retail-trends-chat</div><div class='er-chat-msg'><span class='er-chat-time'>[04:05 PM]</span> <span class='er-chat-user'>@Taro:</span> 去年、地元の商店街の多くの店が閉店したよ。全体的に見て、すべてをネット注文するよりも地元で買う方が好きだな。</div><div class='er-chat-msg'><span class='er-chat-time'>[04:08 PM]</span> <span class='er-chat-user'>@Chloe:</span> 実店舗は消えるのではなく変化していると思うよ。注文前に商品を試せるよう、拡張現実（AR）を使った体験型小売スペースを作るブランドもあるし。</div><div class='er-chat-msg'><span class='er-chat-time'>[04:11 PM]</span> <span class='er-chat-user'>@Taro:</span> 確かに、体験できる場所に行くのは楽しいね。配送ドローンや自律走行ロボットはどう？渋滞を減らせそうだけど、安全性も大切だよね。</div><div class='er-chat-msg'><span class='er-chat-time'>[04:14 PM]</span> <span class='er-chat-user'>@Chloe:</span> あるいは、小さな環境に優しい拠点がネット注文と地元の店の両方を支えることもできるよ。念のため言うと、週末に実際の本屋を見て回るのもまだ大好き！</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think physical retail stores will exist in 20 years? Why or why not? Use 'rather than' and transitional expressions.",
-                promptJpn: "「20年後に実店舗は存在していると思いますか？それはなぜですか？『rather than』とトランジション表現を使って答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Rebirth of Brick-and-Mortar)",
-                instruction: "Read this authentic text about the evolution of physical retail spaces.",
-                eng: "For the last twenty years, analysts have continuously predicted the 'retail apocalypse.' As e-commerce giants grew rapidly, offering next-day delivery and unbeatable prices, traditional brick-and-mortar stores struggled to survive. Countless independent shops on the high street were forced to close down, and massive shopping malls became empty ghost towns. The convenience of buying everything available online seemed impossible to beat. However, recent trends show that physical retail is not dying out; rather, it is undergoing a fascinating evolution.\n\nModern consumers still desire physical experiences. They want to touch fabrics, test electronics, and enjoy the social aspect of shopping with friends. To adapt, smart brands are shifting their strategies from purely selling goods to offering 'experiential retail.' Instead of filling a store with inventory, retailers are creating interactive showrooms. For instance, a sports brand might install an indoor basketball court so customers can test shoes before buying them via a tablet. This strategy focuses on building brand loyalty and providing an entertaining experience rather than simply moving boxes.\n\nFurthermore, the integration of new technologies is blurring the lines between online and offline shopping. Customers can use augmented reality apps on their phones to scan products in a store and instantly read reviews or see how an item looks in different colors. Looking to the future, it is highly likely that retail spaces will serve primarily as community hubs and immersive brand showrooms. E-commerce will handle the logistics of delivering the actual product, while physical stores will focus on engaging the customer's senses and emotions.",
-                jpn: "過去20年間、アナリストたちは継続的に「小売の黙示録（終焉）」を予測してきました。Eコマースの巨人たちが急速に成長し、翌日配送と無敵の価格を提供するにつれて、伝統的な実店舗（ブリック＆モルタル）は生き残るのに苦労しました。大通りの無数の独立した店舗は閉店に追い込まれ、巨大なショッピングモールは空っぽのゴーストタウンになりました。オンラインで利用可能なすべてのものを買える利便性に打ち勝つことは不可能に思えました。しかし、最近のトレンドは、実店舗が消滅しつつあるのではなく、むしろ魅力的な進化を遂げていることを示しています。\n\n現代の消費者は依然として物理的な体験を求めています。彼らは生地に触れ、電子機器をテストし、友人と買い物をするという社会的な側面を楽しみたいと思っています。適応するために、賢明なブランドは純粋に商品を売ることから、「体験型小売」を提供する戦略へと移行しています。店舗を在庫でいっぱいにする代わりに、小売業者はインタラクティブなショールームを作り出しています。例えば、スポーツブランドは屋内バスケットボールコートを設置し、顧客がタブレット経由で購入する前に靴をテストできるようにするかもしれません。この戦略は、単に箱を動かす（商品を売る）ことよりも、ブランドロイヤルティを構築し、楽しい体験を提供することに焦点を当てています。\n\nさらに、新技術の統合により、オンラインとオフラインの買い物の境界線が曖昧になっています。顧客はスマホの拡張現実（AR）アプリを使って店内の製品をスキャンし、即座にレビューを読んだり、アイテムが別の色でどう見えるかを確認したりできます。未来に目を向けると、小売スペースは主にコミュニティのハブや没入型のブランドショールームとして機能する可能性が非常に高いです。Eコマースが実際の製品を配送する物流を担当し、実店舗は顧客の感覚と感情を惹きつけることに集中するようになるでしょう。"
+                promptJpn: "「20年後に実店舗は存在していると思いますか？それはなぜですか？『rather than』とトランジション表現を使って答えてください。」"
             }
         }
     },
@@ -2966,46 +3109,38 @@ const b1Curriculum = [
             { eng: "Close the deal + Promise next steps", jpn: "契約を締結する ＋ 次のステップを約束する", indent: true }
         ],
         expressions: [
-            { category: "1. Raising a concern (懸念を提起する)", options: ["The unit price is a bit too high.", "This is slightly over our budget.", "We need a more competitive price."] },           
-            { category: "2. Defending value (価値を弁護する)", options: ["Our materials are premium quality.", "The cost reflects our high standards.", "We offer the most reliable service."] }, 
-            { category: "3. Requesting a discount (割引を要求する)", options: ["Can you offer a bulk discount?", "Is there any flexibility on the price?", "Could we negotiate the unit cost?"] },
-            { category: "4. Discussing delivery (配送について話し合う)", options: ["Could we discuss the delivery timeline?", "How soon can you ship the goods?", "We require expedited delivery."] },
-            { category: "5. Offering a compromise (妥協案を提示する)", options: ["If we increase our order, can you lower the price?", "Let's meet halfway on the shipping costs.", "I can agree to that if you speed up delivery."] },
-            { category: "6. Closing the deal (契約を締結する)", options: ["I think we have reached a fair agreement.", "Let's shake on it.", "We are ready to sign the contract."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Modals: Expressing conditional ability (If + present, subject + can/will be able to)",
-                explanation: "Use the first conditional to negotiate. State the condition with 'If', and then state what action becomes possible using 'can' or 'will be able to'.",
-                explanationJpn: "交渉にはファースト・コンディショナルを使用します。「If」で条件を述べ、その後「can」や「will be able to」を使って、どの行動が可能になるかを述べます。",
-                examples: [
-                    { eng: "If you lower the price, we can sign the contract today.", jpn: "もし価格を下げていただけるなら、本日契約を結ぶことができます。" },
-                    { eng: "If you order 10,000 units, we will be able to give a discount.", jpn: "もし10,000ユニット注文していただければ、割引を提供することができます。" }
+                category: "1. Raising a price concern (懸念を提起する)",
+                options: [
+                    { eng: "The unit price is a bit too high.", jpn: "単価が少し高すぎます。" },
+                    { eng: "This is slightly over our budget.", jpn: "これは私たちの予算をわずかに超えています。" },
+                    { eng: "We need a more competitive price.", jpn: "より競争力のある価格が必要です。" }
                 ]
             },
             {
-                point: "2. Modals: Expressing conditional obligation (If + present, subject + will need to/have to)",
-                explanation: "When setting rules or requirements during a negotiation, use the first conditional followed by an obligation modal like 'will need to' or 'will have to'.",
-                explanationJpn: "交渉中にルールや要件を設定する際は、ファースト・コンディショナルの後に「will need to」や「will have to」などの義務を表す法助動詞を使用します。",
-                examples: [
-                    { eng: "If you want faster delivery, you will need to pay an extra fee.", jpn: "より速い配送をご希望の場合は、追加料金を支払う必要があります。" },
-                    { eng: "If the goods are damaged, we will have to return them.", jpn: "もし商品が破損していた場合は、返品しなければなりません。" }
+                category: "2. Requesting a bulk discount (割引を要求する)",
+                options: [
+                    { eng: "Can you offer a bulk discount?", jpn: "大量購入割引を提供していただけますか？" },
+                    { eng: "Is there any flexibility on the price?", jpn: "価格に柔軟性はありますか？" },
+                    { eng: "Could we negotiate the unit cost?", jpn: "単価を交渉できますか？" }
+                ]
+            },
+            {
+                category: "3. Offering a compromise (妥協案を提示する)",
+                options: [
+                    { eng: "If we increase our order, can you lower the price?", jpn: "注文を増やせば、価格を下げていただけますか？" },
+                    { eng: "Let's meet halfway on the shipping costs.", jpn: "配送料は歩み寄りましょう。" },
+                    { eng: "I can agree to that if you speed up delivery.", jpn: "配送を早めていただけるなら、それに同意できます。" }
+                ]
+            },
+            {
+                category: "4. Closing the deal (契約を締結する)",
+                options: [
+                    { eng: "I think we have reached a fair agreement.", jpn: "私たちは公正な合意に達したと思います。" },
+                    { eng: "Let's shake on it.", jpn: "握手で成立としましょう。" },
+                    { eng: "We are ready to sign the contract.", jpn: "契約に署名する準備ができています。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "もし価格を下げていただけるなら、本日契約を結ぶことができます。", target: "If you lower the price, we can sign the contract today.", words: ["If", "you", "lower", "the", "price,", "we", "can", "sign", "the", "contract", "today."] },
-            { prompt: "もし注文を増やせば、大量購入割引を提供していただけますか？", target: "If we increase our order, can you offer a bulk discount?", words: ["If", "we", "increase", "our", "order,", "can", "you", "offer", "a", "bulk", "discount?"] },
-            { prompt: "単価が少し高すぎます。", target: "The unit price is a bit too high.", words: ["The", "unit", "price", "is", "a", "bit", "too", "high."] },
-            { prompt: "より速い配送をご希望の場合は、追加料金を支払う必要があります。", target: "If you want faster delivery, you will need to pay an extra fee.", words: ["If", "you", "want", "faster", "delivery,", "you", "will", "need", "to", "pay", "an", "extra", "fee."] },
-            { prompt: "私たちは公正な合意に達したと思います。", target: "I think we have reached a fair agreement.", words: ["I", "think", "we", "have", "reached", "a", "fair", "agreement."] }
-        ],
-        dropdownGames: [
-            { before: "If you order 10,000 units, we", options: ["will be able to", "must only", "was supposed to"], answer: "will be able to", after: " give you a discount." },
-            { before: "If we sign today, you", options: ["will need to", "are able to", "might just"], answer: "will need to", after: " guarantee delivery in two weeks." },
-            { before: "Could we also", options: ["discuss", "discussing", "discussed"], answer: "discuss", after: " the payment terms?" },
-            { before: "Let's meet", options: ["halfway", "half", "halves"], answer: "halfway", after: " on the shipping costs." },
-            { before: "I think we have reached a", options: ["fair", "fare", "fear"], answer: "fair", after: " agreement." }
         ],
         roleplay: {
             a: "You are the buyer. The supplier's price is too high. Propose a condition (e.g., ordering a larger quantity) and use 'If... can' to ask for a bulk discount. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはバイヤーです。サプライヤーの価格が高すぎます。条件（例：より多くの量を注文するなど）を提示し、「If... can」を使って大量購入割引を求めてください。)</span>",
@@ -3032,20 +3167,31 @@ const b1Curriculum = [
                 { eng: "Point out", jpn: "指摘する", exEng: "He pointed out a mistake in the legal document.", exJpn: "彼は法的文書の間違いを指摘しました。" },
                 { eng: "Sort out", jpn: "整理する、解決する", exEng: "We must sort out these delivery issues first.", exJpn: "まずはこれらの配送問題を解決しなければなりません。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Conditional ability (If + present, subject + can/will be able to) - 4 sentences
+                { prompt: "もし価格を下げていただけるなら、本日契約を結ぶことができます。", target: "If you lower the price, we can sign the contract today.", words: ["If", "you", "lower", "the", "price,", "we", "can", "sign", "the", "contract", "today."] },
+                { prompt: "もし10,000ユニット注文していただければ、割引を提供することができます。", target: "If you order 10,000 units, we will be able to give a discount.", words: ["If", "you", "order", "10,000", "units,", "we", "will", "be", "able", "to", "give", "a", "discount."] },
+                { prompt: "もし2週間での配送を保証していただけるなら、契約できます。", target: "If you guarantee two-week delivery, we can sign today.", words: ["If", "you", "guarantee", "two-week", "delivery,", "we", "can", "sign", "today."] },
+                { prompt: "もし最小注文数量を増やせば、より良い単価を得られます。", target: "If we raise our MOQ, we will be able to get a lower unit price.", words: ["If", "we", "raise", "our", "MOQ,", "we", "will", "be", "able", "to", "get", "a", "lower", "unit", "price."] },
+                // Grammar Point 2: Conditional obligation (If + present, subject + will need to/have to) - 4 sentences
+                { prompt: "より速い配送をご希望の場合は、追加料金を支払う必要があります。", target: "If you want faster delivery, you will need to pay an extra fee.", words: ["If", "you", "want", "faster", "delivery,", "you", "will", "need", "to", "pay", "an", "extra", "fee."] },
+                { prompt: "もし商品が破損していた場合は、返品しなければなりません。", target: "If the goods are damaged, we will have to return them.", words: ["If", "the", "goods", "are", "damaged,", "we", "will", "have", "to", "return", "them."] },
+                { prompt: "割引を受ける場合は、最低数量を注文する必要があります。", target: "If you want the bulk discount, you will need to meet the MOQ.", words: ["If", "you", "want", "the", "bulk", "discount,", "you", "will", "need", "to", "meet", "the", "MOQ."] },
+                { prompt: "今日契約を結ぶ場合は、支払い条件を確認しなければなりません。", target: "If we sign today, we will have to confirm the payment terms.", words: ["If", "we", "sign", "today,", "we", "will", "have", "to", "confirm", "the", "payment", "terms."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 5 - Supplier Negotiation FAQ)",
+                instruction: "Read this FAQ on negotiating supplier contracts for an e-commerce store. Notice conditional ability and obligation sentences.",
+                eng: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>🤝 Supplier Contract FAQ: Price, MOQ &amp; Delivery</h3><div class='er-faq-item'><span class='er-faq-q'>Q: How can we lower the unit price to protect our profit margin?</span><div class='er-faq-a'>If you increase your minimum order quantity (MOQ), many suppliers will be able to offer a bulk discount. You can also meet halfway on shipping costs instead of pushing for a deal-breaker cut that hurts product quality.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: What if we need a faster delivery timeline?</span><div class='er-faq-a'>Standard delivery often takes two to three weeks. If you need express shipping before a peak sale, you will need to agree to an extra fee or order earlier so the supplier can plan ahead.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: What should we check before we sign a deal?</span><div class='er-faq-a'>Always review payment terms, delivery dates, and damaged-goods rules in the contract. If both sides agree on fair terms, you can shake on it and ask legal to draw up the final agreement.</div></div></div>",
+                jpn: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>🤝 サプライヤー契約FAQ：価格・MOQ・配送</h3><div class='er-faq-item'><span class='er-faq-q'>Q: 利益率を守るために単価を下げるにはどうすればよいですか？</span><div class='er-faq-a'>最小注文数量（MOQ）を増やせば、多くのサプライヤーが大量購入割引を提供できるようになります。また、品質を損なうような交渉決裂の値下げを迫る代わりに、配送料で歩み寄ることもできます。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: より早い配送スケジュールが必要な場合はどうなりますか？</span><div class='er-faq-a'>標準配送には2〜3週間かかることがよくあります。大型セール前の速達配送が必要な場合は、追加料金に同意するか、サプライヤーが前もって計画できるよう早めに注文する必要があります。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 契約を結ぶ前に何を確認すべきですか？</span><div class='er-faq-a'>契約書内の支払い条件、納期、破損品のルールを必ず確認してください。双方が公正な条件に合意すれば、握手で成立とし、法務部に最終合意書の作成を依頼できます。</div></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short dialogue negotiating a contract with a supplier. Discuss the price and use 'If... can' and 'If... will need to' to express conditions.",
                 promptJpn: "「サプライヤーと契約交渉をする短い対話を書いてください。価格について話し合い、『If... can』と『If... will need to』を使って条件を表現してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Art of Supplier Negotiation)",
-                instruction: "Read this authentic text about business-to-business (B2B) negotiations in e-commerce.",
-                eng: "In the e-commerce industry, maintaining a healthy profit margin is incredibly difficult. With intense competition driving retail prices down, online businesses must aggressively manage their operational costs. One of the most effective ways to achieve this is through strategic supplier negotiations. When a business contacts a wholesale manufacturer, the initial price quote is rarely the final price. Professional buyers are trained to identify areas where costs can be brought down without sacrificing product quality.\n\nSuccessful negotiation is essentially a sophisticated dance of conditional offers. An e-commerce business rarely simply demands a lower price; instead, they offer value in return. For instance, a buyer might propose, 'If we double our minimum order quantity (MOQ) and sign a one-year contract, can you offer a 15% bulk discount?' This approach demonstrates that both parties can win. If the supplier agrees, they secure a stable, long-term client, and the buyer improves their profit margin. However, price is not the only variable on the table. Delivery timelines and payment terms are equally critical. A buyer might say, 'If you want us to pay upfront, you will need to guarantee a two-week delivery timeline.' \n\nUltimately, a good negotiation should never feel like a battle where one side loses. Squeezing a supplier too hard can backfire; if a manufacturer is forced to accept an unprofitable deal, they might quietly lower the quality of the materials to save money. Therefore, the goal is always to meet halfway and establish a partnership built on mutual trust. When both sides feel respected and fairly compensated, they are much more likely to shake on a deal that leads to years of successful business.",
-                jpn: "Eコマース業界において、健全な利益率を維持することは信じられないほど困難です。激しい競争によって小売価格が押し下げられているため、オンラインビジネスは運営コストを積極的に管理しなければなりません。これを達成するための最も効果的な方法の1つは、戦略的なサプライヤー交渉を通じることです。企業が卸売りメーカーに連絡を取る際、最初の見積価格が最終価格になることはめったにありません。プロのバイヤーは、製品の品質を犠牲にすることなくコストを下げられる領域を特定するよう訓練されています。\n\n成功する交渉とは、本質的には条件付きオファーの洗練されたダンスです。Eコマース企業が単に低価格を要求することはめったにありません。代わりに、見返りとして価値を提供します。例えば、バイヤーは「もし最小注文数量（MOQ）を2倍にして1年契約を結んだら、15%の大量購入割引を提供していただけますか？」と提案するかもしれません。このアプローチは、双方にメリットがあることを示しています。サプライヤーが同意すれば、彼らは安定した長期的なクライアントを確保でき、バイヤーは利益率を向上させます。しかし、価格だけが交渉のテーブルにある変数ではありません。配送スケジュールと支払い条件も同様に重要です。バイヤーは「もし前払いを希望されるなら、2週間の配送スケジュールを保証していただく必要があります」と言うかもしれません。\n\n最終的に、良い交渉とは決して片方が負ける戦いのように感じられるべきではありません。サプライヤーを強く締め上げすぎることは裏目に出る可能性があります。メーカーが利益の出ない取引を強いられた場合、彼らはお金を節約するためにこっそり素材の品質を下げるかもしれません。したがって、目標は常に妥協点を見つけ、相互の信頼に基づいたパートナーシップを確立することです。双方が尊重され、公正に報われていると感じたとき、彼らは長年の成功するビジネスにつながる契約を握手で結ぶ可能性がはるかに高くなるのです。"
             }
         }
     },
-
-{
+    {
         id: 26,
         chapter: "Chapter 4: E-commerce",
         type: "opinion",
@@ -3055,30 +3201,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "Digital marketing has completely changed how we discover new products online. In the past, companies used television commercials to reach a broad audience, but today, advertising is highly personalized. When I search for a pair of running shoes on my smartphone, I immediately start seeing advertisements for those exact shoes on all my social media apps. Marketers use cookies and tracking software to monitor our browsing habits and suggest items we are likely to buy. On one hand, this is very convenient because I only see advertisements that actually interest me. However, it can also feel incredibly invasive. Sometimes, it seems like our mobile devices are constantly listening to our private conversations. I think we need clearer regulations to ensure that online retailers cannot track our data without our explicit permission.", 
-                    jpn: "デジタルマーケティングは、私たちがオンラインで新製品を発見する方法を完全に変えました。過去には、企業は幅広い視聴者にリーチするためにテレビCMを使用していましたが、今日では広告は高度にパーソナライズされています。私がスマートフォンでランニングシューズを検索すると、すぐにすべてのソーシャルメディアアプリでまさにその靴の広告が表示され始めます。マーケターはクッキーや追跡ソフトウェアを使用して私たちの閲覧習慣を監視し、私たちが買いそうな商品を提案します。一方で、これは実際に私が興味を持つ広告しか見ないため、非常に便利です。しかし、信じられないほどプライバシーを侵害されているようにも感じます。時々、私たちのモバイルデバイスが常に私たちの個人的な会話を盗み聞きしているように思えます。オンライン小売業者が私たちの明確な許可なしに私たちのデータを追跡できないように、より明確な規制が必要だと思います。" 
+                {
+                    name: "Person 1",
+                    eng: "Digital marketing has completely changed how we discover new products online. In the past, companies used television commercials to reach a broad audience, but today, advertising is highly personalized. When I search for a pair of running shoes on my smartphone, I immediately start seeing advertisements for those exact shoes on all my social media apps. Marketers use cookies and tracking software to monitor our browsing habits and suggest items we are likely to buy. On one hand, this is very convenient because I only see advertisements that actually interest me. However, it can also feel incredibly invasive. Sometimes, it seems like our mobile devices are constantly listening to our private conversations. I think we need clearer regulations to ensure that online retailers cannot track our data without our explicit permission.",
+                    jpn: "デジタルマーケティングは、私たちがオンラインで新製品を発見する方法を完全に変えました。過去には、企業は幅広い視聴者にリーチするためにテレビCMを使用していましたが、今日では広告は高度にパーソナライズされています。私がスマートフォンでランニングシューズを検索すると、すぐにすべてのソーシャルメディアアプリでまさにその靴の広告が表示され始めます。マーケターはクッキーや追跡ソフトウェアを使用して私たちの閲覧習慣を監視し、私たちが買いそうな商品を提案します。一方で、これは実際に私が興味を持つ広告しか見ないため、非常に便利です。しかし、信じられないほどプライバシーを侵害されているようにも感じます。時々、私たちのモバイルデバイスが常に私たちの個人的な会話を盗み聞きしているように思えます。オンライン小売業者が私たちの明確な許可なしに私たちのデータを追跡できないように、より明確な規制が必要だと思います。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "As an e-commerce manager, I rely heavily on targeted advertising to grow my business. Traditional marketing is simply too expensive and inefficient for small brands. By analyzing user data, we can focus our advertising budget strictly on people who match our ideal customer profile. For instance, if we sell expensive camping gear, we only show our ads to users who frequently read hiking blogs or follow outdoor influencers. This strategy increases our sales and helps us compete with giant online retailers. I understand that consumers worry about their privacy, but we do not collect sensitive personal details like names or addresses for these ads; we only look at general behavioral trends. If we completely banned data tracking, the internet would just be filled with random, annoying advertisements that nobody cares about.", 
-                    jpn: "Eコマースのマネージャーとして、私はビジネスを成長させるためにターゲット広告に大きく依存しています。伝統的なマーケティングは、小さなブランドにとっては単に高価すぎて非効率的です。ユーザーデータを分析することで、私たちは理想の顧客プロファイルに一致する人々に厳密に広告予算を集中させることができます。例えば、高価なキャンプ用品を販売している場合、ハイキングのブログを頻繁に読んだり、アウトドアのインフルエンサーをフォローしたりしているユーザーにのみ広告を表示します。この戦略は私たちの売上を増やし、巨大なオンライン小売業者と競争するのに役立ちます。消費者がプライバシーについて心配するのは理解していますが、私たちはこれらの広告のために名前や住所のような機密の個人情報を収集しているわけではなく、一般的な行動の傾向を見ているだけです。もしデータ追跡を完全に禁止したら、インターネットは誰も気に留めないランダムで迷惑な広告で溢れかえってしまうでしょう。" 
+                {
+                    name: "Person 2",
+                    eng: "As an e-commerce manager, I rely heavily on targeted advertising to grow my business. Traditional marketing is simply too expensive and inefficient for small brands. By analyzing user data, we can focus our advertising budget strictly on people who match our ideal customer profile. For instance, if we sell expensive camping gear, we only show our ads to users who frequently read hiking blogs or follow outdoor influencers. This strategy increases our sales and helps us compete with giant online retailers. I understand that consumers worry about their privacy, but we do not collect sensitive personal details like names or addresses for these ads; we only look at general behavioral trends. If we completely banned data tracking, the internet would just be filled with random, annoying advertisements that nobody cares about.",
+                    jpn: "Eコマースのマネージャーとして、私はビジネスを成長させるためにターゲット広告に大きく依存しています。伝統的なマーケティングは、小さなブランドにとっては単に高価すぎて非効率的です。ユーザーデータを分析することで、私たちは理想の顧客プロファイルに一致する人々に厳密に広告予算を集中させることができます。例えば、高価なキャンプ用品を販売している場合、ハイキングのブログを頻繁に読んだり、アウトドアのインフルエンサーをフォローしたりしているユーザーにのみ広告を表示します。この戦略は私たちの売上を増やし、巨大なオンライン小売業者と競争するのに役立ちます。消費者がプライバシーについて心配するのは理解していますが、私たちはこれらの広告のために名前や住所のような機密の個人情報を収集しているわけではなく、一般的な行動の傾向を見ているだけです。もしデータ追跡を完全に禁止したら、インターネットは誰も気に留めないランダムで迷惑な広告で溢れかえってしまうでしょう。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I believe influencer marketing has become the most powerful tool in the e-commerce industry. Today's consumers, especially younger generations, do not trust traditional corporate advertisements. Instead, they want recommendations from real people they admire. When a popular YouTuber or Instagram star reviews a skincare product, it immediately builds trust with their audience. It feels like getting advice from a friend. However, this trend has created a huge problem with transparency. Many influencers are paid thousands of dollars to promote items, but they hide the fact that their review is actually a sponsored advertisement. This is highly deceptive. Followers end up wasting money on low-quality products because they trusted a fake review. I think social media platforms must force influencers to clearly label every sponsored post.", 
-                    jpn: "インフルエンサーマーケティングは、Eコマース業界で最も強力なツールになったと私は信じています。今日の消費者、特に若い世代は、伝統的な企業の広告を信用していません。代わりに、彼らは自分が称賛する実在の人物からの推薦を求めています。人気のあるYouTuberやInstagramのスターがスキンケア製品をレビューすると、すぐに視聴者との間に信頼が築かれます。それはまるで友人からアドバイスをもらっているように感じられます。しかし、このトレンドは透明性に関する大きな問題を生み出しました。多くのインフルエンサーは商品を宣伝するために何千ドルも支払われていますが、彼らのレビューが実際にはスポンサー付きの広告であるという事実を隠しています。これは非常に欺瞞的です。フォロワーは偽のレビューを信じたために、結局は質の低い製品にお金を無駄にしてしまいます。ソーシャルメディアのプラットフォームは、インフルエンサーにすべてのスポンサー付き投稿を明確にラベル付けするよう強制しなければならないと思います。" 
+                {
+                    name: "Person 3",
+                    eng: "I believe influencer marketing has become the most powerful tool in the e-commerce industry. Today's consumers, especially younger generations, do not trust traditional corporate advertisements. Instead, they want recommendations from real people they admire. When a popular YouTuber or Instagram star reviews a skincare product, it immediately builds trust with their audience. It feels like getting advice from a friend. However, this trend has created a huge problem with transparency. Many influencers are paid thousands of dollars to promote items, but they hide the fact that their review is actually a sponsored advertisement. This is highly deceptive. Followers end up wasting money on low-quality products because they trusted a fake review. I think social media platforms must force influencers to clearly label every sponsored post.",
+                    jpn: "インフルエンサーマーケティングは、Eコマース業界で最も強力なツールになったと私は信じています。今日の消費者、特に若い世代は、伝統的な企業の広告を信用していません。代わりに、彼らは自分が称賛する実在の人物からの推薦を求めています。人気のあるYouTuberやInstagramのスターがスキンケア製品をレビューすると、すぐに視聴者との間に信頼が築かれます。それはまるで友人からアドバイスをもらっているように感じられます。しかし、このトレンドは透明性に関する大きな問題を生み出しました。多くのインフルエンサーは商品を宣伝するために何千ドルも支払われていますが、彼らのレビューが実際にはスポンサー付きの広告であるという事実を隠しています。これは非常に欺瞞的です。フォロワーは偽のレビューを信じたために、結局は質の低い製品にお金を無駄にしてしまいます。ソーシャルメディアのプラットフォームは、インフルエンサーにすべてのスポンサー付き投稿を明確にラベル付けするよう強制しなければならないと思います。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Targeted Ads 📖", themeJpn: "ターゲット広告", sub: [{eng: "Personalized content", jpn: "パーソナライズされたコンテンツ"}, {eng: "Browser cookies", jpn: "ブラウザのクッキー"}, {eng: "Search history", jpn: "検索履歴"}] },
-            { theme: "Digital Privacy 📖", themeJpn: "デジタルプライバシー", sub: [{eng: "Data tracking", jpn: "データ追跡"}, {eng: "Explicit permission", jpn: "明確な許可"}, {eng: "Smartphone listening", jpn: "スマートフォンの盗み聞き"}] },
-            { theme: "Influencer Marketing 📖", themeJpn: "インフルエンサーマーケティング", sub: [{eng: "Sponsored posts", jpn: "スポンサー付き投稿"}, {eng: "Building trust", jpn: "信頼の構築"}, {eng: "Fake recommendations", jpn: "偽の推薦"}] },
-            { theme: "Email Marketing 📖", themeJpn: "メールマーケティング", sub: [{eng: "Newsletters", jpn: "ニュースレター"}, {eng: "Spam folders", jpn: "迷惑メールフォルダ"}, {eng: "Discount codes", jpn: "割引コード"}] },
-            { theme: "Consumer Behavior 📖", themeJpn: "消費者行動", sub: [{eng: "Impulse clicking", jpn: "衝動的なクリック"}, {eng: "Ad blockers", jpn: "広告ブロッカー"}, {eng: "Brand loyalty", jpn: "ブランドロイヤルティ"}] },
-            { theme: "E-commerce Strategy 📖", themeJpn: "Eコマース戦略", sub: [{eng: "Advertising budgets", jpn: "広告予算"}, {eng: "Target audiences", jpn: "ターゲット層"}, {eng: "Market competition", jpn: "市場競争"}] }
+            { theme: "Targeted Ads 📖", themeJpn: "ターゲット広告", sub: [{ eng: "Personalized content", jpn: "パーソナライズされたコンテンツ" }, { eng: "Browser cookies", jpn: "ブラウザのクッキー" }, { eng: "Search history", jpn: "検索履歴" }] },
+            { theme: "Digital Privacy 📖", themeJpn: "デジタルプライバシー", sub: [{ eng: "Data tracking", jpn: "データ追跡" }, { eng: "Explicit permission", jpn: "明確な許可" }, { eng: "Smartphone listening", jpn: "スマートフォンの盗み聞き" }] },
+            { theme: "Influencer Marketing 📖", themeJpn: "インフルエンサーマーケティング", sub: [{ eng: "Sponsored posts", jpn: "スポンサー付き投稿" }, { eng: "Building trust", jpn: "信頼の構築" }, { eng: "Fake recommendations", jpn: "偽の推薦" }] },
+            { theme: "Email Marketing 📖", themeJpn: "メールマーケティング", sub: [{ eng: "Newsletters", jpn: "ニュースレター" }, { eng: "Spam folders", jpn: "迷惑メールフォルダ" }, { eng: "Discount codes", jpn: "割引コード" }] },
+            { theme: "Consumer Behavior 📖", themeJpn: "消費者行動", sub: [{ eng: "Impulse clicking", jpn: "衝動的なクリック" }, { eng: "Ad blockers", jpn: "広告ブロッカー" }, { eng: "Brand loyalty", jpn: "ブランドロイヤルティ" }] },
+            { theme: "E-commerce Strategy 📖", themeJpn: "Eコマース戦略", sub: [{ eng: "Advertising budgets", jpn: "広告予算" }, { eng: "Target audiences", jpn: "ターゲット層" }, { eng: "Market competition", jpn: "市場競争" }] }
         ],
         questions: [
             { eng: "1. Do you find targeted advertisements convenient or annoying?", jpn: "1. ターゲット広告を便利だと思いますか、それとも迷惑だと思いますか？" },
@@ -3154,15 +3300,27 @@ const b1Curriculum = [
                 { eng: "Result in", jpn: "〜という結果になる", exEng: "Clicking unknown links can result in serious viruses.", exJpn: "見知らぬリンクをクリックすると、深刻なウイルス感染という結果になる可能性があります。" },
                 { eng: "Bring up", jpn: "話題を持ち出す", exEng: "She brought up a valid point about digital privacy.", exJpn: "彼女はデジタルプライバシーに関する妥当な話題を持ち出しました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Multiple good/bad points (adj, adj, and adj) - 4 sentences
+                { prompt: "ターゲット広告は迷惑で、気味が悪く、プライバシーを侵害するものです。", target: "The targeted ads are annoying, creepy, and invasive.", words: ["The", "targeted", "ads", "are", "annoying,", "creepy,", "and", "invasive."] },
+                { prompt: "私たちの新しいマーケティング戦略は、迅速で、安価で、効果的です。", target: "Our new marketing strategy is fast, cheap, and effective.", words: ["Our", "new", "marketing", "strategy", "is", "fast,", "cheap,", "and", "effective."] },
+                { prompt: "そのスポンサー付き投稿は誤解を招きやすく、不透明で、欺瞞的でした。", target: "The sponsored post was misleading, unclear, and deceptive.", words: ["The", "sponsored", "post", "was", "misleading,", "unclear,", "and", "deceptive."] },
+                { prompt: "パーソナライズされた案内は便利で、関連性が高く、役立ちます。", target: "Personalized offers can be convenient, relevant, and helpful.", words: ["Personalized", "offers", "can", "be", "convenient,", "relevant,", "and", "helpful."] },
+                // Grammar Point 2: Whole group + adjective (everywhere/everything/nothing + adj) - 4 sentences
+                { prompt: "このウェブサイトには面白いものは何もありません。", target: "There is nothing interesting on this website.", words: ["There", "is", "nothing", "interesting", "on", "this", "website."] },
+                { prompt: "私は完全に安全な何かを買いたいです。", target: "I want to buy something completely secure.", words: ["I", "want", "to", "buy", "something", "completely", "secure."] },
+                { prompt: "追跡クッキーはオンライン上の至るところに存在します。", target: "Tracking cookies appear everywhere online today.", words: ["Tracking", "cookies", "appear", "everywhere", "online", "today."] },
+                { prompt: "クリックベイトの広告には役立つものは何もありませんでした。", target: "There was nothing useful in the clickbait ad.", words: ["There", "was", "nothing", "useful", "in", "the", "clickbait", "ad."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 6 - Marketing & Privacy Role Brief)",
+                instruction: "Read this role brief on digital marketing and data privacy. Notice multiple adjectives and pronoun + adjective phrases.",
+                eng: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 Digital Marketing &amp; Privacy Specialist Brief</h3><span class='er-job-tag'>Growth Team</span> <span class='er-job-tag'>Data Ethics</span><p><strong>Role Overview:</strong><br>Our team runs targeted advertising campaigns and email newsletters for online shoppers while protecting user privacy. In contrast to old TV ads, online ads reach specific groups based on search history and interests. However, if tracking feels creepy or invasive, users opt out or scroll past everything promoted on their feed.</p><p><strong>💼 Key Focus Areas:</strong></p><ul><li>Build campaigns that are clear, honest, and helpful rather than using clickbait or deceptive claims.</li><li>Ask for explicit permission and let users opt in or opt out of data tracking and promotional emails easily.</li><li>Work with influencers on sponsored posts that are clearly labeled so followers can trust real recommendations.</li><li>Keep customer data safe so there is nothing risky or careless about how we handle user information.</li></ul></div>",
+                jpn: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 デジタルマーケティング＆プライバシー・スペシャリスト概要</h3><span class='er-job-tag'>グロースチーム</span> <span class='er-job-tag'>データ倫理</span><p><strong>役割の概要：</strong><br>私たちのチームは、ユーザーのプライバシーを保護しながら、オンラインの買い物客向けにターゲット広告キャンペーンやメールニュースレターを運用しています。昔のテレビCMとは対照的に、オンライン広告は検索履歴や興味に基づいて特定の層に届きます。しかし、追跡が気味が悪かったりプライバシーを侵害していると感じられると、ユーザーは拒否したり、フィードで宣伝されているすべてのものをスクロールしてやり過ごしたりします。</p><p><strong>💼 主な注力分野：</strong></p><ul><li>クリックベイトや欺瞞的な表現を使うのではなく、明確で誠実で役立つキャンペーンを作成する。</li><li>明確な許可を求め、データ追跡やプロモーションメールへのオプトイン・オプトアウトをユーザーが簡単に行えるようにする。</li><li>フォロワーが本物の推薦を信頼できるよう、明確にラベル付けされたスポンサー付き投稿でインフルエンサーと連携する。</li><li>ユーザー情報の扱い方に危険や不注意な点が一切ないよう、顧客データを安全に保つ。</li></ul></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: What is your opinion on targeted advertisements? Use 'everywhere + adjective' (e.g., everywhere safe) and multiple adjectives in your response.",
                 promptJpn: "「ターゲット広告についてのあなたの意見は何ですか？『everywhere + 形容詞』（例：everywhere safe）と複数の形容詞を使って答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Data Economy)",
-                instruction: "Read this authentic article about how digital marketing utilizes personal data.",
-                eng: "In the modern e-commerce landscape, data is often described as the new oil. Whenever a user browses the internet, shops online, or interacts with a social media platform, they leave behind a digital footprint. Marketers use sophisticated tracking tools, such as cookies, to gather this information. They analyze search histories, location data, and even how long a user looks at a specific image. This vast collection of information fuels the 'data economy,' allowing companies to create highly targeted advertisements that seem almost psychic in their accuracy. \n\nFor digital marketers, this is a golden age. Instead of spending millions of dollars on a broad television commercial hoping to reach interested buyers, they can now spend a fraction of the cost to display ads exclusively to people who are already looking for their products. For instance, if you search for hiking boots, algorithms ensure you see outdoor equipment ads everywhere you go online. This precise targeting increases sales conversions dramatically and allows small businesses to compete globally. It is an incredibly efficient, measurable, and profitable system.\n\nHowever, this system has sparked intense debates regarding digital privacy. Many consumers feel that constant surveillance is intrusive, creepy, and dangerous. People are becoming increasingly uncomfortable with the idea that tech giants know their intimate secrets, financial status, and personal preferences. In response to public pressure, several governments have introduced strict data protection laws, forcing websites to ask for explicit permission before tracking a user. As we move forward, the marketing industry must find a delicate balance between providing personalized, convenient shopping experiences and respecting the fundamental privacy rights of the consumer.",
-                jpn: "現代のEコマースの状況において、データはしばしば「新しい石油」と表現されます。ユーザーがインターネットを閲覧したり、オンラインで買い物をしたり、ソーシャルメディアプラットフォームとやり取りしたりするたびに、彼らはデジタルフットプリント（デジタルの足跡）を残します。マーケターはクッキーなどの洗練された追跡ツールを使用してこの情報を収集します。彼らは検索履歴、位置データ、さらにはユーザーが特定の画像をどれくらい長く見ているかまで分析します。この膨大な情報の収集が「データ経済」の原動力となり、企業がその正確さにおいてほとんど超能力のように思えるほど高度にターゲットを絞った広告を作成することを可能にしています。\n\nデジタルマーケターにとって、これは黄金時代です。興味のある買い手に届くことを願って幅広いテレビCMに何百万ドルも費やす代わりに、彼らは今やその何分の一かのコストで、すでに自社の製品を探している人々にだけ独占的に広告を表示することができます。例えば、あなたがハイキングブーツを検索すると、アルゴリズムはあなたがオンラインで行くすべての場所でアウトドア用品の広告を見ることを保証します。この正確なターゲティングは販売のコンバージョン（成約率）を劇的に高め、中小企業が世界規模で競争することを可能にします。それは信じられないほど効率的で、測定可能で、有益なシステムなのです。\n\nしかし、このシステムはデジタルプライバシーに関する激しい議論を引き起こしました。多くの消費者は、絶え間ない監視を押し付けがましく、気味が悪く、危険なものだと感じています。人々は、テクノロジー大手が自分たちの親密な秘密、財務状況、個人的な好みを把握しているという考えにますます不快感を抱くようになっています。世論の圧力に応えて、いくつかの政府は厳格なデータ保護法を導入し、ユーザーを追跡する前にウェブサイトに明確な許可を求めることを義務付けました。私たちが前進するにつれて、マーケティング業界は、パーソナライズされた便利なショッピング体験を提供することと、消費者の基本的なプライバシーの権利を尊重することの間の微妙なバランスを見つけなければなりません。"
             }
         }
     },
@@ -3240,6 +3398,15 @@ const b1Curriculum = [
                     { eng: "An official email has not been sent yet.", jpn: "公式なメールはまだ送信されていません。" },
                     { eng: "My trust has been completely broken.", jpn: "私の信頼は完全に打ち砕かれました。" }
                 ]
+            },
+            {
+                point: "3. Passive Voice with Modals: Recommending security & crisis actions (must/should be + PP)",
+                explanation: "Use modal + 'be' + past participle to state urgent security and damage-control steps during an incident.",
+                explanationJpn: "インシデント発生時に緊急のセキュリティ対策やダメージコントロールの手順を述べるには、「法助動詞 + be + 過去分詞」を使います。",
+                examples: [
+                    { eng: "Passwords must be encrypted immediately.", jpn: "パスワードは直ちに暗号化されなければなりません。" },
+                    { eng: "Affected customers should be compensated fairly.", jpn: "影響を受けた顧客には公正に補償されるべきです。" }
+                ]
             }
         ],
         discussionPoints: [
@@ -3276,15 +3443,32 @@ const b1Curriculum = [
                 { eng: "Give away", jpn: "（秘密を）漏らす、与える", exEng: "He accidentally gave away his password to a scammer.", exJpn: "彼は誤って詐欺師にパスワードを教えて（漏らして）しまいました。" },
                 { eng: "Take over", jpn: "乗っ取る", exEng: "Hackers tried to take over the admin accounts.", exJpn: "ハッカーは管理者アカウントを乗っ取ろうとしました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Big difference (much + comparative) - 4 sentences
+                { prompt: "当社のファイアウォールは、競合他社のシステムよりもはるかに弱いものでした。", target: "Our firewall was much weaker than our competitors' systems.", words: ["Our", "firewall", "was", "much", "weaker", "than", "our", "competitors'", "systems."] },
+                { prompt: "罰金は私たちが予想していたよりもはるかに高額になるでしょう。", target: "The fine will be much higher than we expected.", words: ["The", "fine", "will", "be", "much", "higher", "than", "we", "expected."] },
+                { prompt: "評判への長期的なダメージははるかに深刻です。", target: "The long-term damage to our reputation is much worse.", words: ["The", "long-term", "damage", "to", "our", "reputation", "is", "much", "worse."] },
+                { prompt: "新しいセキュリティツールは古いものよりもはるかに強力です。", target: "The new security tool is much stronger than the old one.", words: ["The", "new", "security", "tool", "is", "much", "stronger", "than", "the", "old", "one."] },
+                // Grammar Point 2: Present perfect passive (has/have been + PP) - 4 sentences
+                { prompt: "公式なメールはまだ送信されていません。", target: "An official email has not been sent yet.", words: ["An", "official", "email", "has", "not", "been", "sent", "yet."] },
+                { prompt: "私の信頼は完全に打ち砕かれました。", target: "My trust has been completely broken.", words: ["My", "trust", "has", "been", "completely", "broken."] },
+                { prompt: "メインサーバーは2年間更新されていません。", target: "The main server has not been updated in two years.", words: ["The", "main", "server", "has", "not", "been", "updated", "in", "two", "years."] },
+                { prompt: "すべてのデジタル広告は一時停止されました。", target: "All digital advertising has been paused.", words: ["All", "digital", "advertising", "has", "been", "paused."] },
+                // Grammar Point 3: Passive voice with modals - 4 sentences
+                { prompt: "パスワードは直ちに暗号化されなければなりません。", target: "Passwords must be encrypted immediately.", words: ["Passwords", "must", "be", "encrypted", "immediately."] },
+                { prompt: "影響を受けた顧客には公正に補償されるべきです。", target: "Affected customers should be compensated fairly.", words: ["Affected", "customers", "should", "be", "compensated", "fairly."] },
+                { prompt: "公式な謝罪が直ちに発表されるべきです。", target: "A public apology should be issued right away.", words: ["A", "public", "apology", "should", "be", "issued", "right", "away."] },
+                { prompt: "セキュリティソフトは定期的に更新されなければなりません。", target: "Security software must be updated regularly.", words: ["Security", "software", "must", "be", "updated", "regularly."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 7 - Incident Readiness Quiz)",
+                instruction: "Read this quick check on data breaches and damage control. Notice 'much + comparative' and present perfect passive.",
+                eng: "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>🔐 SECURITY CHECK: How Well Do You Spot Breach Risks?</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>When customer data leaks after a cyber attack, both tech gaps and human mistakes often play a role. Test your judgment on these scenarios:</p><span class='er-quiz-q'>1. A company's main server has not been updated for two years, and its firewall is much weaker than rivals' systems. What is the biggest risk?</span><span class='er-quiz-opt'>A) Hackers can break in more easily and steal credit card info or passwords.</span><span class='er-quiz-opt'>B) Customers will only notice slower page loading during sales.</span><span class='er-quiz-q'>2. A data breach happened yesterday, and an official email has not been sent to customers yet. What should happen next?</span><span class='er-quiz-opt'>A) Issue a clear public apology, explain the impact, and protect affected accounts.</span><span class='er-quiz-opt'>B) Wait until the news stops talking about it and say nothing.</span><div class='er-quiz-res'><strong>💡 Key Takeaway:</strong><br>Consequently, strong security software, phishing training, and fast damage control are essential. In the long term, honest action helps rebuild lost trust.</div></div>",
+                jpn: "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>🔐 セキュリティチェック：漏洩リスクをどれだけ見抜けますか？</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>サイバー攻撃の後に顧客データが漏洩する際、技術的な隙と人的ミスの両方が関係することがよくあります。次のシナリオで判断力を試してみましょう：</p><span class='er-quiz-q'>1. 会社のメインサーバーが2年間更新されておらず、ファイアウォールが競合他社のシステムよりはるかに弱いです。最大のリスクは何ですか？</span><span class='er-quiz-opt'>A) ハッカーがより簡単に侵入し、クレジットカード情報やパスワードを盗めること。</span><span class='er-quiz-opt'>B) セール中にページの読み込みが少し遅くなる程度であること。</span><span class='er-quiz-q'>2. 昨日データ漏洩が起きましたが、顧客への公式メールがまだ送信されていません。次に何をすべきですか？</span><span class='er-quiz-opt'>A) 明確な公式謝罪を発表し、影響を説明し、影響を受けたアカウントを保護する。</span><span class='er-quiz-opt'>B) ニュースで話題にならなくなるまで待って何も言わない。</span><div class='er-quiz-res'><strong>💡 重要なポイント：</strong><br>その結果として、強力なセキュリティソフト、フィッシング対策トレーニング、迅速なダメージコントロールが不可欠です。長期的には、誠実な行動が失われた信頼の再構築に役立ちます。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph outlining your proposed damage control plan for ShopSmart. Use the present perfect passive (e.g., 'An email has been sent') and transitional expressions.",
                 promptJpn: "「ShopSmartのためのあなたの提案するダメージコントロール計画を概説する短い段落を書いてください。現在完了受動態（例：『An email has been sent』）とトランジション表現を使用してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Cybersecurity in E-Commerce)",
-                instruction: "Read this authentic text about data breaches and crisis management in retail.",
-                eng: "In the digital age, data is the most valuable asset a company possesses. E-commerce platforms collect vast amounts of sensitive information daily, including home addresses, shopping habits, and credit card numbers. Because of this, online retailers are constant targets for sophisticated cyber attacks. When a data breach occurs, it is rarely just a technical failure; it is usually a catastrophic business crisis. The immediate financial cost of a hack can be staggering, involving government fines, legal settlements, and mandatory compensation for victims. However, the long-term damage to a brand's reputation is often much more severe and harder to repair.\n\nInvestigations into corporate data breaches frequently reveal that the root causes are entirely preventable. While companies enthusiastically spend millions on digital marketing and user interface design, they often neglect backend cybersecurity. Outdated firewalls, unencrypted passwords, and a lack of basic employee training are common vulnerabilities. Hackers do not always break through complex code; sometimes, they simply send a deceptive 'phishing' email to a warehouse worker who accidentally hands over their login credentials. This highlights the reality that cybersecurity is not just an IT problem; it is a company-wide responsibility.\n\nWhen a breach inevitably happens, effective crisis management—or 'damage control'—is absolutely critical. A company's first reaction often determines its survival. Attempting to hide the breach or delaying the announcement always results in extreme public outrage. Instead, modern PR strategies dictate total transparency. The CEO must immediately issue a public apology, clearly explain what information has been compromised, and outline the exact steps being taken to secure the network. Providing free credit monitoring services to affected customers is now standard practice. Ultimately, surviving a data breach requires humility, rapid technical action, and a sincere commitment to rebuilding consumer trust.",
-                jpn: "デジタル時代において、データは企業が所有する最も価値のある資産です。Eコマースプラットフォームは、自宅の住所、買い物の習慣、クレジットカード番号など、膨大な量の機密情報を毎日収集しています。このため、オンライン小売業者は洗練されたサイバー攻撃の絶え間ない標的となっています。データ漏洩が発生した場合、それが単なる技術的な失敗であることはめったになく、通常は壊滅的なビジネス危機となります。ハッキングによる即時の財政的コストは、政府の罰金、法的な和解、被害者への義務的な補償などを含み、驚異的な額になる可能性があります。しかし、ブランドの評判に対する長期的なダメージは、しばしばはるかに深刻で修復が困難です。\n\n企業のデータ漏洩の調査では、根本的な原因が完全に防ぐことができたものであることが頻繁に明らかになります。企業はデジタルマーケティングやユーザーインターフェースの設計には熱心に何百万ドルも費やしますが、バックエンドのサイバーセキュリティを軽視することがよくあります。時代遅れのファイアウォール、暗号化されていないパスワード、基本的な従業員トレーニングの欠如は一般的な脆弱性です。ハッカーは常に複雑なコードを突破するわけではありません。時として、彼らは単に欺瞞的な「フィッシング」メールを倉庫の作業員に送り、作業員が誤ってログイン認証情報を渡してしまうこともあります。これは、サイバーセキュリティが単なるITの問題ではなく、会社全体の責任であるという現実を浮き彫りにしています。\n\n漏洩が必然的に発生した場合、効果的な危機管理（あるいは「ダメージコントロール」）が絶対に不可欠です。会社の最初の反応がしばしばその生存を決定します。漏洩を隠そうとしたり、発表を遅らせたりすることは、常に極端な大衆の怒りをもたらします。代わりに、現代のPR戦略は完全な透明性を要求します。CEOは直ちに公式な謝罪を発表し、どの情報が危険にさらされたかを明確に説明し、ネットワークを保護するために取られている正確な手段を概説しなければなりません。影響を受けた顧客に無料のクレジット監視サービスを提供することは、現在では標準的な慣行です。最終的に、データ漏洩を生き残るには、謙虚さ、迅速な技術的行動、そして消費者の信頼を再構築するための誠実なコミットメントが必要なのです。"
             }
         }
     },
@@ -3342,40 +3526,31 @@ const b1Curriculum = [
                 { eng: "Point out", jpn: "指摘する", exEng: "My colleague pointed out a hidden fee at checkout.", exJpn: "同僚がレジでの隠れた手数料を指摘しました。" },
                 { eng: "Look forward to", jpn: "〜を楽しみにする", exEng: "I am looking forward to receiving the package.", exJpn: "荷物を受け取るのを楽しみにしています。" }
             ],
-            reading1: {
-                title: "Task 2: Reading (Review Model: A Memorable Purchase)",
-                instruction: "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar, and transitional expressions.",
-                eng: "In my opinion, buying electronics online is much easier than visiting physical stores. Actually, I recently bought a new smartwatch that was extremely memorable. At first, I hesitated because there were too many options on the website. In hindsight, I shouldn't have worried. I eventually sorted out my choices by reading expert reviews. The delivery was fast, reliable, and convenient. To sum up, the watch was everything perfect. I wish I hadn't waited so long to upgrade, because tracking my daily fitness turned out to be a great motivation.",
-                jpn: "私の意見では、電子機器をオンラインで買うことは、実店舗を訪れるよりもはるかに簡単です。実は、私は最近新しいスマートウォッチを買ったのですが、それが非常に記憶に残っています。最初はウェブサイト上に選択肢が多すぎたため、私はためらいました。後から考えると、心配するべきではありませんでした。私は専門家のレビューを読むことで、最終的に自分の選択を整理（解決）しました。配送は迅速で、信頼性が高く、便利でした。要約すると、その時計は完璧なすべてのもの（完璧そのもの）でした。もっと早くアップグレードすればよかったと後悔しています。なぜなら、毎日のフィットネスを追跡することが大きなモチベーションになると判明したからです。"
-            },
-            expandedDialogue: [
-                { speaker: "A", eng: "Are you ready for your speaking test on e-commerce experiences?", jpn: "Eコマース体験についてのスピーキングテストの準備はできていますか？" },
-                { speaker: "B", eng: "Yes. I am going to discuss a time I bought a designer bag online.", jpn: "はい。オンラインでデザイナーズバッグを買った時のことについて話すつもりです。" },
-                { speaker: "A", eng: "That sounds like a big purchase. Were you nervous about it?", jpn: "それは大きな買い物のように聞こえますね。緊張しましたか？" },
-                { speaker: "B", eng: "A little. There are too many fake products online nowadays.", jpn: "少し。最近はオンラインに偽造品が多すぎますから。" },
-                { speaker: "A", eng: "How did you make sure it wasn't a scam?", jpn: "それが詐欺ではないとどのように確認したのですか？" },
-                { speaker: "B", eng: "I looked into the seller's history and relied on verified reviews.", jpn: "販売者の履歴を調査し、確認済みのレビューに頼りました。" },
-                { speaker: "A", eng: "Did the delivery process go smoothly?", jpn: "配送のプロセスはスムーズにいきましたか？" },
-                { speaker: "B", eng: "Not entirely. The package was supposed to arrive on Friday, but it was delayed.", jpn: "完全には。荷物は金曜日に到着するはずだったのですが、遅れました。" },
-                { speaker: "A", eng: "How did you deal with that delay?", jpn: "その遅延にはどのように対処したのですか？" },
-                { speaker: "B", eng: "I contacted customer support. They pointed out a weather issue and apologized.", jpn: "カスタマーサポートに連絡しました。彼らは天候の問題を指摘し、謝罪してくれました。" },
-                { speaker: "A", eng: "Did they offer any compensation?", jpn: "彼らは何か補償を申し出ましたか？" },
-                { speaker: "B", eng: "Yes, they refunded my shipping fee. Plus, they gave me a discount voucher.", jpn: "はい、配送料を返金してくれました。加えて、割引券もくれました。" },
-                { speaker: "A", eng: "That is excellent damage control. Good luck with your speech!", jpn: "それは素晴らしいダメージコントロール（火消し）ですね。スピーチ頑張ってください！" },
-                { speaker: "B", eng: "Thank you. I think it will turn out well.", jpn: "ありがとうございます。上手くいく（良い結果になる）と思います。" }
+            clickingGames: [
+                // Chapter 4 Review Point 1: Limits, Processes & Promises - 4 sentences
+                { prompt: "私は必要のないものに多すぎるお金を使ってしまいます。", target: "I spend too much money on things I don't need.", words: ["I", "spend", "too", "much", "money", "on", "things", "I", "don't", "need."] },
+                { prompt: "私たちは返品ポリシーを更新している最中です。", target: "We are in the process of updating our return policy.", words: ["We", "are", "in", "the", "process", "of", "updating", "our", "return", "policy."] },
+                { prompt: "その荷物は火曜日に到着するはずでした。", target: "The package was supposed to arrive on Tuesday.", words: ["The", "package", "was", "supposed", "to", "arrive", "on", "Tuesday."] },
+                { prompt: "交換品をお送りします。加えて、全額返金を発行いたします。", target: "I will send a replacement. Plus, I will issue a full refund.", words: ["I", "will", "send", "a", "replacement.", "Plus,", "I", "will", "issue", "a", "full", "refund."] },
+                // Chapter 4 Review Point 2: Comparisons, Conditions & Security - 4 sentences
+                { prompt: "私はオンラインで注文するよりも、地元で買う方を好みます。", target: "I prefer to buy locally rather than ordering online.", words: ["I", "prefer", "to", "buy", "locally", "rather", "than", "ordering", "online."] },
+                { prompt: "もし価格を下げていただけるなら、本日契約を結ぶことができます。", target: "If you lower the price, we can sign the contract today.", words: ["If", "you", "lower", "the", "price,", "we", "can", "sign", "the", "contract", "today."] },
+                { prompt: "公式なメールはまだ送信されていません。", target: "An official email has not been sent yet.", words: ["An", "official", "email", "has", "not", "been", "sent", "yet."] },
+                { prompt: "パスワードは直ちに暗号化されなければなりません。", target: "Passwords must be encrypted immediately.", words: ["Passwords", "must", "be", "encrypted", "immediately."] }
             ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 8 - PREP Speech Guide for Shopping)",
+                instruction: "Read this guide on structuring a PREP speech about a memorable online purchase.",
+                eng: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>🛒 PREP Speech Guide: A Memorable Online Purchase</h3><p><strong>Point — State Your Main Takeaway:</strong> Start by saying what you bought online and why it stood out. Mention whether it was a good deal, exceeded expectations, or taught you a lesson about customer support and security.</p><p><strong>Reason — Explain Your Choice &amp; Process:</strong> Describe how you compared prices, read customer reviews, or checked return policies before you made the purchase. Explain why you chose that platform rather than a physical store or another seller.</p><p><strong>Example — Share What Happened With Delivery or Support:</strong> Describe a specific detail from the order. Perhaps there are too many choices at first, or a package was supposed to arrive earlier and needed support to sort it out quickly.</p><p><strong>Point (Restated) — Wrap Up Clearly:</strong> End by summarizing why the experience still matters to you today, such as trusting a reliable seller, leaving helpful feedback, or avoiding impulse buying in the future.</p></div>",
+                jpn: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>🛒 PREPスピーチガイド：記憶に残るオンライン購入</h3><p><strong>Point（結論）— 主なポイントを述べる：</strong> オンラインで何を買ったか、なぜ印象に残ったかを最初に言いましょう。お買い得だったか、期待を上回ったか、カスタマーサポートやセキュリティについて学びがあったかを伝えます。</p><p><strong>Reason（理由）— 選択と購入プロセスを説明する：</strong> 購入前にどのように価格を比較し、カスタマーレビューを読み、返品ポリシーを確認したかを説明します。実店舗や他の販売者ではなく、なぜそのプラットフォームを選んだのかを述べましょう。</p><p><strong>Example（具体例）— 配送やサポートで起きたことを共有する：</strong> 注文の具体的な詳細を描写します。最初は選択肢が多すぎたり、荷物がもっと早く届くはずだったのに素早く解決するためにサポートが必要だったりしたかもしれません。</p><p><strong>Point（再結論）— 明確に締めくくる：</strong> 信頼できる販売者を信頼できたこと、役立つフィードバックを残したこと、今後衝動買いを避けることなど、その経験が今も自分にとって大切な理由をまとめて終わりましょう。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a time you purchased something online and had a positive or negative experience with customer service. What happened?",
                 promptJpn: "「オンラインで何かを購入し、カスタマーサービスでポジティブ、またはネガティブな経験をした時のことを説明してください。何が起こりましたか？」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Psychology of the Cart)",
-                instruction: "Read this authentic article to learn more about consumer behavior in e-commerce. This section provides real-world context for B1 learners.",
-                eng: "The process of shopping online is meticulously designed by behavioral psychologists and UX (user experience) experts to maximize sales. When a consumer logs onto an e-commerce platform, they are not just browsing a digital catalog; they are entering a carefully structured psychological environment. One of the most powerful tools retailers use is 'social proof,' commonly seen in the form of customer reviews and ratings. When a shopper is hesitant about a pricey item, seeing that five hundred other people rated it five stars provides immediate reassurance. We naturally rely on the opinions of the crowd to validate our personal choices.\n\nAnother significant tactic is creating a sense of urgency. Flash sales, countdown timers, and messages like 'Only 2 items left in stock!' trigger a psychological response known as FOMO (Fear Of Missing Out). This pushes the consumer to stop comparing prices and finalize the purchase immediately. E-commerce platforms also understand the frustration of friction. That is why they offer 'one-click buying' and securely save your credit card information. If the checkout process is too complicated or takes too much time, statistics show that consumers will likely abandon their digital shopping carts.\n\nFinally, the post-purchase experience is vital for building brand loyalty. The excitement of tracking a package creates a small dopamine rush for the buyer. If the delivery is delayed or the item arrives damaged, that excitement quickly turns into deep frustration. However, companies that excel in service recovery—by apologizing swiftly, issuing instant refunds, and offering sincere compensation—can actually turn a negative logistical failure into a profoundly positive memory. Ultimately, successful online shopping is not just about the product itself, but about how the entire digital journey makes the customer feel.",
-                jpn: "オンラインショッピングのプロセスは、売上を最大化するために行動心理学者やUX（ユーザーエクスペリエンス）の専門家によって綿密に設計されています。消費者がEコマースプラットフォームにログインするとき、彼らは単にデジタルカタログを閲覧しているのではなく、慎重に構築された心理的環境に入り込んでいるのです。小売業者が使用する最も強力なツールの1つは「社会的証明」であり、一般的にカスタマーレビューや評価の形で見られます。買い物客が高価な商品についてためらっているとき、他の500人が5つ星で評価しているのを見ることは即座の安心感を提供します。私たちは自分個人の選択を正当化するために、自然と群衆の意見に頼るのです。\n\nもう一つの重要な戦術は、緊急性の感覚を作り出すことです。タイムセール、カウントダウンタイマー、そして「残りあと2点！」といったメッセージは、FOMO（見逃すことへの恐怖）として知られる心理的反応を引き起こします。これにより、消費者は価格の比較をやめ、直ちに購入を完了するよう後押しされます。Eコマースプラットフォームはまた、摩擦（面倒さ）によるフラストレーションも理解しています。だからこそ、彼らは「1クリック購入」を提供し、クレジットカード情報を安全に保存するのです。チェックアウトのプロセスが複雑すぎたり、時間がかかりすぎたりすると、消費者がデジタルショッピングカートを放棄する可能性が高いことが統計で示されています。\n\n最後に、購入後の体験はブランドロイヤルティを構築する上で不可欠です。荷物を追跡する興奮は、買い手に小さなドーパミンの分泌をもたらします。配送が遅れたり商品が破損して届いたりすると、その興奮はすぐに深いフラストレーションに変わります。しかし、迅速に謝罪し、即座に返金を発行し、誠実な補償を提供することで、サービス・リカバリー（サービスの回復）に優れた企業は、実際には否定的な物流の失敗を非常に肯定的な記憶に変えることができます。最終的に、成功するオンラインショッピングとは、単に製品自体についてではなく、デジタルの旅（ジャーニー）全体が顧客にどのような感情を抱かせるかということなのです。"
             }
         }
     },
+  
 
 {
         id: 29,
@@ -3387,30 +3562,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "The climate of a region has a huge impact on how people live, work, and spend their free time. I grew up in a country with four distinct seasons, and I always loved the variety. In the spring, people spend a lot of time outdoors enjoying the mild temperatures and blooming flowers. Summer is perfect for going to the beach, while autumn brings beautiful colorful leaves. Winter, of course, is cold and snowy, which is great for winter sports. However, seasonal changes also affect our moods. During the long, dark winters, many people feel a bit depressed because they do not get enough sunlight. I think understanding how weather affects our daily routines and mental health is very important for maintaining a balanced lifestyle.", 
-                    jpn: "ある地域の気候は、人々がどのように生き、働き、自由な時間を過ごすかに大きな影響を与えます。私は四季がはっきりしている国で育ち、その多様性がいつも好きでした。春には、人々は穏やかな気温と咲き誇る花を楽しみながら屋外で多くの時間を過ごします。夏はビーチに行くのに最適で、秋は美しく色づいた葉をもたらします。もちろん冬は寒くて雪が降り、ウィンタースポーツに最適です。しかし、季節の変化は私たちの気分にも影響を与えます。長く暗い冬の間、十分な日光を浴びないため、少し憂鬱に感じる人が多くいます。天気が私たちの日常のルーティンやメンタルヘルスにどのように影響するかを理解することは、バランスの取れたライフスタイルを維持するために非常に重要だと思います。" 
+                {
+                    name: "Person 1",
+                    eng: "The climate of a region has a huge impact on how people live, work, and spend their free time. I grew up in a country with four distinct seasons, and I always loved the variety. In the spring, people spend a lot of time outdoors enjoying the mild temperatures and blooming flowers. Summer is perfect for going to the beach, while autumn brings beautiful colorful leaves. Winter, of course, is cold and snowy, which is great for winter sports. However, seasonal changes also affect our moods. During the long, dark winters, many people feel a bit depressed because they do not get enough sunlight. I think understanding how weather affects our daily routines and mental health is very important for maintaining a balanced lifestyle.",
+                    jpn: "ある地域の気候は、人々がどのように生き、働き、自由な時間を過ごすかに大きな影響を与えます。私は四季がはっきりしている国で育ち、その多様性がいつも好きでした。春には、人々は穏やかな気温と咲き誇る花を楽しみながら屋外で多くの時間を過ごします。夏はビーチに行くのに最適で、秋は美しく色づいた葉をもたらします。もちろん冬は寒くて雪が降り、ウィンタースポーツに最適です。しかし、季節の変化は私たちの気分にも影響を与えます。長く暗い冬の間、十分な日光を浴びないため、少し憂鬱に感じる人が多くいます。天気が私たちの日常のルーティンやメンタルヘルスにどのように影響するかを理解することは、バランスの取れたライフスタイルを維持するために非常に重要だと思います。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "For businesses, weather is a crucial factor that constantly affects sales and operations. Think about the agriculture industry; farmers rely heavily on predictable weather patterns to grow their crops. If there is too much rain or a sudden drought, an entire harvest can be ruined. Similarly, the tourism and hospitality sectors depend on good weather. A rainy summer can destroy a seaside resort's profit for the whole year. Even the retail industry adjusts its inventory based on the climate. When a sudden cold wave hits, stores quickly sell out of winter coats and heaters. In modern supply chains, logisticians use advanced weather forecasting tools to predict storms and avoid delivery delays. Weather is not just small talk; it is a major economic driver.", 
-                    jpn: "ビジネスにおいて、天気は常に売上と運営に影響を与える重要な要因です。農業を考えてみてください。農家は作物を育てるために、予測可能な天候パターンに大きく依存しています。雨が多すぎたり突然の干ばつがあったりすると、収穫全体が台無しになる可能性があります。同様に、観光やホスピタリティ部門も良い天気に依存しています。雨の多い夏は、海辺のリゾートの1年全体の利益を破壊する可能性があります。小売業界でさえ、気候に基づいて在庫を調整します。突然の寒波が到来すると、店舗では冬用のコートやヒーターがすぐに売り切れます。現代のサプライチェーンにおいて、物流担当者は高度な天気予報ツールを使用して嵐を予測し、配達の遅れを回避しています。天気は単なる世間話ではなく、主要な経済の原動力なのです。" 
+                {
+                    name: "Person 2",
+                    eng: "For businesses, weather is a crucial factor that constantly affects sales and operations. Think about the agriculture industry; farmers rely heavily on predictable weather patterns to grow their crops. If there is too much rain or a sudden drought, an entire harvest can be ruined. Similarly, the tourism and hospitality sectors depend on good weather. A rainy summer can destroy a seaside resort's profit for the whole year. Even the retail industry adjusts its inventory based on the climate. When a sudden cold wave hits, stores quickly sell out of winter coats and heaters. In modern supply chains, logisticians use advanced weather forecasting tools to predict storms and avoid delivery delays. Weather is not just small talk; it is a major economic driver.",
+                    jpn: "ビジネスにおいて、天気は常に売上と運営に影響を与える重要な要因です。農業を考えてみてください。農家は作物を育てるために、予測可能な天候パターンに大きく依存しています。雨が多すぎたり突然の干ばつがあったりすると、収穫全体が台無しになる可能性があります。同様に、観光やホスピタリティ部門も良い天気に依存しています。雨の多い夏は、海辺のリゾートの1年全体の利益を破壊する可能性があります。小売業界でさえ、気候に基づいて在庫を調整します。突然の寒波が到来すると、店舗では冬用のコートやヒーターがすぐに売り切れます。現代のサプライチェーンにおいて、物流担当者は高度な天気予報ツールを使用して嵐を予測し、配達の遅れを回避しています。天気は単なる世間話ではなく、主要な経済の原動力なのです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "We cannot discuss the weather today without talking about global climate change. In recent years, we have seen an alarming increase in extreme weather events. Heatwaves are becoming hotter, and storms are becoming much more destructive. I live in a coastal city, and rising sea levels are a real threat to our community. Many people feel overwhelmed by this issue, but I believe that small lifestyle changes can make a difference. For example, using public transportation instead of driving, or reducing our energy consumption at home, helps lower greenhouse gas emissions. Furthermore, governments and corporations must invest heavily in renewable energy sources like wind and solar power. Protecting our global climate is the greatest challenge of our generation, and we must take it seriously.", 
-                    jpn: "今日、地球規模の気候変動について話すことなしに天気を論じることはできません。近年、極端な気象現象が驚くほど増加しています。熱波はより暑くなり、嵐ははるかに破壊的になっています。私は沿岸都市に住んでいますが、海面上昇は私たちのコミュニティにとって現実の脅威です。多くの人がこの問題に圧倒されていますが、私は小さなライフスタイルの変化が違いを生むと信じています。例えば、車を運転する代わりに公共交通機関を利用したり、家庭でのエネルギー消費を減らしたりすることは、温室効果ガスの排出を抑えるのに役立ちます。さらに、政府や企業は風力や太陽光などの再生可能エネルギー源に多額の投資をしなければなりません。地球の気候を守ることは、私たちの世代の最大の課題であり、私たちはそれを真剣に受け止めなければなりません。" 
+                {
+                    name: "Person 3",
+                    eng: "We cannot discuss the weather today without talking about global climate change. In recent years, we have seen an alarming increase in extreme weather events. Heatwaves are becoming hotter, and storms are becoming much more destructive. I live in a coastal city, and rising sea levels are a real threat to our community. Many people feel overwhelmed by this issue, but I believe that small lifestyle changes can make a difference. For example, using public transportation instead of driving, or reducing our energy consumption at home, helps lower greenhouse gas emissions. Furthermore, governments and corporations must invest heavily in renewable energy sources like wind and solar power. Protecting our global climate is the greatest challenge of our generation, and we must take it seriously.",
+                    jpn: "今日、地球規模の気候変動について話すことなしに天気を論じることはできません。近年、極端な気象現象が驚くほど増加しています。熱波はより暑くなり、嵐ははるかに破壊的になっています。私は沿岸都市に住んでいますが、海面上昇は私たちのコミュニティにとって現実の脅威です。多くの人がこの問題に圧倒されていますが、私は小さなライフスタイルの変化が違いを生むと信じています。例えば、車を運転する代わりに公共交通機関を利用したり、家庭でのエネルギー消費を減らしたりすることは、温室効果ガスの排出を抑えるのに役立ちます。さらに、政府や企業は風力や太陽光などの再生可能エネルギー源に多額の投資をしなければなりません。地球の気候を守ることは、私たちの世代の最大の課題であり、私たちはそれを真剣に受け止めなければなりません。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Seasons 📖", themeJpn: "季節", sub: [{eng: "Distinct seasons", jpn: "はっきりとした四季"}, {eng: "Outdoor activities", jpn: "アウトドア活動"}, {eng: "Seasonal moods", jpn: "季節による気分"}] },
-            { theme: "Weather & Business 📖", themeJpn: "天気とビジネス", sub: [{eng: "Agriculture", jpn: "農業"}, {eng: "Tourism sales", jpn: "観光業の売上"}, {eng: "Supply chain delays", jpn: "サプライチェーンの遅延"}] },
-            { theme: "Climate Change 📖", themeJpn: "気候変動", sub: [{eng: "Extreme weather", jpn: "異常気象"}, {eng: "Rising sea levels", jpn: "海面上昇"}, {eng: "Global warming", jpn: "地球温暖化"}] },
-            { theme: "Daily Routine 📖", themeJpn: "日々のルーティン", sub: [{eng: "Choosing clothes", jpn: "服を選ぶこと"}, {eng: "Commuting in the rain", jpn: "雨の中の通勤"}, {eng: "Heating and cooling", jpn: "冷暖房"}] },
-            { theme: "Eco-Friendly Habits 📖", themeJpn: "環境に優しい習慣", sub: [{eng: "Reducing energy", jpn: "エネルギーの削減"}, {eng: "Public transport", jpn: "公共交通機関"}, {eng: "Recycling", jpn: "リサイクル"}] },
-            { theme: "Renewable Energy 📖", themeJpn: "再生可能エネルギー", sub: [{eng: "Solar power", jpn: "太陽光発電"}, {eng: "Wind farms", jpn: "風力発電所"}, {eng: "Corporate investment", jpn: "企業の投資"}] }
+            { theme: "Seasons 📖", themeJpn: "季節", sub: [{ eng: "Distinct seasons", jpn: "はっきりとした四季" }, { eng: "Outdoor activities", jpn: "アウトドア活動" }, { eng: "Seasonal moods", jpn: "季節による気分" }] },
+            { theme: "Weather & Business 📖", themeJpn: "天気とビジネス", sub: [{ eng: "Agriculture", jpn: "農業" }, { eng: "Tourism sales", jpn: "観光業の売上" }, { eng: "Supply chain delays", jpn: "サプライチェーンの遅延" }] },
+            { theme: "Climate Change 📖", themeJpn: "気候変動", sub: [{ eng: "Extreme weather", jpn: "異常気象" }, { eng: "Rising sea levels", jpn: "海面上昇" }, { eng: "Global warming", jpn: "地球温暖化" }] },
+            { theme: "Daily Routine 📖", themeJpn: "日々のルーティン", sub: [{ eng: "Choosing clothes", jpn: "服を選ぶこと" }, { eng: "Commuting in the rain", jpn: "雨の中の通勤" }, { eng: "Heating and cooling", jpn: "冷暖房" }] },
+            { theme: "Eco-Friendly Habits 📖", themeJpn: "環境に優しい習慣", sub: [{ eng: "Reducing energy", jpn: "エネルギーの削減" }, { eng: "Public transport", jpn: "公共交通機関" }, { eng: "Recycling", jpn: "リサイクル" }] },
+            { theme: "Renewable Energy 📖", themeJpn: "再生可能エネルギー", sub: [{ eng: "Solar power", jpn: "太陽光発電" }, { eng: "Wind farms", jpn: "風力発電所" }, { eng: "Corporate investment", jpn: "企業の投資" }] }
         ],
         questions: [
             { eng: "1. What is your favorite season of the year, and why?", jpn: "1. 1年で最も好きな季節は何ですか？またそれはなぜですか？" },
@@ -3486,15 +3661,27 @@ const b1Curriculum = [
                 { eng: "Wash away", jpn: "洗い流す", exEng: "The flood washed away the wooden bridge.", exJpn: "洪水が木製の橋を洗い流しました。" },
                 { eng: "Bring about", jpn: "引き起こす、もたらす", exEng: "Climate change will bring about massive agricultural shifts.", exJpn: "気候変動は大規模な農業の移行を引き起こすでしょう。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: High quantities (a lot of / loads of) - 4 sentences
+                { prompt: "春には、人々は屋外で多くの時間を過ごします。", target: "People spend a lot of time outdoors in the spring.", words: ["People", "spend", "a", "lot", "of", "time", "outdoors", "in", "the", "spring."] },
+                { prompt: "私たちには気候変動に関する大量のデータがあります。", target: "We have loads of data about climate change.", words: ["We", "have", "loads", "of", "data", "about", "climate", "change."] },
+                { prompt: "猛暑の日には多くの人が冷たい飲み物を買います。", target: "Many people buy cold drinks on scorcher days.", words: ["Many", "people", "buy", "cold", "drinks", "on", "scorcher", "days."] },
+                { prompt: "物流チームは嵐に関する大量の予報を確認します。", target: "Logistics teams check loads of forecasts for storms.", words: ["Logistics", "teams", "check", "loads", "of", "forecasts", "for", "storms."] },
+                // Grammar Point 2: General groups (all, most, some, no) - 4 sentences
+                { prompt: "ほとんどのビジネスは良い天気に依存しています。", target: "Most businesses rely on good weather.", words: ["Most", "businesses", "rely", "on", "good", "weather."] },
+                { prompt: "一部の国は太陽光発電を効率的に利用しています。", target: "Some countries use solar power efficiently.", words: ["Some", "countries", "use", "solar", "power", "efficiently."] },
+                { prompt: "すべての季節が私たちの日々のルーティンに影響を与えます。", target: "All seasons affect our daily routines.", words: ["All", "seasons", "affect", "our", "daily", "routines."] },
+                { prompt: "突然の干ばつではほとんど作物が育ちません。", target: "Most crops grow poorly during a sudden drought.", words: ["Most", "crops", "grow", "poorly", "during", "a", "sudden", "drought."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 9 - Split Cards on Seasons & Climate)",
+                instruction: "Read these cards on how climate, business, and daily life connect. Notice quantifiers and general group expressions.",
+                eng: "<div class='er-template er-layout-9'><div class='er-card'><h4>🌸 Seasons &amp; Daily Moods</h4><p>In regions with distinct seasons, people spend a lot of time outside when temperatures are mild in spring and autumn. In winter, you bundle up for chilly mornings, and some people feel low when days are short. As a matter of fact, weather shapes energy and habits all year.</p></div><div class='er-card'><h4>🌾 Climate &amp; Business</h4><p>Most outdoor businesses depend on steady weather. Farmers face loads of risk when there is too much rain or a dry spell, and tourism drops during a rainy downpour. Similarly, stores adjust stock before winter coats or summer fans sell out.</p></div><div class='er-card'><h4>⚡ Extreme Weather &amp; Energy</h4><p>In recent years, heatwaves and storms have become stronger due to a warming climate. Some cities use renewable energy and cut power consumption to lower emissions. For example, taking trains instead of driving helps reduce daily energy use.</p></div></div>",
+                jpn: "<div class='er-template er-layout-9'><div class='er-card'><h4>🌸 季節と日々の気分</h4><p>四季がはっきりしている地域では、春や秋の穏やかな気温のときに人々は屋外で多くの時間を過ごします。冬は肌寒い朝のために厚着をし、日が短いと気分が落ち込む人もいます。実際のところ、天気は一年中エネルギーや習慣を形作ります。</p></div><div class='er-card'><h4>🌾 気候とビジネス</h4><p>ほとんどの屋外ビジネスは安定した天気に依存しています。雨が多すぎたり干ばつになったりすると農家は多くのリスクに直面し、雨の土砂降りの間は観光が減ります。同様に、冬用コートや夏の扇風機が売り切れる前に店舗は在庫を調整します。</p></div><div class='er-card'><h4>⚡ 異常気象とエネルギー</h4><p>近年、温暖化の影響で熱波や嵐がより強くなっています。排出量を減らすために、再生可能エネルギーを使い、電力消費を減らす都市もあります。例えば、車に乗る代わりに電車を使うことは日々のエネルギー使用量の削減に役立ちます。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: How does the climate in your country affect people's lifestyles? Use 'most' or 'some' for general groups.",
                 promptJpn: "「あなたの国の気候は人々のライフスタイルにどのように影響しますか？一般的なグループを表す『most』や『some』を使って答える短い段落を書いてください。」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Economics of Weather)",
-                instruction: "Read this authentic article to learn about how climate affects global business.",
-                eng: "We often talk about the weather as a polite way to start a conversation, but in the corporate world, meteorological changes are a serious financial matter. The global economy is heavily exposed to weather volatility. The most obvious example is agriculture. A summer that is slightly hotter or drier than usual can decimate crops, leading to massive financial losses for farmers and increased food prices for consumers worldwide. However, the impact of weather stretches far beyond farming.\n\nConsider the retail sector. Most clothing stores plan their inventory months in advance. If a region experiences an unusually warm winter, thick coats and snow boots will simply remain on the shelves, forcing retailers to offer massive discounts and accept huge profit cuts. Similarly, the energy sector relies on weather forecasts to predict demand. During a severe cold snap or an intense heatwave, energy companies must quickly adjust their output to prevent widespread power outages. \n\nToday, as climate change increases the frequency of extreme weather events, businesses are being forced to adapt. Logistics companies are using artificial intelligence to reroute shipping trucks around sudden storms, ensuring that supply chains are not interrupted. Insurance companies are recalculating risks for coastal properties due to rising sea levels. Ultimately, understanding and predicting the weather is no longer just for deciding what to wear; it is an essential component of modern business strategy and global economic stability.",
-                jpn: "私たちはしばしば会話を始める丁寧な方法として天気について話しますが、企業の世界では、気象の変化は深刻な財政問題です。世界経済は天候の変動に大きく晒されています。最も明白な例は農業です。通常よりもわずかに暑かったり乾燥したりした夏は作物を激減させ、農家に莫大な経済的損失をもたらし、世界中の消費者の食料価格を上昇させる可能性があります。しかし、天気の影響は農業をはるかに超えて広がっています。\n\n小売部門を考えてみてください。ほとんどの衣料品店は数ヶ月前から在庫を計画します。もしある地域が異常に暖かい冬を経験した場合、厚手のコートやスノーブーツは単に棚に残ったままになり、小売業者は大幅な割引を提供し、莫大な利益の削減を受け入れざるを得なくなります。同様に、エネルギー部門は需要を予測するために天気予報に依存しています。深刻な寒波や強烈な熱波の間、エネルギー企業は広範囲にわたる停電を防ぐために出力を迅速に調整しなければなりません。\n\n今日、気候変動が異常気象の頻度を増加させるにつれて、企業は適応を迫られています。物流企業は人工知能を使用して、突然の嵐を避けて輸送トラックのルートを変更し、サプライチェーンが中断されないようにしています。保険会社は、海面上昇による沿岸部の不動産のリスクを再計算しています。最終的に、天気を理解し予測することは、もはや何を着るかを決めるためだけのものではありません。それは現代のビジネス戦略と世界経済の安定性に不可欠な要素なのです。"
             }
         }
     },
@@ -3545,46 +3732,38 @@ const b1Curriculum = [
             { eng: "Express gratitude", jpn: "感謝を表現する", indent: false }
         ],
         expressions: [
-            { category: "1. Commenting on bad weather (悪天候についてコメントする)", options: ["The forecast doesn't look very promising.", "They are predicting heavy snow.", "The weather is supposed to be terrible."] },           
-            { category: "2. Canceling/Postponing formally (フォーマルにキャンセル/延期する)", options: ["We have decided to postpone the event.", "We need to cancel the meeting.", "We are calling it off for now."] }, 
-            { category: "3. Expressing effects formally (結果をフォーマルに表現する)", options: ["Therefore, we must reschedule.", "As a result, the event is cancelled.", "For that reason, we are staying home."] },
-            { category: "4. Stating safety priorities (安全の優先事項を述べる)", options: ["Safety must come first.", "We need to play it safe.", "I don't want to take any risks."] },
-            { category: "5. Discussing rescheduling (スケジュールの再調整について話し合う)", options: ["Do you have a backup date in mind?", "When should we reschedule this?", "I am holding off on setting a new date."] },
-            { category: "6. Offering to notify others (他者への通知を申し出る)", options: ["Should I inform the rest of the team?", "I will send out a mass email.", "I can let the clients know."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Adverbs: Expressing effects formally (Therefore / As a result)",
-                explanation: "When we want to express results or effects casually, we use 'so'. To sound more formal and professional, we can use 'Therefore' or 'As a result' at the beginning of the result sentence.",
-                explanationJpn: "結果や影響をカジュアルに表現したい場合は「so」を使用します。よりフォーマルでプロフェッショナルに聞こえさせるためには、結果の文の冒頭で「Therefore（それゆえに）」や「As a result（その結果）」を使用できます。",
-                examples: [
-                    { eng: "They predicted a storm. Therefore, we canceled the event.", jpn: "彼らは嵐を予測しました。それゆえに、私たちはイベントをキャンセルしました。" },
-                    { eng: "The roads are icy. As a result, the office is closed.", jpn: "道路が凍結しています。その結果、オフィスは閉鎖されています。" }
+                category: "1. Commenting on bad weather (悪天候についてコメントする)",
+                options: [
+                    { eng: "The forecast doesn't look very promising.", jpn: "天気予報はあまり期待できそうにないですね。" },
+                    { eng: "They are predicting heavy snow.", jpn: "大雪が予測されています。" },
+                    { eng: "The weather is supposed to be terrible.", jpn: "天気がひどくなるはずになっています。" }
                 ]
             },
             {
-                point: "2. Verbs: Describing temporary actions (am/are/is + ing)",
-                explanation: "We can use the present progressive tense to describe actions that are temporary or ongoing for a limited time. This is useful for situations that are pending, like waiting for the weather to improve.",
-                explanationJpn: "現在進行形を使用して、一時的な行動、または限られた期間進行中の行動を説明できます。これは、天気が良くなるのを待っているなど、保留中の状況に役立ちます。",
-                examples: [
-                    { eng: "I am holding off on setting a new date.", jpn: "私は新しい日付を設定するのを（一時的に）保留しています。" },
-                    { eng: "We are staying indoors today due to the storm.", jpn: "嵐のため、私たちは今日（一時的に）屋内に留まっています。" }
+                category: "2. Canceling or postponing formally (フォーマルにキャンセル・延期する)",
+                options: [
+                    { eng: "We have decided to postpone the event.", jpn: "私たちはイベントを延期することを決定しました。" },
+                    { eng: "We need to cancel the meeting.", jpn: "会議をキャンセルする必要があります。" },
+                    { eng: "We are calling it off for now.", jpn: "今のところは中止にしています。" }
+                ]
+            },
+            {
+                category: "3. Expressing effects formally (結果をフォーマルに表現する)",
+                options: [
+                    { eng: "Therefore, we must reschedule.", jpn: "それゆえに、スケジュールを組み直さなければなりません。" },
+                    { eng: "As a result, the event is cancelled.", jpn: "その結果として、イベントはキャンセルされました。" },
+                    { eng: "For that reason, we are staying home.", jpn: "その理由により、私たちは家に留まっています。" }
+                ]
+            },
+            {
+                category: "4. Discussing rescheduling & safety (再調整と安全について話し合う)",
+                options: [
+                    { eng: "Safety must come first.", jpn: "安全が第一でなければなりません。" },
+                    { eng: "Do you have a backup date in mind?", jpn: "予備の日程は考えていますか？" },
+                    { eng: "I am holding off on setting a new date.", jpn: "新しい日付を設定するのは保留にしています。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "彼らは激しい嵐を予測しています。それゆえに、私たちはイベントを延期しました。", target: "They predicted a storm. Therefore, we postponed the event.", words: ["They", "predicted", "a", "storm.", "Therefore,", "we", "postponed", "the", "event."] },
-            { prompt: "天候のせいで、私たちはそれを中止にしています。", target: "Because of the weather, we are calling it off.", words: ["Because", "of", "the", "weather,", "we", "are", "calling", "it", "off."] },
-            { prompt: "予備の日程は考えていますか？", target: "Do you have a backup date in mind?", words: ["Do", "you", "have", "a", "backup", "date", "in", "mind?"] },
-            { prompt: "残りのチームメンバーに知らせましょうか？", target: "Should I inform the rest of the team?", words: ["Should", "I", "inform", "the", "rest", "of", "the", "team?"] },
-            { prompt: "道路が凍結しています。その結果、私たちは慎重を期しています。", target: "The roads are icy. As a result, we are playing it safe.", words: ["The", "roads", "are", "icy.", "As", "a", "result,", "we", "are", "playing", "it", "safe."] }
-        ],
-        dropdownGames: [
-            { before: "The weather is bad.", options: ["Because", "Therefore", "However"], answer: "Therefore", after: ", we must cancel the meeting." },
-            { before: "I am", options: ["hold off", "holding off", "held off"], answer: "holding off", after: " on making a decision until tomorrow." },
-            { before: "Safety must", options: ["come", "go", "take"], answer: "come", after: " first for all our employees." },
-            { before: "We are", options: ["call it off", "calling it off", "called it off"], answer: "calling it off", after: " to play it safe." },
-            { before: "The storm was terrible.", options: ["For that reason", "In spite of", "Plus"], answer: "For that reason", after: ", the flights were delayed." }
         ],
         roleplay: {
             a: "You planned a business lunch with a client today. Call them to cancel because there is a severe snowstorm. Explain the danger and use 'Therefore' to formally cancel. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(今日、クライアントとのビジネスランチを計画していました。激しい吹雪のため、キャンセルするために電話してください。危険性を説明し、「Therefore」を使ってフォーマルにキャンセルしてください。)</span>",
@@ -3611,15 +3790,27 @@ const b1Curriculum = [
                 { eng: "Bring down", jpn: "倒す、（木などを）なぎ倒す", exEng: "The strong winds brought down several power lines.", exJpn: "強風がいくつかの送電線をなぎ倒しました。" },
                 { eng: "Turn back", jpn: "引き返す", exEng: "The roads were too dangerous, so we had to turn back.", exJpn: "道路が危険すぎたので、私たちは引き返さなければなりませんでした。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Expressing effects formally (Therefore / As a result) - 4 sentences
+                { prompt: "彼らは激しい嵐を予測しています。それゆえに、私たちはイベントを延期しました。", target: "They predicted a storm. Therefore, we postponed the event.", words: ["They", "predicted", "a", "storm.", "Therefore,", "we", "postponed", "the", "event."] },
+                { prompt: "道路が凍結しています。その結果、私たちは慎重を期しています。", target: "The roads are icy. As a result, we are playing it safe.", words: ["The", "roads", "are", "icy.", "As", "a", "result,", "we", "are", "playing", "it", "safe."] },
+                { prompt: "大雪が予報されています。それゆえに、会議をキャンセルします。", target: "Heavy snow is forecast. Therefore, we are canceling the meeting.", words: ["Heavy", "snow", "is", "forecast.", "Therefore,", "we", "are", "canceling", "the", "meeting."] },
+                { prompt: "電車が止まっています。その結果、予定を組み直します。", target: "Trains are stopped. As a result, we will reschedule.", words: ["Trains", "are", "stopped.", "As", "a", "result,", "we", "will", "reschedule."] },
+                // Grammar Point 2: Temporary actions (am/are/is + ing) - 4 sentences
+                { prompt: "私は新しい日付を設定するのを保留しています。", target: "I am holding off on setting a new date.", words: ["I", "am", "holding", "off", "on", "setting", "a", "new", "date."] },
+                { prompt: "嵐のため、私たちは今日屋内に留まっています。", target: "We are staying indoors today due to the storm.", words: ["We", "are", "staying", "indoors", "today", "due", "to", "the", "storm."] },
+                { prompt: "天気が回復するまで、私たちは予約を保留にしています。", target: "We are holding off on bookings until the weather clears up.", words: ["We", "are", "holding", "off", "on", "bookings", "until", "the", "weather", "clears", "up."] },
+                { prompt: "安全のため、私たちは今日リモートで働いています。", target: "We are working remotely today for safety.", words: ["We", "are", "working", "remotely", "today", "for", "safety."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 10 - Feature Box on Weather Cancellations)",
+                instruction: "Read this guide on canceling or postponing events professionally when bad weather hits. Notice 'Therefore', 'As a result', and temporary actions.",
+                eng: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>🌧️ Canceling or Postponing Plans Due to Bad Weather</h3><p>When a severe storm or heavy snow is forecast, transportation delays and icy roads create serious safety concerns. Safety must come first for staff, clients, and guests. Therefore, managers often decide to postpone an outdoor event or shift a meeting online before travel becomes dangerous.</p><p><strong>📢 How to Communicate Clearly:</strong> First, check the weather forecast and state the weather issue plainly. As a result of dangerous road conditions, we are calling off today's site visit and moving our update to a video call. Second, be honest about next steps—if the storm is still passing, say you are holding off on setting a backup date until the weather clears up.</p><p><strong>✅ Why Playing It Safe Works:</strong> Rescheduling a trip is much easier than dealing with an accident. Sending out a clear update early helps everyone plan safely and keep trust strong.</p></div></div>",
+                jpn: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>🌧️ 悪天候による予定のキャンセル・延期の進め方</h3><p>激しい嵐や大雪が予報されているとき、交通機関の遅れや凍結した道路は深刻な安全上の懸念を引き起こします。スタッフ、クライアント、ゲストにとって安全が第一でなければなりません。それゆえに、移動が危険になる前に、マネージャーは屋外イベントを延期したり、会議をオンラインに変更したりすることをよく決定します。</p><p><strong>📢 明確に伝える方法：</strong> まず天気予報を確認し、天候の問題をはっきりと述べましょう。危険な道路状況の結果として、本日の現地訪問を中止し、報告会をビデオ通話に変更します。次に、次のステップについて正直に伝えましょう。嵐がまだ通り過ぎている最中であれば、天気が回復するまで予備日の設定を保留にしていると言います。</p><p><strong>✅ 慎重を期すことがうまくいく理由：</strong> 事故に対処するよりも、出張や予定を組み直す方がはるかに簡単です。早めに明確な最新情報を送ることで、全員が安全に計画を立て、強い信頼を保つことができます。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short professional email to your team canceling a meeting due to bad weather. Explain the temporary situation (using am/is/are + -ing) and use 'Therefore' to state the cancellation.",
                 promptJpn: "「悪天候のため会議をキャンセルする、チーム宛ての短いプロフェッショナルなメールを書いてください。一時的な状況（am/is/are + -ingを使用）を説明し、『Therefore』を使ってキャンセルを述べてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Business of Weather Disruptions)",
-                instruction: "Read this authentic text about how companies handle severe weather events.",
-                eng: "In the corporate world, severe weather is not just an inconvenience; it is a major operational risk. From sudden blizzards shutting down entire cities to hurricanes causing massive power outages, weather conditions can halt business activities instantly. When extreme weather strikes, companies must prioritize the safety of their employees above everything else. Demanding that staff commute during dangerous conditions is not only unethical, but it also creates severe legal liabilities for the business. Therefore, having a clear and effective cancellation policy is absolutely essential.\n\nWhen management decides to 'call off' an event or close the office, clear communication is critical. Leaders must send out mass notifications quickly to prevent employees from attempting hazardous commutes. The tone of these messages should be professional and decisive. Phrases like 'As a result of the severe storm warning, all in-person meetings are postponed' clearly outline the cause and the resulting action. During these disruptions, companies often transition to remote work temporarily. For instance, a manager might say, 'We are working from home today until the roads are cleared.'\n\nWhile postponing events causes short-term logistical headaches, it is always better to 'play it safe.' Rescheduling a conference or a client dinner is manageable, but compromising employee safety is inexcusable. In modern business, flexibility is a necessity. Companies that adapt smoothly to weather disruptions by utilizing virtual meeting tools and maintaining clear, compassionate communication demonstrate strong leadership and protect their most valuable asset: their people.",
-                jpn: "企業の世界において、悪天候は単なる不便ではなく、主要な運営リスクです。突然の吹雪が都市全体を閉鎖させることから、ハリケーンが大規模な停電を引き起こすことまで、天候状況はビジネス活動を即座に停止させる可能性があります。異常気象に見舞われた際、企業は何よりもまず従業員の安全を優先しなければなりません。危険な状況下でスタッフに通勤を要求することは、非倫理的であるだけでなく、企業にとって深刻な法的責任を生み出します。それゆえに、明確で効果的なキャンセル方針を持つことが絶対に不可欠なのです。\n\n経営陣がイベントを「中止する」またはオフィスを閉鎖することを決定した場合、明確なコミュニケーションが極めて重要です。リーダーは、従業員が危険な通勤を試みるのを防ぐために、迅速に一斉通知を送信しなければなりません。これらのメッセージのトーンは、プロフェッショナルで決断力のあるものであるべきです。「激しい暴風雨警報の結果として、すべての対面での会議は延期されます」のようなフレーズは、原因と結果としての行動を明確に概説しています。これらの混乱の間、企業はしばしば一時的にリモートワークに移行します。例えば、マネージャーは「道路が片付くまで、今日は家で仕事をしています（一時的に）」と言うかもしれません。\n\nイベントを延期することは短期的なロジスティクスの頭痛の種を引き起こしますが、「大事をとる（慎重を期す）」方が常に良いのです。カンファレンスやクライアントとの夕食を再調整することはどうにかなりますが、従業員の安全を妥協することは許されません。現代のビジネスにおいて、柔軟性は不可欠です。バーチャルミーティングのツールを活用し、明確で思いやりのあるコミュニケーションを維持することで、天候による混乱にスムーズに適応する企業は、強力なリーダーシップを示し、最も価値のある資産である「人」を保護するのです。"
             }
         }
     },
@@ -3633,30 +3824,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "As extreme weather becomes more frequent, individual preparedness is absolutely essential. In my country, we frequently experience severe typhoons and minor earthquakes. Because of this, my family always keeps an emergency kit ready. It includes bottled water, non-perishable food, a flashlight, and a first-aid kit. If a major storm hits, we will definitely have enough supplies to survive for at least three days without electricity. I think everyone needs to take this responsibility seriously. You cannot just wait for the local government to rescue you if a disaster happens. Educating your children about evacuation routes and having a clear family communication plan is just as important as buying emergency food. Being prepared reduces panic when something terrible actually occurs.", 
-                    jpn: "異常気象がより頻繁になるにつれて、個人の備えは絶対に不可欠です。私の国では、私たちは頻繁に激しい台風や小さな地震を経験します。このため、私の家族は常に防災キットを準備しています。それにはボトル入りの水、保存食、懐中電灯、そして救急箱が含まれています。もし大きな嵐が来れば、私たちは間違いなく、電気なしで少なくとも3日間生き残るための十分な物資を持っていることになります。誰もがこの責任を真剣に受け止める必要があると思います。もし災害が起こった場合、ただ地方自治体が救出してくれるのを待っているわけにはいきません。子供たちに避難ルートについて教え、明確な家族のコミュニケーション計画を持つことは、非常食を買うことと同じくらい重要です。準備をしておくことで、実際に何か恐ろしいことが起こったときのパニックを減らすことができます。" 
+                {
+                    name: "Person 1",
+                    eng: "As extreme weather becomes more frequent, individual preparedness is absolutely essential. In my country, we frequently experience severe typhoons and minor earthquakes. Because of this, my family always keeps an emergency kit ready. It includes bottled water, non-perishable food, a flashlight, and a first-aid kit. If a major storm hits, we will definitely have enough supplies to survive for at least three days without electricity. I think everyone needs to take this responsibility seriously. You cannot just wait for the local government to rescue you if a disaster happens. Educating your children about evacuation routes and having a clear family communication plan is just as important as buying emergency food. Being prepared reduces panic when something terrible actually occurs.",
+                    jpn: "異常気象がより頻繁になるにつれて、個人の備えは絶対に不可欠です。私の国では、私たちは頻繁に激しい台風や小さな地震を経験します。このため、私の家族は常に防災キットを準備しています。それにはボトル入りの水、保存食、懐中電灯、そして救急箱が含まれています。もし大きな嵐が来れば、私たちは間違いなく、電気なしで少なくとも3日間生き残るための十分な物資を持っていることになります。誰もがこの責任を真剣に受け止める必要があると思います。もし災害が起こった場合、ただ地方自治体が救出してくれるのを待っているわけにはいきません。子供たちに避難ルートについて教え、明確な家族のコミュニケーション計画を持つことは、非常食を買うことと同じくらい重要です。準備をしておくことで、実際に何か恐ろしいことが起こったときのパニックを減らすことができます。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "From a corporate perspective, businesses must have a robust disaster recovery plan. When a natural disaster damages infrastructure, companies can lose millions of dollars a day if their operations stop. For example, if a flood destroys a data center, all of our customer information might be lost forever. That is why we back up all our critical data on cloud servers located in different geographical regions. Furthermore, we train our employees on emergency protocols so they know exactly what to do. If a hurricane approaches our headquarters, we will instantly transition everyone to remote work. Companies that fail to prepare for extreme weather are taking a massive financial risk. Business continuity planning is no longer optional; it is a fundamental requirement.", 
-                    jpn: "企業の観点から見ると、ビジネスは強固な災害復旧計画を持たなければなりません。自然災害がインフラにダメージを与え、業務が停止した場合、企業は1日に何百万ドルも失う可能性があります。例えば、もし洪水がデータセンターを破壊したら、私たちの顧客情報はすべて永遠に失われるかもしれません。だからこそ、私たちはすべての重要なデータを、地理的に異なる地域にあるクラウドサーバーにバックアップしているのです。さらに、私たちは従業員が正確に何をすべきかを知るように、緊急時のプロトコルについて訓練しています。もしハリケーンが本社に接近すれば、私たちは即座に全員をリモートワークに移行させます。異常気象への備えを怠る企業は、大規模な財政的リスクを冒しているのです。事業継続計画はもはやオプションではなく、基本的な要件なのです。" 
+                {
+                    name: "Person 2",
+                    eng: "From a corporate perspective, businesses must have a robust disaster recovery plan. When a natural disaster damages infrastructure, companies can lose millions of dollars a day if their operations stop. For example, if a flood destroys a data center, all of our customer information might be lost forever. That is why we back up all our critical data on cloud servers located in different geographical regions. Furthermore, we train our employees on emergency protocols so they know exactly what to do. If a hurricane approaches our headquarters, we will instantly transition everyone to remote work. Companies that fail to prepare for extreme weather are taking a massive financial risk. Business continuity planning is no longer optional; it is a fundamental requirement.",
+                    jpn: "企業の観点から見ると、ビジネスは強固な災害復旧計画を持たなければなりません。自然災害がインフラにダメージを与え、業務が停止した場合、企業は1日に何百万ドルも失う可能性があります。例えば、もし洪水がデータセンターを破壊したら、私たちの顧客情報はすべて永遠に失われるかもしれません。だからこそ、私たちはすべての重要なデータを、地理的に異なる地域にあるクラウドサーバーにバックアップしているのです。さらに、私たちは従業員が正確に何をすべきかを知るように、緊急時のプロトコルについて訓練しています。もしハリケーンが本社に接近すれば、私たちは即座に全員をリモートワークに移行させます。異常気象への備えを怠る企業は、大規模な財政的リスクを冒しているのです。事業継続計画はもはやオプションではなく、基本的な要件なのです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "While personal and corporate preparation is necessary, we must also focus on updating our public infrastructure to handle extreme weather. Many of our cities were built decades ago and were not designed to survive the intense heatwaves and massive floods we are seeing today. For instance, urban areas need better drainage systems to prevent severe flooding during heavy rains. We also need to plant more trees in cities to reduce the 'urban heat island' effect during summer. If we do not invest in our public infrastructure now, future natural disasters will cause unimaginable damage. It requires a lot of tax money, but upgrading our power grids and reinforcing bridges is the only way to protect our communities in the long term.", 
-                    jpn: "個人や企業の準備は必要ですが、私たちはまた、異常気象に対処するために公共インフラを更新することにも焦点を当てなければなりません。私たちの都市の多くは何十年も前に建設されており、私たちが今日目の当たりにしている強烈な熱波や大規模な洪水を生き延びるようには設計されていません。例えば、都市部では大雨の際の深刻な洪水を防ぐために、より良い排水システムが必要です。また、夏場の「ヒートアイランド」現象を軽減するために、都市にもっと多くの木を植える必要もあります。もし私たちが今、公共インフラに投資しなければ、将来の自然災害は想像を絶する被害をもたらすでしょう。多額の税金が必要ですが、電力網のアップグレードや橋の補強は、長期的に私たちのコミュニティを守る唯一の方法なのです。" 
+                {
+                    name: "Person 3",
+                    eng: "While personal and corporate preparation is necessary, we must also focus on updating our public infrastructure to handle extreme weather. Many of our cities were built decades ago and were not designed to survive the intense heatwaves and massive floods we are seeing today. For instance, urban areas need better drainage systems to prevent severe flooding during heavy rains. We also need to plant more trees in cities to reduce the 'urban heat island' effect during summer. If we do not invest in our public infrastructure now, future natural disasters will cause unimaginable damage. It requires a lot of tax money, but upgrading our power grids and reinforcing bridges is the only way to protect our communities in the long term.",
+                    jpn: "個人や企業の準備は必要ですが、私たちはまた、異常気象に対処するために公共インフラを更新することにも焦点を当てなければなりません。私たちの都市の多くは何十年も前に建設されており、私たちが今日目の当たりにしている強烈な熱波や大規模な洪水を生き延びるようには設計されていません。例えば、都市部では大雨の際の深刻な洪水を防ぐために、より良い排水システムが必要です。また、夏場の「ヒートアイランド」現象を軽減するために、都市にもっと多くの木を植える必要もあります。もし私たちが今、公共インフラに投資しなければ、将来の自然災害は想像を絶する被害をもたらすでしょう。多額の税金が必要ですが、電力網のアップグレードや橋の補強は、長期的に私たちのコミュニティを守る唯一の方法なのです。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Personal Preparedness 📖", themeJpn: "個人の備え", sub: [{eng: "Emergency kits", jpn: "防災キット"}, {eng: "Evacuation routes", jpn: "避難ルート"}, {eng: "Family communication", jpn: "家族のコミュニケーション"}] },
-            { theme: "Corporate Continuity 📖", themeJpn: "企業の継続性", sub: [{eng: "Disaster recovery plans", jpn: "災害復旧計画"}, {eng: "Data backups", jpn: "データのバックアップ"}, {eng: "Remote work transition", jpn: "リモートワークへの移行"}] },
-            { theme: "Public Infrastructure 📖", themeJpn: "公共インフラ", sub: [{eng: "Drainage systems", jpn: "排水システム"}, {eng: "Power grids", jpn: "電力網"}, {eng: "Urban heat islands", jpn: "ヒートアイランド現象"}] },
-            { theme: "Extreme Weather 📖", themeJpn: "異常気象", sub: [{eng: "Heatwaves", jpn: "熱波"}, {eng: "Floods and storms", jpn: "洪水と嵐"}, {eng: "Earthquakes", jpn: "地震"}] },
-            { theme: "Government Role 📖", themeJpn: "政府の役割", sub: [{eng: "Tax investments", jpn: "税金による投資"}, {eng: "Rescue operations", jpn: "救助活動"}, {eng: "Warning systems", jpn: "警報システム"}] },
-            { theme: "Financial Risk 📖", themeJpn: "財政的リスク", sub: [{eng: "Business closure", jpn: "ビジネスの閉鎖"}, {eng: "Property damage", jpn: "財産の損害"}, {eng: "Insurance costs", jpn: "保険のコスト"}] }
+            { theme: "Personal Preparedness 📖", themeJpn: "個人の備え", sub: [{ eng: "Emergency kits", jpn: "防災キット" }, { eng: "Evacuation routes", jpn: "避難ルート" }, { eng: "Family communication", jpn: "家族のコミュニケーション" }] },
+            { theme: "Corporate Continuity 📖", themeJpn: "企業の継続性", sub: [{ eng: "Disaster recovery plans", jpn: "災害復旧計画" }, { eng: "Data backups", jpn: "データのバックアップ" }, { eng: "Remote work transition", jpn: "リモートワークへの移行" }] },
+            { theme: "Public Infrastructure 📖", themeJpn: "公共インフラ", sub: [{ eng: "Drainage systems", jpn: "排水システム" }, { eng: "Power grids", jpn: "電力網" }, { eng: "Urban heat islands", jpn: "ヒートアイランド現象" }] },
+            { theme: "Extreme Weather 📖", themeJpn: "異常気象", sub: [{ eng: "Heatwaves", jpn: "熱波" }, { eng: "Floods and storms", jpn: "洪水と嵐" }, { eng: "Earthquakes", jpn: "地震" }] },
+            { theme: "Government Role 📖", themeJpn: "政府の役割", sub: [{ eng: "Tax investments", jpn: "税金による投資" }, { eng: "Rescue operations", jpn: "救助活動" }, { eng: "Warning systems", jpn: "警報システム" }] },
+            { theme: "Financial Risk 📖", themeJpn: "財政的リスク", sub: [{ eng: "Business closure", jpn: "ビジネスの閉鎖" }, { eng: "Property damage", jpn: "財産の損害" }, { eng: "Insurance costs", jpn: "保険のコスト" }] }
         ],
         questions: [
             { eng: "1. Do you currently have an emergency kit prepared in your home?", jpn: "1. 現在、あなたの家には防災キットが用意されていますか？" },
@@ -3732,20 +3923,31 @@ const b1Curriculum = [
                 { eng: "Break out", jpn: "発生する", exEng: "Fires often break out after large earthquakes.", exJpn: "大地震の後はしばしば火災が発生します。" },
                 { eng: "Run out of", jpn: "〜を使い果たす", exEng: "If we don't plan, we will run out of food.", exJpn: "計画しなければ、私たちは食料を使い果たしてしまうでしょう。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Conditional likelihood (If + present, subject + modal) - 4 sentences
+                { prompt: "もし嵐が来れば、間違いなく停電するでしょう。", target: "If a storm hits, we will definitely lose power.", words: ["If", "a", "storm", "hits,", "we", "will", "definitely", "lose", "power."] },
+                { prompt: "今準備しておけば、ビジネスを救うことができるかもしれません。", target: "If you prepare now, you might save your business.", words: ["If", "you", "prepare", "now,", "you", "might", "save", "your", "business."] },
+                { prompt: "熱波が続けば、おそらく電力使用量が増えるでしょう。", target: "If the heatwave continues, power use will probably rise.", words: ["If", "the", "heatwave", "continues,", "power", "use", "will", "probably", "rise."] },
+                { prompt: "防災キットがあれば、間違いなくより安心できます。", target: "If you have an emergency kit, you will definitely feel safer.", words: ["If", "you", "have", "an", "emergency", "kit,", "you", "will", "definitely", "feel", "safer."] },
+                // Grammar Point 2: Conditional obligation (If + present, subject + have to/need to) - 4 sentences
+                { prompt: "もし洪水が悪化すれば、私たちは避難しなければならないでしょう。", target: "If the flood gets worse, we will have to evacuate.", words: ["If", "the", "flood", "gets", "worse,", "we", "will", "have", "to", "evacuate."] },
+                { prompt: "もしサーバーがクラッシュすれば、IT部門はバックアップを復元する必要があります。", target: "If servers crash, IT will need to restore backups.", words: ["If", "servers", "crash,", "IT", "will", "need", "to", "restore", "backups."] },
+                { prompt: "ハリケーンが接近したら、会社はリモートワークに切り替える必要があります。", target: "If a hurricane approaches, we will need to work remotely.", words: ["If", "a", "hurricane", "approaches,", "we", "will", "need", "to", "work", "remotely."] },
+                { prompt: "道路が危険になったら、運転手は待たなければなりません。", target: "If roads become unsafe, drivers will have to wait.", words: ["If", "roads", "become", "unsafe,", "drivers", "will", "have", "to", "wait."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 1 - Preparedness Reviews)",
+                instruction: "Read these reviews from a community workshop on extreme weather preparedness. Notice conditional likelihood and obligation.",
+                eng: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Practical Emergency Kit &amp; Home Plan</strong></div><span class='er-author'>By: Kenji H. | Coastal Resident</span></div><p style='margin:0;'>Living near the coast means typhoons and heavy rain are a real risk. Because of this, our family keeps water, food, a flashlight, and a first-aid kit ready. If a major storm hits and cuts electricity, we will definitely have supplies for three days. We also checked our evacuation route so everyone knows what to do. Without a doubt, planning ahead lowers stress when a warning comes out.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>Good Business Continuity Tips for Small Teams</strong></div><span class='er-author'>By: Nao S. | Operations Lead</span></div><p style='margin:0;'>This workshop helped our small office review our disaster recovery plan. If a flood or blackout blocks our office, our team will need to work from home and back up files in the cloud. Furthermore, cities need better drainage and more trees to handle heatwaves. If we upgrade infrastructure and prepare early, our community will probably recover much faster.</p></div></div>",
+                jpn: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>実践的な防災キットと家庭の計画</strong></div><span class='er-author'>投稿者：ケンジ・H | 沿岸部住民</span></div><p style='margin:0;'>沿岸部の近くに住んでいるため、台風や大雨は現実のリスクです。このために、我が家では水、食料、懐中電灯、救急箱を常に用意しています。もし大きな嵐が来て停電しても、間違いなく3日分の物資があります。全員がやるべきことを分かるよう、避難ルートも確認しました。間違いなく、警報が出たときに前もって計画しておくことでストレスが減ります。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>小規模チーム向けの良い事業継続のヒント</strong></div><span class='er-author'>投稿者：ナオ・S | オペレーション責任者</span></div><p style='margin:0;'>このワークショップは、私たちの小さなオフィスが災害復旧計画を見直すのに役立ちました。もし洪水や大停電でオフィスに行けなくなったら、チームは在宅勤務をする必要があり、クラウドにファイルをバックアップします。さらに、都市は熱波に対処するためにより良い排水設備ともっと多くの木々を必要としています。インフラをアップグレードし早めに備えれば、私たちの地域はおそらくずっと早く回復できるでしょう。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: What should a business do to prepare for a natural disaster? Use 'If... will have to' and adverbs of likelihood (definitely, probably).",
                 promptJpn: "「自然災害に備えるために、ビジネスは何をすべきですか？『If... will have to』と可能性を表す副詞（definitely, probably）を使って答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Building Resilience Against Extreme Weather)",
-                instruction: "Read this authentic text about preparing infrastructure and communities for extreme weather.",
-                eng: "As extreme weather events—such as catastrophic floods, devastating hurricanes, and prolonged heatwaves—become more frequent and intense, the concept of 'resilience' has become a central focus for both urban planners and corporate leaders. Resilience refers to the ability of a community or a business to withstand a severe shock and recover quickly. In the past, disaster management was mostly reactive; emergency services responded only after a tragedy occurred. Today, experts agree that we must be proactive. If we do not invest heavily in preventative measures now, the future financial and human costs will definitely be incalculable.\n\nAt the corporate level, resilience means having a flawless Business Continuity Plan (BCP). Companies can no longer afford to store all their physical assets and digital data in a single location. If a major storm hits their headquarters, they will have to halt operations immediately, leading to a massive loss of revenue and customer trust. To prevent this, modern businesses utilize decentralized cloud networks to back up their data and train their employees to transition smoothly to remote work during emergencies. By anticipating the worst-case scenarios, resilient companies ensure that they can continue serving their clients even when local infrastructure fails.\n\nOn a public level, cities must upgrade their aging infrastructure. Urban areas that suffer from the 'heat island' effect are planting thousands of trees and installing reflective roofs to lower temperatures naturally. Coastal cities are building stronger sea walls and upgrading drainage systems to manage sudden, massive downpours. Ultimately, achieving true resilience requires a cooperative effort. Individuals must stock up on emergency supplies, corporations must secure their operations, and governments must redesign our cities. Only by working together can we build a society capable of surviving the unpredictable climate of the future.",
-                jpn: "壊滅的な洪水、破壊的なハリケーン、長期にわたる熱波などの異常気象がより頻繁かつ激しくなるにつれ、「レジリエンス（回復力・強靭性）」という概念が、都市計画者と企業リーダー双方の中心的な焦点となっています。レジリエンスとは、コミュニティや企業が深刻なショックに耐え、迅速に回復する能力を指します。過去には、災害管理は主に事後対応的であり、緊急サービスは悲劇が起こった後にのみ対応していました。今日、専門家たちは私たちが先回りして（プロアクティブに）行動しなければならないことに同意しています。もし私たちが今、予防策に多額の投資をしなければ、将来の財政的および人的コストは間違いなく計り知れないものになるでしょう。\n\n企業レベルでは、レジリエンスとは完璧な事業継続計画（BCP）を持つことを意味します。企業はもはや、すべての物理的資産とデジタルデータを単一の場所に保管する余裕はありません。もし巨大な嵐が本社を直撃すれば、彼らは直ちに業務を停止しなければならず、収益と顧客の信頼の甚大な喪失につながります。これを防ぐため、現代の企業は分散型のクラウドネットワークを利用してデータをバックアップし、緊急時に従業員がスムーズにリモートワークに移行できるように訓練しています。最悪のシナリオを予測することで、レジリエンスのある企業は、現地のインフラが機能しなくなったときでもクライアントにサービスを提供し続けられることを保証するのです。\n\n公共レベルでは、都市は老朽化したインフラをアップグレードしなければなりません。「ヒートアイランド」現象に苦しむ都市部では、自然に気温を下げるために何千本もの木を植え、反射性のある屋根を設置しています。沿岸都市は、より強固な防潮堤を建設し、突然の大規模な土砂降りを管理するために排水システムをアップグレードしています。最終的に、真のレジリエンスを達成するには協力的な努力が必要です。個人は非常用品を買いだめし、企業は業務を保護し、政府は私たちの都市を再設計しなければなりません。協力することによってのみ、私たちは予測不可能な未来の気候を生き延びることができる社会を構築できるのです。"
             }
         }
     },
-
-{
+    {
         id: 32,
         chapter: "Chapter 5: Weather & Climate",
         type: "transactional",
@@ -3794,46 +3996,38 @@ const b1Curriculum = [
             { eng: "Thank + Close the call", jpn: "感謝する ＋ 電話を終える", indent: true }
         ],
         expressions: [
-            { category: "1. Asking for an update (最新情報を尋ねる)", options: ["I am calling to ask for an update.", "Could you give me a status report?", "How is the delivery progressing?"] },           
-            { category: "2. Reporting a delay (遅延を報告する)", options: ["Unfortunately, we are experiencing a massive delay.", "We are currently stuck in traffic.", "I am afraid we are running late."] }, 
-            { category: "3. Explaining weather issues (天候の問題を説明する)", options: ["The heavy snow has blocked the highway.", "A severe storm grounded our flight.", "The heavy rain flooded the main road."] },
-            { category: "4. Expressing duration (期間を表現する)", options: ["I have been waiting in my truck since 7 AM.", "We have been sitting here all morning.", "It has been raining since yesterday."] },
-            { category: "5. Expecting ongoing actions (進行中の行動を期待する)", options: ["The traffic should be moving soon.", "The weather ought to be clearing up now.", "The trains should be running again shortly."] },
-            { category: "6. Expressing safety concern (安全への配慮を表現する)", options: ["Stay safe out there.", "Please don't take any risks.", "Take your time and drive carefully."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Modals: Expectations for an ongoing action in the future (should be + ing)",
-                explanation: "When using the future progressive tense, we can change 'will' to 'should' or 'ought to' to express expectations for what other people are doing now or will be doing soon.",
-                explanationJpn: "未来進行形を使用する際、「will」を「should」または「ought to」に変更して、他の人が今していること、またはもうすぐするであろうことへの期待を表現できます。",
-                examples: [
-                    { eng: "The traffic should be moving soon.", jpn: "交通はまもなく動き始めるはずです。" },
-                    { eng: "The storm should be passing by this afternoon.", jpn: "嵐は今日の午後には通り過ぎているはずです。" }
+                category: "1. Reporting a delay (遅延を報告する)",
+                options: [
+                    { eng: "Unfortunately, we are experiencing a massive delay.", jpn: "残念ながら、私たちは大規模な遅延を経験しています。" },
+                    { eng: "We are currently stuck in traffic.", jpn: "私たちは現在、渋滞にはまっています。" },
+                    { eng: "I am afraid we are running late.", jpn: "申し訳ありませんが、遅れています。" }
                 ]
             },
             {
-                point: "2. Adverbs: Expressing how long things happen (duration)",
-                explanation: "We can use adverbs of time to express how long something happens for. We can use 'since' to mark the starting point of an action that continues into the present, usually with the present perfect progressive tense.",
-                explanationJpn: "時間の副詞を使って、物事がどれくらい長く続くかを表現できます。現在完了進行形と一緒に「since」を使用して、現在まで続く行動の開始点を示すことができます。",
-                examples: [
-                    { eng: "I have been waiting here since 7 AM.", jpn: "私は午前7時からずっとここで待っています。" },
-                    { eng: "It has been snowing all morning.", jpn: "午前中ずっと雪が降っています。" }
+                category: "2. Explaining weather issues (天候の問題を説明する)",
+                options: [
+                    { eng: "The heavy snow has blocked the highway.", jpn: "大雪で高速道路が封鎖されています。" },
+                    { eng: "A severe storm grounded our flight.", jpn: "激しい嵐で私たちのフライトが地上待機になりました。" },
+                    { eng: "The heavy rain flooded the main road.", jpn: "大雨で主要道路が冠水しました。" }
+                ]
+            },
+            {
+                category: "3. Expecting ongoing actions (進行中の行動を期待する)",
+                options: [
+                    { eng: "The traffic should be moving soon.", jpn: "交通はまもなく動き始めるはずです。" },
+                    { eng: "The weather ought to be clearing up now.", jpn: "天気は今回復し始めているはずです。" },
+                    { eng: "The trains should be running again shortly.", jpn: "電車はまもなく再び運行するはずです。" }
+                ]
+            },
+            {
+                category: "4. Monitoring & safety (監視と安全)",
+                options: [
+                    { eng: "I will keep monitoring the forecast and update you.", jpn: "天気予報を監視し続け、最新情報をお伝えします。" },
+                    { eng: "Stay safe out there.", jpn: "安全に気をつけてください。" },
+                    { eng: "Take your time and drive carefully.", jpn: "ゆっくり来てください、慎重に運転してください。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "交通はまもなく動き始めるはずです。", target: "The traffic should be moving soon.", words: ["The", "traffic", "should", "be", "moving", "soon."] },
-            { prompt: "私は午前7時から待機しています。", target: "I have been waiting since 7 AM.", words: ["I", "have", "been", "waiting", "since", "7", "AM."] },
-            { prompt: "私たちは大規模な遅延を経験しています。", target: "We are experiencing a massive delay.", words: ["We", "are", "experiencing", "a", "massive", "delay."] },
-            { prompt: "大雪が高速道路を封鎖しています。", target: "The heavy snow has blocked the highway.", words: ["The", "heavy", "snow", "has", "blocked", "the", "highway."] },
-            { prompt: "天気は今回復し始めているはずです。", target: "The weather should be clearing up now.", words: ["The", "weather", "should", "be", "clearing", "up", "now."] }
-        ],
-        dropdownGames: [
-            { before: "The delivery trucks", options: ["should be arriving", "must only arrive", "were supposed to"], answer: "should be arriving", after: " any minute now." },
-            { before: "We have been waiting here", options: ["for", "since", "all"], answer: "since", after: " yesterday evening." },
-            { before: "Unfortunately, we are", options: ["running", "run", "ran"], answer: "running", after: " late due to the storm." },
-            { before: "Please keep", options: ["monitor", "monitoring", "monitored"], answer: "monitoring", after: " the weather forecast." },
-            { before: "The storm ought to be", options: ["pass", "passing", "passed"], answer: "passing", after: " over the city tonight." }
         ],
         roleplay: {
             a: "You are a delivery driver. Call your manager to report that you are stuck in traffic due to a flood. Use 'since' to explain how long you have waited, and 'should be -ing' to guess when you will move. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは配達ドライバーです。マネージャーに電話して、洪水のために渋滞にはまっていると報告してください。「since」を使ってどれくらい待っているかを説明し、「should be -ing」を使っていつ動けそうか予想してください。)</span>",
@@ -3860,15 +4054,27 @@ const b1Curriculum = [
                 { eng: "Catch up", jpn: "遅れを取り戻す", exEng: "We have to work late to catch up on delayed orders.", exJpn: "遅れた注文を取り戻すために遅くまで働かなければなりません。" },
                 { eng: "Point out", jpn: "指摘する", exEng: "He pointed out that the northern route was safer.", exJpn: "彼は北のルートの方が安全だと指摘しました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Expectations for ongoing action in future (should be + ing) - 4 sentences
+                { prompt: "交通はまもなく動き始めるはずです。", target: "The traffic should be moving soon.", words: ["The", "traffic", "should", "be", "moving", "soon."] },
+                { prompt: "天気は今回復し始めているはずです。", target: "The weather should be clearing up now.", words: ["The", "weather", "should", "be", "clearing", "up", "now."] },
+                { prompt: "嵐は今日の午後には通り過ぎているはずです。", target: "The storm should be passing by this afternoon.", words: ["The", "storm", "should", "be", "passing", "by", "this", "afternoon."] },
+                { prompt: "配達トラックはまもなく到着するはずです。", target: "The delivery trucks should be arriving soon.", words: ["The", "delivery", "trucks", "should", "be", "arriving", "soon."] },
+                // Grammar Point 2: Duration with 'since' - 4 sentences
+                { prompt: "私は午前7時から待機しています。", target: "I have been waiting since 7 AM.", words: ["I", "have", "been", "waiting", "since", "7", "AM."] },
+                { prompt: "昨日からずっと雨が降っています。", target: "It has been raining since yesterday.", words: ["It", "has", "been", "raining", "since", "yesterday."] },
+                { prompt: "私たちは朝早くから天気予報を監視し続けています。", target: "We have been monitoring the forecast since early morning.", words: ["We", "have", "been", "monitoring", "the", "forecast", "since", "early", "morning."] },
+                { prompt: "彼らは大雪のせいで午前中ずっと遅れています。", target: "They have been running late since morning due to snow.", words: ["They", "have", "been", "running", "late", "since", "morning", "due", "to", "snow."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 2 - Logistics Dispatch Forum)",
+                instruction: "Read this dispatch forum thread where coordinators report weather delays and schedule updates. Notice 'should be -ing' and 'since'.",
+                eng: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>Dispatch_Rina asks:</strong><br>Morning team—heavy snow blocked the main highway and ground alerts are active at the regional airport. Several morning shipments are running late. How should we update clients right now?</div><div class='er-forum-a'>💬 <strong>Reply by Driver_Tom:</strong><br>I have been waiting near the north exit since 7 AM, and the snowplows just started clearing the lane. Traffic should be moving soon, so I will update you when we roll.</div><div class='er-forum-a'>💬 <strong>Reply by Ops_Ken:</strong><br>Thanks, Tom. Let's re-route the southern van if needed, keep monitoring the forecast, and tell clients honestly when we will resume operations. Stay safe out there and do not rush on icy roads.</div></div>",
+                jpn: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>Dispatch_Rinaの質問：</strong><br>チームの皆さん、おはようございます。大雪で主要高速道路が封鎖され、地域の空港にも地上警報が出ています。午前の積み荷のいくつかが遅れています。今すぐクライアントにどのように連絡・更新すべきでしょうか？</div><div class='er-forum-a'>💬 <strong>Driver_Tomの返信：</strong><br>私は午前7時から北出口付近で待機していて、除雪車が車線の除雪を始めたところです。交通はまもなく動き始めるはずなので、動き出したら連絡します。</div><div class='er-forum-a'>💬 <strong>Ops_Kenの返信：</strong><br>ありがとう、トム。必要なら南側のバンのルートを変更し、天気予報を監視し続け、いつ業務を再開できるかクライアントに正直に伝えましょう。安全に気をつけて、凍結した道路では急がないでください。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short email to your client explaining that their delivery is delayed due to weather. Use 'should be -ing' and 'since'.",
                 promptJpn: "「天候のため配達が遅れていることをクライアントに説明する短いメールを書いてください。『should be -ing』と『since』を使用してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Logistics and Weather Disruptions)",
-                instruction: "Read this text about how supply chains manage unpredictable weather.",
-                eng: "In the global logistics industry, time is money, and weather is the ultimate unpredictable variable. A single severe snowstorm or unexpected flood can cause a massive chain reaction of delays. When highways are blocked or airports ground all flights, truck drivers and pilots often find themselves stuck, completely unable to deliver goods. These delays cost shipping companies millions of dollars in lost productivity and result in furious customers who are waiting for important packages.\n\nTo minimize these losses, modern supply chain managers rely heavily on advanced meteorological data. By continuously monitoring the forecast, logisticians can proactively re-route shipments before a storm hits. For example, if a hurricane is approaching the east coast, a manager might redirect cargo ships to a southern port to avoid the danger entirely. However, when a sudden delay is unavoidable, clear communication becomes the highest priority. A driver stuck in a blizzard must quickly report their status to headquarters. Using phrases like, 'I have been waiting here since 6 AM, but the traffic should be moving soon,' provides management with accurate data to update the client.\n\nTransparency is the best policy when dealing with angry customers. A logistics company should never hide a weather delay. Instead, they must proactively inform the client, explain the safety concerns, and provide a realistic estimated time of arrival (ETA). By demonstrating that employee safety comes first while simultaneously working hard to resolve the delay, shipping companies can maintain trust and professionalism even during the worst storms.",
-                jpn: "グローバルな物流業界において、時間は金であり、天気は究極の予測不可能な変数です。たった一度の激しい吹雪や予期せぬ洪水が、大規模な遅延の連鎖反応を引き起こす可能性があります。高速道路が封鎖されたり、空港がすべてのフライトを地上待機させたりすると、トラックの運転手やパイロットはしばしば立ち往生し、商品を届けることが完全にできなくなります。これらの遅延は、生産性の低下として運送会社に何百万ドルものコストをかけさせ、重要な荷物を待っている激怒した顧客を生み出します。\n\nこれらの損失を最小限に抑えるため、現代のサプライチェーンマネージャーは高度な気象データに大きく依存しています。天気予報を継続的に監視することで、物流担当者は嵐が来る前に積極的に積み荷のルートを変更することができます。例えば、ハリケーンが東海岸に接近している場合、マネージャーは危険を完全に回避するために貨物船を南部の港へ迂回させるかもしれません。しかし、突然の遅延が避けられない場合、明確なコミュニケーションが最優先事項となります。吹雪で立ち往生している運転手は、自分の状況を迅速に本部に報告しなければなりません。「私は午前6時からここで待機していますが、交通はまもなく動き始めるはずです」といったフレーズを使用することで、マネージャーはクライアントに最新情報を伝えるための正確なデータを得ることができます。\n\n怒っている顧客に対処する際、透明性は最良のポリシーです。物流会社は天候による遅延を決して隠すべきではありません。代わりに、彼らは積極的にクライアントに知らせ、安全上の懸念を説明し、現実的な到着予定時刻（ETA）を提供しなければなりません。従業員の安全が第一であることを示しつつ、同時に遅延を解決するために一生懸命取り組むことで、運送会社は最悪の嵐の間でさえ信頼とプロ意識を維持することができるのです。"
             }
         }
     },
@@ -3882,30 +4088,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "Living an eco-friendly lifestyle starts at home. Many people think that saving the environment requires massive sacrifices, but simple daily habits can make a huge difference. For example, I always turn off the lights when I leave a room, and I try to take shorter showers to conserve water. Recycling is also a basic yet powerful habit. Instead of throwing everything away, we separate paper, plastic, and glass. Moreover, reducing our consumption of single-use plastics, like shopping bags and straws, helps keep our oceans clean. I want to buy something sustainable whenever I shop for household items. I truly believe that if everyone adopts these small, environmentally conscious routines, we can drastically reduce our collective carbon footprint and protect nature.", 
-                    jpn: "環境に優しいライフスタイルを送ることは、家庭から始まります。環境を守るには大きな犠牲が必要だと考える人は多いですが、日々のシンプルな習慣が大きな違いを生み出すことができます。例えば、私は部屋を出るときは必ず電気を消し、節水のためにシャワーを短くするようにしています。リサイクルも基本的ですが強力な習慣です。すべてを捨てるのではなく、紙、プラスチック、ガラスを分別します。さらに、買い物袋やストローのような使い捨てプラスチックの消費を減らすことは、海をきれいにするのに役立ちます。私は日用品を買うときはいつでも、何か持続可能なものを買いたいと思っています。もし全員がこれらの小さな環境を意識したルーティンを取り入れれば、私たち全体の二酸化炭素排出量を劇的に減らし、自然を保護できると私は心から信じています。" 
+                {
+                    name: "Person 1",
+                    eng: "Living an eco-friendly lifestyle starts at home. Many people think that saving the environment requires massive sacrifices, but simple daily habits can make a huge difference. For example, I always turn off the lights when I leave a room, and I try to take shorter showers to conserve water. Recycling is also a basic yet powerful habit. Instead of throwing everything away, we separate paper, plastic, and glass. Moreover, reducing our consumption of single-use plastics, like shopping bags and straws, helps keep our oceans clean. I want to buy something sustainable whenever I shop for household items. I truly believe that if everyone adopts these small, environmentally conscious routines, we can drastically reduce our collective carbon footprint and protect nature.",
+                    jpn: "環境に優しいライフスタイルを送ることは、家庭から始まります。環境を守るには大きな犠牲が必要だと考える人は多いですが、日々のシンプルな習慣が大きな違いを生み出すことができます。例えば、私は部屋を出るときは必ず電気を消し、節水のためにシャワーを短くするようにしています。リサイクルも基本的ですが強力な習慣です。すべてを捨てるのではなく、紙、プラスチック、ガラスを分別します。さらに、買い物袋やストローのような使い捨てプラスチックの消費を減らすことは、海をきれいにするのに役立ちます。私は日用品を買うときはいつでも、何か持続可能なものを買いたいと思っています。もし全員がこれらの小さな環境を意識したルーティンを取り入れれば、私たち全体の二酸化炭素排出量を劇的に減らし、自然を保護できると私は心から信じています。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "I try to focus on sustainable consumption, specifically regarding food and fashion. The 'fast fashion' industry is incredibly harmful to the planet because it encourages people to buy cheap clothes and throw them away quickly. I usually prefer to buy high-quality, durable clothing, or I shop at second-hand stores. It is a fantastic way to recycle. Additionally, eating locally sourced food reduces the pollution caused by transporting goods across the globe. Some people in my office even participate in 'Meatless Mondays' to lower their environmental impact, since meat production requires massive amounts of water and land. We all need to be mindful of where our products come from. I think everyone responsible for buying goods should research the ethical practices of the brands they support.", 
-                    jpn: "私は持続可能な消費、特に食とファッションに関して焦点を当てるようにしています。「ファストファッション」業界は、人々に安い服を買ってすぐに捨てることを推奨するため、地球にとって信じられないほど有害です。私はたいてい、高品質で耐久性のある服を買うのを好むか、古着屋で買い物をします。それは素晴らしいリサイクルの方法です。さらに、地元で採れた食べ物を食べることは、世界中で商品を輸送することによって引き起こされる汚染を減らします。食肉生産には大量の水と土地が必要なため、私のオフィスの何人かの人は、環境への影響を下げるために「ミートレス・マンデー（肉を食べない月曜日）」に参加さえしています。私たちは皆、自分たちの製品がどこから来るのかに気を配る必要があります。商品を購入する責任があるすべての人は、自分が支持するブランドの倫理的な慣行について調査すべきだと思います。" 
+                {
+                    name: "Person 2",
+                    eng: "I try to focus on sustainable consumption, specifically regarding food and fashion. The 'fast fashion' industry is incredibly harmful to the planet because it encourages people to buy cheap clothes and throw them away quickly. I usually prefer to buy high-quality, durable clothing, or I shop at second-hand stores. It is a fantastic way to recycle. Additionally, eating locally sourced food reduces the pollution caused by transporting goods across the globe. Some people in my office even participate in 'Meatless Mondays' to lower their environmental impact, since meat production requires massive amounts of water and land. We all need to be mindful of where our products come from. I think everyone responsible for buying goods should research the ethical practices of the brands they support.",
+                    jpn: "私は持続可能な消費、特に食とファッションに関して焦点を当てるようにしています。「ファストファッション」業界は、人々に安い服を買ってすぐに捨てることを推奨するため、地球にとって信じられないほど有害です。私はたいてい、高品質で耐久性のある服を買うのを好むか、古着屋で買い物をします。それは素晴らしいリサイクルの方法です。さらに、地元で採れた食べ物を食べることは、世界中で商品を輸送することによって引き起こされる汚染を減らします。食肉生産には大量の水と土地が必要なため、私のオフィスの何人かの人は、環境への影響を下げるために「ミートレス・マンデー（肉を食べない月曜日）」に参加さえしています。私たちは皆、自分たちの製品がどこから来るのかに気を配る必要があります。商品を購入する責任があるすべての人は、自分が支持するブランドの倫理的な慣行について調査すべきだと思います。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "While personal choices are important, government regulations are absolutely necessary to force large-scale environmental changes. Corporations often prioritize profits over the planet. Without strict laws, factories will continue to dump toxic waste, and energy companies will keep burning fossil fuels. We need governments to invest heavily in green public infrastructure, like efficient electric trains and extensive cycling paths, so people can travel somewhere safe without relying on cars. Furthermore, introducing a 'carbon tax' would penalize massive polluters and encourage them to adopt cleaner technologies. As citizens, we have a duty to vote for leaders who prioritize climate action. Changing a lightbulb is good, but holding powerful corporations accountable is how we will truly save the global ecosystem.", 
-                    jpn: "個人的な選択も重要ですが、大規模な環境変化を強制するには政府の規制が絶対に必要です。企業はしばしば地球よりも利益を優先します。厳しい法律がなければ、工場は有毒廃棄物を投棄し続け、エネルギー企業は化石燃料を燃やし続けるでしょう。人々が車に頼らずに安全な場所に移動できるように、効率的な電車や広範なサイクリングロードなどの環境に優しい公共インフラに政府が多額の投資をすることが必要です。さらに、「炭素税」を導入することは、大規模な汚染者を罰し、よりクリーンな技術の採用を促すことになります。市民として、私たちは気候変動対策を優先するリーダーに投票する義務があります。電球を替えることは良いことですが、強大な企業に責任を負わせることこそが、私たちが真に地球の生態系を救う方法なのです。" 
+                {
+                    name: "Person 3",
+                    eng: "While personal choices are important, government regulations are absolutely necessary to force large-scale environmental changes. Corporations often prioritize profits over the planet. Without strict laws, factories will continue to dump toxic waste, and energy companies will keep burning fossil fuels. We need governments to invest heavily in green public infrastructure, like efficient electric trains and extensive cycling paths, so people can travel somewhere safe without relying on cars. Furthermore, introducing a 'carbon tax' would penalize massive polluters and encourage them to adopt cleaner technologies. As citizens, we have a duty to vote for leaders who prioritize climate action. Changing a lightbulb is good, but holding powerful corporations accountable is how we will truly save the global ecosystem.",
+                    jpn: "個人的な選択も重要ですが、大規模な環境変化を強制するには政府の規制が絶対に必要です。企業はしばしば地球よりも利益を優先します。厳しい法律がなければ、工場は有毒廃棄物を投棄し続け、エネルギー企業は化石燃料を燃やし続けるでしょう。人々が車に頼らずに安全な場所に移動できるように、効率的な電車や広範なサイクリングロードなどの環境に優しい公共インフラに政府が多額の投資をすることが必要です。さらに、「炭素税」を導入することは、大規模な汚染者を罰し、よりクリーンな技術の採用を促すことになります。市民として、私たちは気候変動対策を優先するリーダーに投票する義務があります。電球を替えることは良いことですが、強大な企業に責任を負わせることこそが、私たちが真に地球の生態系を救う方法なのです。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Daily Habits 📖", themeJpn: "日々の習慣", sub: [{eng: "Saving water/electricity", jpn: "節水・節電"}, {eng: "Recycling", jpn: "リサイクル"}, {eng: "Single-use plastics", jpn: "使い捨てプラスチック"}] },
-            { theme: "Sustainable Fashion 📖", themeJpn: "持続可能なファッション", sub: [{eng: "Fast fashion", jpn: "ファストファッション"}, {eng: "Second-hand stores", jpn: "古着屋 / リサイクルショップ"}, {eng: "Durable clothing", jpn: "耐久性のある服"}] },
-            { theme: "Eco-friendly Diet 📖", themeJpn: "環境に優しい食事", sub: [{eng: "Local produce", jpn: "地元の農産物"}, {eng: "Meat consumption", jpn: "肉の消費"}, {eng: "Food waste", jpn: "食品ロス"}] },
-            { theme: "Government Regulations 📖", themeJpn: "政府の規制", sub: [{eng: "Carbon tax", jpn: "炭素税"}, {eng: "Corporate accountability", jpn: "企業の責任"}, {eng: "Green infrastructure", jpn: "環境に優しいインフラ"}] },
-            { theme: "Transportation 📖", themeJpn: "交通機関", sub: [{eng: "Public transit", jpn: "公共交通機関"}, {eng: "Cycling paths", jpn: "サイクリングロード"}, {eng: "Electric vehicles", jpn: "電気自動車"}] },
-            { theme: "Consumer Choices 📖", themeJpn: "消費者の選択", sub: [{eng: "Ethical brands", jpn: "倫理的なブランド"}, {eng: "Boycotts", jpn: "ボイコット / 不買運動"}, {eng: "Sustainable packaging", jpn: "持続可能なパッケージ"}] }
+            { theme: "Daily Habits 📖", themeJpn: "日々の習慣", sub: [{ eng: "Saving water/electricity", jpn: "節水・節電" }, { eng: "Recycling", jpn: "リサイクル" }, { eng: "Single-use plastics", jpn: "使い捨てプラスチック" }] },
+            { theme: "Sustainable Fashion 📖", themeJpn: "持続可能なファッション", sub: [{ eng: "Fast fashion", jpn: "ファストファッション" }, { eng: "Second-hand stores", jpn: "古着屋 / リサイクルショップ" }, { eng: "Durable clothing", jpn: "耐久性のある服" }] },
+            { theme: "Eco-friendly Diet 📖", themeJpn: "環境に優しい食事", sub: [{ eng: "Local produce", jpn: "地元の農産物" }, { eng: "Meat consumption", jpn: "肉の消費" }, { eng: "Food waste", jpn: "食品ロス" }] },
+            { theme: "Government Regulations 📖", themeJpn: "政府の規制", sub: [{ eng: "Carbon tax", jpn: "炭素税" }, { eng: "Corporate accountability", jpn: "企業の責任" }, { eng: "Green infrastructure", jpn: "環境に優しいインフラ" }] },
+            { theme: "Transportation 📖", themeJpn: "交通機関", sub: [{ eng: "Public transit", jpn: "公共交通機関" }, { eng: "Cycling paths", jpn: "サイクリングロード" }, { eng: "Electric vehicles", jpn: "電気自動車" }] },
+            { theme: "Consumer Choices 📖", themeJpn: "消費者の選択", sub: [{ eng: "Ethical brands", jpn: "倫理的なブランド" }, { eng: "Boycotts", jpn: "ボイコット / 不買運動" }, { eng: "Sustainable packaging", jpn: "持続可能なパッケージ" }] }
         ],
         questions: [
             { eng: "1. What is one simple eco-friendly habit you practice every day?", jpn: "1. あなたが毎日実践している、シンプルな環境に優しい習慣を1つ教えてください。" },
@@ -3982,15 +4188,27 @@ const b1Curriculum = [
                 { eng: "Give up", jpn: "諦める、やめる", exEng: "She gave up driving to work to reduce emissions.", exJpn: "彼女は排出量を減らすために車での通勤をやめました。" },
                 { eng: "Point out", jpn: "指摘する", exEng: "The scientist pointed out the dangers of global warming.", exJpn: "科学者は地球温暖化の危険性を指摘しました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Grouping things (everyone/something + adjective) - 4 sentences
+                { prompt: "私は何か持続可能なものを買いたいです。", target: "I want to buy something sustainable.", words: ["I", "want", "to", "buy", "something", "sustainable."] },
+                { prompt: "責任ある人は全員行動を起こすべきです。", target: "Everyone responsible should take action.", words: ["Everyone", "responsible", "should", "take", "action."] },
+                { prompt: "どこか安全な場所に行きましょう。", target: "Let's go somewhere safe.", words: ["Let's", "go", "somewhere", "safe."] },
+                { prompt: "使い捨ての何かを買うよりも、耐久性のあるものを選びましょう。", target: "Choose something durable instead of something disposable.", words: ["Choose", "something", "durable", "instead", "of", "something", "disposable."] },
+                // Grammar Point 2: Frequency adverbs (Front/Mid position) - 4 sentences
+                { prompt: "私はたいてい、高品質な服を買うことを好みます。", target: "I usually prefer to buy high-quality clothing.", words: ["I", "usually", "prefer", "to", "buy", "high-quality", "clothing."] },
+                { prompt: "しばしば、企業は地球よりも利益を優先します。", target: "Often, corporations prioritize profits over the planet.", words: ["Often,", "corporations", "prioritize", "profits", "over", "the", "planet."] },
+                { prompt: "私はたいてい、部屋を出るときに電気を消します。", target: "I usually turn off lights when leaving a room.", words: ["I", "usually", "turn", "off", "lights", "when", "leaving", "a", "room."] },
+                { prompt: "一般的に、地元の食材を使うと輸送の排出が減ります。", target: "Generally, local food cuts transport emissions.", words: ["Generally,", "local", "food", "cuts", "transport", "emissions."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 3 - Sustainability Blog)",
+                instruction: "Read this blog post on practical eco-friendly habits and policy changes. Notice indefinite pronouns + adjectives and frequency adverbs.",
+                eng: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>Simple Daily Habits vs. Big Climate Action</h3><span class='er-blog-meta'>By: Green Writer Hana | 📅 November 6</span><p>As a rule, people start living an eco-friendly lifestyle with small steps at home. I usually turn off unused lights, cut down on single-use plastics, and try to buy something durable rather than fast fashion. Often, shopping at second-hand stores or eating local food is an easy way to lower your carbon footprint without spending extra money.</p><p>Moreover, individual habits work best alongside strong rules. Everyone interested in cleaner air and renewable energy supports better public transit and safe cycling paths so people can travel somewhere green. Ultimately, cutting fossil fuels and holding companies accountable helps protect our climate for the future.</p></div>",
+                jpn: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>シンプルな日々の習慣対大きな気候アクション</h3><span class='er-blog-meta'>執筆者：グリーンライター ハナ | 📅 11月6日</span><p>原則として、人々は家庭での小さなステップから環境に優しいライフスタイルを始めます。私はたいてい使わない電気を消し、使い捨てプラスチックを減らし、ファストファッションではなく何か耐久性のあるものを買おうとします。しばしば、古着屋で買い物をしたり地元の食べ物を食べたりすることは、余分なお金をかけずに二酸化炭素排出量を減らす簡単な方法です。</p><p>さらに、個人の習慣は強力なルールと合わさることで最も効果を発揮します。よりきれいな空気や再生可能エネルギーに関心を持つすべての人が、環境に優しい場所へ移動できるよう、より良い公共交通機関や安全なサイクリングロードを支持しています。最終的に、化石燃料を減らし企業に責任を負わせることが、将来のために気候を守る助けになります。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: What is the most important thing individuals can do to protect the environment? Use 'something + adjective' and a front-position frequency adverb (e.g., 'Usually,...').",
                 promptJpn: "「環境を守るために個人ができる最も重要なことは何ですか？『something + 形容詞』と文頭に置く頻度の副詞（例：『Usually,...』）を使って答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Myth and Reality of Recycling)",
-                instruction: "Read this authentic article about the challenges of modern recycling systems.",
-                eng: "For decades, the concept of recycling has been promoted as the ultimate solution to the world's waste problem. From a young age, children are taught to sort their garbage, placing paper in one bin and plastic in another. Usually, well-meaning citizens believe that everything recyclable they throw away will be magically transformed into a new product. This creates a comforting sense of environmental responsibility. However, the reality of the global recycling industry is far more complicated and, unfortunately, much less effective than most people assume.\n\nThe truth is that while materials like aluminum and glass can be recycled almost infinitely, plastic is notoriously difficult to process. There are many different types of plastic, and they cannot be mixed together during the recycling process. Furthermore, if a plastic container is contaminated with food waste, it is often sent straight to a landfill or incinerated. Statistics show that only a shockingly small percentage of plastic produced globally is ever successfully recycled. For a long time, wealthy nations simply shipped their plastic waste to developing countries, treating them as global dumping grounds. When those countries finally refused to accept foreign trash, the illusion of a perfect recycling system collapsed.\n\nEnvironmental experts now urge the public to shift their focus from 'recycling' to 'reducing' and 'reusing.' Rather than buying something disposable and hoping it gets recycled, consumers should aim to buy something durable. Specifically, reducing the demand for single-use plastics—like coffee cups, packaging, and utensils—is the most effective way to address the crisis. While recycling remains an important practice, it is not a cure-all. Ultimately, confronting the pollution crisis requires a fundamental change in our throwaway culture and strict regulations forcing corporations to design sustainable products.",
-                jpn: "何十年もの間、リサイクルの概念は世界のゴミ問題に対する究極の解決策として推進されてきました。幼い頃から、子供たちはゴミを分別し、紙を一つのゴミ箱に、プラスチックを別のゴミ箱に入れるように教えられます。たいてい、善意の市民は、自分たちが捨てたリサイクル可能なものはすべて、魔法のように新製品に生まれ変わると信じています。これは環境に対する責任という心地よい感覚を生み出します。しかし、世界的なリサイクル産業の現実ははるかに複雑であり、残念ながら、ほとんどの人が思っているよりもはるかに効果が低いのです。\n\n実のところ、アルミニウムやガラスのような素材はほぼ無限にリサイクルできる一方で、プラスチックは処理が難しいことで有名です。プラスチックには多くの異なる種類があり、リサイクルプロセス中にそれらを混ぜ合わせることはできません。さらに、プラスチック容器が食品のゴミで汚染されている場合、それはしばしばまっすぐ埋め立て地に送られるか焼却されます。統計によると、世界で生産されたプラスチックのうち、無事にリサイクルされたのは驚くほどわずかな割合に過ぎません。長い間、裕福な国々は単に自国のプラスチックゴミを発展途上国に出荷し、彼らを世界的なゴミ捨て場として扱っていました。それらの国々が最終的に外国のゴミの受け入れを拒否したとき、完璧なリサイクルシステムという幻想は崩れ去ったのです。\n\n環境の専門家たちは現在、「リサイクル」から「削減（リデュース）」と「再利用（リユース）」へ焦点を移すよう大衆に強く促しています。使い捨ての何かを買ってそれがリサイクルされることを望むよりも、消費者は何か耐久性のあるものを買うことを目指すべきです。具体的には、コーヒーカップ、パッケージ、調理器具などの使い捨てプラスチックの需要を減らすことが、この危機に対処するための最も効果的な方法です。リサイクルは依然として重要な実践ですが、万能薬ではありません。最終的に、汚染危機に立ち向かうには、私たちの使い捨て文化の根本的な変化と、企業に持続可能な製品の設計を強制する厳しい規制が必要なのです。"
             }
         }
     },
@@ -4068,6 +4286,15 @@ const b1Curriculum = [
                     { eng: "There was no emergency heating in the warehouse.", jpn: "倉庫には緊急用の暖房がありませんでした。" },
                     { eng: "There weren't any snow tires on my truck.", jpn: "私のトラックにはスノータイヤが（一つも）ありませんでした。" }
                 ]
+            },
+            {
+                point: "3. Passive Voice with Modals: Recommending prevention steps (must/should be + PP)",
+                explanation: "Use modal + 'be' + past participle to recommend necessary equipment and safety measures for future storms.",
+                explanationJpn: "今後の嵐に備えて必要な設備や安全対策を推奨するには、「法助動詞 + be + 過去分詞」を使います。",
+                examples: [
+                    { eng: "Backup generators must be installed in the warehouse.", jpn: "倉庫に予備発電機が設置されなければなりません。" },
+                    { eng: "Delivery trucks should be equipped with snow tires.", jpn: "配達トラックにはスノータイヤが装備されるべきです。" }
+                ]
             }
         ],
         discussionPoints: [
@@ -4082,7 +4309,7 @@ const b1Curriculum = [
             { eng: "Therefore...", jpn: "それゆえに..." },
             { eng: "Ultimately...", jpn: "最終的には..." }
         ],
-        roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
+        roleplay: "Role-play presenting your solution to management. Do the following using a simple three-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
         homework: {
             vocab: [
                 { eng: "Prepare for", jpn: "〜の準備をする", exEng: "The company failed to prepare for the snowstorm.", exJpn: "会社は吹雪の準備を怠りました。" },
@@ -4104,20 +4331,36 @@ const b1Curriculum = [
                 { eng: "Figure out", jpn: "理解する、解決策を見つける", exEng: "We must figure out a better emergency protocol.", exJpn: "私たちはより良い緊急プロトコルを見つけ出さなければなりません。" },
                 { eng: "Look into", jpn: "調査する", exEng: "The CEO is looking into the logistics failure.", exJpn: "CEOはその物流の失敗を調査しています。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Past passive (was/were + PP) - 4 sentences
+                { prompt: "気象の警告は完全に無視されました。", target: "The weather warnings were completely ignored.", words: ["The", "weather", "warnings", "were", "completely", "ignored."] },
+                { prompt: "クライアントに遅延について知らされませんでした。", target: "The clients were not informed about the delays.", words: ["The", "clients", "were", "not", "informed", "about", "the", "delays."] },
+                { prompt: "ルート変更のアイデアは却下されました。", target: "The re-routing idea was rejected.", words: ["The", "re-routing", "idea", "was", "rejected."] },
+                { prompt: "腐りやすい商品はすべてダメになりました。", target: "All the perishable goods were ruined.", words: ["All", "the", "perishable", "goods", "were", "ruined."] },
+                // Grammar Point 2: Past non-existence (There was no / There weren't any) - 4 sentences
+                { prompt: "倉庫には緊急用の暖房がありませんでした。", target: "There was no emergency heating in the warehouse.", words: ["There", "was", "no", "emergency", "heating", "in", "the", "warehouse."] },
+                { prompt: "私のトラックにはスノータイヤがありませんでした。", target: "There weren't any snow tires on my truck.", words: ["There", "weren't", "any", "snow", "tires", "on", "my", "truck."] },
+                { prompt: "冷蔵庫用の予備発電機はありませんでした。", target: "There were no backup generators for refrigerators.", words: ["There", "were", "no", "backup", "generators", "for", "refrigerators."] },
+                { prompt: "ドライバーからの明確な位置情報はありませんでした。", target: "There was no clear location data from drivers.", words: ["There", "was", "no", "clear", "location", "data", "from", "drivers."] },
+                // Grammar Point 3: Passive voice with modals - 4 sentences
+                { prompt: "倉庫に予備発電機が設置されなければなりません。", target: "Backup generators must be installed in the warehouse.", words: ["Backup", "generators", "must", "be", "installed", "in", "the", "warehouse."] },
+                { prompt: "配達トラックにはスノータイヤが装備されるべきです。", target: "Delivery trucks should be equipped with snow tires.", words: ["Delivery", "trucks", "should", "be", "equipped", "with", "snow", "tires."] },
+                { prompt: "気象警報は事前に確認されなければなりません。", target: "Weather warnings must be checked in advance.", words: ["Weather", "warnings", "must", "be", "checked", "in", "advance."] },
+                { prompt: "緊急時の連絡ルールは更新されるべきです。", target: "Emergency contact rules should be updated.", words: ["Emergency", "contact", "rules", "should", "be", "updated."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 4 - Operations Debrief Chat)",
+                instruction: "Read this team debrief chat on the SwiftShip snowstorm failure. Notice past passive, 'there was no / weren't any', and modal passives.",
+                eng: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #ops-postmortem-storm</div><div class='er-chat-msg'><span class='er-chat-time'>[10:05 AM]</span> <span class='er-chat-user'>@Richard:</span> A major problem in last week's storm was that weather warnings were ignored to hit deadlines, and clients were not informed early enough.</div><div class='er-chat-msg'><span class='er-chat-time'>[10:08 AM]</span> <span class='er-chat-user'>@Sarah:</span> Right—when power went out for 48 hours, there was no backup generator for the fridges, so perishable goods spoiled.</div><div class='er-chat-msg'><span class='er-chat-time'>[10:11 AM]</span> <span class='er-chat-user'>@Mike:</span> On the road, there weren't any snow tires on my truck, so I had to pull over when roads froze.</div><div class='er-chat-msg'><span class='er-chat-time'>[10:14 AM]</span> <span class='er-chat-user'>@Richard:</span> Therefore, backup generators must be installed, trucks should be equipped with winter tires, and early re-routing needs approval so we can weather future storms.</div></div>",
+                jpn: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #ops-postmortem-storm</div><div class='er-chat-msg'><span class='er-chat-time'>[10:05 AM]</span> <span class='er-chat-user'>@Richard:</span> 先週の嵐での大きな問題は、締め切りを守るために気象警報が無視され、クライアントへの連絡も早めに行われなかったことだ。</div><div class='er-chat-msg'><span class='er-chat-time'>[10:08 AM]</span> <span class='er-chat-user'>@Sarah:</span> その通り。48時間停電したとき、冷蔵庫用の予備発電機がなかったので、腐りやすい商品が傷んでしまったわ。</div><div class='er-chat-msg'><span class='er-chat-time'>[10:11 AM]</span> <span class='er-chat-user'>@Mike:</span> 道路でもトラックにスノータイヤが1本もなかったので、道路が凍結したときに路肩に止めざるを得なかったよ。</div><div class='er-chat-msg'><span class='er-chat-time'>[10:14 AM]</span> <span class='er-chat-user'>@Richard:</span> それゆえに、予備発電機が設置されなければならず、トラックには冬用タイヤが装備されるべきで、今後の嵐を乗り切るために早期のルート変更が承認される必要がある。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph outlining your proposed solution for SwiftShip Logistics. Use the past passive (e.g., 'The warnings were ignored') to describe a mistake, and explain how to fix it.",
                 promptJpn: "「SwiftShip Logisticsのためのあなたの提案する解決策を概説する短い段落を書いてください。ミスを説明するために過去受動態（例：『The warnings were ignored』）を使用し、それをどのように修正するかを説明してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Building a Weather-Resilient Supply Chain)",
-                instruction: "Read this authentic text about supply chain management during extreme weather.",
-                eng: "In the modern economy, a supply chain is only as strong as its weakest link. For logistics companies handling perishable goods, such as fresh food or pharmaceuticals, maintaining a strict delivery schedule is a matter of business survival. However, as extreme weather events—like unseasonal blizzards, floods, and hurricanes—become increasingly common, traditional logistical strategies are proving inadequate. A company that prioritizes short-term speed over long-term resilience is taking a massive gamble. When a major storm strikes and a supply chain breaks down, the financial consequences are immediate and brutal: goods are ruined, contracts are breached, and hard-earned client trust is destroyed.\n\nThe most common mistake companies make is ignoring early meteorological warnings. In a desperate attempt to meet deadlines, managers often force trucks onto dangerous roads. This not only puts drivers' lives at risk but also guarantees delivery failure when vehicles inevitably get stranded. A resilient logistics company operates differently. They utilize advanced weather-tracking software to proactively re-route shipments days in advance. If a storm is unavoidable, they communicate transparently with their clients, negotiating early deliveries or safely storing goods in climate-controlled facilities with backup power.\n\nFurthermore, equipping a fleet for extreme conditions is non-negotiable. If a truck operates in a cold-weather region, winter tires and emergency heating kits are basic necessities, not optional expenses. Similarly, warehouses must have robust backup generators to ensure that refrigeration units continue running during power outages. Ultimately, building a weather-resilient supply chain requires a cultural shift within the company. Management must empower logistics directors to halt operations and prioritize safety without the fear of being punished for missing a deadline. In the face of unpredictable climate challenges, proactive preparation is the only insurance against financial ruin.",
-                jpn: "現代の経済において、サプライチェーンの強さはその最も弱い環（リンク）の強さに等しいものです。生鮮食品や医薬品など、腐りやすい商品を扱う物流会社にとって、厳格な配達スケジュールを維持することはビジネスの生存に関わる問題です。しかし、季節外れの猛吹雪、洪水、ハリケーンなどの異常気象がますます一般的になるにつれて、伝統的な物流戦略は不十分であることが証明されつつあります。長期的な強靭性（レジリエンス）よりも短期的なスピードを優先する企業は、大規模なギャンブルをしているのです。大きな嵐が襲い、サプライチェーンが崩壊したとき、その財政的結果は即座かつ残酷です。商品は台無しになり、契約は破られ、苦労して得たクライアントの信頼は破壊されます。\n\n企業が犯す最も一般的な間違いは、初期の気象警告を無視することです。締め切りに間に合わせようとする必死の試みの中で、マネージャーはしばしば危険な道路にトラックを無理やり走らせます。これはドライバーの命を危険にさらすだけでなく、車両が必然的に立ち往生した際の配達の失敗を保証するものです。回復力のある物流会社は違う働き方をします。彼らは高度な気象追跡ソフトウェアを利用して、数日前から積極的に積み荷のルートを変更します。嵐が避けられない場合、彼らはクライアントと透明性を持ってコミュニケーションを取り、早期配達を交渉したり、予備電源のある温度管理された施設に商品を安全に保管したりします。\n\nさらに、極端な条件に備えて車両群（フリート）を装備させることは交渉の余地がありません。トラックが寒冷地で運行する場合、冬用タイヤと緊急用暖房キットはオプションの経費ではなく基本的な必需品です。同様に、停電中に冷蔵ユニットが稼働し続けることを確実にするため、倉庫には強固な予備発電機がなければなりません。最終的に、天候に対して回復力のあるサプライチェーンを構築するには、社内の文化的な変革が必要です。経営陣は、締め切りに遅れたことで罰せられるという恐怖なしに、物流ディレクターが業務を停止し安全を優先する権限を与えなければなりません。予測不可能な気候の課題に直面したとき、先回りした（プロアクティブな）準備こそが財政的破綻に対する唯一の保険なのです。"
             }
         }
     },
-
-{
+    {
         id: 35,
         chapter: "Chapter 5: Weather & Climate",
         type: "speakingtest",
@@ -4171,41 +4414,31 @@ const b1Curriculum = [
                 { eng: "Back up", jpn: "バックアップを取る", exEng: "Always back up your files before a storm.", exJpn: "嵐の前に常にファイルをバックアップしてください。" },
                 { eng: "Figure out", jpn: "理解する、解決策を見つける", exEng: "We figured out a way to work remotely.", exJpn: "私たちはリモートで働く方法を見つけ出しました。" }
             ],
-            reading1: {
-                title: "Task 2: Reading (Review Model: A Weather Disruption)",
-                instruction: "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar (past continuous, adverbs of degree), and transitional expressions.",
-                eng: "In my opinion, unpredictable weather is the most stressful part of traveling. Actually, I was taking a train to a crucial business meeting last winter when a massive blizzard hit. At first, I was looking out the window, hoping it would pass. In hindsight, I should have taken an earlier train. The tracks eventually froze, and we were snowed in for five hours. To deal with it, I contacted my client immediately and rescheduled the meeting. To sum up, the situation was incredibly frustrating, but it taught me a valuable lesson. I wish I hadn't stressed so much, because being honest with the client turned out to be the best solution.",
-                jpn: "私の意見では、予測不可能な天候は旅行において最もストレスの多い部分です。実は昨年の冬、重要なビジネス会議に向かって電車に乗っていたところ、猛吹雪に見舞われました。最初は、通り過ぎてくれることを願いながら窓の外を見ていました。後から考えると、もっと早い電車に乗るべきでした。最終的に線路が凍結し、私たちは5時間雪に閉じ込められました。これに対処するため、私はすぐにクライアントに連絡し、会議のスケジュールを再調整しました。要約すると、状況は信じられないほどイライラするものでしたが、それは私に貴重な教訓を教えてくれました。あんなにストレスを感じなければよかったと後悔しています。なぜなら、クライアントに正直になることが最善の解決策だと判明したからです。"
-            },
-            expandedDialogue: [
-                { speaker: "A", eng: "Are you ready for your speaking test about extreme weather today?", jpn: "今日の異常気象に関するスピーキングテストの準備はできていますか？" },
-                { speaker: "B", eng: "Yes, I am. I am going to talk about a time a flood ruined my vacation.", jpn: "はい、できています。洪水で休暇が台無しになった時のことについて話すつもりです。" },
-                { speaker: "A", eng: "That sounds awful. What exactly happened?", jpn: "それはひどいですね。正確には何が起こったのですか？" },
-                { speaker: "B", eng: "I was visiting a coastal city, and a sudden storm caused massive flooding.", jpn: "沿岸の都市を訪れていたのですが、突然の嵐が大規模な洪水を起こしたんです。" },
-                { speaker: "A", eng: "Did you have to seek shelter or evacuate?", jpn: "避難するか、どこかに避難場所を求めなければなりませんでしたか？" },
-                { speaker: "B", eng: "Yes, the local authorities shut down the roads. We were forced to stay indoors.", jpn: "はい、地元当局が道路を封鎖しました。私たちは屋内にとどまることを余儀なくされました。" },
-                { speaker: "A", eng: "How long were you stuck there?", jpn: "どれくらいそこに足止めされたのですか？" },
-                { speaker: "B", eng: "We had to wait it out for two days. There was no electricity.", jpn: "2日間やり過ごして待たなければなりませんでした。電気もありませんでした。" },
-                { speaker: "A", eng: "In hindsight, is there anything you would have done differently?", jpn: "後から考えて、何か違うようにすればよかったと思うことはありますか？" },
-                { speaker: "B", eng: "I should have checked the weather forecast more carefully before booking.", jpn: "予約する前に天気予報をもっと注意深くチェックしておくべきでした。" },
-                { speaker: "A", eng: "What did you learn from the experience?", jpn: "その経験から何を学びましたか？" },
-                { speaker: "B", eng: "I learned that you cannot rely on luck. You must always prepare for the worst.", jpn: "運に頼ってはいけないということを学びました。常に最悪の事態に備えなければなりません。" },
-                { speaker: "A", eng: "That is a great conclusion for your speech. Good luck!", jpn: "それはスピーチの素晴らしい結論ですね。幸運を祈ります！" },
-                { speaker: "B", eng: "Thank you. I am looking forward to delivering it.", jpn: "ありがとうございます。発表するのを楽しみにしています。" }
+            clickingGames: [
+                // Chapter 5 Review Point 1: Quantifiers, Effects & Temporary States - 4 sentences
+                { prompt: "ほとんどのビジネスは良い天気に依存しています。", target: "Most businesses rely on good weather.", words: ["Most", "businesses", "rely", "on", "good", "weather."] },
+                { prompt: "彼らは激しい嵐を予測しています。それゆえに、イベントを延期しました。", target: "They predicted a storm. Therefore, we postponed the event.", words: ["They", "predicted", "a", "storm.", "Therefore,", "we", "postponed", "the", "event."] },
+                { prompt: "私は午前7時から待機しています。", target: "I have been waiting since 7 AM.", words: ["I", "have", "been", "waiting", "since", "7", "AM."] },
+                { prompt: "私は何か持続可能なものを買いたいです。", target: "I want to buy something sustainable.", words: ["I", "want", "to", "buy", "something", "sustainable."] },
+                // Chapter 5 Review Point 2: Conditions, Passives & Past States - 4 sentences
+                { prompt: "もし嵐が来れば、間違いなく停電するでしょう。", target: "If a storm hits, we will definitely lose power.", words: ["If", "a", "storm", "hits,", "we", "will", "definitely", "lose", "power."] },
+                { prompt: "気象の警告は完全に無視されました。", target: "The weather warnings were completely ignored.", words: ["The", "weather", "warnings", "were", "completely", "ignored."] },
+                { prompt: "倉庫には緊急用の暖房がありませんでした。", target: "There was no emergency heating in the warehouse.", words: ["There", "was", "no", "emergency", "heating", "in", "the", "warehouse."] },
+                { prompt: "バックアッププランを持つことの重要性を学びました。", target: "I learned the importance of having a backup plan.", words: ["I", "learned", "the", "importance", "of", "having", "a", "backup", "plan."] }
             ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 5 - Weather Disruption FAQ)",
+                instruction: "Read this FAQ on handling weather delays during travel or work events. Notice clear explanations and practical tips.",
+                eng: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>⛈️ Weather Disruption FAQ: Travel &amp; Event Tips</h3><div class='er-faq-item'><span class='er-faq-q'>Q: What should I do first if a typhoon or snowstorm disrupts my trip?</span><div class='er-faq-a'>Check the weather forecast and transport alerts early. If flights or trains are shut down, contact organizers or clients right away so you can adapt to changes and join online if possible.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: How can I stay safe when weather turns dangerous?</span><div class='er-faq-a'>Seek shelter, stay indoors, and wait it out rather than driving through pouring rain or icy roads. Keep your phone charged and have essential files backed up in case you lose power.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: What makes a good PREP speech about a weather delay?</span><div class='er-faq-a'>State your main point clearly, explain when and how the weather affected your plans, share how you solved the problem, and end with what you learned about being prepared.</div></div></div>",
+                jpn: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>⛈️ 天候による混乱FAQ：旅行・イベント時のヒント</h3><div class='er-faq-item'><span class='er-faq-q'>Q: 台風や吹雪で移動が妨げられた場合、最初に何をすべきですか？</span><div class='er-faq-a'>早めに天気予報や交通情報を確認しましょう。フライトや電車が止まっている場合は、主催者やクライアントにすぐ連絡し、変化に適応して可能であればオンラインで参加できるようにします。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 天候が危険になったとき、どのように安全を確保できますか？</span><div class='er-faq-a'>土砂降りの雨や凍結した道路を無理に運転するのではなく、避難場所を探して屋内に留まり、やり過ごして待ちましょう。停電に備えてスマホを充電し、重要なファイルをバックアップしておいてください。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 天候による遅延についての良いPREPスピーチのポイントは何ですか？</span><div class='er-faq-a'>結論を明確に述べ、いつどのように天候が予定に影響したかを説明し、どのように問題を解決したかを共有し、備えについて学んだことで締めくくりましょう。</div></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a time when bad weather forced you to change your plans. How did you adapt to the situation?",
                 promptJpn: "「悪天候によって計画の変更を余儀なくされた時のことを説明してください。その状況にどのように適応しましたか？」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Value of Crisis Communication)",
-                instruction: "Read this authentic article to learn more about handling disruptions. This section provides real-world context for B1 learners.",
-                eng: "When extreme weather disrupts business travel or logistics, the physical delay is often less damaging than a failure to communicate. In professional environments, everyone understands that humans cannot control blizzards, typhoons, or floods. However, clients and partners expect professionals to control how they respond to these crises. A sudden cancellation due to a severe storm is entirely acceptable, provided that the communication is swift, transparent, and solution-oriented. Ignoring the problem or hoping the delay will somehow resolve itself always makes the situation worse.\n\nThe most effective strategy during a weather-related crisis is proactive notification. If you realize your train is stuck in heavy snow, you should contact your team immediately, rather than waiting until the meeting has already started. A simple message like, 'I am currently delayed due to the snowstorm, but I will join the meeting via phone,' demonstrates reliability and respect for other people's time. This level of professionalism prevents a logistical headache from escalating into damaged trust.\n\nFurthermore, reflecting on these disruptions provides valuable lessons in personal preparedness. Travelers who frequently navigate severe weather quickly learn to build 'buffer time' into their schedules and always carry essential digital backups of their presentations. They learn to adapt to changing circumstances rather than panicking. Ultimately, sharing these experiences in a professional setting, such as a speaking test or a team debrief, highlights a person's resilience. Showing that you can maintain your composure, adapt your plans, and communicate clearly during a crisis proves that you are a highly capable and dependable professional.",
-                jpn: "異常気象が出張や物流を混乱させる際、物理的な遅延は、しばしばコミュニケーションの失敗よりもダメージが少ないものです。プロフェッショナルな環境において、人間が吹雪、台風、洪水をコントロールできないことは誰もが理解しています。しかし、クライアントやパートナーは、プロフェッショナルがこれらの危機にどう対応するかをコントロールすることを期待しています。激しい嵐による突然のキャンセルは、コミュニケーションが迅速で、透明性があり、解決志向である限り、完全に受け入れられます。問題を無視したり、遅延がどうにかして自ずと解決することを望んだりすることは、常に状況を悪化させます。\n\n天候に関連する危機の際に最も効果的な戦略は、事前の通知です。もし自分の乗っている電車が大雪で立ち往生していることに気づいたら、会議がすでに始まるまで待つのではなく、直ちにチームに連絡すべきです。「現在吹雪のため遅れていますが、電話で会議に参加します」といったシンプルなメッセージは、信頼性と他人の時間への敬意を示します。このレベルのプロ意識が、物流の頭痛の種が信頼の失墜へとエスカレートするのを防ぐのです。\n\nさらに、これらの混乱を振り返ることは、個人の備えにおける貴重な教訓を提供します。頻繁に悪天候を切り抜ける旅行者は、スケジュールに「バッファ時間（余裕）」を組み込み、常にプレゼンテーションの重要なデジタルバックアップを持ち歩くことをすぐに学びます。彼らはパニックになるのではなく、変化する状況に適応することを学びます。最終的に、スピーキングテストやチームの報告会など、プロフェッショナルな環境でこれらの経験を共有することは、その人の回復力（レジリエンス）を強調します。危機に際して平静を保ち、計画を適応させ、明確にコミュニケーションをとることができると示すことは、あなたが非常に有能で信頼できるプロフェッショナルであることを証明するのです。"
             }
         }
     },
-    {
+{
         id: 36,
         chapter: "Chapter 6: Onboarding and training",
         type: "opinion",
@@ -4215,30 +4448,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "A clear and structured onboarding process is essential for every new employee. When a new hire joins a company, their first week shapes their entire perspective of the organization. If the training is chaotic or their computer is not set up on day one, they will feel unvalued and stressed. I believe HR departments must provide a detailed welcome packet, a clear schedule, and an introduction to the company's core values. New employees need to know exactly what their responsibilities are and who they can contact for help. Taking the time to properly introduce a new staff member to the team prevents confusion later on. Good onboarding reduces employee turnover and helps people become productive much faster.", 
-                    jpn: "明確で構造化されたオンボーディング（新人受け入れ）プロセスは、すべての新入社員にとって不可欠です。新入社員が会社に入社したとき、最初の1週間が彼らの組織に対する視点全体を形作ります。もし研修が混沌としていたり、初日にコンピューターのセットアップが済んでいなかったりすれば、彼らは自分に価値がないと感じ、ストレスを抱えるでしょう。人事部は、詳細なウェルカムパケット、明確なスケジュール、そして会社のコアバリューの紹介を提供しなければならないと私は信じています。新入社員は、自分の責任が正確に何であるか、そして助けが必要なときに誰に連絡できるかを知る必要があります。新しいスタッフをチームに適切に紹介するために時間をかけることは、後々の混乱を防ぎます。良いオンボーディングは従業員の離職率を下げ、人々がはるかに早く生産的になるのを助けます。" 
+                {
+                    name: "Person 1",
+                    eng: "A clear and structured onboarding process is essential for every new employee. When a new hire joins a company, their first week shapes their entire perspective of the organization. If the training is chaotic or their computer is not set up on day one, they will feel unvalued and stressed. I believe HR departments must provide a detailed welcome packet, a clear schedule, and an introduction to the company's core values. New employees need to know exactly what their responsibilities are and who they can contact for help. Taking the time to properly introduce a new staff member to the team prevents confusion later on. Good onboarding reduces employee turnover and helps people become productive much faster.",
+                    jpn: "明確で構造化されたオンボーディング（新人受け入れ）プロセスは、すべての新入社員にとって不可欠です。新入社員が会社に入社したとき、最初の1週間が彼らの組織に対する視点全体を形作ります。もし研修が混沌としていたり、初日にコンピューターのセットアップが済んでいなかったりすれば、彼らは自分に価値がないと感じ、ストレスを抱えるでしょう。人事部は、詳細なウェルカムパケット、明確なスケジュール、そして会社のコアバリューの紹介を提供しなければならないと私は信じています。新入社員は、自分の責任が正確に何であるか、そして助けが必要なときに誰に連絡できるかを知る必要があります。新しいスタッフをチームに適切に紹介するために時間をかけることは、後々の混乱を防ぎます。良いオンボーディングは従業員の離職率を下げ、人々がはるかに早く生産的になるのを助けます。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "I think the 'buddy system' or mentorship is the most effective training method for new hires. Reading manuals and watching training videos is fine for learning software, but understanding company culture requires human connection. When I joined my current company, a senior colleague was assigned to be my mentor for the first month. I could ask him informal questions, like where to get the best coffee or how to request a vacation day, without feeling embarrassed. A mentor guides you through the unwritten rules of the office. Mentoring also builds strong relationships across different departments. Companies should strongly encourage senior staff to take these mentorship roles seriously, as it creates a much friendlier work environment.", 
-                    jpn: "新入社員のトレーニング方法としては、「バディシステム」やメンター制度が最も効果的だと思います。マニュアルを読んだりトレーニングビデオを見たりすることはソフトウェアを学ぶのには良いですが、企業文化を理解するには人間同士のつながりが必要です。私が今の会社に入社したとき、最初の1ヶ月間は先輩同僚が私のメンターに任命されました。私は彼に、どこで一番美味しいコーヒーが飲めるか、あるいは休暇をどう申請するかといった非公式な質問を、恥ずかしい思いをすることなく尋ねることができました。メンターはオフィスの暗黙のルールを案内してくれます。また、メンタリングは異なる部署間で強い関係を築きます。企業は、先輩スタッフがこれらのメンターの役割を真剣に受け止めるよう強く奨励するべきです。なぜなら、それがはるかにフレンドリーな職場環境を作り出すからです。" 
+                {
+                    name: "Person 2",
+                    eng: "I think the 'buddy system' or mentorship is the most effective training method for new hires. Reading manuals and watching training videos is fine for learning software, but understanding company culture requires human connection. When I joined my current company, a senior colleague was assigned to be my mentor for the first month. I could ask him informal questions, like where to get the best coffee or how to request a vacation day, without feeling embarrassed. A mentor guides you through the unwritten rules of the office. Mentoring also builds strong relationships across different departments. Companies should strongly encourage senior staff to take these mentorship roles seriously, as it creates a much friendlier work environment.",
+                    jpn: "新入社員のトレーニング方法としては、「バディシステム」やメンター制度が最も効果的だと思います。マニュアルを読んだりトレーニングビデオを見たりすることはソフトウェアを学ぶのには良いですが、企業文化を理解するには人間同士のつながりが必要です。私が今の会社に入社したとき、最初の1ヶ月間は先輩同僚が私のメンターに任命されました。私は彼に、どこで一番美味しいコーヒーが飲めるか、あるいは休暇をどう申請するかといった非公式な質問を、恥ずかしい思いをすることなく尋ねることができました。メンターはオフィスの暗黙のルールを案内してくれます。また、メンタリングは異なる部署間で強い関係を築きます。企業は、先輩スタッフがこれらのメンターの役割を真剣に受け止めるよう強く奨励するべきです。なぜなら、それがはるかにフレンドリーな職場環境を作り出すからです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "Remote onboarding presents a completely unique set of challenges. Without physical office tours and face-to-face welcome lunches, it is very difficult for a remote employee to feel like part of the team. IT departments have to ship laptops directly to people's homes and help them set up complicated security software over a video call. This can be highly frustrating if there are technical issues. To succeed in remote training, managers need to check in constantly. It is vital to schedule regular virtual coffee breaks so the new hire can meet their colleagues in a relaxed setting. If companies just email a bunch of PDF documents and expect the employee to learn independently, the new hire will likely feel isolated and eventually quit.", 
-                    jpn: "リモートでのオンボーディングは、全く独自の課題を提示します。物理的なオフィスツアーや対面での歓迎ランチがないと、リモートの従業員がチームの一員だと感じることは非常に困難です。IT部門は人々の自宅に直接ノートパソコンを発送し、ビデオ通話越しに複雑なセキュリティソフトウェアのセットアップを手伝わなければなりません。もし技術的な問題があれば、これは非常にフラストレーションのたまるものになり得ます。リモートトレーニングで成功するためには、マネージャーが絶えず連絡を取る（状況を確認する）必要があります。新入社員がリラックスした環境で同僚と会えるよう、定期的なバーチャル・コーヒーブレイクをスケジュールすることが極めて重要です。もし企業がただ大量のPDF文書をメールで送り、従業員が自立して学ぶことを期待するだけなら、新入社員はおそらく孤立感を感じ、最終的には辞めてしまうでしょう。" 
+                {
+                    name: "Person 3",
+                    eng: "Remote onboarding presents a completely unique set of challenges. Without physical office tours and face-to-face welcome lunches, it is very difficult for a remote employee to feel like part of the team. IT departments have to ship laptops directly to people's homes and help them set up complicated security software over a video call. This can be highly frustrating if there are technical issues. To succeed in remote training, managers need to check in constantly. It is vital to schedule regular virtual coffee breaks so the new hire can meet their colleagues in a relaxed setting. If companies just email a bunch of PDF documents and expect the employee to learn independently, the new hire will likely feel isolated and eventually quit.",
+                    jpn: "リモートでのオンボーディングは、全く独自の課題を提示します。物理的なオフィスツアーや対面での歓迎ランチがないと、リモートの従業員がチームの一員だと感じることは非常に困難です。IT部門は人々の自宅に直接ノートパソコンを発送し、ビデオ通話越しに複雑なセキュリティソフトウェアのセットアップを手伝わなければなりません。もし技術的な問題があれば、これは非常にフラストレーションのたまるものになり得ます。リモートトレーニングで成功するためには、マネージャーが絶えず連絡を取る（状況を確認する）必要があります。新入社員がリラックスした環境で同僚と会えるよう、定期的なバーチャル・コーヒーブレイクをスケジュールすることが極めて重要です。もし企業がただ大量のPDF文書をメールで送り、従業員が自立して学ぶことを期待するだけなら、新入社員はおそらく孤立感を感じ、最終的には辞めてしまうでしょう。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "The First Week 📖", themeJpn: "最初の1週間", sub: [{eng: "Welcome packets", jpn: "ウェルカムパケット"}, {eng: "Office tours", jpn: "オフィスツアー"}, {eng: "Equipment setup", jpn: "備品のセットアップ"}] },
-            { theme: "Mentorship 📖", themeJpn: "メンターシップ", sub: [{eng: "The buddy system", jpn: "バディシステム"}, {eng: "Unwritten rules", jpn: "暗黙のルール"}, {eng: "Building relationships", jpn: "関係構築"}] },
-            { theme: "Training Methods 📖", themeJpn: "トレーニング方法", sub: [{eng: "Manuals and videos", jpn: "マニュアルとビデオ"}, {eng: "Shadowing colleagues", jpn: "同僚のシャドーイング（同行・観察）"}, {eng: "Interactive workshops", jpn: "インタラクティブなワークショップ"}] },
-            { theme: "Remote Onboarding 📖", themeJpn: "リモートのオンボーディング", sub: [{eng: "Virtual coffee breaks", jpn: "バーチャル・コーヒーブレイク"}, {eng: "IT support", jpn: "ITサポート"}, {eng: "Feeling isolated", jpn: "孤立感を感じること"}] },
-            { theme: "Company Culture 📖", themeJpn: "企業文化", sub: [{eng: "Core values", jpn: "コアバリュー"}, {eng: "Team introductions", jpn: "チームへの紹介"}, {eng: "Social events", jpn: "社交イベント"}] },
-            { theme: "Expectations 📖", themeJpn: "期待されること", sub: [{eng: "Clear responsibilities", jpn: "明確な責任"}, {eng: "Probation periods", jpn: "試用期間"}, {eng: "Feedback loops", jpn: "フィードバックのループ"}] }
+            { theme: "The First Week 📖", themeJpn: "最初の1週間", sub: [{ eng: "Welcome packets", jpn: "ウェルカムパケット" }, { eng: "Office tours", jpn: "オフィスツアー" }, { eng: "Equipment setup", jpn: "備品のセットアップ" }] },
+            { theme: "Mentorship 📖", themeJpn: "メンターシップ", sub: [{ eng: "The buddy system", jpn: "バディシステム" }, { eng: "Unwritten rules", jpn: "暗黙のルール" }, { eng: "Building relationships", jpn: "関係構築" }] },
+            { theme: "Training Methods 📖", themeJpn: "トレーニング方法", sub: [{ eng: "Manuals and videos", jpn: "マニュアルとビデオ" }, { eng: "Shadowing colleagues", jpn: "同僚のシャドーイング（同行・観察）" }, { eng: "Interactive workshops", jpn: "インタラクティブなワークショップ" }] },
+            { theme: "Remote Onboarding 📖", themeJpn: "リモートのオンボーディング", sub: [{ eng: "Virtual coffee breaks", jpn: "バーチャル・コーヒーブレイク" }, { eng: "IT support", jpn: "ITサポート" }, { eng: "Feeling isolated", jpn: "孤立感を感じること" }] },
+            { theme: "Company Culture 📖", themeJpn: "企業文化", sub: [{ eng: "Core values", jpn: "コアバリュー" }, { eng: "Team introductions", jpn: "チームへの紹介" }, { eng: "Social events", jpn: "社交イベント" }] },
+            { theme: "Expectations 📖", themeJpn: "期待されること", sub: [{ eng: "Clear responsibilities", jpn: "明確な責任" }, { eng: "Probation periods", jpn: "試用期間" }, { eng: "Feedback loops", jpn: "フィードバックのループ" }] }
         ],
         questions: [
             { eng: "1. What do you remember about your first week at your current job?", jpn: "1. 現在の仕事の最初の1週間について、何を覚えていますか？" },
@@ -4298,7 +4531,7 @@ const b1Curriculum = [
                 { eng: "Set up", jpn: "準備する、セットアップする", exEng: "IT will set up your computer tomorrow.", exJpn: "IT部門が明日あなたのコンピューターをセットアップします。" },
                 { eng: "Log in", jpn: "ログインする", exEng: "You need to log in to the company network.", exJpn: "社内ネットワークにログインする必要があります。" },
                 { eng: "Reach out to", jpn: "〜に連絡を取る、アプローチする", exEng: "Don't hesitate to reach out to your mentor.", exJpn: "遠慮せずにメンターに連絡を取ってください。" },
-                { eng: "Figure out", jpn: "理解する、解決する", exEng: "It takes time to figure out the unwritten rules.", exJpn: "暗黙のルールを理解するには時間がかかります。" },
+                { eng: "Figure out", jpn: "理解する、解決する", exEng: "It takes a month to figure out the unwritten rules.", exJpn: "暗黙のルールを理解するには時間がかかります。" },
                 { eng: "Catch on", jpn: "理解する、コツをつかむ", exEng: "The new hire caught on to the process quickly.", exJpn: "新入社員はすぐにそのプロセスのコツをつかみました。" },
                 { eng: "Fill in", jpn: "記入する、情報を教える", exEng: "Can you fill me in on what I missed?", exJpn: "私が見逃した情報を教えて（埋めて）くれませんか？" },
                 { eng: "Take on", jpn: "（仕事や責任を）引き受ける", exEng: "She is ready to take on more responsibilities.", exJpn: "彼女はより多くの責任を引き受ける準備ができています。" },
@@ -4314,15 +4547,27 @@ const b1Curriculum = [
                 { eng: "Point out", jpn: "指摘する", exEng: "My mentor pointed out my mistakes politely.", exJpn: "メンターが私の間違いを丁寧に指摘してくれました。" },
                 { eng: "Follow up", jpn: "フォローアップする、追跡調査する", exEng: "HR will follow up after your probation period.", exJpn: "人事部は試用期間の後にフォローアップを行います。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Necessity/obligation (have to / need to) - 4 sentences
+                { prompt: "IT部門はリモートワーカーにノートパソコンを発送しなければなりません。", target: "IT departments have to ship laptops to remote workers.", words: ["IT", "departments", "have", "to", "ship", "laptops", "to", "remote", "workers."] },
+                { prompt: "新入社員は自分たちの責任を知る必要があります。", target: "New employees need to know their responsibilities.", words: ["New", "employees", "need", "to", "know", "their", "responsibilities."] },
+                { prompt: "マネージャーはリモート社員と頻繁に状況を確認する必要があります。", target: "Managers need to check in often with remote hires.", words: ["Managers", "need", "to", "check", "in", "often", "with", "remote", "hires."] },
+                { prompt: "初日までにコンピューターをセットアップしなければなりません。", target: "Teams have to set up laptops before day one.", words: ["Teams", "have", "to", "set", "up", "laptops", "before", "day", "one."] },
+                // Grammar Point 2: Advice or expectations (should / ought to) - 4 sentences
+                { prompt: "企業は先輩スタッフがメンターになることを奨励すべきです。", target: "Companies should encourage senior staff to mentor.", words: ["Companies", "should", "encourage", "senior", "staff", "to", "mentor."] },
+                { prompt: "定期的なバーチャル・コーヒーブレイクをスケジュールするべきです。", target: "You ought to schedule regular virtual coffee breaks.", words: ["You", "ought", "to", "schedule", "regular", "virtual", "coffee", "breaks."] },
+                { prompt: "人事部は明確なウェルカムパケットを用意すべきです。", target: "HR should provide a clear welcome packet.", words: ["HR", "should", "provide", "a", "clear", "welcome", "packet."] },
+                { prompt: "メンターは暗黙のルールを案内するべきです。", target: "Buddies ought to explain unwritten office rules.", words: ["Buddies", "ought", "to", "explain", "unwritten", "office", "rules."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 6 - Onboarding Playbook Brief)",
+                instruction: "Read this team onboarding brief on first-week setup, buddies, and remote hires. Notice necessity and advice modals.",
+                eng: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 First-Week Onboarding Playbook</h3><span class='er-job-tag'>People &amp; HR</span> <span class='er-job-tag'>Hybrid &amp; Remote</span><p><strong>Why Week One Matters:</strong><br>A new hire's first week shapes how they see the company. As a result of good planning, new staff learn the ropes faster and feel supported from day one. Conversely, a messy start can make people feel left out or quit later on.</p><p><strong>💼 Core Onboarding Steps:</strong></p><ul><li>HR and IT have to prepare accounts, tools, and a welcome packet before the new hire starts.</li><li>New employees need to understand their role, core values, and who to contact for help.</li><li>Managers should pair new hires with a buddy and shadow key tasks so they get up to speed smoothly.</li><li>For remote staff, leads ought to run regular check-ins and virtual coffee breaks so nobody feels isolated.</li></ul></div>",
+                jpn: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 1週目オンボーディング・プレイブック</h3><span class='er-job-tag'>人事・HR</span> <span class='er-job-tag'>ハイブリッド＆リモート</span><p><strong>1週目が重要な理由：</strong><br>新入社員の最初の1週間は、会社に対する見方を形作ります。良い計画の結果として、新しいスタッフは仕事のコツを早く覚え、初日からサポートされていると感じられます。逆に、混乱したスタートは人を仲間外れにされたと感じさせたり、後々の退職につながったりします。</p><p><strong>💼 コアとなるオンボーディングの手順：</strong></p><ul><li>人事とITは、新入社員が入社する前にアカウントやツール、ウェルカムパケットを準備しなければなりません。</li><li>新入社員は自分の役割、コアバリュー、助けを求める連絡先を知る必要があります。</li><li>マネージャーは新入社員にバディをつけ、主要な業務をシャドーイングさせるべきであり、それによりスムーズに状況を把握できます。</li><li>リモートスタッフの場合、リーダーは誰も孤立感を感じないよう、定期的な状況確認やバーチャル・コーヒーブレイクを行うべきです。</li></ul></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: What is the most important thing a company should do on a new employee's first day? Use 'have to/need to' and 'should/ought to'.",
                 promptJpn: "「新入社員の初日に会社がすべき最も重要なことは何ですか？『have to/need to』と『should/ought to』を使って答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Psychology of Onboarding)",
-                instruction: "Read this authentic article about the importance of effective onboarding processes.",
-                eng: "The onboarding process is often an employee's first real interaction with a company's internal culture. Research shows that organizations with strong onboarding processes improve new hire retention by over 80% and significantly boost productivity. Conversely, a chaotic first week can cause immediate regret, commonly known as 'new hire buyer's remorse.' When an employee arrives on their first day and finds that their email is not set up, their desk is messy, and no one knows their schedule, they instantly feel undervalued. Therefore, human resources departments have to treat onboarding as a critical strategic function, not just a simple checklist of paperwork.\n\nEffective onboarding goes far beyond explaining software and handing out manuals. It is a psychological process of integration. A successful program ought to focus on social connection just as much as technical training. Implementing a 'buddy system' is one of the most reliable methods for this. A buddy is usually a peer—not a manager—who can answer informal questions and help the new hire navigate the unwritten rules of the office environment. This relationship provides a safe space for learning and drastically reduces the anxiety of starting a new role.\n\nWith the rise of remote work, onboarding has become even more challenging. Remote hires miss out on organic office interactions, like chatting in the breakroom or joining impromptu lunches. To compensate, managers need to schedule deliberate virtual touchpoints, such as online welcome meetings and frequent one-on-one check-ins. Ultimately, onboarding is not a one-day event; it is a continuous journey that lasts through the entire probation period. By investing time and empathy into new employees from day one, companies build a loyal, confident, and highly effective workforce.",
-                jpn: "オンボーディングプロセスは、しばしば従業員にとって社内文化との初めての真の交流となります。研究によると、強力なオンボーディングプロセスを持つ組織は、新入社員の定着率を80%以上向上させ、生産性を大幅に押し上げることが示されています。逆に、混沌とした最初の1週間は、一般的に「新入社員のバイヤーズリモース（購入後の後悔）」として知られる、即座の後悔を引き起こす可能性があります。従業員が初日に出社して、自分のメールがセットアップされておらず、デスクが散らかっていて、誰も自分のスケジュールを知らないことに気づいたとき、彼らは即座に自分には価値がないと感じます。それゆえに、人事部はオンボーディングを単なる書類作業のチェックリストではなく、重要な戦略的機能として扱わなければならないのです。\n\n効果的なオンボーディングは、ソフトウェアを説明したりマニュアルを配ったりすることをはるかに超えるものです。それは統合の心理的プロセスです。成功するプログラムは、技術的な訓練と同じくらい社会的なつながりに焦点を当てるべき（ought to）です。「バディシステム」の導入は、これに対する最も信頼できる方法の1つです。バディとは通常、マネージャーではなく同僚であり、非公式な質問に答え、新入社員がオフィス環境の暗黙のルールをナビゲートするのを助けることができます。この関係は学習のための安全な空間を提供し、新しい役割を始める不安を劇的に軽減します。\n\nリモートワークの台頭により、オンボーディングはさらに困難になっています。リモートの新入社員は、休憩室でのおしゃべりや突発的なランチへの参加といった、オフィスでの自然な交流を逃してしまいます。これを補うため、マネージャーはオンラインの歓迎会議や頻繁な1対1の状況確認など、意図的なバーチャルでの接点をスケジュールする必要があります（need to）。最終的に、オンボーディングは1日限りのイベントではありません。それは試用期間全体を通じて続く継続的な旅なのです。初日から新入社員に時間と思いやりを投資することで、企業は忠誠心があり、自信に満ちた、非常に効果的な労働力を構築するのです。"
             }
         }
     },
@@ -4375,46 +4620,38 @@ const b1Curriculum = [
             { eng: "Thank the host", jpn: "ホストに感謝する", indent: true }
         ],
         expressions: [
-            { category: "1. Welcoming (歓迎する)", options: ["Welcome to the team!", "Welcome aboard!", "We are thrilled to have you here."] },           
-            { category: "2. Showing the workspace (ワークスペースを案内する)", options: ["Let me show you to your desk.", "I will show you around the office.", "Let's head over to your workstation."] }, 
-            { category: "3. Giving instructions (指示を出す)", options: ["Please log in using the temporary password.", "Make sure to read the employee handbook.", "Please ask IT if you have hardware issues."] },
-            { category: "4. Discussing future plans (将来の予定について話し合う)", options: ["We are going to go over your schedule at 10.", "I am going to introduce you to the team later.", "We are going to have a welcome lunch today."] },
-            { category: "5. Offering assistance (手助けを申し出る)", options: ["Don't hesitate to ask if you need anything.", "Let me know if you need office supplies.", "Feel free to reach out if you have questions."] },
-            { category: "6. Allowing time to settle (落ち着く時間を与える)", options: ["Take some time to get settled in.", "Take a moment to arrange your desk.", "I will let you get organized first."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Imperatives: Giving polite instructions (Please / Don't)",
-                explanation: "We use the imperative (starting a sentence with a base verb) to give direct instructions or commands. In a professional setting, we soften this by adding 'Please' or 'Don't hesitate to'.",
-                explanationJpn: "直接的な指示や命令を出すには、命令形（動詞の原形で文を始める）を使用します。プロフェッショナルな環境では、「Please」や「Don't hesitate to（遠慮せずに〜する）」を加えることでこれを和らげます。",
-                examples: [
-                    { eng: "Please log in using the temporary password.", jpn: "一時的なパスワードを使ってログインしてください。" },
-                    { eng: "Don't hesitate to ask for help.", jpn: "遠慮せずに助けを求めてください。" }
+                category: "1. Welcoming a new hire (新入社員を歓迎する)",
+                options: [
+                    { eng: "Welcome to the team!", jpn: "チームへようこそ！" },
+                    { eng: "Welcome aboard!", jpn: "入社おめでとう！" },
+                    { eng: "We are thrilled to have you here.", jpn: "あなたがここに来てくれてとても嬉しいです。" }
                 ]
             },
             {
-                point: "2. Future Plans: Expressing arranged plans (be going to + verb)",
-                explanation: "To express a plan that has already been decided or arranged for the near future, use 'be going to' followed by a base verb.",
-                explanationJpn: "近い将来のためにすでに決定または手配されている計画を表現するには、「be going to」の後に動詞の原形を使用します。",
-                examples: [
-                    { eng: "We are going to go over your training schedule at 10 AM.", jpn: "午前10時に、あなたのトレーニングスケジュールについて確認する予定です。" },
-                    { eng: "I am going to introduce you to the manager later.", jpn: "後であなたをマネージャーに紹介する予定です。" }
+                category: "2. Showing the workspace (ワークスペースを案内する)",
+                options: [
+                    { eng: "Let me show you to your desk.", jpn: "あなたのデスクへ案内させてください。" },
+                    { eng: "I will show you around the office.", jpn: "オフィスを案内しますね。" },
+                    { eng: "Let's head over to your workstation.", jpn: "ワークステーションへ向かいましょう。" }
+                ]
+            },
+            {
+                category: "3. Giving instructions (指示を出す)",
+                options: [
+                    { eng: "Please log in using the temporary password.", jpn: "一時的なパスワードを使ってログインしてください。" },
+                    { eng: "Make sure to read the employee handbook.", jpn: "従業員ハンドブックを必ず読んでください。" },
+                    { eng: "Don't hesitate to ask if you need anything.", jpn: "何か必要な場合は遠慮なく聞いてくださいね。" }
+                ]
+            },
+            {
+                category: "4. Explaining plans & settling in (予定の説明と落ち着く時間)",
+                options: [
+                    { eng: "We are going to go over your schedule at 10.", jpn: "午前10時にスケジュールを確認する予定です。" },
+                    { eng: "We are going to have a welcome lunch today.", jpn: "今日、歓迎ランチをする予定です。" },
+                    { eng: "Take some time to get settled in.", jpn: "少し時間を取って落ち着いてください。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "一時的なパスワードを使ってログインしてください。", target: "Please log in using the temporary password.", words: ["Please", "log", "in", "using", "the", "temporary", "password."] },
-            { prompt: "午前10時にスケジュールを確認する予定です。", target: "We are going to go over the schedule at 10 AM.", words: ["We", "are", "going", "to", "go", "over", "the", "schedule", "at", "10", "AM."] },
-            { prompt: "あなたのデスクへ案内させてください。", target: "Let me show you to your desk.", words: ["Let", "me", "show", "you", "to", "your", "desk."] },
-            { prompt: "オフィス用品が必要な場合は遠慮なく聞いてください。", target: "Don't hesitate to ask if you need office supplies.", words: ["Don't", "hesitate", "to", "ask", "if", "you", "need", "office", "supplies."] },
-            { prompt: "少し時間を取って落ち着いてください（慣れてください）。", target: "Take some time to get settled in.", words: ["Take", "some", "time", "to", "get", "settled", "in."] }
-        ],
-        dropdownGames: [
-            { before: "Welcome", options: ["aboard", "board", "abroad"], answer: "aboard", after: "! We are glad you are here." },
-            { before: "", options: ["Let me", "Shall I", "Would you"], answer: "Let me", after: " show you around the office." },
-            { before: "We are", options: ["go to", "going to", "goes to"], answer: "going to", after: " have a welcome lunch today." },
-            { before: "Please", options: ["don't", "not", "no"], answer: "don't", after: " hesitate to ask questions." },
-            { before: "Take a moment to get", options: ["settle", "settling", "settled"], answer: "settled", after: " in before the meeting." }
         ],
         roleplay: {
             a: "You are the manager welcoming a new employee on their first day. Use an imperative to instruct them to log into their computer, and use 'are going to' to explain a plan for the afternoon. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは初日に新入社員を歓迎するマネージャーです。命令形を使ってコンピューターにログインするよう指示し、「are going to」を使って午後の予定を説明してください。)</span>",
@@ -4437,24 +4674,35 @@ const b1Curriculum = [
                 { eng: "Bring up", jpn: "話題を持ち出す", exEng: "Don't hesitate to bring up any concerns.", exJpn: "懸念事項があれば遠慮なく話題に持ち出してください。" },
                 { eng: "Read up on", jpn: "〜について詳しく調べる", exEng: "Read up on our products on the intranet.", exJpn: "イントラネットで当社の製品について詳しく調べてください。" },
                 { eng: "Depend on", jpn: "〜に頼る", exEng: "You can depend on your mentor for advice.", exJpn: "アドバイスについてはメンターに頼ることができます。" },
-                { eng: "Focus on", jpn: "集中する", exEng: "Today, focus on completing the online training.", exJpn: "今日はオンライン研修を完了することに集中してください。" },
+                { eng: "Focus on", jpn: "〜に集中する", exEng: "Today, focus on completing the online training.", exJpn: "今日はオンライン研修を完了することに集中してください。" },
                 { eng: "Follow up", jpn: "フォローアップする、後で確認する", exEng: "I am going to follow up with you tomorrow morning.", exJpn: "明日の朝、あなたにフォローアップ（状況確認）する予定です。" },
                 { eng: "Write down", jpn: "書き留める", exEng: "Please write down your locker combination.", exJpn: "ロッカーの暗証番号を書き留めておいてください。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Imperatives for polite instructions (Please / Don't) - 4 sentences
+                { prompt: "一時的なパスワードを使ってログインしてください。", target: "Please log in using the temporary password.", words: ["Please", "log", "in", "using", "the", "temporary", "password."] },
+                { prompt: "オフィス用品が必要な場合は遠慮なく聞いてください。", target: "Don't hesitate to ask if you need office supplies.", words: ["Don't", "hesitate", "to", "ask", "if", "you", "need", "office", "supplies."] },
+                { prompt: "従業員ハンドブックを必ず読んでください。", target: "Please read the employee handbook today.", words: ["Please", "read", "the", "employee", "handbook", "today."] },
+                { prompt: "問題があればITサポートチケットを提出してください。", target: "Please submit an IT support ticket if needed.", words: ["Please", "submit", "an", "IT", "support", "ticket", "if", "needed."] },
+                // Grammar Point 2: Future plans (be going to + verb) - 4 sentences
+                { prompt: "午前10時にスケジュールを確認する予定です。", target: "We are going to go over the schedule at 10 AM.", words: ["We", "are", "going", "to", "go", "over", "the", "schedule", "at", "10", "AM."] },
+                { prompt: "後であなたをチームに紹介する予定です。", target: "I am going to introduce you to the team later.", words: ["I", "am", "going", "to", "introduce", "you", "to", "the", "team", "later."] },
+                { prompt: "今日、歓迎ランチをする予定です。", target: "We are going to have a welcome lunch today.", words: ["We", "are", "going", "to", "have", "a", "welcome", "lunch", "today."] },
+                { prompt: "昼食後、オフィスを案内する予定です。", target: "I am going to show you around after lunch.", words: ["I", "am", "going", "to", "show", "you", "around", "after", "lunch."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 7 - First-Day Readiness Quiz)",
+                instruction: "Read this short check on welcoming a new hire on day one. Notice imperatives and 'be going to' plans.",
+                eng: "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>👋 DAY ONE CHECK: How Well Do You Welcome a New Hire?</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>A warm greeting and clear instructions help a new hire settle in on their first morning. How would you handle these moments?</p><span class='er-quiz-q'>1. A new colleague arrives at 9:00 AM with their bag and welcome packet. You say:</span><span class='er-quiz-opt'>A) Welcome aboard! Let me show you to your desk, and take some time to get settled in.</span><span class='er-quiz-opt'>B) Your desk is over there; read the handbook by yourself until noon.</span><span class='er-quiz-q'>2. They ask about logging in and their morning plan. You explain:</span><span class='er-quiz-opt'>A) Please log in with your temporary password, and we are going to go over your schedule at 10:00 AM.</span><span class='er-quiz-opt'>B) Figure out the password later; I don't know what we are doing today.</span><div class='er-quiz-res'><strong>💡 Key Takeaway:</strong><br>Clear instructions plus a friendly schedule help new hires feel welcome and touch base with confidence.</div></div>",
+                jpn: "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>👋 初日チェック：新入社員をどれくらい温かく迎えられますか？</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>温かい挨拶と明確な指示は、新入社員が最初の朝に落ち着く助けになります。次の場面にどう対応しますか？</p><span class='er-quiz-q'>1. 新しい同僚がカバンとウェルカムパケットを持って午前9時に到着しました。あなたは何と言いますか？</span><span class='er-quiz-opt'>A) 入社おめでとう（ようこそ）！デスクへ案内するね。少し時間を取って落ち着いてください。</span><span class='er-quiz-opt'>B) デスクはあそこだよ。昼まで一人でハンドブックを読んでいて。</span><span class='er-quiz-q'>2. ログイン方法や午前の予定について聞かれました。どう説明しますか？</span><span class='er-quiz-opt'>A) 一時パスワードでログインしてください。午前10時にスケジュールを確認する予定です。</span><span class='er-quiz-opt'>B) パスワードは後で自分で調べて。今日何をするかはわからないから。</span><div class='er-quiz-res'><strong>💡 重要なポイント：</strong><br>明確な指示と分かりやすいスケジュールは、新入社員が歓迎されていると感じ、自信を持って連絡・相談する助けになります。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short email welcoming a new employee. Use imperatives (Please...) to give two instructions, and use 'are going to' to explain one plan for their first day.",
                 promptJpn: "「新入社員を歓迎する短いメールを書いてください。命令形（Please...）を使って2つの指示を出し、『are going to』を使って初日の1つの予定を説明してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The First Day Experience)",
-                instruction: "Read this authentic text about managing a new hire's first day in a corporate environment.",
-                eng: "A new employee's first day is a critical milestone that sets the tone for their entire career at a company. When an individual walks into a new office, they are naturally filled with a mix of excitement and anxiety. They want to make a good impression, but they also do not know the basic logistics of the environment—such as where to sit, how to access the network, or even where the restrooms are located. Therefore, a successful onboarding strategy must prioritize clear communication, structured schedules, and immediate practical support.\n\nThe initial greeting is incredibly important. A manager or HR representative should be ready to say, 'Welcome aboard! Let me show you to your desk.' Taking the new hire on a brief office tour helps them physically orient themselves. Following this, the focus should shift to technology setup. In the modern workplace, an employee cannot be productive without IT access. Managers should give clear, polite instructions, such as, 'Please log in using the temporary credentials provided in your packet, and don't hesitate to reach out to the IT helpdesk if you encounter any errors.' Having the workspace fully prepared beforehand demonstrates that the company is organized and values the new employee's time.\n\nAfter the initial setup, giving the employee a moment to breathe is highly recommended. Saying 'Take some time to get settled in' allows the new hire to review their employee handbook or adjust their chair without feeling rushed. Finally, outlining the agenda for the rest of the day creates a sense of purpose and structure. Stating, 'We are going to go over the department goals after lunch,' provides clear expectations. By balancing warm hospitality with structured professional guidance, companies ensure that new hires hit the ground running with confidence.",
-                jpn: "新入社員の初日は、会社でのキャリア全体の方向性を決定づける重要なマイルストーンです。個人が新しいオフィスに足を踏み入れるとき、彼らは自然と興奮と不安の入り混じった気持ちで満たされています。彼らは良い印象を与えたいと思っていますが、同時に、どこに座るか、ネットワークにどうアクセスするか、あるいはトイレがどこにあるかといった、環境の基本的なロジスティクスを知りません。それゆえに、成功するオンボーディング戦略は、明確なコミュニケーション、構造化されたスケジュール、そして即時の実践的なサポートを優先しなければならないのです。\n\n最初の挨拶は信じられないほど重要です。マネージャーや人事の担当者は、「チームへようこそ（入社おめでとう）！デスクへご案内します」と言う準備ができているべきです。新入社員を短いオフィスツアーに連れて行くことは、彼らが物理的に自分の位置を把握するのに役立ちます。これに続いて、焦点はテクノロジーのセットアップに移るべきです。現代の職場において、従業員はITへのアクセスなしでは生産的になれません。マネージャーは、「パケットで提供された一時的な認証情報を使ってログインしてください。エラーが発生した場合は、遠慮せずにITヘルプデスクに連絡してください」といった明確で丁寧な指示を出すべきです。事前にワークスペースを完全に準備しておくことは、会社が組織化されており、新入社員の時間を大切にしていることを示します。\n\n初期セットアップの後、従業員に一息つく時間を与えることが強く推奨されます。「少し時間を取って落ち着いてください」と言うことで、新入社員は急かされていると感じることなく、従業員ハンドブックを復習したり、椅子の調整をしたりすることができます。最後に、その日の残りのアジェンダを概説することで、目的意識と構造が生まれます。「昼食後、部門の目標について確認する予定です」と述べることで、明確な期待が提供されます。温かいおもてなしと構造化されたプロフェッショナルな指導のバランスをとることで、企業は新入社員が自信を持ってすぐに本格的な活動を始められるようにするのです。"
             }
         }
     },
-
-{
+    {
         id: 38,
         chapter: "Chapter 6: Onboarding and training",
         type: "opinion",
@@ -4464,30 +4712,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "Every workplace has an official employee handbook, but the 'unwritten rules' are usually much more important. These are the social expectations that you only learn by observing your colleagues carefully. For example, in my office, you are officially allowed to take a one-hour lunch break. However, almost everyone eats quickly at their desks. If a new employee takes a full hour outside the office every day, people might silently judge them. Another unwritten rule involves email etiquette. We generally reply to internal emails within two hours, even if there is no official policy stating this. Navigating these subtle cultural norms can be very stressful for new hires, but paying attention to how senior staff behave helps you fit in smoothly.", 
-                    jpn: "どの職場にも公式な従業員ハンドブックがありますが、通常は「暗黙のルール」の方がはるかに重要です。これらは、同僚を注意深く観察することによってのみ学べる社会的な期待です。例えば、私のオフィスでは公式には1時間の昼休みを取ることが許可されています。しかし、ほぼ全員が自分のデスクで急いで食事をします。もし新入社員が毎日オフィスの外で丸1時間休んだら、人々は黙って彼らを批判するかもしれません。もう一つの暗黙のルールはメールのエチケットに関わるものです。これを規定する公式の方針がなくても、私たちは一般的に社内メールには2時間以内に返信します。これらの微妙な文化的規範を乗り切ることは新入社員にとって非常にストレスになる可能性がありますが、先輩スタッフがどのように振る舞うかに注意を払うことは、スムーズに馴染むのに役立ちます。" 
+                {
+                    name: "Person 1",
+                    eng: "Every workplace has an official employee handbook, but the 'unwritten rules' are usually much more important. These are the social expectations that you only learn by observing your colleagues carefully. For example, in my office, you are officially allowed to take a one-hour lunch break. However, almost everyone eats quickly at their desks. If a new employee takes a full hour outside the office every day, people might silently judge them. Another unwritten rule involves email etiquette. We generally reply to internal emails within two hours, even if there is no official policy stating this. Navigating these subtle cultural norms can be very stressful for new hires, but paying attention to how senior staff behave helps you fit in smoothly.",
+                    jpn: "どの職場にも公式な従業員ハンドブックがありますが、通常は「暗黙のルール」の方がはるかに重要です。これらは、同僚を注意深く観察することによってのみ学べる社会的な期待です。例えば、私のオフィスでは公式には1時間の昼休みを取ることが許可されています。しかし、ほぼ全員が自分のデスクで急いで食事をします。もし新入社員が毎日オフィスの外で丸1時間休んだら、人々は黙って彼らを批判するかもしれません。もう一つの暗黙のルールはメールのエチケットに関わるものです。これを規定する公式の方針がなくても、私たちは一般的に社内メールには2時間以内に返信します。これらの微妙な文化的規範を乗り切ることは新入社員にとって非常にストレスになる可能性がありますが、先輩スタッフがどのように振る舞うかに注意を払うことは、スムーズに馴染むのに役立ちます。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "I think open-plan offices have created entirely new rules for workplace etiquette. Without physical walls, noise travels easily, so respecting your coworkers' focus is crucial. If you need to have a long conversation, you should definitely book a meeting room quietly rather than talking loudly next to someone's desk. Also, eating strong-smelling food in an open office is a terrible idea. I once had a colleague who microwaved fish for lunch every Friday, and it drove everyone crazy! Another major issue is the assumption of availability. Just because you can see me sitting at my desk does not mean I am free to chat. Wearing headphones is our universal signal that we are busy and need to work uninterrupted.", 
-                    jpn: "オープンプラン（間仕切りのない）のオフィスは、職場のエチケットに関して全く新しいルールを生み出したと思います。物理的な壁がないため音が簡単に伝わり、同僚の集中を尊重することが極めて重要です。長話をする必要がある場合は、誰かのデスクの横で大声で話すのではなく、間違いなく静かに会議室を予約すべきです。また、オープンなオフィスで匂いの強い食べ物を食べるのは最悪なアイデアです。以前、毎週金曜日の昼食に魚を電子レンジで温める同僚がいて、みんなをイライラさせました！もう一つの大きな問題は、「いつでも話しかけられる」という思い込みです。私がデスクに座っているのが見えるからといって、雑談する暇があるとは限りません。ヘッドホンをしているのは、私たちが忙しく、邪魔されずに働く必要があるという普遍的なサインなのです。" 
+                {
+                    name: "Person 2",
+                    eng: "I think open-plan offices have created entirely new rules for workplace etiquette. Without physical walls, noise travels easily, so respecting your coworkers' focus is crucial. If you need to have a long conversation, you should definitely book a meeting room quietly rather than talking loudly next to someone's desk. Also, eating strong-smelling food in an open office is a terrible idea. I once had a colleague who microwaved fish for lunch every Friday, and it drove everyone crazy! Another major issue is the assumption of availability. Just because you can see me sitting at my desk does not mean I am free to chat. Wearing headphones is our universal signal that we are busy and need to work uninterrupted.",
+                    jpn: "オープンプラン（間仕切りのない）のオフィスは、職場のエチケットに関して全く新しいルールを生み出したと思います。物理的な壁がないため音が簡単に伝わり、同僚の集中を尊重することが極めて重要です。長話をする必要がある場合は、誰かのデスクの横で大声で話すのではなく、間違いなく静かに会議室を予約すべきです。また、オープンなオフィスで匂いの強い食べ物を食べるのは最悪なアイデアです。以前、毎週金曜日の昼食に魚を電子レンジで温める同僚がいて、みんなをイライラさせました！もう一つの大きな問題は、「いつでも話しかけられる」という思い込みです。私がデスクに座っているのが見えるからといって、雑談する暇があるとは限りません。ヘッドホンをしているのは、私たちが忙しく、邪魔されずに働く必要があるという普遍的なサインなのです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "Workplace culture is rapidly changing, particularly regarding flexible hours and remote work policies. In the past, managers valued 'face time'—meaning they wanted to see you sitting in your chair from 9 AM to 5 PM. If you left early, you were considered lazy. Today, progressive companies focus entirely on output and results. My current boss doesn't care if I take a two-hour break to go to the gym, as long as I complete my projects perfectly and on time. This flexibility builds immense trust and loyalty. However, it requires a lot of self-discipline. When you work from home, the boundary between your personal life and work life can disappear completely. You have to actively log off and ignore notifications to prevent burnout.", 
-                    jpn: "職場文化は急速に変化しており、特にフレックスタイム制やリモートワークのポリシーに関して顕著です。過去には、マネージャーは「対面時間」を重視していました。つまり、午前9時から午後5時まで椅子に座っているのを見たがったのです。早く帰ると怠け者だと見なされました。今日、進歩的な企業は完全に生産高と結果に焦点を当てています。私の現在の上司は、私がプロジェクトを完璧に、そして時間通りに完了させる限り、ジムに行くために2時間の休憩を取っても気にしません。この柔軟性は絶大な信頼と忠誠心を築きます。しかし、それには多くの自己規律が必要です。在宅勤務をしていると、私生活と仕事生活の境界線が完全に消えてしまうことがあります。燃え尽き症候群（バーンアウト）を防ぐために、積極的にログオフし、通知を無視しなければなりません。" 
+                {
+                    name: "Person 3",
+                    eng: "Workplace culture is rapidly changing, particularly regarding flexible hours and remote work policies. In the past, managers valued 'face time'—meaning they wanted to see you sitting in your chair from 9 AM to 5 PM. If you left early, you were considered lazy. Today, progressive companies focus entirely on output and results. My current boss doesn't care if I take a two-hour break to go to the gym, as long as I complete my projects perfectly and on time. This flexibility builds immense trust and loyalty. However, it requires a lot of self-discipline. When you work from home, the boundary between your personal life and work life can disappear completely. You have to actively log off and ignore notifications to prevent burnout.",
+                    jpn: "職場文化は急速に変化しており、特にフレックスタイム制やリモートワークのポリシーに関して顕著です。過去には、マネージャーは「対面時間」を重視していました。つまり、午前9時から午後5時まで椅子に座っているのを見たがったのです。早く帰ると怠け者だと見なされました。今日、進歩的な企業は完全に生産高と結果に焦点を当てています。私の現在の上司は、私がプロジェクトを完璧に、そして時間通りに完了させる限り、ジムに行くために2時間の休憩を取っても気にしません。この柔軟性は絶大な信頼と忠誠心を築きます。しかし、それには多くの自己規律が必要です。在宅勤務をしていると、私生活と仕事生活の境界線が完全に消えてしまうことがあります。燃え尽き症候群（バーンアウト）を防ぐために、積極的にログオフし、通知を無視しなければなりません。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Unwritten Rules 📖", themeJpn: "暗黙のルール", sub: [{eng: "Lunch habits", jpn: "昼休みの習慣"}, {eng: "Email response times", jpn: "メールの返信時間"}, {eng: "Leaving early", jpn: "早退"}] },
-            { theme: "Open Offices 📖", themeJpn: "オープンオフィス", sub: [{eng: "Noise levels", jpn: "騒音レベル"}, {eng: "Eating at desks", jpn: "デスクでの食事"}, {eng: "Headphone signals", jpn: "ヘッドホンのサイン"}] },
-            { theme: "Flexible Working 📖", themeJpn: "柔軟な働き方", sub: [{eng: "Focus on results", jpn: "結果へのフォーカス"}, {eng: "Gym breaks", jpn: "ジム休憩"}, {eng: "Self-discipline", jpn: "自己規律"}] },
-            { theme: "Work-Life Boundaries 📖", themeJpn: "仕事とプライベートの境界", sub: [{eng: "Ignoring notifications", jpn: "通知の無視"}, {eng: "Logging off", jpn: "ログオフすること"}, {eng: "Preventing burnout", jpn: "燃え尽きの防止"}] },
-            { theme: "Office Interactions 📖", themeJpn: "オフィスでの交流", sub: [{eng: "Booking meeting rooms", jpn: "会議室の予約"}, {eng: "Casual chatting", jpn: "カジュアルな雑談"}, {eng: "Interrupting coworkers", jpn: "同僚の邪魔をすること"}] },
-            { theme: "Evaluating Employees 📖", themeJpn: "従業員の評価", sub: [{eng: "Face time", jpn: "対面時間"}, {eng: "Project completion", jpn: "プロジェクトの完了"}, {eng: "Building trust", jpn: "信頼の構築"}] }
+            { theme: "Unwritten Rules 📖", themeJpn: "暗黙のルール", sub: [{ eng: "Lunch habits", jpn: "昼休みの習慣" }, { eng: "Email response times", jpn: "メールの返信時間" }, { eng: "Leaving early", jpn: "早退" }] },
+            { theme: "Open Offices 📖", themeJpn: "オープンオフィス", sub: [{ eng: "Noise levels", jpn: "騒音レベル" }, { eng: "Eating at desks", jpn: "デスクでの食事" }, { eng: "Headphone signals", jpn: "ヘッドホンのサイン" }] },
+            { theme: "Flexible Working 📖", themeJpn: "柔軟な働き方", sub: [{ eng: "Focus on results", jpn: "結果へのフォーカス" }, { eng: "Gym breaks", jpn: "ジム休憩" }, { eng: "Self-discipline", jpn: "自己規律" }] },
+            { theme: "Work-Life Boundaries 📖", themeJpn: "仕事とプライベートの境界", sub: [{ eng: "Ignoring notifications", jpn: "通知の無視" }, { eng: "Logging off", jpn: "ログオフすること" }, { eng: "Preventing burnout", jpn: "燃え尽きの防止" }] },
+            { theme: "Office Interactions 📖", themeJpn: "オフィスでの交流", sub: [{ eng: "Booking meeting rooms", jpn: "会議室の予約" }, { eng: "Casual chatting", jpn: "カジュアルな雑談" }, { eng: "Interrupting coworkers", jpn: "同僚の邪魔をすること" }] },
+            { theme: "Evaluating Employees 📖", themeJpn: "従業員の評価", sub: [{ eng: "Face time", jpn: "対面時間" }, { eng: "Project completion", jpn: "プロジェクトの完了" }, { eng: "Building trust", jpn: "信頼の構築" }] }
         ],
         questions: [
             { eng: "1. What is an unwritten rule in your current or past workplace?", jpn: "1. 現在または過去の職場での「暗黙のルール」は何ですか？" },
@@ -4563,15 +4811,27 @@ const b1Curriculum = [
                 { eng: "Take on", jpn: "引き受ける", exEng: "Don't take on too much work immediately.", exJpn: "すぐに多くの仕事を背負い込まないで（引き受けないで）ください。" },
                 { eng: "Leave out", jpn: "省く、仲間外れにする", exEng: "She felt left out of the casual office chats.", exJpn: "彼女はオフィスのカジュアルな雑談から仲間外れにされていると感じました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Adverbs of manner - 4 sentences
+                { prompt: "会議室を静かに予約すべきです。", target: "You should book a meeting room quietly.", words: ["You", "should", "book", "a", "meeting", "room", "quietly."] },
+                { prompt: "彼は時間通りにプロジェクトを無事に完了しました。", target: "He successfully completed the project on time.", words: ["He", "successfully", "completed", "the", "project", "on", "time."] },
+                { prompt: "多くの同僚がデスクで素早く昼食を食べます。", target: "Many coworkers eat lunch quickly at their desks.", words: ["Many", "coworkers", "eat", "lunch", "quickly", "at", "their", "desks."] },
+                { prompt: "マネージャーは間違いを丁寧に指摘しました。", target: "The manager pointed out the mistake politely.", words: ["The", "manager", "pointed", "out", "the", "mistake", "politely."] },
+                // Grammar Point 2: Lack of obligation (don't have to / don't need to) - 4 sentences
+                { prompt: "週末にメールに返信する必要はありません。", target: "You don't have to reply to emails on weekends.", words: ["You", "don't", "have", "to", "reply", "to", "emails", "on", "weekends."] },
+                { prompt: "金曜日はスーツを着る必要はありません。", target: "We don't need to wear suits on Fridays.", words: ["We", "don't", "need", "to", "wear", "suits", "on", "Fridays."] },
+                { prompt: "きっちり午前9時に出社する必要はありません。", target: "You don't have to show up at 9 AM sharp.", words: ["You", "don't", "have", "to", "show", "up", "at", "9", "AM", "sharp."] },
+                { prompt: "常に長い挨拶を書く必要はありません。", target: "You don't need to write a long greeting.", words: ["You", "don't", "need", "to", "write", "a", "long", "greeting."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 8 - Guide to Unwritten Office Rules)",
+                instruction: "Read this guide on unwritten workplace rules, open offices, and flexible work. Notice adverbs of manner and 'don't have to / don't need to'.",
+                eng: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>🏢 Unwritten Rules at Work: How to Fit In Smoothly</h3><p><strong>Lunch &amp; Noise Etiquette:</strong> An employee handbook covers official hours, yet unwritten rules shape daily life. In an open-plan office, people often eat lunch quickly at their desks and speak quietly near others. You should book a meeting room for long calls so you do not distract coworkers.</p><p><strong>Emails &amp; Focus Signals:</strong> In general, teams reply to internal emails promptly on weekdays, though you don't have to answer messages late at night. Wearing headphones is a clear signal that you are focusing deeply and cannot chat casually right then.</p><p><strong>Flexible Hours vs. Face Time:</strong> On the other hand, modern teams care more about results than sitting at a desk for face time. You don't need to stay late just to look busy if your tasks are finished properly.</p><p><strong>Self-Discipline &amp; Burnout:</strong> To be honest, flexible schedules take real self-discipline. Logging off on time and muting alerts after hours helps prevent burnout while keeping workplace etiquette strong.</p></div>",
+                jpn: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>🏢 職場の暗黙のルール：スムーズに馴染むコツ</h3><p><strong>昼食と騒音のエチケット：</strong> 従業員ハンドブックには公式の勤務時間が書かれていますが、日々の生活を形作るのは暗黙のルールです。オープンプランのオフィスでは、デスクで素早く昼食をとったり、周囲の近くでは静かに話したりすることがよくあります。同僚の集中を妨げないよう、長電話には会議室を予約すべきです。</p><p><strong>メールと集中のサイン：</strong> 一般的に、平日は社内メールに素早く返信しますが、夜遅くにメッセージへ答える必要はありません。ヘッドホンをつけることは、深く集中していて今は気軽に雑談できないという明確なサインです。</p><p><strong>柔軟な時間対対面時間：</strong> その一方で、現代のチームは対面時間のためにデスクに座ることよりも結果を重視します。タスクが適切に終わっているなら、忙しそうに見せるためだけに遅くまで残る必要はありません。</p><p><strong>自己規律と燃え尽き防止：</strong> 正直に言うと、柔軟なスケジュールには本当の自己規律が必要です。定時でログオフし、終業後に通知をオフにすることで、職場のエチケットを保ちながら燃え尽きを防ぐことができます。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: What is an unwritten rule in your workplace? Explain it using an adverb of manner (e.g., quietly, quickly) and 'don't have to/don't need to'.",
                 promptJpn: "「あなたの職場の暗黙のルールは何ですか？様態の副詞（例：quietly, quickly）と『don't have to/don't need to』を使って説明する短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (Navigating Office Etiquette)",
-                instruction: "Read this authentic article to learn more about unwritten rules in corporate environments.",
-                eng: "When a new professional joins a company, they are usually handed a thick employee handbook outlining the official rules: working hours, dress codes, and IT security protocols. However, the true culture of an organization is hidden in its unwritten rules. These invisible guidelines govern how people actually interact on a daily basis. For example, the handbook might state that business casual attire is perfectly acceptable. Yet, if the new hire observes that all the senior managers dress formally in dark suits, the unwritten rule is clear: if you want to be promoted, you should dress like leadership. Understanding these social nuances is critical for a new employee trying to fit in smoothly.\n\nCommunication platforms have created a whole new set of unwritten etiquette rules. In many modern offices, sending an instant message saying just 'Hello' without immediately stating your request is considered highly annoying. Coworkers expect you to communicate efficiently. You don't have to write a long, formal greeting on Slack; you simply need to state your question directly. Similarly, scheduling a meeting without an agenda is a major faux pas. People highly value their time, and an agenda proves that the meeting is actually necessary.\n\nFurthermore, the shift to open-plan offices has made spatial awareness vital. Because there are no walls, employees must constantly monitor their own noise levels. Taking a loud personal phone call at your desk or eating a smelly lunch in the shared space shows a lack of respect for your peers. If you need to focus, putting on large headphones is the universally accepted signal that you are unavailable for casual chatting. Ultimately, adapting to a company's unwritten rules requires emotional intelligence and active observation. By respectfully watching how experienced colleagues navigate the day, new hires can quickly learn the ropes and thrive in their new environment.",
-                jpn: "新しいプロフェッショナルが会社に入社したとき、彼らは通常、労働時間、服装規定、ITセキュリティプロトコルなどの公式なルールを概説した分厚い従業員ハンドブックを手渡されます。しかし、組織の真の文化は、その暗黙のルールの中に隠されています。これらの目に見えないガイドラインが、人々が日常的に実際にどのように交流するかを支配しているのです。例えば、ハンドブックにはビジネスカジュアルな服装が完全に許容されると記載されているかもしれません。しかし、もし新入社員がシニアマネージャー全員がダークスーツでフォーマルな服装をしているのを観察した場合、暗黙のルールは明確です。昇進したければ、リーダーシップ層のように服を着るべきだということです。これらの社会的なニュアンスを理解することは、スムーズに馴染もうとする新入社員にとって極めて重要です。\n\nコミュニケーションプラットフォームは、全く新しい一連の暗黙のエチケットルールを生み出しました。多くの現代のオフィスでは、すぐに用件を述べずにただ「こんにちは」とだけメッセージを送ることは、非常に迷惑だと見なされます。同僚はあなたが効率的にコミュニケーションをとることを期待しています。Slackで長くフォーマルな挨拶を書く必要はありません。単に直接質問を述べるだけでよいのです。同様に、アジェンダ（議題）なしで会議をスケジュールすることは大きな失作です。人々は自分の時間を高く評価しており、アジェンダはその会議が実際に必要であることを証明します。\n\nさらに、オープンプランのオフィスへの移行により、空間認識が不可欠になりました。壁がないため、従業員は常に自分自身の騒音レベルを監視しなければなりません。自分のデスクで大声で個人的な電話をかけたり、共有スペースで匂いの強い昼食を食べたりすることは、同僚への敬意の欠如を示しています。集中する必要がある場合、大きなヘッドホンをつけることが、カジュアルな雑談には応じられないという普遍的に受け入れられたサインとなります。最終的に、会社の暗黙のルールに適応するには、心の知能指数と積極的な観察が必要です。経験豊富な同僚がどのように一日を切り抜けているかを敬意を持って観察することで、新入社員はすぐに仕事のコツを覚え、新しい環境で活躍できるのです。"
             }
         }
     },
@@ -4624,46 +4884,38 @@ const b1Curriculum = [
             { eng: "Confirm understanding + Express gratitude", jpn: "理解を確認する ＋ 感謝を表現する", indent: true }
         ],
         expressions: [
-            { category: "1. Stating purpose of interaction (目的を述べる)", options: ["I need to explain our security rules to you.", "Let's go over the IT protocols.", "I am here to set up your digital workspace."] },           
-            { category: "2. Explaining forced policies (強制される方針を説明する)", options: ["We make all employees use multi-factor authentication.", "Security makes us change passwords frequently.", "The manager will have you sign this policy."] }, 
-            { category: "3. Explaining restrictions (制限を説明する)", options: ["The company doesn't let anyone install unauthorized software.", "We don't let staff use personal USB drives.", "The system won't let you log in without MFA."] },
-            { category: "4. Stating purpose of an action (行動の目的を述べる)", options: ["I downloaded the app in order to log in.", "You need a VPN to access the servers.", "In order to stay safe, avoid phishing emails."] },
-            { category: "5. Explaining consequences (結果を説明する)", options: ["The system will lock you out automatically.", "You will lose access to the shared drive.", "Your account will be suspended."] },
-            { category: "6. Explaining procedures (手順を説明する)", options: ["You have to submit an IT support ticket.", "Please contact the helpdesk for approval.", "You must send a request via the portal."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Causative Verbs: Forced actions (make + object + base verb)",
-                explanation: "We use 'make' to describe an action that one person (or company policy) forces another person to do. We do not use 'to' with 'make'.",
-                explanationJpn: "ある人（または会社の方針）が別の人に強制的に行動させることを説明するために「make」を使用します。「make」と一緒に「to」は使用しません。",
-                examples: [
-                    { eng: "The company makes us change our passwords every 90 days.", jpn: "会社は私たちに90日ごとにパスワードを変更させます。" },
-                    { eng: "Security protocols make employees use VPNs.", jpn: "セキュリティプロトコルは従業員にVPNを使用させます。" }
+                category: "1. Explaining forced policies with 'make' (強制される方針を説明する)",
+                options: [
+                    { eng: "We make all employees use multi-factor authentication.", jpn: "すべての従業員に多要素認証を使用させます。" },
+                    { eng: "Security makes us change passwords every 90 days.", jpn: "セキュリティルールで90日ごとにパスワードを変更させます。" },
+                    { eng: "IT makes new hires connect via VPN.", jpn: "IT部門は新入社員にVPN経由で接続させます。" }
                 ]
             },
             {
-                point: "2. Expressing Purpose (in order to / to + base verb)",
-                explanation: "To explain *why* an action is performed, we use 'to' or 'in order to' followed by a base verb. 'In order to' sounds slightly more formal.",
-                explanationJpn: "なぜその行動が行われるのかを説明するために、「to」または「in order to」の後に動詞の原形を続けて使用します。「in order to」の方が少しフォーマルに聞こえます。",
-                examples: [
+                category: "2. Explaining restrictions with 'let' (制限を説明する)",
+                options: [
+                    { eng: "The company doesn't let anyone install unauthorized software.", jpn: "会社は誰にも無許可のソフトウェアのインストールを許可していません。" },
+                    { eng: "We don't let staff use personal USB drives.", jpn: "スタッフに個人のUSBドライブを使わせません。" },
+                    { eng: "The system won't let you log in without MFA.", jpn: "多要素認証なしではシステムにログインできません。" }
+                ]
+            },
+            {
+                category: "3. Stating purpose with 'in order to' (行動の目的を述べる)",
+                options: [
                     { eng: "I downloaded the app in order to log in.", jpn: "ログインするためにアプリをダウンロードしました。" },
-                    { eng: "You need a VPN to access the internal servers.", jpn: "内部サーバーにアクセスするにはVPNが必要です。" }
+                    { eng: "Use a VPN in order to reach company servers.", jpn: "社内サーバーにアクセスするためにVPNを使ってください。" },
+                    { eng: "Check links carefully in order to avoid phishing emails.", jpn: "フィッシングメールを避けるためにリンクを注意深く確認してください。" }
+                ]
+            },
+            {
+                category: "4. Consequences & support tickets (結果とサポート依頼)",
+                options: [
+                    { eng: "The system will lock you out automatically.", jpn: "システムが自動的にあなたを締め出します。" },
+                    { eng: "You have to submit an IT support ticket.", jpn: "ITサポートチケットを提出しなければなりません。" },
+                    { eng: "Contact tech support if you get locked out.", jpn: "締め出された場合はテクニカルサポートに連絡してください。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "会社は私たちに90日ごとにパスワードを変更させます。", target: "The company makes us change our passwords every 90 days.", words: ["The", "company", "makes", "us", "change", "our", "passwords", "every", "90", "days."] },
-            { prompt: "ログインするためにアプリをダウンロードしました。", target: "I downloaded the app in order to log in.", words: ["I", "downloaded", "the", "app", "in", "order", "to", "log", "in."] },
-            { prompt: "会社は無許可のソフトウェアのインストールを許可しません。", target: "The company doesn't let anyone install unauthorized software.", words: ["The", "company", "doesn't", "let", "anyone", "install", "unauthorized", "software."] },
-            { prompt: "当社のセキュリティルールをご説明する必要があります。", target: "I need to explain our security rules to you.", words: ["I", "need", "to", "explain", "our", "security", "rules", "to", "you."] },
-            { prompt: "システムが自動的にあなたを締め出します。", target: "The system will lock you out automatically.", words: ["The", "system", "will", "lock", "you", "out", "automatically."] }
-        ],
-        dropdownGames: [
-            { before: "The IT department", options: ["makes", "lets", "wants"], answer: "makes", after: " everyone use two-factor authentication." },
-            { before: "I need my password", options: ["to", "for", "in order"], answer: "to", after: " check my email." },
-            { before: "The company doesn't", options: ["make", "let", "have"], answer: "let", after: " us use personal laptops for work." },
-            { before: "I installed the antivirus", options: ["for", "to", "in order to"], answer: "in order to", after: " protect my data." },
-            { before: "You have to submit a", options: ["ticket", "receipt", "invoice"], answer: "ticket", after: " to request a new monitor." }
         ],
         roleplay: {
             a: "You are the IT manager. Explain the company's password policy to a new hire. Use 'make' to explain a forced rule, and 'doesn't let' to explain a restriction on software. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはITマネージャーです。新入社員に会社のパスワードポリシーを説明してください。強制的なルールを説明するために「make」を使い、ソフトウェアの制限を説明するために「doesn't let」を使ってください。)</span>",
@@ -4690,20 +4942,31 @@ const b1Curriculum = [
                 { eng: "Shut down", jpn: "シャットダウンする、停止する", exEng: "You should properly shut down your PC at night.", exJpn: "夜にはPCを適切にシャットダウンすべきです。" },
                 { eng: "Wipe out", jpn: "完全に消去する、破壊する", exEng: "The virus maliciously wiped out the hard drive.", exJpn: "そのウイルスはハードドライブを悪意を持って完全に消去しました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Forced actions (make + object + base verb) - 4 sentences
+                { prompt: "会社は私たちに90日ごとにパスワードを変更させます。", target: "The company makes us change our passwords every 90 days.", words: ["The", "company", "makes", "us", "change", "our", "passwords", "every", "90", "days."] },
+                { prompt: "セキュリティプロトコルは従業員にVPNを使用させます。", target: "Security protocols make employees use VPNs.", words: ["Security", "protocols", "make", "employees", "use", "VPNs."] },
+                { prompt: "IT部門はすべての社員に多要素認証を使用させます。", target: "IT makes all staff use multi-factor authentication.", words: ["IT", "makes", "all", "staff", "use", "multi-factor", "authentication."] },
+                { prompt: "システムは期限後にパスワードをリセットさせます。", target: "The system makes you reset your password after 90 days.", words: ["The", "system", "makes", "you", "reset", "your", "password", "after", "90", "days."] },
+                // Grammar Point 2: Expressing purpose (in order to / to + base verb) - 4 sentences
+                { prompt: "ログインするためにアプリをダウンロードしました。", target: "I downloaded the app in order to log in.", words: ["I", "downloaded", "the", "app", "in", "order", "to", "log", "in."] },
+                { prompt: "社内サーバーにアクセスするにはVPNが必要です。", target: "You need a VPN in order to access company servers.", words: ["You", "need", "a", "VPN", "in", "order", "to", "access", "company", "servers."] },
+                { prompt: "フィッシングメールを避けるために送信元を確認してください。", target: "Check senders carefully in order to avoid phishing emails.", words: ["Check", "senders", "carefully", "in", "order", "to", "avoid", "phishing", "emails."] },
+                { prompt: "新しいツールを使うためにサポートチケットを提出します。", target: "Submit a support ticket in order to request new software.", words: ["Submit", "a", "support", "ticket", "in", "order", "to", "request", "new", "software."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 9 - Split Cards on IT Security Rules)",
+                instruction: "Read these cards on workplace security rules, passwords, and software requests. Notice 'make', 'let', and 'in order to'.",
+                eng: "<div class='er-template er-layout-9'><div class='er-card'><h4>🔑 Accounts &amp; Multi-Factor Login</h4><p>To prevent a data breach, IT makes all staff use multi-factor authentication and a VPN connection on remote networks. You install the code app in order to log in safely. If you ignore password resets, the system will lock you out until tech support helps.</p></div><div class='er-card'><h4>💻 Software &amp; Shared Folders</h4><p>Our company does not let anyone install unapproved software or use risky USB drives on work laptops. If you need a tool for your project, submit an IT support ticket so security can review it and grant folder access cleanly.</p></div><div class='er-card'><h4>🎣 Spotting Phishing Emails</h4><p>Attackers often send fake messages that look urgent. Always check the sender address in order to spot phishing emails before clicking links or sharing account details, and contact IT right away if something looks suspicious.</p></div></div>",
+                jpn: "<div class='er-template er-layout-9'><div class='er-card'><h4>🔑 アカウントと多要素ログイン</h4><p>データ漏洩を防ぐため、IT部門は全スタッフに多要素認証とリモートネットワークでのVPN接続を使用させます。安全にログインするためにコードアプリをインストールします。パスワードリセットを無視すると、テクニカルサポートが対応するまでシステムに締め出されます。</p></div><div class='er-card'><h4>💻 ソフトウェアと共有フォルダ</h4><p>当社では、仕事用のノートパソコンに未承認のソフトウェアをインストールさせたり、危険なUSBドライブを使わせたりしません。プロジェクトにツールが必要な場合は、セキュリティが確認してフォルダへのアクセス権を適切に付与できるよう、ITサポートチケットを提出してください。</p></div><div class='er-card'><h4>🎣 フィッシングメールの見分け方</h4><p>攻撃者は緊急性を装った偽のメッセージをしばしば送ってきます。リンクをクリックしたりアカウント情報を共有したりする前に、フィッシングメールを見抜くために送信元アドレスを必ず確認し、怪しい点があればすぐにIT部門に連絡してください。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short email explaining an IT rule to a new employee. Use 'make' to describe a forced action, and 'in order to' to explain the purpose.",
                 promptJpn: "「新入社員にITルールを説明する短いメールを書いてください。強制的な行動を説明するために『make』を使用し、目的を説明するために『in order to』を使用してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Importance of IT Onboarding)",
-                instruction: "Read this authentic text about cybersecurity training for new employees.",
-                eng: "In today’s digital-first business environment, a new employee's first week is dominated by technology setup and security training. The IT onboarding process is no longer just about handing someone a laptop and an email address; it is a critical defense mechanism against severe cyber threats. According to cybersecurity experts, the vast majority of data breaches are caused by human error, not complex hacking. When a new hire is overwhelmed with information, they might carelessly click on a phishing email or use a weak, easily guessed password. Therefore, IT departments have a massive responsibility to enforce strict digital protocols from day one.\n\nTo protect the company network, IT managers rely on automated security systems and uncompromising rules. For instance, most modern corporations make their employees use Multi-Factor Authentication (MFA). This requires the user to verify their identity through a second device, usually a smartphone app, in order to log in. While employees often find this extra step annoying, it is an essential layer of security. Furthermore, companies do not let staff install unverified software or use personal USB drives, as these are common entry points for malware. If an employee needs a specific tool for their job, they have to officially submit a support ticket to request secure installation.\n\nUltimately, effective IT onboarding requires clear, patient communication. Technical jargon can confuse new hires, causing them to make accidental mistakes. An excellent IT support agent explains the 'why' behind the rules. Instead of simply commanding, 'You must change your password,' they explain, 'We make you update your password frequently in order to prevent hackers from accessing our client database.' By combining strict technological safeguards with empathetic, educational communication, companies ensure that their new employees become strong assets to their cybersecurity defense, rather than weak links.",
-                jpn: "今日のデジタルファーストのビジネス環境において、新入社員の最初の1週間はテクノロジーのセットアップとセキュリティトレーニングによって占められています。ITのオンボーディングプロセスは、もはや単に誰かにノートパソコンとメールアドレスを渡すだけのものではありません。それは深刻なサイバー脅威に対する重要な防衛メカニズムなのです。サイバーセキュリティの専門家によると、データ漏洩の大部分は複雑なハッキングではなく、人為的ミスによって引き起こされています。新入社員が情報に圧倒されていると、不注意にフィッシングメールをクリックしたり、簡単に推測できる弱いパスワードを使用したりする可能性があります。それゆえに、IT部門には初日から厳格なデジタルプロトコルを施行する重大な責任があるのです。\n\n社内ネットワークを保護するために、ITマネージャーは自動化されたセキュリティシステムと妥協のないルールに依存しています。例えば、ほとんどの現代の企業は、従業員に多要素認証（MFA）を使用させています（make）。これは、ログインするために、通常はスマートフォンアプリといった2つ目のデバイスを通じてユーザーに身元を確認することを要求するものです。従業員はしばしばこの余分なステップを迷惑だと感じますが、これは不可欠なセキュリティの層なのです。さらに、企業はスタッフに未検証のソフトウェアをインストールさせたり、個人のUSBドライブを使用させたりしません（do not let）。これらはマルウェアの一般的な侵入経路だからです。もし従業員が仕事のために特定のツールを必要とする場合、安全なインストールをリクエストするために公式にサポートチケットを提出しなければなりません。\n\n最終的に、効果的なITのオンボーディングには明確で忍耐強いコミュニケーションが必要です。専門用語は新入社員を混乱させ、偶発的なミスを引き起こす原因となります。優れたITサポート担当者は、ルールの背後にある「なぜ」を説明します。単に「パスワードを変更しなければなりません」と命じるのではなく、「ハッカーがクライアントデータベースにアクセスするのを防ぐために、私たちはあなたに頻繁にパスワードを更新させているのです」と説明します。厳格な技術的保護手段と思いやりを持った教育的コミュニケーションを組み合わせることで、企業は新入社員がサイバーセキュリティ防衛の弱点ではなく、強力な資産となることを保証するのです。"
             }
         }
     },
-
-{
+    {
         id: 40,
         chapter: "Chapter 6: Onboarding and training",
         type: "opinion",
@@ -4713,30 +4976,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes on onboarding and training.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "I strongly believe that new employees need a highly structured, formal training program before they start doing actual work. In our company, new hires spend their first two weeks in a classroom environment. They read Standard Operating Procedures (SOPs), watch training videos, and take quizzes to ensure they understand the compliance rules. I prefer giving them a solid foundation to throwing them into the deep end. If you just give a new person a complex task without proper training, they will feel completely overwhelmed and make expensive mistakes. Formal training might seem boring and time-consuming initially, but it guarantees that everyone in the company follows the exact same quality standards.", 
-                    jpn: "私は、新入社員が実際の業務を始める前に、高度に構造化された公式な研修プログラムを必要としていると強く信じています。私たちの会社では、新入社員は最初の2週間を教室環境で過ごします。彼らは標準作業手順書（SOP）を読み、研修ビデオを見、コンプライアンス規則を理解しているか確認するための小テストを受けます。私は彼らを困難な状況（深いところ）に放り込むよりも、確固たる基礎を与えることを好みます（prefer）。適切な研修なしに新人に複雑なタスクを与えれば、彼らは完全に圧倒され、高くつくミスを犯すでしょう。公式な研修は最初は退屈で時間がかかるように思えるかもしれませんが、社内の全員が全く同じ品質基準に従うことを保証してくれます。" 
+                {
+                    name: "Person 1",
+                    eng: "I strongly believe that new employees need a highly structured, formal training program before they start doing actual work. In our company, new hires spend their first two weeks in a classroom environment. They read Standard Operating Procedures (SOPs), watch training videos, and take quizzes to ensure they understand the compliance rules. I prefer giving them a solid foundation to throwing them into the deep end. If you just give a new person a complex task without proper training, they will feel completely overwhelmed and make expensive mistakes. Formal training might seem boring and time-consuming initially, but it guarantees that everyone in the company follows the exact same quality standards.",
+                    jpn: "私は、新入社員が実際の業務を始める前に、高度に構造化された公式な研修プログラムを必要としていると強く信じています。私たちの会社では、新入社員は最初の2週間を教室環境で過ごします。彼らは標準作業手順書（SOP）を読み、研修ビデオを見、コンプライアンス規則を理解しているか確認するための小テストを受けます。私は彼らを困難な状況（深いところ）に放り込むよりも、確固たる基礎を与えることを好みます（prefer）。適切な研修なしに新人に複雑なタスクを与えれば、彼らは完全に圧倒され、高くつくミスを犯すでしょう。公式な研修は最初は退屈で時間がかかるように思えるかもしれませんが、社内の全員が全く同じ品質基準に従うことを保証してくれます。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "I completely disagree with classroom training. I would rather learn by 'shadowing' an experienced mentor than sit and read a manual all day. In my department, we use the 'buddy system.' Every new hire is paired with a senior colleague. You sit next to them, watch how they handle actual clients, and slowly take on small tasks under their supervision. This hands-on experience is incredibly valuable because you learn the unwritten rules of the office that are never included in an official handbook. A good mentor provides instant, constructive feedback. It is a steep learning curve, but building a strong personal relationship with a mentor gives new employees the confidence they need to succeed.", 
-                    jpn: "私は教室での研修には完全に反対です。一日中座ってマニュアルを読むよりは、経験豊富なメンター（指導者）に「シャドーイング（影のように付き添うこと）」をして学びたいです（would rather）。私の部署では「バディシステム」を使っています。すべての新入社員は先輩の同僚とペアになります。彼らの隣に座り、彼らが実際のクライアントにどう対応するかを観察し、彼らの監督下でゆっくりと小さなタスクを引き受けます。この実践的な経験は信じられないほど価値があります。なぜなら、公式なハンドブックには決して載っていないオフィスの暗黙のルールを学べるからです。良いメンターは即座に建設的なフィードバックを提供します。習得へのハードル（学習曲線）は高いですが、メンターとの強い個人的な関係を築くことは、新入社員に成功するために必要な自信を与えてくれます。" 
+                {
+                    name: "Person 2",
+                    eng: "I completely disagree with classroom training. I would rather learn by 'shadowing' an experienced mentor than sit and read a manual all day. In my department, we use the 'buddy system.' Every new hire is paired with a senior colleague. You sit next to them, watch how they handle actual clients, and slowly take on small tasks under their supervision. This hands-on experience is incredibly valuable because you learn the unwritten rules of the office that are never included in an official handbook. A good mentor provides instant, constructive feedback. It is a steep learning curve, but building a strong personal relationship with a mentor gives new employees the confidence they need to succeed.",
+                    jpn: "私は教室での研修には完全に反対です。一日中座ってマニュアルを読むよりは、経験豊富なメンター（指導者）に「シャドーイング（影のように付き添うこと）」をして学びたいです（would rather）。私の部署では「バディシステム」を使っています。すべての新入社員は先輩の同僚とペアになります。彼らの隣に座り、彼らが実際のクライアントにどう対応するかを観察し、彼らの監督下でゆっくりと小さなタスクを引き受けます。この実践的な経験は信じられないほど価値があります。なぜなら、公式なハンドブックには決して載っていないオフィスの暗黙のルールを学べるからです。良いメンターは即座に建設的なフィードバックを提供します。習得へのハードル（学習曲線）は高いですが、メンターとの強い個人的な関係を築くことは、新入社員に成功するために必要な自信を与えてくれます。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "In fast-paced tech startups like mine, we simply do not have the time or resources for formal training or dedicated mentors. We rely on the 'sink or swim' method. When someone joins the team, we give them a real project on day one, point them to our internal wiki, and expect them to figure it out through trial and error. I prefer hiring self-directed learners who can use search engines and solve problems independently. Of course, they can ask questions, but we don't hold their hands. This method is definitely stressful, but it immediately identifies which employees have the resilience and proactive mindset required to survive in a highly competitive industry.", 
-                    jpn: "私のようなペースの速いITスタートアップでは、公式な研修や専任のメンターのための時間もリソースも単にありません。私たちは「シンク・オア・スイム（沈むか泳ぐか＝自力で生き残る）」の手法に頼っています。誰かがチームに加わると、初日に実際のプロジェクトを与え、社内のWiki（情報共有ツール）を案内し、試行錯誤を通じて彼らが自分で解決することを期待します。私は、検索エンジンを使い、自立して問題を解決できる自己主導型の学習者を雇うことを好みます。もちろん彼らは質問できますが、私たちは手取り足取り教えたりはしません。この方法は間違いなくストレスがかかりますが、競争の激しい業界で生き残るために必要な回復力と先を見越した考え方を持っている従業員は誰なのかを、即座に特定してくれます。" 
+                {
+                    name: "Person 3",
+                    eng: "In fast-paced tech startups like mine, we simply do not have the time or resources for formal training or dedicated mentors. We rely on the 'sink or swim' method. When someone joins the team, we give them a real project on day one, point them to our internal wiki, and expect them to figure it out through trial and error. I prefer hiring self-directed learners who can use search engines and solve problems independently. Of course, they can ask questions, but we don't hold their hands. This method is definitely stressful, but it immediately identifies which employees have the resilience and proactive mindset required to survive in a highly competitive industry.",
+                    jpn: "私のようなペースの速いITスタートアップでは、公式な研修や専任のメンターのための時間もリソースも単にありません。私たちは「シンク・オア・スイム（沈むか泳ぐか＝自力で生き残る）」の手法に頼っています。誰かがチームに加わると、初日に実際のプロジェクトを与え、社内のWiki（情報共有ツール）を案内し、試行錯誤を通じて彼らが自分で解決することを期待します。私は、検索エンジンを使い、自立して問題を解決できる自己主導型の学習者を雇うことを好みます。もちろん彼らは質問できますが、私たちは手取り足取り教えたりはしません。この方法は間違いなくストレスがかかりますが、競争の激しい業界で生き残るために必要な回復力と先を見越した考え方を持っている従業員は誰なのかを、即座に特定してくれます。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Formal Training 📖", themeJpn: "公式な研修", sub: [{eng: "Classroom environments", jpn: "教室環境"}, {eng: "Reading manuals (SOPs)", jpn: "マニュアル（SOP）を読むこと"}, {eng: "Quality standards", jpn: "品質基準"}] },
-            { theme: "Mentorship 📖", themeJpn: "メンターシップ", sub: [{eng: "The buddy system", jpn: "バディシステム"}, {eng: "Shadowing", jpn: "シャドーイング（付き添って学ぶこと）"}, {eng: "Constructive feedback", jpn: "建設的なフィードバック"}] },
-            { theme: "On-the-Job Learning 📖", themeJpn: "OJT（職場内訓練）", sub: [{eng: "Hands-on experience", jpn: "実践的な経験"}, {eng: "Trial and error", jpn: "試行錯誤"}, {eng: "Steep learning curves", jpn: "急激な学習曲線（高いハードル）"}] },
-            { theme: "Self-Directed Learning 📖", themeJpn: "自己主導型学習", sub: [{eng: "Sink or swim", jpn: "自力で生き残る（沈むか泳ぐか）"}, {eng: "Figuring it out", jpn: "自分で解決すること"}, {eng: "Resilience", jpn: "回復力 / レジリエンス"}] },
-            { theme: "Employee Feelings 📖", themeJpn: "従業員の感情", sub: [{eng: "Feeling overwhelmed", jpn: "圧倒されていると感じること"}, {eng: "Building confidence", jpn: "自信を築くこと"}, {eng: "Stress and anxiety", jpn: "ストレスと不安"}] },
-            { theme: "Unwritten Rules 📖", themeJpn: "暗黙のルール", sub: [{eng: "Office culture", jpn: "オフィス文化"}, {eng: "Observing colleagues", jpn: "同僚を観察すること"}, {eng: "Personal relationships", jpn: "個人的な関係"}] }
+            { theme: "Formal Training 📖", themeJpn: "公式な研修", sub: [{ eng: "Classroom environments", jpn: "教室環境" }, { eng: "Reading manuals (SOPs)", jpn: "マニュアル（SOP）を読むこと" }, { eng: "Quality standards", jpn: "品質基準" }] },
+            { theme: "Mentorship 📖", themeJpn: "メンターシップ", sub: [{ eng: "The buddy system", jpn: "バディシステム" }, { eng: "Shadowing", jpn: "シャドーイング（付き添って学ぶこと）" }, { eng: "Constructive feedback", jpn: "建設的なフィードバック" }] },
+            { theme: "On-the-Job Learning 📖", themeJpn: "OJT（職場内訓練）", sub: [{ eng: "Hands-on experience", jpn: "実践的な経験" }, { eng: "Trial and error", jpn: "試行錯誤" }, { eng: "Steep learning curves", jpn: "急激な学習曲線（高いハードル）" }] },
+            { theme: "Self-Directed Learning 📖", themeJpn: "自己主導型学習", sub: [{ eng: "Sink or swim", jpn: "自力で生き残る（沈むか泳ぐか）" }, { eng: "Figuring it out", jpn: "自分で解決すること" }, { eng: "Resilience", jpn: "回復力 / レジリエンス" }] },
+            { theme: "Employee Feelings 📖", themeJpn: "従業員の感情", sub: [{ eng: "Feeling overwhelmed", jpn: "圧倒されていると感じること" }, { eng: "Building confidence", jpn: "自信を築くこと" }, { eng: "Stress and anxiety", jpn: "ストレスと不安" }] },
+            { theme: "Unwritten Rules 📖", themeJpn: "暗黙のルール", sub: [{ eng: "Office culture", jpn: "オフィス文化" }, { eng: "Observing colleagues", jpn: "同僚を観察すること" }, { eng: "Personal relationships", jpn: "個人的な関係" }] }
         ],
         questions: [
             { eng: "1. Did your current or past company have a formal training program?", jpn: "1. あなたの現在または過去の会社には公式な研修プログラムがありましたか？" },
@@ -4804,7 +5067,7 @@ const b1Curriculum = [
                 { eng: "Look over", jpn: "〜にざっと目を通す", exEng: "Please look over this manual during your first week.", exJpn: "最初の1週間の間にこのマニュアルにざっと目を通してください。" },
                 { eng: "Depend on", jpn: "〜による、依存する", exEng: "The training method depends on the company's size.", exJpn: "研修方法は会社の規模によります。" },
                 { eng: "Rely on", jpn: "〜に頼る", exEng: "We rely on the buddy system for effective onboarding.", exJpn: "効果的なオンボーディング（新人受け入れ）のためにバディシステムに頼っています。" },
-                { eng: "Focus on", jpn: "〜に集中する", exEng: "Try to focus on learning one new skill every day.", exJpn: "毎日1つの新しいスキルを学ぶことに集中してみてください。" },
+                { eng: "Focus on", jpn: "〜に焦点を当てる", exEng: "Try to focus on learning one new skill every day.", exJpn: "毎日1つの新しいスキルを学ぶことに集中してみてください。" },
                 { eng: "Deal with", jpn: "〜に対処する", exEng: "He struggled to deal with the steep learning curve.", exJpn: "彼は急激な学習曲線（高いハードル）に対処するのに苦労しました。" },
                 { eng: "Result in", jpn: "〜という結果になる", exEng: "Poor training often results in high employee turnover.", exJpn: "不十分な研修はしばしば高い従業員離職率という結果になります。" },
                 { eng: "Lead to", jpn: "〜につながる", exEng: "Constructive feedback leads to rapid professional growth.", exJpn: "建設的なフィードバックは急速なプロフェッショナルとしての成長につながります。" },
@@ -4812,19 +5075,30 @@ const b1Curriculum = [
                 { eng: "Turn out", jpn: "〜という結果になる、判明する", exEng: "The 'sink or swim' method turned out to be too stressful.", exJpn: "「シンク・オア・スイム（自力で生き残る）」手法はストレスが多すぎると判明しました。" },
                 { eng: "Stand out", jpn: "際立つ、目立つ", exEng: "Proactive learners always stand out during training.", exJpn: "先を見越して自ら学ぶ人は、研修中常に際立ちます。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Preferences (prefer ... to ... vs would rather ... than ...) - 4 sentences
+                { prompt: "困難な状況に放り込むよりも、基礎を与えることを好みます。", target: "I prefer giving a foundation to throwing hires into the deep end.", words: ["I", "prefer", "giving", "a", "foundation", "to", "throwing", "hires", "into", "the", "deep", "end."] },
+                { prompt: "教室に座っているよりは、シャドーイングをして学びたいです。", target: "I would rather learn by shadowing than sit in a classroom.", words: ["I", "would", "rather", "learn", "by", "shadowing", "than", "sit", "in", "a", "classroom."] },
+                { prompt: "マニュアルを読むよりも、実践的な経験を好みます。", target: "I prefer hands-on experience to reading manuals all day.", words: ["I", "prefer", "hands-on", "experience", "to", "reading", "manuals", "all", "day."] },
+                { prompt: "最初は一人で悩むよりも、メンターに質問したいです。", target: "I would rather ask a mentor than guess alone at first.", words: ["I", "would", "rather", "ask", "a", "mentor", "than", "guess", "alone", "at", "first."] },
+                // Grammar Point 2: Feelings vs causes (-ed vs -ing adjectives) - 4 sentences
+                { prompt: "新入社員は完全に圧倒されていると感じました。", target: "The new employee felt completely overwhelmed.", words: ["The", "new", "employee", "felt", "completely", "overwhelmed."] },
+                { prompt: "その研修方法は非常に圧倒されるものです。", target: "The training method is very overwhelming.", words: ["The", "training", "method", "is", "very", "overwhelming."] },
+                { prompt: "長いマニュアルは最初は退屈に感じられました。", target: "The long manual seemed boring at first.", words: ["The", "long", "manual", "seemed", "boring", "at", "first."] },
+                { prompt: "新入社員はそのルールに混乱しているように見えました。", target: "The new hire looked confused by the rules.", words: ["The", "new", "hire", "looked", "confused", "by", "the", "rules."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 10 - Feature Box on Training Methods)",
+                instruction: "Read this comparison of formal training, mentorship, and sink-or-swim learning. Notice 'prefer', 'would rather', and '-ed / -ing' adjectives.",
+                eng: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>🎓 Comparing Training Styles: SOPs, Buddies &amp; Sink or Swim</h3><p>Different teams train new hires in very different ways. Initially, formal classes and SOP manuals can feel boring, yet many managers prefer giving a solid foundation to throwing people into the deep end without support. A confusing setup can leave new staff feeling overwhelmed before they even start.</p><p><strong>🤝 Mentorship &amp; Hands-On Learning:</strong> In contrast, many learners would rather learn by shadowing a buddy than read slides all day. Constructive feedback helps a new hire get up to speed while learning unwritten rules through hands-on experience.</p><p><strong>⚡ Fast-Paced Teams:</strong> Some startups rely on trial and error, but a steep learning curve can be exhausting if there is no guidance. To summarize, blending clear basics with supportive mentorship helps teams grow steadily.</p></div></div>",
+                jpn: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>🎓 研修スタイルの比較：SOP・バディ・自力学習</h3><p>チームによって新入社員の研修方法は大きく異なります。最初は公式な講義やSOPマニュアルが退屈に感じられることもありますが、サポートなしで困難な状況に放り込むよりは、確固たる基礎を与えることを好むマネージャーも多いです。分かりにくいセットアップは、仕事を始める前から新入社員を圧倒された気分にさせることがあります。</p><p><strong>🤝 メンターシップと実践学習：</strong> 対照的に、一日中スライドを読むよりは、バディをシャドーイングして学びたいと思う学習者も多くいます。建設的なフィードバックは、実践的な経験を通じて暗黙のルールを学びながら、新入社員が期待されるペースに追いつくのを助けます。</p><p><strong>⚡ スピード重視のチーム：</strong> 試行錯誤に頼るスタートアップもありますが、指導がないと急激な学習曲線は消耗を招くことがあります。要約すると、明確な基礎と支え合うメンターシップを組み合わせることで、チームは着実に成長できます。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you prefer formal classroom training or hands-on shadowing? Use 'prefer ... to' or 'would rather ... than', and include one '-ed' and one '-ing' adjective.",
                 promptJpn: "「公式な教室での研修と、実践的なシャドーイングのどちらが好きですか？『prefer ... to』または『would rather ... than』を使い、'-ed'と'-ing'の形容詞をそれぞれ1つずつ含めて答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Evolution of Corporate Onboarding)",
-                instruction: "Read this authentic article about how modern companies balance formal training with on-the-job mentorship.",
-                eng: "The process of integrating a new employee into a company—commonly known as 'onboarding'—is one of the most critical phases in the employee lifecycle. Historically, corporate onboarding was a highly formalized and often boring process. New hires would spend their first week isolated in a training room, reading thick binders filled with Standard Operating Procedures (SOPs) and listening to lectures about company compliance. While this method successfully delivered standardized information, it frequently left new employees feeling overwhelmed and disconnected from the actual team. They learned the theory of the job, but they lacked the practical, hands-on experience required to execute it confidently.\n\nIn recent years, progressive companies have drastically shifted their onboarding strategies toward mentorship and experiential learning. The 'buddy system' and job 'shadowing' have become increasingly popular. Instead of isolating new hires, organizations pair them immediately with seasoned veterans. By observing an experienced mentor, a trainee absorbs the crucial 'unwritten rules' of the office culture—how to speak to clients, how to navigate internal software efficiently, and how to effectively manage office politics. Many young professionals state that they would much rather learn by doing than sit through days of confusing PowerPoint presentations. Experiencing the daily workflow firsthand makes the steep learning curve much less intimidating.\n\nHowever, HR experts warn against the extreme opposite approach: the 'sink or swim' method. Many fast-paced tech startups simply throw new employees into complex projects on day one with zero formal guidance, expecting them to figure it out entirely on their own. While this tests an employee’s resilience, it often results in severe anxiety, costly mistakes, and high turnover rates. The most successful organizations understand that true onboarding requires a balanced hybrid approach. A company must provide clear, formal documentation to establish quality standards, but it must also foster a supportive mentorship culture that provides constructive feedback and human connection.",
-                jpn: "新入社員を会社に統合するプロセス（一般に「オンボーディング」として知られる）は、従業員のライフサイクルにおいて最も重要な段階の1つです。歴史的に、企業のオンボーディングは高度に形式化されており、しばしば退屈なプロセスでした。新入社員は最初の1週間を研修室に隔離されて過ごし、標準作業手順書（SOP）でいっぱいの分厚いバインダーを読み、会社のコンプライアンスに関する講義を聞いていました。この方法は標準化された情報を提供するのには成功しましたが、新入社員はしばしば圧倒され、実際のチームから切り離されていると感じていました。彼らは仕事の理論は学びましたが、自信を持ってそれを実行するために必要な実践的な経験に欠けていたのです。\n\n近年、進歩的な企業はオンボーディング戦略をメンターシップと経験学習へと劇的にシフトさせています。「バディシステム」や仕事の「シャドーイング」がますます人気になっています。新入社員を隔離する代わりに、組織は彼らを経験豊富なベテランとすぐにペアにします。経験豊かなメンターを観察することで、研修生はクライアントへの話し方、社内ソフトウェアの効率的な操作方法、そして社内政治の効果的な切り抜け方といった、オフィス文化の極めて重要な「暗黙のルール」を吸収します。多くの若いプロフェッショナルは、何日も混乱する（confusing）PowerPointのプレゼンテーションに座って耐えるよりは、実践して学びたい（would much rather learn by doing）と述べています。日々のワークフローを直接体験することは、急激な学習曲線をはるかに威圧感のない（less intimidating）ものにします。\n\nしかし、人事の専門家は極端に反対のアプローチ、すなわち「シンク・オア・スイム（自力で生き残る）」手法に対して警告しています。多くのペースの速いITスタートアップ企業は、公式な指導を一切行わずに初日に新入社員を複雑なプロジェクトに放り込み、彼らが完全に自分自身で解決することを期待します。これは従業員の回復力をテストする一方で、しばしば深刻な不安、高くつくミス、そして高い離職率をもたらします。最も成功している組織は、真のオンボーディングにはバランスの取れたハイブリッドアプローチが必要であることを理解しています。企業は品質基準を確立するために明確で公式な文書を提供しなければなりませんが、同時に、建設的なフィードバックと人間的なつながりを提供する協力的なメンターシップ文化も育まなければならないのです。"
             }
         }
     },
-
     {
         id: 41,
         chapter: "Chapter 6: Onboarding and training",
@@ -4899,6 +5173,15 @@ const b1Curriculum = [
                     { eng: "I was supposed to have a meeting with my manager.", jpn: "私はマネージャーと会議をするはずでした（会議は行われなかった）。" },
                     { eng: "The training materials were supposed to be ready on day one.", jpn: "研修資料は初日に準備されているはずでした。" }
                 ]
+            },
+            {
+                point: "3. Passive Voice with Modals: Recommending onboarding fixes (must/should be + PP)",
+                explanation: "Use modal + 'be' + past participle to state clear improvements needed for future onboarding programs.",
+                explanationJpn: "今後のオンボーディングプログラムに必要な明確な改善点を述べるには、「法助動詞 + be + 過去分詞」を使います。",
+                examples: [
+                    { eng: "Training materials must be prepared before day one.", jpn: "研修資料は初日より前に準備されなければなりません。" },
+                    { eng: "Weekly check-ins should be scheduled for remote hires.", jpn: "リモート採用者には週次の状況確認がスケジュールされるべきです。" }
+                ]
             }
         ],
         discussionPoints: [
@@ -4913,13 +5196,13 @@ const b1Curriculum = [
             { eng: "Therefore...", jpn: "それゆえに..." },
             { eng: "Ultimately...", jpn: "最終的には..." }
         ],
-        roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. The problem 2. The causes 3. The immediate solution 4. Long-term training plan <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 即時の解決策 4. 長期的な研修計画)</span>",
+        roleplay: "Role-play presenting your solution to management. Do the following using a simple three-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
         homework: {
             vocab: [
                 { eng: "Set up", jpn: "セットアップする、準備する", exEng: "The IT team failed to set up the new laptops.", exJpn: "ITチームは新しいノートパソコンのセットアップに失敗しました。" },
                 { eng: "Reach out to", jpn: "〜に連絡を取る、アプローチする", exEng: "The new hires didn't know who to reach out to.", exJpn: "新入社員は誰に連絡を取ればいいのかわかりませんでした。" },
                 { eng: "Figure out", jpn: "理解する、解決する", exEng: "They had to figure out the complex code alone.", exJpn: "彼らは複雑なコードを一人で理解しなければなりませんでした。" },
-                { eng: "Catch on", jpn: "理解する、慣れる", exexEng: "Without training, it is hard to catch on quickly.", exJpn: "訓練なしでは、すぐに慣れるのは難しいです。" },
+                { eng: "Catch on", jpn: "理解する、慣れる", exEng: "Without training, it is hard to catch on quickly.", exJpn: "訓練なしでは、すぐに慣れるのは難しいです。" },
                 { eng: "Fill in", jpn: "記入する、情報を教える", exEng: "The manager didn't fill them in on the project details.", exJpn: "マネージャーはプロジェクトの詳細について彼らに情報を教えませんでした。" },
                 { eng: "Take on", jpn: "引き受ける", exEng: "The mentor was too busy to take on extra work.", exJpn: "メンターは忙しすぎて追加の仕事を引き受けることができませんでした。" },
                 { eng: "Check in", jpn: "状況を確認する", exEng: "Managers must regularly check in with remote workers.", exJpn: "マネージャーは定期的にリモートワーカーの状況を確認しなければなりません。" },
@@ -4935,20 +5218,36 @@ const b1Curriculum = [
                 { eng: "Point out", jpn: "指摘する", exEng: "The exit interviews pointed out several major flaws.", exJpn: "退職時の面接でいくつかの大きな欠陥が指摘されました。" },
                 { eng: "Give up", jpn: "諦める、辞める", exEng: "The developers gave up and quit after one month.", exJpn: "開発者たちは諦めて1ヶ月後に辞めました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: 3rd Conditional (If + had + PP, would have + PP) - 4 sentences
+                { prompt: "もし彼らがノートパソコンを準備してくれていたら、私は無視されたとは感じなかったでしょう。", target: "If they had prepared my laptop, I wouldn't have felt ignored.", words: ["If", "they", "had", "prepared", "my", "laptop,", "I", "wouldn't", "have", "felt", "ignored."] },
+                { prompt: "もし上司が私の仕事量を減らしてくれていたら、私は彼らを訓練していたでしょう。", target: "If my boss had reduced my workload, I would have trained them.", words: ["If", "my", "boss", "had", "reduced", "my", "workload,", "I", "would", "have", "trained", "them."] },
+                { prompt: "もし明確なハンドブックを作っていたら、彼らはあんなに混乱しなかったでしょう。", target: "If we had created a clear handbook, they wouldn't have been confused.", words: ["If", "we", "had", "created", "a", "clear", "handbook,", "they", "wouldn't", "have", "been", "confused."] },
+                { prompt: "もしマネージャーが連絡をとってくれていたら、私は辞めなかったでしょう。", target: "If the manager had communicated with me, I wouldn't have quit.", words: ["If", "the", "manager", "had", "communicated", "with", "me,", "I", "wouldn't", "have", "quit."] },
+                // Grammar Point 2: Broken promises / expectations (was/were supposed to) - 4 sentences
+                { prompt: "私はマネージャーと週次会議をするはずでした。", target: "I was supposed to have a weekly meeting with my manager.", words: ["I", "was", "supposed", "to", "have", "a", "weekly", "meeting", "with", "my", "manager."] },
+                { prompt: "研修資料は初日に準備されているはずでした。", target: "The training materials were supposed to be ready on day one.", words: ["The", "training", "materials", "were", "supposed", "to", "be", "ready", "on", "day", "one."] },
+                { prompt: "ノートパソコンは入社前に届くはずでした。", target: "The laptop was supposed to arrive before I started.", words: ["The", "laptop", "was", "supposed", "to", "arrive", "before", "I", "started."] },
+                { prompt: "新入社員は明確な指導を受けるはずでした。", target: "New hires were supposed to get clear guidance.", words: ["New", "hires", "were", "supposed", "to", "get", "clear", "guidance."] },
+                // Grammar Point 3: Passive voice with modals - 4 sentences
+                { prompt: "研修資料は初日より前に準備されなければなりません。", target: "Training materials must be prepared before day one.", words: ["Training", "materials", "must", "be", "prepared", "before", "day", "one."] },
+                { prompt: "リモート採用者には週次の状況確認がスケジュールされるべきです。", target: "Weekly check-ins should be scheduled for remote hires.", words: ["Weekly", "check-ins", "should", "be", "scheduled", "for", "remote", "hires."] },
+                { prompt: "メンターの時間配分は調整されなければなりません。", target: "Mentor workloads must be adjusted for training.", words: ["Mentor", "workloads", "must", "be", "adjusted", "for", "training."] },
+                { prompt: "暗黙のルールはハンドブックにまとめられるべきです。", target: "Unwritten rules should be written in a handbook.", words: ["Unwritten", "rules", "should", "be", "written", "in", "a", "handbook."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 1 - Onboarding Failure Reviews)",
+                instruction: "Read these reflections on what went wrong during a chaotic remote onboarding month. Notice 3rd conditional and 'was supposed to'.",
+                eng: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐☆☆☆</span> <strong>No Laptop, No Plan on Day One</strong></div><span class='er-author'>By: Mark D. | Former Remote Hire</span></div><p style='margin:0;'>I was supposed to get my laptop and training materials before day one, yet everything was messy. I felt isolated and clueless with no feedback. If they had prepared my IT setup and shared a clear handbook, I wouldn't have felt so lost during my first month.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐☆☆☆</span> <strong>Mentors Need Time to Actually Help</strong></div><span class='er-author'>By: Sarah L. | Senior Team Member</span></div><p style='margin:0;'>A major problem was that mentors were thrown into the deep end without time to train new hires. If management had reduced my project workload, I would have had time to guide them properly. Ultimately, training materials must be ready early and check-ins should be protected.</p></div></div>",
+                jpn: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐☆☆☆</span> <strong>初日にノートパソコンも計画もなし</strong></div><span class='er-author'>投稿者：マーク・D | 元リモート社員</span></div><p style='margin:0;'>初日より前にノートパソコンと研修資料を受け取るはずでしたが、すべてが混乱していました。フィードバックもなく、孤立して何もわからないと感じました。もし彼らがIT環境を準備し、分かりやすいハンドブックを共有してくれていたら、最初の1ヶ月にあんなに途方に暮れることはなかったでしょう。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐☆☆☆</span> <strong>メンターには実際に助けるための時間が必要</strong></div><span class='er-author'>投稿者：サラ・L | シニアメンバー</span></div><p style='margin:0;'>大きな問題は、メンターが新入社員を教育する時間もないまま困難な状況に放り込まれたことです。もし経営陣が私のプロジェクトの仕事量を減らしてくれていたら、彼らを適切に指導する時間があったでしょう。最終的に、研修資料は早めに準備されなければならず、状況確認の時間も確保されるべきです。</p></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph outlining your proposed solution for TechFlow Agency. Use the 3rd conditional (If + had + PP, would have + PP) to analyze one mistake they made.",
                 promptJpn: "「TechFlow Agencyのためのあなたの提案する解決策を概説する短い段落を書いてください。サード・コンディショナル（If + had + 過去分詞, would have + 過去分詞）を使って、彼らが犯した1つのミスを分析してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The High Cost of Bad Onboarding)",
-                instruction: "Read this authentic text about the challenges of onboarding and employee retention.",
-                eng: "In the modern tech industry, recruiting top talent is an incredibly expensive and competitive process. Companies spend thousands of dollars sourcing, interviewing, and hiring skilled software developers. However, many organizations make a fatal error once the candidate signs the contract: they completely neglect the onboarding process. A disorganized first month often leads to 'early turnover,' where an employee quits within their first 90 days. This is a massive financial drain, as the company loses both the recruitment investment and the potential productivity of the new hire.\n\nRemote work has amplified these onboarding challenges. In a traditional physical office, a confused new employee can simply lean over and ask the person sitting next to them for help. They organically absorb the company's unwritten rules and cultural norms by observing their peers. In a remote environment, this organic learning is impossible. If a company fails to provide clear training materials and explicit communication channels, remote workers quickly feel isolated and helpless. For example, if a manager had simply scheduled a 15-minute virtual check-in every morning, a struggling new hire would not have felt abandoned.\n\nFurthermore, the 'buddy system' or mentorship programs often fail because they are not properly supported by management. Assigning a mentor is useless if that senior employee is overwhelmed with their own deadlines. If management had reduced the mentor's workload, they would have had the time and energy necessary to guide the new recruit. Ultimately, successful onboarding requires structure, empathy, and deliberate communication. Companies must view the first month not as a time to demand immediate results, but as a critical investment period designed to build long-term confidence and loyalty.",
-                jpn: "現代のテクノロジー業界において、優秀な人材を採用することは信じられないほど高価で競争の激しいプロセスです。企業はスキルのあるソフトウェア開発者を探し出し、面接し、雇用するために何千ドルも費やします。しかし、多くの組織は候補者が契約書にサインした後に致命的なエラーを犯します。つまり、彼らはオンボーディングプロセスを完全に軽視するのです。無秩序な最初の1ヶ月はしばしば「早期離職」につながり、従業員は最初の90日以内に辞めてしまいます。会社は採用投資と新入社員の潜在的な生産性の両方を失うため、これは大規模な財政的損失となります。\n\nリモートワークはこれらのオンボーディングの課題を増幅させました。伝統的な物理的オフィスでは、混乱した新入社員は単に身を乗り出して隣に座っている人に助けを求めることができます。彼らは同僚を観察することで、会社の暗黙のルールや文化的規範を自然に吸収します。リモート環境では、この自然な学習は不可能です。もし企業が明確な研修資料と明示的なコミュニケーションチャネルを提供できなければ、リモートワーカーはすぐに孤立感と無力感を感じます。例えば、マネージャーが単に毎朝15分のバーチャルな状況確認をスケジュールしていれば、苦労している新入社員は見捨てられたとは感じなかったでしょう。\n\nさらに、「バディシステム」やメンタープログラムは、経営陣によって適切にサポートされていないため、しばしば失敗します。その先輩従業員が自分自身の締め切りに圧倒されている場合、メンターを割り当てることは無意味です。もし経営陣がメンターの仕事量を減らしていたら、彼らには新入社員を指導するために必要な時間とエネルギーがあったでしょう。最終的に、成功するオンボーディングには構造、共感、そして意図的なコミュニケーションが必要です。企業は最初の1ヶ月を即時の結果を要求する時間としてではなく、長期的な自信と忠誠心を築くために設計された重要な投資期間として見なす必要があるのです。"
             }
         }
     },
-
-{
+    {
         id: 42,
         chapter: "Chapter 6: Onboarding and training",
         type: "speakingtest",
@@ -5002,37 +5301,27 @@ const b1Curriculum = [
                 { eng: "Write down", jpn: "書き留める", exEng: "Make sure to write down all the passwords.", exJpn: "すべてのパスワードを必ず書き留めておいてください。" },
                 { eng: "Set up", jpn: "準備する、設定する", exEng: "The IT guy helped me set up my dual monitors.", exJpn: "ITの担当者がデュアルモニターを設定するのを手伝ってくれました。" }
             ],
-            reading1: {
-                title: "Task 2: Reading (Review Model: A Challenging Start)",
-                instruction: "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar (past conditionals, causatives), and transitional expressions.",
-                eng: "In my opinion, starting a new role is always a steep learning curve. Actually, when I joined this marketing agency, I was completely overwhelmed. At first, the manager made me take over a massive client account on day three. In hindsight, I shouldn't have pretended to know everything. If I had asked for help earlier, I wouldn't have made so many stressful mistakes. I eventually figured out the workflow by reaching out to a senior designer. To sum up, the experience taught me humility. I wish I hadn't let my pride get in the way, because acknowledging what you don't know turns out to be the fastest way to get up to speed.",
-                jpn: "私の意見では、新しい役割を始めることは常に急激な学習曲線（困難な学習プロセス）を伴います。実際、このマーケティングエージェンシーに入社したとき、私は完全に圧倒されていました。最初、マネージャーは3日目に私に大規模なクライアントのアカウントを引き継がせました（makeを使用）。後から考えると、私はすべてを知っているふりをするべきではありませんでした。もしもっと早く助けを求めていれば、あんなにストレスの多いミスを犯すことはなかったでしょう。私は最終的に、先輩デザイナーに連絡を取ることでワークフローを理解しました。要約すると、この経験は私に謙虚さを教えてくれました。自分のプライドを邪魔させなければよかったと後悔しています。なぜなら、自分が知らないことを認めることが、最も早く期待されるペースに達する方法だと判明したからです。"
-            },
-            expandedDialogue: [
-                { speaker: "A", eng: "Are you ready to deliver your speech about onboarding?", jpn: "オンボーディングに関するスピーチを行う準備はできていますか？" },
-                { speaker: "B", eng: "I am. I decided to talk about my first month at my previous startup.", jpn: "はい。前のスタートアップでの最初の1ヶ月について話すことにしました。" },
-                { speaker: "A", eng: "What was the most challenging part of that experience?", jpn: "その経験の中で最も困難だった部分は何ですか？" },
-                { speaker: "B", eng: "Well, they completely lacked a structured training program.", jpn: "そうですね、彼らには構造化されたトレーニングプログラムが完全に欠けていました。" },
-                { speaker: "A", eng: "Did that make you feel isolated?", jpn: "そのせいで孤立していると感じましたか？" },
-                { speaker: "B", eng: "Yes, incredibly isolated. I was supposed to learn the ropes by myself.", jpn: "はい、信じられないほど孤立していました。私は自分一人で仕事のコツを学ぶことになっていたのです。" },
-                { speaker: "A", eng: "If they had assigned a mentor, would it have been better?", jpn: "もし彼らがメンターを割り当てていたら、もっと良かったでしょうか？" },
-                { speaker: "B", eng: "Absolutely. If I had had a mentor, I wouldn't have struggled so much.", jpn: "間違いありません。もしメンターがいれば、あんなに苦労することはなかったでしょう。" },
-                { speaker: "A", eng: "How did you manage to overcome that hurdle?", jpn: "どうやってそのハードルを乗り越えたのですか？" },
-                { speaker: "B", eng: "I proactively reached out to other departments and asked questions.", jpn: "私は積極的に他の部署に連絡を取り、質問をしました。" },
-                { speaker: "A", eng: "That shows great initiative. What did you learn from it?", jpn: "それは素晴らしい主体性を示していますね。そこから何を学びましたか？" },
-                { speaker: "B", eng: "I learned that communication is your best tool when you feel lost.", jpn: "道に迷ったと感じたとき、コミュニケーションが最大のツールになるということを学びました。" },
-                { speaker: "A", eng: "That is a very strong conclusion. Good luck with the presentation.", jpn: "それは非常に力強い結論ですね。プレゼンテーション頑張ってください。" },
-                { speaker: "B", eng: "Thank you. I am looking forward to it.", jpn: "ありがとうございます。楽しみにしています。" }
+            clickingGames: [
+                // Chapter 6 Review Point 1: Rules, Instructions & Preferences - 4 sentences
+                { prompt: "新入社員は自分たちの責任を知る必要があります。", target: "New employees need to know their responsibilities.", words: ["New", "employees", "need", "to", "know", "their", "responsibilities."] },
+                { prompt: "一時的なパスワードを使ってログインしてください。", target: "Please log in using the temporary password.", words: ["Please", "log", "in", "using", "the", "temporary", "password."] },
+                { prompt: "会社は私たちに90日ごとにパスワードを変更させます。", target: "The company makes us change our passwords every 90 days.", words: ["The", "company", "makes", "us", "change", "our", "passwords", "every", "90", "days."] },
+                { prompt: "教室に座っているよりは、シャドーイングをして学びたいです。", target: "I would rather learn by shadowing than sit in a classroom.", words: ["I", "would", "rather", "learn", "by", "shadowing", "than", "sit", "in", "a", "classroom."] },
+                // Grammar Point 2: Past Conditionals, Growth & Confidence - 4 sentences
+                { prompt: "もしもっと早く助けを求めていれば、ミスは減っていたでしょう。", target: "If I had asked for help earlier, I would have made fewer mistakes.", words: ["If", "I", "had", "asked", "for", "help", "earlier,", "I", "would", "have", "made", "fewer", "mistakes."] },
+                { prompt: "新入社員は最初の1週間に圧倒されたと感じました。", target: "The new hire felt overwhelmed during the first week.", words: ["The", "new", "hire", "felt", "overwhelmed", "during", "the", "first", "week."] },
+                { prompt: "助けを求めることで、新しい役割での自信がつきました。", target: "Asking for help built my confidence in the new role.", words: ["Asking", "for", "help", "built", "my", "confidence", "in", "the", "new", "role."] },
+                { prompt: "先輩に連絡を取ることで、ワークフローを理解しました。", target: "I figured out the workflow by reaching out to a senior.", words: ["I", "figured", "out", "the", "workflow", "by", "reaching", "out", "to", "a", "senior."] }
             ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 2 - Onboarding Reflection Forum)",
+                instruction: "Read this discussion thread where learners share first-month experiences and PREP speech tips. Notice past conditionals and onboarding vocabulary.",
+                eng: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>NewDev_Sora asks:</strong><br>I am preparing my speaking test on my first month at a new job. At first I felt overwhelmed trying to learn the ropes and figure out tools alone. Any tips for my speech?</div><div class='er-forum-a'>💬 <strong>Reply by Mentor_Kaito:</strong><br>Share a specific hurdle—like getting locked out or missing a rule—and explain how you asked for help and got the hang of it. If I had asked questions sooner during my own first week, I would have saved so much stress!</div><div class='er-forum-a'>💬 <strong>Reply by HR_Mina:</strong><br>End by connecting your struggle to growth. Saying how overcoming that challenge helped you fit in and build confidence makes your PREP speech clear and memorable.</div></div>",
+                jpn: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>NewDev_Soraの質問：</strong><br>新しい仕事での最初の1ヶ月についてのスピーキングテストを準備しています。最初は仕事のコツを覚えたりツールを一人で理解したりしようとして圧倒されました。スピーチのアドバイスはありますか？</div><div class='er-forum-a'>💬 <strong>Mentor_Kaitoの返信：</strong><br>システムに締め出されたりルールを見落としたりといった具体的な壁を共有し、どうやって助けを求めてコツをつかんだかを説明すると良いよ。私自身の1週目に、もっと早く質問していればあれほどストレスを抱えずに済んだのに！</div><div class='er-forum-a'>💬 <strong>HR_Minaの返信：</strong><br>その苦労を成長につなげて締めくくりましょう。その課題を乗り越えたことがどう馴染んで自信をつける助けになったかを言うことで、PREPスピーチが明確で心に残るものになります。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a time you started a new activity, job, or class. What challenge did you face, and how did you adapt?",
                 promptJpn: "「新しい活動、仕事、またはクラスを始めた時のことを説明してください。どんな課題に直面し、どう適応しましたか？」という質問に答える短い段落を書いてください。"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Value of Resilience in New Beginnings)",
-                instruction: "Read this authentic article about overcoming early career challenges. This section provides real-world context for B1 learners.",
-                eng: "Entering a new professional or academic environment is universally recognized as one of life's most stressful events. Even highly experienced professionals often experience a phenomenon known as 'Imposter Syndrome' during their first few weeks in a new role. This is the persistent feeling that you are not as competent as others believe, accompanied by the fear that you will eventually be exposed as a fraud. When you are struggling to understand new software, memorize unwritten office rules, and remember everyone's name, these feelings of inadequacy can become overwhelming.\n\nHowever, career psychologists argue that facing these initial struggles is actually a vital component of professional development. Resilience is not built during times of comfort; it is forged when we are forced to navigate confusion. When a new hire encounters a problem they cannot solve, their instinct might be to hide the issue out of embarrassment. The most successful professionals do the exact opposite. They openly admit their knowledge gaps and proactively seek guidance. By reaching out to a manager or a peer and saying, 'I am still trying to figure this out, could you help me?', they demonstrate honesty and a willingness to learn.\n\nUltimately, a rocky start does not define your trajectory at a company. Many top executives readily admit that they made massive, embarrassing mistakes during their onboarding periods. These experiences teach humility and empathy, qualities that are essential for future leadership. When reflecting on these moments in a speaking test or a job interview, framing the struggle as a catalyst for growth proves that you possess the emotional intelligence and resilience required to thrive in any dynamic work environment.",
-                jpn: "新しい職業的、あるいは学術的な環境に入ることは、人生で最もストレスの多い出来事の一つとして普遍的に認識されています。非常に経験豊富なプロフェッショナルでさえ、新しい役割に就いて最初の数週間は「インポスター症候群（詐欺師症候群）」として知られる現象を経験することがよくあります。これは、自分が他人が信じているほど有能ではないという持続的な感覚であり、最終的には詐欺師として暴かれるのではないかという恐怖を伴います。新しいソフトウェアを理解し、オフィスの暗黙のルールを記憶し、全員の名前を覚えようと奮闘しているとき、これらの不適格感は圧倒的なものになる可能性があります。\n\nしかし、キャリア心理学者は、これらの初期の苦闘に直面することは、実際にはプロフェッショナルとしての成長の不可欠な要素であると主張しています。回復力（レジリエンス）は快適な時期に構築されるものではありません。それは、私たちが混乱を切り抜けることを強いられたときに鍛えられるのです。新入社員が自分では解決できない問題に遭遇したとき、彼らの本能は恥ずかしさからその問題を隠そうとすることかもしれません。最も成功するプロフェッショナルは全く逆のことをします。彼らは自分の知識のギャップを公に認め、積極的に指導を求めます。マネージャーや同僚に連絡を取り、「まだこれを理解しようとしているところなのですが、助けていただけませんか？」と言うことで、彼らは正直さと学ぶ意欲を示すのです。\n\n最終的に、波乱に満ちたスタートが会社でのあなたの軌跡を決定づけるわけではありません。多くのトップエグゼクティブは、オンボーディングの期間中に大規模で恥ずかしいミスを犯したことを快く認めています。これらの経験は、将来のリーダーシップに不可欠な資質である謙虚さと共感力を教えます。スピーキングテストや就職の面接でこれらの瞬間を振り返る際、苦闘を成長のための触媒（きっかけ）として枠組みし直すことは、あなたがどんなダイナミックな職場環境でも活躍するために必要な心の知能指数と回復力を持っていることを証明するのです。"
             }
         }
     },
@@ -5046,30 +5335,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "Artificial Intelligence is already deeply integrated into our daily lives, even if we do not always notice it. Up until recently, AI was just a concept in science fiction movies. Now, it is the technology powering our smart home devices, facial recognition on our phones, and the recommendation algorithms on streaming platforms. I use an AI virtual assistant every morning to check the weather, manage my schedule, and set reminders. It is incredibly convenient. However, I sometimes worry about how much personal data these devices collect. We are trading our privacy for convenience. Overall, I think AI makes life much easier, but consumers need to be much more aware of how their digital information is being tracked and stored.", 
-                    jpn: "人工知能（AI）は、私たちが常に気づいているわけではありませんが、すでに日常生活に深く統合されています。つい最近まで、AIはSF映画の中の単なる概念でした。現在では、それは私たちのスマートホームデバイス、スマートフォンの顔認識、ストリーミングプラットフォームの推薦アルゴリズムを動かすテクノロジーとなっています。私は毎朝AIのバーチャルアシスタントを使って、天気をチェックし、スケジュールを管理し、リマインダーを設定しています。信じられないほど便利です。しかし、これらのデバイスがどれほどの個人データを収集しているのか時々心配になります。私たちは利便性と引き換えにプライバシーを取引しているのです。全体的に見て、AIは生活をはるかに簡単にすると思いますが、消費者は自分たちのデジタル情報がどのように追跡され保存されているかについて、もっと注意を払う必要があります。" 
+                {
+                    name: "Person 1",
+                    eng: "Artificial Intelligence is already deeply integrated into our daily lives, even if we do not always notice it. Up until recently, AI was just a concept in science fiction movies. Now, it is the technology powering our smart home devices, facial recognition on our phones, and the recommendation algorithms on streaming platforms. I use an AI virtual assistant every morning to check the weather, manage my schedule, and set reminders. It is incredibly convenient. However, I sometimes worry about how much personal data these devices collect. We are trading our privacy for convenience. Overall, I think AI makes life much easier, but consumers need to be much more aware of how their digital information is being tracked and stored.",
+                    jpn: "人工知能（AI）は、私たちが常に気づいているわけではありませんが、すでに日常生活に深く統合されています。つい最近まで、AIはSF映画の中の単なる概念でした。現在では、それは私たちのスマートホームデバイス、スマートフォンの顔認識、ストリーミングプラットフォームの推薦アルゴリズムを動かすテクノロジーとなっています。私は毎朝AIのバーチャルアシスタントを使って、天気をチェックし、スケジュールを管理し、リマインダーを設定しています。信じられないほど便利です。しかし、これらのデバイスがどれほどの個人データを収集しているのか時々心配になります。私たちは利便性と引き換えにプライバシーを取引しているのです。全体的に見て、AIは生活をはるかに簡単にすると思いますが、消費者は自分たちのデジタル情報がどのように追跡され保存されているかについて、もっと注意を払う必要があります。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "In the workplace, AI is causing a massive revolution. Generative AI tools can now write emails, translate languages instantly, and even write computer code. Many companies are adopting these tools to automate repetitive tasks, which vastly increases productivity. I use an AI text generator every day to help me draft marketing reports. It saves me hours of work. But this rapid automation makes many employees nervous about the future. Will AI eventually replace human jobs entirely? I don't think it will replace us, but I do believe that people who know how to use AI will replace people who do not. We have to view AI as a powerful co-worker rather than a threat, and we must continuously update our digital skills to stay relevant in the job market.", 
-                    jpn: "職場において、AIは大規模な革命を引き起こしています。生成AIツールは現在、メールを作成し、言語を瞬時に翻訳し、コンピューターコードを書くことさえできます。多くの企業がこれらのツールを導入して反復的なタスクを自動化しており、それが生産性を大幅に向上させています。私は毎日AIテキストジェネレーターを使って、マーケティングレポートの草稿を作成するのを手伝ってもらっています。これにより何時間もの作業が節約されます。しかし、この急速な自動化は、多くの従業員を将来について不安にさせています。AIは最終的に人間の仕事を完全に奪ってしまうのでしょうか？私たちに取って代わるとは思いませんが、AIの使い方を知っている人が、知らない人に取って代わることにはなると確信しています。私たちはAIを脅威としてではなく、強力な同僚として見なすべきであり、雇用市場で通用し続けるためにデジタルスキルを継続的に更新しなければなりません。" 
+                {
+                    name: "Person 2",
+                    eng: "In the workplace, AI is causing a massive revolution. Generative AI tools can now write emails, translate languages instantly, and even write computer code. Many companies are adopting these tools to automate repetitive tasks, which vastly increases productivity. I use an AI text generator every day to help me draft marketing reports. It saves me hours of work. But this rapid automation makes many employees nervous about the future. Will AI eventually replace human jobs entirely? I don't think it will replace us, but I do believe that people who know how to use AI will replace people who do not. We have to view AI as a powerful co-worker rather than a threat, and we must continuously update our digital skills to stay relevant in the job market.",
+                    jpn: "職場において、AIは大規模な革命を引き起こしています。生成AIツールは現在、メールを作成し、言語を瞬時に翻訳し、コンピューターコードを書くことさえできます。多くの企業がこれらのツールを導入して反復的なタスクを自動化しており、それが生産性を大幅に向上させています。私は毎日AIテキストジェネレーターを使って、マーケティングレポートの草稿を作成するのを手伝ってもらっています。これにより何時間もの作業が節約されます。しかし、この急速な自動化は、多くの従業員を将来について不安にさせています。AIは最終的に人間の仕事を完全に奪ってしまうのでしょうか？私たちに取って代わるとは思いませんが、AIの使い方を知っている人が、知らない人に取って代わることにはなると確信しています。私たちはAIを脅威としてではなく、強力な同僚として見なすべきであり、雇用市場で通用し続けるためにデジタルスキルを継続的に更新しなければなりません。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "The ethical implications of AI are what concern me the most. We often assume that machines are perfectly objective, but AI algorithms are trained on human data. If that human data contains historical biases or prejudice, the AI will simply repeat and magnify those biases. For example, AI tools used in hiring have sometimes discriminated against female candidates because they were trained on data from male-dominated industries. Furthermore, the rise of AI-generated art and writing brings up huge questions about copyright and creativity. If an AI creates a beautiful painting, who owns it? The programmer, the user, or the machine? We desperately need strong government regulations to ensure that artificial intelligence is used ethically and fairly, before it causes serious societal harm.", 
-                    jpn: "私が最も懸念しているのは、AIの倫理的な影響です。私たちはしばしば機械は完全に客観的だと思い込みますが、AIアルゴリズムは人間のデータで訓練されています。もしその人間のデータに歴史的な偏見や先入観が含まれていれば、AIは単にそれらの偏見を繰り返し、拡大するだけです。例えば、採用活動で使用されるAIツールが、男性優位の業界のデータで訓練されていたために、女性候補者を差別したことがあります。さらに、AIが生成したアートや文章の台頭は、著作権と創造性に関する大きな疑問を提起しています。もしAIが美しい絵画を描いたとしたら、誰がそれを所有するのでしょうか？プログラマーですか、ユーザーですか、それとも機械ですか？AIが深刻な社会的害を引き起こす前に、それが倫理的かつ公正に使用されることを保証するための強力な政府の規制が絶対に必要です。" 
+                {
+                    name: "Person 3",
+                    eng: "The ethical implications of AI are what concern me the most. We often assume that machines are perfectly objective, but AI algorithms are trained on human data. If that human data contains historical biases or prejudice, the AI will simply repeat and magnify those biases. For example, AI tools used in hiring have sometimes discriminated against female candidates because they were trained on data from male-dominated industries. Furthermore, the rise of AI-generated art and writing brings up huge questions about copyright and creativity. If an AI creates a beautiful painting, who owns it? The programmer, the user, or the machine? We desperately need strong government regulations to ensure that artificial intelligence is used ethically and fairly, before it causes serious societal harm.",
+                    jpn: "私が最も懸念しているのは、AIの倫理的な影響です。私たちはしばしば機械は完全に客観的だと思い込みますが、AIアルゴリズムは人間のデータで訓練されています。もしその人間のデータに歴史的な偏見や先入観が含まれていれば、AIは単にそれらの偏見を繰り返し、拡大するだけです。例えば、採用活動で使用されるAIツールが、男性優位の業界のデータで訓練されていたために、女性候補者を差別したことがあります。さらに、AIが生成したアートや文章の台頭は、著作権と創造性に関する大きな疑問を提起しています。もしAIが美しい絵画を描いたとしたら、誰がそれを所有するのでしょうか？プログラマーですか、ユーザーですか、それとも機械ですか？AIが深刻な社会的害を引き起こす前に、それが倫理的かつ公正に使用されることを保証するための強力な政府の規制が絶対に必要です。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "AI in Daily Life 📖", themeJpn: "日常生活におけるAI", sub: [{eng: "Virtual assistants", jpn: "バーチャルアシスタント"}, {eng: "Smart home devices", jpn: "スマートホームデバイス"}, {eng: "Facial recognition", jpn: "顔認識"}] },
-            { theme: "Workplace Automation 📖", themeJpn: "職場の自動化", sub: [{eng: "Generative text tools", jpn: "生成テキストツール"}, {eng: "Increasing productivity", jpn: "生産性の向上"}, {eng: "Replacing jobs", jpn: "仕事を代替すること"}] },
-            { theme: "Data Privacy 📖", themeJpn: "データプライバシー", sub: [{eng: "Collecting personal data", jpn: "個人データの収集"}, {eng: "Tracking habits", jpn: "習慣の追跡"}, {eng: "Trading privacy for convenience", jpn: "利便性のためにプライバシーを取引すること"}] },
-            { theme: "AI Ethics & Bias 📖", themeJpn: "AIの倫理と偏見", sub: [{eng: "Human prejudice", jpn: "人間の偏見"}, {eng: "Discrimination in hiring", jpn: "採用における差別"}, {eng: "Government regulations", jpn: "政府の規制"}] },
-            { theme: "Creative AI 📖", themeJpn: "クリエイティブAI", sub: [{eng: "AI-generated art", jpn: "AI生成アート"}, {eng: "Copyright issues", jpn: "著作権問題"}, {eng: "Originality", jpn: "オリジナリティ（独創性）"}] },
-            { theme: "Future Skills 📖", themeJpn: "未来のスキル", sub: [{eng: "Updating digital skills", jpn: "デジタルスキルの更新"}, {eng: "AI as a co-worker", jpn: "同僚としてのAI"}, {eng: "Remaining relevant", jpn: "通用し続けること"}] }
+            { theme: "AI in Daily Life 📖", themeJpn: "日常生活におけるAI", sub: [{ eng: "Virtual assistants", jpn: "バーチャルアシスタント" }, { eng: "Smart home devices", jpn: "スマートホームデバイス" }, { eng: "Facial recognition", jpn: "顔認識" }] },
+            { theme: "Workplace Automation 📖", themeJpn: "職場の自動化", sub: [{ eng: "Generative text tools", jpn: "生成テキストツール" }, { eng: "Increasing productivity", jpn: "生産性の向上" }, { eng: "Replacing jobs", jpn: "仕事を代替すること" }] },
+            { theme: "Data Privacy 📖", themeJpn: "データプライバシー", sub: [{ eng: "Collecting personal data", jpn: "個人データの収集" }, { eng: "Tracking habits", jpn: "習慣の追跡" }, { eng: "Trading privacy for convenience", jpn: "利便性のためにプライバシーを取引すること" }] },
+            { theme: "AI Ethics & Bias 📖", themeJpn: "AIの倫理と偏見", sub: [{ eng: "Human prejudice", jpn: "人間の偏見" }, { eng: "Discrimination in hiring", jpn: "採用における差別" }, { eng: "Government regulations", jpn: "政府の規制" }] },
+            { theme: "Creative AI 📖", themeJpn: "クリエイティブAI", sub: [{ eng: "AI-generated art", jpn: "AI生成アート" }, { eng: "Copyright issues", jpn: "著作権問題" }, { eng: "Originality", jpn: "オリジナリティ（独創性）" }] },
+            { theme: "Future Skills 📖", themeJpn: "未来のスキル", sub: [{ eng: "Updating digital skills", jpn: "デジタルスキルの更新" }, { eng: "AI as a co-worker", jpn: "同僚としてのAI" }, { eng: "Remaining relevant", jpn: "通用し続けること" }] }
         ],
         questions: [
             { eng: "1. How often do you use AI tools (like ChatGPT or Siri) in your daily life?", jpn: "1. 日常生活でAIツール（ChatGPTやSiriなど）をどのくらいの頻度で使用しますか？" },
@@ -5145,15 +5434,27 @@ const b1Curriculum = [
                 { eng: "Filter out", jpn: "フィルターにかけて除外する", exEng: "The AI spam filter filters out unwanted emails.", exJpn: "AIスパムフィルターが不要なメールを除外します。" },
                 { eng: "Sort out", jpn: "整理する、解決する", exEng: "AI helps sort out large amounts of complicated data.", exJpn: "AIは大量の複雑なデータを整理するのに役立ちます。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Continuing state (up until) - 4 sentences
+                { prompt: "つい最近まで、AIは単なるSFでした。", target: "Up until recently, AI was just science fiction.", words: ["Up", "until", "recently,", "AI", "was", "just", "science", "fiction."] },
+                { prompt: "私は午後10時までずっとそのレポートに取り組んでいました。", target: "I was working on the report up until 10 PM.", words: ["I", "was", "working", "on", "the", "report", "up", "until", "10", "PM."] },
+                { prompt: "昨年まで、私たちのチームはすべて手作業で翻訳していました。", target: "Up until last year, our team translated everything manually.", words: ["Up", "until", "last", "year,", "our", "team", "translated", "everything", "manually."] },
+                { prompt: "会議が始まるまで、私はAIアシスタントを使ってメモを整理していました。", target: "I used an AI assistant up until the meeting started.", words: ["I", "used", "an", "AI", "assistant", "up", "until", "the", "meeting", "started."] },
+                // Grammar Point 2: Adding extra emphasis (even) - 4 sentences
+                { prompt: "AIは今やコンピューターコードさえ書くことができます。", target: "AI can now even write computer code.", words: ["AI", "can", "now", "even", "write", "computer", "code."] },
+                { prompt: "経験豊富なプロフェッショナルでさえ、スキルを更新する必要があります。", target: "Even experienced professionals need to update their skills.", words: ["Even", "experienced", "professionals", "need", "to", "update", "their", "skills."] },
+                { prompt: "チャットボットは簡単なメールさえ数秒で作成できます。", target: "Chatbots can even draft simple emails in seconds.", words: ["Chatbots", "can", "even", "draft", "simple", "emails", "in", "seconds."] },
+                { prompt: "小さな会社でさえ、日常業務の自動化を始めています。", target: "Even small companies are automating daily tasks now.", words: ["Even", "small", "companies", "are", "automating", "daily", "tasks", "now."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 3 - Tech Workplace Blog)",
+                instruction: "Read this blog post on how AI is changing daily office work, privacy, and fairness. Notice 'up until' and 'even'.",
+                eng: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>How AI Moved From Sci-Fi to Our Daily Desk</h3><span class='er-blog-meta'>By: Tech Analyst Kenji | 📅 November 10</span><p>Up until a few years ago, most workers only saw artificial intelligence in movies or behind search engines. Today, virtual assistants and generative AI tools help staff write emails, summarize notes, and even check basic computer code. On the one hand, automating repetitive tasks speeds up daily work and boosts productivity. On the other hand, sharing private company files with public chatbots creates serious data privacy risks.</p><p>There are also ethical questions that teams cannot ignore. Because AI models learn from past human data, they can repeat historical bias during hiring or customer reviews. Even smart tools make mistakes when the training data is unfair. Ultimately, companies need clear rules and human checks so AI stays a helpful co-worker rather than a risky shortcut.</p></div>",
+                jpn: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>AIはいかにSFから日々のデスクへと移ってきたか</h3><span class='er-blog-meta'>執筆者：テックアナリスト ケンジ | 📅 11月10日</span><p>数年前まで、ほとんどの労働者は映画や検索エンジンの裏側でしか人工知能を目にしませんでした。今日では、バーチャルアシスタントや生成AIツールがメール作成やメモの要約、さらには基本的なコンピューターコードの確認さえ手伝っています。一方では、反復作業の自動化が日々の業務を早め生産性を高めますが、他方では、公開チャットボットと社内の非公開ファイルを共有すると深刻なデータプライバシーのリスクが生じます。</p><p>チームが無視できない倫理的な問題もあります。AIモデルは過去の人間データから学習するため、採用や顧客評価において歴史的な偏見を繰り返すことがあります。賢いツールでさえ、学習データが不公平だと間違いを犯します。最終的に、AIが危険な手抜きではなく役立つ同僚であり続けるために、企業には明確なルールと人間の確認が必要です。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think AI will replace human jobs in your industry? Use 'up until' and 'even' in your answer.",
                 promptJpn: "「AIはあなたの業界で人間の仕事に取って代わると思いますか？『up until』と『even』を使って答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Dual Edge of Generative AI)",
-                instruction: "Read this authentic article about the impacts and ethical challenges of modern AI.",
-                eng: "The rapid acceleration of generative Artificial Intelligence (AI) over the past few years has reshaped the global technological landscape. Up until recently, most people viewed AI merely as a behind-the-scenes tool used by massive tech companies to optimize search engines or target advertisements. Today, large language models and image generators are accessible to anyone with a smartphone. Professionals across all industries are utilizing these tools to automate routine tasks, draft complex documents, and even generate creative artwork in seconds. For businesses, this translates to unprecedented levels of productivity and cost efficiency. The ability to accomplish hours of administrative work in minutes is undoubtedly a game-changer for the modern economy.\n\nHowever, this powerful technology is a double-edged sword. As AI becomes more sophisticated, severe ethical and economic concerns are emerging. Many workers fear that widespread automation will ultimately replace human jobs, leading to significant economic displacement. If an AI can write a brilliant marketing campaign or generate a flawless legal contract, the demand for copywriters and junior lawyers could drastically decrease. Furthermore, the issue of bias in AI remains a critical problem. AI models are trained on vast datasets pulled from the internet, meaning they inherently absorb and reflect human prejudices. If a company relies entirely on AI to screen job applicants, it might unintentionally discriminate against certain demographics based on historical biases buried in the code.\n\nUltimately, the rise of AI forces society to confront difficult questions about originality, copyright, and the value of human creativity. As we integrate these tools further into our daily lives, proactive government regulation and strict ethical guidelines are essential. We must ensure that AI serves as a collaborative tool that enhances human potential, rather than an unchecked force that compromises our privacy and reinforces social inequalities. The future belongs to those who learn to work alongside AI safely and effectively.",
-                jpn: "過去数年間にわたる生成人工知能（AI）の急速な加速は、世界的な技術の状況を作り変えました。つい最近まで、ほとんどの人はAIを、巨大なテクノロジー企業が検索エンジンを最適化したり広告をターゲットにしたりするために使用する、単なる舞台裏のツールと見なしていました。今日では、大規模言語モデルと画像生成AIは、スマートフォンを持つ誰にでもアクセス可能です。あらゆる業界のプロフェッショナルがこれらのツールを利用して、ルーティンタスクを自動化し、複雑な文書の草稿を作成し、さらには創造的なアートワークを数秒で生成しています。企業にとって、これは前例のないレベルの生産性と費用対効果を意味します。何時間もの管理業務を数分で完了できる能力は、間違いなく現代経済にとって形勢を一変させるものです。\n\nしかし、この強力なテクノロジーは諸刃の剣です。AIがより洗練されるにつれて、深刻な倫理的および経済的懸念が浮上しています。多くの労働者は、広範な自動化が最終的に人間の仕事に取って代わり、重大な経済的失職につながることを恐れています。もしAIが素晴らしいマーケティングキャンペーンを書いたり、完璧な法的契約を作成したりできれば、コピーライターや若手弁護士の需要は劇的に減少する可能性があります。さらに、AIにおける偏見（バイアス）の問題は依然として重要な問題です。AIモデルはインターネットから抽出された膨大なデータセットで訓練されるため、人間の偏見を本質的に吸収し反映します。もし企業が求職者の審査を完全にAIに依存した場合、コードの中に埋もれた歴史的な偏見に基づいて、特定の人口統計グループを意図せず差別してしまうかもしれません。\n\n最終的に、AIの台頭は、オリジナリティ、著作権、そして人間の創造性の価値に関する難しい問題に直面することを社会に強いています。私たちがこれらのツールを日常生活にさらに統合していく中で、先回りした政府の規制と厳格な倫理的ガイドラインが不可欠です。私たちは、AIが私たちのプライバシーを危険にさらし、社会的不平等を強化する野放しの力としてではなく、人間の可能性を高める協力的なツールとして機能することを保証しなければなりません。未来は、AIと安全かつ効果的に協力して働く方法を学ぶ人々のものなのです。"
             }
         }
     },
@@ -5206,46 +5507,38 @@ const b1Curriculum = [
             { eng: "Offer encouragement", jpn: "励ましの言葉をかける", indent: true }
         ],
         expressions: [
-            { category: "1. Discussing AI prompts (AIプロンプトについて話し合う)", options: ["What prompt did you use?", "Try providing more context.", "You need to refine your request."] },           
-            { category: "2. Criticizing AI output (AIの出力を批判する)", options: ["The output is way too robotic.", "It hallucinated a fake fact.", "The text is too generic."] }, 
-            { category: "3. Specifying constraints (制約を指定する)", options: ["Write a friendly but professional email.", "Please limit the word count to 100.", "Could you format this using bullet points?"] },
-            { category: "4. Clarifying limits (限界/使い方を明確にする)", options: ["I do use AI, but I always specify the tone.", "It does write well, just not perfectly.", "I do trust it, but I check the facts."] },
-            { category: "5. Emphasizing negative rules (否定的なルールを強調する)", options: ["You should never ever copy-paste without checking.", "I won't ever send an unedited AI email.", "Don't ever share sensitive data with the chatbot."] },
-            { category: "6. Adjusting manually (手動で調整する)", options: ["I will manually tweak this part.", "Let me adjust the phrasing myself.", "I just need to edit the final sentence."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Auxiliary Verbs: Clarifying limits (do/does + base verb)",
-                explanation: "We can use an emphatic 'do' or 'does' before a main verb to show that something is true, but with a specific limit or condition attached. It clarifies exactly how you use something.",
-                explanationJpn: "主動詞の前に強調の「do」または「does」を使用して、何かが事実であることを示しつつ、そこに特定の限界や条件が付随していることを表現できます。これは何かを「どのように」使うかを正確に明確にします。",
-                examples: [
-                    { eng: "I do use AI for emails, but I always specify the tone.", jpn: "私はメールにAIを使いますが（使うのは事実ですが）、常にトーンを指定します。" },
-                    { eng: "The AI does write fast, just not very accurately.", jpn: "そのAIは速く書きますが、あまり正確ではありません。" }
+                category: "1. Providing context & constraints (背景情報と制約を指定する)",
+                options: [
+                    { eng: "Try providing more context in your prompt.", jpn: "プロンプトにもっと背景情報を入れてみてください。" },
+                    { eng: "Write a friendly but professional email, maximum 100 words.", jpn: "フレンドリーかつプロフェッショナルなメールを最大100語で書いてください。" },
+                    { eng: "Could you format this using bullet points?", jpn: "これを箇条書きの形式でまとめてもらえますか？" }
                 ]
             },
             {
-                point: "2. Adverbs: Adding emphasis (never ever / not ever)",
-                explanation: "We can use 'never ever' (or 'not ever' with an auxiliary) to add extremely strong emphasis to a negative statement. This is often used for crucial warnings or strict rules.",
-                explanationJpn: "「never ever」（または助動詞を伴う「not ever」）を使って、否定文に非常に強い強調を加えることができます。これは重要な警告や厳格なルールによく使われます。",
-                examples: [
-                    { eng: "You should never ever copy-paste AI text without checking it.", jpn: "確認せずにAIのテキストをコピペすることは絶対に（絶対に）すべきではありません。" },
-                    { eng: "I wouldn't ever put confidential client data into a public AI tool.", jpn: "私は公共のAIツールに機密のクライアントデータを絶対に入れません。" }
+                category: "2. Clarifying limits with 'do' (使い方や限界を明確にする)",
+                options: [
+                    { eng: "I do use AI for emails, but I always specify the tone.", jpn: "メールにAIを使いますが、常にトーンを指定しています。" },
+                    { eng: "The AI does write fast, just not very accurately.", jpn: "そのAIは速く書きますが、あまり正確ではありません。" },
+                    { eng: "I do use it for drafts, but I edit every line.", jpn: "下書きには使いますが、すべての行を自分で編集します。" }
+                ]
+            },
+            {
+                category: "3. Warning against blind copy-pasting (警告ルールを強調する)",
+                options: [
+                    { eng: "You should never ever copy-paste AI text without checking it.", jpn: "確認せずにAIのテキストをコピペすることは絶対にすべきではありません。" },
+                    { eng: "Don't ever share confidential client data with a public chatbot.", jpn: "公開チャットボットに顧客の機密データを絶対に共有しないでください。" },
+                    { eng: "I wouldn't ever send an AI email without reading it over.", jpn: "読み直さずにAIのメールを送信することは絶対にしません。" }
+                ]
+            },
+            {
+                category: "4. Tweaking & refining output (出力を微調整する)",
+                options: [
+                    { eng: "The output is way too robotic and long.", jpn: "出力が機械的すぎて長すぎます。" },
+                    { eng: "I will manually tweak this part to include our product name.", jpn: "この部分は手動で微調整して、自社の製品名を含めます。" },
+                    { eng: "Let's refine the request so the tone sounds natural.", jpn: "トーンが自然に聞こえるようにリクエストを洗練させましょう。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "私はAIを使いますが、常にトーンを指定します。", target: "I do use AI, but I always specify the tone.", words: ["I", "do", "use", "AI,", "but", "I", "always", "specify", "the", "tone."] },
-            { prompt: "確認せずにテキストを絶対にコピペすべきではありません。", target: "You should never ever copy-paste text without checking.", words: ["You", "should", "never", "ever", "copy-paste", "text", "without", "checking."] },
-            { prompt: "そのAIは速く書きますが、あまり正確ではありません。", target: "The AI does write fast, just not very accurately.", words: ["The", "AI", "does", "write", "fast,", "just", "not", "very", "accurately."] },
-            { prompt: "私はこの部分を手動で微調整します。", target: "I will manually tweak this part.", words: ["I", "will", "manually", "tweak", "this", "part."] },
-            { prompt: "出力が機械的すぎて、長すぎます。", target: "The output is way too robotic and long.", words: ["The", "output", "is", "way", "too", "robotic", "and", "long."] }
-        ],
-        dropdownGames: [
-            { before: "I", options: ["do use", "am use", "doing use"], answer: "do use", after: " ChatGPT, but only for brainstorming." },
-            { before: "You should", options: ["not never", "never ever", "ever never"], answer: "never ever", after: " share secure passwords with a chatbot." },
-            { before: "Try providing more", options: ["context", "contact", "contract"], answer: "context", after: " in your prompt." },
-            { before: "The AI", options: ["hallucinated", "illuminated", "illustrated"], answer: "hallucinated", after: " a fake statistic in this report." },
-            { before: "Could you format this using bullet", options: ["points", "marks", "dots"], answer: "points", after: "?" }
         ],
         roleplay: {
             a: "You are trying to write a report using an AI tool, but the output is too generic. Ask a colleague for help. Tell them what you typed and complain about the result. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはAIツールを使ってレポートを書こうとしていますが、出力が一般的すぎます。同僚に助けを求めてください。何を打ち込んだかを伝え、結果について不満を言ってください。)</span>",
@@ -5272,20 +5565,31 @@ const b1Curriculum = [
                 { eng: "Give away", jpn: "漏らす", exEng: "Never give away trade secrets in a public prompt.", exJpn: "公開されているプロンプトで決して企業秘密を漏らさないでください。" },
                 { eng: "Follow up", jpn: "フォローアップする、さらに質問する", exEng: "You can follow up with the AI to refine the answer.", exJpn: "答えを洗練させるために、AIにフォローアップの質問をすることができます。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Clarifying limits (do/does + base verb) - 4 sentences
+                { prompt: "私はメールにAIを使いますが、常にトーンを指定します。", target: "I do use AI for emails, but I always specify the tone.", words: ["I", "do", "use", "AI", "for", "emails,", "but", "I", "always", "specify", "the", "tone."] },
+                { prompt: "そのAIは速く書きますが、あまり正確ではありません。", target: "The AI does write fast, just not very accurately.", words: ["The", "AI", "does", "write", "fast,", "just", "not", "very", "accurately."] },
+                { prompt: "下書きにはAIを使いますが、すべての文を自分で確認します。", target: "I do use AI for drafts, but I check every line.", words: ["I", "do", "use", "AI", "for", "drafts,", "but", "I", "check", "every", "line."] },
+                { prompt: "そのツールは時間を節約しますが、明確な背景情報が必要です。", target: "The tool does save time, though it needs clear context.", words: ["The", "tool", "does", "save", "time,", "though", "it", "needs", "clear", "context."] },
+                // Grammar Point 2: Adding emphasis (never ever / not ever) - 4 sentences
+                { prompt: "確認せずにAIのテキストを絶対にコピペすべきではありません。", target: "You should never ever copy-paste AI text without checking it.", words: ["You", "should", "never", "ever", "copy-paste", "AI", "text", "without", "checking", "it."] },
+                { prompt: "私は公共のAIツールに機密データを絶対に入れません。", target: "I wouldn't ever put confidential data into a public AI tool.", words: ["I", "wouldn't", "ever", "put", "confidential", "data", "into", "a", "public", "AI", "tool."] },
+                { prompt: "チャットボットにパスワードを絶対に教えてはいけません。", target: "You must never ever give away passwords to a chatbot.", words: ["You", "must", "never", "ever", "give", "away", "passwords", "to", "a", "chatbot."] },
+                { prompt: "確認せずにAIの数字を絶対に信頼しないでください。", target: "Don't ever trust AI numbers without verifying the facts.", words: ["Don't", "ever", "trust", "AI", "numbers", "without", "verifying", "the", "facts."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 4 - Prompt Coaching Chat)",
+                instruction: "Read this team chat where coworkers improve an AI prompt and check for hallucinations. Notice 'do/does' and 'never ever'.",
+                eng: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #ai-workflow-tips</div><div class='er-chat-msg'><span class='er-chat-time'>[11:02 AM]</span> <span class='er-chat-user'>@Haruka:</span> I asked the chatbot to write a client welcome email, and the output sounds way too robotic and long!</div><div class='er-chat-msg'><span class='er-chat-time'>[11:05 AM]</span> <span class='er-chat-user'>@Liam:</span> I do use AI for first drafts, but I always provide context, adjust the tone, and limit word count to 100 words using bullet points.</div><div class='er-chat-msg'><span class='er-chat-time'>[11:08 AM]</span> <span class='er-chat-user'>@Haruka:</span> That worked much better! Still, it hallucinated a fake feature name on line three.</div><div class='er-chat-msg'><span class='er-chat-time'>[11:10 AM]</span> <span class='er-chat-user'>@Liam:</span> Good catch—you should never ever copy-paste AI text without reading it over and tweaking product names manually.</div></div>",
+                jpn: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #ai-workflow-tips</div><div class='er-chat-msg'><span class='er-chat-time'>[11:02 AM]</span> <span class='er-chat-user'>@Haruka:</span> チャットボットにクライアントへの歓迎メールを書いてもらったんだけど、出力が機械的すぎて長すぎるの！</div><div class='er-chat-msg'><span class='er-chat-time'>[11:05 AM]</span> <span class='er-chat-user'>@Liam:</span> 僕も初稿にはAIを使うけど、いつも背景情報を入れてトーンを調整し、箇条書きを使って100語以内に文字数を制限しているよ。</div><div class='er-chat-msg'><span class='er-chat-time'>[11:08 AM]</span> <span class='er-chat-user'>@Haruka:</span> ずっと良くなった！でも3行目に存在しない機能名をハルシネーションで出してきてるわ。</div><div class='er-chat-msg'><span class='er-chat-time'>[11:10 AM]</span> <span class='er-chat-user'>@Liam:</span> よく気づいたね。読み直して製品名を手動で微調整せずに、AIの文章を絶対にそのままコピペしてはいけないよ。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short dialogue where you help a colleague fix a bad AI prompt. Use 'do' for emphasis to clarify a limit, and 'never ever' to warn them.",
                 promptJpn: "「同僚が悪いAIプロンプトを修正するのを手伝う短い対話を書いてください。限界を明確にするために強調の『do』を使用し、彼らに警告するために『never ever』を使用してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Skill of Prompt Engineering)",
-                instruction: "Read this authentic text about how to communicate effectively with generative AI.",
-                eng: "As Generative AI tools like ChatGPT become integrated into daily corporate workflows, a new professional skill has emerged: 'Prompt Engineering.' Prompt engineering is the practice of designing and refining the text inputs (prompts) given to an AI model to produce the most accurate and useful output possible. Many beginners simply treat AI like a traditional search engine, typing brief commands like 'Write a sales email.' They are often disappointed when the result is a long, robotic, and highly generic text. To get real value from these advanced models, users must understand that the AI requires context, constraints, and specific formatting instructions.\n\nA highly effective prompt provides a clear 'persona' and detailed boundaries. For example, instead of a vague command, a good prompt looks like this: 'Act as a senior marketing manager. Write a friendly, persuasive email to a new client introducing our software. Use bullet points for the main features, and limit the text to 150 words.' By specifying the role, tone, format, and length, the user guides the AI to produce a draft that requires very little manual editing. I do use AI every day to save time, but I always ensure my prompts are highly structured.\n\nHowever, even with perfect prompting, human oversight is absolutely mandatory. AI models are prone to 'hallucinations,' meaning they confidently generate fake facts, nonexistent product names, or incorrect statistics when they do not know the answer. Because of this, professionals must treat AI as a junior assistant, not a definitive expert. You should never ever copy-paste AI-generated text directly into a professional document without reading it over carefully. While AI can dramatically speed up the drafting process, the final responsibility for accuracy and quality always rests with the human user.",
-                jpn: "ChatGPTのような生成AIツールが日々の企業のワークフローに統合されるにつれて、「プロンプトエンジニアリング」という新しい専門スキルが登場しました。プロンプトエンジニアリングとは、可能な限り正確で有用な出力を生成するために、AIモデルに与えられるテキスト入力（プロンプト）を設計し、洗練させる実践のことです。多くの初心者はAIを従来の検索エンジンのように扱い、「営業メールを書いて」といった短いコマンドを単に入力します。結果が長く、機械的で、非常に一般的なテキストだった場合、彼らはしばしば失望します。これらの高度なモデルから真の価値を引き出すには、ユーザーはAIにはコンテキスト、制約、そして特定のフォーマットの指示が必要であることを理解しなければなりません。\n\n非常に効果的なプロンプトは、明確な「ペルソナ（役割）」と詳細な境界線を提供します。例えば、曖昧なコマンドの代わりに、良いプロンプトは次のようになります。「シニアマーケティングマネージャーとして振る舞ってください。新しいクライアントに当社のソフトウェアを紹介する、フレンドリーで説得力のあるメールを書いてください。主な機能には箇条書きを使用し、テキストは150語に制限してください。」役割、トーン、フォーマット、および長さを指定することで、ユーザーはAIを導き、手動での編集がほとんど必要ない草稿を作成させることができます。私は時間を節約するために毎日AIを使用していますが、自分のプロンプトが高度に構造化されていることを常に確認しています。\n\nしかし、完璧なプロンプティングであっても、人間の監視は絶対に必須です。AIモデルは「ハルシネーション（幻覚）」を起こしやすく、答えを知らないときに偽の事実、存在しない製品名、または不正確な統計を自信満々に生成することを意味します。このため、プロフェッショナルはAIを決定的な専門家としてではなく、若手のアシスタントとして扱わなければなりません。AIが生成したテキストを注意深く確認せずに、そのままプロフェッショナルな文書にコピペすることは絶対にすべきではありません。AIは草稿作成のプロセスを劇的に早めることができますが、正確さと品質に対する最終的な責任は常に人間のユーザーにあるのです。"
             }
         }
     },
-
-{
+    {
         id: 45,
         chapter: "Chapter 7: Artificial Intelligence",
         type: "opinion",
@@ -5295,30 +5599,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes on AI and creativity.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "The rise of generative AI in the creative industry is completely unprecedented. As a graphic designer, I use AI tools that can generate high-quality images in seconds. It allows me to brainstorm visual concepts rapidly. However, many traditional artists are furious. They argue that the AI models are trained on billions of copyrighted images that were scraped from the internet without permission. The artists whose work was used to train the machine receive zero compensation. While I enjoy the efficiency, I worry about the ethical implications. We need strict copyright laws that protect original creators while still allowing technological progress.", 
-                    jpn: "クリエイティブ産業における生成AIの台頭は、完全に前例のないものです。グラフィックデザイナーとして、私は数秒で高品質の画像を生成できるAIツールを使用しています。それにより、視覚的なコンセプトを素早くブレインストーミングできます。しかし、多くの伝統的なアーティストは激怒しています。彼らは、AIモデルが許可なくインターネットから収集された何十億もの著作権のある画像で訓練されていると主張しています。機械の訓練に作品が使用されたアーティストたちは、何の補償も受け取っていません。私は効率性を楽しむ一方で、倫理的な影響を心配しています。技術の進歩を許容しつつ、オリジナルのクリエイターを保護する厳格な著作権法が必要です。" 
+                {
+                    name: "Person 1",
+                    eng: "The rise of generative AI in the creative industry is completely unprecedented. As a graphic designer, I use AI tools that can generate high-quality images in seconds. It allows me to brainstorm visual concepts rapidly. However, many traditional artists are furious. They argue that the AI models are trained on billions of copyrighted images that were scraped from the internet without permission. The artists whose work was used to train the machine receive zero compensation. While I enjoy the efficiency, I worry about the ethical implications. We need strict copyright laws that protect original creators while still allowing technological progress.",
+                    jpn: "クリエイティブ産業における生成AIの台頭は、完全に前例のないものです。グラフィックデザイナーとして、私は数秒で高品質の画像を生成できるAIツールを使用しています。それにより、視覚的なコンセプトを素早くブレインストーミングできます。しかし、多くの伝統的なアーティストは激怒しています。彼らは、AIモデルが許可なくインターネットから収集された何十億もの著作権のある画像で訓練されていると主張しています。機械の訓練に作品が使用されたアーティストたちは、何の補償も受け取っていません。私は効率性を楽しむ一方で、倫理的な影響を心配しています。技術の進歩を許容しつつ、オリジナルのクリエイターを保護する厳格な著作権法が必要です。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "I work in content marketing, and AI has totally changed how we write. We use language models to draft blog posts, social media captions, and product descriptions. It is a fantastic starting point. But AI cannot replace the human voice. The articles that are entirely generated by AI lack emotion, humor, and real-world experience. Furthermore, search engines are starting to penalize websites that publish low-quality AI content. I think human writers who know how to edit and refine AI drafts will become highly valuable. AI is just a tool; it is the human who provides the actual creative soul.", 
-                    jpn: "私はコンテンツマーケティングの仕事をしており、AIは私たちの執筆方法を完全に変えました。私たちは言語モデルを使用して、ブログ記事、ソーシャルメディアのキャプション、製品説明の下書きを作成します。それは素晴らしい出発点です。しかし、AIは人間の声に取って代わることはできません。完全にAIによって生成された記事には、感情、ユーモア、現実世界の経験が欠けています。さらに、検索エンジンは低品質のAIコンテンツを公開するウェブサイトにペナルティを与え始めています。AIの下書きを編集し、洗練させる方法を知っている人間のライターは、非常に価値が高くなると思います。AIは単なるツールであり、実際の創造的な魂を提供するのは人間なのです。" 
+                {
+                    name: "Person 2",
+                    eng: "I work in content marketing, and AI has totally changed how we write. We use language models to draft blog posts, social media captions, and product descriptions. It is a fantastic starting point. But AI cannot replace the human voice. The articles that are entirely generated by AI lack emotion, humor, and real-world experience. Furthermore, search engines are starting to penalize websites that publish low-quality AI content. I think human writers who know how to edit and refine AI drafts will become highly valuable. AI is just a tool; it is the human who provides the actual creative soul.",
+                    jpn: "私はコンテンツマーケティングの仕事をしており、AIは私たちの執筆方法を完全に変えました。私たちは言語モデルを使用して、ブログ記事、ソーシャルメディアのキャプション、製品説明の下書きを作成します。それは素晴らしい出発点です。しかし、AIは人間の声に取って代わることはできません。完全にAIによって生成された記事には、感情、ユーモア、現実世界の経験が欠けています。さらに、検索エンジンは低品質なAIコンテンツを公開するウェブサイトにペナルティを与え始めています。AIの下書きを編集し、洗練させる方法を知っている人間のライターは、非常に価値が高くなると思います。AIは単なるツールであり、実際の創造的な魂を提供するのは人間なのです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I believe that AI is democratizing creativity. In the past, if you wanted to make a short film or design a video game, you needed a massive budget and a team of specialized experts. Today, a single independent creator who has a great imagination can use AI to generate music, code, and artwork. It lowers the barrier to entry. Critics say that AI art isn't 'real' art, but people said the exact same thing when digital photography was invented. Art is about the final message, not just the physical effort it took to make it. AI empowers people who have brilliant ideas but lack traditional technical skills.", 
-                    jpn: "私は、AIが創造性を民主化していると信じています。過去には、短編映画を作ったりビデオゲームをデザインしたりしたい場合、莫大な予算と専門家のチームが必要でした。今日では、素晴らしい想像力を持つたった一人の独立したクリエイターが、AIを使って音楽、コード、アートワークを生成できます。それは参入障壁を下げます。批評家はAIアートは「本物」のアートではないと言いますが、デジタル写真が発明された時も人々は全く同じことを言いました。アートとは最終的なメッセージのことであり、それを作るのにかかった物理的な労力だけのことではありません。AIは、素晴らしいアイデアを持ちながらも伝統的な技術的スキルに欠ける人々に力を与えるのです。" 
+                {
+                    name: "Person 3",
+                    eng: "I believe that AI is democratizing creativity. In the past, if you wanted to make a short film or design a video game, you needed a massive budget and a team of specialized experts. Today, a single independent creator who has a great imagination can use AI to generate music, code, and artwork. It lowers the barrier to entry. Critics say that AI art isn't 'real' art, but people said the exact same thing when digital photography was invented. Art is about the final message, not just the physical effort it took to make it. AI empowers people who have brilliant ideas but lack traditional technical skills.",
+                    jpn: "私は、AIが創造性を民主化していると信じています。過去には、短編映画を作ったりビデオゲームをデザインしたりしたい場合、莫大な予算と専門家のチームが必要でした。今日では、素晴らしい想像力を持つたった一人の独立したクリエイターが、AIを使って音楽、コード、アートワークを生成できます。それは参入障壁を下げます。批評家はAIアートは「本物」のアートではないと言いますが、デジタル写真が発明された時も人々は全く同じことを言いました。アートとは最終的なメッセージのことであり、それを作るのにかかった物理的な労力だけのことではありません。AIは、素晴らしいアイデアを持ちながらも伝統的な技術的スキルに欠ける人々に力を与えるのです。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "AI in Art 📖", themeJpn: "アートにおけるAI", sub: [{eng: "Generating images", jpn: "画像の生成"}, {eng: "Copyright infringement", jpn: "著作権侵害"}, {eng: "Compensating artists", jpn: "アーティストへの補償"}] },
-            { theme: "AI in Writing 📖", themeJpn: "執筆におけるAI", sub: [{eng: "Drafting content", jpn: "コンテンツの下書き"}, {eng: "Lacking emotion", jpn: "感情の欠如"}, {eng: "Human editing", jpn: "人間による編集"}] },
-            { theme: "Democratizing Creativity 📖", themeJpn: "創造性の民主化", sub: [{eng: "Lowering barriers", jpn: "障壁を下げること"}, {eng: "Independent creators", jpn: "独立したクリエイター"}, {eng: "Empowering ideas", jpn: "アイデアに力を与えること"}] },
-            { theme: "The Definition of Art 📖", themeJpn: "アートの定義", sub: [{eng: "Real vs Fake art", jpn: "本物対偽物のアート"}, {eng: "Physical effort", jpn: "物理的な労力"}, {eng: "Final message", jpn: "最終的なメッセージ"}] },
-            { theme: "Ethical Concerns 📖", themeJpn: "倫理的懸念", sub: [{eng: "Training data", jpn: "訓練データ"}, {eng: "Stealing styles", jpn: "スタイルの盗用"}, {eng: "Strict regulations", jpn: "厳格な規制"}] },
-            { theme: "Future Skills 📖", themeJpn: "未来のスキル", sub: [{eng: "Refining drafts", jpn: "下書きを洗練させること"}, {eng: "Prompt engineering", jpn: "プロンプトエンジニアリング"}, {eng: "Human voice", jpn: "人間の声（個性）"}] }
+            { theme: "AI in Art 📖", themeJpn: "アートにおけるAI", sub: [{ eng: "Generating images", jpn: "画像の生成" }, { eng: "Copyright infringement", jpn: "著作権侵害" }, { eng: "Compensating artists", jpn: "アーティストへの補償" }] },
+            { theme: "AI in Writing 📖", themeJpn: "執筆におけるAI", sub: [{ eng: "Drafting content", jpn: "コンテンツの下書き" }, { eng: "Lacking emotion", jpn: "感情の欠如" }, { eng: "Human editing", jpn: "人間による編集" }] },
+            { theme: "Democratizing Creativity 📖", themeJpn: "創造性の民主化", sub: [{ eng: "Lowering barriers", jpn: "障壁を下げること" }, { eng: "Independent creators", jpn: "独立したクリエイター" }, { eng: "Empowering ideas", jpn: "アイデアに力を与えること" }] },
+            { theme: "The Definition of Art 📖", themeJpn: "アートの定義", sub: [{ eng: "Real vs Fake art", jpn: "本物対偽物のアート" }, { eng: "Physical effort", jpn: "物理的な労力" }, { eng: "Final message", jpn: "最終的なメッセージ" }] },
+            { theme: "Ethical Concerns 📖", themeJpn: "倫理的懸念", sub: [{ eng: "Training data", jpn: "訓練データ" }, { eng: "Stealing styles", jpn: "スタイルの盗用" }, { eng: "Strict regulations", jpn: "厳格な規制" }] },
+            { theme: "Future Skills 📖", themeJpn: "未来のスキル", sub: [{ eng: "Refining drafts", jpn: "下書きを洗練させること" }, { eng: "Prompt engineering", jpn: "プロンプトエンジニアリング" }, { eng: "Human voice", jpn: "人間の声（個性）" }] }
         ],
         questions: [
             { eng: "1. Do you think AI-generated images should be considered 'real' art?", jpn: "1. AIが生成した画像は「本物」のアートと見なされるべきだと思いますか？" },
@@ -5386,15 +5690,27 @@ const b1Curriculum = [
                 { eng: "Catch on", jpn: "流行る、普及する", exEng: "Using AI to write code caught on very quickly.", exJpn: "コードを書くためにAIを使うことは非常に早く普及しました。" },
                 { eng: "Turn out", jpn: "〜という結果になる", exEng: "The AI essay turned out to be completely inaccurate.", exJpn: "そのAIエッセイは完全に不正確であると判明しました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Defining relative clauses (who/that/which) - 4 sentences
+                { prompt: "編集の仕方を知っている人間のライターは価値が高くなります。", target: "Human writers who know how to edit become valuable.", words: ["Human", "writers", "who", "know", "how", "to", "edit", "become", "valuable."] },
+                { prompt: "検索エンジンは低品質なコンテンツを公開するサイトにペナルティを与えます。", target: "Search engines penalize websites that publish low-quality content.", words: ["Search", "engines", "penalize", "websites", "that", "publish", "low-quality", "content."] },
+                { prompt: "オリジナルのクリエイターを保護する厳格な著作権法が必要です。", target: "We need strict copyright laws that protect original creators.", words: ["We", "need", "strict", "copyright", "laws", "that", "protect", "original", "creators."] },
+                { prompt: "素晴らしいアイデアを持つ独立したクリエイターがAIツールを使っています。", target: "Independent creators who have great ideas use AI tools.", words: ["Independent", "creators", "who", "have", "great", "ideas", "use", "AI", "tools."] },
+                // Grammar Point 2: Adverbs of completeness (completely, totally, entirely) - 4 sentences
+                { prompt: "AIは私たちの書き方を完全に変えました。", target: "AI has totally changed how we write.", words: ["AI", "has", "totally", "changed", "how", "we", "write."] },
+                { prompt: "完全にAIによって生成された記事には感情が欠けています。", target: "Articles that are entirely generated by AI lack emotion.", words: ["Articles", "that", "are", "entirely", "generated", "by", "AI", "lack", "emotion."] },
+                { prompt: "クリエイティブ産業でのAIの台頭は完全に前例のないものです。", target: "The rise of AI in creative work is completely unprecedented.", words: ["The", "rise", "of", "AI", "in", "creative", "work", "is", "completely", "unprecedented."] },
+                { prompt: "私たちは機械だけに完全に頼ることはできません。", target: "We cannot rely completely on machines for real art.", words: ["We", "cannot", "rely", "completely", "on", "machines", "for", "real", "art."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 5 - AI & Creativity FAQ)",
+                instruction: "Read this FAQ on generative AI in design, writing, and copyright. Notice relative clauses ('who/that') and completeness adverbs.",
+                eng: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>🎨 AI &amp; Creativity FAQ: Tools, Copyright &amp; Human Voice</h3><div class='er-faq-item'><span class='er-faq-q'>Q: How does generative AI help independent creators today?</span><div class='er-faq-a'>Creators who have strong ideas but small budgets can use AI tools that generate draft images, music, or outlines quickly. While this lowers the barrier to entry, human editing still brings the real message.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: Why do many artists worry about copyright infringement?</span><div class='er-faq-a'>Many models were trained on images that were scraped online without permission. Artists want fair rules and clear watermarks so original work is respected rather than copied.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: Can articles that are entirely written by AI replace human writers?</span><div class='er-faq-a'>Not completely. Text that is totally generated by a machine often lacks real experience and humor. Writers who refine drafts and add a genuine human voice remain essential.</div></div></div>",
+                jpn: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>🎨 AIと創造性FAQ：ツール・著作権・人間の個性</h3><div class='er-faq-item'><span class='er-faq-q'>Q: 生成AIは今日、独立したクリエイターをどのように助けていますか？</span><div class='er-faq-a'>素晴らしいアイデアを持ちながら予算が少ないクリエイターでも、画像や音楽、構成の下書きを素早く生成するAIツールを使えます。これにより参入障壁は下がりますが、本物のメッセージを届けるのは人間の編集です。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: なぜ多くのアーティストが著作権侵害を心配しているのですか？</span><div class='er-faq-a'>多くのモデルが許可なくネット上から収集された画像で訓練されました。アーティストたちは、オリジナル作品がコピーされるのではなく尊重されるよう、公正なルールと明確な透かしを求めています。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 完全にAIによって書かれた記事は人間のライターに取って代われますか？</span><div class='er-faq-a'>完全には無理です。完全に機械が生成した文章には、実体験やユーモアが欠けていることが多いです。下書きを洗練させ、本物の人間らしさを加えるライターは今後も不可欠です。</div></div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think AI will replace human writers or artists? Use a defining relative clause (who/that/which) and an adverb of completeness (e.g., completely).",
                 promptJpn: "「AIは人間のライターやアーティストに取って代わると思いますか？制限用法関係詞節（who/that/which）と完全性を表す副詞（例：completely）を使って答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Creative Revolution or Copyright Crisis?)",
-                instruction: "Read this authentic article about the impacts of Generative AI on the creative industries.",
-                eng: "Generative AI models are currently driving one of the most profound technological disruptions since the invention of the internet. By simply typing a few descriptive sentences—known as a 'prompt'—anyone can generate stunning digital paintings, write complex software code, or compose original music tracks in a matter of seconds. For independent creators, small businesses, and marketing agencies, these tools offer unparalleled efficiency. An entrepreneur who has a brilliant vision but lacks graphic design skills can now produce a professional advertising campaign entirely on their own. In this sense, AI is breaking down the traditional barriers to entry in the creative industries.\n\nHowever, this rapid democratization of creativity has sparked a fierce backlash from professional artists and writers. The core of the controversy lies in how these AI models are trained. Tech companies scrape billions of images and texts from the public internet to 'teach' their algorithms. The artists whose original works were absorbed into these massive datasets were never asked for permission, nor were they compensated. Consequently, many creatives feel that generative AI is not a tool for innovation, but an engine for mass-scale copyright infringement. When an AI generates an image 'in the style of' a living artist, it directly competes with that artist's livelihood.\n\nLegal systems worldwide are currently struggling to catch up with this technology. Can a piece of art that was generated completely by a machine be copyrighted? Who owns the output—the programmer, the user who wrote the prompt, or the original artists whose data trained the model? As courts debate these complex questions, the creative industry must adapt. Human professionals who learn to integrate AI into their workflow, refining and adding genuine emotional depth to machine-generated drafts, will likely thrive. Ultimately, while AI can synthesize existing knowledge with terrifying speed, it still requires the human soul to provide true creative direction.",
-                jpn: "生成AIモデルは現在、インターネットの発明以来最も深刻な技術的混乱の1つを推進しています。「プロンプト」として知られる数行の描写的な文章を打ち込むだけで、誰でも見事なデジタル絵画を生成し、複雑なソフトウェアコードを書き、オリジナルの音楽トラックを数秒で作曲することができます。独立したクリエイター、中小企業、マーケティングエージェンシーにとって、これらのツールは比類のない効率性を提供します。素晴らしいビジョンを持ちながらもグラフィックデザインのスキルに欠ける起業家が、今や完全に自力でプロフェッショナルな広告キャンペーンを制作できるのです。この意味で、AIはクリエイティブ産業における従来の参入障壁を打ち破っています。\n\nしかし、この創造性の急速な民主化は、プロのアーティストやライターからの激しい反発を引き起こしました。論争の核心は、これらのAIモデルがどのように訓練されているかにあります。テクノロジー企業は、自社のアルゴリズムに「教える」ために、公開されたインターネットから何十億もの画像やテキストを収集（スクレイピング）します。これらの巨大なデータセットにオリジナル作品が吸収されたアーティストたちは、許可を求められることもなく、補償されることもありませんでした。その結果、多くのクリエイターは、生成AIはイノベーションのためのツールではなく、大規模な著作権侵害のエンジンであると感じています。AIが存命のアーティストの「スタイルで」画像を生成するとき、それはそのアーティストの生計と直接競合するのです。\n\n世界中の法制度は現在、このテクノロジーに追いつくのに苦労しています。完全に機械によって生成された芸術作品に著作権を認めることができるのでしょうか？出力物の所有者は誰なのでしょうか—プログラマーか、プロンプトを書いたユーザーか、それともモデルを訓練したデータを持つ元のアーティストでしょうか？裁判所がこれらの複雑な問題を議論する中、クリエイティブ産業は適応しなければなりません。AIを自分のワークフローに統合し、機械が生成した下書きを洗練させ、本物の感情的な深みを加えることを学ぶ人間のプロフェッショナルは、おそらく繁栄するでしょう。最終的に、AIは恐ろしいスピードで既存の知識を合成することができますが、真の創造的な方向性を提供するには依然として人間の魂が必要なのです。"
             }
         }
     },
@@ -5447,46 +5763,38 @@ const b1Curriculum = [
             { eng: "Confirm expectation + Give final positive outlook", jpn: "期待を確認する ＋ 最終的な前向きな見通しを伝える", indent: true }
         ],
         expressions: [
-            { category: "1. Pitching an idea (アイデアを提案する)", options: ["I would like to propose a new software tool.", "I think we should invest in an AI assistant.", "I want to pitch a solution to our bottleneck."] },           
-            { category: "2. Handling budget pushback (予算の反対に対処する)", options: ["Even if it costs $50, it saves hours of work.", "The ROI justifies the subscription cost.", "It pays for itself in time saved."] }, 
-            { category: "3. Handling security concerns (セキュリティの懸念に対処する)", options: ["It has enterprise-level security.", "They do not use our data for training.", "I already cleared it with the IT department."] },
-            { category: "4. Describing benefits (利点を説明する)", options: ["It automates our data reporting.", "It frees up my Friday afternoons.", "It streamlines our entire workflow."] },
-            { category: "5. Emphasizing impact (影響を強調する)", options: ["It is a total game-changer.", "It is an absolute no-brainer.", "It drastically improves our efficiency."] },
-            { category: "6. Requesting final approval (最終承認を求める)", options: ["I will send you a summary of the ROI.", "Could you present this to the directors?", "Please let me know if we can move forward."] }
-        ],
-        grammarPoints: [
             {
-                point: "1. Conjunctions: Expressing hypothetical contrast (Even if)",
-                explanation: "We use 'even if' to show that a particular condition does not change the result. It is highly effective in negotiations to show that a negative factor (like cost) is outweighed by a positive outcome.",
-                explanationJpn: "「even if（たとえ〜だとしても）」を使って、特定の条件が結果を変えないことを示します。交渉において、マイナス要因（コストなど）がプラスの結果によって上回られることを示すのに非常に効果的です。",
-                examples: [
-                    { eng: "Even if the subscription costs $50, it will save us money overall.", jpn: "たとえサブスクリプションに50ドルかかっても、全体的にはお金の節約になります。" },
-                    { eng: "Even if we need a week to learn it, the speed increase is worth it.", jpn: "たとえ学ぶのに1週間必要だとしても、速度の向上にはそれだけの価値があります。" }
+                category: "1. Pitching an AI tool (新しいツールを提案する)",
+                options: [
+                    { eng: "I would like to propose a new AI tool for our marketing team.", jpn: "マーケティングチームのために新しいAIツールを提案したいのですが。" },
+                    { eng: "I want to pitch a solution that automates weekly reports.", jpn: "週次レポートを自動化する解決策を提案したいです。" },
+                    { eng: "It streamlines our workflow and frees up four hours a week.", jpn: "ワークフローを効率化し、週に4時間の余裕を生み出します。" }
                 ]
             },
             {
-                point: "2. Verbs: Avoiding repetition of the subject (Compound predicates)",
-                explanation: "In professional speech, we often connect two verbs using 'and' to describe multiple features of a product without repeating 'it'.",
-                explanationJpn: "プロフェッショナルな会話では、「it」を繰り返さずに製品の複数の機能を説明するために、しばしば「and」を使って2つの動詞（述語）を接続します。",
-                examples: [
-                    { eng: "The tool has enterprise security and does not use our data.", jpn: "そのツールはエンタープライズセキュリティを備えており、私たちのデータを使用しません。" },
-                    { eng: "It automates the reporting and frees up our time.", jpn: "それは報告を自動化し、私たちの時間を空けてくれます。" }
+                category: "2. Countering budget pushback with 'Even if' (予算の反対に反論する)",
+                options: [
+                    { eng: "Even if the subscription costs $50, it saves hours of work.", jpn: "たとえサブスクリプションが50ドルかかっても、何時間もの作業を節約できます。" },
+                    { eng: "Even if we spend a day on setup, the ROI is worth it.", jpn: "たとえセットアップに1日かかっても、投資利益率に見合う価値があります。" },
+                    { eng: "It pays for itself in time saved.", jpn: "節約できる時間を考えれば十分に元が取れます。" }
+                ]
+            },
+            {
+                category: "3. Addressing security & privacy concerns (セキュリティの懸念に対処する)",
+                options: [
+                    { eng: "This tool has enterprise-level security and protects our data.", jpn: "このツールはエンタープライズレベルのセキュリティを備え、データを保護します。" },
+                    { eng: "It does not use our data to train its public model.", jpn: "公開モデルを訓練するために私たちのデータを使用しません。" },
+                    { eng: "I already checked the privacy policy with IT.", jpn: "すでにIT部門とプライバシーポリシーを確認しました。" }
+                ]
+            },
+            {
+                category: "4. Requesting & confirming next steps (次のステップと承認)",
+                options: [
+                    { eng: "Send me a brief summary of the ROI.", jpn: "ROI（投資利益率）の簡単な要約を送ってください。" },
+                    { eng: "I will email you the cost-benefit breakdown today.", jpn: "今日中に費用対効果の内訳をメールでお送りします。" },
+                    { eng: "If the security checks out, it is a no-brainer.", jpn: "セキュリティに問題がなければ、導入しない手はありません。" }
                 ]
             }
-        ],
-        clickingGames: [
-            { prompt: "マーケティングチームのために新しいAIツールを提案したいです。", target: "I would like to propose a new AI tool for the marketing team.", words: ["I", "would", "like", "to", "propose", "a", "new", "AI", "tool", "for", "the", "marketing", "team."] },
-            { prompt: "たとえコストがかかっても、それは時間を節約します。", target: "Even if it costs money, it saves time.", words: ["Even", "if", "it", "costs", "money,", "it", "saves", "time."] },
-            { prompt: "そのツールは公開モデルを訓練するために私たちのデータを使用しません。", target: "The tool does not use our data to train public models.", words: ["The", "tool", "does", "not", "use", "our", "data", "to", "train", "public", "models."] },
-            { prompt: "それは私たちの効率にとって完全にゲームチェンジャーです。", target: "It is a total game-changer for our efficiency.", words: ["It", "is", "a", "total", "game-changer", "for", "our", "efficiency."] },
-            { prompt: "今日中にROIの要約をお送りします。", target: "I will send you a summary of the ROI today.", words: ["I", "will", "send", "you", "a", "summary", "of", "the", "ROI", "today."] }
-        ],
-        dropdownGames: [
-            { before: "I would like to", options: ["pitch", "pitching", "pitched"], answer: "pitch", after: " a new software solution to you." },
-            { before: "", options: ["Even if", "Even though", "As long as"], answer: "Even if", after: " the learning curve is steep, it is worth the effort." },
-            { before: "This automation software will", options: ["free up", "break down", "hold up"], answer: "free up", after: " five hours of my week." },
-            { before: "Does the app have enterprise-level", options: ["security", "secure", "securely"], answer: "security", after: " to protect our client data?" },
-            { before: "I will present the cost-benefit", options: ["breakdown", "breakout", "breakup"], answer: "breakdown", after: " to the board of directors." }
         ],
         roleplay: {
             a: "You want to pitch an AI tool (e.g., for writing or scheduling) to your boss. Explain what it automates. Use 'even if' to argue that the subscription cost is worth it. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは上司にAIツール（執筆やスケジュール管理用など）を提案したいと考えています。それが何を自動化するのか説明してください。『even if』を使って、サブスクリプション費用には価値があると主張してください。)</span>",
@@ -5513,20 +5821,31 @@ const b1Curriculum = [
                 { eng: "Turn out", jpn: "〜という結果になる、判明する", exEng: "The AI assistant turned out to be a massive game-changer.", exJpn: "そのAIアシスタントは大規模なゲームチェンジャー（形勢を一変させるもの）だと判明しました。" },
                 { eng: "Opt for", jpn: "〜を選ぶ", exEng: "We opted for the premium version for better security.", exJpn: "より良いセキュリティのためにプレミアム版を選びました。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Hypothetical contrast (Even if) - 4 sentences
+                { prompt: "たとえサブスクリプションに50ドルかかっても、全体的には節約になります。", target: "Even if the subscription costs $50, it saves money overall.", words: ["Even", "if", "the", "subscription", "costs", "$50,", "it", "saves", "money", "overall."] },
+                { prompt: "たとえ学ぶのに1週間かかっても、速度の向上には価値があります。", target: "Even if we need a week to learn it, the speed is worth it.", words: ["Even", "if", "we", "need", "a", "week", "to", "learn", "it,", "the", "speed", "is", "worth", "it."] },
+                { prompt: "たとえ予算が厳しくても、このツールは時間の節約で元が取れます。", target: "Even if budgets are tight, this tool pays for itself in time saved.", words: ["Even", "if", "budgets", "are", "tight,", "this", "tool", "pays", "for", "itself", "in", "time", "saved."] },
+                { prompt: "たとえ多少の反対があっても、ROIのデータがチームを納得させます。", target: "Even if there is pushback, the ROI data will convince the team.", words: ["Even", "if", "there", "is", "pushback,", "the", "ROI", "data", "will", "convince", "the", "team."] },
+                // Grammar Point 2: Compound predicates (verb + and + verb) - 4 sentences
+                { prompt: "そのツールはセキュリティを備えており、私たちのデータを使用しません。", target: "The tool has enterprise security and does not use our data.", words: ["The", "tool", "has", "enterprise", "security", "and", "does", "not", "use", "our", "data."] },
+                { prompt: "それは週次報告を自動化し、私たちの時間を空けてくれます。", target: "It automates weekly reporting and frees up our time.", words: ["It", "automates", "weekly", "reporting", "and", "frees", "up", "our", "time."] },
+                { prompt: "このソフトはワークフローを効率化し、手作業のミスを減らします。", target: "This software streamlines workflows and reduces manual errors.", words: ["This", "software", "streamlines", "workflows", "and", "reduces", "manual", "errors."] },
+                { prompt: "このアプリはメモをまとめ、チームと即座に共有します。", target: "The app summarizes notes and shares them with the team instantly.", words: ["The", "app", "summarizes", "notes", "and", "shares", "them", "with", "the", "team", "instantly."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 6 - AI Tool Pitch Proposal)",
+                instruction: "Read this internal proposal pitching an AI reporting tool. Notice 'Even if' and compound predicates.",
+                eng: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 Software Pitch: Automated Reporting Assistant</h3><span class='er-job-tag'>ROI &amp; Efficiency</span> <span class='er-job-tag'>Enterprise Security</span><p><strong>Current Bottleneck:</strong><br>Every Friday, our team spends four hours manually compiling weekly campaign reports. Even if we have strict budget constraints right now, buying a small business plan at $50 per month frees up sixteen hours every month and streamlines our workflow.</p><p><strong>💼 Key Value &amp; Security Checks:</strong></p><ul><li>The software automates weekly charts and reduces manual copy-paste mistakes.</li><li>Even if staff need one afternoon to learn the prompts, the tool pays for itself within the first two weeks.</li><li>It includes enterprise-level data privacy and does not use company files to train public AI models.</li><li>Next step: Review the attached ROI breakdown with IT before approving a 30-day pilot.</li></ul></div>",
+                jpn: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 ソフトウェア提案書：自動レポート作成アシスタント</h3><span class='er-job-tag'>ROI＆効率化</span> <span class='er-job-tag'>エンタープライズセキュリティ</span><p><strong>現在のボトルネック：</strong><br>毎週金曜日、私たちのチームは週次キャンペーンレポートを手作業でまとめるのに4時間を費やしています。たとえ今厳しい予算の制約があっても、月額50ドルのスモールビジネスプランを導入すれば毎月16時間の余裕が生まれ、ワークフローが効率化されます。</p><p><strong>💼 主な価値とセキュリティ確認：</strong></p><ul><li>ソフトウェアが週次グラフを自動化し、手作業でのコピペミスを減らします。</li><li>たとえスタッフがプロンプトを学ぶのに半日かかったとしても、最初の2週間以内に十分に元が取れます。</li><li>エンタープライズレベルのデータプライバシーを備えており、公開AIモデルの学習に社内ファイルを使用しません。</li><li>次のステップ：30日間の試験導入を承認する前に、添付のROI内訳をIT部門と確認してください。</li></ul></div>"
+            },
             writingTask: {
                 promptEng: "Write a short email pitching a new software tool to your manager. Explain what task it will 'free up' time from, and use 'Even if' to argue why the cost is justified.",
                 promptJpn: "「新しいソフトウェアツールをマネージャーに提案する（売り込む）短いメールを書いてください。それがどんなタスクから時間を『解放（free up）』してくれるのかを説明し、『Even if』を使ってなぜそのコストが正当化されるのかを主張してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The ROI of Enterprise AI)",
-                instruction: "Read this authentic text about the challenges and strategies of adopting AI tools in a corporate environment.",
-                eng: "As Generative AI continues to dominate business headlines, employees at all levels are eager to integrate these tools into their daily workflows. A junior marketer might recognize that an AI writing assistant can cut their drafting time in half, or a data analyst might realize that an AI plugin can completely automate their weekly reporting. However, simply telling a manager that a tool is 'cool' or 'saves time' is rarely enough to secure budget approval. In corporate environments, any new software acquisition requires a strategic pitch centered entirely on the Return on Investment (ROI) and data security.\n\nWhen pitching an AI tool to leadership, an employee must anticipate inevitable pushback regarding cost. Most premium AI tools operate on a monthly subscription model, and CFOs are notoriously hesitant to add recurring expenses to the balance sheet. To succeed, the employee must quantify the value of their time. A strong argument sounds like: 'Currently, I spend five hours a week manually compiling this report. Even if this AI tool costs $100 a month, freeing up twenty hours of my time allows me to focus on strategic client acquisition, which directly increases our revenue.' By framing the subscription as a revenue generator rather than an expense, the pitch becomes a 'no-brainer' for management.\n\nHowever, the biggest hurdle to adopting AI in the workplace is not financial; it is digital privacy. Executives are terrified of intellectual property leaks. If an employee inputs confidential client data into a public AI model, that data might be absorbed and regurgitated to a competitor. Therefore, a professional pitching an AI solution must proactively address this concern. They must research the tool's enterprise-level security policies and clearly state, 'The vendor guarantees that our inputs are encrypted and will not be used to train their public models.' By combining a clear financial ROI with verified security protocols, an employee proves that they are thinking like a strategic leader, significantly increasing their chances of approval.",
-                jpn: "生成AIがビジネスのヘッドラインを支配し続ける中、あらゆるレベルの従業員がこれらのツールを日常のワークフローに統合することに熱心です。若手マーケターはAI執筆アシスタントが草稿作成時間を半分にできると認識するかもしれませんし、データアナリストはAIプラグインが毎週の報告を完全に自動化できると気づくかもしれません。しかし、マネージャーにそのツールが「かっこいい」とか「時間を節約できる」と単に伝えるだけでは、予算の承認を確保するにはめったに十分ではありません。企業環境において、新しいソフトウェアの取得には、完全に投資利益率（ROI）とデータセキュリティを中心とした戦略的な提案（ピッチ）が必要です。\n\nリーダーシップにAIツールを提案する際、従業員はコストに関する必然的な反対（プッシュバック）を予期しなければなりません。ほとんどのプレミアムAIツールは月額サブスクリプションモデルで運営されており、CFO（最高財務責任者）は貸借対照表に経常費用を追加することに消極的であることで有名です。成功するためには、従業員は自分の時間の価値を定量化しなければなりません。強力な主張は次のようなものです。「現在、私はこのレポートを手作業でまとめるのに週に5時間費やしています。たとえこのAIツールに月額100ドルかかったとしても（Even if）、私の時間を20時間空けることで、私は戦略的な顧客獲得に集中できるようになり、それは私たちの収益を直接的に増加させます。」サブスクリプションを費用としてではなく、収益を生み出すものとして枠組みすることで、その提案は経営陣にとって「考えるまでもないこと（no-brainer）」になります。\n\nしかし、職場でAIを採用する上での最大のハードルは財務的なものではなく、デジタルプライバシーです。幹部たちは知的財産の漏洩をひどく恐れています。もし従業員が機密のクライアントデータを公開のAIモデルに入力した場合、そのデータは吸収され、競合他社に吐き出される可能性があります。したがって、AIソリューションを提案するプロフェッショナルは、この懸念に積極的に対処しなければなりません。彼らはツールのエンタープライズレベルのセキュリティポリシーを調査し、「ベンダーは私たちの入力が暗号化され、彼らの公開モデルの訓練には使用されないことを保証しています」と明確に述べなければなりません。明確な財務的ROIと検証済みのセキュリティプロトコルを組み合わせることで、従業員は自分が戦略的リーダーのように考えていることを証明し、承認の可能性を大幅に高めるのです。"
             }
         }
     },
-
-{
+    {
         id: 47,
         chapter: "Chapter 7: Artificial Intelligence",
         type: "opinion",
@@ -5536,30 +5855,30 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes on AI-generated media.",
             speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "For centuries, people believed that photographs and videos were absolute proof of reality. 'Seeing is believing' was a universal rule. However, generative AI has completely destroyed that concept through the creation of 'deepfakes.' These are highly realistic, AI-generated videos that make real people appear to say or do things they never actually did. It is said that deepfakes will be the most dangerous weapon in future political elections. If voters cannot distinguish between a real video of a politician and a fake one, the foundation of democracy will crumble. I think social media platforms need to act immediately. If they don't develop technology to detect and block deepfakes, digital misinformation will completely take over our news feeds.", 
-                    jpn: "何世紀にもわたり、人々は写真やビデオが現実の絶対的な証拠であると信じてきました。「百聞は一見に如かず（見ることは信じること）」は普遍的なルールでした。しかし、生成AIは「ディープフェイク」の作成を通じてその概念を完全に破壊しました。これらは非常にリアルなAI生成ビデオであり、実在の人物が実際には決してやっていないことを言ったりやったりしているように見せかけます。ディープフェイクは将来の政治選挙において最も危険な武器になると言われています（受動態の報告）。もし有権者が政治家の本物のビデオと偽物のビデオを区別できなければ、民主主義の基盤は崩れ去るでしょう（未来の条件）。ソーシャルメディアのプラットフォームは直ちに行動を起こす必要があると思います。もし彼らがディープフェイクを検出してブロックする技術を開発しなければ、デジタルの誤情報が私たちのニュースフィードを完全に乗っ取ってしまうでしょう。" 
+                {
+                    name: "Person 1",
+                    eng: "For centuries, people believed that photographs and videos were absolute proof of reality. 'Seeing is believing' was a universal rule. However, generative AI has completely destroyed that concept through the creation of 'deepfakes.' These are highly realistic, AI-generated videos that make real people appear to say or do things they never actually did. It is said that deepfakes will be the most dangerous weapon in future political elections. If voters cannot distinguish between a real video of a politician and a fake one, the foundation of democracy will crumble. I think social media platforms need to act immediately. If they don't develop technology to detect and block deepfakes, digital misinformation will completely take over our news feeds.",
+                    jpn: "何世紀にもわたり、人々は写真やビデオが現実の絶対的な証拠であると信じてきました。「百聞は一見に如かず（見ることは信じること）」は普遍的なルールでした。しかし、生成AIは「ディープフェイク」の作成を通じてその概念を完全に破壊しました。これらは非常にリアルなAI生成ビデオであり、実在の人物が実際には決してやっていないことを言ったりやったりしているように見せかけます。ディープフェイクは将来の政治選挙において最も危険な武器になると言われています（受動態の報告）。もし有権者が政治家の本物のビデオと偽物のビデオを区別できなければ、民主主義の基盤は崩れ去るでしょう（未来の条件）。ソーシャルメディアのプラットフォームは直ちに行動を起こす必要があると思います。もし彼らがディープフェイクを検出してブロックする技術を開発しなければ、デジタルの誤情報が私たちのニュースフィードを完全に乗っ取ってしまうでしょう。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "While everyone talks about fake videos, I am actually much more terrified of voice cloning. It is reported that cybercriminals are now using AI to copy the exact voices of regular people. They only need a three-second audio clip from your social media to clone your voice perfectly. Then, they call your family members, pretending to be you in an emergency, and beg for money. This type of scam is becoming incredibly common. If you receive a phone call from a loved one asking for urgent cash, you will probably panic and pay it. To protect ourselves, my family has created a 'safe word.' If someone calls claiming to be me in trouble, they have to say the secret word. We have to adapt our personal security to this new technology.", 
-                    jpn: "誰もが偽のビデオについて話しますが、私は実際には音声のクローニング（複製）の方がはるかに恐ろしいです。現在、サイバー犯罪者がAIを使用して一般の人々の正確な音声をコピーしていると報告されています。あなたの声を完璧に複製するのに、彼らはあなたのソーシャルメディアからのたった3秒の音声クリップを必要とするだけです。そして、彼らはあなたの家族に電話をかけ、緊急事態にあるあなたを装ってお金をせびります。この種の詐欺は信じられないほど一般的になりつつあります。もし愛する人から緊急の現金を求める電話を受け取ったら、あなたはおそらくパニックになり、支払ってしまうでしょう。自分たちを守るために、私の家族は「セーフワード（安全確認の言葉）」を作りました。もし誰かがトラブルに巻き込まれた私だと主張して電話してきたら、彼らはその秘密の言葉を言わなければなりません。私たちは個人のセキュリティをこの新しいテクノロジーに適応させなければならないのです。" 
+                {
+                    name: "Person 2",
+                    eng: "While everyone talks about fake videos, I am actually much more terrified of voice cloning. It is reported that cybercriminals are now using AI to copy the exact voices of regular people. They only need a three-second audio clip from your social media to clone your voice perfectly. Then, they call your family members, pretending to be you in an emergency, and beg for money. This type of scam is becoming incredibly common. If you receive a phone call from a loved one asking for urgent cash, you will probably panic and pay it. To protect ourselves, my family has created a 'safe word.' If someone calls claiming to be me in trouble, they have to say the secret word. We have to adapt our personal security to this new technology.",
+                    jpn: "誰もが偽のビデオについて話しますが、私は実際には音声のクローニング（複製）の方がはるかに恐ろしいです。現在、サイバー犯罪者がAIを使用して一般の人々の正確な音声をコピーしていると報告されています。あなたの声を完璧に複製するのに、彼らはあなたのソーシャルメディアからのたった3秒の音声クリップを必要とするだけです。そして、彼らはあなたの家族に電話をかけ、緊急事態にあるあなたを装ってお金をせびります。この種の詐欺は信じられないほど一般的になりつつあります。もし愛する人から緊急の現金を求める電話を受け取ったら、あなたはおそらくパニックになり、支払ってしまうでしょう。自分たちを守るために、私の家族は「セーフワード（安全確認の言葉）」を作りました。もし誰かがトラブルに巻き込まれた私だと主張して電話してきたら、彼らはその秘密の言葉を言わなければなりません。私たちは個人のセキュリティをこの新しいテクノロジーに適応させなければならないのです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I look at this from a legal and corporate perspective. Deepfakes are not just for political propaganda or scams; they are a massive threat to corporate reputation. Imagine if a deepfake video goes viral showing a CEO making terrible, offensive comments. Even if the company proves it is fake a few hours later, the stock price will have already crashed. It is widely believed that we need strict government regulations to mandate 'digital watermarks.' A watermark is a hidden code embedded in a file that proves whether it was made by a camera or a computer. If the government passes laws requiring all AI tools to watermark their content, we will have a reliable way to verify the truth. Innovation is great, but we desperately need guardrails.", 
-                    jpn: "私はこれを法的および企業の観点から見ています。ディープフェイクは単なる政治的プロパガンダや詐欺のためだけのものではありません。企業の評判に対する大規模な脅威なのです。CEOがひどく不快な発言をしているディープフェイク動画が拡散（バズる）した場合を想像してみてください。たとえ数時間後に会社がそれが偽物であると証明したとしても、株価はすでに暴落しているでしょう。「デジタル電子透かし」を義務付けるための厳格な政府の規制が必要だと広く信じられています。透かしとはファイルに埋め込まれた隠しコードであり、それがカメラで作られたのかコンピューターで作られたのかを証明するものです。もし政府がすべてのAIツールにコンテンツへの透かしを義務付ける法律を可決すれば、私たちは真実を検証する信頼できる方法を持つことになります。イノベーションは素晴らしいですが、私たちにはガードレール（安全策）が絶対に必要です。" 
+                {
+                    name: "Person 3",
+                    eng: "I look at this from a legal and corporate perspective. Deepfakes are not just for political propaganda or scams; they are a massive threat to corporate reputation. Imagine if a deepfake video goes viral showing a CEO making terrible, offensive comments. Even if the company proves it is fake a few hours later, the stock price will have already crashed. It is widely believed that we need strict government regulations to mandate 'digital watermarks.' A watermark is a hidden code embedded in a file that proves whether it was made by a camera or a computer. If the government passes laws requiring all AI tools to watermark their content, we will have a reliable way to verify the truth. Innovation is great, but we desperately need guardrails.",
+                    jpn: "私はこれを法的および企業の観点から見ています。ディープフェイクは単なる政治的プロパガンダや詐欺のためだけのものではありません。企業の評判に対する大規模な脅威なのです。CEOがひどく不快な発言をしているディープフェイク動画が拡散（バズる）した場合を想像してみてください。たとえ数時間後に会社がそれが偽物であると証明したとしても、株価はすでに暴落しているでしょう。「デジタル電子透かし」を義務付けるための厳格な政府の規制が必要だと広く信じられています。透かしとはファイルに埋め込まれた隠しコードであり、それがカメラで作られたのかコンピューターで作られたのかを証明するものです。もし政府がすべてのAIツールにコンテンツへの透かしを義務付ける法律を可決すれば、私たちは真実を検証する信頼できる方法を持つことになります。イノベーションは素晴らしいですが、私たちにはガードレール（安全策）が絶対に必要です。"
                 }
             ]
         },
         discussionTopics: [
-            { theme: "Visual Reality 📖", themeJpn: "視覚的な現実", sub: [{eng: "Seeing is believing", jpn: "見ることは信じること"}, {eng: "Fake videos", jpn: "偽のビデオ"}, {eng: "Political elections", jpn: "政治選挙"}] },
-            { theme: "Voice Cloning 📖", themeJpn: "音声クローニング", sub: [{eng: "Cybercriminals", jpn: "サイバー犯罪者"}, {eng: "Phone scams", jpn: "電話詐欺"}, {eng: "Safe words", jpn: "セーフワード（安全確認の言葉）"}] },
-            { theme: "Misinformation 📖", themeJpn: "誤情報", sub: [{eng: "Social media feeds", jpn: "ソーシャルメディアのフィード"}, {eng: "Propaganda", jpn: "プロパガンダ（宣伝活動）"}, {eng: "Detecting fakes", jpn: "偽物の検出"}] },
-            { theme: "Corporate Threats 📖", themeJpn: "企業の脅威", sub: [{eng: "Reputation damage", jpn: "評判の毀損"}, {eng: "Stock prices", jpn: "株価"}, {eng: "Offensive comments", jpn: "不快なコメント"}] },
-            { theme: "Solutions & Regulation 📖", themeJpn: "解決策と規制", sub: [{eng: "Digital watermarks", jpn: "デジタル電子透かし"}, {eng: "Government laws", jpn: "政府の法律"}, {eng: "Guardrails", jpn: "ガードレール（安全策）"}] },
-            { theme: "Digital Trust 📖", themeJpn: "デジタルの信頼", sub: [{eng: "Verifying the truth", jpn: "真実の検証"}, {eng: "Public panic", jpn: "大衆のパニック"}, {eng: "Adapting security", jpn: "セキュリティの適応"}] }
+            { theme: "Visual Reality 📖", themeJpn: "視覚的な現実", sub: [{ eng: "Seeing is believing", jpn: "見ることは信じること" }, { eng: "Fake videos", jpn: "偽のビデオ" }, { eng: "Political elections", jpn: "政治選挙" }] },
+            { theme: "Voice Cloning 📖", themeJpn: "音声クローニング", sub: [{ eng: "Cybercriminals", jpn: "サイバー犯罪者" }, { eng: "Phone scams", jpn: "電話詐欺" }, { eng: "Safe words", jpn: "セーフワード（安全確認の言葉）" }] },
+            { theme: "Misinformation 📖", themeJpn: "誤情報", sub: [{ eng: "Social media feeds", jpn: "ソーシャルメディアのフィード" }, { eng: "Propaganda", jpn: "プロパガンダ（宣伝活動）" }, { eng: "Detecting fakes", jpn: "偽物の検出" }] },
+            { theme: "Corporate Threats 📖", themeJpn: "企業の脅威", sub: [{ eng: "Reputation damage", jpn: "評判の毀損" }, { eng: "Stock prices", jpn: "株価" }, { eng: "Offensive comments", jpn: "不快なコメント" }] },
+            { theme: "Solutions & Regulation 📖", themeJpn: "解決策と規制", sub: [{ eng: "Digital watermarks", jpn: "デジタル電子透かし" }, { eng: "Government laws", jpn: "政府の法律" }, { eng: "Guardrails", jpn: "ガードレール（安全策）" }] },
+            { theme: "Digital Trust 📖", themeJpn: "デジタルの信頼", sub: [{ eng: "Verifying the truth", jpn: "真実の検証" }, { eng: "Public panic", jpn: "大衆のパニック" }, { eng: "Adapting security", jpn: "セキュリティの適応" }] }
         ],
         questions: [
             { eng: "1. Have you ever been fooled by a fake image or video on the internet?", jpn: "1. インターネット上の偽の画像やビデオに騙されたことはありますか？" },
@@ -5635,20 +5954,31 @@ const b1Curriculum = [
                 { eng: "Set up", jpn: "設定する", exEng: "My family set up a safe word for phone calls.", exJpn: "私の家族は電話のためにセーフワードを設定しました。" },
                 { eng: "Rule out", jpn: "除外する", exEng: "You cannot rule out the possibility that it is AI.", exJpn: "それがAIである可能性を除外することはできません。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Passive reporting (It is said/reported/believed that...) - 4 sentences
+                { prompt: "ディープフェイクは選挙において最も危険な武器になると言われています。", target: "It is said that deepfakes will be dangerous in elections.", words: ["It", "is", "said", "that", "deepfakes", "will", "be", "dangerous", "in", "elections."] },
+                { prompt: "厳格な政府の規制が必要だと広く信じられています。", target: "It is widely believed that we need strict government rules.", words: ["It", "is", "widely", "believed", "that", "we", "need", "strict", "government", "rules."] },
+                { prompt: "犯罪者がAIを使って人々の声を複製していると報告されています。", target: "It is reported that criminals use AI to clone voices.", words: ["It", "is", "reported", "that", "criminals", "use", "AI", "to", "clone", "voices."] },
+                { prompt: "デジタル電子透かしが真実の検証に役立つと知られています。", target: "It is known that digital watermarks help verify the truth.", words: ["It", "is", "known", "that", "digital", "watermarks", "help", "verify", "the", "truth."] },
+                // Grammar Point 2: Future threats (First Conditional: If + present, will + base verb) - 4 sentences
+                { prompt: "もしディープフェイクをブロックしなければ、誤情報が蔓延するでしょう。", target: "If platforms don't block deepfakes, misinformation will spread.", words: ["If", "platforms", "don't", "block", "deepfakes,", "misinformation", "will", "spread."] },
+                { prompt: "もし政府が法律を可決すれば、真実を検証する方法を持てます。", target: "If the government passes laws, we will verify the truth.", words: ["If", "the", "government", "passes", "laws,", "we", "will", "verify", "the", "truth."] },
+                { prompt: "もし偽のCEO動画が拡散すれば、株価は暴落するでしょう。", target: "If a fake CEO video goes viral, the stock will crash.", words: ["If", "a", "fake", "CEO", "video", "goes", "viral,", "the", "stock", "will", "crash."] },
+                { prompt: "もし家族でセーフワードを使えば、電話詐欺を防げるでしょう。", target: "If families use a safe word, they will stop phone scams.", words: ["If", "families", "use", "a", "safe", "word,", "they", "will", "stop", "phone", "scams."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 7 - Digital Trust & Deepfake Quiz)",
+                instruction: "Read this quick guide on spotting deepfakes and voice scams. Notice passive reporting ('It is said/reported that') and first conditionals.",
+                eng: "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>🛡️ DIGITAL TRUST CHECK: How Safe Are You From Deepfakes?</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>It is reported that AI voice cloning and fake videos are making online scams harder to spot. Test how you respond:</p><span class='er-quiz-q'>1. You receive an urgent call that sounds like a family member asking for money right now. What should you do?</span><span class='er-quiz-opt'>A) Ask for your family safe word or call them back on their real number to verify.</span><span class='er-quiz-opt'>B) Send the money immediately without checking because the voice sounds authentic.</span><span class='er-quiz-q'>2. A shocking video of a company CEO goes viral online without a trusted news source. What happens if people share it quickly?</span><span class='er-quiz-opt'>A) Misinformation will spread fast and damage trust before anyone checks digital watermarks.</span><span class='er-quiz-opt'>B) Everyone will automatically know it is fake without any verification tools.</span><div class='er-quiz-res'><strong>💡 Takeaway:</strong><br>It is widely believed that strong guardrails, digital watermarks, and careful fact-checking protect both families and companies.</div></div>",
+                jpn: "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>🛡️ デジタルの信頼チェック：ディープフェイクにどれだけ備えていますか？</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>AIによる音声クローニングや偽動画により、ネット詐欺が見抜きにくくなっていると報告されています。対応方法を確認しましょう：</p><span class='er-quiz-q'>1. 家族そっくりの声で「今すぐお金が必要」という緊急の電話がかかってきました。どうすべきですか？</span><span class='er-quiz-opt'>A) 家族のセーフワードを聞くか、本人の本当の番号にかけ直して確認する。</span><span class='er-quiz-opt'>B) 声が本物そっくりなので、確認せずにすぐ送金する。</span><span class='er-quiz-q'>2. 信頼できるニュースソースのないCEOの衝撃的な動画が拡散しました。人々がすぐシェアするとどうなりますか？</span><span class='er-quiz-opt'>A) 誰かがデジタル透かしを確認する前に、誤情報が急速に広がり信頼を損ないます。</span><span class='er-quiz-opt'>B) 検証ツールがなくても、全員が自動的に偽物だと気づきます。</span><div class='er-quiz-res'><strong>💡 ポイント：</strong><br>強力な安全策、デジタル電子透かし、そして慎重な事実確認が家族と企業の双方を守ると広く信じられています。</div></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Why are deepfakes dangerous? Use a passive reporting verb (e.g., It is said that) and the first conditional (If..., ...will).",
                 promptJpn: "「なぜディープフェイクは危険なのですか？受動態の報告動詞（例：It is said that）とファースト・コンディショナル（If..., ...will）を使って答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Crisis of Digital Trust)",
-                instruction: "Read this authentic text about the impact of AI-generated misinformation on society.",
-                eng: "For the entire history of modern journalism and law, audio and video recordings have served as the gold standard of evidence. If an event was captured on camera, it was generally accepted as an irrefutable fact. Today, the rapid advancement of generative AI has severely compromised that assumption. 'Deepfakes'—synthetic media in which a person in an existing image or video is replaced with someone else's likeness—have become terrifyingly realistic. It is widely reported that creating a convincing deepfake no longer requires a Hollywood studio; anyone with a decent computer and a few photos downloaded from social media can generate a fake video in minutes.\n\nThe implications of this technology for digital trust are profound. In the political arena, a well-timed deepfake video released just days before an election could completely derail a campaign. If voters see a realistic video of a candidate accepting a bribe, the damage is done instantly, even if the video is proven fake the next day. The human brain is wired to believe what it sees. Furthermore, voice cloning technology has birthed a new wave of highly sophisticated cybercrime. It is said that scammers use short clips from platforms like TikTok or Instagram to clone a teenager's voice. They then call the parents, mimicking the child's voice perfectly, claiming they have been kidnapped or are in a severe accident, and demand immediate financial transfers. The emotional manipulation is devastating.\n\nAddressing the deepfake crisis requires a multifaceted approach. First, tech companies must integrate 'digital watermarking' directly into the metadata of AI-generated content, creating an invisible, unalterable tag that identifies the media as synthetic. If social media algorithms detect un-watermarked fakes, they will be automatically blocked. Second, digital literacy education must become mandatory in schools. If we don't teach the next generation how to critically verify their sources, they will easily fall for sophisticated propaganda. Ultimately, as AI blurs the line between reality and fiction, maintaining a healthy skepticism is the only way to navigate the modern internet.",
-                jpn: "現代のジャーナリズムと法律の歴史全体を通して、音声とビデオの録音・録画は証拠の絶対的な基準（ゴールドスタンダード）として機能してきました。もし出来事がカメラに収められていれば、それは一般的に反論の余地のない事実として受け入れられてきました。今日、生成AIの急速な進歩はその前提を著しく危うくしています。既存の画像やビデオの人物を他人の姿に置き換える合成メディアである「ディープフェイク」は、恐ろしいほどリアルになっています。説得力のあるディープフェイクを作成するのに、もはやハリウッドのスタジオは必要ないと広く報告されています。まともなコンピューターとソーシャルメディアからダウンロードした数枚の写真があれば、誰でも数分で偽のビデオを生成できるのです。\n\nこのテクノロジーがデジタルの信頼に与える影響は深刻です。政治の舞台において、選挙の数日前に公開されるタイミングの良いディープフェイク動画は、キャンペーン（選挙運動）を完全に脱線させる可能性があります。候補者が賄賂を受け取っているリアルな動画を有権者が見た場合、たとえ翌日にその動画が偽物だと証明されたとしても、ダメージは即座に与えられます。人間の脳は見たものを信じるようにできているのです。さらに、音声クローニング技術は、高度に洗練されたサイバー犯罪の新たな波を生み出しました。詐欺師たちはTikTokやInstagramのようなプラットフォームからの短いクリップを使用して、10代の若者の声を複製していると言われています。そして彼らは親に電話をかけ、子供の声を完璧に真似て、誘拐された、あるいは深刻な事故に遭ったと主張し、即座の送金を要求します。その感情操作は破壊的です。\n\nディープフェイクの危機に対処するには、多面的なアプローチが必要です。まず、テクノロジー企業はAI生成コンテンツのメタデータに直接「デジタル電子透かし」を統合し、メディアが合成されたものであることを特定する見えない改ざん不可能なタグを作成しなければなりません。もしソーシャルメディアのアルゴリズムが透かしのない偽物を検出した場合、それらは自動的にブロックされます（未来の条件）。第二に、デジタルリテラシー教育が学校で義務化されなければなりません。もし私たちが次世代に情報源を批判的に検証する方法を教えなければ、彼らは洗練されたプロパガンダに簡単に騙されてしまうでしょう。最終的に、AIが現実とフィクションの境界線を曖昧にする中、健全な懐疑心を維持することこそが、現代のインターネットを乗り切る唯一の方法なのです。"
             }
         }
     },
-
-{
+    {
         id: 48,
         chapter: "Chapter 7: Artificial Intelligence",
         type: "casestudy",
@@ -5722,6 +6052,15 @@ const b1Curriculum = [
                     { eng: "The AI was fast and cheap, but it was also inaccurate and dangerous.", jpn: "AIは迅速で安価でしたが、同時に不正確で危険なものでした。" },
                     { eng: "The system was cheap and useless.", jpn: "そのシステムは安っぽくて役に立たないものでした。" }
                 ]
+            },
+            {
+                point: "3. Passive Voice with Modals: Recommending AI guardrails (must/should be + PP)",
+                explanation: "Use modal + 'be' + past participle to state clear safety rules and human oversight needed before relaunching an AI tool.",
+                explanationJpn: "AIツールを再公開する前に必要な明確な安全ルールや人間の監視を述べるには、「法助動詞 + be + 過去分詞」を使います。",
+                examples: [
+                    { eng: "AI topics must be restricted to basic FAQs.", jpn: "AIが扱うトピックは基本的なFAQに制限されなければなりません。" },
+                    { eng: "Complex questions should be transferred to human agents.", jpn: "複雑な質問は人間のオペレーターに転送されるべきです。" }
+                ]
             }
         ],
         discussionPoints: [
@@ -5736,7 +6075,7 @@ const b1Curriculum = [
             { eng: "Therefore...", jpn: "それゆえに..." },
             { eng: "Ultimately...", jpn: "最終的には..." }
         ],
-        roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. The problem 2. The causes 3. The immediate solution 4. The long-term prevention plan <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 即時の解決策 4. 長期的な予防計画)</span>",
+        roleplay: "Role-play presenting your solution to management. Do the following using a simple three-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
         homework: {
             vocab: [
                 { eng: "Roll out", jpn: "（新製品などを）公開する、展開する", exEng: "We plan to roll out the new AI tool next month.", exJpn: "来月、新しいAIツールを展開する予定です。" },
@@ -5758,105 +6097,114 @@ const b1Curriculum = [
                 { eng: "Bring down", jpn: "倒す、崩壊させる", exEng: "One bad bot can bring down a company's reputation.", exJpn: "1つの悪いボットが会社の評判を崩壊させることがあります。" },
                 { eng: "Follow up", jpn: "フォローアップする", exEng: "We must follow up with every affected customer.", exJpn: "私たちは影響を受けたすべての顧客をフォローアップしなければなりません。" }
             ],
+            clickingGames: [
+                // Grammar Point 1: Mental processes (wonder if / wonder wh-) - 4 sentences
+                { prompt: "なぜ彼らが私たちのセキュリティ警告を無視したのか疑問に思います。", target: "I wonder why they ignored our security warnings.", words: ["I", "wonder", "why", "they", "ignored", "our", "security", "warnings."] },
+                { prompt: "この銀行は実際に使っても安全なのだろうかと疑問に思います。", target: "I wonder if this bank is actually safe to use.", words: ["I", "wonder", "if", "this", "bank", "is", "actually", "safe", "to", "use."] },
+                { prompt: "今どうやって評判を回復できるか考えています。", target: "I wonder how we can fix our reputation now.", words: ["I", "wonder", "how", "we", "can", "fix", "our", "reputation", "now."] },
+                { prompt: "経営陣が公開前にボットをテストしたのか疑問に思います。", target: "I wonder if management tested the bot before release.", words: ["I", "wonder", "if", "management", "tested", "the", "bot", "before", "release."] },
+                // Grammar Point 2: Multiple good/bad points (adj and adj) - 4 sentences
+                { prompt: "AIは迅速で安価でしたが、不正確で危険でもありました。", target: "The AI was fast and cheap, but inaccurate and dangerous.", words: ["The", "AI", "was", "fast", "and", "cheap,", "but", "inaccurate", "and", "dangerous."] },
+                { prompt: "そのシステムは安っぽくて役に立たないものでした。", target: "The system was cheap and useless.", words: ["The", "system", "was", "cheap", "and", "useless."] },
+                { prompt: "その状況は恥ずかしく、ひどいものでした。", target: "The situation was embarrassing and terrible.", words: ["The", "situation", "was", "embarrassing", "and", "terrible."] },
+                { prompt: "ボットの偽の約束は危険で受け入れがたいものでした。", target: "The bot's fake promises were risky and unacceptable.", words: ["The", "bot's", "fake", "promises", "were", "risky", "and", "unacceptable."] },
+                // Grammar Point 3: Passive voice with modals - 4 sentences
+                { prompt: "AIのトピックは基本的なFAQに制限されなければなりません。", target: "AI topics must be restricted to basic FAQs.", words: ["AI", "topics", "must", "be", "restricted", "to", "basic", "FAQs."] },
+                { prompt: "複雑な質問は人間のオペレーターに転送されるべきです。", target: "Complex questions should be transferred to human agents.", words: ["Complex", "questions", "should", "be", "transferred", "to", "human", "agents."] },
+                { prompt: "公開前に新しいボットは厳格にテストされなければなりません。", target: "New bots must be tested carefully before public release.", words: ["New", "bots", "must", "be", "tested", "carefully", "before", "public", "release."] },
+                { prompt: "影響を受けた顧客には公式な謝罪が発表されるべきです。", target: "A public apology should be issued to affected customers.", words: ["A", "public", "apology", "should", "be", "issued", "to", "affected", "customers."] }
+            ],
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 8 - Chatbot Post-Mortem Guide)",
+                instruction: "Read this post-mortem summary of the BankBuddy chatbot failure. Notice 'wonder', paired adjectives, and modal passives.",
+                eng: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>🤖 Post-Mortem: Lessons From the BankBuddy Chatbot Rollout</h3><p><strong>What Went Wrong:</strong> GlobalBank rolled out BankBuddy three months early to cut support costs. The software was new and untested, so it hallucinated fake refund rules and gave inaccurate and dangerous advice. Screenshots went viral within hours, forcing management to pull the plug.</p><p><strong>Key Questions Raised:</strong> Engineers wondered why security warnings were ignored before launch, while customers wondered if the bank's digital tools were safe to trust. Without a transfer button, angry callers could not reach a human agent.</p><p><strong>Required Guardrails:</strong> First, a public apology must be issued clearly so customers know fake refunds are invalid. Second, AI answers should be restricted to simple FAQs, and complex banking questions must be routed to trained human staff.</p></div>",
+                jpn: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>🤖 事後検証：BankBuddyチャットボット展開からの教訓</h3><p><strong>何が問題だったか：</strong> GlobalBankはサポート費用を削減するため、BankBuddyを3ヶ月早く公開しました。ソフトウェアは新しく未テストだったため、架空の返金ルールをハルシネーションで作り出し、不正確で危険な助言をしました。スクリーンショットが数時間で拡散し、経営陣は運用中止を余儀なくされました。</p><p><strong>浮かび上がった疑問：</strong> エンジニアはなぜ公開前のセキュリティ警告が無視されたのか疑問に思い、顧客は銀行のデジタルツールを信頼して安全なのかと疑問を抱きました。転送ボタンがなかったため、怒った顧客は人間のオペレーターにつながりませんでした。</p><p><strong>必要な安全策：</strong> 第一に、偽の返金が無効であると顧客が分かるよう、公式謝罪が明確に発表されなければなりません。第二に、AIの回答は簡単なFAQに制限されるべきであり、複雑な銀行業務の質問は訓練された人間のスタッフに転送されなければなりません。</p></div>"
+            },
             writingTask: {
                 promptEng: "Write a short paragraph outlining your proposed solution for GlobalBank. Use 'wonder' to question a past action, and link two negative adjectives with 'and' to describe the bot.",
                 promptJpn: "「GlobalBankのためのあなたの提案する解決策を概説する短い段落を書いてください。過去の行動に疑問を投げかけるために『wonder』を使い、ボットを説明するために『and』で2つの否定的な形容詞をつないでください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Risks of Rushing AI Implementation)",
-                instruction: "Read this authentic text about the challenges of integrating AI into customer service.",
-                eng: "As artificial intelligence technology advances, corporations across the globe are rushing to integrate generative AI into their customer service channels. The financial appeal is obvious: a chatbot can handle thousands of inquiries simultaneously, operating 24/7 without requiring a salary, breaks, or benefits. For executives looking to cut operational costs, replacing human call centers with AI seems like a perfect solution. However, as many companies have recently discovered, deploying AI without strict oversight can lead to catastrophic business and legal consequences.\n\nThe primary danger of generative AI is a phenomenon known as 'hallucination.' Unlike traditional chatbots, which simply select pre-written answers from a database, generative models create new responses word by word. If the model is not properly constrained, it can confidently invent fake policies, give incorrect financial advice, or even argue with the user. In the banking and healthcare sectors, providing false information is not just embarrassing; it is a severe legal liability. If a bank's official chatbot promises a customer a massive loan forgiveness program, the customer might successfully sue the bank to enforce that promise.\n\nTo prevent these PR nightmares, companies must prioritize safety over speed. A successful AI implementation requires 'human-in-the-loop' systems. This means the AI handles basic data collection and simple FAQs, but any complex or sensitive issue is immediately transferred to a human agent. Furthermore, the AI must be rigorously tested in closed beta environments before being exposed to the public. Ultimately, technology should be used to empower human employees, not blindly replace them. Organizations that view AI as a magic bullet for cost-cutting often end up paying a much higher price to repair their damaged reputations.",
-                jpn: "人工知能テクノロジーが進歩するにつれて、世界中の企業が生成AIをカスタマーサービスチャネルに統合しようと急いでいます。財政的な魅力は明白です。チャットボットは何千もの問い合わせを同時に処理でき、給与、休憩、福利厚生を必要とせずに24時間年中無休で稼働できます。運営コストの削減を目指す幹部にとって、人間のコールセンターをAIに置き換えることは完璧な解決策のように思えます。しかし、多くの企業が最近発見したように、厳格な監視なしにAIを展開することは、壊滅的なビジネスおよび法的な結果をもたらす可能性があります。\n\n生成AIの主な危険性は、「ハルシネーション（幻覚）」として知られる現象です。データベースから事前に書かれた答えを単に選択する従来のチャットボットとは異なり、生成モデルは新しい回答を一語一語作成します。モデルが適切に制限されていない場合、それは自信満々に架空のポリシーを発明したり、不正確な財務アドバイスを提供したり、あるいはユーザーと口論したりすることさえあります。銀行やヘルスケア部門において、誤った情報を提供することは単に恥ずかしいだけでなく、深刻な法的責任となります。もし銀行の公式チャットボットが顧客に大規模なローン免除プログラムを約束した場合、顧客はその約束を履行させるために銀行を首尾よく訴えるかもしれません。\n\nこれらのPRの悪夢を防ぐために、企業はスピードよりも安全性を優先しなければなりません。成功するAI導入には「ヒューマン・イン・ザ・ループ（人間が介入する）」システムが必要です。これは、AIが基本的なデータ収集とシンプルなFAQを処理する一方で、複雑または機密性の高い問題は直ちに人間のオペレーターに転送されることを意味します。さらに、AIは一般に公開される前に、閉鎖されたベータ環境で厳格にテストされなければなりません。最終的に、テクノロジーは人間の従業員を盲目的に置き換えるためではなく、彼らに力を与えるために使用されるべきです。AIをコスト削減のための魔法の弾丸（特効薬）と見なす組織は、しばしば損なわれた評判を修復するために、はるかに高い代償を払うことになるのです。"
             }
         }
     },
     {
-        "id": 49,
-        "chapter": "Chapter 7: Artificial Intelligence",
-        "type": "speakingtest",
-        "title": "Lesson 49: Speaking Test - Technology Experiences",
-        "goal": "Prepare and deliver a short speech about a time you used a new technology using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、新しいテクノロジーを使用した時のことについての短いスピーチを準備し、発表する。)</span>",
-        "vocab": [
-            { "eng": "adopt new technology", "jpn": "新しいテクノロジーを導入する" },
-            { "eng": "increase productivity", "jpn": "生産性を向上させる" },
-            { "eng": "overcome a learning curve", "jpn": "学習曲線（習得の困難）を乗り越える" },
-            { "eng": "automate a task", "jpn": "タスクを自動化する" },
-            { "eng": "make an error", "jpn": "エラー（ミス）を起こす" },
-            { "eng": "improve efficiency", "jpn": "効率を改善する" },
-            { "eng": "troubleshoot a problem", "jpn": "問題をトラブルシューティング（解決）する" },
-            { "eng": "change my perspective", "jpn": "私の視点を変える" },
-            { "eng": "game-changer", "jpn": "形勢を一変させるもの (くだけた表現)" },
-            { "eng": "glitchy", "jpn": "バグが多い / 不具合がある (くだけた表現)" },
-            { "eng": "tech-savvy", "jpn": "テクノロジーに精通した (くだけた表現)" },
-            { "eng": "figure it out", "jpn": "それを理解する / 解決する (くだけた表現)" }
+        id: 49,
+        chapter: "Chapter 7: Artificial Intelligence",
+        type: "speakingtest",
+        title: "Lesson 49: Speaking Test - Technology Experiences",
+        goal: "Prepare and deliver a short speech about a time you used a new technology using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、新しいテクノロジーを使用した時のことについての短いスピーチを準備し、発表する。)</span>",
+        vocab: [
+            { eng: "adopt new technology", jpn: "新しいテクノロジーを導入する" },
+            { eng: "increase productivity", jpn: "生産性を向上させる" },
+            { eng: "overcome a learning curve", jpn: "学習曲線（習得の困難）を乗り越える" },
+            { eng: "automate a task", jpn: "タスクを自動化する" },
+            { eng: "make an error", jpn: "エラー（ミス）を起こす" },
+            { eng: "improve efficiency", jpn: "効率を改善する" },
+            { eng: "troubleshoot a problem", jpn: "問題をトラブルシューティング（解決）する" },
+            { eng: "change my perspective", jpn: "私の視点を変える" },
+            { eng: "game-changer", jpn: "形勢を一変させるもの (くだけた表現)" },
+            { eng: "glitchy", jpn: "バグが多い / 不具合がある (くだけた表現)" },
+            { eng: "tech-savvy", jpn: "テクノロジーに精通した (くだけた表現)" },
+            { eng: "figure it out", jpn: "それを理解する / 解決する (くだけた表現)" }
         ],
-        "prompt": {
-            "main": "Describe a time you used a new piece of technology or an AI tool.",
-            "bulletPoints": [
+        prompt: {
+            main: "Describe a time you used a new piece of technology or an AI tool.",
+            bulletPoints: [
                 "Say what the technology was and why you used it",
                 "Describe how you felt when you first tried it",
                 "Explain a specific problem you had and how you solved it",
                 "Explain why this experience changed your opinion on technology"
             ]
         },
-        "exampleSpeech": {
-            "eng": "Today, I would like to talk about the first time I used a generative AI tool to help me write a business proposal last year. I decided to use it because I had a very tight deadline and I wanted to increase my productivity.\n\nWhen I first tried the tool, I felt completely amazed but also a bit skeptical. The interface was clean and simple, but I wondered if a machine could really write a professional document. Initially, the output was way too robotic and generic.\n\nThe specific problem I faced was that the AI hallucinated a few fake statistics. To solve this, I didn't panic. I realized I needed to provide better context. I manually tweaked the prompt, added my own company data, and instructed the AI to use a professional tone. The second draft was excellent.\n\nIn my opinion, this experience was highly significant because it changed my perspective on automation. I learned that AI is not going to replace us, but rather act as a powerful assistant. It proved that if you guide the technology correctly, it is an absolute game-changer for efficiency.",
-            "jpn": "本日は、私が昨年、ビジネスの提案書を書くのを手伝ってもらうために初めて生成AIツールを使用した時のことについてお話ししたいと思います。非常に厳しい締め切りがあり、生産性を向上させたかったため、それを使用することに決めました。\n\n初めてそのツールを試したとき、私は完全に驚きましたが、同時に少し懐疑的でもありました。インターフェースはすっきりとシンプルでしたが、機械が本当にプロフェッショナルな文書を書けるのだろうかと疑問に思いました。当初、出力はあまりにも機械的で一般的なものでした。\n\n私が直面した具体的な問題は、AIがいくつかの偽の統計をハルシネーション（でっち上げ）したことでした。これを解決するために、私はパニックにはなりませんでした。より良いコンテキスト（背景情報）を提供する必要があることに気づいたのです。私は手動でプロンプトを微調整し、自社のデータを追加し、プロフェッショナルなトーンを使用するようにAIに指示しました。2番目の草稿は素晴らしいものでした。\n\n私の意見では、この経験は自動化に対する私の視点を変えたため、非常に重要なものでした。AIは私たちに取って代わるのではなく、むしろ強力なアシスタントとして機能するということを学びました。テクノロジーを正しく導けば、それは効率化において絶対に形勢を一変させるもの（ゲームチェンジャー）であることを証明してくれました。"
+        exampleSpeech: {
+            eng: "Today, I would like to talk about the first time I used a generative AI tool to help me write a business proposal last year. I decided to use it because I had a very tight deadline and I wanted to increase my productivity.\n\nWhen I first tried the tool, I felt completely amazed but also a bit skeptical. The interface was clean and simple, but I wondered if a machine could really write a professional document. Initially, the output was way too robotic and generic.\n\nThe specific problem I faced was that the AI hallucinated a few fake statistics. To solve this, I didn't panic. I realized I needed to provide better context. I manually tweaked the prompt, added my own company data, and instructed the AI to use a professional tone. The second draft was excellent.\n\nIn my opinion, this experience was highly significant because it changed my perspective on automation. I learned that AI is not going to replace us, but rather act as a powerful assistant. It proved that if you guide the technology correctly, it is an absolute game-changer for efficiency.",
+            jpn: "本日は、私が昨年、ビジネスの提案書を書くのを手伝ってもらうために初めて生成AIツールを使用した時のことについてお話ししたいと思います。非常に厳しい締め切りがあり、生産性を向上させたかったため、それを使用することに決めました。\n\n初めてそのツールを試したとき、私は完全に驚きましたが、同時に少し懐疑的でもありました。インターフェースはすっきりとシンプルでしたが、機械が本当にプロフェッショナルな文書を書けるのだろうかと疑問に思いました。当初、出力はあまりにも機械的で一般的なものでした。\n\n私が直面した具体的な問題は、AIがいくつかの偽の統計をハルシネーション（でっち上げ）したことでした。これを解決するために、私はパニックにはなりませんでした。より良いコンテキスト（背景情報）を提供する必要があることに気づいたのです。私は手動でプロンプトを微調整し、自社のデータを追加し、プロフェッショナルなトーンを使用するようにAIに指示しました。2番目の草稿は素晴らしいものでした。\n\n私の意見では、この経験は自動化に対する私の視点を変えたため、非常に重要なものでした。AIは私たちに取って代わるのではなく、むしろ強力なアシスタントとして機能するということを学びました。テクノロジーを正しく導けば、それは効率化において絶対に形勢を一変させるもの（ゲームチェンジャー）であることを証明してくれました。"
         },
-        "homework": {
-            "vocab": [
-                { "eng": "Set up", "jpn": "設定する、準備する", "exEng": "I had to set up the new software by myself.", "exJpn": "自分で新しいソフトウェアを設定しなければなりませんでした。" },
-                { "eng": "Figure out", "jpn": "理解する、解決する", "exEng": "It took me hours to figure out the user interface.", "exJpn": "ユーザーインターフェースを理解するのに何時間もかかりました。" },
-                { "eng": "Rely on", "jpn": "〜に依存する", "exEng": "I rely on this app to manage my daily schedule.", "exJpn": "毎日のスケジュール管理にこのアプリに依存しています。" },
-                { "eng": "Speed up", "jpn": "スピードを上げる、早める", "exEng": "The tool significantly sped up my workflow.", "exJpn": "そのツールは私のワークフローを大幅に早めました。" },
-                { "eng": "Mess up", "jpn": "失敗する、めちゃくちゃにする", "exEng": "I messed up the code on my first try.", "exJpn": "最初の試行でコードをめちゃくちゃにして（ミスして）しまいました。" },
-                { "eng": "Point out", "jpn": "指摘する", "exEng": "The system pointed out several spelling errors.", "exJpn": "システムがいくつかのスペルミスを指摘しました。" },
-                { "eng": "Look into", "jpn": "調査する", "exEng": "I decided to look into new automation tools.", "exJpn": "新しい自動化ツールを調査（検討）することにしました。" },
-                { "eng": "Turn out", "jpn": "〜という結果になる、判明する", "exEng": "The glitchy app turned out to be very useful later.", "exJpn": "バグの多いアプリは、後で非常に役立つと判明しました。" },
-                { "eng": "Give up", "jpn": "諦める", "exEng": "I almost gave up because it was too complicated.", "exJpn": "複雑すぎたのでもう少しで諦めるところでした。" },
-                { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "I had to deal with a lot of technical glitches.", "exJpn": "多くの技術的な不具合に対処しなければなりませんでした。" },
-                { "eng": "Result in", "jpn": "〜という結果になる", "exEng": "Using AI resulted in a 50% increase in output.", "exJpn": "AIの使用は生産量の50%増加という結果になりました。" },
-                { "eng": "Focus on", "jpn": "〜に焦点を当てる", "exEng": "I needed to focus on writing clear prompts.", "exJpn": "明確なプロンプトを書くことに集中する必要がありました。" },
-                { "eng": "Catch on", "jpn": "理解する、慣れる", "exEng": "Once I watched a tutorial, I caught on quickly.", "exJpn": "チュートリアルを見た後、すぐにコツをつかみ（慣れ）ました。" },
-                { "eng": "Break down", "jpn": "分解する、故障する", "exEng": "The machine broke down during the presentation.", "exJpn": "プレゼンテーション中に機械が故障しました。" },
-                { "eng": "Depend on", "jpn": "〜に依存する", "exEng": "The result depends entirely on the input data.", "exJpn": "結果は完全に入力データに依存します。" },
-                { "eng": "Sort out", "jpn": "解決する", "exEng": "I contacted IT to sort out the network error.", "exJpn": "ネットワークエラーを解決するためにIT部門に連絡しました。" },
-                { "eng": "Follow up", "jpn": "フォローアップする、さらに調べる", "exEng": "I followed up with a more specific request.", "exJpn": "より具体的なリクエストでフォローアップしました。" },
-                { "eng": "Look forward to", "jpn": "〜を楽しみにする", "exEng": "I am looking forward to the next software update.", "exJpn": "次のソフトウェアアップデートを楽しみにしています。" }
+        homework: {
+            vocab: [
+                { eng: "Set up", jpn: "設定する、準備する", exEng: "I had to set up the new software by myself.", exJpn: "自分で新しいソフトウェアを設定しなければなりませんでした。" },
+                { eng: "Figure out", jpn: "理解する、解決する", exEng: "It took me hours to figure out the user interface.", exJpn: "ユーザーインターフェースを理解するのに何時間もかかりました。" },
+                { eng: "Rely on", jpn: "〜に依存する", exEng: "I rely on this app to manage my daily schedule.", exJpn: "毎日のスケジュール管理にこのアプリに依存しています。" },
+                { eng: "Speed up", jpn: "スピードを上げる、早める", exEng: "The tool significantly sped up my workflow.", exJpn: "そのツールは私のワークフローを大幅に早めました。" },
+                { eng: "Mess up", jpn: "失敗する、めちゃくちゃにする", exEng: "I messed up the code on my first try.", exJpn: "最初の試行でコードをめちゃくちゃにして（ミスして）しまいました。" },
+                { eng: "Point out", jpn: "指摘する", exEng: "The system pointed out several spelling errors.", exJpn: "システムがいくつかのスペルミスを指摘しました。" },
+                { eng: "Look into", jpn: "調査する", exEng: "I decided to look into new automation tools.", exJpn: "新しい自動化ツールを調査（検討）することにしました。" },
+                { eng: "Turn out", jpn: "〜という結果になる、判明する", exEng: "The glitchy app turned out to be very useful later.", exJpn: "バグの多いアプリは、後で非常に役立つと判明しました。" },
+                { eng: "Give up", jpn: "諦める", exEng: "I almost gave up because it was too complicated.", exJpn: "複雑すぎたのでもう少しで諦めるところでした。" },
+                { eng: "Deal with", jpn: "〜に対処する", exEng: "I had to deal with a lot of technical glitches.", exJpn: "多くの技術的な不具合に対処しなければなりませんでした。" },
+                { eng: "Result in", jpn: "〜という結果になる", exEng: "Using AI resulted in a 50% increase in output.", exJpn: "AIの使用は生産量の50%増加という結果になりました。" },
+                { eng: "Focus on", jpn: "〜に焦点を当てる", exEng: "I needed to focus on writing clear prompts.", exJpn: "明確なプロンプトを書くことに集中する必要がありました。" },
+                { eng: "Catch on", jpn: "理解する、慣れる", exEng: "Once I watched a tutorial, I caught on quickly.", exJpn: "チュートリアルを見た後、すぐにコツをつかみ（慣れ）ました。" },
+                { eng: "Break down", jpn: "分解する、故障する", exEng: "The machine broke down during the presentation.", exJpn: "プレゼンテーション中に機械が故障しました。" },
+                { eng: "Depend on", jpn: "〜に依存する", exEng: "The result depends entirely on the input data.", exJpn: "結果は完全に入力データに依存します。" },
+                { eng: "Sort out", jpn: "解決する", exEng: "I contacted IT to sort out the network error.", exJpn: "ネットワークエラーを解決するためにIT部門に連絡しました。" },
+                { eng: "Follow up", jpn: "フォローアップする、さらに調べる", exEng: "I followed up with a more specific request.", exJpn: "より具体的なリクエストでフォローアップしました。" },
+                { eng: "Look forward to", jpn: "〜を楽しみにする", exEng: "I am looking forward to the next software update.", exJpn: "次のソフトウェアアップデートを楽しみにしています。" }
             ],
-            "reading1": {
-                "title": "Task 2: Reading (Review Model: Adopting New Technology)",
-                "instruction": "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar, and transitional expressions.",
-                "eng": "In my opinion, adopting new technology is always challenging but necessary. Actually, I recently started using a smart home assistant to automate my daily tasks. At first, I felt frustrated because it was glitchy and wouldn't understand my commands. In hindsight, I shouldn't have been so impatient. I eventually figured out that I needed to speak much more clearly. We use it for everything now, from checking the weather to controlling the lights. To sum up, the convenience is incredible. I wish I hadn't doubted the technology, because it turned out to be a fantastic addition to my home.",
-                "jpn": "私の意見では、新しいテクノロジーを導入することは常に挑戦的ですが必要です。実は、私は最近、日々のタスクを自動化するためにスマートホームアシスタントを使い始めました。最初は、バグが多くて私の命令を理解してくれなかったので、フラストレーションを感じました。後から考えると、あんなに短気（せっかち）になるべきではありませんでした。私は最終的に、ずっとはっきりと話す必要があることに気づきました。私たちは今、天気の確認から照明の制御まで、すべてのことにそれを使っています。要約すると、その利便性は信じられないほどです。あのテクノロジーを疑わなければよかったと思います。なぜなら、それは私の家にとって素晴らしい追加物だと判明したからです。"
-            },
-            "expandedDialogue": [
-                { "speaker": "A", "eng": "Are you ready to give your speech about new technology?", "jpn": "新しいテクノロジーに関するスピーチをする準備はできていますか？" },
-                { "speaker": "B", "eng": "Yes. I am going to talk about the first time I used ChatGPT for work.", "jpn": "はい。仕事で初めてChatGPTを使った時のことについて話すつもりです。" },
-                { "speaker": "A", "eng": "That's a great topic. Did you feel overwhelmed when you first tried it?", "jpn": "それは素晴らしいトピックですね。初めて試したとき、圧倒されるように感じましたか？" },
-                { "speaker": "B", "eng": "A little bit. I wondered if it could really write a professional email.", "jpn": "少しだけ。本当にプロフェッショナルなメールを書けるのだろうかと疑問に思いました。" },
-                { "speaker": "A", "eng": "What specific problem did you face?", "jpn": "直面した具体的な問題は何でしたか？" },
-                { "speaker": "B", "eng": "The initial text was fast and cheap, but it was also robotic and generic.", "jpn": "最初のテキストは速くて安価でしたが、同時に機械的で一般的なものでした。" },
-                { "speaker": "A", "eng": "So, how did you sort it out?", "jpn": "では、どうやってそれを解決したのですか？" },
-                { "speaker": "B", "eng": "I tweaked the prompt. I do use AI now, but I always specify the tone.", "jpn": "プロンプトを微調整しました。私は今AIを使いますが、常にトーンを指定しています。" },
-                { "speaker": "A", "eng": "That is smart. Did it completely change your perspective on AI?", "jpn": "それは賢いですね。それはAIに対するあなたの視点を完全に変えましたか？" },
-                { "speaker": "B", "eng": "Yes. It proved that AI is a tool, not a replacement for human thought.", "jpn": "はい。AIはツールであり、人間の思考の代わりではないということを証明してくれました。" },
-                { "speaker": "A", "eng": "Excellent. I think your audience will find that very relatable.", "jpn": "素晴らしい。あなたの聴衆はそれにとても共感すると思いますよ。" },
-                { "speaker": "B", "eng": "Thank you. I am looking forward to sharing my experience.", "jpn": "ありがとうございます。私の経験を共有するのを楽しみにしています。" }
+            clickingGames: [
+                // Chapter 7 Review Point 1: AI Usage, Prompts & Emphasis - 4 sentences
+                { prompt: "つい最近まで、AIは単なるSFでした。", target: "Up until recently, AI was just science fiction.", words: ["Up", "until", "recently,", "AI", "was", "just", "science", "fiction."] },
+                { prompt: "私はメールにAIを使いますが、常にトーンを指定します。", target: "I do use AI for emails, but I always specify the tone.", words: ["I", "do", "use", "AI", "for", "emails,", "but", "I", "always", "specify", "the", "tone."] },
+                { prompt: "確認せずにAIのテキストを絶対にコピペすべきではありません。", target: "You should never ever copy-paste AI text without checking it.", words: ["You", "should", "never", "ever", "copy-paste", "AI", "text", "without", "checking", "it."] },
+                { prompt: "たとえサブスクリプションにお金がかかっても、時間を節約します。", target: "Even if the subscription costs money, it saves time.", words: ["Even", "if", "the", "subscription", "costs", "money,", "it", "saves", "time."] },
+                // Chapter 7 Review Point 2: Relative Clauses, Passive Reporting & Reflection - 4 sentences
+                { prompt: "編集の仕方を知っている人間のライターは価値が高くなります。", target: "Human writers who know how to edit become valuable.", words: ["Human", "writers", "who", "know", "how", "to", "edit", "become", "valuable."] },
+                { prompt: "嚴格な政府の規制が必要だと広く信じられています。", target: "It is widely believed that we need strict government rules.", words: ["It", "is", "widely", "believed", "that", "we", "need", "strict", "government", "rules."] },
+                { prompt: "機械が本当にプロフェッショナルな文書を書けるか疑問に思いました。", target: "I wondered if a machine could write a professional document.", words: ["I", "wondered", "if", "a", "machine", "could", "write", "a", "professional", "document."] },
+                { prompt: "プロンプトを微調整することで、ずっと良い結果になりました。", target: "Tweaking the prompt turned out to produce a much better draft.", words: ["Tweaking", "the", "prompt", "turned", "out", "to", "produce", "a", "much", "better", "draft."] }
             ],
-            "writingTask": {
-                "promptEng": "Write a short paragraph answering this question: Describe a time a piece of technology frustrated you. How did you figure it out?",
-                "promptJpn": "「テクノロジーにイライラさせられた時のことを説明してください。どのようにしてそれを解決（理解）しましたか？」という質問に答える短い段落を書いてください。"
+            extendedReading: {
+                title: "Task 3: Authentic Reading (Layout 9 - Split Cards on AI Tool Experiences)",
+                instruction: "Read these learner cards sharing real experiences with new AI tools. Notice how they structure problem-solving and reflection.",
+                eng: "<div class='er-template er-layout-9'><div class='er-card'><h4>📝 Card 1: Drafting a Proposal With AI</h4><p>Last year, I adopted a generative AI tool to increase productivity before a tight deadline. Initially, the output sounded too robotic and included fake numbers. Once I added clear context and tweaked the tone, the second draft improved efficiency and saved hours of work.</p></div><div class='er-card'><h4>🏠 Card 2: Smart Home Voice Assistant</h4><p>When I set up a smart home assistant, it felt glitchy and missed my voice commands at first. After I figured out clearer phrasing, automating reminders and lighting became easy. That small learning curve changed my perspective on everyday tech.</p></div><div class='er-card'><h4>🎤 Card 3: PREP Speaking Tip</h4><p>For your speaking test, state what tool you tried, describe your first reaction, explain how you troubleshot one specific error, and conclude with what you learned about using technology wisely.</p></div></div>",
+                jpn: "<div class='er-template er-layout-9'><div class='er-card'><h4>📝 カード1：AIで提案書を下書きする</h4><p>昨年、厳しい締め切りの前に生産性を高めるため生成AIツールを導入しました。最初は出力が機械的すぎて架空の数字も含まれていましたが、明確な背景情報を加えてトーンを微調整すると、第2稿で効率が上がり何時間もの作業を節約できました。</p></div><div class='er-card'><h4>🏠 カード2：スマートホーム音声アシスタント</h4><p>スマートホームアシスタントを設定したとき、最初は不具合が多く音声コマンドを聞き逃していましたが、よりはっきりした言い回しを掴むと、リマインダーや照明の自動化が簡単になりました。その小さな習得の壁が日常のテクノロジーへの見方を変えました。</p></div><div class='er-card'><h4>🎤 カード3：PREPスピーチのヒント</h4><p>スピーキングテストでは、どのツールを試したかを述べ、最初の反応を描写し、1つの具体的なエラーをどう解決したかを説明し、テクノロジーを賢く使うことについて学んだことで締めくくりましょう。</p></div></div>"
             },
-            "extendedReading": {
-                "title": "Task 4: Authentic Reading (The Learning Curve of AI Integration)",
-                "instruction": "Read this authentic article about the challenges and rewards of adopting new AI technologies in the workplace.",
-                "eng": "The rapid introduction of generative AI tools has caused a mixture of excitement and anxiety in modern workplaces. When management announces the rollout of a new technological platform, employees often experience a steep learning curve. Initially, many professionals approach AI with skepticism. They wonder if a machine can truly replicate the nuanced communication required in business, or they fear that the tool is the first step toward their own job replacement. This initial hesitation is a completely normal human reaction to disruptive technology.\n\nHowever, the real breakthrough occurs when users encounter their first major problem and successfully troubleshoot it. A common experience is asking an AI to generate a report and receiving a document that sounds entirely robotic or contains 'hallucinated' facts. Inexperienced users might give up, declaring the technology useless. Conversely, tech-savvy employees understand that the AI is only as good as its prompt. By refining their requests, providing detailed context, and manually tweaking the final output, they learn to harness the AI's power. They discover that they can automate tedious administrative tasks, freeing up hours of their day for high-level creative and strategic thinking.\n\nUltimately, mastering a new piece of technology fundamentally changes a professional's perspective. It shifts their mindset from viewing AI as a threat to recognizing it as an invaluable co-worker. When sharing these experiences—whether in a casual conversation or a formal speaking presentation—highlighting the initial struggle makes the story relatable. Explaining how you overcame technical glitches and adapted your workflow proves that you possess the resilience and digital literacy necessary to thrive in an ever-evolving, tech-driven economy.",
-                "jpn": "生成AIツールの急速な導入は、現代の職場に興奮と不安の入り混じった感情を引き起こしています。経営陣が新しい技術プラットフォームの展開を発表すると、従業員はしばしば急激な学習曲線を経験します。当初、多くのプロフェッショナルは懐疑的な態度でAIにアプローチします。機械がビジネスで必要とされるニュアンスのあるコミュニケーションを本当に再現できるのかと疑問に思ったり、あるいはそのツールが自分たちの仕事の代替への第一歩ではないかと恐れたりします。この初期の躊躇は、破壊的なテクノロジーに対する完全に正常な人間の反応です。\n\nしかし、本当のブレークスルーは、ユーザーが最初の大きな問題に遭遇し、それを無事にトラブルシューティング（解決）したときに起こります。よくある経験は、AIにレポートの作成を依頼し、完全に機械的に聞こえる文書や「ハルシネーション」による事実が含まれた文書を受け取ることです。経験の浅いユーザーは諦め、そのテクノロジーは役に立たないと宣言するかもしれません。逆に、テクノロジーに精通した従業員は、AIはプロンプトと同程度の良さにしかならないことを理解しています。リクエストを洗練させ、詳細なコンテキストを提供し、最終的な出力を手動で微調整することで、彼らはAIの力を活用する方法を学びます。彼らは退屈な管理業務を自動化し、高度で創造的かつ戦略的な思考のために1日のうち何時間も解放できることを発見するのです。\n\n最終的に、新しいテクノロジーを習得することは、プロフェッショナルの視点を根本的に変えます。それは、AIを脅威と見なす考え方から、非常に価値のある同僚として認識する考え方へとシフトさせます。カジュアルな会話であれ、正式なスピーチのプレゼンテーションであれ、これらの経験を共有する際、初期の苦闘を強調することは物語に共感をもたらします。技術的な不具合をどのように克服し、ワークフローをどのように適応させたかを説明することは、絶えず進化し、テクノロジー主導の経済で活躍するために必要な回復力とデジタルリテラシーをあなたが持っていることを証明するのです。"
+            writingTask: {
+                promptEng: "Write a short paragraph answering this question: Describe a time a piece of technology frustrated you. How did you figure it out?",
+                promptJpn: "「テクノロジーにイライラさせられた時のことを説明してください。どのようにしてそれを解決（理解）しましたか？」という質問に答える短い段落を書いてください。"
             }
         }
     },
-    {
+  {
         "id": 50,
         "chapter": "Chapter 8: Dining Out",
         "type": "opinion",
@@ -5965,15 +6313,25 @@ const b1Curriculum = [
                 { "eng": "Wait on", "jpn": "（客に）給仕する、サービスする", "exEng": "The waiter who waited on us was very polite.", "exJpn": "私たちに給仕してくれたウェイターはとても礼儀正しかったです。" },
                 { "eng": "Send back", "jpn": "（料理などを）突き返す、返品する", "exEng": "If the soup is cold, you should send it back.", "exJpn": "もしスープが冷めていたら、突き返す（作り直しを頼む）べきです。" }
             ],
+            "clickingGames": [
+                { "prompt": "素晴らしい食べ物を見つける最良の方法は、地元の人に尋ねることです。", "target": "The best way to find great food is to ask locals.", "words": ["The", "best", "way", "to", "find", "great", "food", "is", "to", "ask", "locals."] },
+                { "prompt": "クライアントに好印象を与える最良の方法は、静かな店を選ぶことです。", "target": "The best way to impress a client is to pick a quiet place.", "words": ["The", "best", "way", "to", "impress", "a", "client", "is", "to", "pick", "a", "quiet", "place."] },
+                { "prompt": "席を確保する最良の方法は、事前に予約することです。", "target": "The best way to get a table is to book in advance.", "words": ["The", "best", "way", "to", "get", "a", "table", "is", "to", "book", "in", "advance."] },
+                { "prompt": "グルメアプリを使う最良の方法は、一貫したパターンを探すことです。", "target": "The best way to use food apps is to check patterns.", "words": ["The", "best", "way", "to", "use", "food", "apps", "is", "to", "check", "patterns."] },
+                { "prompt": "私はストリートフードが大好きです。加えて、たいていずっと安いです！", "target": "I love street food. Plus, it is usually much cheaper!", "words": ["I", "love", "street", "food.", "Plus,", "it", "is", "usually", "much", "cheaper!"] },
+                { "prompt": "一貫したパターンを探してください。また、最近の写真も確認してください。", "target": "Look for clear patterns. Also, check recent photos.", "words": ["Look", "for", "clear", "patterns.", "Also,", "check", "recent", "photos."] },
+                { "prompt": "カジュアルなカフェは快適です。加えて、ドレスコードもありません。", "target": "Casual cafes feel relaxed. Plus, there is no dress code.", "words": ["Casual", "cafes", "feel", "relaxed.", "Plus,", "there", "is", "no", "dress", "code."] },
+                { "prompt": "食事制限を事前に確認しましょう。また、静かな席を予約しましょう。", "target": "Check dietary needs early. Also, book a quiet table.", "words": ["Check", "dietary", "needs", "early.", "Also,", "book", "a", "quiet", "table."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 10 - Feature Box on Dining Out & Business Lunches)",
+                "instruction": "Read this guide on restaurant habits, business lunches, and food reviews. Notice 'the best way to' and 'Plus/Also'.",
+                "eng": "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>🍽️ Dining Out &amp; Business Lunches: Practical Tips</h3><p>In my experience, casual dining is great for relaxing with friends rather than worrying about strict table manners. Plus, small neighborhood spots often give generous portions at fair prices. The best way to find a reliable local spot is to ask colleagues or locals for honest tips.</p><p><strong>💼 Hosting a Business Lunch:</strong> When you take a client out for a business lunch, choose a quiet place so you can talk easily. Also, check dietary restrictions beforehand so nobody faces an awkward menu surprise. Knowing how to pay the bill smoothly shows real care and professionalism.</p><p><strong>⭐ Using Online Reviews Wisely:</strong> Food apps help foodies spot new menus, yet some reviews are fake or overly picky. The best way to use reviews is to read recent comments for consistent patterns and check real photos before booking.</p></div></div>",
+                "jpn": "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>🍽️ 外食とビジネスランチ：実践的なヒント</h3><p>私の経験では、厳格なテーブルマナーを気にするよりも、友人とリラックスするにはカジュアルな食事が最適です。加えて、小さな近所のお店は手頃な価格でボリュームのある料理を出してくれることがよくあります。信頼できる地元の店を見つける最良の方法は、同僚や地元の人に率直なアドバイスを聞くことです。</p><p><strong>💼 ビジネスランチの接待：</strong> ビジネスランチにクライアントを連れ出すときは、落ち着いて話せる静かな場所を選びましょう。また、メニューを見て気まずい思いをしないよう、事前に食事制限を確認してください。お会計をスムーズに済ませる方法を知っていることは、本当の気配りとプロ意識を示します。</p><p><strong>⭐ オンラインレビューの賢い使い方：</strong> グルメアプリは食通が新しいメニューを見つけるのに役立ちますが、レビューの中には偽物や細かい不満ばかりのものもあります。レビューを使う最良の方法は、一貫した傾向を見るために最近のコメントを読み、予約する前に実際の写真を確認することです。</p></div></div>"
+            },
             "writingTask": {
                 "promptEng": "Write a short paragraph answering this question: What is the best way to choose a restaurant for a business lunch? Use 'The best way to...' and 'Plus/Also'.",
                 "promptJpn": "「ビジネスランチのためのレストランを選ぶ最良の方法は何ですか？『The best way to...』と『Plus/Also』を使って答える短い段落を書いてください。」"
-            },
-            "extendedReading": {
-                "title": "Task 4: Authentic Reading (The Psychology of the Business Lunch)",
-                "instruction": "Read this authentic article about the rules and strategies of corporate dining.",
-                "eng": "In the corporate world, the 'business lunch' is far more than just a midday meal; it is a highly strategic environment for negotiation, networking, and relationship building. While office meetings are governed by strict agendas and professional boundaries, a restaurant provides a neutral, relaxed setting where professionals can evaluate each other's character. Often, senior executives use business lunches to observe a potential partner's social skills. How a person treats the waitstaff, their table manners, and their ability to maintain engaging small talk reveal a lot about how they handle stress and interpersonal relationships.\n\nChoosing the right venue is the first critical step. The best way to ensure success is to select a restaurant that offers a quiet atmosphere, allowing for confidential conversations without shouting over loud music. Additionally, the host must do their research. Taking a client who is allergic to seafood to a famous sushi restaurant is a catastrophic error that shows a lack of attention to detail. Plus, the menu should offer a variety of safe, easy-to-eat options. Eating messy foods, like ribs or spaghetti, can cause embarrassing accidents and distract from the business conversation.\n\nFinally, navigating the check is a subtle art. In traditional business etiquette, the person who extended the invitation is responsible for footing the bill. A seasoned professional will often arrive early to give the waiter their corporate credit card in advance, ensuring that the bill never even reaches the table. This elegant move prevents any awkward arguments about who should pay and leaves the client feeling completely hosted and respected. Ultimately, mastering the dynamics of the business lunch proves that you are a polished, detail-oriented professional capable of representing your company at the highest levels.",
-                "jpn": "企業の世界において、「ビジネスランチ」は単なる昼食をはるかに超えるものです。それは交渉、ネットワーキング、そして関係構築のための高度に戦略的な環境です。オフィスの会議が厳格なアジェンダと仕事上の境界線によって支配されているのに対し、レストランはプロフェッショナルがお互いの性格を評価できる中立的でリラックスした場を提供します。しばしば、上級幹部は潜在的なパートナーの社交スキルを観察するためにビジネスランチを利用します。その人がウェイターをどう扱うか、テーブルマナー、そして魅力的な雑談を維持する能力は、その人がストレスや対人関係にどのように対処するかについて多くのことを明らかにします。\n\n適切な場所を選ぶことは、最初の重要なステップです。成功を確実にする最良の方法は、大音量の音楽に負けじと大声を出すことなく内密な会話ができる、静かな雰囲気のレストランを選ぶことです。さらに、ホストは調査をしなければなりません。シーフードアレルギーのクライアントを有名な寿司屋に連れて行くことは、細部への注意の欠如を示す壊滅的なエラーです。加えて、メニューには安全で食べやすい多様な選択肢があるべきです。リブやスパゲッティなどの汚れやすい食べ物を食べることは、恥ずかしい事故を引き起こし、ビジネスの会話から気をそらす可能性があります。\n\n最後に、お会計をスムーズに処理することは繊細な芸術です。伝統的なビジネスエチケットでは、招待した人が勘定をもつ責任があります。経験豊富なプロフェッショナルはしばしば早く到着し、事前にウェイターに法人クレジットカードを渡し、請求書がテーブルに届くことすらないようにします。このエレガントな行動は、誰が支払うべきかについての気まずい議論を防ぎ、クライアントに完全に接待され尊重されたと感じさせます。最終的に、ビジネスランチの力学を習得することは、あなたが洗練され、細部に気を配り、最高レベルで会社を代表することができるプロフェッショナルであることを証明するのです。"
             }
         }
     },
@@ -6026,12 +6384,38 @@ const b1Curriculum = [
             { "eng": "Order drinks", "jpn": "飲み物を注文する", "indent": true }
         ],
         "expressions": [
-            { "category": "1. Asking if ready (注文の準備ができたか尋ねる)", "options": ["Are you ready to order?", "Can I take your order now?", "Do you need a few more minutes?"] },            
-            { "category": "2. Asking about menu items (メニューについて尋ねる)", "options": ["Could you tell me what the soup of the day is?", "What do you recommend?", "What comes with the steak?"] }, 
-            { "category": "3. Stating dietary restrictions (食事制限を伝える)", "options": ["I can't eat dairy.", "I am highly allergic to nuts.", "I am a strict vegetarian."] },
-            { "category": "4. Ordering food (料理を注文する)", "options": ["I will have the tomato soup to start.", "I would like the grilled salmon.", "I'll go with the chicken salad."] },
-            { "category": "5. Referring to options (選択肢に言及する)", "options": ["You can have any of our dressings.", "None of us want dessert.", "All of the sides are included."] },
-            { "category": "6. Declining politely (丁寧に断る)", "options": ["Just some water for the table, please.", "We are fine for now, thank you.", "No dessert today, thank you."] }
+            {
+                "category": "1. Asking about the menu & specials (メニューや日替わりを尋ねる)",
+                "options": [
+                    { "eng": "Are you ready to order, or do you need a few more minutes?", "jpn": "ご注文はお決まりですか、それとももう少しお時間が必要ですか？" },
+                    { "eng": "Could you tell me what the soup of the day is?", "jpn": "本日のスープは何か教えていただけますか？" },
+                    { "eng": "What dish do you recommend tonight?", "jpn": "今夜はどの料理をお勧めしますか？" }
+                ]
+            },
+            {
+                "category": "2. Stating dietary needs & allergies (食事制限やアレルギーを伝える)",
+                "options": [
+                    { "eng": "I can't eat dairy; do any of your soups come without milk?", "jpn": "乳製品が食べられません。牛乳の入っていないスープはどれかありますか？" },
+                    { "eng": "I have a food allergy to nuts, so please check the ingredients.", "jpn": "ナッツ類に食物アレルギーがあるので、材料を確認してください。" },
+                    { "eng": "I prefer a vegetarian main dish if possible.", "jpn": "可能であればベジタリアンのメイン料理を希望します。" }
+                ]
+            },
+            {
+                "category": "3. Ordering starters, mains & drinks (前菜・メイン・飲み物を注文する)",
+                "options": [
+                    { "eng": "I will have the tomato soup to start, please.", "jpn": "まずはトマトスープをお願いします。" },
+                    { "eng": "I would like the grilled salmon with a side salad.", "jpn": "サーモンのグリルにサイドサラダを添えてお願いします。" },
+                    { "eng": "Just some sparkling water for the table, please.", "jpn": "テーブル用にスパークリングウォーターをお願いします。" }
+                ]
+            },
+            {
+                "category": "4. Referring to zero or all items (ゼロや全体の数量を表す)",
+                "options": [
+                    { "eng": "You can have any of our three salad dressings.", "jpn": "3種類のサラダドレッシングのどれでもお選びいただけます。" },
+                    { "eng": "None of us want dessert today, thank you.", "jpn": "今日は私たち誰もデザートはいりません、ありがとうございます。" },
+                    { "eng": "All of the sides are included with the entree.", "jpn": "サイドメニューはすべてメイン料理に含まれています。" }
+                ]
+            }
         ],
         "grammarPoints": [
             {
@@ -6053,24 +6437,6 @@ const b1Curriculum = [
                 ]
             }
         ],
-        "clickingGames": [
-            { "prompt": "今日は私たち誰もデザートはいりません。", "target": "None of us want dessert today.", "words": ["None", "of", "us", "want", "dessert", "today."] },
-            { "prompt": "まずはトマトスープをお願いします。", "target": "I will have the tomato soup to start.", "words": ["I", "will", "have", "the", "tomato", "soup", "to", "start."] },
-            { "prompt": "サイドメニューはすべて美味しいです。", "target": "All of the sides are delicious.", "words": ["All", "of", "the", "sides", "are", "delicious."] },
-            { "prompt": "ご注文はお決まりですか？", "target": "Are you ready to order?", "words": ["Are", "you", "ready", "to", "order?"] },
-            { "prompt": "私は乳製品が食べられません。", "target": "I can't eat dairy.", "words": ["I", "can't", "eat", "dairy."] }
-        ],
-        "dropdownGames": [
-            { "before": "I didn't order", "options": ["any of", "none of", "all of"], "answer": "any of", "after": " these appetizers." },
-            { "before": "Could you tell me what the soup of the day", "options": ["is", "are", "be"], "answer": "is", "after": "?" },
-            { "before": "", "options": ["None of", "Any of", "Each of"], "answer": "None of", "after": " my friends like spicy food." },
-            { "before": "I would like the grilled salmon", "options": ["with", "for", "to"], "answer": "with", "after": " a side salad." },
-            { "before": "", "options": ["Each of", "All of", "None of"], "answer": "Each of", "after": " the clients received a menu." }
-        ],
-        "roleplay": {
-            "a": "You are a customer at a restaurant. Ask for a recommendation, state a dietary restriction (e.g., no meat or no dairy), and order your meal. Use 'none of' to decline dessert for your group. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはレストランの客です。お勧めを尋ね、食事制限（肉なし、乳製品なしなど）を伝え、食事を注文してください。グループのデザートを断るために「none of」を使ってください。)</span>",
-            "b": "You are the waiter. Suggest a dish that fits their restriction. Offer them a choice of sides using 'any of'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはウェイターです。彼らの制限に合う料理を提案してください。「any of」を使ってサイドメニューの選択肢を提供してください。)</span>"
-        },
         "homework": {
             "vocab": [
                 { "eng": "Eat out", "jpn": "外食する", "exEng": "We plan to eat out to celebrate the new contract.", "exJpn": "新しい契約を祝うために外食する予定です。" },
@@ -6092,19 +6458,28 @@ const b1Curriculum = [
                 { "eng": "Apologize for", "jpn": "〜について謝罪する", "exEng": "The manager apologized for the slow service.", "exJpn": "マネージャーはサービスの遅さについて謝罪しました。" },
                 { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "Servers must carefully deal with food allergies.", "exJpn": "サーバー（給仕）は食物アレルギーに慎重に対処しなければなりません。" }
             ],
+            "clickingGames": [
+                { "prompt": "今日は私たち誰もデザートはいりません。", "target": "None of us want dessert today.", "words": ["None", "of", "us", "want", "dessert", "today."] },
+                { "prompt": "私はメニューの選択肢のどれも好きではありませんでした。", "target": "I didn't like any of the options on the menu.", "words": ["I", "didn't", "like", "any", "of", "the", "options", "on", "the", "menu."] },
+                { "prompt": "私の友人の誰も辛い食べ物が好きではありません。", "target": "None of my friends like spicy food.", "words": ["None", "of", "my", "friends", "like", "spicy", "food."] },
+                { "prompt": "乳製品のないスープはどれかありますか？", "target": "Do any of your soups come without milk?", "words": ["Do", "any", "of", "your", "soups", "come", "without", "milk?"] },
+                { "prompt": "サイドメニューはすべて美味しいです。", "target": "All of the sides are delicious.", "words": ["All", "of", "the", "sides", "are", "delicious."] },
+                { "prompt": "ゲストはそれぞれ異なる料理を注文しました。", "target": "Each of the guests ordered a different dish.", "words": ["Each", "of", "the", "guests", "ordered", "a", "different", "dish."] },
+                { "prompt": "ドレッシングはどれでもお選びいただけます。", "target": "You can pick any of the dressings.", "words": ["You", "can", "pick", "any", "of", "the", "dressings."] },
+                { "prompt": "クライアントはそれぞれメニューを受け取りました。", "target": "Each of the clients received a menu.", "words": ["Each", "of", "the", "clients", "received", "a", "menu."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 1 - Dining & Allergy Reviews)",
+                "instruction": "Read these customer reviews about ordering food and handling food allergies at restaurants. Notice 'none of', 'any of', and 'each of'.",
+                "eng": "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Helpful Server With Dairy-Free Choices</strong></div><span class='er-author'>By: Maya K. | Dinner Review</span></div><p style='margin:0;'>I was starving after a long day, and I have a dairy allergy, so I always ask before ordering a starter. The server checked the kitchen and told me which soups had no milk. None of the cream soups worked for me, yet the tomato soup was great. Each of us got a different main dish, and all of the sides were fresh and warm.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>Smooth Group Order &amp; Clear Menu</strong></div><span class='er-author'>By: Ken T. | Team Lunch</span></div><p style='margin:0;'>We made a reservation for four colleagues and looked over the menu quickly. We did not order any of the heavy desserts, choosing sparkling water instead. The waiter recommended the grilled salmon, and every single person enjoyed their meal before we asked for the bill.</p></div></div>",
+                "jpn": "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>乳製品不使用の選択肢に親切なスタッフ</strong></div><span class='er-author'>投稿者：マヤ・K | ディナーレビュー</span></div><p style='margin:0;'>長い一日の後でお腹がペコペコで、乳製品アレルギーがあるため、前菜を注文する前にいつも確認します。スタッフはキッチンに確認し、牛乳が入っていないスープを教えてくれました。クリームスープはどれも（none of）私には合いませんでしたが、トマトスープは最高でした。私たち各自が（each of）異なるメイン料理を選び、サイドメニューはすべて（all of）新鮮で温かかったです。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>スムーズなグループ注文と分かりやすいメニュー</strong></div><span class='er-author'>投稿者：ケン・T | チームランチ</span></div><p style='margin:0;'>同僚4人で予約をし、メニューにさっと目を通しました。重いデザートはどれも（any of）注文せず、代わりにスパークリングウォーターを選びました。ウェイターがサーモンのグリルを勧めてくれ、お会計をお願いする前に全員が食事を楽しみました。</p></div></div>"
+            },
             "writingTask": {
                 "promptEng": "Write a short dialogue between a waiter and a customer. The customer explains a dietary restriction and orders. Use 'any of' or 'none of' in your dialogue.",
                 "promptJpn": "「ウェイターと客の短い対話を書いてください。客は食事制限を説明し、注文をします。対話の中に『any of』または『none of』を使用してください。」"
-            },
-            "extendedReading": {
-                "title": "Task 4: Authentic Reading (The Complexities of Restaurant Ordering)",
-                "instruction": "Read this text about dining etiquette and handling dietary restrictions in a professional setting.",
-                "eng": "Ordering food at a restaurant during a business lunch requires a delicate balance of personal preference, professional etiquette, and clear communication. Unlike dining with close friends, a corporate meal is essentially an extension of the boardroom. The way a professional interacts with the waitstaff, asks questions about the menu, and handles unforeseen problems speaks volumes about their character. Therefore, communicating your needs clearly and politely is an essential skill.\n\nOne of the most critical aspects of modern dining is managing dietary restrictions. Whether it is an allergy, a religious requirement, or a personal health choice, diners must inform the staff without causing a major disruption at the table. A polite phrase like, 'I am allergic to dairy; do any of your soups come without milk?' is clear and gives the waiter an opportunity to recommend a safe alternative. If a host is organizing the meal, they should proactively ask their clients about restrictions before booking the restaurant. Nothing ruins a business lunch faster than a VIP guest realizing that none of the menu options are safe for them to eat.\n\nFurthermore, professionals must navigate the timing and structure of the meal. Ordering a complex, messy dish that takes 45 minutes to prepare might disrupt the flow of the meeting. It is usually best to order something simple to eat so that the focus remains on the business conversation. When the meal concludes, handling the bill gracefully is the final test. A good host will never let the guest see the check, often arranging the payment privately with the server beforehand. By mastering these dining dynamics, professionals ensure that their business lunches are both enjoyable and highly productive.",
-                "jpn": "ビジネスランチ中にレストランで料理を注文するには、個人の好み、仕事上のエチケット、そして明確なコミュニケーションの間の微妙なバランスが必要です。親しい友人との食事とは異なり、企業の食事は本質的に会議室の延長です。プロフェッショナルが給仕スタッフとどのように接し、メニューについて質問し、予期せぬ問題にどう対処するかは、その人の性格を雄弁に物語ります。それゆえに、自分のニーズを明確かつ丁寧に伝えることは不可欠なスキルなのです。\n\n現代の食事において最も重要な側面の一つは、食事制限を管理することです。それがアレルギーであれ、宗教上の要件であれ、個人の健康上の選択であれ、食事をする人はテーブルで大きな混乱を引き起こすことなくスタッフに知らせなければなりません。「乳製品アレルギーなのですが、牛乳の入っていないスープはどれか（どれでも）ありますか？」といった丁寧なフレーズは明確であり、ウェイターに安全な代替品を勧める機会を与えます。もしホストが食事を企画している場合、レストランを予約する前にクライアントに制限について積極的に尋ねるべきです。VIPゲストが、メニューの選択肢の中に自分が安全に食べられるものが何一つない（none of）と気づくことほど、ビジネスランチを早く台無しにするものはありません。\n\nさらに、プロフェッショナルは食事のタイミングと構成をうまく乗り切らなければなりません。準備に45分もかかり、食べるのが面倒で汚れやすい料理を注文すると、会議の進行を妨げる可能性があります。ビジネスの会話に集中し続けられるように、通常はシンプルに食べられるものを注文するのが最善です。食事が終わったとき、お会計を優雅に処理することが最後のテストになります。良いホストは決してゲストに伝票を見せず、しばしば事前にサーバーと個人的に支払いを取り決めます。これらの食事の力学を習得することで、プロフェッショナルはビジネスランチが楽しく、かつ非常に生産的であることを保証するのです。"
             }
         }
     },
-  
     {
         "id": 52,
         "chapter": "Chapter 8: Dining Out",
@@ -6214,15 +6589,25 @@ const b1Curriculum = [
                 { "eng": "Look into", "jpn": "調査する、調べる", "exEng": "I will look into plant-based recipes tonight.", "exJpn": "今夜、植物由来のレシピを調べてみます。" },
                 { "eng": "Bring up", "jpn": "話題を持ち出す", "exEng": "She brought up the topic of intermittent fasting.", "exJpn": "彼女は断続的断食（ファスティング）の話題を持ち出しました。" }
             ],
+            "clickingGames": [
+                { "prompt": "ヴィーガンの選択肢はサラダの隣にあります。", "target": "The vegan options are next to the salads.", "words": ["The", "vegan", "options", "are", "next", "to", "the", "salads."] },
+                { "prompt": "彼はビジネスランチの間、私の前に座っていました。", "target": "He sat in front of me at lunch.", "words": ["He", "sat", "in", "front", "of", "me", "at", "lunch."] },
+                { "prompt": "グルテンフリーの食材は別の棚の中にあります。", "target": "Gluten-free items stay inside of a separate area.", "words": ["Gluten-free", "items", "stay", "inside", "of", "a", "separate", "area."] },
+                { "prompt": "メニューはテーブルの真ん中に置かれていました。", "target": "The menu was in the middle of the table.", "words": ["The", "menu", "was", "in", "the", "middle", "of", "the", "table."] },
+                { "prompt": "週末には一切れのケーキを楽しむべきです。", "target": "You should enjoy a slice of cake on weekends.", "words": ["You", "should", "enjoy", "a", "slice", "of", "cake", "on", "weekends."] },
+                { "prompt": "私はスパークリングウォーターを1本注文しました。", "target": "I ordered a bottle of sparkling water.", "words": ["I", "ordered", "a", "bottle", "of", "sparkling", "water."] },
+                { "prompt": "彼女は毎朝コップ1杯の水を飲みます。", "target": "She drinks a glass of water every morning.", "words": ["She", "drinks", "a", "glass", "of", "water", "every", "morning."] },
+                { "prompt": "私たちは1箱の野菜を地元から取り寄せました。", "target": "We ordered a box of fresh local vegetables.", "words": ["We", "ordered", "a", "box", "of", "fresh", "local", "vegetables."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 2 - Dining Trends Forum)",
+                "instruction": "Read this forum thread on plant-based meals, calorie tracking, and food allergies. Notice location prepositions and container nouns.",
+                "eng": "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>HealthyEater_A asks:</strong><br>Plant-based diets and calorie apps are popular now, yet eating out with a group can feel tricky when someone has a food allergy. How do you balance healthy habits and social meals?</div><div class='er-forum-a'>💬 <strong>Reply by Chef_Ren:</strong><br>As a rule, we keep allergy-safe tools separate and place gluten-free items away from wheat flour to prevent cross-contamination. Focusing on unprocessed food rather than counting every calorie keeps meals relaxing.</div><div class='er-forum-a'>💬 <strong>Reply by Foodie_Sora:</strong><br>In my experience, sharing a few plates and ordering a bottle of sparkling water or a slice of cake without guilt works well. Look for spots with clear labels next to main dishes.</div></div>",
+                "jpn": "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>HealthyEater_Aの質問：</strong><br>植物由来の食事やカロリーアプリが今人気ですが、食物アレルギーのある人がいるとグループでの外食が難しく感じられます。健康的な習慣とみんなでの食事をどう両立していますか？</div><div class='er-forum-a'>💬 <strong>Chef_Renの返信：</strong><br>原則として、交差汚染を防ぐためアレルギー対応の器具を分け、グルテンフリーの食材を小麦粉から離して置いています。すべてのカロリーを計算するよりも未加工食品に焦点を当てると、食事がリラックスしたものになります。</div><div class='er-forum-a'>💬 <strong>Foodie_Soraの返信：</strong><br>私の経験では、数皿をシェアし、罪悪感なくスパークリングウォーターを1本注文したりケーキを一切れ食べたりするのがうまくいきます。メイン料理の隣に分かりやすい表示があるお店を探してみてください。</div></div>"
+            },
             "writingTask": {
                 "promptEng": "Write a short paragraph answering this question: What is a popular dietary trend in your country? Use 'a lot of' and complex prepositions (e.g., in front of, next to) in your answer.",
                 "promptJpn": "「あなたの国で人気のある食事のトレンドは何ですか？『a lot of』と複雑な前置詞（例：in front of, next to）を使って答える短い段落を書いてください。」"
-            },
-            "extendedReading": {
-                "title": "Task 4: Authentic Reading (The Rise of Conscious Eating)",
-                "instruction": "Read this authentic article about modern dietary trends and their cultural impacts.",
-                "eng": "The modern dining landscape has been entirely reshaped by the concept of 'conscious eating.' Gone are the days when consumers simply ordered the cheapest or most convenient meal on the menu. Today, diners are heavily invested in the ethical, environmental, and health implications of their food choices. This shift is most clearly seen in the explosive rise of plant-based diets. Many people are cutting out meat and dairy, not just for personal health, but to reduce their carbon footprint and protest against factory farming practices. Restaurants have responded rapidly; a decade ago, finding a vegan option was a struggle, but now, a slice of vegan cake or a plant-based burger is a standard offering almost everywhere.\n\nSimultaneously, the obsession with tracking macronutrients has created a highly data-driven approach to eating. Millions of smartphone users log every calorie they consume, seeking strict control over their physical fitness. While this promotes health awareness, psychologists warn that it can lead to toxic behaviors. When dining with friends, an individual fixated on their app might refuse to share a plate or enjoy a spontaneous dessert. This hyper-focus on metrics can ruin the social bonding experience that eating together traditionally provides. Health experts suggest focusing on eating natural, unprocessed foods rather than treating every meal like a math problem.\n\nFinally, the hospitality industry has had to adapt to a massive increase in severe food allergies and intolerances. Kitchens must be meticulously organized to avoid cross-contamination. For instance, storing gluten-free ingredients next to regular flour is a recipe for a medical emergency. Waitstaff are now trained to ask proactive questions about dietary restrictions before the customer even orders. Ultimately, navigating these diverse dietary trends requires empathy and flexibility from both the consumer and the restaurant. Eating is a deeply personal choice, and respecting those choices is the new standard of excellent hospitality.",
-                "jpn": "現代の食事の風景は、「意識的な食事（コンシャス・イーティング）」という概念によって完全に作り変えられました。消費者がメニューの中で最も安い、あるいは最も便利な食事を単に注文していた時代は終わりました。今日、食事をする人々は、自分たちの食べ物の選択がもたらす倫理的、環境的、そして健康上の意味合いに大きく投資しています。この変化は、植物由来の食事（プラントベースダイエット）の爆発的な増加に最も明確に見られます。多くの人々が、個人の健康のためだけでなく、二酸化炭素排出量を減らし、工場畜産に抗議するために、肉や乳製品を絶っています（cut out）。レストランは迅速に対応しました。10年前はヴィーガンの選択肢を見つけるのは大変でしたが、今ではヴィーガンケーキの一切れや植物由来のハンバーガーは、ほぼどこでも標準的に提供されています。\n\n同時に、主要栄養素（マクロ）を記録することへの執着は、データ主導型の食事アプローチを生み出しました。何百万ものスマートフォンユーザーが消費するすべてのカロリーを記録し、自分の身体的な健康状態を厳格に管理しようとしています。これは健康への意識を高める一方で、心理学者はそれが有害な行動につながる可能性があると警告しています。友人と食事をするとき、アプリに執着している個人は、お皿を共有したり、その場の思いつきでデザートを楽しんだりすることを拒否するかもしれません。指標へのこの過度な集中は、一緒に食事が伝統的に提供する社会的絆の体験を台無しにする可能性があります。健康の専門家は、すべての食事を数学の問題のように扱うよりも、自然で未加工の食品を食べることに焦点を当てるよう提案しています。\n\n最後に、ホスピタリティ業界は、重度の食物アレルギーや不耐症の大幅な増加に適応しなければなりませんでした。交差汚染を避けるために、キッチンは細心の注意を払って組織されなければなりません。例えば、グルテンフリーの食材を普通の小麦粉の隣に保管することは、医療的な緊急事態を引き起こすレシピ（原因）となります。現在、給仕スタッフは、顧客が注文する前に食事制限について積極的に質問するよう訓練されています。最終的に、これらの多様な食事のトレンドを乗り切るには、消費者とレストラン双方の共感と柔軟性が必要です。食べることは極めて個人的な選択であり、それらの選択を尊重することが、優れたホスピタリティの新しい基準なのです。"
             }
         }
     },
@@ -6275,12 +6660,38 @@ const b1Curriculum = [
             { "eng": "Suggest moving to a location (using location adverb)", "jpn": "場所への移動を提案する（場所の副詞を使用）", "indent": true }
         ],
         "expressions": [
-            { "category": "1. Discussing splitting (割り勘について話し合う)", "options": ["We could just split it evenly.", "Let's go Dutch on this.", "Why don't we chip in together?"] },            
-            { "category": "2. Suggesting paying separately (別々の支払いを提案する)", "options": ["Paying separately might be fairer.", "Could we get separate checks, please?", "I'll just pay for what I ordered."] }, 
-            { "category": "3. Offering to treat (奢ることを申し出る)", "options": ["Let me treat you today. It's on me.", "I'll foot the bill this time.", "Please, allow me to pay."] },
-            { "category": "4. Offering a compromise (妥協案を申し出る)", "options": ["I can at least cover the tip.", "Let me buy the drinks next time.", "I'll pay for the taxi home."] },
-            { "category": "5. Asking for receipts (領収書を頼む)", "options": ["Could we get an itemized receipt?", "I need a receipt for my expense account.", "Can you print the bill, please?"] },
-            { "category": "6. Leaving a tip (チップを残す)", "options": ["I'll leave the tip here on the table.", "Please keep the change.", "Can you add a 15% service charge?"] }
+            {
+                "category": "1. Suggesting splitting or paying separately (割り勘・別払いを提案する)",
+                "options": [
+                    { "eng": "We could just split it evenly, if you like.", "jpn": "もしよければ、均等に割り勘にしましょうか。" },
+                    { "eng": "Paying separately might be fairer.", "jpn": "別々に支払う方が公平かもしれません。" },
+                    { "eng": "Why don't we chip in together for the bill?", "jpn": "お勘定のためにお金を出し合いませんか？" }
+                ]
+            },
+            {
+                "category": "2. Offering to treat or cover part (奢る・一部を負担する)",
+                "options": [
+                    { "eng": "Let me treat you today. It is on me.", "jpn": "今日は私に奢らせてください。私のおごりです。" },
+                    { "eng": "I can put it on my company expense account.", "jpn": "会社の経費にできますよ。" },
+                    { "eng": "Well, I can at least cover the tip.", "jpn": "では、せめてチップは私が負担しますよ。" }
+                ]
+            },
+            {
+                "category": "3. Asking for receipts & tipping (領収書を頼む・チップを残す)",
+                "options": [
+                    { "eng": "Could we get an itemized receipt for the business expense?", "jpn": "経費のために明細書をいただけますか？" },
+                    { "eng": "I'll leave the tip here on the table.", "jpn": "チップはここ、テーブルの上に置いておきます。" },
+                    { "eng": "Please keep the change.", "jpn": "お釣りは取っておいてください。" }
+                ]
+            },
+            {
+                "category": "4. Locating staff & heading out (スタッフを探す・外へ向かう)",
+                "options": [
+                    { "eng": "The waiter is over there.", "jpn": "ウェイターがあそこにいますね。" },
+                    { "eng": "Let's head outside; the taxi is waiting nearby.", "jpn": "外に向かいましょう。タクシーが近くで待っています。" },
+                    { "eng": "I will bring the bill right over.", "jpn": "すぐにお勘定をお持ちいたします。" }
+                ]
+            }
         ],
         "grammarPoints": [
             {
@@ -6302,24 +6713,6 @@ const b1Curriculum = [
                 ]
             }
         ],
-        "clickingGames": [
-            { "prompt": "均等に割り勘にしましょうか（提案）。", "target": "We could split the bill evenly.", "words": ["We", "could", "split", "the", "bill", "evenly."] },
-            { "prompt": "チップはここ、テーブルの上に置いておきます。", "target": "I will leave the tip here.", "words": ["I", "will", "leave", "the", "tip", "here."] },
-            { "prompt": "タクシーが外で待っています。", "target": "The taxi is waiting outside.", "words": ["The", "taxi", "is", "waiting", "outside."] },
-            { "prompt": "経費のための明細書をいただけますか？", "target": "Could we get an itemized receipt?", "words": ["Could", "we", "get", "an", "itemized", "receipt?"] },
-            { "prompt": "今日は私に奢らせてください。", "target": "Let me treat you today.", "words": ["Let", "me", "treat", "you", "today."] }
-        ],
-        "dropdownGames": [
-            { "before": "We", "options": ["could", "would", "must"], "answer": "could", "after": " just pay for our own meals." },
-            { "before": "I will leave the money", "options": ["here", "nearby", "outside"], "answer": "here", "after": " on the table." },
-            { "before": "Let's head", "options": ["outside", "everywhere", "nowhere"], "answer": "outside", "after": " to catch a cab." },
-            { "before": "Please, it is", "options": ["in", "on", "at"], "answer": "on", "after": " me tonight." },
-            { "before": "I can at least", "options": ["cover", "covering", "covered"], "answer": "cover", "after": " the service charge." }
-        ],
-        "roleplay": {
-            "a": "You just finished a business meal. Suggest splitting the bill using 'could'. When your partner refuses, offer to pay the tip and leave it 'here' on the table. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはビジネスの食事を終えたばかりです。「could」を使って割り勘を提案してください。パートナーが断ったら、チップを払うと申し出て、テーブルの「ここ（here）」に置いてください。)</span>",
-            "b": "Refuse the offer to split the bill. Insist on treating them because you have a company expense account. Ask the waiter for an itemized receipt. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(割り勘の申し出を断ってください。会社の経費があるため、自分が奢ると主張してください。ウェイターに明細書を頼んでください。)</span>"
-        },
         "homework": {
             "vocab": [
                 { "eng": "Chip in", "jpn": "お金を出し合う", "exEng": "We all chipped in to pay for the birthday dinner.", "exJpn": "誕生日の夕食代を払うために、みんなでお金を出し合いました。" },
@@ -6341,136 +6734,156 @@ const b1Curriculum = [
                 { "eng": "Leave out", "jpn": "省く、抜く", "exEng": "They accidentally left out the dessert from the bill.", "exJpn": "彼らは誤って請求書からデザートを省いて（忘れて）いました。" },
                 { "eng": "Show up", "jpn": "現れる", "exEng": "The waiter finally showed up with the credit card machine.", "exJpn": "ウェイターがようやくクレジットカードの機械を持って現れました。" }
             ],
+            "clickingGames": [
+                { "prompt": "均等に割り勘にしましょうか。", "target": "We could split the bill evenly.", "words": ["We", "could", "split", "the", "bill", "evenly."] },
+                { "prompt": "別々に支払う方が公平かもしれません。", "target": "Paying separately might be fairer.", "words": ["Paying", "separately", "might", "be", "fairer."] },
+                { "prompt": "別々の領収書をお願いしてもいいかもしれませんね。", "target": "You could ask for a separate receipt.", "words": ["You", "could", "ask", "for", "a", "separate", "receipt."] },
+                { "prompt": "経費のために明細書をいただけますか？", "target": "Could we get an itemized receipt?", "words": ["Could", "we", "get", "an", "itemized", "receipt?"] },
+                { "prompt": "チップはここ、テーブルの上に置いておきます。", "target": "I will leave the tip here.", "words": ["I", "will", "leave", "the", "tip", "here."] },
+                { "prompt": "タクシーが外で待っています。", "target": "The taxi is waiting outside.", "words": ["The", "taxi", "is", "waiting", "outside."] },
+                { "prompt": "ウェイターがあそこにいますね。", "target": "The waiter is standing over there.", "words": ["The", "waiter", "is", "standing", "over", "there."] },
+                { "prompt": "車が近くで待っています。", "target": "The car is waiting nearby.", "words": ["The", "car", "is", "waiting", "nearby."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 3 - Expense & Dining Blog)",
+                "instruction": "Read this blog post on splitting bills, expense accounts, and tipping etiquette. Notice 'could' and location adverbs.",
+                "eng": "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>How to Handle the Bill Smoothly After a Team Meal</h3><span class='er-blog-meta'>By: Ops Lead Daiki | 📅 November 14</span><p>When a meal ends, handling the check smoothly keeps everyone comfortable. If friends order similar dishes, we could split the bill evenly or pay separately when one person had extra drinks. For a business meal, the host usually covers the cost on a company expense account and asks for an itemized receipt before leaving.</p><p>Tipping rules also vary by place. Where tipping is common, you can leave the tip here on the table and walk outside to catch a ride waiting nearby. In places where service is already included, you do not need to add extra cash, so keep the checkout quick and polite.</p></div>",
+                "jpn": "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>チームの食事後にお会計をスムーズに処理する方法</h3><span class='er-blog-meta'>執筆者：オペレーションリード ダイキ | 📅 11月14日</span><p>食事が終わるとき、お会計をスムーズに処理することで全員が気楽でいられます。友人が似たような料理を注文した場合は均等に割り勘にでき、一人が飲み物を多く頼んだ場合は別々に支払うこともできます。ビジネスの食事では、ホストが通常会社の経費で費用を負担し、店を出る前に明細書を求めます。</p><p>チップのルールも場所によって異なります。チップが一般的な場所では、チップをここテーブルの上に置いて外へ出て、近くで待っている車に乗ることができます。すでにサービス料が含まれている場所では追加の現金を置く必要はないため、お会計を素早く丁寧に行いましょう。</p></div>"
+            },
             "writingTask": {
                 "promptEng": "Write a short dialogue suggesting how to pay the bill. Use 'could' to suggest an idea, and an adverb of location (e.g., here, outside).",
                 "promptJpn": "「お会計の支払い方を提案する短い対話を書いてください。アイデアを提案するために『could』を使い、場所の副詞（例：here, outside）を使ってください。」"
-            },
-            "extendedReading": {
-                "title": "Task 4: Authentic Reading (The Etiquette of the Bill)",
-                "instruction": "Read this text about the unwritten rules of paying the check at a business dinner.",
-                "eng": "One of the most anxiety-inducing moments of any business dinner occurs at the very end of the meal: the arrival of the bill. How professionals handle this moment can leave a lasting impression on clients and colleagues alike. In standard corporate etiquette, the rule is relatively simple: the person who extended the invitation is the host, and the host is expected to foot the bill. If a sales manager invites a potential client to a steakhouse, the client should not be expected to pay, nor should they be asked to 'go Dutch' (split the bill evenly). \n\nHowever, in reality, situations are often more complicated. What happens when colleagues of equal rank go out for lunch? Usually, peers will suggest paying separately or simply splitting the bill down the middle. Phrases like 'We could just split it evenly' help soften the conversation. If one person ordered an expensive steak and several alcoholic drinks while another had a simple salad, paying separately is much fairer. Expecting a colleague to subsidize your expensive taste is considered highly unprofessional. \n\nWhen paying with a corporate expense account, an itemized receipt is absolutely necessary for the accounting department. A smart host will ask the waiter for this specific receipt quietly, avoiding drawing attention to the payment process. Furthermore, handling the tip requires cultural awareness. In North America, leaving a generous 15-20% tip is mandatory to ensure service workers are fairly compensated, whereas in many Asian countries, tipping is unnecessary and sometimes even offensive. By understanding these subtle financial dynamics, professionals can ensure that the final moments of a business meal are smooth, respectful, and completely stress-free.",
-                "jpn": "ビジネスディナーにおいて最も不安を煽る瞬間の一つは、食事の最後、つまり請求書が到着した時に起こります。プロフェッショナルがこの瞬間をどう処理するかは、クライアントと同僚の両方に永続的な印象を残す可能性があります。標準的な企業のエチケットにおいて、ルールは比較的シンプルです。招待した人がホストであり、ホストが勘定を支払うことが期待されています。もし営業マネージャーが潜在的なクライアントをステーキハウスに招待した場合、クライアントは支払いを期待されるべきではありませんし、「割り勘（go Dutch）」を求められるべきでもありません。\n\nしかし、現実には状況はしばしばもっと複雑です。同等の役職の同僚がランチに出かけた場合はどうなるでしょうか？通常、同僚たちは別々に支払うか、単に請求書を真ん中で割る（均等に割る）ことを提案します。「（もしよければ）均等に割り勘にしましょうか」といったフレーズは、会話を和らげるのに役立ちます。一人が高価なステーキとアルコールドリンクを何杯も注文し、もう一人がシンプルなサラダしか食べなかった場合、別々に支払う方がはるかに公平です。同僚にあなたの高価な好みを補助させることを期待するのは、非常にプロ意識に欠けると考えられます。\n\n企業の経費口座で支払う場合、経理部門にとって明細書（項目別の領収書）は絶対に必要なものです。賢明なホストは、支払いプロセスに注意を引くのを避け、静かにウェイターにこの特定の領収書を要求します。さらに、チップの処理には文化的認識が必要です。北米では、サービス業の労働者が公正に報われることを保証するために15〜20%の気前の良いチップを残すことが義務付けられていますが、多くのアジア諸国では、チップは不要であり、時には不快にさえ思われます。これらの微妙な金銭的力学を理解することで、プロフェッショナルはビジネスの食事の最後の瞬間がスムーズで、敬意があり、完全にストレスフリーであることを保証できるのです。"
             }
         }
     },
 {
-        id: 54,
-        chapter: "Chapter 8: Dining Out",
-        type: "opinion",
-        title: "Lesson 54: Opinion Exchange - Tipping Culture and Dining Trends",
-        goal: "Discuss tipping, customer service, food delivery apps, and express contrast using 'while' and 'whereas'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(チップの文化、接客サービス、デリバリーアプリについて話し合い、「while」や「whereas」を使って対比を表現する。)</span>",
-        topicIntroduction: {
-            title: "Topic Introduction",
-            instruction: "Listen to three professionals introducing today's discussion themes on dining out and tipping culture.",
-            speakers: [
+        "id": 54,
+        "chapter": "Chapter 8: Dining Out",
+        "type": "opinion",
+        "title": "Lesson 54: Opinion Exchange - Tipping Culture and Dining Trends",
+        "goal": "Discuss tipping, customer service, food delivery apps, and express contrast using 'while' and 'whereas'. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(チップの文化、接客サービス、デリバリーアプリについて話し合い、「while」や「whereas」を使って対比を表現する。)</span>",
+        "topicIntroduction": {
+            "title": "Topic Introduction",
+            "instruction": "Listen to three professionals introducing today's discussion themes on dining out and tipping culture.",
+            "speakers": [
                 { 
-                    name: "Person 1", 
-                    eng: "I travel a lot for business, and I find the American tipping culture extremely frustrating. In countries like Japan or Australia, excellent customer service is simply expected as part of the job. You pay the price on the menu, and that is it. Whereas in the United States, you are socially obligated to leave a 20% tip, even if the service was just average. I firmly believe that restaurants should pay their staff a living wage. Waiters shouldn't have to rely on the generosity of customers to pay their rent. While tipping was originally meant to reward exceptional service, it has now become a hidden tax that makes dining out overly stressful and expensive.", 
-                    jpn: "私は出張が多く、アメリカのチップ文化を非常にフラストレーションがたまるものだと感じています。日本やオーストラリアのような国では、素晴らしい接客サービスは仕事の一部として単に期待されています（当然のこととされています）。メニューにある価格を支払えば、それで終わりです。一方（Whereas）アメリカでは、たとえサービスが平均的だったとしても、20%のチップを置くことが社会的に義務付けられています。レストランはスタッフに生活賃金を支払うべきだと私は固く信じています。ウェイターは家賃を払うために客の寛大さに頼るべきではありません。チップは元々、例外的に素晴らしいサービスに報いるためのものであった一方で（While）、現在では外食を過度にストレスの多い、高価なものにする隠れた税金になってしまっています。" 
+                    "name": "Person 1", 
+                    "eng": "I travel a lot for business, and I find the American tipping culture extremely frustrating. In countries like Japan or Australia, excellent customer service is simply expected as part of the job. You pay the price on the menu, and that is it. Whereas in the United States, you are socially obligated to leave a 20% tip, even if the service was just average. I firmly believe that restaurants should pay their staff a living wage. Waiters shouldn't have to rely on the generosity of customers to pay their rent. While tipping was originally meant to reward exceptional service, it has now become a hidden tax that makes dining out overly stressful and expensive.", 
+                    "jpn": "私は出張が多く、アメリカのチップ文化を非常にフラストレーションがたまるものだと感じています。日本やオーストラリアのような国では、素晴らしい接客サービスは仕事の一部として単に期待されています（当然のこととされています）。メニューにある価格を支払えば、それで終わりです。一方（Whereas）アメリカでは、たとえサービスが平均的だったとしても、20%のチップを置くことが社会的に義務付けられています。レストランはスタッフに生活賃金を支払うべきだと私は固く信じています。ウェイターは家賃を払うために客の寛大さに頼るべきではありません。チップは元々、例外的に素晴らしいサービスに報いるためのものであった一方で（While）、現在では外食を過度にストレスの多い、高価なものにする隠れた税金になってしまっています。" 
                 },
                 { 
-                    name: "Person 2", 
-                    eng: "I completely disagree. I worked as a server during college, and the tipping system is exactly what motivates restaurant staff to provide outstanding service. If everyone is paid the exact same flat hourly wage, there is no incentive to go above and beyond for a table. When a waiter knows that a friendly attitude and fast service will result in a bigger tip, the customer's dining experience drastically improves. I prefer having the power to decide how much the service was worth. While a mandatory service charge guarantees income for the restaurant, a voluntary tip directly rewards the individual who worked hard to make your evening special.", 
-                    jpn: "私は完全に反対です。私は大学時代にサーバー（給仕）として働いていましたが、チップのシステムこそが、レストランのスタッフに際立って優れたサービスを提供するモチベーションを与えるものなのです。もし全員が全く同じ定額の時給を支払われるなら、テーブル（のお客さん）のために期待以上のことをしようというインセンティブ（動機）がありません。フレンドリーな態度と素早いサービスがより大きなチップにつながるとウェイターが知っているとき、客の食事体験は劇的に向上します。私は、サービスにどれくらいの価値があったかを決める権限を持つことの方が好きです。義務的なサービス料はレストランの収入を保証する一方で（While）、自発的なチップはあなたの夜を特別なものにするために一生懸命働いた個人に直接報いるのです。" 
+                    "name": "Person 2", 
+                    "eng": "I completely disagree. I worked as a server during college, and the tipping system is exactly what motivates restaurant staff to provide outstanding service. If everyone is paid the exact same flat hourly wage, there is no incentive to go above and beyond for a table. When a waiter knows that a friendly attitude and fast service will result in a bigger tip, the customer's dining experience drastically improves. I prefer having the power to decide how much the service was worth. While a mandatory service charge guarantees income for the restaurant, a voluntary tip directly rewards the individual who worked hard to make your evening special.", 
+                    "jpn": "私は完全に反対です。私は大学時代にサーバー（給仕）として働いていましたが、チップのシステムこそが、レストランのスタッフに際立って優れたサービスを提供するモチベーションを与えるものなのです。もし全員が全く同じ定額の時給を支払われるなら、テーブル（のお客さん）のために期待以上のことをしようというインセンティブ（動機）がありません。フレンドリーな態度と素早いサービスがより大きなチップにつながるとウェイターが知っているとき、客の食事体験は劇的に向上します。私は、サービスにどれくらいの価値があったかを決める権限を持つことの方が好きです。義務的なサービス料はレストランの収入を保証する一方で（While）、自発的なチップはあなたの夜を特別なものにするために一生懸命働いた個人に直接報いるのです。" 
                 },
                 { 
-                    name: "Person 3", 
-                    eng: "I think the traditional dining out experience is dying because of food delivery apps. Nowadays, people would rather eat restaurant-quality food on their own couch while watching Netflix. However, the convenience of these apps comes at a massive cost. While consumers pay ridiculous hidden fees for delivery, the restaurants themselves are charged huge commission rates by the tech companies. A local restaurant barely makes a profit on a delivery order. I am trying to eat out in person more often to support local businesses directly. Furthermore, food simply tastes better when it is served hot from the kitchen, rather than sweating in a plastic container for thirty minutes in traffic.", 
-                    jpn: "フードデリバリーアプリのせいで、伝統的な外食の体験は死滅しつつあると思います。今日では、人々はNetflixを見ながら自分のソファでレストラン品質の食事を食べることを好みます。しかし、これらのアプリの利便性には多大なコストがかかります。消費者が配達のためにばかげた隠し手数料を支払う一方で（While）、レストラン自体はテクノロジー企業から莫大な手数料率を請求されています。地元のレストランは、デリバリーの注文ではかろうじて利益を出している状態です。私は地元のビジネスを直接支援するために、もっと頻繁に直接足を運んで外食するように努めています。さらに、渋滞の中で30分間プラスチック容器の中で汗をかいた（蒸れた）ものより、キッチンから熱々の状態で出されたときの方が、食べ物は単純に美味しいのです。" 
+                    "name": "Person 3", 
+                    "eng": "I think the traditional dining out experience is dying because of food delivery apps. Nowadays, people would rather eat restaurant-quality food on their own couch while watching Netflix. However, the convenience of these apps comes at a massive cost. While consumers pay ridiculous hidden fees for delivery, the restaurants themselves are charged huge commission rates by the tech companies. A local restaurant barely makes a profit on a delivery order. I am trying to eat out in person more often to support local businesses directly. Furthermore, food simply tastes better when it is served hot from the kitchen, rather than sweating in a plastic container for thirty minutes in traffic.", 
+                    "jpn": "フードデリバリーアプリのせいで、伝統的な外食の体験は死滅しつつあると思います。今日では、人々はNetflixを見ながら自分のソファでレストラン品質の食事を食べることを好みます。しかし、これらのアプリの利便性には多大なコストがかかります。消費者が配達のためにばかげた隠し手数料を支払う一方で（While）、レストラン自体はテクノロジー企業から莫大な手数料率を請求されています。地元のレストランは、デリバリーの注文ではかろうじて利益を出している状態です。私は地元のビジネスを直接支援するために、もっと頻繁に直接足を運んで外食するように努めています。さらに、渋滞の中で30分間プラスチック容器の中で汗をかいた（蒸れた）ものより、キッチンから熱々の状態で出されたときの方が、食べ物は単純に美味しいのです。" 
                 }
             ]
         },
-        discussionTopics: [
-            { theme: "Tipping Culture 📖", themeJpn: "チップの文化", sub: [{eng: "Living wage", jpn: "生活賃金"}, {eng: "Social obligation", jpn: "社会的義務"}, {eng: "Hidden taxes", jpn: "隠れた税金"}] },
-            { theme: "Customer Service 📖", themeJpn: "接客サービス", sub: [{eng: "Outstanding service", jpn: "際立って優れたサービス"}, {eng: "Incentives", jpn: "インセンティブ（動機付け）"}, {eng: "Mandatory service charge", jpn: "義務的なサービス料"}] },
-            { theme: "Delivery Apps 📖", themeJpn: "デリバリーアプリ", sub: [{eng: "Hidden fees", jpn: "隠し手数料"}, {eng: "Commission rates", jpn: "手数料率"}, {eng: "Convenience", jpn: "利便性"}] },
-            { theme: "Supporting Local 📖", themeJpn: "地元の支援", sub: [{eng: "Local businesses", jpn: "地元のビジネス"}, {eng: "Making a profit", jpn: "利益を出すこと"}, {eng: "Dining in-person", jpn: "直接足を運んで食事すること"}] },
-            { theme: "Dining Experience 📖", themeJpn: "食事の体験", sub: [{eng: "Food quality", jpn: "食事の品質"}, {eng: "Plastic containers", jpn: "プラスチック容器"}, {eng: "Going above and beyond", jpn: "期待以上のことをすること"}] },
-            { theme: "Global Differences 📖", themeJpn: "世界的な違い", sub: [{eng: "Expected service", jpn: "期待されるサービス"}, {eng: "Voluntary tips", jpn: "自発的なチップ"}, {eng: "Menu prices", jpn: "メニューの価格"}] }
+        "discussionTopics": [
+            { "theme": "Tipping Culture 📖", "themeJpn": "チップの文化", "sub": [{"eng": "Living wage", "jpn": "生活賃金"}, {"eng": "Social obligation", "jpn": "社会的義務"}, {"eng": "Hidden taxes", "jpn": "隠れた税金"}] },
+            { "theme": "Customer Service 📖", "themeJpn": "接客サービス", "sub": [{"eng": "Outstanding service", "jpn": "際立って優れたサービス"}, {"eng": "Incentives", "jpn": "インセンティブ（動機付け）"}, {"eng": "Mandatory service charge", "jpn": "義務的なサービス料"}] },
+            { "theme": "Delivery Apps 📖", "themeJpn": "デリバリーアプリ", "sub": [{"eng": "Hidden fees", "jpn": "隠し手数料"}, {"eng": "Commission rates", "jpn": "手数料率"}, {"eng": "Convenience", "jpn": "利便性"}] },
+            { "theme": "Supporting Local 📖", "themeJpn": "地元の支援", "sub": [{"eng": "Local businesses", "jpn": "地元のビジネス"}, {"eng": "Making a profit", "jpn": "利益を出すこと"}, {"eng": "Dining in-person", "jpn": "直接足を運んで食事すること"}] },
+            { "theme": "Dining Experience 📖", "themeJpn": "食事の体験", "sub": [{"eng": "Food quality", "jpn": "食事の品質"}, {"eng": "Plastic containers", "jpn": "プラスチック容器"}, {"eng": "Going above and beyond", "jpn": "期待以上のことをすること"}] },
+            { "theme": "Global Differences 📖", "themeJpn": "世界的な違い", "sub": [{"eng": "Expected service", "jpn": "期待されるサービス"}, {"eng": "Voluntary tips", "jpn": "自発的なチップ"}, {"eng": "Menu prices", "jpn": "メニューの価格"}] }
         ],
-        questions: [
-            { eng: "1. Is tipping common in your home country? How do you feel about it?", jpn: "1. あなたの母国ではチップは一般的ですか？それについてどう感じますか？" },
-            { eng: "2. Do you agree that tipping motivates waiters to provide better service?", jpn: "2. チップはウェイターにより良いサービスを提供するモチベーションを与えるという意見に賛成ですか？" },
-            { eng: "3. How often do you use food delivery apps compared to eating at a restaurant?", jpn: "3. レストランで食事をするのと比べて、どのくらいの頻度でフードデリバリーアプリを使用しますか？" },
-            { eng: "4. What makes a dining experience truly 'outstanding' for you?", jpn: "4. あなたにとって、食事の体験を真に「際立って優れた」ものにするのは何ですか？" },
-            { eng: "5. Do you think restaurant owners should be forced to pay a 'living wage'?", jpn: "5. レストランのオーナーは「生活賃金」を支払うことを義務付けられるべきだと思いますか？" },
-            { eng: "6. Would you rather pay a 20% service charge or decide the tip yourself?", jpn: "6. 20%のサービス料を支払うのと、自分でチップを決めるのでは、どちらが好きですか？" },
-            { eng: "7. Why are food delivery apps damaging local, independent restaurants?", jpn: "7. なぜフードデリバリーアプリは地元の独立系レストランにダメージを与えているのでしょうか？" },
-            { eng: "8. What is the most annoying thing about ordering food online?", jpn: "8. オンラインで食べ物を注文する際、最もイライラすることは何ですか？" },
-            { eng: "9. When you eat out with colleagues, how do you usually split the bill?", jpn: "9. 同僚と外食するとき、いつもどのように割り勘にしますか？" },
-            { eng: "10. In ten years, do you think traditional waiter service will still exist?", jpn: "10. 10年後、伝統的なウェイターサービスはまだ存在していると思いますか？" }
+        "questions": [
+            { "eng": "1. Is tipping common in your home country? How do you feel about it?", "jpn": "1. あなたの母国ではチップは一般的ですか？それについてどう感じますか？" },
+            { "eng": "2. Do you agree that tipping motivates waiters to provide better service?", "jpn": "2. チップはウェイターにより良いサービスを提供するモチベーションを与えるという意見に賛成ですか？" },
+            { "eng": "3. How often do you use food delivery apps compared to eating at a restaurant?", "jpn": "3. レストランで食事をするのと比べて、どのくらいの頻度でフードデリバリーアプリを使用しますか？" },
+            { "eng": "4. What makes a dining experience truly 'outstanding' for you?", "jpn": "4. あなたにとって、食事の体験を真に「際立って優れた」ものにするのは何ですか？" },
+            { "eng": "5. Do you think restaurant owners should be forced to pay a 'living wage'?", "jpn": "5. レストランのオーナーは「生活賃金」を支払うことを義務付けられるべきだと思いますか？" },
+            { "eng": "6. Would you rather pay a 20% service charge or decide the tip yourself?", "jpn": "6. 20%のサービス料を支払うのと、自分でチップを決めるのでは、どちらが好きですか？" },
+            { "eng": "7. Why are food delivery apps damaging local, independent restaurants?", "jpn": "7. なぜフードデリバリーアプリは地元の独立系レストランにダメージを与えているのでしょうか？" },
+            { "eng": "8. What is the most annoying thing about ordering food online?", "jpn": "8. オンラインで食べ物を注文する際、最もイライラすることは何ですか？" },
+            { "eng": "9. When you eat out with colleagues, how do you usually split the bill?", "jpn": "9. 同僚と外食するとき、いつもどのように割り勘にしますか？" },
+            { "eng": "10. In ten years, do you think traditional waiter service will still exist?", "jpn": "10. 10年後、伝統的なウェイターサービスはまだ存在していると思いますか？" }
         ],
-        vocab: [
-            { eng: "tipping culture", jpn: "チップの文化" },
-            { eng: "living wage", jpn: "生活賃金 (人間らしい生活ができる賃金)" },
-            { eng: "mandatory service charge", jpn: "義務的なサービス料" },
-            { eng: "incentive", jpn: "インセンティブ / 動機付け" },
-            { eng: "hidden fee", jpn: "隠し手数料" },
-            { eng: "commission rate", jpn: "手数料率 / 歩合" },
-            { eng: "split the bill", jpn: "割り勘にする (慣用句)" },
-            { eng: "pick up the tab", jpn: "お勘定を払う / 奢る (くだけた表現)" },
-            { eng: "dine in", jpn: "（店内で）食事をする" },
-            { eng: "eat out", jpn: "外食する" },
-            { eng: "go above and beyond", jpn: "期待以上のことをする (慣用句)" },
-            { eng: "barely", jpn: "かろうじて / ほとんど〜ない (一般用語)" }
+        "vocab": [
+            { "eng": "tipping culture", "jpn": "チップの文化" },
+            { "eng": "living wage", "jpn": "生活賃金 (人間らしい生活ができる賃金)" },
+            { "eng": "mandatory service charge", "jpn": "義務的なサービス料" },
+            { "eng": "incentive", "jpn": "インセンティブ / 動機付け" },
+            { "eng": "hidden fee", "jpn": "隠し手数料" },
+            { "eng": "commission rate", "jpn": "手数料率 / 歩合" },
+            { "eng": "split the bill", "jpn": "割り勘にする (慣用句)" },
+            { "eng": "pick up the tab", "jpn": "お勘定を払う / 奢る (くだけた表現)" },
+            { "eng": "dine in", "jpn": "（店内で）食事をする" },
+            { "eng": "eat out", "jpn": "外食する" },
+            { "eng": "go above and beyond", "jpn": "期待以上のことをする (慣用句)" },
+            { "eng": "barely", "jpn": "かろうじて / ほとんど〜ない (一般用語)" }
         ],
-        grammarPoints: [
+        "grammarPoints": [
             {
-                point: "1. Conjunctions: Expressing simultaneous contrast (While / Whereas)",
-                explanation: "We use 'while' or 'whereas' to contrast two different facts or opinions in the same sentence. 'Whereas' is slightly more formal and emphasizes a direct comparison between two things.",
-                explanationJpn: "「while」や「whereas」を使って、同じ文の中で2つの異なる事実や意見を対比させます。「whereas（その一方で）」は少しフォーマルで、2つの物事の直接的な比較を強調します。",
-                examples: [
-                    { eng: "In Japan, service is included, whereas in the US, you must tip.", jpn: "日本ではサービス料が含まれていますが、その一方で米国ではチップを払わなければなりません。" },
-                    { eng: "While delivery apps are convenient, they hurt local restaurants.", jpn: "デリバリーアプリは便利である一方で、地元のレストランにダメージを与えます。" }
+                "point": "1. Conjunctions: Expressing simultaneous contrast (While / Whereas)",
+                "explanation": "We use 'while' or 'whereas' to contrast two different facts or opinions in the same sentence. 'Whereas' is slightly more formal and emphasizes a direct comparison between two things.",
+                "explanationJpn": "「while」や「whereas」を使って、同じ文の中で2つの異なる事実や意見を対比させます。「whereas（その一方で）」は少しフォーマルで、2つの物事の直接的な比較を強調します。",
+                "examples": [
+                    { "eng": "In Japan, service is included, whereas in the US, you must tip.", "jpn": "日本ではサービス料が含まれていますが、その一方で米国ではチップを払わなければなりません。" },
+                    { "eng": "While delivery apps are convenient, they hurt local restaurants.", "jpn": "デリバリーアプリは便利である一方で、地元のレストランにダメージを与えます。" }
                 ]
             },
             {
-                point: "2. Passive Voice: Stating general rules or expectations (is/are + past participle)",
-                explanation: "When talking about cultural norms, rules, or fees, we often use the passive voice because *who* makes the rule is less important than the rule itself.",
-                explanationJpn: "文化的な規範、ルール、または料金について話すとき、誰がルールを作ったかよりもルール自体の方が重要であるため、しばしば受動態を使用します。",
-                examples: [
-                    { eng: "Excellent customer service is expected in this country.", jpn: "この国では素晴らしい接客サービスが期待されています（当然とされています）。" },
-                    { eng: "Restaurants are charged huge commission rates.", jpn: "レストランは莫大な手数料率を請求されます。" }
+                "point": "2. Passive Voice: Stating general rules or expectations (is/are + past participle)",
+                "explanation": "When talking about cultural norms, rules, or fees, we often use the passive voice because *who* makes the rule is less important than the rule itself.",
+                "explanationJpn": "文化的な規範、ルール、または料金について話すとき、誰がルールを作ったかよりもルール自体の方が重要であるため、しばしば受動態を使用します。",
+                "examples": [
+                    { "eng": "Excellent customer service is expected in this country.", "jpn": "この国では素晴らしい接客サービスが期待されています（当然とされています）。" },
+                    { "eng": "Restaurants are charged huge commission rates.", "jpn": "レストランは莫大な手数料率を請求されます。" }
                 ]
             }
         ],
-        expressions: [
-            { eng: "On the other hand", jpn: "その一方で", exampleEng: "Delivery is fast. On the other hand, it's expensive.", exampleJpn: "デリバリーは速いです。その一方で、高価です。" },
-            { eng: "It goes without saying", jpn: "言うまでもなく", exampleEng: "It goes without saying that good food takes time.", exampleJpn: "美味しい食べ物に時間がかかるのは言うまでもありません。" },
-            { eng: "Ultimately", jpn: "最終的に", exampleEng: "Ultimately, the customer has to pay the hidden fees.", exampleJpn: "最終的に、消費者が隠し手数料を払わなければなりません。" },
-            { eng: "For instance", jpn: "例えば", exampleEng: "Many countries ban tipping. For instance, Japan.", exampleJpn: "多くの国がチップを禁止しています。例えば、日本です。" },
-            { eng: "To put it bluntly", jpn: "率直に言うと", exampleEng: "To put it bluntly, tipping is an outdated system.", exampleJpn: "率直に言うと、チップは時代遅れのシステムです。" }
+        "expressions": [
+            { "eng": "On the other hand", "jpn": "その一方で", "exampleEng": "Delivery is fast. On the other hand, it's expensive.", "exampleJpn": "デリバリーは速いです。その一方で、高価です。" },
+            { "eng": "It goes without saying", "jpn": "言うまでもなく", "exampleEng": "It goes without saying that good food takes time.", "exampleJpn": "美味しい食べ物に時間がかかるのは言うまでもありません。" },
+            { "eng": "Ultimately", "jpn": "最終的に", "exampleEng": "Ultimately, the customer has to pay the hidden fees.", "exampleJpn": "最終的に、消費者が隠し手数料を払わなければなりません。" },
+            { "eng": "For instance", "jpn": "例えば", "exampleEng": "Many countries ban tipping. For instance, Japan.", "exampleJpn": "多くの国がチップを禁止しています。例えば、日本です。" },
+            { "eng": "To put it bluntly", "jpn": "率直に言うと", "exampleEng": "To put it bluntly, tipping is an outdated system.", "exampleJpn": "率直に言うと、チップは時代遅れのシステムです。" }
         ],
-        homework: {
-            vocab: [
-                { eng: "Eat out", jpn: "外食する", exEng: "We eat out at least twice a week.", exJpn: "私たちは少なくとも週に2回は外食します。" },
-                { eng: "Dine in", jpn: "店内で食事する", exEng: "Would you like to dine in or get takeout?", exJpn: "店内でお召し上がりですか、それともお持ち帰りですか？" },
-                { eng: "Split the bill", jpn: "割り勘にする", exEng: "Let's just split the bill evenly among the four of us.", exJpn: "4人で均等に割り勘にしましょう。" },
-                { eng: "Pick up the tab", jpn: "お勘定を払う、奢る", exEng: "My boss picked up the tab for the team dinner.", exJpn: "上司がチームディナーのお勘定を払って（奢って）くれました。" },
-                { eng: "Cut down on", jpn: "〜（量）を減らす", exEng: "I am trying to cut down on expensive food delivery.", exJpn: "高額なフードデリバリーを減らそうとしています。" },
-                { eng: "Rely on", jpn: "〜に依存する", exEng: "Waiters should not rely on tips for their base salary.", exJpn: "ウェイターは基本給をチップに依存するべきではありません。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "She pointed out that a 20% service charge was already added.", exJpn: "彼女は20%のサービス料がすでに追加されていることを指摘しました。" },
-                { eng: "Make up for", jpn: "埋め合わせをする", exEng: "Great service can make up for mediocre food.", exJpn: "素晴らしいサービスは、平凡な食べ物の埋め合わせをすることができます。" },
-                { eng: "Rip off", jpn: "ぼったくる", exEng: "I felt ripped off by all the hidden delivery fees.", exJpn: "隠し配達手数料のせいでぼったくられた気分でした。" },
-                { eng: "Bring up", jpn: "話題を持ち出す", exEng: "He brought up the issue of the restaurant's high prices.", exJpn: "彼はレストランの高価格という問題の話題を持ち出しました。" },
-                { eng: "Deal with", jpn: "〜に対処する", exEng: "Restaurant managers have to deal with rude customers.", exJpn: "レストランのマネージャーは無礼な客に対処しなければなりません。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "A bad attitude will result in a smaller tip.", exJpn: "悪い態度は、より少ないチップという結果になります。" },
-                { eng: "Depend on", jpn: "〜による", exEng: "The amount of tip depends on the quality of service.", exJpn: "チップの額はサービスの質によります。" },
-                { eng: "Turn out", jpn: "〜という結果になる、判明する", exEng: "The cheap restaurant turned out to be amazing.", exJpn: "その安いレストランは素晴らしいと判明しました。" },
-                { eng: "Catch on", jpn: "流行る、普及する", exEng: "QR code menus caught on during the pandemic.", exJpn: "QRコードのメニューはパンデミックの間に普及しました。" },
-                { eng: "Hold up", jpn: "遅らせる", exEng: "A problem in the kitchen held up our main course.", exJpn: "キッチンの問題が私たちのメインディッシュを遅らせました。" },
-                { eng: "Give up", jpn: "諦める", exEng: "Many independent cafes gave up and closed last year.", exJpn: "多くの独立系カフェが昨年諦めて閉店しました。" },
-                { eng: "Look into", jpn: "調査する", exEng: "The government is looking into delivery app commissions.", exJpn: "政府はデリバリーアプリの手数料を調査しています。" }
+        "homework": {
+            "vocab": [
+                { "eng": "Eat out", "jpn": "外食する", "exEng": "We eat out at least twice a week.", "exJpn": "私たちは少なくとも週に2回は外食します。" },
+                { "eng": "Dine in", "jpn": "店内で食事する", "exEng": "Would you like to dine in or get takeout?", "exJpn": "店内でお召し上がりですか、それともお持ち帰りですか？" },
+                { "eng": "Split the bill", "jpn": "割り勘にする", "exEng": "Let's just split the bill evenly among the four of us.", "exJpn": "4人で均等に割り勘にしましょう。" },
+                { "eng": "Pick up the tab", "jpn": "お勘定を払う、奢る", "exEng": "My boss picked up the tab for the team dinner.", "exJpn": "上司がチームディナーのお勘定を払って（奢って）くれました。" },
+                { "eng": "Cut down on", "jpn": "〜（量）を減らす", "exEng": "I am trying to cut down on expensive food delivery.", "exJpn": "高額なフードデリバリーを減らそうとしています。" },
+                { "eng": "Rely on", "jpn": "〜に頼る", "exEng": "Waiters should not rely on tips for their base salary.", "exJpn": "ウェイターは基本給をチップに依存するべきではありません。" },
+                { "eng": "Point out", "jpn": "指摘する", "exEng": "She pointed out that a 20% service charge was already added.", "exJpn": "彼女は20%のサービス料がすでに追加されていることを指摘しました。" },
+                { "eng": "Make up for", "jpn": "埋め合わせをする", "exEng": "Great service can make up for mediocre food.", "exJpn": "素晴らしいサービスは、平凡な食べ物の埋め合わせをすることができます。" },
+                { "eng": "Rip off", "jpn": "ぼったくる", "exEng": "I felt ripped off by all the hidden delivery fees.", "exJpn": "隠し配達手数料のせいでぼったくられた気分でした。" },
+                { "eng": "Bring up", "jpn": "話題を持ち出す", "exEng": "He brought up the issue of the restaurant's high prices.", "exJpn": "彼はレストランの高価格という問題の話題を持ち出しました。" },
+                { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "Restaurant managers have to deal with rude customers.", "exJpn": "レストランのマネージャーは無礼な客に対処しなければなりません。" },
+                { "eng": "Result in", "jpn": "〜という結果になる", "exEng": "A bad attitude will result in a smaller tip.", "exJpn": "悪い態度は、より少ないチップという結果になります。" },
+                { "eng": "Depend on", "jpn": "〜による", "exEng": "The amount of tip depends on the quality of service.", "exJpn": "チップの額はサービスの質によります。" },
+                { "eng": "Turn out", "jpn": "〜という結果になる、判明する", "exEng": "The cheap restaurant turned out to be amazing.", "exJpn": "その安いレストランは素晴らしいと判明しました。" },
+                { "eng": "Catch on", "jpn": "流行る、普及する", "exEng": "QR code menus caught on during the pandemic.", "exJpn": "QRコードのメニューはパンデミックの間に普及しました。" },
+                { "eng": "Hold up", "jpn": "遅らせる", "exEng": "A problem in the kitchen held up our main course.", "exJpn": "キッチンの問題が私たちのメインディッシュを遅らせました。" },
+                { "eng": "Give up", "jpn": "諦める", "exEng": "Many independent cafes gave up and closed last year.", "exJpn": "多くの独立系カフェが昨年諦めて閉店しました。" },
+                { "eng": "Look into", "jpn": "調査する", "exEng": "The government is looking into delivery app commissions.", "exJpn": "政府はデリバリーアプリの手数料を調査しています。" }
             ],
-            writingTask: {
-                promptEng: "Write a short paragraph answering this question: Do you prefer eating at restaurants or using delivery apps? Use 'while' or 'whereas' to contrast the two options, and use the passive voice to state a general rule.",
-                promptJpn: "「レストランで食事をするのとデリバリーアプリを使うのでは、どちらが好きですか？『while』または『whereas』を使って2つの選択肢を対比させ、受動態を使って一般的なルールを述べる短い段落を書いてください。」"
+            "clickingGames": [
+                { "prompt": "日本ではサービスが含まれますが、米国ではチップが必要です。", "target": "In Japan service is included, whereas in the US tipping is common.", "words": ["In", "Japan", "service", "is", "included,", "whereas", "in", "the", "US", "tipping", "is", "common."] },
+                { "prompt": "デリバリーアプリは便利である一方、地元の店を圧迫します。", "target": "While delivery apps are convenient, they pressure local shops.", "words": ["While", "delivery", "apps", "are", "convenient,", "they", "pressure", "local", "shops."] },
+                { "prompt": "店内飲食は温かい料理が楽しめ、一方デリバリーは家に届きます。", "target": "Dining in brings hot food, whereas delivery comes to your door.", "words": ["Dining", "in", "brings", "hot", "food,", "whereas", "delivery", "comes", "to", "your", "door."] },
+                { "prompt": "アプリが手数料を上げる一方、客は高い料金を払います。", "target": "While apps raise fees, customers pay higher delivery costs.", "words": ["While", "apps", "raise", "fees,", "customers", "pay", "higher", "delivery", "costs."] },
+                { "prompt": "この国では素晴らしい接客サービスが期待されています。", "target": "Excellent customer service is expected in this country.", "words": ["Excellent", "customer", "service", "is", "expected", "in", "this", "country."] },
+                { "prompt": "レストランは大きな手数料率を請求されます。", "target": "Restaurants are charged high commission rates by apps.", "words": ["Restaurants", "are", "charged", "high", "commission", "rates", "by", "apps."] },
+                { "prompt": "追加のサービス料が請求書に加算されることがあります。", "target": "Extra service charges are added to some bills.", "words": ["Extra", "service", "charges", "are", "added", "to", "some", "bills."] },
+                { "prompt": "地元の飲食店はデリバリー注文でかろうじて利益を出します。", "target": "Local spots barely make profit on delivery orders.", "words": ["Local", "spots", "barely", "make", "profit", "on", "delivery", "orders."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 4 - Dining & Delivery Chat)",
+                "instruction": "Read this group chat debating tipping culture and food delivery apps. Notice 'while', 'whereas', and passive rules.",
+                "eng": "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #dining-and-delivery</div><div class='er-chat-msg'><span class='er-chat-time'>[06:15 PM]</span> <span class='er-chat-user'>@Kenji:</span> While tipping is expected in some countries, service is included in the menu price here, so I prefer a fair living wage over surprise tips.</div><div class='er-chat-msg'><span class='er-chat-time'>[06:18 PM]</span> <span class='er-chat-user'>@Hannah:</span> Whereas a flat wage feels simple, a tip can reward staff who go above and beyond on a busy night.</div><div class='er-chat-msg'><span class='er-chat-time'>[06:21 PM]</span> <span class='er-chat-user'>@Kenji:</span> True! What about delivery apps? Restaurants are charged high commission rates, while users pay hidden fees and food arrives warm at best.</div><div class='er-chat-msg'><span class='er-chat-time'>[06:24 PM]</span> <span class='er-chat-user'>@Hannah:</span> That is why dining in or picking up the tab directly at a local place often feels better and supports the shop more.</div></div>",
+                "jpn": "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #dining-and-delivery</div><div class='er-chat-msg'><span class='er-chat-time'>[06:15 PM]</span> <span class='er-chat-user'>@Kenji:</span> 一部の国ではチップが期待される一方で、ここではメニュー価格にサービス料が含まれているから、予想外のチップよりも公正な生活賃金の方がいいな。</div><div class='er-chat-msg'><span class='er-chat-time'>[06:18 PM]</span> <span class='er-chat-user'>@Hannah:</span> 定額賃金がシンプルに感じられるのに対し、チップは忙しい夜に期待以上の働きをしたスタッフに報いることができるわ。</div><div class='er-chat-msg'><span class='er-chat-time'>[06:21 PM]</span> <span class='er-chat-user'>@Kenji:</span> そうだね！デリバリーアプリはどう？レストランは高い手数料率を請求される一方で、ユーザーは隠し手数料を払い、料理も良くてもぬるいくらいだよね。</div><div class='er-chat-msg'><span class='er-chat-time'>[06:24 PM]</span> <span class='er-chat-user'>@Hannah:</span> だからこそ、地元の店で直接食事をしたりお勘定を払ったりする方が気持ちよく、お店もより応援できることが多いのよ。</div></div>"
             },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Economics of Dining Out)",
-                instruction: "Read this authentic article about global tipping culture and the rise of food delivery platforms.",
-                eng: "For international travelers and expatriates, dining out often presents a confusing cultural puzzle. In North America, tipping is an entrenched social institution. A gratuity of 18% to 20% is practically mandatory, as federal laws allow restaurants to pay tipped employees a 'sub-minimum' wage. The system relies entirely on the generosity of the consumer to subsidize the worker's living wage. Whereas in much of Europe and Asia, service charges are legally integrated into the menu price. In Japan, attempting to leave a tip can even cause confusion or be perceived as insulting. Critics of the American model argue that tipping is an outdated, discriminatory practice that shifts the financial burden of paying fair wages from the employer to the customer. \n\nHowever, the debate over tipping is currently being overshadowed by a much larger disruption in the restaurant industry: the rise of third-party food delivery platforms. During the global pandemic, apps like UberEats and Deliveroo became essential survival tools for restaurants. Today, however, they represent a significant financial drain. While consumers enjoy the luxury of eating high-quality meals at home, they are often unaware of the aggressive economics behind the app. The technology companies frequently charge local, independent restaurants commission fees ranging from 20% to 30% per order. Because restaurant profit margins are notoriously thin, many owners claim they barely break even on digital orders.\n\nTo survive, restaurants are being forced to adapt their business models. Many establishments now maintain two separate pricing structures: a cheaper menu for customers who dine in, and an inflated menu for online delivery to absorb the commission fees. Furthermore, hidden service fees and 'delivery taxes' are increasingly passed directly onto the user. Ultimately, the convenience of the modern digital economy is fundamentally altering how we interact with food. If consumers want their favorite local bistros to survive the decade, they might need to delete their delivery apps, walk to the restaurant, and pick up the tab in person.",
-                jpn: "海外からの旅行者や駐在員にとって、外食はしばしば混乱を招く文化的なパズルを提示します。北米では、チップは定着した社会制度です。連邦法がレストランにチップを受け取る従業員へ「最低賃金以下」の賃金を支払うことを許可しているため、18%から20%の心付け（チップ）は事実上義務となっています。このシステムは、労働者の生活賃金を補助するために、消費者の寛大さに完全に依存しています。その一方で（Whereas）、ヨーロッパやアジアの大部分では、サービス料は法的にメニューの価格に組み込まれています。日本では、チップを置こうとすることは混乱を招いたり、侮辱的だと受け取られたりすることさえあります。アメリカ型モデルの批判者たちは、チップは公平な賃金を支払うという財政的負担を雇用主から顧客へと転嫁する、時代遅れで差別的な慣行であると主張しています。\n\nしかし、チップをめぐる議論は現在、レストラン業界におけるはるかに大きな混乱によって影を潜めています。サードパーティ（第三者）のフードデリバリープラットフォームの台頭です。世界的なパンデミックの間、UberEatsやDeliverooのようなアプリはレストランにとって不可欠な生存ツールとなりました。しかし今日、それらは重大な財政的流出を表しています。消費者が自宅で高品質の食事を食べる贅沢を楽しむ一方で（While）、彼らはしばしばアプリの背後にある攻撃的な経済学に気づいていません。テクノロジー企業は頻繁に、地元の独立系レストランに対して1注文あたり20%から30%の範囲の手数料を請求します。レストランの利益率は悪名高いほど薄いため、多くのオーナーはデジタル注文ではかろうじて収支を合わせている（ブレークイーブン）状態だと主張しています。\n\n生き残るために、レストランはビジネスモデルの適応を余儀なくされています（受動態）。現在、多くの店舗が2つの別々の価格構造を維持しています。店内（ダインイン）で食事をする顧客向けの安価なメニューと、手数料を吸収するためのオンラインデリバリー用の値上げされたメニューです。さらに、隠されたサービス料や「配達税」はますます直接ユーザーに転嫁されています。最終的に、現代のデジタル経済の利便性は、私たちが食べ物とどのように関わるかを根本的に変えつつあります。もし消費者がお気に入りの地元のビストロにこの10年を生き延びてほしいと願うなら、彼らはデリバリーアプリを削除し、レストランまで歩いて行き、直接足を運んでお勘定を払う必要があるかもしれないのです。"
+            "writingTask": {
+                "promptEng": "Write a short paragraph answering this question: Do you prefer eating at restaurants or using delivery apps? Use 'while' or 'whereas' to contrast the two options, and use the passive voice to state a general rule.",
+                "promptJpn": "「レストランで食事をするのとデリバリーアプリを使うのでは、どちらが好きですか？『while』または『whereas』を使って2つの選択肢を対比させ、受動態を使って一般的なルールを述べる短い段落を書いてください。」"
             }
         }
     },
@@ -6549,6 +6962,15 @@ const b1Curriculum = [
                     { "eng": "Anna was supposed to ask about food allergies, but she forgot.", "jpn": "アンナは食物アレルギーについて尋ねるはずでしたが、忘れてしまいました。" },
                     { "eng": "The dinner was supposed to be quiet and professional.", "jpn": "夕食会は静かでプロフェッショナルなものであるはずでした。" }
                 ]
+            },
+            {
+                "point": "3. Passive Voice with Modals: Recommending dining etiquette fixes (must/should be + PP)",
+                "explanation": "Use modal + 'be' + past participle to state clear rules for checking allergies, booking quiet venues, and handling payment before VIP meals.",
+               "explanationJpn": "VIPの食事の前にアレルギーの確認、静かな会場の予約、支払いの手配を行うための明確なルールを述べるには、「法助動詞 + be + 過去分詞」を使います。",
+                "examples": [
+                    { "eng": "Dietary restrictions must be checked before booking.", "jpn": "食事制限は予約前に確認されなければなりません。" },
+                    { "eng": "Payment methods should be arranged before the meal.", "jpn": "支払い方法は食事の前に手配されるべきです。" }
+                ]
             }
         ],
         "discussionPoints": [
@@ -6563,7 +6985,7 @@ const b1Curriculum = [
             { "eng": "Therefore...", "jpn": "それゆえに..." },
             { "eng": "Ultimately...", "jpn": "最終的には..." }
         ],
-        "roleplay": "Role-play presenting your crisis management solution to the CEO. Do the following using a simple four-slide structure. 1. The problem 2. The causes 3. The immediate solution 4. The long-term prevention plan <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(CEOに危機管理の解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 即時の解決策 4. 長期的な予防計画)</span>",
+        "roleplay": "Role-play presenting your crisis management solution to the CEO. Do the following using a simple three-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
         "homework": {
             "vocab": [
                 { "eng": "Mess up", "jpn": "台無しにする、失敗する", "exEng": "The sales team completely messed up the VIP dinner.", "exJpn": "営業チームはVIPディナーを完全に台無しにしました。" },
@@ -6585,15 +7007,29 @@ const b1Curriculum = [
                 { "eng": "Apologize for", "jpn": "〜について謝罪する", "exEng": "The CEO must apologize for the team's behavior.", "exJpn": "CEOはチームの振る舞いについて謝罪しなければなりません。" },
                 { "eng": "Turn out", "jpn": "〜という結果になる", "exEng": "The trendy restaurant turned out to be a terrible choice.", "exJpn": "そのトレンディなレストランは最悪の選択だと判明しました。" }
             ],
+            "clickingGames": [
+                { "prompt": "私たちが席に着く頃には、彼らはすでに叫び始めていました。", "target": "By the time we sat down, they had already started shouting.", "words": ["By", "the", "time", "we", "sat", "down,", "they", "had", "already", "started", "shouting."] },
+                { "prompt": "彼が銀行に電話した頃には、クライアントはすでに20分待っていました。", "target": "By the time he called the bank, the client had already waited.", "words": ["By", "the", "time", "he", "called", "the", "bank,", "the", "client", "had", "already", "waited."] },
+                { "prompt": "佐藤氏がピーナッツに気づく頃には、すでに一口食べていました。", "target": "By the time Mr. Sato noticed peanuts, he had eaten a bite.", "words": ["By", "the", "time", "Mr.", "Sato", "noticed", "peanuts,", "he", "had", "eaten", "a", "bite."] },
+                { "prompt": "お会計が来た頃には、ケビンのカードはすでに限度額を超えていました。", "target": "By the time the bill came, Kevin had exceeded his card limit.", "words": ["By", "the", "time", "the", "bill", "came,", "Kevin", "had", "exceeded", "his", "card", "limit."] },
+                { "prompt": "アンナは食物アレルギーについて尋ねるはずでした。", "target": "Anna was supposed to ask about food allergies.", "words": ["Anna", "was", "supposed", "to", "ask", "about", "food", "allergies."] },
+                { "prompt": "夕食会は静かでプロフェッショナルなものであるはずでした。", "target": "The dinner was supposed to be quiet and professional.", "words": ["The", "dinner", "was", "supposed", "to", "be", "quiet", "and", "professional."] },
+                { "prompt": "法人カードは支払い時に使えるはずでした。", "target": "The corporate card was supposed to work at checkout.", "words": ["The", "corporate", "card", "was", "supposed", "to", "work", "at", "checkout."] },
+                { "prompt": "営業チームは事前に予約を確認するはずでした。", "target": "The sales team was supposed to check the venue beforehand.", "words": ["The", "sales", "team", "was", "supposed", "to", "check", "the", "venue", "beforehand."] },
+                { "prompt": "食事制限は予約前に確認されなければなりません。", "target": "Dietary restrictions must be checked before booking.", "words": ["Dietary", "restrictions", "must", "be", "checked", "before", "booking."] },
+                { "prompt": "支払い方法は食事の前に手配されるべきです。", "target": "Payment methods should be arranged before the meal.", "words": ["Payment", "methods", "should", "be", "arranged", "before", "the", "meal."] },
+                { "prompt": "静かな会場がビジネスディナーには選ばれるべきです。", "target": "A quiet venue should be chosen for business dinners.", "words": ["A", "quiet", "venue", "should", "be", "chosen", "for", "business", "dinners."] },
+                { "prompt": "明確な謝罪が直ちにクライアントに送られるべきです。", "target": "A sincere apology should be sent to the client right away.", "words": ["A", "sincere", "apology", "should", "be", "sent", "to", "the", "client", "right", "away."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 5 - VIP Dinner Recovery FAQ)",
+                "instruction": "Read this FAQ on preventing and fixing VIP dinner mistakes. Notice past perfect ('had + PP'), 'was supposed to', and modal passives.",
+                "eng": "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>🍽️ VIP Dinner Recovery FAQ: Etiquette &amp; Preparation</h3><div class='er-faq-item'><span class='er-faq-q'>Q: Why did the VIP dinner with Mr. Sato go wrong so quickly?</span><div class='er-faq-a'>The team booked a loud trendy spot, and by the time they sat down, staff were shouting over music. Worse, Anna was supposed to check food allergies but forgot, so Mr. Sato had already eaten peanuts before noticing.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: What happened when the bill arrived at the end of the night?</span><div class='er-faq-a'>By the time Kevin called his bank about his blocked card, the client had already waited awkwardly in the lobby. A smooth host never lets a client watch payment trouble.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: How can the company smooth things over and prevent future mistakes?</span><div class='er-faq-a'>Dietary restrictions must be checked before booking, quiet venues should be chosen for talks, and card limits must be verified early so the company does not lose the contract.</div></div></div>",
+                "jpn": "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>🍽️ VIPディナー立て直しFAQ：エチケットと事前準備</h3><div class='er-faq-item'><span class='er-faq-q'>Q: なぜ佐藤氏とのVIPディナーはすぐにうまくいかなくなったのですか？</span><div class='er-faq-a'>チームはうるさいトレンドの店を予約し、席に着く頃には音楽に負けじと大声で話していました。さらに悪いことに、アンナは食物アレルギーを確認するはずでしたが忘れてしまい、佐藤氏が気づく前にすでにピーナッツを食べてしまっていました。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 夜の終わりに請求書が来たとき、何が起こりましたか？</span><div class='er-faq-a'>ケビンが利用停止になったカードについて銀行に電話した頃には、クライアントはすでにロビーで気まずく待っていました。スマートなホストは決してクライアントに支払いトラブルを見せません。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 会社はどうすれば事態を丸く収め、将来のミスを防げますか？</span><div class='er-faq-a'>契約を失わないよう、食事制限は予約前に確認されなければならず、商談には静かな会場が選ばれるべきで、カードの利用限度額も早めに確認されなければなりません。</div></div></div>"
+            },
             "writingTask": {
                 "promptEng": "Write a short paragraph outlining your proposed solution to fix the relationship with Mr. Sato. Use the past perfect (had + PP) to describe a mistake that happened before another event.",
                 "promptJpn": "「佐藤氏との関係を修復するための、あなたの提案する解決策を概説する短い段落を書いてください。過去完了（had + 過去分詞）を使って、別の出来事の前に起こったミスを説明してください。」"
-            },
-            "extendedReading": {
-                "title": "Task 4: Authentic Reading (The Protocol of Corporate Entertaining)",
-                "instruction": "Read this authentic text about the strict unwritten rules of hosting business dinners.",
-                "eng": "Corporate entertaining is a high-stakes environment where a single social misstep can cost a company millions of dollars. Unlike casual dinners with friends, a business dinner requires meticulous planning and seamless execution. The host is responsible for controlling every aspect of the evening to ensure the client feels comfortable, respected, and open to negotiation. A frequent mistake made by inexperienced managers is choosing a venue based on trends rather than utility. A loud, fashionable restaurant might be impressive for a date, but it is a catastrophic choice for a business meeting where clear communication is essential.\n\nFurthermore, dietary restrictions are no longer just a matter of preference; they are a critical aspect of client safety and respect. In the modern business world, failing to inquire about a VIP's allergies or religious food requirements before booking a table is considered highly unprofessional. By the time the client looks at the menu and realizes they cannot eat anything safely, the host has already lost their trust. The preparation phase must include a direct question to the client's assistant regarding any dietary needs, ensuring that the restaurant can easily accommodate them without drawing awkward attention to the issue during the meal.\n\nFinally, the handling of the bill is the ultimate test of a host's professionalism. The golden rule of corporate dining is that the guest should never see the check, nor should there ever be a debate about who is paying. Experienced executives arrange the payment in advance. They provide their corporate credit card to the maître d' upon arrival or pre-pay a set amount. If a payment error occurs—such as a declined card—the host must handle it discreetly away from the table. Allowing a client to witness a financial argument or wait awkwardly in the lobby shatters the illusion of competence and hospitality that the entire dinner was meant to build.",
-                "jpn": "企業の接待は、一度の社交的な失言が会社に何百万ドルもの損害を与えかねない、リスクの高い環境です。友人とのカジュアルな夕食とは異なり、ビジネスディナーには細心の計画とシームレスな実行が求められます。ホストは、クライアントが快適で、尊重され、交渉にオープンであると感じられるよう、その夜のあらゆる側面をコントロールする責任があります。経験の浅いマネージャーが犯す頻繁な間違いは、実用性よりもトレンドに基づいて場所を選んでしまうことです。うるさくてファッショナブルなレストランはデートには印象的かもしれませんが、明確なコミュニケーションが不可欠なビジネス会議にとっては壊滅的な選択です。\n\nさらに、食事制限はもはや単なる好みの問題ではなく、クライアントの安全性と敬意の重要な側面です。現代のビジネスの世界では、レストランを予約する前にVIPのアレルギーや宗教上の食事の要件について尋ねないことは、非常にプロ意識に欠けると考えられています。クライアントがメニューを見て、自分が安全に食べられるものが何もないと気づく頃には、ホストはすでに彼らの信頼を失っています。準備段階には、食事中にその問題に気まずい注目を集めることなく、レストランが簡単に対応できることを確認するために、食事のニーズに関するクライアントのアシスタントへの直接的な質問が含まれていなければなりません。\n\n最後に、お会計の処理はホストのプロ意識の究極のテストです。企業の食事の黄金律は、ゲストに決して伝票を見せてはならず、誰が支払うかについての議論も決してあってはならないということです。経験豊富な幹部は事前に支払いを手配します。彼らは到着時に給仕長（メートル・ドテル）に法人クレジットカードを渡すか、決められた金額を前払いします。カードが拒否されるなどの支払いエラーが発生した場合、ホストはテーブルから離れた場所で慎重に対処しなければなりません。クライアントにお金に関する言い争いを目撃させたり、ロビーで気まずく待たせたりすることは、夕食会全体が築こうとしていた有能さとおもてなしの幻想を打ち砕いてしまうのです。"
             }
         }
     },
@@ -6651,42 +7087,28 @@ const b1Curriculum = [
                 { "eng": "Follow up", "jpn": "フォローアップする", "exEng": "I will follow up with an email tomorrow.", "exJpn": "明日メールでフォローアップします。" },
                 { "eng": "Look forward to", "jpn": "〜を楽しみにする", "exEng": "I am looking forward to our next business lunch.", "exJpn": "次のビジネスランチを楽しみにしています。" }
             ],
-            "reading1": {
-                "title": "Task 2: Reading (Review Model: A Special Dinner)",
-                "instruction": "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar (past perfect, grouping pronouns), and transitional expressions.",
-                "eng": "In my opinion, choosing the right restaurant is the most crucial part of hosting a client. Actually, I organized a dinner for our top investors last month. At first, finding a quiet place was difficult because none of the downtown restaurants were available. In hindsight, I should have booked much earlier. By the time we finally secured a table, I had already started to panic. However, the venue was perfect, and all of the guests enjoyed the local seafood. To sum up, the quiet atmosphere allowed us to discuss important details easily. I wish I hadn't worried so much, because the evening turned out to be a great success.",
-                "jpn": "私の意見では、適切なレストランを選ぶことはクライアントを接待する上で最も重要な部分です。実は先月、私はトップ投資家たちのための夕食会を企画しました。最初は、ダウンタウンのレストランはどれも（none of）空いていなかったため、静かな場所を見つけるのが困難でした。後から考えると、ずっと早く予約しておくべきでした。私たちがようやく席を確保した頃には、私はすでにパニックになり始めていました。しかし、会場は完璧で、ゲスト全員（all of）が地元のシーフードを楽しみました。要約すると、静かな雰囲気のおかげで、私たちは重要な詳細について簡単に話し合うことができました。あんなに心配しなければよかったと後悔しています。なぜなら、その夜は大成功に終わった（判明した）からです。"
-            },
-            "expandedDialogue": [
-                { "speaker": "A", "eng": "Are you ready for your speaking test on a memorable meal?", "jpn": "記憶に残る食事についてのスピーキングテストの準備はできていますか？" },
-                { "speaker": "B", "eng": "Yes, I am. I will talk about a business lunch I had in London.", "jpn": "はい、できています。ロンドンでのビジネスランチについて話すつもりです。" },
-                { "speaker": "A", "eng": "Did everything go smoothly during the lunch?", "jpn": "ランチの間、すべてスムーズにいきましたか？" },
-                { "speaker": "B", "eng": "Mostly, yes. But I had to deal with a small booking mistake.", "jpn": "ほとんどは、はい。でも、小さな予約ミスに対処しなければなりませんでした。" },
-                { "speaker": "A", "eng": "What happened? Did the restaurant lose your reservation?", "jpn": "何があったのですか？レストランが予約を紛失したのですか？" },
-                { "speaker": "B", "eng": "Yes. By the time we arrived, they had already given our table to someone else.", "jpn": "はい。私たちが到着した頃には、彼らはすでに私たちのテーブルを他の人に渡してしまっていました。" },
-                { "speaker": "A", "eng": "That sounds incredibly awkward. How did you sort it out?", "jpn": "それは信じられないほど気まずいですね。どうやって解決したのですか？" },
-                { "speaker": "B", "eng": "I calmly spoke to the manager, and they set up a private room for us.", "jpn": "私はマネージャーと冷静に話し、彼らは私たちのために個室を用意してくれました。" },
-                { "speaker": "A", "eng": "That was lucky! Did the client notice the problem?", "jpn": "それはラッキーでしたね！クライアントはその問題に気づきましたか？" },
-                { "speaker": "B", "eng": "No, they didn't. None of the guests realized there was an issue.", "jpn": "いいえ。ゲストは誰も問題があることに気づきませんでした。" },
-                { "speaker": "A", "eng": "That shows great professionalism. What did you learn from it?", "jpn": "それは素晴らしいプロ意識を示していますね。そこから何を学びましたか？" },
-                { "speaker": "B", "eng": "I learned that staying calm under pressure leaves a lasting good impression.", "jpn": "プレッシャーの下で冷静さを保つことが、長く続く良い印象を残すということを学びました。" },
-                { "speaker": "A", "eng": "That is a perfect conclusion for your speech. Good luck!", "jpn": "それはあなたのスピーチにとって完璧な結論ですね。幸運を祈ります！" },
-                { "speaker": "B", "eng": "Thank you. I am looking forward to delivering it.", "jpn": "ありがとうございます。発表するのを楽しみにしています。" }
+            "clickingGames": [
+                { "prompt": "素晴らしい食べ物を見つける最良の方法は、地元の人に尋ねることです。", "target": "The best way to find great food is to ask locals.", "words": ["The", "best", "way", "to", "find", "great", "food", "is", "to", "ask", "locals."] },
+                { "prompt": "今日は私たち誰もデザートはいりません。", "target": "None of us want dessert today.", "words": ["None", "of", "us", "want", "dessert", "today."] },
+                { "prompt": "週末には一切れのケーキを楽しむべきです。", "target": "You should enjoy a slice of cake on weekends.", "words": ["You", "should", "enjoy", "a", "slice", "of", "cake", "on", "weekends."] },
+                { "prompt": "均等に割り勘にしましょうか。", "target": "We could split the bill evenly.", "words": ["We", "could", "split", "the", "bill", "evenly."] },
+                { "prompt": "日本ではサービスが含まれますが、米国ではチップが必要です。", "target": "In Japan service is included, whereas in the US tipping is common.", "words": ["In", "Japan", "service", "is", "included,", "whereas", "in", "the", "US", "tipping", "is", "common."] },
+                { "prompt": "私たちが席に着く頃には、彼らはすでに叫び始めていました。", "target": "By the time we sat down, they had already started shouting.", "words": ["By", "the", "time", "we", "sat", "down,", "they", "had", "already", "started", "shouting."] },
+                { "prompt": "アンナは食物アレルギーについて尋ねるはずでした。", "target": "Anna was supposed to ask about food allergies.", "words": ["Anna", "was", "supposed", "to", "ask", "about", "food", "allergies."] },
+                { "prompt": "その食事は私のキャリアで最も成功したランチになりました。", "target": "The meal turned out to be the best lunch of my career.", "words": ["The", "meal", "turned", "out", "to", "be", "the", "best", "lunch", "of", "my", "career."] }
             ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 6 - Corporate Meal Prep Brief)",
+                "instruction": "Read this brief on preparing a memorable business or celebration meal. Notice dining etiquette and PREP structure tips.",
+                "eng": "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 Memorable Meal Speech &amp; Hosting Brief</h3><span class='er-job-tag'>Hospitality</span> <span class='er-job-tag'>PREP Practice</span><p><strong>Setting the Scene:</strong><br>Whether you host a client lunch or celebrate a milestone with colleagues, a quiet room and clear menu choices help everyone enjoy the atmosphere. Before you book, check any allergy or dietary needs so nobody faces a surprise at the table.</p><p><strong>💼 Handling Surprises &amp; The Bill:</strong></p><ul><li>If an order or reservation has a small glitch, stay calm and ask staff to sort it out discreetly.</li><li>Decide who is footing the bill or how you will split the check before the meal ends so there is no awkwardness.</li><li>In your PREP speech, state why the meal mattered, describe the setting and food, explain one challenge, and share your takeaway.</li></ul></div>",
+                "jpn": "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 記憶に残る食事のスピーチ＆接待ガイド</h3><span class='er-job-tag'>ホスピタリティ</span> <span class='er-job-tag'>PREP練習</span><p><strong>場の設定：</strong><br>クライアントランチを主催する場合でも、同僚と節目を祝う場合でも、静かな部屋と分かりやすいメニューの選択肢は全員が雰囲気を楽しむ助けになります。予約する前にアレルギーや食事制限を確認し、テーブルで驚かないようにしましょう。</p><p><strong>💼 予期せぬ出来事とお会計への対応：</strong></p><ul><li>注文や予約に小さな不具合があっても、冷静さを保ち、スタッフに目立たないよう解決してもらいましょう。</li><li>気まずくならないよう、食事が終わる前に誰が勘定をもつか、どう割り勘にするかを決めておきましょう。</li><li>PREPスピーチでは、その食事がなぜ大切だったかを述べ、雰囲気や料理を描写し、1つの課題を説明し、学びを共有しましょう。</li></ul></div>"
+            },
             "writingTask": {
                 "promptEng": "Write a short paragraph answering this question: Describe a time you went to a restaurant and something unexpected happened. How did you handle it?",
                 "promptJpn": "「レストランに行って予期せぬことが起こった時のことを説明してください。それにどう対処しましたか？」という質問に答える短い段落を書いてください。"
-            },
-            "extendedReading": {
-                "title": "Task 4: Authentic Reading (The Value of Shared Meals in Business)",
-                "instruction": "Read this authentic article to learn more about why dining out remains a key business strategy. This section provides real-world context for B1 learners.",
-                "eng": "In an era dominated by quick emails, virtual meetings, and instant messaging, the traditional business meal might seem like an outdated concept. However, top executives consistently argue that sharing a meal remains one of the most effective ways to build a genuine professional relationship. When colleagues or clients sit down at a restaurant, the dynamic fundamentally changes. The structured hierarchy of the office fades away, replaced by a more relaxed, human environment. This setting allows professionals to discover shared interests, discuss broader industry trends, and evaluate whether they truly want to work together long-term.\n\nThe success of a business meal relies heavily on the host's ability to manage the environment invisibly. A skilled host ensures that the conversation flows naturally and that any logistical issues are resolved before the guests even notice them. For instance, if a waiter accidentally brings a dish containing a restricted ingredient, the host must handle the mistake calmly and politely, without creating a scene. This demonstrates grace under pressure. Furthermore, a good host knows when to transition the conversation. Usually, the initial stages of the meal are strictly for small talk; business matters are only brought up after the main course has been cleared.\n\nUltimately, recounting a memorable business meal during an interview or a speaking test is a powerful way to demonstrate emotional intelligence. It shows that you understand the unwritten rules of corporate hospitality. Being able to successfully navigate a complex menu, manage awkward silences, and quietly pick up the check proves that you possess the interpersonal skills necessary to represent your organization. The goal of a business dinner is never just about eating good food; it is about leaving a lasting, positive impression that translates into future success.",
-                "jpn": "短いメール、バーチャルミーティング、インスタントメッセージが支配する時代において、伝統的なビジネスでの食事は時代遅れの概念のように思えるかもしれません。しかし、トップエグゼクティブたちは、食事を共にすることが真のプロフェッショナルな関係を築く最も効果的な方法の1つであり続けていると一貫して主張しています。同僚やクライアントがレストランに座ると、その力学は根本的に変化します。オフィスの構造化された階層は消え去り、よりリラックスした人間的な環境に置き換わります。この環境により、プロフェッショナルたちは共通の関心事を発見し、より幅広い業界のトレンドについて話し合い、長期的に一緒に働きたいと本当に思っているかどうかを評価することができるのです。\n\nビジネスでの食事の成功は、ホストが環境を目に見えない形で管理する能力に大きく依存しています。熟練したホストは、会話が自然に流れ、物流上の問題がゲストに気づかれる前に解決されることを保証します。例えば、ウェイターが誤って制限されている食材を含む料理を持ってきた場合、ホストは騒ぎ立てることなく、冷静かつ丁寧にその間違いに対処しなければなりません。これはプレッシャーの下での優雅さを示しています。さらに、良いホストはいつ会話を移行させるべきかを知っています。通常、食事の初期段階は厳格に雑談のためであり、ビジネスの事柄はメインコースが片付けられた後にのみ持ち出されます。\n\n最終的に、面接やスピーキングテストの最中に記憶に残るビジネスでの食事について語ることは、心の知能指数（感情的知性）を示す強力な方法です。それは、あなたが企業の接待の暗黙のルールを理解していることを示します。複雑なメニューをうまく切り抜け、気まずい沈黙を管理し、静かにお会計を済ませることができるということは、あなたが組織を代表するのに必要な対人スキルを持っていることを証明するのです。ビジネスディナーの目標は、決して単に美味しい食べ物を食べることだけではありません。それは将来の成功につながる、長く続くポジティブな印象を残すことなのです。"
             }
         }
-    },
-
-    {
+    },  {
         "id": 57,
         "chapter": "Chapter 9: Teamwork",
         "type": "opinion",
@@ -6696,30 +7118,30 @@ const b1Curriculum = [
             "title": "Topic Introduction",
             "instruction": "Listen to three professionals introducing today's discussion themes.",
             "speakers": [
-                { 
-                    "name": "Person 1", 
-                    "eng": "In my company, cross-functional collaboration is absolutely essential. The marketing team cannot launch a new campaign without closely working with the product developers and the sales department. When different departments collaborate, they bring diverse, fresh, and creative perspectives to the table. However, it is not always easy. Sometimes, departments have completely different priorities. The sales team wants to promise new features immediately, while the engineering team needs more time to fix bugs. To succeed, we need to focus on clear communication rather than working in isolated silos. We use project management software so everyone can see the overall progress. Building strong relationships across teams makes solving complex problems much easier.", 
-                    "jpn": "私の会社では、部門横断的な協力が絶対に不可欠です。マーケティングチームは、製品開発者や営業部門と緊密に連携することなく新しいキャンペーンを立ち上げることはできません。異なる部門が協力すると、多様で、新鮮で、創造的な視点がもたらされます。しかし、それは常に簡単というわけではありません。時として、部門間で全く異なる優先事項を持っていることがあります。営業チームは新しい機能をすぐに約束したいと考えますが、エンジニアリングチームはバグを修正するためにより多くの時間を必要とします。成功するためには、孤立したサイロ（縦割り組織）の中で働くのではなく、明確なコミュニケーションに焦点を当てる必要があります。私たちはプロジェクト管理ソフトウェアを使用して、全員が全体の進捗を見られるようにしています。チームを超えて強力な関係を築くことは、複雑な問題を解決するのをはるかに簡単にします。" 
+                {
+                    "name": "Person 1",
+                    "eng": "In my company, cross-functional collaboration is absolutely essential. The marketing team cannot launch a new campaign without closely working with the product developers and the sales department. When different departments collaborate, they bring diverse, fresh, and creative perspectives to the table. However, it is not always easy. Sometimes, departments have completely different priorities. The sales team wants to promise new features immediately, while the engineering team needs more time to fix bugs. To succeed, we need to focus on clear communication rather than working in isolated silos. We use project management software so everyone can see the overall progress. Building strong relationships across teams makes solving complex problems much easier.",
+                    "jpn": "私の会社では、部門横断的な協力が絶対に不可欠です。マーケティングチームは、製品開発者や営業部門と緊密に連携することなく新しいキャンペーンを立ち上げることはできません。異なる部門が協力すると、多様で、新鮮で、創造的な視点がもたらされます。しかし、それは常に簡単というわけではありません。時として、部門間で全く異なる優先事項を持っていることがあります。営業チームは新しい機能をすぐに約束したいと考えますが、エンジニアリングチームはバグを修正するためにより多くの時間を必要とします。成功するためには、孤立したサイロ（縦割り組織）の中で働くのではなく、明確なコミュニケーションに焦点を当てる必要があります。私たちはプロジェクト管理ソフトウェアを使用して、全員が全体の進捗を見られるようにしています。チームを超えて強力な関係を築くことは、複雑な問題を解決するのをはるかに簡単にします。"
                 },
-                { 
-                    "name": "Person 2", 
-                    "eng": "I find that the biggest challenge in teamwork is managing different communication styles. I am an engineer, and I prefer to communicate using detailed, logical, and structured emails. In contrast, the marketing team often prefers quick, casual chat messages or spontaneous brainstorming meetings. This can lead to serious misunderstandings. Sometimes I feel like we speak entirely different languages. I think it is important to establish ground rules for communication at the beginning of any joint project. For instance, deciding to use email for official decisions rather than relying on unrecorded chats saves a lot of confusion later. Mutual respect for how other people work is the key to maintaining harmony in a diverse team.", 
-                    "jpn": "チームワークにおける最大の課題は、異なるコミュニケーションスタイルを管理することだと感じています。私はエンジニアなので、詳細で、論理的で、構造化されたメールを使ってコミュニケーションをとることを好みます。対照的に、マーケティングチームはしばしば、短くてカジュアルなチャットメッセージや自発的なブレインストーミング会議を好みます。これは深刻な誤解につながる可能性があります。時々、私たちは全く異なる言語を話しているように感じます。私は、どんな共同プロジェクトであっても、その最初にコミュニケーションのための基本ルールを確立することが重要だと思います。例えば、記録に残らないチャットに頼るよりも、公式な決定にはメールを使用すると決めることで、後々の多くの混乱を避けることができます。他人がどのように働くかに対する相互の尊重が、多様なチームで調和を維持するための鍵です。" 
+                {
+                    "name": "Person 2",
+                    "eng": "I find that the biggest challenge in teamwork is managing different communication styles. I am an engineer, and I prefer to communicate using detailed, logical, and structured emails. In contrast, the marketing team often prefers quick, casual chat messages or spontaneous brainstorming meetings. This can lead to serious misunderstandings. Sometimes I feel like we speak entirely different languages. I think it is important to establish ground rules for communication at the beginning of any joint project. For instance, deciding to use email for official decisions rather than relying on unrecorded chats saves a lot of confusion later. Mutual respect for how other people work is the key to maintaining harmony in a diverse team.",
+                    "jpn": "チームワークにおける最大の課題は、異なるコミュニケーションスタイルを管理することだと感じています。私はエンジニアなので、詳細で、論理的で、構造化されたメールを使ってコミュニケーションをとることを好みます。対照的に、マーケティングチームはしばしば、短くてカジュアルなチャットメッセージや自発的なブレインストーミング会議を好みます。これは深刻な誤解につながる可能性があります。時々、私たちは全く異なる言語を話しているように感じます。私は、どんな共同プロジェクトであっても、その最初にコミュニケーションのための基本ルールを確立することが重要だと思います。例えば、記録に残らないチャットに頼るよりも、公式な決定にはメールを使用すると決めることで、後々の多くの混乱を避けることができます。他人がどのように働くかに対する相互の尊重が、多様なチームで調和を維持するための鍵です。"
                 },
-                { 
-                    "name": "Person 3", 
-                    "eng": "One of the most effective ways to build a strong cross-functional team is through informal socializing. In our office, we regularly organize mixed-department lunches or coffee breaks. When you know someone personally, you are much more likely to trust their professional judgment. It is much easier to ask a quick favor from the IT department if you already chatted with them about sports yesterday. I also believe that managers should actively celebrate team successes rather than only pointing out failures. Recognizing the hard work of a diverse group builds a positive, supportive, and energetic workplace culture. When employees feel connected to a shared goal, they will naturally help each other out, regardless of which department they belong to.", 
-                    "jpn": "強力な部門横断的チームを構築する最も効果的な方法の1つは、非公式な交流を通じることです。私たちのオフィスでは、定期的に部門混合のランチやコーヒーブレイクを企画しています。誰かを個人的に知っていれば、その人の専門的な判断を信頼する可能性がはるかに高くなります。もし昨日IT部門の人とスポーツについて雑談していれば、彼らにちょっとしたお願いをするのはずっと簡単になります。私はまた、マネージャーは失敗を指摘するばかりではなく、チームの成功を積極的に祝うべきだと信じています。多様なグループの勤勉さを認めることは、前向きで、協力的で、エネルギッシュな職場文化を築きます。従業員が共有の目標につながっていると感じれば、彼らは自分がどの部門に属しているかに関係なく、自然にお互いを助け合うようになるでしょう。" 
+                {
+                    "name": "Person 3",
+                    "eng": "One of the most effective ways to build a strong cross-functional team is through informal socializing. In our office, we regularly organize mixed-department lunches or coffee breaks. When you know someone personally, you are much more likely to trust their professional judgment. It is much easier to ask a quick favor from the IT department if you already chatted with them about sports yesterday. I also believe that managers should actively celebrate team successes rather than only pointing out failures. Recognizing the hard work of a diverse group builds a positive, supportive, and energetic workplace culture. When employees feel connected to a shared goal, they will naturally help each other out, regardless of which department they belong to.",
+                    "jpn": "強力な部門横断的チームを構築する最も効果的な方法の1つは、非公式な交流を通じることです。私たちのオフィスでは、定期的に部門混合のランチやコーヒーブレイクを企画しています。誰かを個人的に知っていれば、その人の専門的な判断を信頼する可能性がはるかに高くなります。もし昨日IT部門の人とスポーツについて雑談していれば、彼らにちょっとしたお願いをするのはずっと簡単になります。私はまた、マネージャーは失敗を指摘するばかりではなく、チームの成功を積極的に祝うべきだと信じています。多様なグループの勤勉さを認めることは、前向きで、協力的で、エネルギッシュな職場文化を築きます。従業員が共有の目標につながっていると感じれば、彼らは自分がどの部門に属しているかに関係なく、自然にお互いを助け合うようになるでしょう。"
                 }
             ]
         },
         "discussionTopics": [
-            { "theme": "Department Goals 📖", "themeJpn": "部門の目標", "sub": [{"eng": "Different priorities", "jpn": "異なる優先事項"}, {"eng": "Isolated silos", "jpn": "孤立したサイロ（縦割り）"}, {"eng": "Shared objectives", "jpn": "共有される目標"}] },
-            { "theme": "Communication Styles 📖", "themeJpn": "コミュニケーションスタイル", "sub": [{"eng": "Structured emails", "jpn": "構造化されたメール"}, {"eng": "Casual chats", "jpn": "カジュアルなチャット"}, {"eng": "Ground rules", "jpn": "基本ルール"}] },
-            { "theme": "Project Management 📖", "themeJpn": "プロジェクト管理", "sub": [{"eng": "Tracking progress", "jpn": "進捗の追跡"}, {"eng": "Software tools", "jpn": "ソフトウェアツール"}, {"eng": "Meeting deadlines", "jpn": "締め切りの遵守"}] },
-            { "theme": "Team Harmony 📖", "themeJpn": "チームの調和", "sub": [{"eng": "Mutual respect", "jpn": "相互の尊重"}, {"eng": "Informal socializing", "jpn": "非公式な交流"}, {"eng": "Building trust", "jpn": "信頼の構築"}] },
-            { "theme": "Leadership Role 📖", "themeJpn": "リーダーシップの役割", "sub": [{"eng": "Celebrating success", "jpn": "成功を祝うこと"}, {"eng": "Providing feedback", "jpn": "フィードバックの提供"}, {"eng": "Resolving conflicts", "jpn": "対立の解決"}] },
-            { "theme": "Workplace Culture 📖", "themeJpn": "職場文化", "sub": [{"eng": "Diverse perspectives", "jpn": "多様な視点"}, {"eng": "Creative problem solving", "jpn": "創造的な問題解決"}, {"eng": "Employee engagement", "jpn": "従業員のエンゲージメント（参加意欲）"}] }
+            { "theme": "Department Goals 📖", "themeJpn": "部門の目標", "sub": [{ "eng": "Different priorities", "jpn": "異なる優先事項" }, { "eng": "Isolated silos", "jpn": "孤立したサイロ（縦割り）" }, { "eng": "Shared objectives", "jpn": "共有される目標" }] },
+            { "theme": "Communication Styles 📖", "themeJpn": "コミュニケーションスタイル", "sub": [{ "eng": "Structured emails", "jpn": "構造化されたメール" }, { "eng": "Casual chats", "jpn": "カジュアルなチャット" }, { "eng": "Ground rules", "jpn": "基本ルール" }] },
+            { "theme": "Project Management 📖", "themeJpn": "プロジェクト管理", "sub": [{ "eng": "Tracking progress", "jpn": "進捗の追跡" }, { "eng": "Software tools", "jpn": "ソフトウェアツール" }, { "eng": "Meeting deadlines", "jpn": "締め切りの遵守" }] },
+            { "theme": "Team Harmony 📖", "themeJpn": "チームの調和", "sub": [{ "eng": "Mutual respect", "jpn": "相互の尊重" }, { "eng": "Informal socializing", "jpn": "非公式な交流" }, { "eng": "Building trust", "jpn": "信頼の構築" }] },
+            { "theme": "Leadership Role 📖", "themeJpn": "リーダーシップの役割", "sub": [{ "eng": "Celebrating success", "jpn": "成功を祝うこと" }, { "eng": "Providing feedback", "jpn": "フィードバックの提供" }, { "eng": "Resolving conflicts", "jpn": "対立の解決" }] },
+            { "theme": "Workplace Culture 📖", "themeJpn": "職場文化", "sub": [{ "eng": "Diverse perspectives", "jpn": "多様な視点" }, { "eng": "Creative problem solving", "jpn": "創造的な問題解決" }, { "eng": "Employee engagement", "jpn": "従業員のエンゲージメント（参加意欲）" }] }
         ],
         "questions": [
             { "eng": "1. How often do you work with people from other departments?", "jpn": "1. 他の部署の人とどのくらいの頻度で一緒に仕事をしますか？" },
@@ -6753,9 +7175,9 @@ const b1Curriculum = [
                 "explanation": "When you use more than one adjective to describe a noun, you must follow the correct order. The most common rule to remember for business English is that 'Opinion' adjectives (like creative, beautiful, terrible) always come before 'Fact' adjectives (like new, structured, digital).",
                 "explanationJpn": "名詞を説明するために複数の形容詞を使う場合、正しい語順に従わなければなりません。ビジネス英語で覚えるべき最も一般的なルールは、「意見」の形容詞（creative, beautiful, terribleなど）は常に「事実」の形容詞（new, structured, digitalなど）の前に来るということです。",
                 "examples": [
-                    { "eng": "They bring diverse, fresh, and creative perspectives.", "jpn": "彼らは多様で、新鮮で、創造的な視点をもたらします。（※カンマで繋ぐ場合は同等のカテゴリ）" },
+                    { "eng": "They bring diverse, fresh, and creative perspectives.", "jpn": "彼らは多様で、新鮮で、創造的な視点をもたらします。" },
                     { "eng": "I prefer detailed, logical, and structured emails.", "jpn": "私は詳細で、論理的で、構造化されたメールを好みます。" },
-                    { "eng": "We need an excellent new software tool.", "jpn": "私たちは優れた新しいソフトウェアツールを必要としています。（Opinion -> Fact）" }
+                    { "eng": "We need an excellent new software tool.", "jpn": "私たちは優れた新しいソフトウェアツールを必要としています。" }
                 ]
             },
             {
@@ -6796,724 +7218,798 @@ const b1Curriculum = [
                 { "eng": "Give up", "jpn": "諦める", "exEng": "Don't give up when conflicts happen.", "exJpn": "対立が起きても諦めないでください。" },
                 { "eng": "Help out", "jpn": "手伝う、助ける", "exEng": "Colleagues should always help each other out.", "exJpn": "同僚は常に互いに助け合うべきです。" }
             ],
+            "clickingGames": [
+                { "prompt": "彼らは多様で、新鮮で、創造的な視点をもたらします。", "target": "They bring diverse, fresh, and creative perspectives.", "words": ["They", "bring", "diverse,", "fresh,", "and", "creative", "perspectives."] },
+                { "prompt": "私は詳細で、論理的で、構造化されたメールを好みます。", "target": "I prefer detailed, logical, and structured emails.", "words": ["I", "prefer", "detailed,", "logical,", "and", "structured", "emails."] },
+                { "prompt": "私たちは優れた新しいソフトウェアツールを必要としています。", "target": "We need an excellent new software tool.", "words": ["We", "need", "an", "excellent", "new", "software", "tool."] },
+                { "prompt": "前向きで、協力的で、エネルギッシュな文化を築きます。", "target": "It builds a positive, supportive, and energetic culture.", "words": ["It", "builds", "a", "positive,", "supportive,", "and", "energetic", "culture."] },
+                { "prompt": "サイロで働くよりも、明確な連絡に集中しましょう。", "target": "Focus on clear updates rather than working in silos.", "words": ["Focus", "on", "clear", "updates", "rather", "than", "working", "in", "silos."] },
+                { "prompt": "失敗を指摘するばかりではなく、成功を祝いましょう。", "target": "Celebrate team wins rather than only pointing out errors.", "words": ["Celebrate", "team", "wins", "rather", "than", "only", "pointing", "out", "errors."] },
+                { "prompt": "チャットに頼るより、重要な決定はメールにしましょう。", "target": "Use email for decisions rather than relying on chat.", "words": ["Use", "email", "for", "decisions", "rather", "than", "relying", "on", "chat."] },
+                { "prompt": "互いに競争するよりも、他の部署と協力しましょう。", "target": "Collaborate across teams rather than competing with each other.", "words": ["Collaborate", "across", "teams", "rather", "than", "competing", "with", "each", "other."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 7 - Cross-Team Collaboration Quiz)",
+                "instruction": "Read this quick check on working across departments. Notice 'rather than' and multiple adjectives.",
+                "eng": "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>🤝 TEAMWORK CHECK: How Well Do You Work Across Teams?</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>Cross-functional collaboration works best when teams share ground rules instead of staying in silos. How would you respond?</p><span class='er-quiz-q'>1. Sales wants to promise a new feature fast, while engineering needs time to fix bugs. What helps most?</span><span class='er-quiz-opt'>A) Align on shared goals and update progress in one tool rather than arguing in silos.</span><span class='er-quiz-opt'>B) Ignore the other team and send different promises to clients anyway.</span><span class='er-quiz-q'>2. An engineer prefers structured emails, while marketing prefers quick chats. What is a smart ground rule?</span><span class='er-quiz-opt'>A) Use quick chats for casual updates, yet record final decisions in a clear email.</span><span class='er-quiz-opt'>B) Force everyone to use only one style even when it causes confusion.</span><div class='er-quiz-res'><strong>💡 Key Takeaway:</strong><br>Ultimately, mutual respect, clear ground rules, and informal lunches help diverse teams stay on the same page.</div></div>",
+                "jpn": "<div class='er-template er-quiz er-layout-7'><h3 style='margin-top:0;'>🤝 チームワークチェック：他部署との連携をどれくらいうまくできていますか？</h3><p style='font-size: 0.95rem; color: var(--text-dark);'>部門横断的な協力は、サイロ（縦割り）にとどまるのではなく基本ルールを共有するときに最も効果的です。どう対応しますか？</p><span class='er-quiz-q'>1. 営業は新機能を早く約束したい一方、エンジニアリングはバグ修正に時間が必要です。何が最も役立ちますか？</span><span class='er-quiz-opt'>A) 縦割りで言い争うのではなく、共有目標を揃え、1つのツールで進捗を更新する。</span><span class='er-quiz-opt'>B) 他チームを無視して、とにかくクライアントに異なる約束をする。</span><span class='er-quiz-q'>2. エンジニアは構造化されたメールを好み、マーケティングは素早いチャットを好みます。賢い基本ルールは何ですか？</span><span class='er-quiz-opt'>A) 気軽な連絡には素早いチャットを使いつつ、最終決定は分かりやすいメールに記録する。</span><span class='er-quiz-opt'>B) 混乱を招いてでも、全員に1つのスタイルだけを強制する。</span><div class='er-quiz-res'><strong>💡 重要なポイント：</strong><br>最終的に、相互の尊重、明確な基本ルール、非公式なランチが、多様なチームが共通認識を持つ助けになります。</div></div>"
+            },
             "writingTask": {
                 "promptEng": "Write a short paragraph answering this question: What is the most important factor in cross-functional teamwork? Use 'rather than' and multiple adjectives (Opinion + Fact) in your answer.",
                 "promptJpn": "「部門横断的なチームワークにおいて最も重要な要因は何ですか？『rather than』と複数の形容詞（意見＋事実）を使って答える短い段落を書いてください。」"
+            }
+        }
+    },
+    {
+        "id": 58,
+        "chapter": "Chapter 9: Teamwork",
+        "type": "transactional",
+        "title": "Lesson 58: How to delegate tasks",
+        "goal": "Assign responsibilities to team members, clarify deadlines, and express desire for others to do actions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(チームメンバーに責任を割り当て、締め切りを明確にし、他人に何かをしてほしいという願望を表現する。)</span>",
+        "vocab": [
+            { "eng": "delegate a task", "jpn": "タスクを委任する" },
+            { "eng": "assign responsibilities", "jpn": "責任を割り当てる" },
+            { "eng": "meet a deadline", "jpn": "締め切りを守る" },
+            { "eng": "clear instructions", "jpn": "明確な指示" },
+            { "eng": "heavy workload", "jpn": "重い仕事量" },
+            { "eng": "track progress", "jpn": "進捗を追跡する" },
+            { "eng": "team effort", "jpn": "チームの努力" },
+            { "eng": "take charge", "jpn": "担当する / 指揮をとる" },
+            { "eng": "hand off", "jpn": "引き継ぐ / 任せる (くだけた表現)" },
+            { "eng": "on my plate", "jpn": "抱えている仕事 (くだけた表現)" },
+            { "eng": "swamped", "jpn": "非常に忙しい / 圧倒されている (くだけた表現)" },
+            { "eng": "pitch in", "jpn": "協力する (くだけた表現)" }
+        ],
+        "dialogue": [
+            { "speaker": "A", "eng": "Hi Mark. Do you have a few minutes? <span class='swappable'>I need to talk about the upcoming software update.</span>", "jpn": "こんにちは、マーク。少し時間ありますか？今度のソフトウェアのアップデートについて話したいのです。" },
+            { "speaker": "B", "eng": "Sure. How is the project going?", "jpn": "もちろんです。プロジェクトの進み具合はどうですか？" },
+            { "speaker": "A", "eng": "We are falling behind. <span class='swappable'>I have too much on my plate right now.</span>", "jpn": "遅れをとっています。私は今、抱えている仕事が多すぎるんです。" },
+            { "speaker": "B", "eng": "I am sorry to hear that. <span class='swappable'>How can I help you?</span>", "jpn": "それはお気の毒に。私にどう手伝えますか？" },
+            { "speaker": "A", "eng": "<span class='swappable'>I want you to take charge of the client presentation on Friday.</span>", "jpn": "金曜日のクライアントへのプレゼンテーションをあなたに担当してほしいのです。" },
+            { "speaker": "B", "eng": "Okay, I can do that. <span class='swappable'>If I take over the presentation, could you send me the data files?</span>", "jpn": "わかりました、できますよ。もし私がプレゼンを引き継ぐなら、データファイルを送っていただけますか？" },
+            { "speaker": "A", "eng": "Absolutely. I will email them to you this afternoon.", "jpn": "もちろんです。今日の午後、メールでお送りします。" },
+            { "speaker": "B", "eng": "<span class='swappable'>Would you like me to write the script, or just design the slides?</span>", "jpn": "原稿を書いた方がいいですか、それともスライドをデザインするだけでいいですか？" },
+            { "speaker": "A", "eng": "I need you to do both. <span class='swappable'>Is that a problem for you?</span>", "jpn": "両方やっていただく必要があります。それで問題ありませんか？" },
+            { "speaker": "B", "eng": "No, that is fine. I have some free time tomorrow morning to focus on it.", "jpn": "いいえ、大丈夫です。明日の朝、それに集中するための空き時間がありますから。" },
+            { "speaker": "A", "eng": "Thank you, Mark. <span class='swappable'>I really appreciate you pitching in like this.</span>", "jpn": "ありがとう、マーク。このように協力してくれて本当に感謝します。" },
+            { "speaker": "B", "eng": "No problem. We are a team. I will send you a draft by Thursday.", "jpn": "問題ありません。私たちはチームですから。木曜日までに草稿をお送りしますね。" }
+        ],
+        "dialogueStructure": [
+            { "eng": "Initiate conversation + State topic", "jpn": "会話を始める ＋ 話題を述べる", "indent": false },
+            { "eng": "Acknowledge + Ask about status", "jpn": "応じる ＋ 状況を尋ねる", "indent": true },
+            { "eng": "State a problem (heavy workload)", "jpn": "問題（重い仕事量）を述べる", "indent": false },
+            { "eng": "Express sympathy + Offer help", "jpn": "同情を表現する ＋ 助けを申し出る", "indent": true },
+            { "eng": "Delegate a specific task (using 'want someone to')", "jpn": "具体的なタスクを委任する（'want someone to'を使用）", "indent": false },
+            { "eng": "Accept + Make a conditional request", "jpn": "受け入れる ＋ 条件付きの要求をする", "indent": true },
+            { "eng": "Agree + Promise action", "jpn": "同意する ＋ 行動を約束する", "indent": false },
+            { "eng": "Ask for clarification on the task", "jpn": "タスクの明確化を求める", "indent": true },
+            { "eng": "Clarify + Check for capacity", "jpn": "明確にする ＋ 余裕があるか確認する", "indent": false },
+            { "eng": "Confirm capacity + State plan", "jpn": "余裕があることを確認する ＋ 計画を述べる", "indent": true },
+            { "eng": "Express gratitude", "jpn": "感謝を表現する", "indent": false },
+            { "eng": "Acknowledge team effort + Promise a deadline", "jpn": "チームの努力を認める ＋ 締め切りを約束する", "indent": true }
+        ],
+        "expressions": [
+            {
+                "category": "1. Explaining a heavy workload (仕事量が多いことを説明する)",
+                "options": [
+                    { "eng": "I have too much on my plate right now.", "jpn": "今、抱えている仕事が多すぎるんです。" },
+                    { "eng": "I am completely swamped this week.", "jpn": "今週は完全に手一杯で忙殺されています。" },
+                    { "eng": "My workload is a bit too heavy.", "jpn": "仕事量が少し重すぎます。" }
+                ]
             },
+            {
+                "category": "2. Delegating a task (タスクを委任する)",
+                "options": [
+                    { "eng": "I want you to take charge of the presentation.", "jpn": "プレゼンテーションを担当してほしいです。" },
+                    { "eng": "I need you to finish this report.", "jpn": "このレポートを仕上げていただく必要があります。" },
+                    { "eng": "Could I hand this task off to you?", "jpn": "このタスクをあなたにお任せできますか？" }
+                ]
+            },
+            {
+                "category": "3. Clarifying & making conditional requests (明確化と条件付き要求)",
+                "options": [
+                    { "eng": "Would you like me to write the script?", "jpn": "原稿を書いた方がいいですか？" },
+                    { "eng": "If I take over, could you send the files?", "jpn": "もし私が引き継ぐなら、ファイルを送っていただけますか？" },
+                    { "eng": "Is that a problem for you?", "jpn": "それで問題ありませんか？" }
+                ]
+            },
+            {
+                "category": "4. Expressing gratitude for help (助けへの感謝を表現する)",
+                "options": [
+                    { "eng": "I really appreciate you pitching in like this.", "jpn": "このように協力してくれて本当に感謝します。" },
+                    { "eng": "Thank you for helping me out.", "jpn": "手伝ってくれてありがとうございます。" },
+                    { "eng": "I will send you a draft by Thursday.", "jpn": "木曜日までに草稿をお送りします。" }
+                ]
+            }
+        ],
+        "grammarPoints": [
+            {
+                "point": "1. Verbs: Expressing desire for other people to do actions (want + object + to + verb)",
+                "explanation": "When you want someone else to do a specific action, use 'want', followed by the object pronoun (him, her, you, me, them), and then an infinitive ('to' + base verb). In professional delegation, 'I need you to' is also very common.",
+                "explanationJpn": "他の誰かに特定の行動をしてほしい場合、「want」の後に目的格代名詞（him, her, you, me, them）を置き、その後に不定詞（「to」＋動詞の原形）を使用します。仕事でタスクを委任する際は、「I need you to（あなたに〜してもらう必要がある）」も非常によく使われます。",
+                "examples": [
+                    { "eng": "I want you to take charge of the client presentation.", "jpn": "あなたにクライアントへのプレゼンテーションを担当してほしいです。" },
+                    { "eng": "My boss wants me to finish the report by Friday.", "jpn": "上司は私に金曜日までにレポートを仕上げてほしいと思っています。" }
+                ]
+            },
+            {
+                "point": "2. Modals: Expressing conditional requests (If + present, could you + verb)",
+                "explanation": "We can use the first conditional to state a situation, and then make a polite request using 'can you' or 'could you'. This is useful when you need something in order to accept a delegated task.",
+                "explanationJpn": "ファースト・コンディショナルを使って状況を述べ、その後「can you」や「could you」を使って丁寧なお願いをすることができます。これは、委任されたタスクを引き受けるために何かが必要な場合に役立ちます。",
+                "examples": [
+                    { "eng": "If I take over the presentation, could you send me the data?", "jpn": "もし私がプレゼンを引き継ぐなら、データを送っていただけますか？" },
+                    { "eng": "If you have time, can you review this document?", "jpn": "もし時間があれば、この文書を確認してくれますか？" }
+                ]
+            }
+        ],
+        "homework": {
+            "vocab": [
+                { "eng": "Take on", "jpn": "（仕事や責任を）引き受ける", "exEng": "Are you sure you can take on this extra task?", "exJpn": "この追加タスクを本当に引き受けられますか？" },
+                { "eng": "Hand over", "jpn": "引き継ぐ、渡す", "exEng": "I will hand over the client files to you tomorrow.", "exJpn": "明日、クライアントのファイルをあなたに引き継ぎます。" },
+                { "eng": "Rely on", "jpn": "〜に頼る", "exEng": "I rely on my team when I am swamped.", "exJpn": "忙殺されている時、私はチームに頼ります。" },
+                { "eng": "Depend on", "jpn": "〜に依存する、〜次第である", "exEng": "The success of the project depends on clear delegation.", "exJpn": "プロジェクトの成功は明確な委任にかかっています。" },
+                { "eng": "Trust with", "jpn": "（仕事などを）〜に任せる", "exEng": "I trust you with this important client presentation.", "exJpn": "この重要なクライアントプレゼンをあなたに任せます。" },
+                { "eng": "Help out", "jpn": "手伝う、助ける", "exEng": "Could you help me out with this spreadsheet?", "exJpn": "このスプレッドシートを手伝ってくれませんか？" },
+                { "eng": "Sort out", "jpn": "解決する、整理する", "exEng": "We need to sort out our weekly schedule.", "exJpn": "私たちは週のスケジュールを整理する必要があります。" },
+                { "eng": "Figure out", "jpn": "理解する、解決策を見つける", "exEng": "I can figure out the software if you give me time.", "exJpn": "時間をくれれば、そのソフトウェアを理解できます。" },
+                { "eng": "Break down", "jpn": "（仕事を）細かく分ける", "exEng": "Let's break down the project into smaller tasks.", "exJpn": "プロジェクトをより小さなタスクに細分化しましょう。" },
+                { "eng": "Write down", "jpn": "書き留める", "exEng": "Please write down the instructions I just gave you.", "exJpn": "今出した指示を書き留めておいてください。" },
+                { "eng": "Back up", "jpn": "サポートする、バックアップする", "exEng": "I will back you up during the meeting.", "exJpn": "会議中は私があなたをサポート（バックアップ）します。" },
+                { "eng": "Fill in", "jpn": "代わりを務める、情報を教える", "exEng": "Can you fill in for me while I am on vacation?", "exJpn": "私が休暇中、代わりを務めてくれませんか？" },
+                { "eng": "Step up", "jpn": "進み出る、より大きな責任を負う", "exEng": "When the manager left, Sarah stepped up.", "exJpn": "マネージャーが辞めたとき、サラが（より大きな責任を負って）進み出ました。" },
+                { "eng": "Check in", "jpn": "状況を確認する", "exEng": "I will check in with you on Friday to see your progress.", "exJpn": "金曜日に進捗を見るために状況を確認します。" },
+                { "eng": "Follow up", "jpn": "フォローアップする、後で確認する", "exEng": "I will follow up with an email containing the details.", "exJpn": "詳細を記載したメールでフォローアップします。" },
+                { "eng": "Put off", "jpn": "延期する", "exEng": "We cannot put off this deadline any longer.", "exJpn": "これ以上この締め切りを延期することはできません。" },
+                { "eng": "Run out of", "jpn": "〜を使い果たす", "exEng": "I ran out of time to finish the design.", "exJpn": "デザインを仕上げる時間がなくなって（使い果たして）しまいました。" },
+                { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "How do you deal with a heavy workload?", "exJpn": "仕事量が多い時、どう対処しますか？" }
+            ],
+            "clickingGames": [
+                { "prompt": "あなたにプレゼンテーションを担当してほしいです。", "target": "I want you to take charge of the presentation.", "words": ["I", "want", "you", "to", "take", "charge", "of", "the", "presentation."] },
+                { "prompt": "上司は私に金曜日までにレポートを仕上げてほしいと思っています。", "target": "My boss wants me to finish the report by Friday.", "words": ["My", "boss", "wants", "me", "to", "finish", "the", "report", "by", "Friday."] },
+                { "prompt": "あなたに両方やっていただく必要があります。", "target": "I need you to write the script and slides.", "words": ["I", "need", "you", "to", "write", "the", "script", "and", "slides."] },
+                { "prompt": "彼女が進捗を追跡してほしいと思っています。", "target": "We want her to track progress before Friday.", "words": ["We", "want", "her", "to", "track", "progress", "before", "Friday."] },
+                { "prompt": "もし私がプレゼンを引き継ぐなら、データを送っていただけますか？", "target": "If I take over, could you send me the data?", "words": ["If", "I", "take", "over,", "could", "you", "send", "me", "the", "data?"] },
+                { "prompt": "もし時間があれば、この文書を確認してくれますか？", "target": "If you have time, can you review this document?", "words": ["If", "you", "have", "time,", "can", "you", "review", "this", "document?"] },
+                { "prompt": "もし私がスライドを作るなら、原稿を手伝ってくれますか？", "target": "If I make the slides, could you check the script?", "words": ["If", "I", "make", "the", "slides,", "could", "you", "check", "the", "script?"] },
+                { "prompt": "もし明日余裕があるなら、このタスクを引き受けられますか？", "target": "If you have space tomorrow, can you take this on?", "words": ["If", "you", "have", "space", "tomorrow,", "can", "you", "take", "this", "on?"] }
+            ],
             "extendedReading": {
-                "title": "Task 4: Authentic Reading (Breaking Down Corporate Silos)",
-                "instruction": "Read this authentic article about the challenges and strategies of cross-departmental collaboration.",
-                "eng": "In traditional corporate structures, departments often operate in isolation, a phenomenon business experts call working in 'silos.' For example, the marketing team creates a campaign, the sales team sells the product, and the engineering team builds the software. While this clear division of labor seems efficient on paper, it often leads to catastrophic communication breakdowns in reality. When teams do not talk to each other, they develop conflicting priorities. Sales might promise a client a brilliant new digital feature to close a deal, without realizing that engineering lacks the resources to build it. This lack of alignment results in missed deadlines, frustrated employees, and ultimately, dissatisfied customers.\n\nTo combat this, modern organizations heavily prioritize 'cross-functional collaboration.' This involves creating project teams made up of individuals from various departments. When an engineer, a marketer, and a financial analyst sit in the same room, they bring diverse, valuable, and creative perspectives to the project. They can identify potential roadblocks immediately rather than discovering them months later. However, managing these diverse teams requires exceptional leadership. Because professionals from different fields have distinct communication styles—some prefer quick, informal chats, while others rely on detailed, structured reports—misunderstandings are common.\n\nSuccessful cross-functional teamwork requires establishing ground rules early on. Teams must agree on which software tools to use, how frequently to meet, and how to resolve disagreements respectfully. Furthermore, informal socializing plays a vital role. Building personal relationships across departments fosters mutual trust. When employees understand and respect the challenges their colleagues face in other areas of the business, they are much more likely to collaborate effectively rather than competing against one another. In today's fast-paced economy, a unified, communicative company will always outperform a fractured one.",
-                "jpn": "伝統的な企業構造において、部門はしばしば孤立して運営されており、これはビジネスの専門家が「サイロ（縦割り）の中で働く」と呼ぶ現象です。例えば、マーケティングチームがキャンペーンを作成し、営業チームが製品を販売し、エンジニアリングチームがソフトウェアを構築します。この明確な分業は紙の上では効率的に見えますが、現実にはしばしば壊滅的なコミュニケーションの崩壊を引き起こします。チーム同士が話し合わないと、彼らは相反する優先順位を持つようになります。営業は取引を成立させるために素晴らしい新しいデジタル機能をクライアントに約束するかもしれませんが、エンジニアリングにそれを構築するリソースがないことに気づいていません。この連携の欠如は、締め切りの遅れ、従業員のフラストレーション、そして最終的には顧客の不満という結果をもたらします。\n\nこれに対抗するため、現代の組織は「部門横断的な協力（クロスファンクショナル・コラボレーション）」を大きく優先しています。これには、さまざまな部門の個人で構成されるプロジェクトチームの作成が含まれます。エンジニア、マーケター、財務アナリストが同じ部屋に座ると、彼らはプロジェクトに多様で、価値のある、創造的な視点をもたらします。彼らは数ヶ月後に発見するのではなく、潜在的な障害を即座に特定することができます。しかし、これらの多様なチームを管理するには、卓越したリーダーシップが必要です。異なる分野のプロフェッショナルは明確に異なるコミュニケーションスタイルを持っており（短く非公式なチャットを好む人もいれば、詳細で構造化されたレポートに頼る人もいます）、誤解が一般的だからです。\n\n成功する部門横断的チームワークには、早い段階で基本ルールを確立することが必要です。チームは、どのソフトウェアツールを使用するか、どのくらいの頻度で会議をするか、そして意見の不一致をどのように敬意を持って解決するかについて合意しなければなりません。さらに、非公式な交流は重要な役割を果たします。部門を越えて個人的な関係を築くことは、相互の信頼を育みます。従業員がビジネスの他の領域で同僚が直面している課題を理解し尊重するとき、彼らはお互いに競争するのではなく、効果的に協力する可能性がはるかに高くなります。今日のペースの速い経済において、団結し、コミュニケーションの取れた企業は、常に分裂した企業を凌駕するのです。"
-            }
-        }
-    },
-
-{
-        id: 58,
-        chapter: "Chapter 9: Teamwork",
-        type: "transactional",
-        title: "Lesson 58: How to delegate tasks",
-        goal: "Assign responsibilities to team members, clarify deadlines, and express desire for others to do actions. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(チームメンバーに責任を割り当て、締め切りを明確にし、他人に何かをしてほしいという願望を表現する。)</span>",
-        vocab: [
-            { eng: "delegate a task", jpn: "タスクを委任する" },
-            { eng: "assign responsibilities", jpn: "責任を割り当てる" },
-            { eng: "meet a deadline", jpn: "締め切りを守る" },
-            { eng: "clear instructions", jpn: "明確な指示" },
-            { eng: "heavy workload", jpn: "重い仕事量" },
-            { eng: "track progress", jpn: "進捗を追跡する" },
-            { eng: "team effort", jpn: "チームの努力" },
-            { eng: "take charge", jpn: "担当する / 指揮をとる" },
-            { eng: "hand off", jpn: "引き継ぐ / 任せる (くだけた表現)" },
-            { eng: "on my plate", jpn: "抱えている仕事 (くだけた表現)" },
-            { eng: "swamped", jpn: "非常に忙しい / 圧倒されている (くだけた表現)" },
-            { eng: "pitch in", jpn: "協力する (くだけた表現)" }
-        ],
-        dialogue: [
-            { speaker: "A", eng: "Hi Mark. Do you have a few minutes? <span class='swappable'>I need to talk about the upcoming software update.</span>", jpn: "こんにちは、マーク。少し時間ありますか？今度のソフトウェアのアップデートについて話したいのです。" },
-            { speaker: "B", eng: "Sure. How is the project going?", jpn: "もちろんです。プロジェクトの進み具合はどうですか？" },
-            { speaker: "A", eng: "We are falling behind. <span class='swappable'>I have too much on my plate right now.</span>", jpn: "遅れをとっています。私は今、抱えている仕事が多すぎるんです。" },
-            { speaker: "B", eng: "I am sorry to hear that. <span class='swappable'>How can I help you?</span>", jpn: "それはお気の毒に。私にどう手伝えますか？" },
-            { speaker: "A", eng: "<span class='swappable'>I want you to take charge of the client presentation on Friday.</span>", jpn: "金曜日のクライアントへのプレゼンテーションをあなたに担当してほしいのです。" },
-            { speaker: "B", eng: "Okay, I can do that. <span class='swappable'>If I take over the presentation, could you send me the data files?</span>", jpn: "わかりました、できますよ。もし私がプレゼンを引き継ぐなら、データファイルを送っていただけますか？" },
-            { speaker: "A", eng: "Absolutely. I will email them to you this afternoon.", jpn: "もちろんです。今日の午後、メールでお送りします。" },
-            { speaker: "B", eng: "<span class='swappable'>Would you like me to write the script, or just design the slides?</span>", jpn: "原稿を書いた方がいいですか、それともスライドをデザインするだけでいいですか？" },
-            { speaker: "A", eng: "I need you to do both. <span class='swappable'>Is that a problem for you?</span>", jpn: "両方やっていただく必要があります。それで問題ありませんか？" },
-            { speaker: "B", eng: "No, that is fine. I have some free time tomorrow morning to focus on it.", jpn: "いいえ、大丈夫です。明日の朝、それに集中するための空き時間がありますから。" },
-            { speaker: "A", eng: "Thank you, Mark. <span class='swappable'>I really appreciate you pitching in like this.</span>", jpn: "ありがとう、マーク。このように協力してくれて本当に感謝します。" },
-            { speaker: "B", eng: "No problem. We are a team. I will send you a draft by Thursday.", jpn: "問題ありません。私たちはチームですから。木曜日までに草稿をお送りしますね。" }
-        ],
-        dialogueStructure: [
-            { eng: "Initiate conversation + State topic", jpn: "会話を始める ＋ 話題を述べる", indent: false },
-            { eng: "Acknowledge + Ask about status", jpn: "応じる ＋ 状況を尋ねる", indent: true },
-            { eng: "State a problem (heavy workload)", jpn: "問題（重い仕事量）を述べる", indent: false },
-            { eng: "Express sympathy + Offer help", jpn: "同情を表現する ＋ 助けを申し出る", indent: true },
-            { eng: "Delegate a specific task (using 'want someone to')", jpn: "具体的なタスクを委任する（'want someone to'を使用）", indent: false },
-            { eng: "Accept + Make a conditional request", jpn: "受け入れる ＋ 条件付きの要求をする", indent: true },
-            { eng: "Agree + Promise action", jpn: "同意する ＋ 行動を約束する", indent: false },
-            { eng: "Ask for clarification on the task", jpn: "タスクの明確化を求める", indent: true },
-            { eng: "Clarify + Check for capacity", jpn: "明確にする ＋ 余裕があるか確認する", indent: false },
-            { eng: "Confirm capacity + State plan", jpn: "余裕があることを確認する ＋ 計画を述べる", indent: true },
-            { eng: "Express gratitude", jpn: "感謝を表現する", indent: false },
-            { eng: "Acknowledge team effort + Promise a deadline", jpn: "チームの努力を認める ＋ 締め切りを約束する", indent: true }
-        ],
-        expressions: [
-            { category: "1. Explaining a heavy workload (仕事量が多いことを説明する)", options: ["I have too much on my plate right now.", "I am completely swamped this week.", "My workload is a bit too heavy."] },           
-            { category: "2. Delegating a task (タスクを委任する)", options: ["I want you to take charge of the presentation.", "I need you to finish this report.", "Could I hand this task off to you?"] }, 
-            { category: "3. Clarifying instructions (指示を明確にする)", options: ["Would you like me to write the script?", "Do you want me to handle the whole thing?", "Should I just review the data?"] },
-            { category: "4. Making a conditional request (条件付きの要求をする)", options: ["If I take over, could you send the files?", "If I do this, can you help me later?", "If you take this, I will finish the rest."] },
-            { category: "5. Checking capacity (余裕があるか確認する)", options: ["Is that a problem for you?", "Do you have the capacity for this?", "Will this overload your schedule?"] },
-            { category: "6. Expressing gratitude for help (助けへの感謝を表現する)", options: ["I really appreciate you pitching in.", "Thank you for helping me out.", "I am grateful for your support."] }
-        ],
-        grammarPoints: [
-            {
-                point: "1. Verbs: Expressing desire for other people to do actions (want + object + to + verb)",
-                explanation: "When you want someone else to do a specific action, use 'want', followed by the object pronoun (him, her, you, me, them), and then an infinitive ('to' + base verb). In professional delegation, 'I need you to' is also very common.",
-                explanationJpn: "他の誰かに特定の行動をしてほしい場合、「want」の後に目的格代名詞（him, her, you, me, them）を置き、その後に不定詞（「to」＋動詞の原形）を使用します。仕事でタスクを委任する際は、「I need you to（あなたに〜してもらう必要がある）」も非常によく使われます。",
-                examples: [
-                    { eng: "I want you to take charge of the client presentation.", jpn: "あなたにクライアントへのプレゼンテーションを担当してほしいです。" },
-                    { eng: "My boss wants me to finish the report by Friday.", jpn: "上司は私に金曜日までにレポートを仕上げてほしいと思っています。" }
-                ]
+                "title": "Task 3: Authentic Reading (Layout 8 - Step-by-Step Delegation Guide)",
+                "instruction": "Read this step-by-step guide on delegating tasks clearly and fairly. Notice 'want someone to' and conditional requests.",
+                "eng": "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>📋 Delegating Tasks Clearly: A Four-Step Guide</h3><p><strong>Step 1 — Share Context &amp; Workload:</strong> When you have too much on your plate or feel swamped, explain the situation clearly before handing off work. A teammate who understands the deadline can pitch in smoothly.</p><p><strong>Step 2 — State Expectations With 'Want / Need':</strong> Say clearly what you want someone to do, such as, 'I want you to take charge of the client deck and check the numbers.' Clear instructions avoid guesswork and duplicated effort.</p><p><strong>Step 3 — Support Conditional Requests:</strong> Teammates may say, 'If I take over the slides, could you send the latest data files?' Share resources quickly so they can meet the deadline without stress.</p><p><strong>Step 4 — Track Progress &amp; Thank the Team:</strong> Set a quick check-in to track progress, and appreciate everyone pitching in as a team effort.</p></div>",
+                "jpn": "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>📋 タスクを明確に委任する：4つのステップガイド</h3><p><strong>ステップ1 — 背景と仕事量の共有：</strong> 抱えている仕事が多すぎたり忙殺されたりしているときは、仕事を任せる前に状況を明確に説明しましょう。締め切りを理解したチームメンバーならスムーズに協力できます。</p><p><strong>ステップ2 — 「want / need」で期待を伝える：</strong> 「クライアント用資料を担当し、数字を確認してほしい」のように、誰に何をしてほしいかをはっきり言います。明確な指示は推測や作業の重複を防ぎます。</p><p><strong>ステップ3 — 条件付きの要求に応える：</strong> チームメンバーから「もしスライドを引き継ぐなら、最新データファイルを送ってもらえますか？」と言われることもあります。ストレスなく締め切りを守れるよう、リソースを素早く共有しましょう。</p><p><strong>ステップ4 — 進捗の追跡と感謝：</strong> 進捗を追跡するための短い状況確認を設定し、チームの努力として協力してくれたことに感謝を伝えましょう。</p></div>"
             },
-            {
-                point: "2. Modals: Expressing conditional requests (If + present, could you + verb)",
-                explanation: "We can use the first conditional to state a situation, and then make a polite request using 'can you' or 'could you'. This is useful when you need something in order to accept a delegated task.",
-                explanationJpn: "ファースト・コンディショナルを使って状況を述べ、その後「can you」や「could you」を使って丁寧なお願いをすることができます。これは、委任されたタスクを引き受けるために何かが必要な場合に役立ちます。",
-                examples: [
-                    { eng: "If I take over the presentation, could you send me the data?", jpn: "もし私がプレゼンを引き継ぐなら、データを送っていただけますか？" },
-                    { eng: "If you have time, can you review this document?", jpn: "もし時間があれば、この文書を確認してくれますか？" }
-                ]
-            }
-        ],
-        clickingGames: [
-            { prompt: "あなたにプレゼンテーションを担当してほしいです。", target: "I want you to take charge of the presentation.", words: ["I", "want", "you", "to", "take", "charge", "of", "the", "presentation."] },
-            { prompt: "もし私がこれをやるなら、手伝ってくれますか？", target: "If I do this, could you help me?", words: ["If", "I", "do", "this,", "could", "you", "help", "me?"] },
-            { prompt: "私は今、抱えている仕事が多すぎます。", target: "I have too much on my plate right now.", words: ["I", "have", "too", "much", "on", "my", "plate", "right", "now."] },
-            { prompt: "彼女は私たちに金曜日までに完了してほしいと思っています。", target: "She wants us to finish by Friday.", words: ["She", "wants", "us", "to", "finish", "by", "Friday."] },
-            { prompt: "このように協力してくれて本当に感謝します。", target: "I really appreciate you pitching in like this.", words: ["I", "really", "appreciate", "you", "pitching", "in", "like", "this."] }
-        ],
-        dropdownGames: [
-            { before: "I", options: ["want you to", "want to you", "wants you"], answer: "want you to", after: " review the financial documents." },
-            { before: "If I take over this project,", options: ["can you", "must you", "ought you"], answer: "can you", after: " provide the background information?" },
-            { before: "I am completely", options: ["swamp", "swamping", "swamped"], answer: "swamped", after: " with work this week." },
-            { before: "Thank you for", options: ["pitch", "pitching", "pitched"], answer: "pitching", after: " in to help the team." },
-            { before: "Could I hand this task", options: ["off", "out", "over"], answer: "off", after: " to you?" }
-        ],
-        roleplay: {
-            a: "You are overwhelmed with work. Approach your colleague and delegate a task (e.g., writing a report). Use 'I want you to...' or 'I need you to...'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは仕事に圧倒されています。同僚にアプローチしてタスク（レポートの作成など）を委任してください。「I want you to...」または「I need you to...」を使用してください。)</span>",
-            b: "You are the colleague. Agree to take the task, but make a conditional request using 'If... could you' (e.g., asking for the research data or extra time). <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは同僚です。タスクを引き受けることに同意しますが、「If... could you」を使って条件付きの要求（調査データの提供や時間の延長など）をしてください。)</span>"
-        },
-        homework: {
-            vocab: [
-                { eng: "Take on", jpn: "（仕事や責任を）引き受ける", exEng: "Are you sure you can take on this extra task?", exJpn: "この追加タスクを本当に引き受けられますか？" },
-                { eng: "Hand over", jpn: "引き継ぐ、渡す", exEng: "I will hand over the client files to you tomorrow.", exJpn: "明日、クライアントのファイルをあなたに引き継ぎます。" },
-                { eng: "Rely on", jpn: "〜に頼る", exEng: "I rely on my team when I am swamped.", exJpn: "忙殺されている時、私はチームに頼ります。" },
-                { eng: "Depend on", jpn: "〜に依存する、〜次第である", exEng: "The success of the project depends on clear delegation.", exJpn: "プロジェクトの成功は明確な委任にかかっています。" },
-                { eng: "Trust with", jpn: "（仕事などを）〜に任せる", exEng: "I trust you with this important client presentation.", exJpn: "この重要なクライアントプレゼンをあなたに任せます。" },
-                { eng: "Help out", jpn: "手伝う、助ける", exEng: "Could you help me out with this spreadsheet?", exJpn: "このスプレッドシートを手伝ってくれませんか？" },
-                { eng: "Sort out", jpn: "解決する、整理する", exEng: "We need to sort out our weekly schedule.", exJpn: "私たちは週のスケジュールを整理する必要があります。" },
-                { eng: "Figure out", jpn: "理解する、解決策を見つける", exEng: "I can figure out the software if you give me time.", exJpn: "時間をくれれば、そのソフトウェアを理解できます。" },
-                { eng: "Break down", jpn: "（仕事を）細かく分ける", exEng: "Let's break down the project into smaller tasks.", exJpn: "プロジェクトをより小さなタスクに細分化しましょう。" },
-                { eng: "Write down", jpn: "書き留める", exEng: "Please write down the instructions I just gave you.", exJpn: "今出した指示を書き留めておいてください。" },
-                { eng: "Back up", jpn: "サポートする、バックアップする", exEng: "I will back you up during the meeting.", exJpn: "会議中は私があなたをサポート（バックアップ）します。" },
-                { eng: "Fill in", jpn: "代わりを務める、情報を教える", exEng: "Can you fill in for me while I am on vacation?", exJpn: "私が休暇中、代わりを務めてくれませんか？" },
-                { eng: "Step up", jpn: "進み出る、より大きな責任を負う", exEng: "When the manager left, Sarah stepped up.", exJpn: "マネージャーが辞めたとき、サラが（より大きな責任を負って）進み出ました。" },
-                { eng: "Check in", jpn: "状況を確認する", exEng: "I will check in with you on Friday to see your progress.", exJpn: "金曜日に進捗を見るために状況を確認します。" },
-                { eng: "Follow up", jpn: "フォローアップする、後で確認する", exEng: "I will follow up with an email containing the details.", exJpn: "詳細を記載したメールでフォローアップします。" },
-                { eng: "Put off", jpn: "延期する", exEng: "We cannot put off this deadline any longer.", exJpn: "これ以上この締め切りを延期することはできません。" },
-                { eng: "Run out of", jpn: "〜を使い果たす", exEng: "I ran out of time to finish the design.", exJpn: "デザインを仕上げる時間がなくなって（使い果たして）しまいました。" },
-                { eng: "Deal with", jpn: "〜に対処する", exEng: "How do you deal with a heavy workload?", exJpn: "仕事量が多い時、どう対処しますか？" }
-            ],
-            writingTask: {
-                promptEng: "Write a short email delegating a task to a coworker. Use 'I want you to' and a conditional request (If you have time, could you...).",
-                promptJpn: "「同僚にタスクを委任する短いメールを書いてください。『I want you to』と条件付きの要求（If you have time, could you...）を使用してください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Art of Delegation)",
-                instruction: "Read this authentic text about effective delegation in the workplace.",
-                eng: "One of the most difficult transitions for any professional moving into a management role is learning how to delegate effectively. Many new managers fall into the trap of 'micromanagement' or believe that if they want something done right, they must do it themselves. This mindset inevitably leads to a heavy workload, severe burnout, and a frustrated team. Delegation is not just about handing off boring tasks; it is a strategic tool for managing time and developing the skills of junior employees. When a manager delegates a meaningful project, they show that they trust their team members.\n\nHowever, effective delegation requires clear communication. Simply dropping a file on someone's desk and saying, 'Handle this,' is a recipe for disaster. The person delegating the task must provide clear instructions, outline specific deadlines, and ensure the employee actually has the capacity to take on the work. A good leader might say, 'I need you to take charge of the Q3 financial report. If you take this over, do you have enough time to finish it by Friday?' This approach clarifies the expectation while respecting the employee's current workload.\n\nFurthermore, after a task is assigned, the manager must establish a system for tracking progress without being overly intrusive. Setting up brief 'check-in' meetings allows the employee to ask questions and troubleshoot problems independently. If an employee succeeds, they build confidence and take ownership of their work. Ultimately, a team functions best when responsibilities are shared fairly, and leaders understand that their primary job is to guide the team's effort, rather than executing every single task themselves.",
-                jpn: "管理職に移るプロフェッショナルにとって最も難しい移行の1つは、効果的な委任の方法を学ぶことです。多くの新任マネージャーは「マイクロマネジメント」の罠に陥るか、あるいは何かを正しく行いたいなら自分自身でやらなければならないと信じ込んでしまいます。この考え方は必然的に重い仕事量、深刻な燃え尽き症候群、そしてフラストレーションを抱えたチームにつながります。委任（デレゲーション）とは、単に退屈なタスクを他人に押し付けることではありません。それは時間を管理し、若手従業員のスキルを開発するための戦略的ツールなのです。マネージャーが意味のあるプロジェクトを委任するとき、彼らはチームメンバーを信頼していることを示しているのです。\n\nしかし、効果的な委任には明確なコミュニケーションが必要です。単に誰かのデスクにファイルを置いて「これやっといて」と言うのは、大惨事の原因（レシピ）です。タスクを委任する人は、明確な指示を提供し、具体的な締め切りを概説し、その従業員が実際にその仕事を引き受ける余裕（キャパシティ）があることを確認しなければなりません。優れたリーダーは「第3四半期の財務報告を担当してほしい。もしこれを引き継ぐなら、金曜日までに終わらせる時間は十分にあるか？」と言うかもしれません。このアプローチは、従業員の現在の仕事量を尊重しつつ、期待されることを明確にします。\n\nさらに、タスクが割り当てられた後、マネージャーは過度に干渉することなく進捗を追跡するシステムを確立しなければなりません。短い「状況確認（チェックイン）」の会議を設定することで、従業員は自立して質問したり問題を解決（トラブルシューティング）したりできます。もし従業員が成功すれば、彼らは自信をつけ、自分の仕事に当事者意識（オーナーシップ）を持つようになります。最終的に、チームが最も機能するのは、責任が公平に共有され、リーダーが自分自身の主な仕事はすべてのタスクを自ら実行することではなく、チームの努力を導くことだと理解している時なのです。"
+            "writingTask": {
+                "promptEng": "Write a short email delegating a task to a coworker. Use 'I want you to' and a conditional request (If you have time, could you...).",
+                "promptJpn": "「同僚にタスクを委任する短いメールを書いてください。『I want you to』と条件付きの要求（If you have time, could you...）を使用してください。」"
             }
         }
     },
     {
-        id: 59,
-        chapter: "Chapter 9: Teamwork",
-        type: "opinion",
-        title: "Lesson 59: Opinion Exchange - Managing Conflict",
-        goal: "Discuss workplace conflicts, resolution strategies, and express past regrets or observations using relative clauses. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(職場の対立、解決策について話し合い、関係詞節を使って過去の後悔や観察を表現する。)</span>",
-        topicIntroduction: {
-            title: "Topic Introduction",
-            instruction: "Listen to three professionals introducing today's discussion themes.",
-            speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "Conflict in the workplace is completely unavoidable, but how you handle it determines your success. Whenever I disagree with a colleague, I try to address the issue directly and privately. Passive-aggressive behavior, like ignoring emails or making sarcastic jokes, only makes the situation much worse. Last year, I had a massive argument with a developer who missed a deadline. I wish I hadn't lost my temper during the meeting. If I had stayed calm, we would have solved the problem much faster. Now, I always wait a few hours to cool down before I bring up a sensitive issue. Clearing the air through honest, respectful conversation is the only way to maintain a healthy professional boundary.", 
-                    jpn: "職場での対立は完全に避けられないものですが、それにどう対処するかがあなたの成功を決定づけます。私は同僚と意見が対立したときはいつでも、その問題に直接、そしてプライベートに対処しようとします。メールを無視したり、皮肉な冗談を言ったりするような受動的攻撃行動（パッシブ・アグレッシブ）は、状況をはるかに悪化させるだけです。昨年、私は締め切りを守らなかった開発者と大喧嘩をしました。会議中に腹を立てなければよかったと後悔しています。もし冷静さを保っていれば、私たちははるかに早く問題を解決していたでしょう。今では、敏感な問題を持ち出す前に、必ず数時間待って頭を冷やすようにしています。正直で敬意を持った会話を通じて空気をきれいにする（わだかまりを解く）ことこそが、健全な仕事上の境界線を維持する唯一の方法です。" 
+        "id": 59,
+        "chapter": "Chapter 9: Teamwork",
+        "type": "opinion",
+        "title": "Lesson 59: Opinion Exchange - Managing Conflict",
+        "goal": "Discuss workplace conflicts, resolution strategies, and express past regrets or observations using relative clauses. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(職場の対立、解決策について話し合い、関係詞節を使って過去の後悔や観察を表現する。)</span>",
+        "topicIntroduction": {
+            "title": "Topic Introduction",
+            "instruction": "Listen to three professionals introducing today's discussion themes.",
+            "speakers": [
+                {
+                    "name": "Person 1",
+                    "eng": "Conflict in the workplace is completely unavoidable, but how you handle it determines your success. Whenever I disagree with a colleague, I try to address the issue directly and privately. Passive-aggressive behavior, like ignoring emails or making sarcastic jokes, only makes the situation much worse. Last year, I had a massive argument with a developer who missed a deadline. I wish I hadn't lost my temper during the meeting. If I had stayed calm, we would have solved the problem much faster. Now, I always wait a few hours to cool down before I bring up a sensitive issue. Clearing the air through honest, respectful conversation is the only way to maintain a healthy professional boundary.",
+                    "jpn": "職場での対立は完全に避けられないものですが、それにどう対処するかがあなたの成功を決定づけます。私は同僚と意見が対立したときはいつでも、その問題に直接、そしてプライベートに対処しようとします。メールを無視したり、皮肉な冗談を言ったりするような受動的攻撃行動（パッシブ・アグレッシブ）は、状況をはるかに悪化させるだけです。昨年、私は締め切りを守らなかった開発者と大喧嘩をしました。会議中に腹を立てなければよかったと後悔しています。もし冷静さを保っていれば、私たちははるかに早く問題を解決していたでしょう。今では、敏感な問題を持ち出す前に、必ず数時間待って頭を冷やすようにしています。正直で敬意を持った会話を通じて空気をきれいにする（わだかまりを解く）ことこそが、健全な仕事上の境界線を維持する唯一の方法です。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "As a manager, I often have to act as a mediator when my team members butt heads. Usually, workplace conflicts are not about personal dislike; they are about misaligned goals or unclear instructions. For instance, I recently managed two designers who were arguing constantly. The designer who handled the website felt that the graphic designer was ignoring her layout requirements. If I had clarified their roles at the beginning of the project, they wouldn't have been so frustrated with each other. When mediating, active listening is crucial. You have to let both sides explain their perspective without interrupting. Once everyone feels heard, it is much easier to find a fair compromise.", 
-                    jpn: "マネージャーとして、チームメンバーが衝突する（角を突き合わせる）とき、私はしばしば調停者として行動しなければなりません。たいていの場合、職場の対立は個人的な嫌悪感によるものではなく、目標の不一致や不明確な指示によるものです。例えば、私は最近、絶えず口論している2人のデザイナーを管理しました。ウェブサイトを担当したデザイナーは、グラフィックデザイナーが自分のレイアウト要件を無視していると感じていたのです。もし私がプロジェクトの最初に彼らの役割を明確にしていれば、彼らはお互いにあんなにイライラしなかったでしょう。調停を行う際、積極的な傾聴は極めて重要です。双方に口を挟まずに彼らの視点を説明させなければなりません。誰もが話を聞いてもらえたと感じれば、公平な妥協点を見つけることははるかに簡単になります。" 
+                {
+                    "name": "Person 2",
+                    "eng": "As a manager, I often have to act as a mediator when my team members butt heads. Usually, workplace conflicts are not about personal dislike; they are about misaligned goals or unclear instructions. For instance, I recently managed two designers who were arguing constantly. The designer who handled the website felt that the graphic designer was ignoring her layout requirements. If I had clarified their roles at the beginning of the project, they wouldn't have been so frustrated with each other. When mediating, active listening is crucial. You have to let both sides explain their perspective without interrupting. Once everyone feels heard, it is much easier to find a fair compromise.",
+                    "jpn": "マネージャーとして、チームメンバーが衝突する（角を突き合わせる）とき、私はしばしば調停者として行動しなければなりません。たいていの場合、職場の対立は個人的な嫌悪感によるものではなく、目標の不一致や不明確な指示によるものです。例えば、私は最近、絶えず口論している2人のデザイナーを管理しました。ウェブサイトを担当したデザイナーは、グラフィックデザイナーが自分のレイアウト要件を無視していると感じていたのです。もし私がプロジェクトの最初に彼らの役割を明確にしていれば、彼らはお互いにあんなにイライラしなかったでしょう。調停を行う際、積極的な傾聴は極めて重要です。双方に口を挟まずに彼らの視点を説明させなければなりません。誰もが話を聞いてもらえたと感じれば、公平な妥協点を見つけることははるかに簡単になります。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I think cultural differences play a huge role in how we perceive conflict. In some companies, arguing loudly in a meeting is seen as a sign of passion and engagement. In other environments, it is considered highly unprofessional and rude. I once worked in an office where avoiding conflict was the priority. People smiled during meetings but complained bitterly behind each other's backs. That toxic environment destroys trust. I prefer a culture of 'radical candor,' where employees are encouraged to challenge ideas openly but respectfully. If we separate the professional critique from the personal relationship, we can talk it out and move forward. You have to be tough on the problem, but kind to the people.", 
-                    jpn: "文化的な違いは、私たちが対立をどう捉えるかに大きな役割を果たしていると思います。一部の企業では、会議で大声で議論することは情熱と関与の表れと見なされます。他の環境では、それは非常にプロ意識に欠け、無礼だと考えられます。私はかつて、対立を避けることが優先されるオフィスで働いたことがあります。人々は会議中は笑顔でしたが、お互いの陰で激しく不満を言っていました。その有毒な環境は信頼を破壊します。私は、従業員がオープンに、しかし敬意を持ってアイデアに異議を唱えることを推奨される「徹底的な率直さ（ラディカル・キャンドア）」の文化を好みます。もし仕事上の批判と個人的な関係を切り離すことができれば、私たちは話し合って解決し、前に進むことができます。問題に対しては厳しく、しかし人に対しては優しくならなければならないのです。" 
+                {
+                    "name": "Person 3",
+                    "eng": "I think cultural differences play a huge role in how we perceive conflict. In some companies, arguing loudly in a meeting is seen as a sign of passion and engagement. In other environments, it is considered highly unprofessional and rude. I once worked in an office where avoiding conflict was the priority. People smiled during meetings but complained bitterly behind each other's backs. That toxic environment destroys trust. I prefer a culture of 'radical candor,' where employees are encouraged to challenge ideas openly but respectfully. If we separate the professional critique from the personal relationship, we can talk it out and move forward. You have to be tough on the problem, but kind to the people.",
+                    "jpn": "文化的な違いは、私たちが対立をどう捉えるかに大きな役割を果たしていると思います。一部の企業では、会議で大声で議論することは情熱と関与の表れと見なされます。他の環境では、それは非常にプロ意識に欠け、無礼だと考えられます。私はかつて、対立を避けることが優先されるオフィスで働いたことがあります。人々は会議中は笑顔でしたが、お互いの陰で激しく不満を言っていました。その有毒な環境は信頼を破壊します。私は、従業員がオープンに、しかし敬意を持ってアイデアに異議を唱えることを推奨される「徹底的な率直さ（ラディカル・キャンドア）」の文化を好みます。もし仕事上の批判と個人的な関係を切り離すことができれば、私たちは話し合って解決し、前に進むことができます。問題に対しては厳しく、しかし人に対しては優しくならなければならないのです。"
                 }
             ]
         },
-        discussionTopics: [
-            { theme: "Handling Disagreements 📖", themeJpn: "意見の不一致への対処", sub: [{eng: "Direct communication", jpn: "直接的なコミュニケーション"}, {eng: "Passive-aggressive behavior", jpn: "受動的攻撃行動"}, {eng: "Cooling down", jpn: "頭を冷やすこと"}] },
-            { theme: "Mediation 📖", themeJpn: "調停", sub: [{eng: "Manager's role", jpn: "マネージャーの役割"}, {eng: "Active listening", jpn: "積極的な傾聴"}, {eng: "Finding a compromise", jpn: "妥協点を見つけること"}] },
-            { theme: "Root Causes 📖", themeJpn: "根本原因", sub: [{eng: "Unclear roles", jpn: "不明確な役割"}, {eng: "Misaligned goals", jpn: "目標の不一致"}, {eng: "Missed deadlines", jpn: "締め切りの遅れ"}] },
-            { theme: "Cultural Differences 📖", themeJpn: "文化の違い", sub: [{eng: "Arguing in meetings", jpn: "会議での議論"}, {eng: "Avoiding conflict", jpn: "対立を避けること"}, {eng: "Radical candor", jpn: "徹底的な率直さ"}] },
-            { theme: "Toxic Environments 📖", themeJpn: "有毒な環境", sub: [{eng: "Complaining secretly", jpn: "隠れて不満を言うこと"}, {eng: "Losing trust", jpn: "信頼を失うこと"}, {eng: "Holding grudges", jpn: "恨みを抱くこと"}] },
-            { theme: "Professional Boundaries 📖", themeJpn: "仕事上の境界線", sub: [{eng: "Separating personal and professional", jpn: "私事と仕事の分離"}, {eng: "Respectful critique", jpn: "敬意を持った批判"}, {eng: "Moving forward", jpn: "前に進むこと"}] }
+        "discussionTopics": [
+            { "theme": "Handling Disagreements 📖", "themeJpn": "意見の不一致への対処", "sub": [{ "eng": "Direct communication", "jpn": "直接的なコミュニケーション" }, { "eng": "Passive-aggressive behavior", "jpn": "受動的攻撃行動" }, { "eng": "Cooling down", "jpn": "頭を冷やすこと" }] },
+            { "theme": "Mediation 📖", "themeJpn": "調停", "sub": [{ "eng": "Manager's role", "jpn": "マネージャーの役割" }, { "eng": "Active listening", "jpn": "積極的な傾聴" }, { "eng": "Finding a compromise", "jpn": "妥協点を見つけること" }] },
+            { "theme": "Root Causes 📖", "themeJpn": "根本原因", "sub": [{ "eng": "Unclear roles", "jpn": "不明確な役割" }, { "eng": "Misaligned goals", "jpn": "目標の不一致" }, { "eng": "Missed deadlines", "jpn": "締め切りの遅れ" }] },
+            { "theme": "Cultural Differences 📖", "themeJpn": "文化の違い", "sub": [{ "eng": "Arguing in meetings", "jpn": "会議での議論" }, { "eng": "Avoiding conflict", "jpn": "対立を避けること" }, { "eng": "Radical candor", "jpn": "徹底的な率直さ" }] },
+            { "theme": "Toxic Environments 📖", "themeJpn": "有毒な環境", "sub": [{ "eng": "Complaining secretly", "jpn": "隠れて不満を言うこと" }, { "eng": "Losing trust", "jpn": "信頼を失うこと" }, { "eng": "Holding grudges", "jpn": "恨みを抱くこと" }] },
+            { "theme": "Professional Boundaries 📖", "themeJpn": "仕事上の境界線", "sub": [{ "eng": "Separating personal and professional", "jpn": "私事と仕事の分離" }, { "eng": "Respectful critique", "jpn": "敬意を持った批判" }, { "eng": "Moving forward", "jpn": "前に進むこと" }] }
         ],
-        questions: [
-            { eng: "1. How do you usually react when someone disagrees with you at work?", jpn: "1. 職場で誰かがあなたと意見が合わないとき、普段どのように反応しますか？" },
-            { eng: "2. Have you ever lost your temper in a professional setting?", jpn: "2. 仕事の場で腹を立てた（我を忘れて怒った）ことはありますか？" },
-            { eng: "3. What is an example of passive-aggressive behavior in the office?", jpn: "3. オフィスにおける受動的攻撃行動の例は何ですか？" },
-            { eng: "4. Do you think a manager should always step in to solve conflicts?", jpn: "4. マネージャーは常に対立を解決するために介入すべきだと思いますか？" },
-            { eng: "5. Why is 'active listening' so difficult during an argument?", jpn: "5. 言い争いの最中に「積極的な傾聴」がそれほど難しいのはなぜですか？" },
-            { eng: "6. Do you prefer an office where people argue openly or avoid conflict?", jpn: "6. 人々がオープンに議論するオフィスと、対立を避けるオフィスでは、どちらが好きですか？" },
-            { eng: "7. How can unclear instructions cause tension between coworkers?", jpn: "7. 不明確な指示はどのようにして同僚間の緊張を引き起こす可能性がありますか？" },
-            { eng: "8. Is it possible to critique someone's work without hurting their feelings?", jpn: "8. 誰かの仕事を、その人の感情を害することなく批判することは可能ですか？" },
-            { eng: "9. How long should you wait to 'cool down' before sending an angry email?", jpn: "9. 怒りのメールを送る前に「頭を冷やす」ためにどれくらい待つべきですか？" },
-            { eng: "10. What is the best way to 'clear the air' after a big misunderstanding?", jpn: "10. 大きな誤解の後に「空気をきれいにする（わだかまりを解く）」ための最良の方法は何ですか？" }
+        "questions": [
+            { "eng": "1. How do you usually react when someone disagrees with you at work?", "jpn": "1. 職場で誰かがあなたと意見が合わないとき、普段どのように反応しますか？" },
+            { "eng": "2. Have you ever lost your temper in a professional setting?", "jpn": "2. 仕事の場で腹を立てた（我を忘れて怒った）ことはありますか？" },
+            { "eng": "3. What is an example of passive-aggressive behavior in the office?", "jpn": "3. オフィスにおける受動的攻撃行動の例は何ですか？" },
+            { "eng": "4. Do you think a manager should always step in to solve conflicts?", "jpn": "4. マネージャーは常に対立を解決するために介入すべきだと思いますか？" },
+            { "eng": "5. Why is 'active listening' so difficult during an argument?", "jpn": "5. 言い争いの最中に「積極的な傾聴」がそれほど難しいのはなぜですか？" },
+            { "eng": "6. Do you prefer an office where people argue openly or avoid conflict?", "jpn": "6. 人々がオープンに議論するオフィスと、対立を避けるオフィスでは、どちらが好きですか？" },
+            { "eng": "7. How can unclear instructions cause tension between coworkers?", "jpn": "7. 不明確な指示はどのようにして同僚間の緊張を引き起こす可能性がありますか？" },
+            { "eng": "8. Is it possible to critique someone's work without hurting their feelings?", "jpn": "8. 誰かの仕事を、その人の感情を害することなく批判することは可能ですか？" },
+            { "eng": "9. How long should you wait to 'cool down' before sending an angry email?", "jpn": "9. 怒りのメールを送る前に「頭を冷やす」ためにどれくらい待つべきですか？" },
+            { "eng": "10. What is the best way to 'clear the air' after a big misunderstanding?", "jpn": "10. 大きな誤解の後に「空気をきれいにする（わだかまりを解く）」ための最良の方法は何ですか？" }
         ],
-        vocab: [
-            { eng: "workplace conflict", jpn: "職場での対立" },
-            { eng: "resolve differences", jpn: "意見の相違を解決する" },
-            { eng: "find a compromise", jpn: "妥協点を見つける" },
-            { eng: "active listening", jpn: "積極的な傾聴 (アクティブリスニング)" },
-            { eng: "passive-aggressive", jpn: "受動的攻撃性のある (心理学/一般用語)" },
-            { eng: "mutual respect", jpn: "相互の尊重" },
-            { eng: "professional boundary", jpn: "仕事上の境界線" },
-            { eng: "radical candor", jpn: "徹底的な率直さ (ビジネス用語)" },
-            { eng: "clear the air", jpn: "わだかまりを解く / 空気をきれいにする (慣用句)" },
-            { eng: "butt heads", jpn: "衝突する / 角を突き合わせる (くだけた表現)" },
-            { eng: "talk it out", jpn: "徹底的に話し合って解決する (くだけた表現)" },
-            { eng: "step on toes", jpn: "（人の）領域を侵す / 感情を害する (くだけた表現)" }
+        "vocab": [
+            { "eng": "workplace conflict", "jpn": "職場での対立" },
+            { "eng": "resolve differences", "jpn": "意見の相違を解決する" },
+            { "eng": "find a compromise", "jpn": "妥協点を見つける" },
+            { "eng": "active listening", "jpn": "積極的な傾聴 (アクティブリスニング)" },
+            { "eng": "passive-aggressive", "jpn": "受動的攻撃性のある (心理学/一般用語)" },
+            { "eng": "mutual respect", "jpn": "相互の尊重" },
+            { "eng": "professional boundary", "jpn": "仕事上の境界線" },
+            { "eng": "radical candor", "jpn": "徹底的な率直さ (ビジネス用語)" },
+            { "eng": "clear the air", "jpn": "わだかまりを解く / 空気をきれいにする (慣用句)" },
+            { "eng": "butt heads", "jpn": "衝突する / 角を突き合わせる (くだけた表現)" },
+            { "eng": "talk it out", "jpn": "徹底的に話し合って解決する (くだけた表現)" },
+            { "eng": "step on toes", "jpn": "（人の）領域を侵す / 感情を害する (くだけた表現)" }
         ],
-        grammarPoints: [
+        "grammarPoints": [
             {
-                point: "1. Conditionals: Expressing an alternative past (3rd Conditional)",
-                explanation: "We use the 3rd conditional to describe an imaginary past and an imaginary past result. It is often used to express regret or analyze how a conflict could have been prevented.",
-                explanationJpn: "サード・コンディショナル（仮定法過去完了）を使って、想像上の過去とその想像上の結果を説明します。これはしばしば、後悔を表現したり、どうすれば対立を防げたかを分析したりするために使用されます。",
-                examples: [
-                    { eng: "If I had stayed calm, we would have solved the problem faster.", jpn: "もし私が冷静さを保っていれば、私たちはもっと早く問題を解決していただろうに。" },
-                    { eng: "If he had communicated clearly, they wouldn't have argued.", jpn: "もし彼が明確に伝えていれば、彼らは言い争わなかっただろうに。" }
+                "point": "1. Conditionals: Expressing an alternative past (3rd Conditional)",
+                "explanation": "We use the 3rd conditional to describe an imaginary past and an imaginary past result. It is often used to express regret or analyze how a conflict could have been prevented.",
+                "explanationJpn": "サード・コンディショナル（仮定法過去完了）を使って、想像上の過去とその想像上の結果を説明します。これはしばしば、後悔を表現したり、どうすれば対立を防げたかを分析したりするために使用されます。",
+                "examples": [
+                    { "eng": "If I had stayed calm, we would have solved the problem faster.", "jpn": "もし私が冷静さを保っていれば、私たちはもっと早く問題を解決していただろうに。" },
+                    { "eng": "If he had communicated clearly, they wouldn't have argued.", "jpn": "もし彼が明確に伝えていれば、彼らは言い争わなかっただろうに。" }
                 ]
             },
             {
-                point: "2. Relative Clauses: Adding extra information about someone by saying what they did",
-                explanation: "We use 'who' to define or add extra information about a person based on an action they performed. It helps clarify exactly which person you are talking about in a conflict scenario.",
-                explanationJpn: "「who」を使って、その人が行った行動に基づいて人を定義したり、追加情報を提供したりします。これは対立のシナリオで、正確にどの人物について話しているのかを明確にするのに役立ちます。",
-                examples: [
-                    { eng: "I had an argument with a developer who missed a deadline.", jpn: "私は締め切りを守らなかった開発者と言い争いをしました。" },
-                    { eng: "The designer who handled the website felt ignored.", jpn: "ウェブサイトを担当したデザイナーは無視されたと感じていました。" }
+                "point": "2. Relative Clauses: Adding extra information about someone by saying what they did",
+                "explanation": "We use 'who' to define or add extra information about a person based on an action they performed. It helps clarify exactly which person you are talking about in a conflict scenario.",
+                "explanationJpn": "「who」を使って、その人が行った行動に基づいて人を定義したり、追加情報を提供したりします。これは対立のシナリオで、正確にどの人物について話しているのかを明確にするのに役立ちます。",
+                "examples": [
+                    { "eng": "I had an argument with a developer who missed a deadline.", "jpn": "私は締め切りを守らなかった開発者と言い争いをしました。" },
+                    { "eng": "The designer who handled the website felt ignored.", "jpn": "ウェブサイトを担当したデザイナーは無視されたと感じていました。" }
                 ]
             }
         ],
-        expressions: [
-            { eng: "Whenever", jpn: "〜するときはいつでも", exampleEng: "Whenever I disagree with a colleague, I speak privately.", exampleJpn: "同僚と意見が合わないときはいつでも、私は個人的に話します。" },
-            { eng: "Once", jpn: "一旦〜すれば", exampleEng: "Once everyone feels heard, finding a compromise is easy.", exampleJpn: "一旦全員が話を聞いてもらえたと感じれば、妥協点を見つけるのは簡単です。" },
-            { eng: "In contrast", jpn: "対照的に", exampleEng: "Some argue openly. In contrast, others hide their feelings.", exampleJpn: "公然と議論する人もいます。対照的に、感情を隠す人もいます。" },
-            { eng: "To make matters worse", jpn: "さらに悪いことに", exampleEng: "He was late. To make matters worse, he was passive-aggressive.", exampleJpn: "彼は遅刻しました。さらに悪いことに、彼は受動的攻撃的でした。" },
-            { eng: "Ultimately", jpn: "最終的に", exampleEng: "Ultimately, avoiding conflict destroys trust.", exampleJpn: "最終的に、対立を避けることは信頼を破壊します。" }
+        "expressions": [
+            { "eng": "Whenever", "jpn": "〜するときはいつでも", "exampleEng": "Whenever I disagree with a colleague, I speak privately.", "exampleJpn": "同僚と意見が合わないときはいつでも、私は個人的に話します。" },
+            { "eng": "Once", "jpn": "一旦〜すれば", "exampleEng": "Once everyone feels heard, finding a compromise is easy.", "exampleJpn": "一旦全員が話を聞いてもらえたと感じれば、妥協点を見つけるのは簡単です。" },
+            { "eng": "In contrast", "jpn": "対照的に", "exampleEng": "Some argue openly. In contrast, others hide their feelings.", "exampleJpn": "公然と議論する人もいます。対照的に、感情を隠す人もいます。" },
+            { "eng": "To make matters worse", "jpn": "さらに悪いことに", "exampleEng": "He was late. To make matters worse, he was passive-aggressive.", "exampleJpn": "彼は遅刻しました。さらに悪いことに、彼は受動的攻撃的でした。" },
+            { "eng": "Ultimately", "jpn": "最終的に", "exampleEng": "Ultimately, avoiding conflict destroys trust.", "exampleJpn": "最終的に、対立を避けることは信頼を破壊します。" }
         ],
-        homework: {
-            vocab: [
-                { eng: "Calm down", jpn: "落ち着く", exEng: "Please calm down before you send that email.", exJpn: "そのメールを送る前に落ち着いてください。" },
-                { eng: "Bring up", jpn: "話題を持ち出す", exEng: "I nervously brought up the issue during the meeting.", exJpn: "私は会議中に緊張しながらその問題を持ち出しました。" },
-                { eng: "Talk over", jpn: "〜について話し合う", exEng: "We need to talk over our differences.", exJpn: "私たちは意見の相違について話し合う必要があります。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "She pointed out that my instructions were unclear.", exJpn: "彼女は私の指示が不明確であることを指摘しました。" },
-                { eng: "Deal with", jpn: "〜に対処する", exEng: "Managers must carefully deal with team conflicts.", exJpn: "マネージャーはチームの対立に慎重に対処しなければなりません。" },
-                { eng: "Sort out", jpn: "解決する", exEng: "I hope they sort out their argument soon.", exJpn: "彼らが早く言い争いを解決することを願っています。" },
-                { eng: "Work out", jpn: "上手くいく、解決する", exEng: "We can work out a fair compromise.", exJpn: "私たちは公平な妥協点を導き出す（解決する）ことができます。" },
-                { eng: "Give in", jpn: "屈する、譲歩する", exEng: "Sometimes you have to give in to keep the peace.", exJpn: "平和を保つために、時には譲歩しなければならないこともあります。" },
-                { eng: "Stand up for", jpn: "〜を擁護する、自分の意見を主張する", exEng: "You must respectfully stand up for your ideas.", exJpn: "あなたは自分のアイデアを敬意を持って主張すべきです。" },
-                { eng: "Back down", jpn: "撤回する、引き下がる", exEng: "He refused to back down during the debate.", exJpn: "彼は議論の間、引き下がることを拒否しました。" },
-                { eng: "Move on", jpn: "次に進む、気持ちを切り替える", exEng: "After we apologize, we should just move on.", exJpn: "謝罪した後は、ただ次に進む（気持ちを切り替える）べきです。" },
-                { eng: "Get along", jpn: "仲良くやる", exEng: "The two designers do not get along at all.", exJpn: "その2人のデザイナーは全く仲良くやっていません。" },
-                { eng: "Fall out", jpn: "仲違いする", exEng: "They fell out over a misunderstood email.", exJpn: "彼らは誤解されたメールが原因で仲違いしました。" },
-                { eng: "Make up", jpn: "仲直りする", exEng: "They finally made up after a long discussion.", exJpn: "彼らは長い話し合いの後、ついに仲直りしました。" },
-                { eng: "Listen to", jpn: "〜に耳を傾ける", exEng: "Active mediation requires listening to both sides.", exJpn: "積極的な調停には双方に耳を傾けることが必要です。" },
-                { eng: "Focus on", jpn: "〜に焦点を当てる", exEng: "Focus on the problem, not the person.", exJpn: "人ではなく問題に焦点を当ててください。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "Unresolved tension results in low productivity.", exJpn: "未解決の緊張は低い生産性という結果になります。" },
-                { eng: "Apologize for", jpn: "〜について謝罪する", exEng: "I apologized for losing my temper.", exJpn: "私は腹を立てたことについて謝罪しました。" }
+        "homework": {
+            "vocab": [
+                { "eng": "Calm down", "jpn": "落ち着く", "exEng": "Please calm down before you send that email.", "exJpn": "そのメールを送る前に落ち着いてください。" },
+                { "eng": "Bring up", "jpn": "話題を持ち出す", "exEng": "I nervously brought up the issue during the meeting.", "exJpn": "私は会議中に緊張しながらその問題を持ち出しました。" },
+                { "eng": "Talk over", "jpn": "〜について話し合う", "exEng": "We need to talk over our differences.", "exJpn": "私たちは意見の相違について話し合う必要があります。" },
+                { "eng": "Point out", "jpn": "指摘する", "exEng": "She pointed out that my instructions were unclear.", "exJpn": "彼女は私の指示が不明確であることを指摘しました。" },
+                { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "Managers must carefully deal with team conflicts.", "exJpn": "マネージャーはチームの対立に慎重に対処しなければなりません。" },
+                { "eng": "Sort out", "jpn": "解決する", "exEng": "I hope they sort out their argument soon.", "exJpn": "彼らが早く言い争いを解決することを願っています。" },
+                { "eng": "Work out", "jpn": "上手くいく、解決する", "exEng": "We can work out a fair compromise.", "exJpn": "私たちは公平な妥協点を導き出す（解決する）ことができます。" },
+                { "eng": "Give in", "jpn": "屈する、譲歩する", "exEng": "Sometimes you have to give in to keep the peace.", "exJpn": "平和を保つために、時には譲歩しなければならないこともあります。" },
+                { "eng": "Stand up for", "jpn": "〜を擁護する、自分の意見を主張する", "exEng": "You must respectfully stand up for your ideas.", "exJpn": "あなたは自分のアイデアを敬意を持って主張すべきです。" },
+                { "eng": "Back down", "jpn": "撤回する、引き下がる", "exEng": "He refused to back down during the debate.", "exJpn": "彼は議論の間、引き下がることを拒否しました。" },
+                { "eng": "Move on", "jpn": "次に進む、気持ちを切り替える", "exEng": "After we apologize, we should just move on.", "exJpn": "謝罪した後は、ただ次に進む（気持ちを切り替える）べきです。" },
+                { "eng": "Get along", "jpn": "仲良くやる", "exEng": "The two designers do not get along at all.", "exJpn": "その2人のデザイナーは全く仲良くやっていません。" },
+                { "eng": "Fall out", "jpn": "仲違いする", "exEng": "They fell out over a misunderstood email.", "exJpn": "彼らは誤解されたメールが原因で仲違いしました。" },
+                { "eng": "Make up", "jpn": "仲直りする", "exEng": "They finally made up after a long discussion.", "exJpn": "彼らは長い話し合いの後、ついに仲直りしました。" },
+                { "eng": "Listen to", "jpn": "〜に耳を傾ける", "exEng": "Active mediation requires listening to both sides.", "exJpn": "積極的な調停には双方に耳を傾けることが必要です。" },
+                { "eng": "Focus on", "jpn": "〜に焦点を当てる", "exEng": "Focus on the problem, not the person.", "exJpn": "人ではなく問題に焦点を当ててください。" },
+                { "eng": "Result in", "jpn": "〜という結果になる", "exEng": "Unresolved tension results in low productivity.", "exJpn": "未解決の緊張は低い生産性という結果になります。" },
+                { "eng": "Apologize for", "jpn": "〜について謝罪する", "exEng": "I apologized for losing my temper.", "exJpn": "私は腹を立てたことについて謝罪しました。" }
             ],
-            writingTask: {
-                promptEng: "Write a short paragraph answering this question: Describe a time you had a disagreement at work or school. How did you resolve it? Use a relative clause with 'who' to describe the person, and the 3rd conditional (If I had...) to reflect on the situation.",
-                promptJpn: "「職場や学校で意見が合わなかった時のことを説明してください。どのように解決しましたか？人を描写するために『who』を使った関係詞節を使用し、状況を振り返るためにサード・コンディショナル（If I had...）を使って答える短い段落を書いてください。」"
+            "clickingGames": [
+                { "prompt": "もし私が冷静さを保っていれば、もっと早く解決できたでしょう。", "target": "If I had stayed calm, we would have solved it faster.", "words": ["If", "I", "had", "stayed", "calm,", "we", "would", "have", "solved", "it", "faster."] },
+                { "prompt": "もし彼が明確に伝えていれば、彼らは言い争わなかったでしょう。", "target": "If he had explained clearly, they wouldn't have argued.", "words": ["If", "he", "had", "explained", "clearly,", "they", "wouldn't", "have", "argued."] },
+                { "prompt": "もし最初に役割を明確にしていれば、イライラしなかったでしょう。", "target": "If I had clarified roles early, they wouldn't have clashed.", "words": ["If", "I", "had", "clarified", "roles", "early,", "they", "wouldn't", "have", "clashed."] },
+                { "prompt": "もし私たちが先に頭を冷やしていれば、わだかまりを解けたでしょう。", "target": "If we had cooled down first, we would have cleared the air.", "words": ["If", "we", "had", "cooled", "down", "first,", "we", "would", "have", "cleared", "the", "air."] },
+                { "prompt": "私は締め切りを守らなかった開発者と言い争いをしました。", "target": "I had an argument with a developer who missed a deadline.", "words": ["I", "had", "an", "argument", "with", "a", "developer", "who", "missed", "a", "deadline."] },
+                { "prompt": "ウェブサイトを担当したデザイナーは無視されたと感じました。", "target": "The designer who handled the website felt ignored.", "words": ["The", "designer", "who", "handled", "the", "website", "felt", "ignored."] },
+                { "prompt": "メールを無視した同僚が緊張を高めました。", "target": "The coworker who ignored emails increased the tension.", "words": ["The", "coworker", "who", "ignored", "emails", "increased", "the", "tension."] },
+                { "prompt": "両方の視点を聞いたマネージャーが妥協点を見つけました。", "target": "The manager who listened to both sides found a compromise.", "words": ["The", "manager", "who", "listened", "to", "both", "sides", "found", "a", "compromise."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 9 - Split Cards on Conflict Resolution)",
+                "instruction": "Read these cards on handling workplace disagreements calmly. Notice 3rd conditionals and relative clauses with 'who'.",
+                "eng": "<div class='er-template er-layout-9'><div class='er-card'><h4>💬 Card 1: Cool Down Before Talking</h4><p>Whenever a colleague who missed a deadline frustrates me, I wait to cool down first. If I had lost my temper last year, we would not have solved the issue as fast. Direct, calm talks clear the air much better than passive-aggressive messages.</p></div><div class='er-card'><h4>🤝 Card 2: Role of a Team Mediator</h4><p>Often, team members who butt heads have unclear roles rather than personal dislike. If a lead had clarified tasks early, two designers would have avoided extra stress. Active listening helps both sides share views and find a fair compromise.</p></div><div class='er-card'><h4>🌱 Card 3: Healthy Candor at Work</h4><p>In contrast to hiding complaints behind backs, respectful candor keeps trust strong. Once everyone feels heard, teams can focus on the problem, keep professional boundaries, and move forward together.</p></div></div>",
+                "jpn": "<div class='er-template er-layout-9'><div class='er-card'><h4>💬 カード1：話す前に頭を冷やす</h4><p>締め切りを守らなかった同僚にイライラするときはいつでも、まず頭を冷やすのを待ちます。昨年もし私が感情的になっていたら、あんなに早く問題を解決できなかったでしょう。受動的攻撃的なメッセージよりも、直接的で落ち着いた話し合いの方がずっとわだかまりを解けます。</p></div><div class='er-card'><h4>🤝 カード2：チーム調停者の役割</h4><p>衝突するチームメンバーは、個人的な嫌悪感というよりも役割が不明確なことが多いです。もしリーダーが早い段階でタスクを明確にしていたら、2人のデザイナーは余分なストレスを避けられたでしょう。積極的な傾聴は双方が意見を共有し、公平な妥協点を見つける助けになります。</p></div><div class='er-card'><h4>🌱 カード3：職場での健全な率直さ</h4><p>陰で不満を隠すのとは対照的に、敬意を持った率直さは信頼を強く保ちます。一旦全員が話を聞いてもらえたと感じれば、チームは問題に焦点を当て、仕事上の境界線を保ち、一緒に前へ進めます。</p></div></div>"
             },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Psychology of Workplace Conflict)",
-                instruction: "Read this authentic article about understanding and managing interpersonal conflict in professional environments.",
-                eng: "Conflict in the workplace is entirely natural. Whenever passionate professionals collaborate under tight deadlines and high pressure, disagreements are bound to happen. However, the way a team navigates these conflicts dictates whether the organization will thrive or foster a toxic culture. Organizational psychologists emphasize that conflict itself is not the problem; rather, it is the misinterpretation of intent that causes lasting damage. When an argument occurs, humans are psychologically wired to assume the worst about the other person. If a colleague questions your project plan, it is easy to assume they are insulting your competence. In reality, they might just be trying to ensure the project's success.\n\nTo manage conflict effectively, experts advocate for a practice known as 'cognitive reappraisal.' This involves stepping back from your immediate emotional reaction and actively trying to view the situation from the other person's perspective. If a manager had taken five minutes to 'cool down' before sending a furious email, they would likely have realized that the error was a simple miscommunication, not a deliberate sabotage. Phrases like 'Let's clear the air' are essential tools. By addressing tensions directly and privately, professionals prevent small misunderstandings from growing into deep grudges.\n\nFurthermore, leadership plays a crucial role in shaping how conflict is perceived. A manager who punishes all forms of disagreement unintentionally creates a culture of silence, where employees hide problems and engage in passive-aggressive behavior. Conversely, a leader who encourages 'radical candor'—open, respectful, and direct critique—builds a resilient team. In this environment, team members understand that they can butt heads over an idea in a meeting, but still maintain absolute mutual respect. Ultimately, healthy conflict drives innovation, forcing teams to examine their assumptions and find the strongest possible solutions.",
-                jpn: "職場における対立は完全に自然なことです。情熱的なプロフェッショナルたちが厳しい締め切りと高いプレッシャーの下で協力するときはいつでも、意見の不一致は必ず起こります。しかし、チームがこれらの対立をどう切り抜けるかが、組織が繁栄するか、それとも有毒な文化を育むかを決定づけます。組織心理学者は、対立それ自体が問題なのではなく、むしろ意図の誤解が永続的なダメージを引き起こすと強調しています。言い争いが起きたとき、人間は心理学的に相手について最悪の事態を想定するようにできています。もし同僚があなたのプロジェクト計画に疑問を呈した場合、彼らがあなたの能力を侮辱していると思い込むのは簡単です。現実には、彼らはただプロジェクトの成功を確実にしようとしているだけかもしれないのです。\n\n対立を効果的に管理するために、専門家は「認知的再評価」として知られる実践を提唱しています。これには、自分の即座の感情的反応から一歩下がり、相手の視点から状況を見ようと積極的に努めることが含まれます。もしマネージャーが激怒したメールを送る前に「頭を冷やす」ために5分間取っていたら、そのエラーが意図的な妨害ではなく、単なるミスコミュニケーションであることに気づいていた可能性が高いでしょう。「わだかまりを解こう（空気をきれいにしよう）」といったフレーズは不可欠なツールです。緊張に直接、そしてプライベートに対処することで、プロフェッショナルは小さな誤解が深い恨みへと成長するのを防ぎます。\n\nさらに、リーダーシップは対立がどう捉えられるかを形作る上で極めて重要な役割を果たします。あらゆる形態の意見の不一致を罰するマネージャーは、意図せず沈黙の文化を作り出し、そこでは従業員が問題を隠し、受動的攻撃行動に従事するようになります。逆に、「徹底的な率直さ（ラディカル・キャンドア）」、つまりオープンで、敬意を持った、直接的な批判を奨励するリーダーは、回復力のあるチームを築きます。この環境では、チームメンバーは会議でアイデアについて衝突（角を突き合わせる）しても、絶対的な相互の尊重を維持できることを理解しています。最終的に、健全な対立はイノベーションを推進し、チームに自分たちの思い込みを検証し、可能な限り強力な解決策を見つけることを強いるのです。"
+            "writingTask": {
+                "promptEng": "Write a short paragraph answering this question: Describe a time you had a disagreement at work or school. How did you resolve it? Use a relative clause with 'who' to describe the person, and the 3rd conditional (If I had...) to reflect on the situation.",
+                "promptJpn": "「職場や学校で意見が合わなかった時のことを説明してください。どのように解決しましたか？人を描写するために『who』を使った関係詞節を使用し、状況を振り返るためにサード・コンディショナル（If I had...）を使って答える短い段落を書いてください。」"
             }
         }
     },
     {
-        id: 60,
-        chapter: "Chapter 9: Teamwork",
-        type: "transactional",
-        title: "Lesson 60: How to ask for help",
-        goal: "Ask for assistance, provide guidance, and express conditional advice. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(助けを求め、指導を提供し、条件付きのアドバイスを表現する。)</span>",
-        vocab: [
-            { eng: "ask for assistance", jpn: "支援を要請する" },
-            { eng: "provide guidance", jpn: "ガイダンス（指導）を提供する" },
-            { eng: "step-by-step instructions", jpn: "段階的な指示" },
-            { eng: "troubleshoot a problem", jpn: "問題をトラブルシューティングする（解決する）" },
-            { eng: "share the workload", jpn: "仕事量を分担する" },
-            { eng: "offer support", jpn: "サポートを提供する" },
-            { eng: "urgent matter", jpn: "緊急事項" },
-            { eng: "technical expertise", jpn: "専門的な技術知識" },
-            { eng: "lend a hand", jpn: "手を貸す (くだけた表現)" },
-            { eng: "stuck on", jpn: "〜に行き詰まっている (くだけた表現)" },
-            { eng: "bail someone out", jpn: "（苦境から）人を救い出す (くだけた表現)" },
-            { eng: "a lifesaver", jpn: "命の恩人 / おかげで助かった (くだけた表現)" }
+        "id": 60,
+        "chapter": "Chapter 9: Teamwork",
+        "type": "transactional",
+        "title": "Lesson 60: How to ask for help",
+        "goal": "Ask for assistance, provide guidance, and express conditional advice. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(助けを求め、指導を提供し、条件付きのアドバイスを表現する。)</span>",
+        "vocab": [
+            { "eng": "ask for assistance", "jpn": "支援を要請する" },
+            { "eng": "provide guidance", "jpn": "ガイダンス（指導）を提供する" },
+            { "eng": "step-by-step instructions", "jpn": "段階的な指示" },
+            { "eng": "troubleshoot a problem", "jpn": "問題をトラブルシューティングする（解決する）" },
+            { "eng": "share the workload", "jpn": "仕事量を分担する" },
+            { "eng": "offer support", "jpn": "サポートを提供する" },
+            { "eng": "urgent matter", "jpn": "緊急事項" },
+            { "eng": "technical expertise", "jpn": "専門的な技術知識" },
+            { "eng": "lend a hand", "jpn": "手を貸す (くだけた表現)" },
+            { "eng": "stuck on", "jpn": "〜に行き詰まっている (くだけた表現)" },
+            { "eng": "bail someone out", "jpn": "（苦境から）人を救い出す (くだけた表現)" },
+            { "eng": "a lifesaver", "jpn": "命の恩人 / おかげで助かった (くだけた表現)" }
         ],
-        dialogue: [
-            { speaker: "A", eng: "Hi Jessica. <span class='swappable'>Are you busy right now?</span>", jpn: "こんにちは、ジェシカ。今忙しいですか？" },
-            { speaker: "B", eng: "I have a few minutes. What's up?", jpn: "数分ならありますよ。どうしました？" },
-            { speaker: "A", eng: "<span class='swappable'>I am really stuck on this database issue. Could you lend me a hand?</span>", jpn: "このデータベースの問題で本当に行き詰まっているんです。手を貸していただけませんか？" },
-            { speaker: "B", eng: "Sure. <span class='swappable'>What exactly is the problem?</span>", jpn: "いいですよ。正確には何が問題なのですか？" },
-            { speaker: "A", eng: "The system won't accept my upload. <span class='swappable'>I tried restarting it, but it didn't work.</span>", jpn: "システムが私のアップロードを受け付けようとしません（won't）。再起動してみましたが、ダメでした。" },
-            { speaker: "B", eng: "I see. <span class='swappable'>If you want to upload large files, you should compress them first.</span>", jpn: "なるほど。もし大きなファイルをアップロードしたいなら、まず圧縮すべきです。" },
-            { speaker: "A", eng: "Oh, I didn't know that. How do I compress them?", jpn: "ああ、それは知りませんでした。どうやって圧縮するのですか？" },
-            { speaker: "B", eng: "<span class='swappable'>Let me help you to set it up.</span> First, right-click the folder.", jpn: "設定するのを手伝いましょう（私に手伝わせてください）。まず、フォルダを右クリックします。" },
-            { speaker: "A", eng: "Okay, done. Then what?", jpn: "はい、できました。それから？" },
-            { speaker: "B", eng: "Then, select 'compress to zip file'. <span class='swappable'>If you follow these steps, it ought to upload smoothly.</span>", jpn: "次に、『zipファイルに圧縮』を選択します。これらの手順に従えば、スムーズにアップロードできるはずです。" },
-            { speaker: "A", eng: "It is uploading now! <span class='swappable'>Thank you so much, you are a lifesaver.</span>", jpn: "今アップロードしています！本当にありがとうございます、あなたのおかげで助かりました。" },
-            { speaker: "B", eng: "Anytime! Let me know if you run into any more trouble.", jpn: "いつでもどうぞ！またトラブルに遭遇したら教えてくださいね。" }
+        "dialogue": [
+            { "speaker": "A", "eng": "Hi Jessica. <span class='swappable'>Are you busy right now?</span>", "jpn": "こんにちは、ジェシカ。今忙しいですか？" },
+            { "speaker": "B", "eng": "I have a few minutes. What's up?", "jpn": "数分ならありますよ。どうしました？" },
+            { "speaker": "A", "eng": "<span class='swappable'>I am really stuck on this database issue. Could you lend me a hand?</span>", "jpn": "このデータベースの問題で本当に行き詰まっているんです。手を貸していただけませんか？" },
+            { "speaker": "B", "eng": "Sure. <span class='swappable'>What exactly is the problem?</span>", "jpn": "いいですよ。正確には何が問題なのですか？" },
+            { "speaker": "A", "eng": "The system won't accept my upload. <span class='swappable'>I tried restarting it, but it didn't work.</span>", "jpn": "システムが私のアップロードを受け付けようとしません（won't）。再起動してみましたが、ダメでした。" },
+            { "speaker": "B", "eng": "I see. <span class='swappable'>If you want to upload large files, you should compress them first.</span>", "jpn": "なるほど。もし大きなファイルをアップロードしたいなら、まず圧縮すべきです。" },
+            { "speaker": "A", "eng": "Oh, I didn't know that. How do I compress them?", "jpn": "ああ、それは知りませんでした。どうやって圧縮するのですか？" },
+            { "speaker": "B", "eng": "<span class='swappable'>Let me help you to set it up.</span> First, right-click the folder.", "jpn": "設定するのを手伝いましょう（私に手伝わせてください）。まず、フォルダを右クリックします。" },
+            { "speaker": "A", "eng": "Okay, done. Then what?", "jpn": "はい、できました。それから？" },
+            { "speaker": "B", "eng": "Then, select 'compress to zip file'. <span class='swappable'>If you follow these steps, it ought to upload smoothly.</span>", "jpn": "次に、『zipファイルに圧縮』を選択します。これらの手順に従えば、スムーズにアップロードできるはずです。" },
+            { "speaker": "A", "eng": "It is uploading now! <span class='swappable'>Thank you so much, you are a lifesaver.</span>", "jpn": "今アップロードしています！本当にありがとうございます、あなたのおかげで助かりました。" },
+            { "speaker": "B", "eng": "Anytime! Let me know if you run into any more trouble.", "jpn": "いつでもどうぞ！またトラブルに遭遇したら教えてくださいね。" }
         ],
-        dialogueStructure: [
-            { eng: "Check availability", jpn: "都合を確認する", indent: false },
-            { eng: "Confirm availability + Ask what's wrong", jpn: "都合を確認する ＋ 何があったか尋ねる", indent: true },
-            { eng: "State being stuck + Ask for help (informal)", jpn: "行き詰まっていることを述べる ＋ 助けを求める（カジュアル）", indent: false },
-            { eng: "Agree + Ask for specific details", jpn: "同意する ＋ 具体的な詳細を尋ねる", indent: true },
-            { eng: "Explain problem + State attempted solution", jpn: "問題を説明する ＋ 試した解決策を述べる", indent: false },
-            { eng: "Identify issue + Give conditional advice", jpn: "問題を特定する ＋ 条件付きのアドバイスをする", indent: true },
-            { eng: "Express surprise + Ask for instructions", jpn: "驚きを表現する ＋ 指示を求める", indent: false },
-            { eng: "Offer assistance (using 'help to') + Give step 1", jpn: "支援を申し出る（'help to'を使用）＋ ステップ1を伝える", indent: true },
-            { eng: "Confirm action + Ask for next step", jpn: "行動を確認する ＋ 次のステップを尋ねる", indent: false },
-            { eng: "Give step 2 + Express conditional expectation", jpn: "ステップ2を伝える ＋ 条件付きの期待を表現する", indent: true },
-            { eng: "Confirm success + Express extreme gratitude", jpn: "成功を確認する ＋ 絶大な感謝を表現する", indent: false },
-            { eng: "Acknowledge thanks + Offer future support", jpn: "感謝に応じる ＋ 将来のサポートを申し出る", indent: true }
+        "dialogueStructure": [
+            { "eng": "Check availability", "jpn": "都合を確認する", "indent": false },
+            { "eng": "Confirm availability + Ask what's wrong", "jpn": "都合を確認する ＋ 何があったか尋ねる", "indent": true },
+            { "eng": "State being stuck + Ask for help (informal)", "jpn": "行き詰まっていることを述べる ＋ 助けを求める（カジュアル）", "indent": false },
+            { "eng": "Agree + Ask for specific details", "jpn": "同意する ＋ 具体的な詳細を尋ねる", "indent": true },
+            { "eng": "Explain problem + State attempted solution", "jpn": "問題を説明する ＋ 試した解決策を述べる", "indent": false },
+            { "eng": "Identify issue + Give conditional advice", "jpn": "問題を特定する ＋ 条件付きのアドバイスをする", "indent": true },
+            { "eng": "Express surprise + Ask for instructions", "jpn": "驚きを表現する ＋ 指示を求める", "indent": false },
+            { "eng": "Offer assistance (using 'help to') + Give step 1", "jpn": "支援を申し出る（'help to'を使用）＋ ステップ1を伝える", "indent": true },
+            { "eng": "Confirm action + Ask for next step", "jpn": "行動を確認する ＋ 次のステップを尋ねる", "indent": false },
+            { "eng": "Give step 2 + Express conditional expectation", "jpn": "ステップ2を伝える ＋ 条件付きの期待を表現する", "indent": true },
+            { "eng": "Confirm success + Express extreme gratitude", "jpn": "成功を確認する ＋ 絶大な感謝を表現する", "indent": false },
+            { "eng": "Acknowledge thanks + Offer future support", "jpn": "感謝に応じる ＋ 将来のサポートを申し出る", "indent": true }
         ],
-        expressions: [
-            { category: "1. Checking availability (都合を確認する)", options: ["Are you busy right now?", "Do you have a second?", "Can I interrupt you for a moment?"] },           
-            { category: "2. Asking for help (助けを求める)", options: ["Could you lend me a hand?", "I am stuck on this issue.", "I really need your assistance."] }, 
-            { category: "3. Asking for details (詳細を尋ねる)", options: ["What exactly is the problem?", "Where are you getting stuck?", "What seems to be the issue?"] },
-            { category: "4. Giving conditional advice (条件付きのアドバイスをする)", options: ["If you want to upload it, you should compress it.", "If you need approval, you ought to ask the boss.", "If you follow these steps, it should work."] },
-            { category: "5. Offering assistance (支援を申し出る)", options: ["Let me help you to set it up.", "I can help you troubleshoot the problem.", "Let me show you how to do it."] },
-            { category: "6. Expressing extreme gratitude (絶大な感謝を表現する)", options: ["You are a lifesaver.", "Thanks for bailing me out.", "I couldn't have done it without you."] }
-        ],
-        grammarPoints: [
+        "expressions": [
             {
-                point: "1. Modals: Expressing conditional advice (If + present, you should/ought to)",
-                explanation: "We can use the first conditional to state a goal or situation, and then use 'should' or 'ought to' to give advice on the best way to achieve that goal.",
-                explanationJpn: "ファースト・コンディショナルを使って目標や状況を述べ、その後「should」や「ought to」を使って、その目標を達成するための最良の方法についてアドバイスを提供できます。",
-                examples: [
-                    { eng: "If you want to upload large files, you should compress them.", jpn: "大きなファイルをアップロードしたいなら、圧縮すべきです。" },
-                    { eng: "If you follow these steps, it ought to upload smoothly.", jpn: "これらの手順に従えば、スムーズにアップロードできるはずです（期待）。" }
+                "category": "1. Checking availability & asking for help (都合確認と助けを求める)",
+                "options": [
+                    { "eng": "Are you busy right now?", "jpn": "今忙しいですか？" },
+                    { "eng": "I am really stuck on this database issue. Could you lend me a hand?", "jpn": "このデータベースの問題で行き詰まっています。手を貸していただけませんか？" },
+                    { "eng": "What exactly is the problem?", "jpn": "正確には何が問題なのですか？" }
                 ]
             },
             {
-                point: "2. Verbs: Expressing assistance (help + to + verb)",
-                explanation: "We can use 'help' followed by an object and an infinitive ('to' + verb) to describe assisting someone. In modern English, it is also perfectly acceptable to omit the 'to' (e.g., help you set it up).",
-                explanationJpn: "「help」の後に目的語と不定詞（「to」＋動詞の原形）を使用して、誰かを支援することを説明できます。現代英語では、「to」を省略することも完全に許容されます（例：help you set it up）。",
-                examples: [
-                    { eng: "Let me help you to set it up.", jpn: "設定するのを手伝わせてください。" },
-                    { eng: "I will help you to finish the report.", jpn: "レポートを終わらせるのを手伝います。" }
+                "category": "2. Giving conditional advice (条件付きのアドバイスをする)",
+                "options": [
+                    { "eng": "If you want to upload large files, you should compress them first.", "jpn": "大きなファイルをアップロードしたいなら、まず圧縮すべきです。" },
+                    { "eng": "If you need approval, you ought to ask the boss.", "jpn": "承認が必要なら、上司に聞くべきです。" },
+                    { "eng": "If you follow these steps, it ought to upload smoothly.", "jpn": "これらの手順に従えば、スムーズにアップロードできるはずです。" }
+                ]
+            },
+            {
+                "category": "3. Offering step-by-step guidance (手順を案内して助ける)",
+                "options": [
+                    { "eng": "Let me help you to set it up.", "jpn": "設定するのを手伝わせてください。" },
+                    { "eng": "I can help you troubleshoot the problem.", "jpn": "問題のトラブルシューティングを手伝えませんか。" },
+                    { "eng": "First, right-click the folder and select zip.", "jpn": "まずフォルダを右クリックしてzipを選びます。" }
+                ]
+            },
+            {
+                "category": "4. Expressing gratitude for help (助けへの感謝を表現する)",
+                "options": [
+                    { "eng": "Thank you so much, you are a lifesaver.", "jpn": "本当にありがとうございます、あなたのおかげで助かりました。" },
+                    { "eng": "Thanks for bailing me out.", "jpn": "助けてくれてありがとう。" },
+                    { "eng": "Let me know if you run into any more trouble.", "jpn": "またトラブルに遭遇したら教えてください。" }
                 ]
             }
         ],
-        clickingGames: [
-            { prompt: "もしファイルを送りたいなら、圧縮すべきです。", target: "If you want to send the file, you should compress it.", words: ["If", "you", "want", "to", "send", "the", "file,", "you", "should", "compress", "it."] },
-            { prompt: "このデータベースの問題で本当に行き詰まっています。", target: "I am really stuck on this database issue.", words: ["I", "am", "really", "stuck", "on", "this", "database", "issue."] },
-            { prompt: "正確には何が問題なのですか？", target: "What exactly is the problem?", words: ["What", "exactly", "is", "the", "problem?"] },
-            { prompt: "設定するのを手伝わせてください。", target: "Let me help you to set it up.", words: ["Let", "me", "help", "you", "to", "set", "it", "up."] },
-            { prompt: "本当にありがとうございます、あなたのおかげで助かりました。", target: "Thank you so much, you are a lifesaver.", words: ["Thank", "you", "so", "much,", "you", "are", "a", "lifesaver."] }
-        ],
-        dropdownGames: [
-            { before: "If you want to succeed, you", options: ["should", "would", "might"], answer: "should", after: " ask for help." },
-            { before: "I will help you", options: ["to finish", "finishing", "finished"], answer: "to finish", after: " the presentation." },
-            { before: "Could you", options: ["borrow", "lend", "give"], answer: "lend", after: " me a hand with this?" },
-            { before: "I tried restarting it, but it didn't", options: ["work", "working", "worked"], answer: "work", after: "." },
-            { before: "If you follow the manual, it", options: ["ought to", "must only", "was supposed to"], answer: "ought to", after: " run smoothly." }
-        ],
-        roleplay: {
-            a: "You are stuck on a technical task at work. Check if your colleague is busy, explain that you are stuck, and ask for help. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは職場で技術的なタスクに行き詰まっています。同僚が忙しいか確認し、行き詰まっていることを説明し、助けを求めてください。)</span>",
-            b: "You are the colleague. Offer assistance using 'help you to'. Give conditional advice using 'If you want to... you should...'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは同僚です。「help you to」を使って支援を申し出てください。「If you want to... you should...」を使って条件付きのアドバイスをしてください。)</span>"
-        },
-        homework: {
-            vocab: [
-                { eng: "Reach out", jpn: "連絡を取る、助けを求める", exEng: "I reached out to the IT guy for help.", exJpn: "助けを求めてIT担当者に連絡を取りました。" },
-                { eng: "Figure out", jpn: "理解する、解決策を見つける", exEng: "We finally figured out what caused the error.", exJpn: "私たちはついに何がエラーを引き起こしたのかを見つけ出しました。" },
-                { eng: "Help out", jpn: "助ける、手伝う", exEng: "Can you help me out with this heavy box?", exJpn: "この重い箱を運ぶのを手伝ってくれませんか？" },
-                { eng: "Pitch in", jpn: "協力する、手伝う", exEng: "If everyone pitches in, we can finish early.", exJpn: "全員が協力すれば、早く終わらせることができます。" },
-                { eng: "Rely on", jpn: "〜に頼る", exEng: "You can rely on my expertise.", exJpn: "私の専門知識に頼って構いません。" },
-                { eng: "Depend on", jpn: "〜による、依存する", exEng: "The solution depends on the software version.", exJpn: "解決策はソフトウェアのバージョンによります。" },
-                { eng: "Look into", jpn: "調査する", exEng: "I will look into the error message for you.", exJpn: "あなたのためにそのエラーメッセージを調査します。" },
-                { eng: "Find out", jpn: "判明する、見つけ出す", exEng: "I need to find out why the system crashed.", exJpn: "なぜシステムがクラッシュしたのか原因を見つけ出す必要があります。" },
-                { eng: "Run into", jpn: "遭遇する", exEng: "I ran into a problem while uploading the file.", exJpn: "ファイルをアップロード中に問題に遭遇しました。" },
-                { eng: "Deal with", jpn: "〜に対処する", exEng: "I hate dealing with technical glitches.", exJpn: "技術的な不具合に対処するのは嫌いです。" },
-                { eng: "Catch up", jpn: "追いつく、近況を報告し合う", exEng: "I need your help to catch up on this project.", exJpn: "このプロジェクトの遅れを取り戻すためにあなたの助けが必要です。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "He pointed out a simple mistake in my code.", exJpn: "彼は私のコードの単純なミスを指摘しました。" },
-                { eng: "Sort out", jpn: "解決する、整理する", exEng: "Let's sort out this mess together.", exJpn: "一緒にこの混乱を解決しましょう。" },
-                { eng: "Walk through", jpn: "（手順を）順を追って説明する", exEng: "I will walk you through the setup process.", exJpn: "セットアップの手順を順を追って説明します。" },
-                { eng: "Sum up", jpn: "要約する", exEng: "Can you sum up the problem for me?", exJpn: "私にその問題を要約してくれませんか？" },
-                { eng: "Write down", jpn: "書き留める", exEng: "Write down these step-by-step instructions.", exJpn: "これらの段階的な指示を書き留めてください。" },
-                { eng: "Set up", jpn: "設定する", exEng: "I will help you set up the new software.", exJpn: "新しいソフトウェアを設定するのを手伝います。" },
-                { eng: "Check in", jpn: "状況を確認する", exEng: "I'll check in later to see if it worked.", exJpn: "後でうまくいったかどうか状況を確認しますね。" }
-            ],
-            writingTask: {
-                promptEng: "Write a short dialogue where you ask a coworker for help with a computer issue. Use 'help to' and a conditional advice sentence ('If you want to..., you should...').",
-                promptJpn: "「同僚にコンピューターの問題について助けを求める短い対話を書いてください。『help to』と条件付きのアドバイス文（『If you want to..., you should...』）を使用してください。」"
+        "grammarPoints": [
+            {
+                "point": "1. Modals: Expressing conditional advice (If + present, you should/ought to)",
+                "explanation": "We can use the first conditional to state a goal or situation, and then use 'should' or 'ought to' to give advice on the best way to achieve that goal.",
+                "explanationJpn": "ファースト・コンディショナルを使って目標や状況を述べ、その後「should」や「ought to」を使って、その目標を達成するための最良の方法についてアドバイスを提供できます。",
+                "examples": [
+                    { "eng": "If you want to upload large files, you should compress them.", "jpn": "大きなファイルをアップロードしたいなら、圧縮すべきです。" },
+                    { "eng": "If you follow these steps, it ought to upload smoothly.", "jpn": "これらの手順に従えば、スムーズにアップロードできるはずです（期待）。" }
+                ]
             },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Power of Asking for Help)",
-                instruction: "Read this authentic text about the psychology of seeking assistance in the workplace.",
-                eng: "In highly competitive corporate environments, many employees view asking for help as a sign of weakness or incompetence. New hires, in particular, often suffer in silence, spending hours struggling with a technical glitch or a misunderstood assignment rather than simply asking a colleague for guidance. This fear is rooted in 'imposter syndrome'—the anxiety that if you reveal a gap in your knowledge, you will be exposed as a fraud. However, organizational psychologists strongly emphasize that requesting assistance is actually a key indicator of emotional intelligence and professional confidence. Recognizing when you are stuck and efficiently securing the resources you need demonstrates that you prioritize the project's success over your own ego.\n\nWhen you ask a colleague for help, you are not just solving a problem; you are building a professional relationship. People naturally enjoy feeling helpful and valued for their expertise. The 'Ben Franklin effect' is a famous psychological phenomenon which suggests that when we do a favor for someone, we actually like them more afterward. Therefore, saying 'I am really stuck on this, could you lend me a hand?' can effectively break the ice and build camaraderie within a team. \n\nOf course, there is a right and wrong way to ask for assistance. Before approaching a busy colleague, you should attempt to troubleshoot the problem independently. When you do ask for help, clearly state what the specific issue is and what solutions you have already tried, such as, 'I tried restarting it, but it didn't work.' This shows respect for your colleague's time. After they walk you through the solution, offering sincere gratitude—like 'You are a lifesaver'—ensures that they will be happy to bail you out the next time you encounter a hurdle. Ultimately, a collaborative culture relies on individuals being vulnerable enough to ask for help, and generous enough to provide it.",
-                jpn: "競争の激しい企業環境において、多くの従業員は助けを求めることを弱さや無能さの表れと見なしています。特に新入社員はしばしば黙って苦しみ、単に同僚に指導を求めるのではなく、技術的な不具合や誤解した課題に何時間も苦闘します。この恐怖は「インポスター症候群」—自分の知識のギャップを明らかにしてしまえば、詐欺師として暴かれるのではないかという不安—に根ざしています。しかし、組織心理学者は、支援を要請することは実際には心の知能指数とプロとしての自信の重要な指標であると強く強調しています。自分が行き詰まっていることを認識し、必要なリソースを効率的に確保することは、あなた自身の自尊心よりもプロジェクトの成功を優先していることを示しています。\n\n同僚に助けを求めるとき、あなたは単に問題を解決しているだけではなく、仕事上の関係を築いているのです。人々は自然と、役に立っていると感じることや、自分の専門知識が評価されることを楽しみます。「ベン・フランクリン効果」は有名な心理現象であり、私たちが誰かのために親切な行いをすると、その後実際にその人のことがより好きになるということを示唆しています。したがって、「これに本当に行き詰まっているので、手を貸していただけませんか？」と言うことは、効果的に緊張をほぐし、チーム内に仲間意識を築くことができるのです。\n\nもちろん、支援を求めるには正しい方法と間違った方法があります。忙しい同僚にアプローチする前に、あなたは独立して問題をトラブルシューティングしようと試みるべきです。実際に助けを求めるときは、「再起動してみたのですが、ダメでした」のように、具体的な問題が何であるか、そしてすでにどんな解決策を試したかを明確に述べてください。これは同僚の時間への敬意を示します。彼らが解決策を順を追って説明してくれた後、「あなたは命の恩人です（おかげで助かりました）」のように誠実な感謝を提供することは、次にあなたが障害に遭遇したときにも彼らが喜んで救い出してくれることを保証します。最終的に、協力的な文化は、個人が助けを求めるほどに弱さをさらけ出し、そしてそれを提供するほどに寛大であることに依存しているのです。"
+            {
+                "point": "2. Verbs: Expressing assistance (help + to + verb)",
+                "explanation": "We can use 'help' followed by an object and an infinitive ('to' + verb) to describe assisting someone. In modern English, it is also perfectly acceptable to omit the 'to' (e.g., help you set it up).",
+                "explanationJpn": "「help」の後に目的語と不定詞（「to」＋動詞の原形）を使用して、誰かを支援することを説明できます。現代英語では、「to」を省略することも完全に許容されます（例：help you set it up）。",
+                "examples": [
+                    { "eng": "Let me help you to set it up.", "jpn": "設定するのを手伝わせてください。" },
+                    { "eng": "I will help you to finish the report.", "jpn": "レポートを終わらせるのを手伝います。" }
+                ]
+            }
+        ],
+        "homework": {
+            "vocab": [
+                { "eng": "Reach out", "jpn": "連絡を取る、助けを求める", "exEng": "I reached out to the IT guy for help.", "exJpn": "助けを求めてIT担当者に連絡を取りました。" },
+                { "eng": "Figure out", "jpn": "理解する、解決策を見つける", "exEng": "We finally figured out what caused the error.", "exJpn": "私たちはついに何がエラーを引き起こしたのかを見つけ出しました。" },
+                { "eng": "Help out", "jpn": "助ける、手伝う", "exEng": "Can you help me out with this heavy box?", "exJpn": "この重い箱を運ぶのを手伝ってくれませんか？" },
+                { "eng": "Pitch in", "jpn": "協力する、手伝う", "exEng": "If everyone pitches in, we can finish early.", "exJpn": "全員が協力すれば、早く終わらせることができます。" },
+                { "eng": "Rely on", "jpn": "〜に頼る", "exEng": "You can rely on my expertise.", "exJpn": "私の専門知識に頼って構いません。" },
+                { "eng": "Depend on", "jpn": "〜による、依存する", "exEng": "The solution depends on the software version.", "exJpn": "解決策はソフトウェアのバージョンによります。" },
+                { "eng": "Look into", "jpn": "調査する", "exEng": "I will look into the error message for you.", "exJpn": "あなたのためにそのエラーメッセージを調査します。" },
+                { "eng": "Find out", "jpn": "判明する、見つけ出す", "exEng": "I need to find out why the system crashed.", "exJpn": "なぜシステムがクラッシュしたのか原因を見つけ出す必要があります。" },
+                { "eng": "Run into", "jpn": "遭遇する", "exEng": "I ran into a problem while uploading the file.", "exJpn": "ファイルをアップロード中に問題に遭遇しました。" },
+                { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "I hate dealing with technical glitches.", "exJpn": "技術的な不具合に対処するのは嫌いです。" },
+                { "eng": "Catch up", "jpn": "追いつく、近況を報告し合う", "exEng": "I need your help to catch up on this project.", "exJpn": "このプロジェクトの遅れを取り戻すためにあなたの助けが必要です。" },
+                { "eng": "Point out", "jpn": "指摘する", "exEng": "He pointed out a simple mistake in my code.", "exJpn": "彼は私のコードの単純なミスを指摘しました。" },
+                { "eng": "Sort out", "jpn": "解決する、整理する", "exEng": "Let's sort out this mess together.", "exJpn": "一緒にこの混乱を解決しましょう。" },
+                { "eng": "Walk through", "jpn": "（手順を）順を追って説明する", "exEng": "I will walk you through the setup process.", "exJpn": "セットアップの手順を順を追って説明します。" },
+                { "eng": "Sum up", "jpn": "要約する", "exEng": "Can you sum up the problem for me?", "exJpn": "私にその問題を要約してくれませんか？" },
+                { "eng": "Write down", "jpn": "書き留める", "exEng": "Write down these step-by-step instructions.", "exJpn": "これらの段階的な指示を書き留めてください。" },
+                { "eng": "Set up", "jpn": "設定する", "exEng": "I will help you set up the new software.", "exJpn": "新しいソフトウェアを設定するのを手伝います。" },
+                { "eng": "Check in", "jpn": "状況を確認する", "exEng": "I'll check in later to see if it worked.", "exJpn": "後でうまくいったかどうか状況を確認しますね。" }
+            ],
+            "clickingGames": [
+                { "prompt": "大きなファイルをアップロードしたいなら、圧縮すべきです。", "target": "If you want to upload large files, you should compress them.", "words": ["If", "you", "want", "to", "upload", "large", "files,", "you", "should", "compress", "them."] },
+                { "prompt": "これらの手順に従えば、スムーズにアップロードできるはずです。", "target": "If you follow these steps, it ought to upload smoothly.", "words": ["If", "you", "follow", "these", "steps,", "it", "ought", "to", "upload", "smoothly."] },
+                { "prompt": "承認が必要なら、マネージャーに聞くべきです。", "target": "If you need approval, you should ask the manager.", "words": ["If", "you", "need", "approval,", "you", "should", "ask", "the", "manager."] },
+                { "prompt": "時間がないなら、先にデータを送るべきです。", "target": "If you are short on time, you ought to send data early.", "words": ["If", "you", "are", "short", "on", "time,", "you", "ought", "to", "send", "data", "early."] },
+                { "prompt": "設定するのを手伝わせてください。", "target": "Let me help you to set it up.", "words": ["Let", "me", "help", "you", "to", "set", "it", "up."] },
+                { "prompt": "レポートを終わらせるのを手伝います。", "target": "I will help you to finish the report.", "words": ["I", "will", "help", "you", "to", "finish", "the", "report."] },
+                { "prompt": "問題を解決するのを手伝います。", "target": "I can help you to fix the error.", "words": ["I", "can", "help", "you", "to", "fix", "the", "error."] },
+                { "prompt": "スライドをまとめるのを手伝いましょうか？", "target": "Can I help you to organize the slides?", "words": ["Can", "I", "help", "you", "to", "organize", "the", "slides?"] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 10 - Feature Box on Asking for Help)",
+                "instruction": "Read this practical guide on asking for help and troubleshooting at work. Notice conditional advice and 'help to'.",
+                "eng": "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>🆘 Asking for Help &amp; Troubleshooting Smoothly</h3><p>When you feel stuck on an urgent matter, check if a colleague has a few minutes before asking them to lend a hand. State what went wrong and what you already tried—for example, restarting the app—so they see your effort right away.</p><p><strong>💡 Giving Clear Guidance:</strong> If you want to upload large files, you should compress them into a zip folder first. Let me help you to set it up step by step, and if you follow these steps, the upload ought to work smoothly.</p><p><strong>🤝 Building Team Trust:</strong> Saying you are a lifesaver after a teammate bails you out builds goodwill, and offering support back keeps the workload fair.</p></div></div>",
+                "jpn": "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>🆘 助けを求め、スムーズにトラブル解決する方法</h3><p>緊急事項で行き詰まったときは、手を貸してもらう前に同僚に数分の余裕があるか確認しましょう。アプリを再起動するなど、何がうまくいかず何をすでに試したかを伝えることで、あなたの努力がすぐに伝わります。</p><p><strong>💡 分かりやすい指導のコツ：</strong> 大きなファイルをアップロードしたいなら、まずzipフォルダに圧縮すべきです。順を追って設定するのを手伝いましょう。これらの手順に従えば、アップロードはスムーズに動くはずです。</p><p><strong>🤝 チームの信頼を築く：</strong> チームメンバーが助けてくれた後に「おかげで助かった（lifesaver）」と伝えることで好意が生まれ、お互いにサポートし合うことで仕事量も公平に保てます。</p></div></div>"
+            },
+            "writingTask": {
+                "promptEng": "Write a short dialogue where you ask a coworker for help with a computer issue. Use 'help to' and a conditional advice sentence ('If you want to..., you should...').",
+                "promptJpn": "「同僚にコンピューターの問題について助けを求める短い対話を書いてください。『help to』と条件付きのアドバイス文（『If you want to..., you should...』）を使用してください。」"
             }
         }
     },
     {
-        id: 61,
-        chapter: "Chapter 9: Teamwork",
-        type: "opinion",
-        title: "Lesson 61: Opinion Exchange - Introverts and Extroverts in Teams",
-        goal: "Discuss personality types in teamwork, team dynamics, and express general truths using the zero conditional. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(チームワークにおける性格タイプやチームの力学について話し合い、ゼロ・コンディショナルを使って一般的な真理を表現する。)</span>",
-        topicIntroduction: {
-            title: "Topic Introduction",
-            instruction: "Listen to three professionals introducing today's discussion themes on personality types in the workplace.",
-            speakers: [
-                { 
-                    name: "Person 1", 
-                    eng: "I am a classic extrovert, and I believe that high-energy communication is the key to successful teamwork. If we face a difficult problem, I want to gather everyone in a room and brainstorm out loud. I get my best ideas when I am bouncing thoughts off other people. In a team, extroverts usually take on leadership roles because we are comfortable speaking in public and making quick decisions. However, I know that we can sometimes dominate the conversation. If I lead a meeting, I have to consciously remind myself to stop talking and ask others for their opinions. A team without extroverts can be a bit too quiet and slow to take action.", 
-                    jpn: "私は典型的な外向型（エクストロバート）であり、エネルギーに満ちたコミュニケーションが成功するチームワークの鍵だと信じています。もし私たちが難しい問題に直面したら（ゼロ・コンディショナル）、私は全員を部屋に集めて声に出してブレインストーミングをしたいです。私は他の人と意見をぶつけ合っているときに最高のアイデアを思いつきます。チームにおいて、外向型の人は人前で話したり素早く決定を下したりすることに抵抗がないため、通常リーダーシップの役割を担います。しかし、私たちが時として会話を支配してしまう可能性があることはわかっています。もし私が会議を進行するなら、話すのをやめて他の人に意見を求めるよう、意識的に自分に言い聞かせなければなりません。外向型がいないチームは少し静かすぎて、行動を起こすのが遅くなる可能性があります。" 
+        "id": 61,
+        "chapter": "Chapter 9: Teamwork",
+        "type": "opinion",
+        "title": "Lesson 61: Opinion Exchange - Introverts and Extroverts in Teams",
+        "goal": "Discuss personality types in teamwork, team dynamics, and express general truths using the zero conditional. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(チームワークにおける性格タイプやチームの力学について話し合い、ゼロ・コンディショナルを使って一般的な真理を表現する。)</span>",
+        "topicIntroduction": {
+            "title": "Topic Introduction",
+            "instruction": "Listen to three professionals introducing today's discussion themes on personality types in the workplace.",
+            "speakers": [
+                {
+                    "name": "Person 1",
+                    "eng": "I am a classic extrovert, and I believe that high-energy communication is the key to successful teamwork. If we face a difficult problem, I want to gather everyone in a room and brainstorm out loud. I get my best ideas when I am bouncing thoughts off other people. In a team, extroverts usually take on leadership roles because we are comfortable speaking in public and making quick decisions. However, I know that we can sometimes dominate the conversation. If I lead a meeting, I have to consciously remind myself to stop talking and ask others for their opinions. A team without extroverts can be a bit too quiet and slow to take action.",
+                    "jpn": "私は典型的な外向型（エクストロバート）であり、エネルギーに満ちたコミュニケーションが成功するチームワークの鍵だと信じています。もし私たちが難しい問題に直面したら、私は全員を部屋に集めて声に出してブレインストーミングをしたいです。私は他の人と意見をぶつけ合っているときに最高のアイデアを思いつきます。チームにおいて、外向型の人は人前で話したり素早く決定を下したりすることに抵抗がないため、通常リーダーシップの役割を担います。しかし、私たちが時として会話を支配してしまう可能性があることはわかっています。もし私が会議を進行するなら、話すのをやめて他の人に意見を求めるよう、意識的に自分に言い聞かせなければなりません。外向型がいないチームは少し静かすぎて、行動を起こすのが遅くなる可能性があります。"
                 },
-                { 
-                    name: "Person 2", 
-                    eng: "I am definitely an introvert, and I think our working style is often misunderstood in the corporate world. If an introvert stays quiet in a meeting, it doesn't mean they are disengaged; it means they are thinking deeply. We prefer to process information internally before we speak. Personally, I hate being forced to brainstorm on the spot. If you want my best ideas, you need to send me the agenda beforehand so I can prepare. Introverts are usually very good at listening, analyzing risks, and focusing on complex tasks for long periods of time. A team full of extroverts might generate a hundred ideas, but they need introverts to actually execute the details.", 
-                    jpn: "私は間違いなく内向型（イントロバート）であり、私たちの働き方は企業の世界でしばしば誤解されていると思います。もし内向型の人が会議で静かにしているなら、それは参加していない（関心がない）という意味ではありません。彼らは深く考えているという意味なのです。私たちは話す前に内部で情報を処理することを好みます。個人的には、その場でブレインストーミングを強制されるのは嫌いです。もし私の最高のアイデアが欲しいなら、準備できるように事前にアジェンダを送る必要があります。内向型の人は通常、人の話を聞き、リスクを分析し、長期間複雑なタスクに集中することに非常に長けています。外向型ばかりのチームは100個のアイデアを生み出すかもしれませんが、実際にその詳細を実行するには内向型が必要なのです。" 
+                {
+                    "name": "Person 2",
+                    "eng": "I am definitely an introvert, and I think our working style is often misunderstood in the corporate world. If an introvert stays quiet in a meeting, it doesn't mean they are disengaged; it means they are thinking deeply. We prefer to process information internally before we speak. Personally, I hate being forced to brainstorm on the spot. If you want my best ideas, you need to send me the agenda beforehand so I can prepare. Introverts are usually very good at listening, analyzing risks, and focusing on complex tasks for long periods of time. A team full of extroverts might generate a hundred ideas, but they need introverts to actually execute the details.",
+                    "jpn": "私は間違いなく内向型（イントロバート）であり、私たちの働き方は企業の世界でしばしば誤解されていると思います。もし内向型の人が会議で静かにしているなら、それは参加していない（関心がない）という意味ではありません。彼らは深く考えているという意味なのです。私たちは話す前に内部で情報を処理することを好みます。個人的には、その場でブレインストーミングを強制されるのは嫌いです。もし私の最高のアイデアが欲しいなら、準備できるように事前にアジェンダを送る必要があります。内向型の人は通常、人の話を聞き、リスクを分析し、長期間複雑なタスクに集中することに非常に長けています。外向型ばかりのチームは100個のアイデアを生み出すかもしれませんが、実際にその詳細を実行するには内向型が必要なのです。"
                 },
-                { 
-                    name: "Person 3", 
-                    eng: "I am an HR manager, and I can tell you that the most successful teams are perfectly balanced. If a team has only extroverts, they will constantly argue for attention and make reckless decisions. If a team has only introverts, they will struggle to communicate and might never launch the product. The magic happens when different personality types complement each other. The challenge is creating a team culture where both types feel valued. For example, we use a mix of live brainstorming for the extroverts and shared digital documents for the introverts to write their thoughts later. Good teamwork is about understanding how your colleagues work best and adapting your style to support them.", 
-                    jpn: "私は人事マネージャーですが、最も成功しているチームは完璧にバランスが取れていると断言できます。もしチームが外向型だけなら、彼らは常に注目を集めようと言い争い、無謀な決定を下すでしょう。もしチームが内向型だけなら、彼らはコミュニケーションに苦労し、製品を世に出すことはないかもしれません。魔法は、異なる性格タイプが互いを補い合うときに起こります。課題は、両方のタイプが評価されていると感じるチーム文化を作ることです。例えば、私たちは外向型のためのライブでのブレインストーミングと、内向型が後で考えを書くための共有デジタルドキュメントを組み合わせて使っています。良いチームワークとは、同僚がどのように最もよく働くかを理解し、彼らをサポートするために自分のスタイルを適応させることなのです。" 
+                {
+                    "name": "Person 3",
+                    "eng": "I am an HR manager, and I can tell you that the most successful teams are perfectly balanced. If a team has only extroverts, they will constantly argue for attention and make reckless decisions. If a team has only introverts, they will struggle to communicate and might never launch the product. The magic happens when different personality types complement each other. The challenge is creating a team culture where both types feel valued. For example, we use a mix of live brainstorming for the extroverts and shared digital documents for the introverts to write their thoughts later. Good teamwork is about understanding how your colleagues work best and adapting your style to support them.",
+                    "jpn": "私は人事マネージャーですが、最も成功しているチームは完璧にバランスが取れていると断言できます。もしチームが外向型だけなら、彼らは常に注目を集めようと言い争い、無謀な決定を下すでしょう。もしチームが内向型だけなら、彼らはコミュニケーションに苦労し、製品を世に出すことはないかもしれません。魔法は、異なる性格タイプが互いを補い合うときに起こります。課題は、両方のタイプが評価されていると感じるチーム文化を作ることです。例えば、私たちは外向型のためのライブでのブレインストーミングと、内向型が後で考えを書くための共有デジタルドキュメントを組み合わせて使っています。良いチームワークとは、同僚がどのように最もよく働くかを理解し、彼らをサポートするために自分のスタイルを適応させることなのです。"
                 }
             ]
         },
-        discussionTopics: [
-            { theme: "Personality Types 📖", themeJpn: "性格タイプ", sub: [{eng: "Introverts", jpn: "内向型の人"}, {eng: "Extroverts", jpn: "外向型の人"}, {eng: "Misunderstandings", jpn: "誤解"}] },
-            { theme: "Communication Styles 📖", themeJpn: "コミュニケーションスタイル", sub: [{eng: "Thinking out loud", jpn: "声に出して考える"}, {eng: "Internal processing", jpn: "内部での処理（熟考）"}, {eng: "Listening skills", jpn: "傾聴スキル"}] },
-            { theme: "Meeting Dynamics 📖", themeJpn: "会議の力学", sub: [{eng: "Dominating the conversation", jpn: "会話を支配すること"}, {eng: "Staying quiet", jpn: "静かにしていること"}, {eng: "Sending agendas early", jpn: "アジェンダを早めに送ること"}] },
-            { theme: "Team Balance 📖", themeJpn: "チームのバランス", sub: [{eng: "Complementing each other", jpn: "互いを補完し合うこと"}, {eng: "Executing details", jpn: "詳細を実行すること"}, {eng: "Generating ideas", jpn: "アイデアを生み出すこと"}] },
-            { theme: "Leadership 📖", themeJpn: "リーダーシップ", sub: [{eng: "Making quick decisions", jpn: "素早い決定を下す"}, {eng: "Analyzing risks", jpn: "リスクを分析する"}, {eng: "Adapting your style", jpn: "自分のスタイルを適応させる"}] },
-            { theme: "Work Environments 📖", themeJpn: "労働環境", sub: [{eng: "Live brainstorming", jpn: "ライブ（その場での）ブレインストーミング"}, {eng: "Digital documents", jpn: "デジタル文書"}, {eng: "Feeling valued", jpn: "評価されていると感じること"}] }
+        "discussionTopics": [
+            { "theme": "Personality Types 📖", "themeJpn": "性格タイプ", "sub": [{ "eng": "Introverts", "jpn": "内向型の人" }, { "eng": "Extroverts", "jpn": "外向型の人" }, { "eng": "Misunderstandings", "jpn": "誤解" }] },
+            { "theme": "Communication Styles 📖", "themeJpn": "コミュニケーションスタイル", "sub": [{ "eng": "Thinking out loud", "jpn": "声に出して考える" }, { "eng": "Internal processing", "jpn": "内部での処理（熟考）" }, { "eng": "Listening skills", "jpn": "傾聴スキル" }] },
+            { "theme": "Meeting Dynamics 📖", "themeJpn": "会議の力学", "sub": [{ "eng": "Dominating the conversation", "jpn": "会話を支配すること" }, { "eng": "Staying quiet", "jpn": "静かにしていること" }, { "eng": "Sending agendas early", "jpn": "アジェンダを早めに送ること" }] },
+            { "theme": "Team Balance 📖", "themeJpn": "チームのバランス", "sub": [{ "eng": "Complementing each other", "jpn": "互いを補完し合うこと" }, { "eng": "Executing details", "jpn": "詳細を実行すること" }, { "eng": "Generating ideas", "jpn": "アイデアを生み出すこと" }] },
+            { "theme": "Leadership 📖", "themeJpn": "リーダーシップ", "sub": [{ "eng": "Making quick decisions", "jpn": "素早い決定を下す" }, { "eng": "Analyzing risks", "jpn": "リスクを分析する" }, { "eng": "Adapting your style", "jpn": "自分のスタイルを適応させる" }] },
+            { "theme": "Work Environments 📖", "themeJpn": "労働環境", "sub": [{ "eng": "Live brainstorming", "jpn": "ライブ（その場での）ブレインストーミング" }, { "eng": "Digital documents", "jpn": "デジタル文書" }, { "eng": "Feeling valued", "jpn": "評価されていると感じること" }] }
         ],
-        questions: [
-            { eng: "1. Do you consider yourself to be more of an introvert or an extrovert?", jpn: "1. 自分自身は内向型と外向型のどちらに近いと考えていますか？" },
-            { eng: "2. If you face a difficult problem at work, do you prefer to talk about it or think about it alone?", jpn: "2. 仕事で難しい問題に直面した場合、それについて話すのと一人で考えるのとでは、どちらが好きですか？" },
-            { eng: "3. Have you ever worked with someone who completely dominated meetings?", jpn: "3. 会議を完全に支配してしまう人と一緒に働いたことはありますか？" },
-            { eng: "4. Why is it sometimes difficult for introverts and extroverts to understand each other?", jpn: "4. 内向型と外向型が互いを理解するのが時に難しいのはなぜですか？" },
-            { eng: "5. If a team has only extroverts, what kind of problems might they experience?", jpn: "5. もしチームが外向型だけだったら、どのような問題を経験する可能性がありますか？" },
-            { eng: "6. Do you think society rewards extroverts more than introverts?", jpn: "6. 社会は内向型よりも外向型を高く評価している（報いている）と思いますか？" },
-            { eng: "7. How can a manager make sure that quiet team members share their brilliant ideas?", jpn: "7. マネージャーは、物静かなチームメンバーが素晴らしいアイデアを確実に共有できるようにするにはどうすればよいですか？" },
-            { eng: "8. Are introverts actually better at executing complex, detailed tasks?", jpn: "8. 実際には内向型の方が、複雑で詳細なタスクを実行するのに長けているのでしょうか？" },
-            { eng: "9. If you are leading a project, how do you balance different personality types?", jpn: "9. もしあなたがプロジェクトを率いているとしたら、異なる性格タイプのバランスをどのように取りますか？" },
-            { eng: "10. In your opinion, can an introvert become a highly successful CEO?", jpn: "10. あなたの意見では、内向型の人が大成功するCEOになることは可能ですか？" }
+        "questions": [
+            { "eng": "1. Do you consider yourself to be more of an introvert or an extrovert?", "jpn": "1. 自分自身は内向型と外向型のどちらに近いと考えていますか？" },
+            { "eng": "2. If you face a difficult problem at work, do you prefer to talk about it or think about it alone?", "jpn": "2. 仕事で難しい問題に直面した場合、それについて話すのと一人で考えるのとでは、どちらが好きですか？" },
+            { "eng": "3. Have you ever worked with someone who completely dominated meetings?", "jpn": "3. 会議を完全に支配してしまう人と一緒に働いたことはありますか？" },
+            { "eng": "4. Why is it sometimes difficult for introverts and extroverts to understand each other?", "jpn": "4. 内向型と外向型が互いを理解するのが時に難しいのはなぜですか？" },
+            { "eng": "5. If a team has only extroverts, what kind of problems might they experience?", "jpn": "5. もしチームが外向型だけだったら、どのような問題を経験する可能性がありますか？" },
+            { "eng": "6. Do you think society rewards extroverts more than introverts?", "jpn": "6. 社会は内向型よりも外向型を高く評価している（報いている）と思いますか？" },
+            { "eng": "7. How can a manager make sure that quiet team members share their brilliant ideas?", "jpn": "7. マネージャーは、物静かなチームメンバーが素晴らしいアイデアを確実に共有できるようにするにはどうすればよいですか？" },
+            { "eng": "8. Are introverts actually better at executing complex, detailed tasks?", "jpn": "8. 実際には内向型の方が、複雑で詳細なタスクを実行するのに長けているのでしょうか？" },
+            { "eng": "9. If you are leading a project, how do you balance different personality types?", "jpn": "9. もしあなたがプロジェクトを率いているとしたら、異なる性格タイプのバランスをどのように取りますか？" },
+            { "eng": "10. In your opinion, can an introvert become a highly successful CEO?", "jpn": "10. あなたの意見では、内向型の人が大成功するCEOになることは可能ですか？" }
         ],
-        vocab: [
-            { eng: "introvert", jpn: "内向的な人" },
-            { eng: "extrovert", jpn: "外向的な人" },
-            { eng: "dynamic", jpn: "力学 / 動態 / 活力" },
-            { eng: "complement each other", jpn: "互いを補完し合う" },
-            { eng: "dominate", jpn: "支配する / 独占する" },
-            { eng: "execute", jpn: "実行する" },
-            { eng: "reckless", jpn: "無謀な" },
-            { eng: "out loud", jpn: "声に出して" },
-            { eng: "on the spot", jpn: "その場で / 即座に (慣用句)" },
-            { eng: "bouncing ideas off", jpn: "（人の反応を見るために）アイデアをぶつけ合う (くだけた表現)" },
-            { eng: "think things through", jpn: "物事を徹底的に考える (慣用句)" },
-            { eng: "step back", jpn: "一歩下がる / 身を引く (一般用語)" }
+        "vocab": [
+            { "eng": "introvert", "jpn": "内向的な人" },
+            { "eng": "extrovert", "jpn": "外向的な人" },
+            { "eng": "dynamic", "jpn": "力学 / 動態 / 活力" },
+            { "eng": "complement each other", "jpn": "互いを補完し合う" },
+            { "eng": "dominate", "jpn": "支配する / 独占する" },
+            { "eng": "execute", "jpn": "実行する" },
+            { "eng": "reckless", "jpn": "無謀な" },
+            { "eng": "out loud", "jpn": "声に出して" },
+            { "eng": "on the spot", "jpn": "その場で / 即座に (慣用句)" },
+            { "eng": "bouncing ideas off", "jpn": "（人の反応を見るために）アイデアをぶつけ合う (くだけた表現)" },
+            { "eng": "think things through", "jpn": "物事を徹底的に考える (慣用句)" },
+            { "eng": "step back", "jpn": "一歩下がる / 身を引く (一般用語)" }
         ],
-        grammarPoints: [
+        "grammarPoints": [
             {
-                point: "1. Zero Conditional: Expressing general truths or rules (If + present, present)",
-                explanation: "We use the zero conditional to talk about facts, general truths, or logical consequences that are always true. It is very useful when discussing human psychology and teamwork dynamics.",
-                explanationJpn: "ゼロ・コンディショナル（If + 現在形, 現在形）を使って、事実、一般的な真理、または常に真である論理的結果について話します。人間の心理やチームワークの力学について議論する際に非常に役立ちます。",
-                examples: [
-                    { eng: "If an introvert stays quiet, it doesn't mean they are disengaged.", jpn: "内向型の人が静かにしている場合、それは彼らが参加していない（関心がない）という意味ではありません。" },
-                    { eng: "If you want my best ideas, you need to send me the agenda beforehand.", jpn: "私の最高のアイデアが欲しいなら、事前にアジェンダを送る必要があります。" }
+                "point": "1. Zero Conditional: Expressing general truths or rules (If + present, present)",
+                "explanation": "We use the zero conditional to talk about facts, general truths, or logical consequences that are always true. It is very useful when discussing human psychology and teamwork dynamics.",
+                "explanationJpn": "ゼロ・コンディショナル（If + 現在形, 現在形）を使って、事実、一般的な真理、または常に真である論理的結果について話します。人間の心理やチームワークの力学について議論する際に非常に役立ちます。",
+                "examples": [
+                    { "eng": "If an introvert stays quiet, it doesn't mean they are disengaged.", "jpn": "内向型の人が静かにしている場合、それは彼らが参加していない（関心がない）という意味ではありません。" },
+                    { "eng": "If you want my best ideas, you need to send me the agenda beforehand.", "jpn": "私の最高のアイデアが欲しいなら、事前にアジェンダを送る必要があります。" }
                 ]
             },
             {
-                point: "2. Gerunds after Prepositions (prep + V-ing)",
-                explanation: "When a verb follows a preposition (like at, for, about, in, without), it must be in the gerund (-ing) form. This is common when discussing skills.",
-                explanationJpn: "動詞が前置詞（at, for, about, in, withoutなど）の後に続く場合、それは動名詞（-ing）形にならなければなりません。これはスキルについて話し合うときによく使われます。",
-                examples: [
-                    { eng: "Introverts are very good at analyzing risks.", jpn: "内向型の人はリスクを分析することに非常に長けています。" },
-                    { eng: "Good teamwork is about understanding how your colleagues work.", jpn: "良いチームワークとは、同僚がどのように働くかを理解することです。" }
+                "point": "2. Gerunds after Prepositions (prep + V-ing)",
+                "explanation": "When a verb follows a preposition (like at, for, about, in, without), it must be in the gerund (-ing) form. This is common when discussing skills.",
+                "explanationJpn": "動詞が前置詞（at, for, about, in, withoutなど）の後に続く場合、それは動名詞（-ing）形にならなければなりません。これはスキルについて話し合うときによく使われます。",
+                "examples": [
+                    { "eng": "Introverts are very good at analyzing risks.", "jpn": "内向型の人はリスクを分析することに非常に長けています。" },
+                    { "eng": "Good teamwork is about understanding how your colleagues work.", "jpn": "良いチームワークとは、同僚がどのように働くかを理解することです。" }
                 ]
             }
         ],
-        expressions: [
-            { eng: "Generally speaking", jpn: "一般的に言えば", exampleEng: "Generally speaking, extroverts enjoy public speaking.", exampleJpn: "一般的に言えば、外向型の人は人前で話すことを楽しみます。" },
-            { eng: "On the other hand", jpn: "その一方で", exampleEng: "Introverts are quiet; on the other hand, they are great listeners.", exampleJpn: "内向型の人は静かです。その一方で、彼らは素晴らしい聞き手です。" },
-            { eng: "As a matter of fact", jpn: "実際のところ", exampleEng: "As a matter of fact, many CEOs are introverts.", exampleJpn: "実際のところ、多くのCEOは内向型です。" },
-            { eng: "To be honest", jpn: "正直に言うと", exampleEng: "To be honest, I hate brainstorming on the spot.", exampleJpn: "正直に言うと、その場でブレインストーミングするのは嫌いです。" },
-            { eng: "Bring out the best in", jpn: "〜の良さを引き出す", exampleEng: "A good manager brings out the best in both personality types.", exampleJpn: "良いマネージャーは両方の性格タイプの良さを引き出します。" }
+        "expressions": [
+            { "eng": "Generally speaking", "jpn": "一般的に言えば", "exampleEng": "Generally speaking, extroverts enjoy public speaking.", "exampleJpn": "一般的に言えば、外向型の人は人前で話すことを楽しみます。" },
+            { "eng": "On the other hand", "jpn": "その一方で", "exampleEng": "Introverts are quiet; on the other hand, they are great listeners.", "exampleJpn": "内向型の人は静かです。その一方で、彼らは素晴らしい聞き手です。" },
+            { "eng": "As a matter of fact", "jpn": "実際のところ", "exampleEng": "As a matter of fact, many CEOs are introverts.", "exampleJpn": "実際のところ、多くのCEOは内向型です。" },
+            { "eng": "To be honest", "jpn": "正直に言うと", "exampleEng": "To be honest, I hate brainstorming on the spot.", "exampleJpn": "正直に言うと、その場でブレインストーミングするのは嫌いです。" },
+            { "eng": "Bring out the best in", "jpn": "〜の良さを引き出す", "exampleEng": "A good manager brings out the best in both personality types.", "exampleJpn": "良いマネージャーは両方の性格タイプの良さを引き出します。" }
         ],
-        homework: {
-            vocab: [
-                { eng: "Deal with", jpn: "〜に対処する", exEng: "Introverts deal with stress by spending time alone.", exJpn: "内向型の人は一人の時間を過ごすことでストレスに対処します。" },
-                { eng: "Rely on", jpn: "〜に頼る", exEng: "We rely on extroverts to give the final presentations.", exJpn: "私たちは最終プレゼンテーションを行うために外向型の人に頼っています。" },
-                { eng: "Focus on", jpn: "〜に集中する", exEng: "She likes to focus on one complex task without interruptions.", exJpn: "彼女は邪魔されずに1つの複雑なタスクに集中するのが好きです。" },
-                { eng: "Think through", jpn: "徹底的に考える", exEng: "Please give me time to think through this proposal.", exJpn: "この提案を徹底的に考える時間をください。" },
-                { eng: "Speak up", jpn: "意見を言う、声を上げる", exEng: "It is hard for him to speak up in a crowded room.", exJpn: "彼にとって混雑した部屋で発言するのは難しいことです。" },
-                { eng: "Hold back", jpn: "抑える、遠慮する", exEng: "Don't hold back your ideas; we want to hear them.", exJpn: "アイデアを遠慮しないで（抑えないで）ください。私たちはそれを聞きたいのです。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "A lack of balance can result in a toxic team dynamic.", exJpn: "バランスの欠如は有害なチームの力学という結果になりかねません。" },
-                { eng: "Lead to", jpn: "〜につながる", exEng: "Bouncing ideas off each other leads to great innovations.", exJpn: "互いにアイデアをぶつけ合うことは素晴らしいイノベーションにつながります。" },
-                { eng: "Depend on", jpn: "〜による、依存する", exEng: "The project's success depends on utilizing everyone's strengths.", exJpn: "プロジェクトの成功は、全員の強みを活用することにかかっています。" },
-                { eng: "Figure out", jpn: "理解する、見つけ出す", exEng: "We need to figure out how to collaborate more effectively.", exJpn: "私たちはより効果的に協力する方法を見つけ出さなければなりません。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "The introverted engineer pointed out a major flaw in the design.", exJpn: "内向的なエンジニアが設計の大きな欠陥を指摘しました。" },
-                { eng: "Bring up", jpn: "話題を持ち出す", exEng: "I will bring up that concern during our 1-on-1 meeting.", exJpn: "1対1のミーティングの間にその懸念事項を持ち出します。" },
-                { eng: "Turn out", jpn: "〜という結果になる", exEng: "The quietest person turned out to be the best leader.", exJpn: "最も物静かな人が最高のリーダーであると判明しました。" },
-                { eng: "Sort out", jpn: "解決する、整理する", exEng: "Let the introverts sort out the detailed logistics.", exJpn: "内向型の人たちに詳細な段取りを整理させましょう。" },
-                { eng: "Take on", jpn: "引き受ける", exEng: "Extroverts often take on the role of spokesperson.", exJpn: "外向型の人はしばしばスポークスパーソン（代弁者）の役割を引き受けます。" },
-                { eng: "Give up", jpn: "諦める", exEng: "If they feel ignored, quiet employees might give up trying.", exJpn: "無視されていると感じると、物静かな従業員は努力するのを諦めてしまうかもしれません。" },
-                { eng: "Catch on", jpn: "理解する、流行る", exEng: "Managers are finally catching on to the value of introverts.", exJpn: "マネージャーたちはついに内向型の価値を理解し始めています。" },
-                { eng: "Blend in", jpn: "溶け込む", exEng: "She is an introvert who prefers to blend in rather than stand out.", exJpn: "彼女は目立つよりも溶け込むことを好む内向型です。" }
+        "homework": {
+            "vocab": [
+                { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "Introverts deal with stress by spending time alone.", "exJpn": "内向型の人は一人の時間を過ごすことでストレスに対処します。" },
+                { "eng": "Rely on", "jpn": "〜に頼る", "exEng": "We rely on extroverts to give the final presentations.", "exJpn": "私たちは最終プレゼンテーションを行うために外向型の人に頼っています。" },
+                { "eng": "Focus on", "jpn": "〜に集中する", "exEng": "She likes to focus on one complex task without interruptions.", "exJpn": "彼女は邪魔されずに1つの複雑なタスクに集中するのが好きです。" },
+                { "eng": "Think through", "jpn": "徹底的に考える", "exEng": "Please give me time to think through this proposal.", "exJpn": "この提案を徹底的に考える時間をください。" },
+                { "eng": "Speak up", "jpn": "意見を言う、声を上げる", "exEng": "It is hard for him to speak up in a crowded room.", "exJpn": "彼にとって混雑した部屋で発言するのは難しいことです。" },
+                { "eng": "Hold back", "jpn": "抑える、遠慮する", "exEng": "Don't hold back your ideas; we want to hear them.", "exJpn": "アイデアを遠慮しないで（抑えないで）ください。私たちはそれを聞きたいのです。" },
+                { "eng": "Result in", "jpn": "〜という結果になる", "exEng": "A lack of balance can result in a toxic team dynamic.", "exJpn": "バランスの欠如は有害なチームの力学という結果になりかねません。" },
+                { "eng": "Lead to", "jpn": "〜につながる", "exEng": "Bouncing ideas off each other leads to great innovations.", "exJpn": "互いにアイデアをぶつけ合うことは素晴らしいイノベーションにつながります。" },
+                { "eng": "Depend on", "jpn": "〜による、依存する", "exEng": "The project's success depends on utilizing everyone's strengths.", "exJpn": "プロジェクトの成功は、全員の強みを活用することにかかっています。" },
+                { "eng": "Figure out", "jpn": "理解する、解決策を見つける", "exEng": "We need to figure out how to collaborate more effectively.", "exJpn": "私たちはより効果的に協力する方法を見つけ出さなければなりません。" },
+                { "eng": "Point out", "jpn": "指摘する", "exEng": "The introverted engineer pointed out a major flaw in the design.", "exJpn": "内向的なエンジニアが設計の大きな欠陥を指摘しました。" },
+                { "eng": "Bring up", "jpn": "話題を持ち出す", "exEng": "I will bring up that concern during our 1-on-1 meeting.", "exJpn": "1対1のミーティングの間にその懸念事項を持ち出します。" },
+                { "eng": "Turn out", "jpn": "〜という結果になる", "exEng": "The quietest person turned out to be the best leader.", "exJpn": "最も物静かな人が最高のリーダーであると判明しました。" },
+                { "eng": "Sort out", "jpn": "解決する、整理する", "exEng": "Let the introverts sort out the detailed logistics.", "exJpn": "内向型の人たちに詳細な段取りを整理させましょう。" },
+                { "eng": "Take on", "jpn": "引き受ける", "exEng": "Extroverts often take on the role of spokesperson.", "exJpn": "外向型の人はしばしばスポークスパーソン（代弁者）の役割を引き受けます。" },
+                { "eng": "Give up", "jpn": "諦める", "exEng": "If they feel ignored, quiet employees might give up trying.", "exJpn": "無視されていると感じると、物静かな従業員は努力するのを諦めてしまうかもしれません。" },
+                { "eng": "Catch on", "jpn": "理解する、流行る", "exEng": "Managers are finally catching on to the value of introverts.", "exJpn": "マネージャーたちはついに内向型の価値を理解し始めています。" },
+                { "eng": "Blend in", "jpn": "溶け込む", "exEng": "She is an introvert who prefers to blend in rather than stand out.", "exJpn": "彼女は目立つよりも溶け込むことを好む内向型です。" }
             ],
-            writingTask: {
-                promptEng: "Write a short paragraph answering this question: Do you work better with introverts or extroverts? Use the zero conditional (If + present, present) to explain a general rule about teamwork, and use a gerund after a preposition (e.g., good at working).",
-                promptJpn: "「あなたは内向型の人と外向型の人のどちらと一緒に働く方がうまくやれますか？チームワークに関する一般的なルールを説明するためにゼロ・コンディショナル（If + 現在形, 現在形）を使用し、前置詞の後に動名詞（例：good at working）を使用して答える短い段落を書いてください。」"
-            },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Power of Introverts in the Workplace)",
-                instruction: "Read this authentic text about how modern businesses are rethinking personality types.",
-                eng: "For decades, corporate culture has inherently favored the extroverted ideal. The modern office environment—characterized by open-plan desks, endless brainstorming meetings, and a strong emphasis on aggressive networking—is practically designed to celebrate loud, highly sociable personalities. In this traditional setup, introverts are often misunderstood. If an employee is quiet during a high-stakes strategy meeting, management might incorrectly assume that they lack confidence or are simply disengaged. However, organizational psychologists are now pushing back against this bias, arguing that companies which ignore their introverted talent are losing a massive competitive advantage.\n\nIntroversion is not the same as shyness; it is simply a difference in how people respond to stimulation. If an extrovert gains energy from social interaction, an introvert recharges by spending time alone in deep thought. In the workplace, this translates to different problem-solving methods. Extroverts excel at thinking on their feet and motivating crowds. Conversely, introverts are exceptionally good at concentrating on complex data, analyzing long-term risks, and producing high-quality written communication. Because they do not feel the need to dominate conversations, introverted leaders are often much better at listening to their team members and implementing other people's ideas without ego.\n\nTo build truly high-performing teams, modern managers must create environments where both personality types can thrive. This means balancing the workflow. If a manager schedules a live brainstorming session, they should also provide a shared digital document so introverts can contribute their thoroughly processed ideas a day later. Rather than forcing introverts to act like extroverts, companies must recognize that these personalities naturally complement each other. An extrovert might boldly pitch a revolutionary new product to a client, but it is the introvert who will have carefully engineered the mechanics to ensure it actually works. Harmony is achieved when both strengths are respected.",
-                jpn: "何十年もの間、企業文化は本質的に外向的な理想を好んできました。オープンプランのデスク、終わりのないブレインストーミング会議、そして積極的なネットワーキングへの強い強調によって特徴付けられる現代のオフィス環境は、事実上、声が大きく非常に社交的な性格を称賛するように設計されています。この伝統的な構造において、内向型の人はしばしば誤解されます。もし従業員がリスクの高い戦略会議中に静かにしていると、経営陣は彼らが自信を欠いているか、単に関心がないのだと誤って思い込むかもしれません。しかし、組織心理学者は現在この偏見に反発し、内向的な才能を無視する企業は大規模な競争上の優位性を失っていると主張しています。\n\n内向性は恥ずかしがり屋と同じではありません。それは単に人々が刺激にどう反応するかの違いです。もし外向型の人が社会的交流からエネルギーを得るなら、内向型の人は深く考えながら一人で過ごすことでエネルギーを充電します。職場では、これは異なる問題解決方法に言い換えられます。外向型の人は、その場で機転を利かせて考え、群衆を動機付けることに優れています。逆に、内向型の人は、複雑なデータに集中し、長期的なリスクを分析し、高品質な書面によるコミュニケーションを生み出すことに非常に長けています。彼らは会話を支配する必要性を感じないため、内向的なリーダーはしばしば、エゴを持たずにチームメンバーの話を聞き、他人のアイデアを実行することにおいて、はるかに優れているのです。\n\n真に高いパフォーマンスを発揮するチームを築くため、現代のマネージャーは両方の性格タイプが繁栄できる環境を作らなければなりません。これはワークフローのバランスを取ることを意味します。もしマネージャーがライブのブレインストーミングセッションを予定するなら、内向型の人が1日後に自分たちの徹底的に処理されたアイデアを貢献できるように、共有のデジタル文書も提供すべきです。内向型の人に外向型のように振る舞うことを強制するのではなく、企業はこれらの性格が自然に互いを補完し合うことを認識しなければなりません。外向型の人が大胆に革命的な新製品をクライアントに提案するかもしれませんが、それが実際に機能することを確実にするためにメカニズムを注意深く設計するのは内向型の人なのです。両方の強みが尊重されたとき、調和が達成されます。"
-            }
-        }
-    },
-
-
-{
-        id: 62,
-        chapter: "Chapter 9: Teamwork",
-        type: "casestudy",
-        title: "Lesson 62: Case Study - The Cross-Functional Collapse",
-        goal: "Analyze a teamwork failure, identify causes, and propose a solution using reported speech. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(チームワークの失敗を分析し、原因を特定し、間接話法を使って解決策を提案する。)</span>",
-        vocab: [
-            { eng: "miss a deadline", jpn: "締め切りに遅れる" },
-            { eng: "blame each other", jpn: "互いに非難し合う" },
-            { eng: "lack communication", jpn: "コミュニケーションが不足する" },
-            { eng: "launch a campaign", jpn: "キャンペーンを立ち上げる" },
-            { eng: "ignore feedback", jpn: "フィードバックを無視する" },
-            { eng: "resolve a conflict", jpn: "対立を解決する" },
-            { eng: "take responsibility", jpn: "責任を取る" },
-            { eng: "fail to deliver", jpn: "提供（納品）に失敗する" },
-            { eng: "mess up", jpn: "台無しにする / 失敗する (くだけた表現)" },
-            { eng: "point fingers", jpn: "責任をなすりつける (くだけた表現)" },
-            { eng: "drop the ball", jpn: "ミスをする / 責任を果たすのを怠る (慣用句)" },
-            { eng: "toxic", jpn: "有害な / 悪影響を及ぼす (くだけた表現)" }
-        ],
-        situation: {
-            eng: "InnovaTech was preparing to launch its biggest software product of the year, 'CloudSync Pro.' The launch required perfect teamwork between the Engineering, Marketing, and Sales departments. However, the release day was a total disaster. The Marketing team heavily advertised features that the Engineering team had not actually finished building. The Sales team promised clients early access, but the servers crashed immediately because they were overloaded. Instead of working together to fix the issues, the department heads started blaming each other. The clients are furious, and the company has lost millions in potential revenue. The CEO needs to understand why these silos formed and why communication completely broke down. You must read the statements from six employees involved in this launch. Analyze their perspectives to find the root causes of the failure. Your goal is to create a step-by-step action plan to break down these silos and rebuild cross-functional teamwork.",
-            jpn: "InnovaTech社は、今年最大のソフトウェア製品「CloudSync Pro」の発売準備をしていました。この発売には、エンジニアリング、マーケティング、営業の各部門間の完璧なチームワークが必要でした。しかし、発売日は完全な大惨事となりました。マーケティングチームは、エンジニアリングチームが実際にはまだ構築し終えていない機能を大々的に宣伝しました。営業チームはクライアントに早期アクセスを約束しましたが、サーバーが過負荷になり即座にクラッシュしました。問題を修正するために協力する代わりに、部門長たちはお互いを非難し始めました。クライアントは激怒しており、会社は数百万ドルの潜在的な収益を失いました。CEOは、なぜこのようなサイロ（縦割り）が形成され、コミュニケーションが完全に崩壊したのかを理解する必要があります。あなたはこの発売に関与した6人の従業員の発言を読まなければなりません。彼らの視点を分析し、失敗の根本原因を見つけてください。あなたの目標は、これらのサイロを打破し、部門横断的なチームワークを再構築するための段階的な行動計画を作成することです。"
-        },
-        people: [
-            {
-                name: "Person 1: Mark (Lead Engineer)",
-                eng: "I told the Marketing Director that the new auto-sync feature wasn't ready. He said that they would change the advertising, but he lied. We were working 14-hour days just to keep the servers running. The sales team completely ignored our technical limits.",
-                jpn: "私はマーケティングディレクターに、新しい自動同期機能は準備できていないと伝えました。彼は広告を変更すると言いましたが、嘘でした。私たちはサーバーを稼働させ続けるためだけに1日14時間働いていました。営業チームは私たちの技術的な限界を完全に無視しました。"
-            },
-            {
-                name: "Person 2: Sarah (Marketing Director)",
-                eng: "Mark explained that they were having some bugs, but I thought they would fix them in time. The CEO demanded a massive campaign, so we pushed the ads. Engineering never gave us a clear update, so we just assumed everything was fine.",
-                jpn: "マークはいくつかバグがあるとは説明していましたが、私は彼らが時間内に修正するだろうと思っていました。CEOが大規模なキャンペーンを要求したため、私たちは広告を推し進めました。エンジニアリング部門は決して明確な最新情報をくれなかったので、私たちはすべて順調だと思い込んでいたのです。"
-            },
-            {
-                name: "Person 3: James (Sales Manager)",
-                eng: "Marketing gave us brochures highlighting the new auto-sync feature. I promised our top clients they could use it on day one. When it failed, the clients yelled at me. Nobody told the sales team that the software was broken. We were completely left in the dark.",
-                jpn: "マーケティング部門は、新しい自動同期機能を強調したパンフレットを私たちに渡しました。私はトップクライアントに初日から使えると約束しました。それが機能しなかったとき、クライアントは私を怒鳴りつけました。ソフトウェアが壊れていることを営業チームに伝えた人は誰もいません。私たちは完全に蚊帳の外に置かれていました。"
-            },
-            {
-                name: "Person 4: Emma (Project Manager)",
-                eng: "The departments refused to use the central project management software. Mark said he preferred email, while Sarah said she only checked Slack. Because they used different communication tools, important messages were lost. They didn't act like a team at all.",
-                jpn: "各部門は中央のプロジェクト管理ソフトウェアを使用することを拒否しました。マークはメールを好むと言い、サラはSlackしかチェックしないと言いました。彼らが異なるコミュニケーションツールを使用したため、重要なメッセージが失われました。彼らは全くチームのように行動しませんでした。"
-            },
-            {
-                name: "Person 5: Mr. Klein (Furious Client)",
-                eng: "The sales rep assured me that this product would save my business time. Instead, it crashed my entire system. When I called support, they blamed the engineers. I don't care whose fault it is; I just want a product that works. I am canceling my contract.",
-                jpn: "営業担当者は、この製品が私のビジネスの時間を節約すると保証してくれました。その代わり、私のシステム全体がクラッシュしました。サポートに電話すると、彼らはエンジニアのせいにしました。誰のせいかなど気にしません。私はただ機能する製品が欲しいだけです。契約はキャンセルします。"
-            },
-            {
-                name: "Person 6: David (HR Director)",
-                eng: "The company culture has become incredibly toxic. We have a serious 'us versus them' mentality between departments. Everyone is just pointing fingers. We need to figure out how to force these managers to collaborate, or the company will not survive.",
-                jpn: "企業文化は信じられないほど有毒なものになっています。部門間には深刻な「私たち対彼ら」というメンタリティがあります。誰もがただ責任をなすりつけ合っています。これらのマネージャーたちに強制的に協力させる方法を見つけ出さなければ、会社は生き残れないでしょう。"
-            }
-        ],
-        grammarPoints: [
-            {
-                point: "1. Reported Speech: Reporting finished actions in the past",
-                explanation: "When we report what someone said in the past about a completed action or a past state, we step the tense back. Present becomes past, and past becomes past perfect (had + PP).",
-                explanationJpn: "完了した行動や過去の状態について過去に誰かが言ったことを報告する際、時制を一つ戻します。現在形は過去形になり、過去形は過去完了形（had + 過去分詞）になります。",
-                examples: [
-                    { eng: "He said that they would change the advertising.", jpn: "彼は、彼らが広告を変更すると言いました。" },
-                    { eng: "Mark explained that they were having some bugs.", jpn: "マークは、彼らがいくつかのバグを抱えていると説明しました。" }
-                ]
-            },
-            {
-                point: "2. Adverbs: Expressing how someone does something (Adverbs of Manner)",
-                explanation: "We use adverbs ending in '-ly' to describe exactly how an action was performed. They can show if someone acted cooperatively or poorly.",
-                explanationJpn: "行動が正確にどのように実行されたかを説明するために「-ly」で終わる副詞を使用します。これらは、誰かが協力的に行動したか、あるいはひどく行動したかを示すことができます。",
-                examples: [
-                    { eng: "They completely ignored our technical limits.", jpn: "彼らは私たちの技術的限界を完全に無視しました。" },
-                    { eng: "The sales team was completely left in the dark.", jpn: "営業チームは完全に蚊帳の外に置かれて（何も知らされずに）いました。" }
-                ]
-            }
-        ],
-        discussionPoints: [
-            { eng: "What were the major communication failures between Engineering, Marketing, and Sales?", jpn: "エンジニアリング、マーケティング、営業の間の主要なコミュニケーションの失敗は何でしたか？" },
-            { eng: "How did the Project Manager's inability to enforce a single tool contribute to the problem?", jpn: "プロジェクトマネージャーが一つのツールを強制できなかったことは、問題にどう寄与しましたか？" },
-            { eng: "What steps should the HR Director take to fix the toxic 'us versus them' culture?", jpn: "人事ディレクターは、有毒な「私たち対彼ら」の文化を修正するためにどのような手順を踏むべきですか？" }
-        ],
-        expressions: [
-            { eng: "I believe that...", jpn: "〜だと信じています..." },
-            { eng: "A major problem is...", jpn: "大きな問題は..." },
-            { eng: "For instance...", jpn: "例えば..." },
-            { eng: "Therefore...", jpn: "それゆえに..." },
-            { eng: "Ultimately...", jpn: "最終的には..." }
-        ],
-        roleplay: "Role-play presenting your solution to management. Do the following using a simple four-slide structure. 1. The problem 2. The causes 3. The immediate solution 4. The long-term culture plan <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな4スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 即時の解決策 4. 長期的な文化計画)</span>",
-        homework: {
-            vocab: [
-                { eng: "Leave out", jpn: "省く、蚊帳の外に置く", exEng: "The sales team felt left out of the planning process.", exJpn: "営業チームは計画プロセスから蚊帳の外に置かれていると感じました。" },
-                { eng: "Break down", jpn: "崩壊する", exEng: "Communication between the departments completely broke down.", exJpn: "部門間のコミュニケーションは完全に崩壊しました。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "The engineer pointed out the technical flaws early on.", exJpn: "エンジニアは早い段階で技術的な欠陥を指摘しました。" },
-                { eng: "Cover up", jpn: "隠蔽する、ごまかす", exEng: "They tried to cover up the bugs instead of fixing them.", exJpn: "彼らはバグを修正する代わりに隠蔽しようとしました。" },
-                { eng: "Pass on", jpn: "伝える", exEng: "Marketing forgot to pass on the update to Sales.", exJpn: "マーケティングは営業に最新情報を伝えるのを忘れました。" },
-                { eng: "Deal with", jpn: "〜に対処する", exEng: "We have to deal with these angry clients now.", exJpn: "私たちは今、これらの怒っているクライアントに対処しなければなりません。" },
-                { eng: "Sort out", jpn: "解決する", exEng: "The manager needs to sort out this team conflict.", exJpn: "マネージャーはこのチームの対立を解決する必要があります。" },
-                { eng: "Rely on", jpn: "〜に依存する", exEng: "You cannot rely on verbal promises for a big launch.", exJpn: "大規模な立ち上げにおいて口頭の約束に頼ることはできません。" },
-                { eng: "Hold up", jpn: "遅らせる", exEng: "The server crash held up the entire project release.", exJpn: "サーバーのクラッシュがプロジェクト全体のリリースを遅らせました。" },
-                { eng: "Follow up", jpn: "フォローアップする、確認する", exEng: "Nobody followed up on the initial bug reports.", exJpn: "誰も最初のバグレポートをフォローアップ（確認）しませんでした。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "The poor teamwork resulted in a financial disaster.", exJpn: "不十分なチームワークは財政的な大惨事という結果になりました。" },
-                { eng: "Lead to", jpn: "〜につながる", exEng: "Isolated departments lead to massive misunderstandings.", exJpn: "孤立した部門は大規模な誤解につながります。" },
-                { eng: "Figure out", jpn: "理解する、見つけ出す", exEng: "We must figure out a way to break these silos.", exJpn: "私たちはこれらのサイロを打ち破る方法を見つけ出さなければなりません。" },
-                { eng: "Take on", jpn: "引き受ける", exEng: "Nobody wanted to take on the responsibility for the failure.", exJpn: "誰もその失敗の責任を引き受けたがりませんでした。" },
-                { eng: "Bring up", jpn: "話題を持ち出す", exEng: "She brought up the communication issue during the meeting.", exJpn: "彼女は会議中にコミュニケーションの問題を持ち出しました。" },
-                { eng: "Give up", jpn: "諦める", exEng: "The client gave up and canceled the contract.", exJpn: "クライアントは諦めて契約をキャンセルしました。" },
-                { eng: "Help out", jpn: "助ける、手伝う", exEng: "Teams should help each other out instead of arguing.", exJpn: "チームは言い争うのではなく、互いに助け合うべきです。" },
-                { eng: "Look into", jpn: "調査する", exEng: "The CEO is looking into the root causes of the mess.", exJpn: "CEOはこの混乱の根本原因を調査しています。" }
+            "clickingGames": [
+                { "prompt": "内向型の人が静かでも、無関心という意味ではありません。", "target": "If an introvert stays quiet, it doesn't mean they are bored.", "words": ["If", "an", "introvert", "stays", "quiet,", "it", "doesn't", "mean", "they", "are", "bored."] },
+                { "prompt": "最高のアイデアが欲しいなら、事前にアジェンダを送ってください。", "target": "If you want good ideas, send the agenda beforehand.", "words": ["If", "you", "want", "good", "ideas,", "send", "the", "agenda", "beforehand."] },
+                { "prompt": "外向型の人が会議を進行すると、早く意見が出ます。", "target": "If an extrovert leads, ideas come out fast.", "words": ["If", "an", "extrovert", "leads,", "ideas", "come", "out", "fast."] },
+                { "prompt": "両方のタイプが参加できると、チームはより良い決定をします。", "target": "If both types join in, teams make better choices.", "words": ["If", "both", "types", "join", "in,", "teams", "make", "better", "choices."] },
+                { "prompt": "内向型の人はリスクを分析することに非常に長けています。", "target": "Introverts are very good at analyzing risks.", "words": ["Introverts", "are", "very", "good", "at", "analyzing", "risks."] },
+                { "prompt": "良いチームワークとは、同僚の働き方を理解することです。", "target": "Good teamwork is about understanding how colleagues work.", "words": ["Good", "teamwork", "is", "about", "understanding", "how", "colleagues", "work."] },
+                { "prompt": "外向型の人は人前で話すことに慣れています。", "target": "Extroverts feel comfortable with speaking in public.", "words": ["Extroverts", "feel", "comfortable", "with", "speaking", "in", "public."] },
+                { "prompt": "内向型の人は深いタスクに集中することに長けています。", "target": "Introverts are skilled at focusing on deep tasks.", "words": ["Introverts", "are", "skilled", "at", "focusing", "on", "deep", "tasks."] }
             ],
-            writingTask: {
-                promptEng: "Write a short paragraph outlining your proposed solution for InnovaTech. Use reported speech (e.g., 'He said that they had ignored the rules') to analyze a mistake, and suggest a way to rebuild teamwork.",
-                promptJpn: "「InnovaTechのためのあなたの提案する解決策を概説する短い段落を書いてください。ミスを分析するために間接話法（例：『He said that they had ignored the rules』）を使用し、チームワークを再構築する方法を提案してください。」"
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 1 - Personality & Team Reviews)",
+                "instruction": "Read these team reviews on balancing introverts and extroverts at work. Notice zero conditionals and gerunds after prepositions.",
+                "eng": "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Shared Docs Help Quiet Members Shine</strong></div><span class='er-author'>By: Haruka S. | Product Lead</span></div><p style='margin:0;'>On the other hand, live brainstorming is fun for extroverts, yet introverts often think things through before speaking. If you send the agenda early and use a shared doc, quiet members share great ideas too. Good planning is about respecting how people process work rather than forcing one style.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>Balanced Teams Execute Better</strong></div><span class='er-author'>By: Leo M. | Engineering Manager</span></div><p style='margin:0;'>Generally speaking, extroverts enjoy pitching out loud, while introverts are strong at analyzing risks and executing details. If a team has only extroverts, meetings can get noisy and rushed. When both types complement each other, teams bring out the best in everyone.</p></div></div>",
+                "jpn": "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>共有ドキュメントが物静かなメンバーの力を引き出す</strong></div><span class='er-author'>投稿者：ハルカ・S | プロダクトリード</span></div><p style='margin:0;'>その一方で、ライブのブレインストーミングは外向型には楽しいですが、内向型は話す前に物事をじっくり考えます。事前にアジェンダを送り、共有ドキュメントを使えば、物静かなメンバーも素晴らしいアイデアを共有できます。良い計画とは、1つのスタイルを強制するのではなく、人がどう仕事を処理するかを尊重することです。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐☆</span> <strong>バランスの取れたチームは実行力が高い</strong></div><span class='er-author'>投稿者：レオ・M | エンジニアリングマネージャー</span></div><p style='margin:0;'>一般的に言えば、外向型は声に出して提案することを楽しみ、内向型はリスクを分析したり詳細を実行したりすることに長けています。チームに外向型しかいないと、会議が騒がしく急ぎ足になることがあります。両タイプが互いを補い合うとき、チームは全員の良さを引き出します。</p></div></div>"
             },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Dangers of the Silo Mentality)",
-                instruction: "Read this authentic text about why interdepartmental communication breaks down.",
-                eng: "In the modern corporate world, the 'silo mentality' is widely considered one of the most dangerous threats to a company's success. A silo mentality occurs when different departments within an organization refuse to share information, goals, or tools with one another. Instead of viewing themselves as parts of a unified machine, employees begin to see other departments as competitors or obstacles. For example, if the marketing team focuses solely on generating hype while the engineering team struggles with technical limitations, a product launch is virtually guaranteed to fail. When communication breaks down, nobody has the complete picture, and catastrophic errors easily slip through the cracks.\n\nOften, the root cause of this toxic culture is poor leadership. When executives fail to establish a shared company vision, managers naturally prioritize their own departmental goals over the organization's success. Furthermore, allowing departments to use entirely different communication platforms—like one team relying on email while another only uses Slack—creates invisible barriers. If a crucial message is missed because it was sent on the wrong platform, it leads to finger-pointing and resentment. A frustrated developer might say, 'I told them the software wasn't ready,' while the marketer claims they never received the message. This 'us versus them' dynamic destroys psychological safety and halts innovation.\n\nTo dismantle these silos, leadership must enforce cross-functional collaboration. This means organizing regular, mandatory alignment meetings where representatives from all departments report their progress and roadblocks. Companies must also standardize their project management tools to ensure transparency. Most importantly, performance metrics should reward collaborative team achievements rather than just individual departmental success. When employees are incentivized to help each other out, the silo mentality slowly fades, replaced by a resilient and unified workplace culture.",
-                jpn: "現代の企業世界において、「サイロ（縦割り）メンタリティ」は会社の成功に対する最も危険な脅威の1つとして広く考えられています。サイロメンタリティとは、組織内の異なる部門が情報、目標、またはツールを互いに共有することを拒否したときに発生します。従業員は自分たちを統一された機械の一部と見なす代わりに、他の部門を競争相手や障害物として見始めます。例えば、エンジニアリングチームが技術的な限界に苦しんでいる一方で、マーケティングチームが話題作りにのみ焦点を当てている場合、製品の立ち上げは事実上失敗することが保証されています。コミュニケーションが崩壊すると、誰も全体像を把握できず、壊滅的なエラーが簡単に隙間からすり抜けてしまいます。\n\n多くの場合、この有毒な文化の根本原因は不十分なリーダーシップです。幹部が共有される会社のビジョンを確立できないとき、マネージャーは当然、組織の成功よりも自部門の目標を優先します。さらに、あるチームはメールに依存し、別のチームはSlackしか使わないなど、部門に全く異なるコミュニケーションプラットフォームの使用を許すことは、目に見えない障壁を作り出します。間違ったプラットフォームで送信されたために重要なメッセージが見逃された場合、それは責任のなすりつけ合いと恨みにつながります。不満を持った開発者は「ソフトウェアの準備ができていないと彼らに伝えた」と言うかもしれませんが、マーケターはメッセージを一度も受け取っていないと主張します。この「私たち対彼ら」の力学は心理的安全性を破壊し、イノベーションを停止させます。\n\nこれらのサイロを解体するためには、リーダーシップは部門横断的な協力を強制しなければなりません。これは、すべての部門の代表者が進捗状況と障害を報告する、定期的で義務的なすり合わせ会議を組織することを意味します。企業はまた、透明性を確保するためにプロジェクト管理ツールを標準化しなければなりません。最も重要なことは、パフォーマンス指標が個々の部門の成功だけでなく、協力的なチームの成果に報いるべきだということです。従業員が互いに助け合うよう動機付けられたとき、サイロメンタリティはゆっくりと消え去り、回復力のある統一された職場文化に置き換わるのです。"
+            "writingTask": {
+                "promptEng": "Write a short paragraph answering this question: Do you work better with introverts or extroverts? Use the zero conditional (If + present, present) to explain a general rule about teamwork, and use a gerund after a preposition (e.g., good at working).",
+                "promptJpn": "「あなたは内向型の人と外向型の人のどちらと一緒に働く方がうまくやれますか？チームワークに関する一般的なルールを説明するためにゼロ・コンディショナル（If + 現在形, 現在形）を使用し、前置詞の後に動名詞（例：good at working）を使用して答える短い段落を書いてください。」"
             }
         }
     },
     {
-        id: 63,
-        chapter: "Chapter 9: Teamwork",
-        type: "speakingtest",
-        title: "Lesson 63: Speaking Test - A Memorable Team Project",
-        goal: "Prepare and deliver a short speech about a memorable team project using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、記憶に残るチームプロジェクトについての短いスピーチを準備し、発表する。)</span>",
-        vocab: [
-            { eng: "collaborate with others", jpn: "他人と協力する" },
-            { eng: "delegate tasks", jpn: "タスクを委任する" },
-            { eng: "resolve a conflict", jpn: "対立を解決する" },
-            { eng: "meet a deadline", jpn: "締め切りを守る" },
-            { eng: "share the workload", jpn: "仕事量を分担する" },
-            { eng: "achieve a goal", jpn: "目標を達成する" },
-            { eng: "miscommunication", jpn: "ミスコミュニケーション / 伝達ミス" },
-            { eng: "cross-functional team", jpn: "部門横断的チーム" },
-            { eng: "pitch in", jpn: "協力する / 手伝う (くだけた表現)" },
-            { eng: "butt heads", jpn: "衝突する / 意見が合わない (くだけた表現)" },
-            { eng: "pull one's weight", jpn: "自分の役割を果たす (慣用句)" },
-            { eng: "on the same page", jpn: "共通認識を持って (くだけた表現)" }
+        "id": 62,
+        "chapter": "Chapter 9: Teamwork",
+        "type": "casestudy",
+        "title": "Lesson 62: Case Study - The Cross-Functional Collapse",
+        "goal": "Analyze a teamwork failure, identify causes, and propose a solution using reported speech. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(チームワークの失敗を分析し、原因を特定し、間接話法を使って解決策を提案する。)</span>",
+        "vocab": [
+            { "eng": "miss a deadline", "jpn": "締め切りに遅れる" },
+            { "eng": "blame each other", "jpn": "互いに非難し合う" },
+            { "eng": "lack communication", "jpn": "コミュニケーションが不足する" },
+            { "eng": "launch a campaign", "jpn": "キャンペーンを立ち上げる" },
+            { "eng": "ignore feedback", "jpn": "フィードバックを無視する" },
+            { "eng": "resolve a conflict", "jpn": "対立を解決する" },
+            { "eng": "take responsibility", "jpn": "責任を取る" },
+            { "eng": "fail to deliver", "jpn": "提供（納品）に失敗する" },
+            { "eng": "mess up", "jpn": "台無しにする / 失敗する (くだけた表現)" },
+            { "eng": "point fingers", "jpn": "責任をなすりつける (くだけた表現)" },
+            { "eng": "drop the ball", "jpn": "ミスをする / 責任を果たすのを怠る (慣用句)" },
+            { "eng": "toxic", "jpn": "有害な / 悪影響を及ぼす (くだけた表現)" }
         ],
-        prompt: {
-            main: "Describe a memorable team project you worked on.",
-            bulletPoints: [
+        "situation": {
+            "eng": "InnovaTech was preparing to launch its biggest software product of the year, 'CloudSync Pro.' The launch required perfect teamwork between the Engineering, Marketing, and Sales departments. However, the release day was a total disaster. The Marketing team heavily advertised features that the Engineering team had not actually finished building. The Sales team promised clients early access, but the servers crashed immediately because they were overloaded. Instead of working together to fix the issues, the department heads started blaming each other. The clients are furious, and the company has lost millions in potential revenue. The CEO needs to understand why these silos formed and why communication completely broke down. You must read the statements from six employees involved in this launch. Analyze their perspectives to find the root causes of the failure. Your goal is to create a step-by-step action plan to break down these silos and rebuild cross-functional teamwork.",
+            "jpn": "InnovaTech社は、今年最大のソフトウェア製品「CloudSync Pro」の発売準備をしていました。この発売には、エンジニアリング、マーケティング、営業の各部門間の完璧なチームワークが必要でした。しかし、発売日は完全な大惨事となりました。マーケティングチームは、エンジニアリングチームが実際にはまだ構築し終えていない機能を大々的に宣伝しました。営業チームはクライアントに早期アクセスを約束しましたが、サーバーが過負荷になり即座にクラッシュしました。問題を修正するために協力する代わりに、部門長たちはお互いを非難し始めました。クライアントは激怒しており、会社は数百万ドルの潜在的な収益を失いました。CEOは、なぜこのようなサイロ（縦割り）が形成され、コミュニケーションが完全に崩壊したのかを理解する必要があります。あなたはこの発売に関与した6人の従業員の発言を読まなければなりません。彼らの視点を分析し、失敗の根本原因を見つけてください。あなたの目標は、これらのサイロを打破し、部門横断的なチームワークを再構築するための段階的な行動計画を作成することです。"
+        },
+        "people": [
+            {
+                "name": "Person 1: Mark (Lead Engineer)",
+                "eng": "I told the Marketing Director that the new auto-sync feature wasn't ready. He said that they would change the advertising, but he lied. We were working 14-hour days just to keep the servers running. The sales team completely ignored our technical limits.",
+                "jpn": "私はマーケティングディレクターに、新しい自動同期機能は準備できていないと伝えました。彼は広告を変更すると言いましたが、嘘でした。私たちはサーバーを稼働させ続けるためだけに1日14時間働いていました。営業チームは私たちの技術的な限界を完全に無視しました。"
+            },
+            {
+                "name": "Person 2: Sarah (Marketing Director)",
+                "eng": "Mark explained that they were having some bugs, but I thought they would fix them in time. The CEO demanded a massive campaign, so we pushed the ads. Engineering never gave us a clear update, so we just assumed everything was fine.",
+                "jpn": "マークはいくつかバグがあるとは説明していましたが、私は彼らが時間内に修正するだろうと思っていました。CEOが大規模なキャンペーンを要求したため、私たちは広告を推し進めました。エンジニアリング部門は決して明確な最新情報をくれなかったので、私たちはすべて順調だと思い込んでいたのです。"
+            },
+            {
+                "name": "Person 3: James (Sales Manager)",
+                "eng": "Marketing gave us brochures highlighting the new auto-sync feature. I promised our top clients they could use it on day one. When it failed, the clients yelled at me. Nobody told the sales team that the software was broken. We were completely left in the dark.",
+                "jpn": "マーケティング部門は、新しい自動同期機能を強調したパンフレットを私たちに渡しました。私はトップクライアントに初日から使えると約束しました。それが機能しなかったとき、クライアントは私を怒鳴りつけました。ソフトウェアが壊れていることを営業チームに伝えた人は誰もいません。私たちは完全に蚊帳の外に置かれていました。"
+            },
+            {
+                "name": "Person 4: Emma (Project Manager)",
+                "eng": "The departments refused to use the central project management software. Mark said he preferred email, while Sarah said she only checked Slack. Because they used different communication tools, important messages were lost. They didn't act like a team at all.",
+                "jpn": "各部門は中央のプロジェクト管理ソフトウェアを使用することを拒否しました。マークはメールを好むと言い、サラはSlackしかチェックしないと言いました。彼らが異なるコミュニケーションツールを使用したため、重要なメッセージが失われました。彼らは全くチームのように行動しませんでした。"
+            },
+            {
+                "name": "Person 5: Mr. Klein (Furious Client)",
+                "eng": "The sales rep assured me that this product would save my business time. Instead, it crashed my entire system. When I called support, they blamed the engineers. I don't care whose fault it is; I just want a product that works. I am canceling my contract.",
+                "jpn": "営業担当者は、この製品が私のビジネスの時間を節約すると保証してくれました。その代わり、私のシステム全体がクラッシュしました。サポートに電話すると、彼らはエンジニアのせいにしました。誰のせいかなど気にしません。私はただ機能する製品が欲しいだけです。契約はキャンセルします。"
+            },
+            {
+                "name": "Person 6: David (HR Director)",
+                "eng": "The company culture has become incredibly toxic. We have a serious 'us versus them' mentality between departments. Everyone is just pointing fingers. We need to figure out how to force these managers to collaborate, or the company will not survive.",
+                "jpn": "企業文化は信じられないほど有毒なものになっています。部門間には深刻な「私たち対彼ら」というメンタリティがあります。誰もがただ責任をなすりつけ合っています。これらのマネージャーたちに強制的に協力させる方法を見つけ出さなければ、会社は生き残れないでしょう。"
+            }
+        ],
+        "grammarPoints": [
+            {
+                "point": "1. Reported Speech: Reporting finished actions in the past",
+                "explanation": "When we report what someone said in the past about a completed action or a past state, we step the tense back. Present becomes past, and past becomes past perfect (had + PP).",
+                "explanationJpn": "完了した行動や過去の状態について過去に誰かが言ったことを報告する際、時制を一つ戻します。現在形は過去形になり、過去形は過去完了形（had + 過去分詞）になります。",
+                "examples": [
+                    { "eng": "He said that they would change the advertising.", "jpn": "彼は、彼らが広告を変更すると言いました。" },
+                    { "eng": "Mark explained that they were having some bugs.", "jpn": "マークは、彼らがいくつかのバグを抱えていると説明しました。" }
+                ]
+            },
+            {
+                "point": "2. Adverbs: Expressing how someone does something (Adverbs of Manner)",
+                "explanation": "We use adverbs ending in '-ly' to describe exactly how an action was performed. They can show if someone acted cooperatively or poorly.",
+                "explanationJpn": "行動が正確にどのように実行されたかを説明するために「-ly」で終わる副詞を使用します。これらは、誰かが協力的に行動したか、あるいはひどく行動したかを示すことができます。",
+                "examples": [
+                    { "eng": "They completely ignored our technical limits.", "jpn": "彼らは私たちの技術的限界を完全に無視しました。" },
+                    { "eng": "The sales team was completely left in the dark.", "jpn": "営業チームは完全に蚊帳の外に置かれて（何も知らされずに）いました。" }
+                ]
+            },
+            {
+                "point": "3. Passive Voice with Modals: Recommending cross-team fixes (must/should be + PP)",
+                "explanation": "Use modal + 'be' + past participle to state clear rules for shared tools and team alignment before a product launch.",
+                "explanationJpn": "製品ローンチ前に共有ツールやチーム連携を行うための明確なルールを述べるには、「法助動詞 + be + 過去分詞」を使います。",
+                "examples": [
+                    { "eng": "Launch dates must be confirmed by engineering first.", "jpn": "ローンチ日はまずエンジニアリング部門によって確認されなければなりません。" },
+                    { "eng": "One project tool should be used by all teams.", "jpn": "1つのプロジェクトツールが全チームによって使われるべきです。" }
+                ]
+            }
+        ],
+        "discussionPoints": [
+            { "eng": "What were the major communication failures between Engineering, Marketing, and Sales?", "jpn": "エンジニアリング、マーケティング、営業の間の主要なコミュニケーションの失敗は何でしたか？" },
+            { "eng": "How did the Project Manager's inability to enforce a single tool contribute to the problem?", "jpn": "プロジェクトマネージャーが一つのツールを強制できなかったことは、問題にどう寄与しましたか？" },
+            { "eng": "What steps should the HR Director take to fix the toxic 'us versus them' culture?", "jpn": "人事ディレクターは、有毒な「私たち対彼ら」の文化を修正するためにどのような手順を踏むべきですか？" }
+        ],
+        "expressions": [
+            { "eng": "I believe that...", "jpn": "〜だと信じています..." },
+            { "eng": "A major problem is...", "jpn": "大きな問題は..." },
+            { "eng": "For instance...", "jpn": "例えば..." },
+            { "eng": "Therefore...", "jpn": "それゆえに..." },
+            { "eng": "Ultimately...", "jpn": "最終的には..." }
+        ],
+        "roleplay": "Role-play presenting your solution to management. Do the following using a simple three-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
+        "homework": {
+            "vocab": [
+                { "eng": "Leave out", "jpn": "省く、蚊帳の外に置く", "exEng": "The sales team felt left out of the planning process.", "exJpn": "営業チームは計画プロセスから蚊帳の外に置かれていると感じました。" },
+                { "eng": "Break down", "jpn": "崩壊する", "exEng": "Communication between the departments completely broke down.", "exJpn": "部門間のコミュニケーションは完全に崩壊しました。" },
+                { "eng": "Point out", "jpn": "指摘する", "exEng": "The engineer pointed out the technical flaws early on.", "exJpn": "エンジニアは早い段階で技術的な欠陥を指摘しました。" },
+                { "eng": "Cover up", "jpn": "隠蔽する、ごまかす", "exEng": "They tried to cover up the bugs instead of fixing them.", "exJpn": "彼らはバグを修正する代わりに隠蔽しようとしました。" },
+                { "eng": "Pass on", "jpn": "伝える", "exEng": "Marketing forgot to pass on the update to Sales.", "exJpn": "マーケティングは営業に最新情報を伝えるのを忘れました。" },
+                { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "We have to deal with these angry clients now.", "exJpn": "私たちは今、これらの怒っているクライアントに対処しなければなりません。" },
+                { "eng": "Sort out", "jpn": "解決する", "exEng": "The manager needs to sort out this team conflict.", "exJpn": "マネージャーはこのチームの対立を解決する必要があります。" },
+                { "eng": "Rely on", "jpn": "〜に依存する", "exEng": "You cannot rely on verbal promises for a big launch.", "exJpn": "大規模な立ち上げにおいて口頭の約束に頼ることはできません。" },
+                { "eng": "Hold up", "jpn": "遅らせる", "exEng": "The server crash held up the entire project release.", "exJpn": "サーバーのクラッシュがプロジェクト全体のリリースを遅らせました。" },
+                { "eng": "Follow up", "jpn": "フォローアップする、確認する", "exEng": "Nobody followed up on the initial bug reports.", "exJpn": "誰も最初のバグレポートをフォローアップ（確認）しませんでした。" },
+                { "eng": "Result in", "jpn": "〜という結果になる", "exEng": "The poor teamwork resulted in a financial disaster.", "exJpn": "不十分なチームワークは財政的な大惨事という結果になりました。" },
+                { "eng": "Lead to", "jpn": "〜につながる", "exEng": "Isolated departments lead to massive misunderstandings.", "exJpn": "孤立した部門は大規模な誤解につながります。" },
+                { "eng": "Figure out", "jpn": "理解する、解決策を見つける", "exEng": "We must figure out a way to break these silos.", "exJpn": "私たちはこれらのサイロを打ち破る方法を見つけ出さなければなりません。" },
+                { "eng": "Take on", "jpn": "引き受ける", "exEng": "Nobody wanted to take on the responsibility for the failure.", "exJpn": "誰もその失敗の責任を引き受けたがりませんでした。" },
+                { "eng": "Bring up", "jpn": "話題を持ち出す", "exEng": "She brought up the communication issue during the meeting.", "exJpn": "彼女は会議中にコミュニケーションの問題を持ち出しました。" },
+                { "eng": "Give up", "jpn": "諦める", "exEng": "The client gave up and canceled the contract.", "exJpn": "クライアントは諦めて契約をキャンセルしました。" },
+                { "eng": "Help out", "jpn": "助ける、手伝う", "exEng": "Teams should help each other out instead of arguing.", "exJpn": "チームは言い争うのではなく、互いに助け合うべきです。" },
+                { "eng": "Look into", "jpn": "調査する", "exEng": "The CEO is looking into the root causes of the mess.", "exJpn": "CEOはこの混乱の根本原因を調査しています。" }
+            ],
+            "clickingGames": [
+                { "prompt": "彼は広告を変更すると言いました。", "target": "He said that they would change the advertising.", "words": ["He", "said", "that", "they", "would", "change", "the", "advertising."] },
+                { "prompt": "マークはいくつかバグがあると説明しました。", "target": "Mark explained that they were having some bugs.", "words": ["Mark", "explained", "that", "they", "were", "having", "some", "bugs."] },
+                { "prompt": "サラはSlackしか確認しないと言いました。", "target": "Sarah said that she only checked Slack.", "words": ["Sarah", "said", "that", "she", "only", "checked", "Slack."] },
+                { "prompt": "営業担当者は時間を節約できると保証しました。", "target": "The sales rep said that it would save time.", "words": ["The", "sales", "rep", "said", "that", "it", "would", "save", "time."] },
+                { "prompt": "彼らは私たちの技術的限界を完全に無視しました。", "target": "They completely ignored our technical limits.", "words": ["They", "completely", "ignored", "our", "technical", "limits."] },
+                { "prompt": "営業チームは完全に蚊帳の外に置かれていました。", "target": "The sales team was completely left in the dark.", "words": ["The", "sales", "team", "was", "completely", "left", "in", "the", "dark."] },
+                { "prompt": "部門間のコミュニケーションは完全に崩壊しました。", "target": "Communication between teams completely broke down.", "words": ["Communication", "between", "teams", "completely", "broke", "down."] },
+                { "prompt": "企業文化は非常に有毒なものになりました。", "target": "The company culture became incredibly toxic.", "words": ["The", "company", "culture", "became", "incredibly", "toxic."] },
+                { "prompt": "ローンチ日はまずエンジニアリングが確認すべきです。", "target": "Launch dates must be confirmed by engineering first.", "words": ["Launch", "dates", "must", "be", "confirmed", "by", "engineering", "first."] },
+                { "prompt": "1つのプロジェクトツールが全チームで使われるべきです。", "target": "One project tool should be used by all teams.", "words": ["One", "project", "tool", "should", "be", "used", "by", "all", "teams."] },
+                { "prompt": "進捗の更新は毎週共有されなければなりません。", "target": "Progress updates must be shared every week.", "words": ["Progress", "updates", "must", "be", "shared", "every", "week."] },
+                { "prompt": "明確な責任が開始前に割り当てられるべきです。", "target": "Clear roles should be assigned before launch.", "words": ["Clear", "roles", "should", "be", "assigned", "before", "launch."] }
+            ],
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 2 - InnovaTech Launch Forum)",
+                "instruction": "Read this internal discussion on why the CloudSync Pro launch collapsed. Notice reported speech, manner adverbs, and modal passives.",
+                "eng": "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>PM_Emma asks:</strong><br>After the CloudSync Pro launch, Mark said that the auto-sync feature was not ready, while Sarah said that she thought bugs would be fixed in time. Why did messages get missed?</div><div class='er-forum-a'>💬 <strong>Reply by Eng_Mark:</strong><br>Teams used different tools instead of one shared board, and sales was completely left in the dark about server limits. Therefore, launch dates must be confirmed by engineering before ads go live.</div><div class='er-forum-a'>💬 <strong>Reply by HR_David:</strong><br>Pointing fingers makes the culture toxic. One project tool should be used by all teams, and regular check-ins must be scheduled so everyone stays aligned rather than blaming each other.</div></div>",
+                "jpn": "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>PM_Emmaの質問：</strong><br>CloudSync Proのローンチ後、マークは自動同期機能が準備できていないと言い、サラはバグが間に合うように直ると思っていたと言いました。なぜ連絡の行き違いが起きたのでしょうか？</div><div class='er-forum-a'>💬 <strong>Eng_Markの返信：</strong><br>共有ボード1つではなく異なるツールが使われ、営業部門はサーバーの限界について完全に知らされていませんでした。そのため、広告を出す前にローンチ日はエンジニアリング部門によって確認されなければなりません。</div><div class='er-forum-a'>💬 <strong>HR_Davidの返信：</strong><br>責任をなすりつけ合うと文化が有毒になります。お互いを非難する代わりに、全員が足並みを揃えられるよう、1つのプロジェクトツールが全チームで使われるべきであり、定期的な状況確認がスケジュールされなければなりません。</div></div>"
+            },
+            "writingTask": {
+                "promptEng": "Write a short paragraph outlining your proposed solution for InnovaTech. Use reported speech (e.g., 'He said that they had ignored the rules') to analyze a mistake, and suggest a way to rebuild teamwork.",
+                "promptJpn": "「InnovaTechのためのあなたの提案する解決策を概説する短い段落を書いてください。ミスを分析するために間接話法（例：『He said that they had ignored the rules』）を使用し、チームワークを再構築する方法を提案してください。」"
+            }
+        }
+    },
+    {
+        "id": 63,
+        "chapter": "Chapter 9: Teamwork",
+        "type": "speakingtest",
+        "title": "Lesson 63: Speaking Test - A Memorable Team Project",
+        "goal": "Prepare and deliver a short speech about a memorable team project using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、記憶に残るチームプロジェクトについての短いスピーチを準備し、発表する。)</span>",
+        "vocab": [
+            { "eng": "collaborate with others", "jpn": "他人と協力する" },
+            { "eng": "delegate tasks", "jpn": "タスクを委任する" },
+            { "eng": "resolve a conflict", "jpn": "対立を解決する" },
+            { "eng": "meet a deadline", "jpn": "締め切りを守る" },
+            { "eng": "share the workload", "jpn": "仕事量を分担する" },
+            { "eng": "achieve a goal", "jpn": "目標を達成する" },
+            { "eng": "miscommunication", "jpn": "ミスコミュニケーション / 伝達ミス" },
+            { "eng": "cross-functional team", "jpn": "部門横断的チーム" },
+            { "eng": "pitch in", "jpn": "協力する / 手伝う (くだけた表現)" },
+            { "eng": "butt heads", "jpn": "衝突する / 意見が合わない (くだけた表現)" },
+            { "eng": "pull one's weight", "jpn": "自分の役割を果たす (慣用句)" },
+            { "eng": "on the same page", "jpn": "共通認識を持って (くだけた表現)" }
+        ],
+        "prompt": {
+            "main": "Describe a memorable team project you worked on.",
+            "bulletPoints": [
                 "Say what the project was and who was on your team",
                 "Describe how you divided the tasks and communicated",
                 "Explain a specific conflict or challenge the team faced",
                 "Explain how you resolved it and why the project was ultimately successful"
             ]
         },
-        exampleSpeech: {
-            eng: "Today, I would like to talk about a highly memorable cross-functional project I worked on last year. Our company was launching a new mobile app, and my team consisted of two software engineers, a marketing specialist, and myself as the project manager.\n\nAt the beginning, we carefully delegated the tasks based on everyone's expertise. We agreed to use a central management tool so we could track our progress. However, a major challenge arose during the second week. The marketing specialist and the lead engineer completely butted heads over the timeline. The engineer said that they needed two more weeks, but the marketer had already promised an early release date to the public.\n\nTo resolve this conflict, I immediately scheduled a video call to clear the air. If we hadn't talked it out, the project would have failed. I asked both sides to explain their constraints. We eventually found a fair compromise by releasing a 'beta' version early, while giving the engineers more time to finish the final updates.\n\nIn my opinion, this project was significant because it taught me the true value of active listening. By addressing the miscommunication directly rather than ignoring it, we built mutual trust and successfully met our ultimate goal.",
-            jpn: "本日は、私が昨年取り組んだ、非常に記憶に残る部門横断的なプロジェクトについてお話ししたいと思います。私たちの会社は新しいモバイルアプリを立ち上げようとしており、私のチームは2人のソフトウェアエンジニア、マーケティングスペシャリスト、そしてプロジェクトマネージャーとしての私の4人で構成されていました。\n\n最初に、私たちは全員の専門知識に基づいて慎重にタスクを委任しました。進捗を追跡できるように、中央の管理ツールを使用することに合意しました。しかし、第2週目に大きな課題が生じました。マーケティングスペシャリストとリードエンジニアがスケジュールのことで完全に衝突したのです。エンジニアはあと2週間必要だと言いましたが、マーケターはすでに一般に向けて早期のリリース日を約束してしまっていました。\n\nこの対立を解決するために、私はわだかまりを解くためのビデオ通話を直ちにスケジュールしました。もし私たちが徹底的に話し合っていなければ、プロジェクトは失敗していたでしょう。私は双方に彼らの制約を説明するように頼みました。私たちは最終的に、「ベータ」版を早期にリリースしつつ、エンジニアには最終アップデートを完了するためのより多くの時間を与えるという、公平な妥協点を見つけました。\n\n私の意見では、このプロジェクトは積極的な傾聴の真の価値を教えてくれたため、非常に重要でした。ミスコミュニケーションを無視するのではなく直接対処することで、私たちは相互の信頼を築き、最終的な目標を無事に達成することができました。"
+        "exampleSpeech": {
+            "eng": "Today, I would like to talk about a highly memorable cross-functional project I worked on last year. Our company was launching a new mobile app, and my team consisted of two software engineers, a marketing specialist, and myself as the project manager.\n\nAt the beginning, we carefully delegated the tasks based on everyone's expertise. We agreed to use a central management tool so we could track our progress. However, a major challenge arose during the second week. The marketing specialist and the lead engineer completely butted heads over the timeline. The engineer said that they needed two more weeks, but the marketer had already promised an early release date to the public.\n\nTo resolve this conflict, I immediately scheduled a video call to clear the air. If we hadn't talked it out, the project would have failed. I asked both sides to explain their constraints. We eventually found a fair compromise by releasing a 'beta' version early, while giving the engineers more time to finish the final updates.\n\nIn my opinion, this project was significant because it taught me the true value of active listening. By addressing the miscommunication directly rather than ignoring it, we built mutual trust and successfully met our ultimate goal.",
+            "jpn": "本日は、私が昨年取り組んだ、非常に記憶に残る部門横断的なプロジェクトについてお話ししたいと思います。私たちの会社は新しいモバイルアプリを立ち上げようとしており、私のチームは2人のソフトウェアエンジニア、マーケティングスペシャリスト、そしてプロジェクトマネージャーとしての私の4人で構成されていました。\n\n最初に、私たちは全員の専門知識に基づいて慎重にタスクを委任しました。進捗を追跡できるように、中央の管理ツールを使用することに合意しました。しかし、第2週目に大きな課題が生じました。マーケティングスペシャリストとリードエンジニアがスケジュールのことで完全に衝突したのです。エンジニアはあと2週間必要だと言いましたが、マーケターはすでに一般に向けて早期のリリース日を約束してしまっていました。\n\nこの対立を解決するために、私はわだかまりを解くためのビデオ通話を直ちにスケジュールしました。もし私たちが徹底的に話し合っていなければ、プロジェクトは失敗していたでしょう。私は双方に彼らの制約を説明するように頼みました。私たちは最終的に、「ベータ」版を早期にリリースしつつ、エンジニアには最終アップデートを完了するためのより多くの時間を与えるという、公平な妥協点を見つけました。\n\n私の意見では、このプロジェクトは積極的な傾聴の真の価値を教えてくれたため、非常に重要でした。ミスコミュニケーションを無視するのではなく直接対処することで、私たちは相互の信頼を築き、最終的な目標を無事に達成することができました。"
         },
-        homework: {
-            vocab: [
-                { eng: "Work on", jpn: "〜に取り組む", exEng: "We worked on a very difficult group project.", exJpn: "私たちは非常に難しいグループプロジェクトに取り組みました。" },
-                { eng: "Sort out", jpn: "解決する", exEng: "We had to sort out a major misunderstanding.", exJpn: "私たちは大きな誤解を解決しなければなりませんでした。" },
-                { eng: "Help out", jpn: "手伝う、助ける", exEng: "Everyone helped out when the deadline was close.", exJpn: "締め切りが近づいたとき、全員が手伝いました。" },
-                { eng: "Talk over", jpn: "〜について話し合う", exEng: "Let's talk over the plan before we start.", exJpn: "始める前に計画について話し合いましょう。" },
-                { eng: "Count on", jpn: "〜を頼りにする", exEng: "You can always count on a good team player.", exJpn: "良いチームプレイヤーは常に頼りにすることができます。" },
-                { eng: "Pitch in", jpn: "協力する、手伝う", exEng: "If everyone pitches in, the work is easy.", exJpn: "全員が協力すれば、仕事は簡単です。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "My colleague pointed out a fatal error.", exJpn: "同僚が致命的なエラーを指摘しました。" },
-                { eng: "Bring up", jpn: "話題を持ち出す", exEng: "I brought up the scheduling conflict immediately.", exJpn: "私はすぐにスケジュールの衝突の話題を持ち出しました。" },
-                { eng: "Back up", jpn: "サポートする", exEng: "A good manager will always back up their team.", exJpn: "良いマネージャーは常に自分のチームをサポートします。" },
-                { eng: "Deal with", jpn: "〜に対処する", exEng: "We had to deal with an uncooperative member.", exJpn: "私たちは非協力的なメンバーに対処しなければなりませんでした。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "Good communication resulted in a successful launch.", exJpn: "良いコミュニケーションが成功した立ち上げという結果になりました。" },
-                { eng: "Depend on", jpn: "〜に依存する", exEng: "The outcome depends on our shared effort.", exJpn: "結果は私たちの共有された努力にかかっています。" },
-                { eng: "Fall behind", jpn: "遅れをとる", exEng: "We fell behind schedule during the second week.", exJpn: "第2週目にスケジュールの遅れをとりました。" },
-                { eng: "Catch up", jpn: "遅れを取り戻す", exEng: "We worked overtime to catch up on the tasks.", exJpn: "タスクの遅れを取り戻すために残業しました。" },
-                { eng: "Figure out", jpn: "理解する、解決策を見つける", exEng: "We figured out a fair way to divide the work.", exJpn: "私たちは仕事を分担する公平な方法を見つけ出しました。" },
-                { eng: "Give up", jpn: "諦める", exEng: "Even though it was hard, nobody gave up.", exJpn: "難しかったにもかかわらず、誰も諦めませんでした。" },
-                { eng: "Run into", jpn: "遭遇する", exEng: "We ran into a sudden technical issue.", exJpn: "私たちは突然の技術的な問題に遭遇しました。" },
-                { eng: "Look back on", jpn: "〜を振り返る", exEng: "When I look back on it, I learned a lot.", exJpn: "振り返ってみると、私は多くのことを学びました。" }
+        "homework": {
+            "vocab": [
+                { "eng": "Work on", "jpn": "〜に取り組む", "exEng": "We worked on a very difficult group project.", "exJpn": "私たちは非常に難しいグループプロジェクトに取り組みました。" },
+                { "eng": "Sort out", "jpn": "解決する", "exEng": "We had to sort out a major misunderstanding.", "exJpn": "私たちは大きな誤解を解決しなければなりませんでした。" },
+                { "eng": "Help out", "jpn": "手伝う、助ける", "exEng": "Everyone helped out when the deadline was close.", "exJpn": "締め切りが近づいたとき、全員が手伝いました。" },
+                { "eng": "Talk over", "jpn": "〜について話し合う", "exEng": "Let's talk over the plan before we start.", "exJpn": "始める前に計画について話し合いましょう。" },
+                { "eng": "Count on", "jpn": "〜を頼りにする", "exEng": "You can always count on a good team player.", "exJpn": "良いチームプレイヤーは常に頼りにすることができます。" },
+                { "eng": "Pitch in", "jpn": "協力する、手伝う", "exEng": "If everyone pitches in, the work is easy.", "exJpn": "全員が協力すれば、仕事は簡単です。" },
+                { "eng": "Point out", "jpn": "指摘する", "exEng": "My colleague pointed out a fatal error.", "exJpn": "同僚が致命的なエラーを指摘しました。" },
+                { "eng": "Bring up", "jpn": "話題を持ち出す", "exEng": "I brought up the scheduling conflict immediately.", "exJpn": "私はすぐにスケジュールの衝突の話題を持ち出しました。" },
+                { "eng": "Back up", "jpn": "サポートする", "exEng": "A good manager will always back up their team.", "exJpn": "良いマネージャーは常に自分のチームをサポートします。" },
+                { "eng": "Deal with", "jpn": "〜に対処する", "exEng": "We had to deal with an uncooperative member.", "exJpn": "私たちは非協力的なメンバーに対処しなければなりませんでした。" },
+                { "eng": "Result in", "jpn": "〜という結果になる", "exEng": "Good communication resulted in a successful launch.", "exJpn": "良いコミュニケーションが成功した立ち上げという結果になりました。" },
+                { "eng": "Depend on", "jpn": "〜に依存する", "exEng": "The outcome depends on our shared effort.", "exJpn": "結果は私たちの共有された努力にかかっています。" },
+                { "eng": "Fall behind", "jpn": "遅れをとる", "exEng": "We fell behind schedule during the second week.", "exJpn": "第2週目にスケジュールの遅れをとりました。" },
+                { "eng": "Catch up", "jpn": "遅れを取り戻す", "exEng": "We worked overtime to catch up on the tasks.", "exJpn": "タスクの遅れを取り戻すために残業しました。" },
+                { "eng": "Figure out", "jpn": "理解する、解決策を見つける", "exEng": "We figured out a fair way to divide the work.", "exJpn": "私たちは仕事を分担する公平な方法を見つけ出しました。" },
+                { "eng": "Give up", "jpn": "諦める", "exEng": "Even though it was hard, nobody gave up.", "exJpn": "難しかったにもかかわらず、誰も諦めませんでした。" },
+                { "eng": "Run into", "jpn": "遭遇する", "exEng": "We ran into a sudden technical issue.", "exJpn": "私たちは突然の技術的な問題に遭遇しました。" },
+                { "eng": "Look back on", "jpn": "〜を振り返る", "exEng": "When I look back on it, I learned a lot.", "exJpn": "振り返ってみると、私は多くのことを学びました。" }
             ],
-            reading1: {
-                title: "Task 2: Reading (Review Model: A Teamwork Success)",
-                instruction: "Read the speech draft. Notice how the writer recycles the lesson's vocabulary, grammar (past conditionals, reported speech), and transitional expressions.",
-                eng: "In my opinion, effective teamwork requires a lot of patience. Actually, I was part of a marketing team that designed a new campaign last year. At first, our designer and copywriter clashed constantly. The designer said that the text was too long, but the copywriter refused to change it. In hindsight, I should have stepped in earlier. If we had established clear ground rules, they wouldn't have argued so much. I eventually sorted it out by hosting a 'clear the air' meeting. To sum up, we compromised and met the deadline perfectly. I wish I hadn't been so afraid of conflict, because direct communication turned out to be the key to our success.",
-                jpn: "私の意見では、効果的なチームワークには多くの忍耐が必要です。実は昨年、私は新しいキャンペーンを設計するマーケティングチームの一員でした。最初は、私たちのデザイナーとコピーライターが絶えず衝突していました。デザイナーはテキストが長すぎると言いましたが、コピーライターはそれを変更することを拒否しました。後から考えると、私はもっと早く介入すべきでした。もし私たちが明確な基本ルールを確立していれば、彼らはあんなに言い争わなかったでしょう。私は最終的に、「わだかまりを解く」会議を主催することでそれを解決しました。要約すると、私たちは妥協し、締め切りを完璧に守りました。対立をあんなに恐れなければよかったと後悔しています。なぜなら、直接的なコミュニケーションが私たちの成功の鍵だと判明したからです。"
-            },
-            expandedDialogue: [
-                { speaker: "A", eng: "Are you ready for your speaking test about a team project?", jpn: "チームプロジェクトに関するスピーキングテストの準備はできていますか？" },
-                { speaker: "B", eng: "Yes, I am. I will talk about a time my university group fell behind schedule.", jpn: "はい、できています。私の大学のグループがスケジュールに遅れをとった時のことについて話すつもりです。" },
-                { speaker: "A", eng: "Why did your group fall behind?", jpn: "なぜあなたのグループは遅れをとったのですか？" },
-                { speaker: "B", eng: "One of our members didn't pull his weight. He ignored our messages.", jpn: "メンバーの一人が自分の役割を果たさなかったからです。彼は私たちのメッセージを無視しました。" },
-                { speaker: "A", eng: "That is very frustrating. How did you deal with him?", jpn: "それは非常にイライラしますね。彼にどう対処したのですか？" },
-                { speaker: "B", eng: "I brought up the issue directly. I said that we needed his help.", jpn: "私はその問題を直接持ち出しました。私たちは彼の助けが必要だと言いました。" },
-                { speaker: "A", eng: "Did he apologize for being uncooperative?", jpn: "彼は非協力的だったことについて謝罪しましたか？" },
-                { speaker: "B", eng: "Yes. He explained that he was swamped with other exams.", jpn: "はい。彼は他の試験で忙殺されていると説明しました。" },
-                { speaker: "A", eng: "If he had told you earlier, would it have been easier?", jpn: "もし彼がもっと早くあなたに伝えていれば、もっと簡単だったでしょうか？" },
-                { speaker: "B", eng: "Definitely. If he had communicated, we wouldn't have been so stressed.", jpn: "間違いありません。もし彼がコミュニケーションをとっていれば、私たちはあんなにストレスを感じなかったでしょう。" },
-                { speaker: "A", eng: "So, how did you sort out the workload?", jpn: "それで、仕事量はどうやって整理したのですか？" },
-                { speaker: "B", eng: "We delegated smaller tasks to him, and we finally caught up.", jpn: "より小さなタスクを彼に委任し、私たちはついに遅れを取り戻しました。" },
-                { speaker: "A", eng: "That is a great example of resolving conflict. Good luck with your speech!", jpn: "それは対立を解決する素晴らしい例ですね。スピーチ頑張ってください！" },
-                { speaker: "B", eng: "Thank you. I think the presentation will go well.", jpn: "ありがとうございます。プレゼンはうまくいくと思います。" }
+            "clickingGames": [
+                { "prompt": "私たちは部門横断的なプロジェクトに取り組みました。", "target": "We worked on a cross-functional project.", "words": ["We", "worked", "on", "a", "cross-functional", "project."] },
+                { "prompt": "私たちは専門知識に基づいてタスクを委任しました。", "target": "We delegated tasks based on everyone's skills.", "words": ["We", "delegated", "tasks", "based", "on", "everyone's", "skills."] },
+                { "prompt": "マーケターとエンジニアはスケジュールで衝突しました。", "target": "The marketer and engineer clashed over the timeline.", "words": ["The", "marketer", "and", "engineer", "clashed", "over", "the", "timeline."] },
+                { "prompt": "もし話し合っていなければ、プロジェクトは失敗していたでしょう。", "target": "If we had not talked it out, it would have failed.", "words": ["If", "we", "had", "not", "talked", "it", "out,", "it", "would", "have", "failed."] },
+                { "prompt": "エンジニアはあと2週間必要だと言いました。", "target": "The engineer said that they needed two more weeks.", "words": ["The", "engineer", "said", "that", "they", "needed", "two", "more", "weeks."] },
+                { "prompt": "私たちは早期ベータ版を出すという妥協点を見つけました。", "target": "We found a fair compromise with an early beta.", "words": ["We", "found", "a", "fair", "compromise", "with", "an", "early", "beta."] },
+                { "prompt": "締切が近づいたとき、全員が手伝いました。", "target": "Everyone pitched in when the deadline got close.", "words": ["Everyone", "pitched", "in", "when", "the", "deadline", "got", "close."] },
+                { "prompt": "直接の対話が信頼を築き、目標達成につながりました。", "target": "Direct talks built trust and helped us meet our goal.", "words": ["Direct", "talks", "built", "trust", "and", "helped", "us", "meet", "our", "goal."] }
             ],
-            writingTask: {
-                promptEng: "Write a short paragraph answering this question: Describe a time you worked in a team and someone did not do their share of the work. How did you handle it?",
-                promptJpn: "「チームで働き、誰かが自分の分の仕事をしなかった時のことを説明してください。あなたはどう対処しましたか？」という質問に答える短い段落を書いてください。"
+            "extendedReading": {
+                "title": "Task 3: Authentic Reading (Layout 3 - Team Project Blog)",
+                "instruction": "Read this blog reflection on overcoming a team project conflict and meeting a deadline. Notice teamwork vocabulary and PREP structure.",
+                "eng": "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>How Our Cross-Functional Team Solved a Timeline Clash</h3><span class='er-blog-meta'>By: PM Kenji | 📅 November 18</span><p>Last year, our team worked on launching a mobile app across engineering and marketing. We delegated tasks early and tracked progress in one shared tool, yet a schedule clash appeared in week two. The engineer said they needed extra testing time, while marketing had already planned an early launch date. Instead of ignoring the tension, we held a calm call to clear the air and find a fair compromise.</p><p>We released a beta version first and gave engineering time for final fixes while everyone pitched in. If we had not talked it out openly, the project would have fallen behind. Ultimately, active listening kept us on the same page and helped the team achieve our goal on time.</p></div>",
+                "jpn": "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>私たちの部門横断チームがいかにスケジュールの衝突を解決したか</h3><span class='er-blog-meta'>執筆者：PM ケンジ | 📅 11月18日</span><p>昨年、私たちのチームはエンジニアリングとマーケティングにまたがるモバイルアプリのローンチに取り組みました。早い段階でタスクを委任し、1つの共有ツールで進捗を追跡していましたが、2週目にスケジュールの衝突が起きました。エンジニアは追加のテスト時間が必要だと言った一方、マーケティングはすでに早期のローンチ日を計画していました。緊張を無視する代わりに、わだかまりを解き公平な妥協点を見つけるために落ち着いた通話を設けました。</p><p>全員が協力する中、まずベータ版をリリースし、エンジニアリングに最終修正の時間を与えました。もし率直に話し合っていなければ、プロジェクトは遅れをとっていたでしょう。最終的に、積極的な傾聴が共通認識を保ち、チームが時間通りに目標を達成する助けとなりました。</p></div>"
             },
-            extendedReading: {
-                title: "Task 4: Authentic Reading (The Dynamics of High-Performing Teams)",
-                instruction: "Read this authentic article about the psychology of effective teamwork. This section provides real-world context for B1 learners.",
-                eng: "In the modern workplace, almost all significant achievements are the result of teamwork rather than individual brilliance. Whether launching a new app, organizing a massive corporate event, or restructuring a department, complex tasks require diverse minds working together. However, assembling a group of talented individuals does not automatically create a high-performing team. When a team fails, it is rarely due to a lack of technical skills. Instead, failures usually stem from poor communication, undefined roles, and unresolved interpersonal conflicts. If a project manager does not explicitly delegate responsibilities at the beginning, team members will inevitably duplicate work or assume someone else is handling a crucial task.\n\nPsychologists who study organizational behavior have found that the most successful teams share one critical trait: 'psychological safety.' This means that team members feel comfortable taking risks, asking 'stupid' questions, and pointing out mistakes without fear of being humiliated or punished. In a psychologically safe environment, if someone makes an error, they don't cover it up. They bring it up immediately so the team can figure out a solution together. Conversely, in a toxic team where members are constantly pointing fingers and blaming each other, people hide their struggles. If a struggling employee had felt safe asking for help, many project disasters could have been easily avoided.\n\nUltimately, participating in a challenging team project teaches invaluable professional lessons. It forces individuals to develop active listening skills, practice empathy, and learn how to negotiate compromises. When reflecting on a memorable project during an interview or a speaking test, candidates should focus not just on the final success, but on how the team navigated their challenges. Demonstrating that you can resolve conflicts gracefully, support your colleagues when they are swamped, and communicate clearly under pressure proves that you are a highly mature and indispensable team player.",
-                jpn: "現代の職場において、ほぼすべての重要な成果は、個人の才気よりもチームワークの結果です。新しいアプリの立ち上げであれ、大規模な企業イベントの企画であれ、部門の再編であれ、複雑なタスクには多様な頭脳が協力して働くことが必要です。しかし、才能ある個人を集めることが自動的に高いパフォーマンスを発揮するチームを作るわけではありません。チームが失敗するとき、それが技術的スキルの欠如によるものであることはめったにありません。むしろ、失敗は通常、不十分なコミュニケーション、未定義の役割、そして未解決の対人関係の対立から生じます。もしプロジェクトマネージャーが最初に明確に責任を委任しなければ、チームメンバーは必然的に仕事を重複させたり、誰か他の人が重要なタスクを処理していると思い込んだりするでしょう。\n\n組織行動を研究する心理学者は、最も成功しているチームには「心理的安全性」という一つの重要な特徴が共通していることを発見しました。これは、チームメンバーが、恥をかかされたり罰せられたりする恐怖なしに、リスクを取り、「愚かな」質問をし、ミスを指摘することに快適さを感じることを意味します。心理的に安全な環境では、誰かがエラーを犯しても、それを隠蔽しません。チームが一緒に解決策を見つけ出せるように、彼らはすぐにそれを持ち出します。逆に、メンバーが絶えず責任をなすりつけ合い、互いを非難し合う有毒なチームでは、人々は自分の苦闘を隠します。もし苦労している従業員が安全に助けを求められると感じていたら、多くのプロジェクトの大惨事は簡単に避けられたはずです。\n\n最終的に、困難なチームプロジェクトに参加することは、非常に貴重なプロフェッショナルとしての教訓を教えてくれます。それは個人に、積極的な傾聴スキルを身につけ、共感を実践し、妥協を交渉する方法を学ぶことを強います。面接やスピーキングテストの最中に記憶に残るプロジェクトを振り返るとき、候補者は最終的な成功だけでなく、チームが課題をどのように切り抜けたかに焦点を当てるべきです。優雅に対立を解決し、同僚が忙殺されているときにサポートし、プレッシャーの下でも明確にコミュニケーションが取れることを示すことは、あなたが非常に成熟した、不可欠なチームプレイヤーであることを証明するのです。"
+            "writingTask": {
+                "promptEng": "Write a short paragraph answering this question: Describe a time you worked in a team and someone did not do their share of the work. How did you handle it?",
+                "promptJpn": "「チームで働き、誰かが自分の分の仕事をしなかった時のことを説明してください。あなたはどう対処しましたか？」という質問に答える短い段落を書いてください。"
             }
         }
     },
