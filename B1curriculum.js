@@ -902,19 +902,20 @@ const b1Curriculum = [
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
                 {
+                  
                     name: "Person 1",
-                    eng: "When I want to relax after a long day at work, I usually watch a popular TV series on a streaming platform. In the past, people had to wait a whole week for a new episode, but now we can watch an entire season in one weekend. This is known as binge-watching. While it is incredibly entertaining, it can also disrupt your sleep schedule if you are not careful. I also love exploring different genres. Sometimes I want to watch a thrilling action movie, and other times I prefer a lighthearted comedy. Trying new genres helps me discover amazing stories that I would normally ignore. I think streaming services have completely changed how we experience visual media, making it easier than ever to access international content.",
-                    jpn: "仕事の後の長い一日の終わりにリラックスしたいとき、私はたいていストリーミングプラットフォームで人気のあるテレビシリーズを見ます。昔は新しいエピソードのために1週間丸々待たなければなりませんでしたが、今では1つのシーズン全体を1週末で見ることができます。これはイッキ見（ビンジウォッチング）として知られています。信じられないほど面白い反面、気をつけていないと睡眠スケジュールを乱す可能性もあります。また、私はさまざまなジャンルを探求するのも好きです。スリリングなアクション映画を見たい時もあれば、気軽なコメディを好む時もあります。新しいジャンルに挑戦することで、普段なら無視してしまうような素晴らしい物語を発見することができます。ストリーミングサービスは私たちが視覚メディアを体験する方法を完全に変え、海外のコンテンツにアクセスするのをかつてないほど簡単にしたと思います。"
+                    eng: "When I want to relax after a long day at work, I usually watch a popular TV show on a streaming site. In the past, people had to wait a whole week for a new episode, while now we can watch a whole season in one weekend. People call this habit 'binge-watching.' Even though it is very entertaining, it can also hurt your sleep routine if you are not careful. I also love trying different types of shows. Sometimes I am in the mood for an exciting action movie, while other times I prefer a light comedy. Trying new types helps me find great stories that I would normally miss. I believe streaming services have completely changed the way we watch TV, making it much easier to watch foreign shows.",
+                    jpn: "仕事の長い一日の後にリラックスしたいとき、私はたいていストリーミングサイトで人気のテレビ番組を見ます。昔は新しいエピソードのために1週間丸々待たなければなりませんでしたが、今では1つのシーズン全体を1週末で見ることができます。人々はこの習慣を「ビンジウォッチング（イッキ見）」と呼びます。とても面白い反面、気をつけていないと睡眠習慣に悪影響を与えることもあります。また、私はいろいろな種類の番組を試すのも大好きです。スリル満点のアクション映画の気分の時もあれば、軽いコメディを好む時もあります。新しい種類に挑戦することで、普段なら見逃してしまうような素晴らしい物語を見つけることができます。ストリーミングサービスは私たちのテレビの見方を完全に変え、海外の番組を見るのをずっと簡単にしたと私は信じています。"
                 },
                 {
                     name: "Person 2",
-                    eng: "For me, the cinematic experience is still very important, despite the convenience of streaming. Going to the movie theater is a special event. The massive screen, the surround sound system, and the shared excitement of the audience make blockbuster movies much more impactful. Action movies and science fiction films, in particular, rely heavily on computer-generated imagery (CGI) and special effects that you simply cannot fully appreciate on a small smartphone or tablet. Furthermore, storytelling in modern cinema has become highly sophisticated. Directors are experimenting with complex plot twists and non-linear timelines. When you watch a movie in a dark theater, you are completely focused on the narrative without any household distractions. It forces you to truly pay attention to the director's artistic vision.",
-                    jpn: "私にとって、ストリーミングの利便性にもかかわらず、映画館での体験は依然として非常に重要です。映画館に行くことは特別なイベントです。巨大なスクリーン、サラウンドサウンドシステム、そして観客と共有する興奮が、大作映画をはるかにインパクトのあるものにします。特にアクション映画やSF映画は、小さなスマートフォンやタブレットでは十分に堪能できないCG（コンピューター生成画像）や特殊効果に大きく依存しています。さらに、現代映画のストーリーテリングは非常に洗練されてきています。監督たちは複雑な予想外の展開（どんでん返し）や非直線的なタイムラインを試みています。暗い劇場で映画を見るとき、家事などの気を散らすものなしに物語に完全に集中できます。それは、監督の芸術的なビジョンに真剣に注意を向けることを促すのです。"
+                    eng: "For me, the movie theater experience is still very important, even though streaming is so convenient. Going to the cinema feels like a special event. The huge screen, the great sound, and the shared excitement of the crowd make big movies much more exciting. Action and science fiction films, especially, use a lot of computer graphics and special effects that you simply cannot fully enjoy on a small phone or tablet. Also, the stories in modern movies have become quite clever. Directors often use surprising endings and unusual timelines. When you watch a film in a dark theater, you can focus completely on the story without anything at home to distract you, which helps you truly enjoy the director's ideas.",
+                    jpn: "私にとって、ストリーミングがとても便利だとしても、映画館での体験は依然として非常に重要です。映画館に行くことは特別なイベントのように感じられます。巨大なスクリーン、素晴らしい音響、そして観客と共有する興奮が、大作映画をはるかにワクワクするものにします。特にアクション映画やSF映画は多くのコンピューターグラフィックスや特殊効果を使っており、小さなスマホやタブレットでは十分に楽しむことができません。また、現代映画のストーリーはかなり工夫されています。監督たちはよく驚くような結末や珍しい時間軸を使います。暗い映画館で映画を見ると、家にあるような気を散らすものなしに物語に完全に集中でき、監督のアイデアを本当に楽しむことができます。"
                 },
                 {
                     name: "Person 3",
-                    eng: "I am fascinated by how actors bring fictional characters to life. A brilliant lead actor can make a predictable story feel fresh and exciting. However, I often find that supporting actors are the ones who truly make a show memorable. They provide necessary comic relief or emotional depth to the main storyline. Beyond just entertainment, movies and TV shows have a massive social impact. They reflect our cultural values and can spark important conversations about real-world issues. Documentaries and historical dramas educate the public on topics they might never research independently. When a TV show becomes globally popular, it creates a shared cultural moment. People from different countries can connect and debate the character's choices online, proving that media is a powerful tool for global communication.",
-                    jpn: "私は俳優がいかにして架空のキャラクターに命を吹き込むかに魅了されています。素晴らしい主演俳優は、予測可能なストーリーを新鮮でエキサイティングなものに感じさせることができます。しかし、番組を本当に記憶に残るものにしているのは助演俳優であることが多いと私はよく感じます。彼らはメインのストーリーラインに必要なコミカルな安らぎや感情的な深みを提供します。単なる娯楽を超えて、映画やテレビ番組は社会に多大な影響を与えます。それらは私たちの文化的価値観を反映し、現実世界の問題についての重要な会話のきっかけを作ることができます。ドキュメンタリーや歴史ドラマは、人々が自主的には決して調べないようなトピックについて大衆を教育します。テレビ番組が世界的に人気になると、それは共有される文化的な瞬間を作り出します。異なる国の人々がオンラインでつながり、キャラクターの選択について議論できることは、メディアがグローバルなコミュニケーションのための強力なツールであることを証明しています。"
+                    eng: "I am amazed by how actors make fictional characters feel real. A talented main actor can make a simple story feel fresh and exciting. However, I often feel that supporting actors are the ones who truly make a show unforgettable. They bring needed humor or deep feelings to the main story. More than just entertainment, movies and TV shows have a huge effect on society. They show our cultural values and can start important talks about real-world problems. Documentaries and history dramas teach people about topics they might never study on their own. When a TV show becomes popular worldwide, it creates a shared cultural moment. People from different countries can connect and discuss the characters' choices online, showing that media is a strong tool for global communication.",
+                    jpn: "私は俳優がどうやって架空のキャラクターを本物のように感じさせるかに驚かされます。才能ある主演俳優は、単純なストーリーを新鮮でエキサイティングなものに感じさせることができます。しかし、番組を本当に忘れられないものにしているのは助演俳優であることが多いと私はよく感じます。彼らはメインの物語に必要なユーモアや深い感情をもたらします。単なる娯楽以上に、映画やテレビ番組は社会に大きな影響を与えます。それらは私たちの文化的価値観を示し、現実世界の問題についての重要な話し合いを始めるきっかけになります。ドキュメンタリーや歴史ドラマは、人々が自分自身では決して学ばないようなトピックについて教えてくれます。テレビ番組が世界中で人気になると、それは共有される文化的な瞬間を作り出します。異なる国の人々がオンラインでつながり、キャラクターの選択について話し合えることは、メディアがグローバルなコミュニケーションのための強力なツールであることを示しています。"
                 }
             ]
         },
@@ -1014,11 +1015,11 @@ const b1Curriculum = [
                 { prompt: "ストーリーが複雑すぎて理解できませんでした。", target: "The plot was too complicated to understand.", words: ["The", "plot", "was", "too", "complicated", "to", "understand."] },
                 { prompt: "その番組は長すぎて一晩では見切れませんでした。", target: "The show was too long to finish in one night.", words: ["The", "show", "was", "too", "long", "to", "finish", "in", "one", "night."] }
             ],
-            extendedReading: {
+   extendedReading: {
                 title: "Task 3: Authentic Reading (Layout 8 - Timeline & Comparison Guide)",
                 instruction: "Read this comparison guide on how viewing habits have changed over time. Notice the degree adverbs and 'too + adjective' phrases.",
-                eng: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>📺 How Our Viewing Habits Changed: Then vs. Now</h3><p><strong>1990s — Scheduled TV &amp; Video Stores:</strong> In the past, viewers had to plan their evenings around fixed broadcast times. If you missed a show, you had to wait for a rerun or visit a local rental shop. Waiting a whole week for the next episode was fairly normal, and spoilers were much easier to avoid when people watched at different times.</p><p><strong>2010s — Early Streaming &amp; Binge-Watching:</strong> High-speed internet and streaming apps made it possible to watch several episodes in one sitting. Binge-watching quickly became a popular weekend habit. However, on the other hand, having thousands of titles on screen made choosing a film rather slow. Many viewers spent too much time scrolling through menus to pick just one movie.</p><p><strong>Today — Big Screens vs. Pocket Screens:</strong> Modern platforms let us watch shows on phones, tablets, or smart TVs anywhere. As a matter of fact, mobile viewing is convenient during a train ride. Yet for big action films or sci-fi blockbusters, a phone screen is simply too small to enjoy the special effects. Going to a movie theater remains a pretty exciting experience because the sound system and large screen pull you into the story.</p><p><strong>Supporting Cast &amp; Lasting Stories:</strong> Whether we watch on the tube at home or in a dark cinema, good stories depend on strong characters. Lead actors often get the attention, while supporting roles add humor and emotion. Furthermore, a great plot twist can make an ordinary evening memorable. In my view, finding a balance between quick streaming and focused watching helps us enjoy media without feeling tired.</p></div>",
-                jpn: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>📺 私たちの視聴習慣はどう変わったか：昔と今</h3><p><strong>1990年代 — 決まった時間のテレビとレンタル店：</strong> 昔、視聴者は決まった放送時間に合わせて夜の予定を立てる必要がありました。番組を見逃すと、再放送を待つか近くのレンタル店に行くしかありませんでした。次のエピソードまで1週間丸々待つのはかなり普通で、人々が違う時間に見ていたため、ネタバレを避けるのもずっと簡単でした。</p><p><strong>2010年代 — ストリーミング初期とイッキ見：</strong> 高速インターネットとストリーミングアプリにより、一度に複数のエピソードを見ることが可能になりました。イッキ見はすぐに人気の週末の習慣になりました。しかし、その一方で、画面上に何千もの作品があると、映画を選ぶのにかなり時間がかかりました。多くの視聴者が、たった1本の映画を選ぶためにメニューをスクロールしすぎて時間を浪費しました。</p><p><strong>現在 — 大画面対ポケット画面：</strong> 最新のプラットフォームのおかげで、どこにいてもスマホやタブレット、スマートTVで番組を見ることができます。実際のところ、電車の移動中にモバイルで視聴するのは便利です。それでも、大きなアクション映画やSF大作の場合、スマホの画面は特殊効果を楽しむには小さすぎます。音響システムと大画面が物語に引き込んでくれるため、映画館へ行くことはかなりワクワクする体験のままです。</p><p><strong>助演キャストと心に残る物語：</strong> 家でテレビを見るにしても、暗い映画館で見るにしても、良い物語は魅力的なキャラクターにかかっています。主演俳優が注目されがちですが、助演の役がユーモアや感情を加えます。さらに、素晴らしい予想外の展開は普通の夜を思い出深いものにしてくれます。私の見解では、気軽なストリーミングと集中した視聴のバランスをとることが、疲れを感じずにメディアを楽しむ助けになります。</p></div>"
+                eng: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>📺 How Our Viewing Habits Changed: Then vs. Now</h3><p><strong>1990s — Scheduled TV &amp; Video Stores:</strong> In the past, viewers had to plan their evenings around fixed TV schedules. Everyone watched their favorite programs at the exact same hour, which made television a shared family activity. If you missed a show, you could not simply press a button to play it again. Instead, you had to wait months for a repeat broadcast or visit a local video rental shop. Sometimes the popular movies were already rented out, which was rather disappointing. Waiting a whole week for the next episode was fairly normal, and spoilers were much easier to avoid when people watched at different times. People also discussed the newest episodes at school or work the next morning.</p><p><strong>2010s — Early Streaming &amp; Binge-Watching:</strong> Faster internet and early streaming websites completely changed how people enjoyed television. Viewers could suddenly watch several episodes in one sitting without any commercial breaks. Watching an entire season in one weekend, known as 'binge-watching,' quickly became a very popular habit. Many people stayed up way too late because they wanted to see what happened next in the story. On the other hand, having thousands of options on one screen made selecting a film rather slow and difficult. Many viewers spent too much time scrolling through long menus just to pick one movie, and sometimes they felt too tired to actually watch anything.</p><p><strong>Today — Big Screens vs. Pocket Screens:</strong> Modern apps allow us to watch shows and movies on smartphones, tablets, or smart TVs almost anywhere. In fact, watching videos on a phone is quite convenient during a long train ride or a lunch break. However, for big action films or sci-fi adventures, a phone screen is simply too small to enjoy the visual effects and fine details. Small speakers also cannot match the rich sound of a real cinema. For this reason, going to a movie theater remains a pretty exciting experience. The huge screen, powerful sound system, and dark room pull you right into the story without any distractions from home.</p><p><strong>Supporting Cast &amp; Lasting Stories:</strong> Whether we watch on a small screen on the train or in a crowded cinema, great entertainment always depends on strong characters and good writing. Famous lead actors usually get the most attention, while supporting roles quietly add humor, warmth, and real emotion to the story. Furthermore, a clever ending or a surprising twist can make an ordinary evening truly memorable. In addition, international shows are now much easier to find, so we can learn about different cultures from our living rooms. In my opinion, finding a healthy balance between quick mobile streaming and focused cinema watching helps us enjoy great stories without getting too tired.</p></div>",
+                jpn: "<div class='er-template er-layout-8'><h3 style='margin-top:0;'>📺 私たちの視聴習慣はどう変わったか：昔と今</h3><p><strong>1990年代 — 決まった時間のテレビとレンタル店：</strong> 昔、視聴者は決まったテレビの放送予定に合わせて夜の計画を立てる必要がありました。誰もがまったく同じ時間にお気に入りの番組を見ていたため、テレビは家族みんなで共有する活動でした。もし番組を見逃しても、ボタンを押すだけで再生することはできませんでした。その代わり、再放送を何ヶ月も待つか、地元のレンタルビデオ店に行くしかありませんでした。人気の映画はすでに貸し出し中であることもあり、それはかなり残念なことでした。次のエピソードまで1週間丸々待つのはかなり普通で、人々が違う時間に見ているときはネタバレを避けるのもずっと簡単でした。また、人々は翌朝学校や職場で最新のエピソードについて話し合っていました。</p><p><strong>2010年代 — ストリーミング初期とイッキ見：</strong> より速いインターネットと初期のストリーミングサイトは、人々がテレビを楽しむ方法を完全に変えました。視聴者は突然、CMなしで一度に複数のエピソードを見ることができるようになりました。1つのシーズン全体を1週末で見る「イッキ見（ビンジウォッチング）」は、すぐにとても人気のある習慣になりました。物語の続きが気になりすぎて、夜更かししすぎる人も多くいました。その一方で、1つの画面に何千もの選択肢があると、映画を選ぶのにかなり時間がかかり難しくなりました。多くの視聴者がたった1本の映画を選ぶためだけに長いメニューをスクロールしすぎて時間を費やし、時には疲れすぎて結局何も見られないこともありました。</p><p><strong>現在 — 大画面対ポケット画面：</strong> 最新のアプリを使えば、スマートフォンやタブレット、スマートTVで、ほとんどどこにいても番組や映画を見ることができます。実際、長い電車の移動中や昼休みにスマホで動画を見るのはかなり便利です。しかし、大きなアクション映画やSFの冒険作品の場合、スマホの画面は視覚効果や細部を楽しむには小さすぎます。また、小さなスピーカーは本物の映画館の豊かな音響には敵いません。このため、映画館へ行くことはかなりワクワクする体験のままです。巨大なスクリーン、迫力ある音響システム、そして暗い部屋が、家での邪魔が入ることなくあなたを物語の世界へと引き込んでくれます。</p><p><strong>助演キャストと心に残る物語：</strong> 電車の中で小さな画面を見るにしても、満員の映画館で見るにしても、素晴らしいエンターテインメントは常に魅力的なキャラクターと良い脚本にかかっています。有名な主演俳優が最も注目を集めることが多いですが、助演の役柄が物語にユーモアや温かさ、そして本物の感情を静かに加えてくれます。さらに、巧妙な結末や驚くような展開は、普通の夜を本当に思い出深いものにしてくれます。加えて、今では海外の番組もずっと見つけやすくなったため、リビングにいながら異なる文化について学ぶことができます。私の意見では、手軽なモバイル視聴と集中した映画館での視聴の健康的なバランスを見つけることが、疲れすぎずに素晴らしい物語を楽しむ助けになります。</p></div>"
             },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you prefer watching movies at a cinema or streaming them at home? Use transitional expressions and adverbs of degree.",
@@ -1048,16 +1049,16 @@ const b1Curriculum = [
         ],
         dialogue: [
             { speaker: "A", eng: "Are you watching anything interesting these days?", jpn: "最近、何か面白いものを見ていますか？" },
-            { speaker: "B", eng: "Actually, yes. <span class='swappable'>I highly recommend a new sci-fi series called 'Orbit'.</span>", jpn: "実は、はい。「Orbit」という新しいSFシリーズを強くお勧めします。" },
+            { speaker: "B", eng: "Actually, yes. I recently got into Orbit. <span class='swappable'>It's so good. </span>", jpn: "実は、はい。最近、Orbitにハマっています。すごくいいんです。" },
             { speaker: "A", eng: "I've heard the hype, but <span class='swappable'>what is the general plot about?</span>", jpn: "話題になっているのは聞いていますが、全体的なあらすじは何ですか？" },
-            { speaker: "B", eng: "<span class='swappable'>It is set in the future and follows a team of space explorers.</span> It is really thrilling and smart.", jpn: "未来を舞台にしていて、宇宙探検家のチームを追った話です。本当にスリリングでスマートですよ。" },
-            { speaker: "A", eng: "I usually like sci-fi, but <span class='swappable'>I'm a little hesitant because I don't have much free time.</span>", jpn: "普段SFは好きなんですが、あまり自由な時間がないので少し躊躇しています。" },
+            { speaker: "B", eng: "It is set in the future and follows a team of space explorers.</span> It is really thrilling and smart.", jpn: "未来を舞台にしていて、宇宙探検家のチームを追った話です。本当にスリリングでスマートですよ。" },
+            { speaker: "A", eng: "I usually like sci-fi, but <span class='swappable'>I'm a little hesitant </span> because I don't have much free time.", jpn: "普段SFは好きなんですが、あまり自由な時間がないので少し躊躇しています。" },
             { speaker: "B", eng: "I understand, but it's totally worth watching. There is nothing boring in the first season.", jpn: "わかりますが、絶対に見る価値がありますよ。第1シーズンには退屈なものは何もありません。" },
             { speaker: "A", eng: "Does it have a lot of complex special effects?", jpn: "複雑な特殊効果はたくさんありますか？" },
             { speaker: "B", eng: "Yes, the visuals are dark and beautiful. It will keep you guessing until the end.", jpn: "はい、ビジュアルは暗くて美しいです。最後までハラハラさせられますよ。" },
             { speaker: "A", eng: "Alright, <span class='swappable'>I will give it a shot this weekend.</span>", jpn: "わかりました、今週末に試してみます（見てみます）。" },
             { speaker: "B", eng: "Great! Let me know what you think on Monday.", jpn: "素晴らしい！月曜日にどう思ったか教えてくださいね。" },
-            { speaker: "A", eng: "<span class='swappable'>Thanks for the recommendation. I was looking for something exciting.</span>", jpn: "お勧めしてくれてありがとうございます。何かエキサイティングなものを探していたんです。" }
+            { speaker: "A", eng: "Thanks for the recommendation. I was looking for something exciting.</span>", jpn: "お勧めしてくれてありがとうございます。何かエキサイティングなものを探していたんです。" }
         ],
         dialogueStructure: [
             { eng: "Ask for viewing updates", jpn: "視聴状況を尋ねる", indent: false },
@@ -1077,14 +1078,14 @@ const b1Curriculum = [
                 category: "1. Recommending a show (番組を推薦する)",
                 options: [
                     { eng: "I highly recommend this series.", jpn: "このシリーズを強くお勧めします。" },
-                    { eng: "You should really check out this movie.", jpn: "この映画をぜひチェックしてみてください。" },
-                    { eng: "It is an absolute must-see.", jpn: "絶対に必見の作品です。" }
+                    { eng: "It is definitely worth a watch.", jpn: "間違いなく観る価値があります。" },
+                    { eng: "I cannot recommend this series enough.", jpn: "この映画はいくら勧めても勧めきれません。" }
                 ]
             },
             {
                 category: "2. Asking for a synopsis (あらすじを尋ねる)",
                 options: [
-                    { eng: "What is the general plot about?", jpn: "全体的なあらすじは何ですか？" },
+                    { eng: "What's the premise?", jpn: "どういう設定（前提）の話？" },
                     { eng: "Can you give me a brief synopsis?", jpn: "簡単なあらすじを教えていただけますか？" },
                     { eng: "What happens in the story?", jpn: "物語では何が起こるのですか？" }
                 ]
@@ -1092,17 +1093,46 @@ const b1Curriculum = [
             {
                 category: "3. Expressing hesitation (ためらいを表現する)",
                 options: [
-                    { eng: "I'm a little hesitant because I don't have time.", jpn: "時間がないので少し躊躇しています。" },
-                    { eng: "I have mixed feelings about that genre.", jpn: "そのジャンルについては複雑な気持ちがあります。" },
-                    { eng: "I'm not sure if it's worth watching.", jpn: "見る価値があるかどうか分かりません。" }
+                    { eng: "I'm on the fence.", jpn: "まだ決めかねている。" },
+                    { eng: "I'm still in two minds about seeing it.", jpn: "観に行くかどうかまだ心が決まっていません。" },
+                    { eng: "I'm not completely sold on it yet.", jpn: "まだ観る気になりきれていません。" }
                 ]
             },
             {
                 category: "4. Agreeing to watch (見ることに同意する)",
                 options: [
-                    { eng: "I will give it a shot this weekend.", jpn: "今週末に試してみます。" },
+                    { eng: "I will check it out.", jpn: "今週末に試してみます。" },
                     { eng: "I might watch the first episode tonight.", jpn: "今夜、第1話を見てみるかもしれません。" },
                     { eng: "Alright, you convinced me to try it.", jpn: "わかりました、試してみる気になりましたよ。" }
+                ]
+            }
+        ],
+        grammarPoints: [
+            {
+                point: "1. Pronouns: Grouping things (something/nothing/anything + adjective)",
+                explanation: "In English, adjectives usually come before a noun (e.g., 'an exciting movie'). However, when you use indefinite pronouns ending in -thing, -one, or -body (such as something, anything, nothing, everything, or someone), you must place the adjective directly AFTER the pronoun. You can also add 'to + verb' after the adjective to explain the purpose (e.g., 'something exciting to watch').",
+                explanationJpn: "英語では通常、形容詞は名詞の前に置かれます（例：an exciting movie）。しかし、-thing、-one、-body で終わる不定代名詞（something, anything, nothing, everything, someone など）を使う場合は、形容詞を代名詞の「直後」に置く必要があります。また、目的を説明するために形容詞の後ろに「to + 動詞の原形」を続けることもできます（例：something exciting to watch）。",
+                examples: [
+                    { eng: "I am looking for something exciting to watch.", jpn: "何かエキサイティングな見るものを探しています。" },
+                    { eng: "There is nothing boring in the first season.", jpn: "第1シーズンには退屈なものは何もありません。" }
+                ]
+            },
+            {
+                point: "2. Verb Pattern: keep someone doing something",
+                explanation: "Use the structure 'keep + object (person) + verb-ing' to explain that a show, movie, or story causes the audience to continue doing an action or staying in a certain state without stopping. In media reviews, this is commonly used with verbs like 'guessing,' 'laughing,' 'watching,' or 'thinking' to show that the story is very engaging.",
+                explanationJpn: "「keep + 目的語（人）+ 動詞の-ing形」の形を使うと、番組や映画、物語などが原因で、視聴者が特定の行動や状態を途切れることなく続けさせられることを表現できます。メディアのレビューでは、物語が非常に魅力的であることを示すために、guessing（推測し続ける／ハラハラする）、laughing（笑い続ける）、watching（見続ける）、thinking（考え続ける）などの動詞とよく一緒に使われます。",
+                examples: [
+                    { eng: "The mystery plot will keep you guessing until the very end.", jpn: "そのミステリーの筋書きは、最後の最後まであなたをハラハラさせ続ける（予測させない）でしょう。" },
+                    { eng: "The funny characters kept us laughing throughout the whole movie.", jpn: "その面白いキャラクターたちのおかげで、私たちは映画の間ずっと笑い続けました。" }
+                ]
+            },
+            {
+                point: "3. Adjectives: be worth doing",
+                explanation: "Use 'be + worth + verb-ing' (or 'be worth + noun') to say that something is enjoyable, useful, or important enough to justify the time, money, or effort spent on it. Even though the meaning can feel passive (e.g., 'it deserves to be watched'), you must always use the active -ing form after 'worth,' never a passive infinitive like 'to be watched.'",
+                explanationJpn: "「be + worth + 動詞の-ing形」（または「be worth + 名詞」）を使うと、時間・お金・労力をかけるだけの価値や楽しさ、重要性があることを表現できます。意味としては受動態（「見られる価値がある」）のように感じられますが、worth の後ろには必ず能動の -ing 形（例：watching）を置き、to be watched のような受動の不定詞は使わないように注意しましょう。",
+                examples: [
+                    { eng: "This sci-fi series is totally worth watching if you have free time.", jpn: "もし自由な時間があるなら、このSFシリーズは絶対に見る価値があります。" },
+                    { eng: "The movie is a bit long, so it is not worth spending money on a ticket.", jpn: "その映画は少し長いので、チケットにお金を払う価値はありません。" }
                 ]
             }
         ],
@@ -1132,22 +1162,28 @@ const b1Curriculum = [
                 { eng: "Point out", jpn: "指摘する", exEng: "The reviewer pointed out several plot holes.", exJpn: "レビューアーはいくつかの設定の矛盾を指摘しました。" }
             ],
             clickingGames: [
-                // Grammar Point 1: Grouping things (something/nothing + adjective) - 4 sentences
+                // Grammar Point 1: Grouping things (something/nothing/anything + adjective) - 4 sentences
                 { prompt: "何か新しい見るものを探しています。", target: "I am looking for something new to watch.", words: ["I", "am", "looking", "for", "something", "new", "to", "watch."] },
                 { prompt: "第1シーズンには退屈なものは何もありません。", target: "There is nothing boring in the first season.", words: ["There", "is", "nothing", "boring", "in", "the", "first", "season."] },
                 { prompt: "何かエキサイティングな番組を見たいです。", target: "I want to watch something exciting.", words: ["I", "want", "to", "watch", "something", "exciting."] },
-                { prompt: "そのエピソードには予測不可能なものは何もありませんでした。", target: "There was nothing unpredictable in that episode.", words: ["There", "was", "nothing", "unpredictable", "in", "that", "episode."] },
-                // Grammar Point 2: Multiple good/bad points 1 (adj and adj) - 4 sentences
-                { prompt: "その映画は暗くて美しいです。", target: "The movie is dark and beautiful.", words: ["The", "movie", "is", "dark", "and", "beautiful."] },
-                { prompt: "ストーリーの展開は遅くて混乱するものでした。", target: "The plot was slow and confusing.", words: ["The", "plot", "was", "slow", "and", "confusing."] },
-                { prompt: "そのシリーズはスリリングでスマートです。", target: "The series is thrilling and smart.", words: ["The", "series", "is", "thrilling", "and", "smart."] },
-                { prompt: "結末は感情的で忘れられないものでした。", target: "The ending was emotional and unforgettable.", words: ["The", "ending", "was", "emotional", "and", "unforgettable."] }
+                { prompt: "今夜、何か面白い番組はやっていますか？", target: "Is there anything interesting on TV tonight?", words: ["Is", "there", "anything", "interesting", "on", "TV", "tonight?"] },
+                // Grammar Point 2: keep someone doing something - 4 sentences
+                { prompt: "それは最後まであなたをハラハラさせ続けます。", target: "It will keep you guessing until the end.", words: ["It", "will", "keep", "you", "guessing", "until", "the", "end."] },
+                { prompt: "その面白いコメディは私たちをずっと笑わせました。", target: "The funny comedy kept us laughing.", words: ["The", "funny", "comedy", "kept", "us", "laughing."] },
+                { prompt: "素晴らしいストーリーは視聴者に見続けさせます。", target: "A great story keeps viewers watching.", words: ["A", "great", "story", "keeps", "viewers", "watching."] },
+                { prompt: "その結末は観客に何日も考えさせ続けました。", target: "The ending kept the audience thinking for days.", words: ["The", "ending", "kept", "the", "audience", "thinking", "for", "days."] },
+                // Grammar Point 3: be worth doing - 4 sentences
+                { prompt: "その新しいシリーズは絶対に見る価値があります。", target: "The new series is totally worth watching.", words: ["The", "new", "series", "is", "totally", "worth", "watching."] },
+                { prompt: "その退屈な映画に時間を無駄にする価値はありません。", target: "It is not worth wasting time on that boring movie.", words: ["It", "is", "not", "worth", "wasting", "time", "on", "that", "boring", "movie."] },
+                { prompt: "このドキュメンタリーは週末にチェックする価値があります。", target: "This documentary is worth checking out this weekend.", words: ["This", "documentary", "is", "worth", "checking", "out", "this", "weekend."] },
+                { prompt: "その小説は映画を見る前に読む価値がありますか？", target: "Is the novel worth reading before watching the film?", words: ["Is", "the", "novel", "worth", "reading", "before", "watching", "the", "film?"] }
             ],
-            extendedReading: {
-                title: "Task 3: Authentic Reading (Layout 9 - Split Cards & Quick Pitch)",
+extendedReading: {
+title: "Task 3: Authentic Reading (Layout 9 - Split Cards & Quick Pitch)",
                 instruction: "Read these quick show pitches from coworkers. Notice how they give a synopsis and respond to hesitation without spoilers.",
-                eng: "<div class='er-template er-layout-9'><div class='er-card'><h4>🚀 Pitch 1: 'Orbit' (Sci-Fi Mystery)</h4><p>If you want something smart and exciting after work, this show is worth watching. It is set on a deep-space station where two scientists lose contact with Earth. There is nothing slow or confusing in the first three episodes, and every twist keeps you guessing. Even if you have mixed feelings about space dramas, it is a great show to give a shot.</p></div><div class='er-card'><h4>🕵️ Pitch 2: 'Night Shift' (Detective Series)</h4><p>A coworker told me they felt hesitant about starting a long crime series, so I gave a brief synopsis first. It follows a quiet night-shift detective who solves small local cases. The tone is calm and clever rather than loud or violent. I highly recommend watching just one episode tonight to see if it catches your attention—it is definitely not a waste of time.</p></div><div class='er-card'><h4>🎭 Pitch 3: 'The Bakery Road' (Light Comedy)</h4><p>When you are tired and do not want anything heavy, comedy is a smart choice. This series is set in a small neighborhood bakery where two rival chefs have to work together. The humor is warm and funny, and there is nothing boring about the kitchen scenes. It is an easy must-see if you need a good laugh before bed.</p></div></div>",
-                jpn: "<div class='er-template er-layout-9'><div class='er-card'><h4>🚀 紹介1：『Orbit』（SFミステリー）</h4><p>仕事後に何かスマートでエキサイティングなものを見たいなら、この番組は見る価値があります。2人の科学者が地球との連絡を絶つ深宇宙ステーションが舞台です。最初の3話には遅い展開や分かりにくいものはなく、毎回のどんでん返しがハラハラさせます。宇宙ドラマに複雑な気持ちがあっても、試してみるのに良い作品です。</p></div><div class='er-card'><h4>🕵️ 紹介2：『Night Shift』（刑事シリーズ）</h4><p>長い犯罪シリーズを始めるのをためらっていると同僚に言われたので、まず簡単なあらすじを伝えました。小さな地域の事件を解決する物静かな夜勤刑事を描いています。派手さや暴力性よりも、落ち着いていて知的なトーンです。注意を引かれるかどうか、今夜1話だけ見ることを強くお勧めします。時間の無駄には絶対になりません。</p></div><div class='er-card'><h4>🎭 紹介3：『The Bakery Road』（ライトコメディ）</h4><p>疲れていて重いものを見たくないとき、コメディは賢い選択です。ライバルのシェフ2人が一緒に働かなければならない小さな町のパン屋が舞台のシリーズです。ユーモアは温かくて面白く、キッチンのシーンに退屈な要素はありません。寝る前に思いっきり笑いたいなら、手軽に見られる必見作です。</p></div></div>"
+                eng: "<div class='er-template er-layout-9'><div class='er-card'><h4>🚀 Pitch 1: 'Orbit' (Sci-Fi Mystery)</h4><p>If you want something smart and exciting after work, this show is really worth watching. It is set on a faraway space station where two scientists suddenly lose contact with Earth. At first, they think it is just a simple radio problem, so they try to fix it together. However, they soon find strange clues around the station and realize someone else was there before them. There is nothing slow or confusing in the first three episodes, and every surprise keeps you guessing until the final minute. The acting is also very natural, which makes the scary moments feel real. Even if you usually have mixed feelings about space shows, this one is very easy to follow and is a great series to give a shot this weekend.</p></div><div class='er-card'><h4>🕵️ Pitch 2: 'Night Shift' (Detective Series)</h4><p>A coworker told me they felt unsure about starting a long crime show, so I shared a short summary first. The story follows a quiet night-shift detective who solves small town mysteries while everyone else is sleeping. Instead of chasing criminals in fast cars, he listens carefully to people and notices tiny clues that others miss. Unlike other police shows, the feeling is calm and clever rather than loud or scary. Each episode tells one complete story, so you do not have to remember too many details from past weeks. I highly recommend watching just the first episode tonight to see if it catches your attention—it is definitely not a waste of time.</p></div><div class='er-card'><h4>🎭 Pitch 3: 'The Bakery Road' (Light Comedy)</h4><p>When you are tired and do not want anything sad or serious, a light comedy is always a smart choice. This series is set in a small neighborhood bakery where two competing bakers are forced to share one tiny kitchen. At first, they argue about every single recipe, from simple bread to birthday cakes, and their early mistakes are hilarious. Over time, though, they become good friends and help each other save the shop from closing. The humor is warm and natural, and there is nothing boring about the baking scenes. It is a fun must-see if you want a good laugh and a happy feeling before going to sleep.</p></div></div>",
+                jpn: "<div class='er-template er-layout-9'><div class='er-card'><h4>🚀 紹介1：『Orbit』（SFミステリー）</h4><p>仕事後に何かスマートでワクワクするものを見たいなら、この番組は本当に見る価値があります。遠く離れた宇宙ステーションが舞台で、2人の科学者が突然地球との連絡を失います。最初は単なる無線の問題だと思い、2人で直そうとします。しかし、すぐにステーションのあちこちで奇妙な手がかりを見つけ、自分たちの前に誰か別の人がそこにいたことに気づきます。最初の3話には遅い展開や分かりにくいものはなく、毎回の驚きが最後の1分までハラハラさせます。演技もとても自然なので、怖い場面がよりリアルに感じられます。普段は宇宙ものの番組に複雑な気持ちを持っていても、この作品はとても分かりやすく、今週末に試してみるのにぴったりのシリーズです。</p></div><div class='er-card'><h4>🕵️ 紹介2：『Night Shift』（刑事シリーズ）</h4><p>長い犯罪番組を始めることに迷いがあると同僚が言っていたので、まず短いあらすじを伝えました。みんなが眠っている間に小さな町の謎を解決する、物静かな夜勤刑事の物語です。速い車で犯人を追いかける代わりに、彼は人々の話にじっくり耳を傾け、他の人が見逃すような小さな手がかりに気づきます。他の警察ドラマとは違い、派手さや怖さよりも、落ち着いていて知的な雰囲気があります。各話で1つの物語が完結するため、過去の回の細かい内容をたくさん覚えておく必要もありません。注意を引かれるかどうか、今夜第1話だけ見ることを強くお勧めします。時間の無駄には絶対になりません。</p></div><div class='er-card'><h4>🎭 紹介3：『The Bakery Road』（ライトコメディ）</h4><p>疲れていて悲しい話や深刻な話を見たくないとき、軽いコメディはいつも賢い選択です。競争相手のパン職人2人が1つの狭いキッチンを一緒に使わなければならなくなる、小さな町のパン屋が舞台のシリーズです。最初はシンプルなパンから誕生日ケーキまで、あらゆるレシピについて口論し、初期の失敗の数々はとても笑えます。しかし時間が経つにつれて良い友達になり、お店が閉店するのを防ぐために助け合うようになります。ユーモアは温かくて自然で、パン作りのシーンに退屈な要素はありません。寝る前に思いっきり笑って幸せな気分になりたいなら、楽しく見られる必見作です。</p></div></div>"
+            
             },
             writingTask: {
                 promptEng: "Write a short paragraph recommending your favorite TV show or movie. Include a brief synopsis and explain why it is worth watching.",
@@ -1165,20 +1201,20 @@ const b1Curriculum = [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                {
+              {
                     name: "Person 1",
-                    eng: "I subscribe to several streaming platforms because my family has very different tastes in movies. My husband loves action movies, my kids watch animated series, and I prefer historical dramas. However, managing all these subscriptions has become quite expensive recently. Every few months, the prices seem to increase. Some of my friends have started sharing passwords to save money, but the streaming companies are making that much harder now. I think it is frustrating that we cannot find all the content we want on a single platform. Sometimes, I consider canceling a few of them and going back to reading books instead.",
-                    jpn: "私の家族は映画の好みが全く違うので、私はいくつかのストリーミングプラットフォームに登録しています。夫はアクション映画が大好きで、子供たちはアニメシリーズを見て、私は歴史ドラマを好みます。しかし、これらすべてのサブスクリプションを管理することは、最近かなり高額になっています。数ヶ月ごとに価格が上がっているように思えます。私の友人の何人かはお金を節約するためにパスワードを共有し始めましたが、ストリーミング企業は今、それをはるかに難しくしています。見たいコンテンツがすべて1つのプラットフォームで見つからないのは不満だと思います。時々、そのうちのいくつかを解約して、代わりに本を読むことに戻ろうかと考えることがあります。"
+                    eng: "I pay for several streaming services because my family likes very different kinds of movies. My husband loves action movies, my kids watch cartoons, and I prefer history dramas. However, paying for all these services has become quite expensive recently. Every few months, the prices seem to go up. Some of my friends have started sharing passwords to save money, but the streaming companies are making that much harder now. I think it is annoying that we cannot find all the shows we want on one single site. Sometimes, I think about canceling a few of them and going back to reading books instead.",
+                    jpn: "私の家族は全く違う種類の映画が好きなので、私はいくつかのストリーミングサービスにお金を払っています。夫はアクション映画が大好きで、子供たちはアニメを見て、私は歴史ドラマを好みます。しかし、これらすべてのサービスにお金を払うことは、最近かなり高額になっています。数ヶ月ごとに価格が上がっているように思えます。私の友人の何人かはお金を節約するためにパスワードを共有し始めましたが、ストリーミング企業は今、それをはるかに難しくしています。見たい番組がすべて1つのサイトで見つからないのはイライラすると思います。時々、そのうちのいくつかを解約して、代わりに本を読むことに戻ろうかと考えることがあります。"
                 },
                 {
                     name: "Person 2",
-                    eng: "The problem with having too many streaming options is choice overload. When I log in after work, I spend twenty minutes just scrolling through menus trying to find something interesting. Both of the major platforms recommend shows based on algorithms, but they often suggest things I have no interest in. It feels like the market is flooded with average content instead of high-quality masterpieces. Because of this, I rely heavily on recommendations from my colleagues and social media reviews. If a show generates enough hype, I will give it a shot, but I rarely browse randomly anymore. I genuinely miss the simplicity of traditional television schedules where the choices were limited.",
-                    jpn: "ストリーミングの選択肢が多すぎる問題は、選択の過多です。仕事の後にログインすると、何か面白いものを見つけようとしてメニューをスクロールするだけで20分も費やしてしまいます。主要なプラットフォームはどちらもアルゴリズムに基づいて番組を推薦してきますが、私が全く興味のないものを提案してくることがよくあります。高品質な傑作の代わりに、市場が平均的なコンテンツで溢れかえっているように感じます。このため、私は同僚からの推薦やソーシャルメディアのレビューに大きく依存しています。もし番組が十分な話題を呼べば試してみますが、もうランダムにブラウジングすることはめったにありません。選択肢が限られていた伝統的なテレビのスケジュールのシンプルさが純粋に恋しいです。"
+                    eng: "The problem with having too many streaming sites is having too many choices. When I log in after work, I spend twenty minutes just looking through lists trying to find something interesting. Both of the main services suggest shows based on what I watched before, but they often suggest things I do not care about. It feels like there are too many average shows instead of really great movies. Because of this, I rely a lot on advice from my coworkers and reviews on social media. If a show gets enough attention, I will give it a try, but I rarely search randomly anymore. I truly miss how simple old TV schedules were when the choices were limited.",
+                    jpn: "ストリーミングサイトが多すぎる問題は、選択肢が多すぎることです。仕事の後にログインすると、何か面白いものを見つけようとしてリストを眺めるだけで20分も使ってしまいます。主要なサービスはどちらも前に見たものに基づいて番組を提案してきますが、私が興味のないものを提案してくることがよくあります。本当に素晴らしい映画の代わりに、平均的な番組が多すぎるように感じます。このため、私は同僚からのアドバイスやSNSのレビューに大きく頼っています。もし番組が十分な注目を集めれば試してみますが、もうランダムに探すことはめったにありません。選択肢が限られていた頃の昔のテレビのスケジュールがいかにシンプルだったか、本当に懐かしく思います。"
                 },
                 {
                     name: "Person 3",
-                    eng: "I believe the current subscription model is great for independent filmmakers and niche genres. In the past, television networks only produced shows that appealed to a massive audience. Now, streaming platforms invest heavily in diverse stories, international cinema, and unique documentaries. Even if only a few of the subscribers watch a specific Korean drama or a French film, the platform still considers it valuable. This global approach has dramatically improved the quality and variety of storytelling. While managing multiple subscriptions is annoying, I am happy to pay for access to art from all over the world. It is a fantastic era for creative professionals and global audiences alike.",
-                    jpn: "現在のサブスクリプションモデルは、独立系の映画製作者やニッチなジャンルにとって素晴らしいものだと私は信じています。過去には、テレビネットワークは大規模な視聴者にアピールする番組しか制作しませんでした。現在、ストリーミングプラットフォームは、多様な物語、国際的な映画、ユニークなドキュメンタリーに多額の投資をしています。たとえ少数の加入者しか特定の韓国ドラマやフランス映画を見なくても、プラットフォームはそれを価値あるものと見なします。このグローバルなアプローチは、ストーリーテリングの質と多様性を劇的に向上させました。複数のサブスクリプションを管理するのは面倒ですが、世界中の芸術にアクセスするためにお金を払うことには満足しています。クリエイティブな専門家にとっても、グローバルな視聴者にとっても、素晴らしい時代です。"
+                    eng: "I think the current monthly payment system is great for small filmmakers and unusual genres. In the past, TV stations only made shows that were popular with a huge crowd. Now, streaming services spend a lot of money on different kinds of stories, foreign movies, and special documentaries. Even if only a few of the members watch a certain Korean drama or a French film, the service still thinks it is worth having. This worldwide focus has greatly improved the quality and mix of stories. While keeping track of several accounts is annoying, I am happy to pay to watch films from all over the world. It is a wonderful time for creative filmmakers and viewers everywhere.",
+                    jpn: "現在の月額制システムは、小規模な映画製作者や珍しいジャンルにとって素晴らしいものだと私は思います。過去には、テレビ局は大勢の人に人気が出る番組しか作りませんでした。現在、ストリーミングサービスは、さまざまな種類の物語、海外の映画、特別なドキュメンタリーに多くのお金を使っています。たとえ少数のメンバーしか特定の韓国ドラマやフランス映画を見なくても、サービスはそれを置く価値があると考えます。この世界規模の取り組みは、物語の質と多様性を大きく向上させました。いくつかのアカウントを管理するのは面倒ですが、世界中の映画を見るためにお金を払うことには満足しています。クリエイティブな映画製作者にとっても、世界中の視聴者にとっても、素晴らしい時代です。"
                 }
             ]
         },
@@ -1276,11 +1312,11 @@ const b1Curriculum = [
                 { prompt: "一部のユーザーは選択の疲れを経験しています。", target: "Some of the users experience choice fatigue.", words: ["Some", "of", "the", "users", "experience", "choice", "fatigue."] },
                 { prompt: "海外のドラマのうちのいくつかは素晴らしいです。", target: "A few of the international shows are incredible.", words: ["A", "few", "of", "the", "international", "shows", "are", "incredible."] }
             ],
-            extendedReading: {
+           extendedReading: {
                 title: "Task 3: Authentic Reading (Layout 10 - Feature Box & Pros/Cons Breakdown)",
                 instruction: "Read this breakdown of streaming subscription habits and notice how pronouns like 'both of', 'some of', and 'a few of' are used.",
-                eng: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>💡 Streaming Subscriptions: What Are Viewers Doing Now?</h3><p>Many households pay for more than one streaming service today. For instance, one person might want sports while another prefers dramas or comedies. Both of the biggest streaming services in our survey recently raised prices, which made viewers look closer at their monthly budgets. Even if prices go up, some of the subscribers stay because they enjoy watching new series with friends.</p><p><strong>👍 Benefits for Viewers &amp; Creators:</strong> Streaming gives people access to international films and niche shows that traditional TV rarely aired. A few of my coworkers love reading subtitles to watch foreign series, and they say it helps them learn about other cultures. Creators and viewers alike enjoy having more choices without waiting for a weekly schedule.</p><p><strong>👎 Drawbacks to Watch Out For:</strong> Due to choice overload, people often spend twenty minutes scrolling through menus before they pick anything. Some of the users suffer from subscription fatigue and end up paying for services they rarely open. Because of this, a few of my friends plan to cancel an extra account and focus on one or two platforms instead.</p></div></div>",
-                jpn: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>💡 ストリーミングのサブスクリプション：視聴者は今どうしている？</h3><p>今日、多くの家庭が複数のストリーミングサービスにお金を払っています。例えば、スポーツを見たい人がいる一方で、ドラマやコメディを好む人もいます。私たちの調査で最大手のストリーミングサービス2社はどちらも最近値上げを行い、視聴者に毎月の予算をより注意深く見直させました。たとえ価格が上がっても、友人と一緒に新しいシリーズを見るのを楽しめるため、加入者の何人かは継続しています。</p><p><strong>👍 視聴者とクリエイターにとってのメリット：</strong> ストリーミングによって、従来のテレビではめったに放送されなかった国際映画やニッチな番組に人々がアクセスできるようになりました。私の同僚のうち数人は、字幕を読んで外国のシリーズを見るのが大好きで、他の文化について学ぶ助けになると言っています。クリエイターも視聴者も同様に、週ごとのスケジュールを待たずに多くの選択肢を楽しめることを喜んでいます。</p><p><strong>👎 注意すべきデメリット：</strong> 選択の過多により、何かを選ぶ前にメニューをスクロールするだけで20分費やすことがよくあります。ユーザーの一部はサブスクリプション疲れに苦しみ、結局めったに開かないサービスにお金を払い続けています。このため、私の友人のうち数人は追加のアカウントを解約し、代わりに1つか2つのプラットフォームに絞る予定を立てています。</p></div>"
+                eng: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>💡 Streaming Subscriptions: What Are Viewers Doing Now?</h3><p>Many families pay for more than one streaming service today because family members often like very different kinds of shows. For example, one person might want live sports while another prefers history dramas, reality TV, or light comedies. Both of the biggest streaming services in our recent survey raised their monthly prices, which made people look much closer at their monthly budgets. Some companies have also started stopping password sharing outside the home, forcing people to buy their own separate accounts. Even if prices go up, some of the members decide to stay because they enjoy watching new popular shows at the same time as their friends and talking about them the next day.</p><p><strong>👍 Benefits for Viewers &amp; Creators:</strong> Streaming gives people easy access to foreign movies, small independent films, and unusual shows that regular TV stations rarely showed in the past. A few of my coworkers love reading subtitles to watch foreign series from Korea, France, or Spain, and they say it helps them learn about other cultures and hear new languages. Also, smaller filmmakers now have a worldwide stage to share special stories without needing a huge TV company behind them. Creators and viewers alike enjoy having far more choices whenever they want without waiting for a weekly TV schedule.</p><p><strong>👎 Drawbacks to Watch Out For:</strong> On the other hand, having thousands of shows available at once creates a big problem with having too many choices. People often spend twenty or thirty minutes just looking through long lists and watching previews before they pick anything at all. Some of the users get tired of paying for so many services and end up paying for three or four sites that they rarely even open during a busy month. Also, favorite shows sometimes disappear suddenly when a company's rights end, which can be annoying. Because of this, a few of my friends plan to cancel their extra accounts, switch between services every few months, and focus on just one or two main sites instead.</p></div></div>",
+                jpn: "<div class='er-template er-layout-10'><div class='er-feature-box'><h3>💡 ストリーミングのサブスクリプション：視聴者は今どうしている？</h3><p>今日、家族それぞれの好きな番組の種類が大きく異なることが多いため、多くの家庭が複数のストリーミングサービスにお金を払っています。例えば、ライブスポーツを見たい人がいる一方で、歴史ドラマやリアリティ番組、気軽なコメディを好む人もいます。最近の私たちの調査で最大手のストリーミングサービス2社はどちらも月額料金の値上げを行い、人々に毎月の予算をこれまで以上に注意深く見直させました。また、一部の企業は家庭外でのパスワード共有を禁止し始めており、人々は自分専用のアカウントを別々に購入せざるを得なくなっています。たとえ価格が上がっても、友人と同じタイミングで新しい人気番組を見て翌日その話をすることを楽しく感じているため、メンバーの何人かは契約を続けることを選んでいます。</p><p><strong>👍 視聴者とクリエイターにとってのメリット：</strong> ストリーミングによって、従来のテレビ局では過去にめったに放送されなかった海外の映画や小規模なインディーズ映画、珍しい番組に人々が簡単にアクセスできるようになりました。私の同僚のうち数人は、韓国やフランス、スペインなどの海外シリーズを字幕を読んで見るのが大好きで、他の文化について学び、新しい言語を聞く助けになると言っています。また、小規模な映画製作者たちも、背後に巨大なテレビ会社がなくても特別な物語を共有できる世界的な舞台を手に入れました。クリエイターも視聴者も同様に、週ごとのテレビの放送予定を待たずに、好きな時にずっと多くの選択肢を楽しめることを喜んでいます。</p><p><strong>👎 注意すべきデメリット：</strong> その一方で、何千もの番組が一度に見られる状態は、選択肢が多すぎるという大きな問題を引き起こします。何か1つを選ぶ前に、長いリストを眺めたり予告編を見たりするだけで20分から30分も使ってしまうことがよくあります。ユーザーの一部はたくさんのサービスにお金を払うことに疲れ果て、忙しい月にはほとんど開きもしない3つや4つのサイトにお金を払い続けています。また、会社の配信権が終わるとお気に入りの番組が突然消えてしまうこともあり、それがイライラする原因になります。このため、私の友人のうち数人は追加のアカウントを解約し、数ヶ月ごとにサービスを切り替えながら、代わりに1つか2つの主要なサイトだけに絞る予定を立てています。</p></div></div>"
             },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think the current streaming subscription model is too expensive? Use pronouns like 'some of' or 'both of' in your answer.",
@@ -1368,6 +1404,27 @@ const b1Curriculum = [
                 ]
             }
         ],
+grammarPoints: [
+            {
+                point: "1. Pronouns: Expressing 1/2 things (either)",
+                explanation: "We can use 'either' to express a choice between two options. It can mean 'one or the other' and is often used to show you are happy with both choices.",
+                explanationJpn: "「either」を使って2つの選択肢からの選択を表現できます。「どちらか一方」という意味で、両方の選択肢に満足していることを示すためによく使われます。",
+                examples: [
+                    { eng: "We can watch either.", jpn: "どちらでも見られますよ。" },
+                    { eng: "Either movie is fine with me.", jpn: "どちらの映画でも私は構いません。" }
+                ]
+            },
+            {
+                point: "2. Modals: Polite offers (Shall I / Shall we)",
+                explanation: "We can use 'shall I' or 'shall we' followed by a base verb to make polite offers or suggestions.",
+                explanationJpn: "「shall I」や「shall we」の後に動詞の原形を続けて、丁寧な申し出や提案をすることができます。",
+                examples: [
+                    { eng: "Shall I book the tickets online?", jpn: "オンラインでチケットを予約しましょうか？" },
+                    { eng: "Shall we grab a bite to eat?", jpn: "軽く食事をしませんか？" }
+                ]
+            }
+        ],
+
         roleplay: {
             a: "Invite your colleague to see a movie this weekend. Present two different genres as options. Use 'Shall I' to offer to buy the tickets. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(同僚を今週末の映画に誘ってください。2つの異なるジャンルを選択肢として提示してください。「Shall I」を使ってチケットを買うことを申し出てください。)</span>",
             b: "You don't have weekend plans. Accept the invitation, state which genre you would prefer to watch, and suggest eating dinner beforehand using 'Shall we'. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(週末の予定はありません。誘いを受け入れ、どのジャンルを見たいか好みを述べ、「Shall we」を使って事前に夕食を食べることを提案してください。)</span>"
@@ -1991,6 +2048,26 @@ const b1Curriculum = [
                 ]
             }
         ],
+grammarPoints: [
+            {
+                point: "1. Future Progressive: Describing future plans politely (will be + ing)",
+                explanation: "We can use the future progressive tense to express a plan in the future. This sounds quite polite and professional, making it popular in business English. It is often used with short action verbs like 'arrive', 'leave', or 'fly'.",
+                explanationJpn: "未来進行形を使って未来の計画を表現できます。これは非常に丁寧でプロフェッショナルに聞こえるため、ビジネス英語で人気があります。「arrive（到着する）」「leave（出発する）」「fly（飛ぶ）」などの短い動作の動詞とよく使われます。",
+                examples: [
+                    { eng: "I will be leaving on Monday morning at 9 AM.", jpn: "私は月曜日の午前9時に出発する予定です。" },
+                    { eng: "The client will be arriving at the hotel soon.", jpn: "クライアントはまもなくホテルに到着する予定です。" }
+                ]
+            },
+            {
+                point: "2. Modals: Expressing a lack of willingness in the present (won't + verb)",
+                explanation: "We can use 'won't' to express that an item is broken or not performing its correct function. It sounds as if the item is stubbornly refusing to help you.",
+                explanationJpn: "「won't」を使って、アイテムが壊れている、または正しく機能していないことを表現できます。まるでそのアイテムが頑なに助けてくれることを拒否しているかのように聞こえます。",
+                examples: [
+                    { eng: "The payment page won't load.", jpn: "支払いページが読み込まれません（どうしても動こうとしません）。" },
+                    { eng: "My computer won't turn on.", jpn: "私のコンピューターの電源が入りません（どうしても起動しようとしません）。" }
+                ]
+            }
+        ],
         roleplay: {
             a: "You need your assistant to book a flight and hotel for you. Politely state when you will be departing using 'will be -ing' and ask for a specific seat preference. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(アシスタントにフライトとホテルの予約をお願いする必要があります。「will be -ing」を使っていつ出発するかを丁寧に述べ、特定の座席の希望を伝えてください。)</span>",
             b: "You are the assistant. Ask about departure times and preferences. When booking, explain that the website is not working using 'won't' (e.g., it won't load / my card won't go through), and suggest an alternative. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはアシスタントです。出発時間と好みについて尋ねてください。予約の際、「won't」を使ってウェブサイトが機能していないことを説明し（例：読み込まれない、カードが通らない）、代替案を提案してください。)</span>"
@@ -2128,6 +2205,7 @@ const b1Curriculum = [
             { eng: "In short", jpn: "手短に言えば / 要するに", exampleEng: "In short, you must adapt your communication style to succeed.", exampleJpn: "要するに、成功するためには自分のコミュニケーションスタイルを適応させなければなりません。" },
             { eng: "For instance", jpn: "例えば", exampleEng: "Some cultures value time. For instance, being late in Germany is very bad.", exampleJpn: "一部の文化は時間を重んじます。例えば、ドイツで遅刻するのは非常に良くないことです。" }
         ],
+
         homework: {
             vocab: [
                 { eng: "Blend in", jpn: "溶け込む", exEng: "He tried to blend in with the local culture.", exJpn: "彼は現地の文化に溶け込もうとしました。" },
@@ -2255,7 +2333,27 @@ const b1Curriculum = [
                 ]
             }
         ],
-        roleplay: {
+grammarPoints: [
+            {
+                point: "1. Modals: Expressing a limit for an obligation (must only)",
+                explanation: "We can use 'must' with 'just' or 'only' to express the strict limit of an obligation or rule. This is very common in official instructions, like immigration or company policies.",
+                explanationJpn: "「must」と一緒に「just」または「only」を使用して、義務や規則の厳格な制限を表現できます。これは入国審査や会社の方針など、公式な指示で非常によく使われます。",
+                examples: [
+                    { eng: "You must only conduct business related to your visa.", jpn: "あなたはビザに関連するビジネスのみを行わなければなりません。" },
+                    { eng: "You must only bring one carry-on bag.", jpn: "機内持ち込み手荷物は1つだけ持ち込まなければなりません。" }
+                ]
+            },
+            {
+                point: "2. Modals: Expressing conditional obligation (If... will need to)",
+                explanation: "We can use the first conditional ('If' + present tense) to express a possible future condition, and then state the obligation using 'will have to' or 'will need to'.",
+                explanationJpn: "ファースト・コンディショナル（「If」＋現在形）を使って起こりうる未来の条件を表現し、その後「will have to」または「will need to」を使って義務を述べることができます。",
+                examples: [
+                    { eng: "If you want to extend your stay, you will need to apply.", jpn: "滞在を延長したい場合は、申請する必要があります。" },
+                    { eng: "If your bag is too heavy, you will have to pay a fee.", jpn: "荷物が重すぎる場合は、手数料を支払わなければなりません。" }
+                ]
+            }
+        ],        
+roleplay: {
             a: "You are arriving at immigration. State the purpose of your trip (business) and where you are staying. Tell the officer you do not have any items to declare. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたが入国審査に到着しました。旅行の目的（ビジネス）と滞在先を述べてください。審査官に申告する物品はないと伝えてください。)</span>",
             b: "You are the immigration officer. Ask for the passenger's passport, duration of stay, and if they have anything to declare. Use 'must only' and 'If... will need to' to explain visa rules. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは入国審査官です。乗客のパスポート、滞在期間、申告するものがあるか尋ねてください。「must only」と「If... will need to」を使ってビザの規則を説明してください。)</span>"
         },
@@ -2878,6 +2976,26 @@ const b1Curriculum = [
                 ]
             }
         ],
+grammarPoints: [
+            {
+                point: "1. Verbs: Expressing broken promises (was/were supposed to)",
+                explanation: "We use 'was supposed to' or 'were supposed to' followed by a base verb to express an expectation or a promise made in the past that was not fulfilled.",
+                explanationJpn: "過去に期待されていたこと、または約束されていたが果たされなかったことを表現するために、「was supposed to」または「were supposed to」の後に動詞の原形を使用します。",
+                examples: [
+                    { eng: "The package was supposed to arrive on Tuesday.", jpn: "その荷物は火曜日に到着するはずでした（到着しなかった）。" },
+                    { eng: "They were supposed to issue a refund yesterday.", jpn: "彼らは昨日返金を発行するはずでした。" }
+                ]
+            },
+            {
+                point: "2. Conjunctions: Adding additional information (Plus)",
+                explanation: "In casual or spoken business English, you can use 'Plus' at the beginning of a sentence to add an extra point or offer, similar to 'Additionally' or 'Also'.",
+                explanationJpn: "カジュアルまたは口語のビジネス英語では、文の最初に「Plus」を使って追加のポイントや申し出を加えることができます。「Additionally」や「Also」と似ています。",
+                examples: [
+                    { eng: "I will send a replacement. Plus, I will issue a full refund.", jpn: "交換品をお送りします。加えて、全額返金を発行いたします。" },
+                    { eng: "The item is out of stock. Plus, the factory is closed.", jpn: "その商品は在庫切れです。加えて、工場は閉鎖されています。" }
+                ]
+            }
+        ],
         roleplay: {
             a: "You ordered a laptop, but it arrived with a broken screen. Call customer service. Explain that the item was damaged and that it was supposed to be a gift for tomorrow. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(ノートパソコンを注文しましたが、画面が割れた状態で届きました。カスタマーサービスに電話してください。商品が破損していたこと、そしてそれが明日のための贈り物であるはずだったことを説明してください。)</span>",
             b: "You are the customer support agent. Apologize sincerely. Offer to send a replacement via express delivery. Use 'Plus' to offer an additional refund or discount. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはカスタマーサポートの担当者です。誠実に謝罪してください。速達で交換品を送ることを申し出てください。「Plus」を使って追加の返金や割引を提供してください。)</span>"
@@ -3142,7 +3260,28 @@ const b1Curriculum = [
                 ]
             }
         ],
-        roleplay: {
+grammarPoints: [
+            {
+                point: "1. Modals: Expressing conditional ability (If + present, subject + can/will be able to)",
+                explanation: "Use the first conditional to negotiate. State the condition with 'If', and then state what action becomes possible using 'can' or 'will be able to'.",
+                explanationJpn: "交渉にはファースト・コンディショナルを使用します。「If」で条件を述べ、その後「can」や「will be able to」を使って、どの行動が可能になるかを述べます。",
+                examples: [
+                    { eng: "If you lower the price, we can sign the contract today.", jpn: "もし価格を下げていただけるなら、本日契約を結ぶことができます。" },
+                    { eng: "If you order 10,000 units, we will be able to give a discount.", jpn: "もし10,000ユニット注文していただければ、割引を提供することができます。" }
+                ]
+            },
+            {
+                point: "2. Modals: Expressing conditional obligation (If + present, subject + will need to/have to)",
+                explanation: "When setting rules or requirements during a negotiation, use the first conditional followed by an obligation modal like 'will need to' or 'will have to'.",
+                explanationJpn: "交渉中にルールや要件を設定する際は、ファースト・コンディショナルの後に「will need to」や「will have to」などの義務を表す法助動詞を使用します。",
+                examples: [
+                    { eng: "If you want faster delivery, you will need to pay an extra fee.", jpn: "より速い配送をご希望の場合は、追加料金を支払う必要があります。" },
+                    { eng: "If the goods are damaged, we will have to return them.", jpn: "もし商品が破損していた場合は、返品しなければなりません。" }
+                ]
+            }
+        ],        
+
+roleplay: {
             a: "You are the buyer. The supplier's price is too high. Propose a condition (e.g., ordering a larger quantity) and use 'If... can' to ask for a bulk discount. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはバイヤーです。サプライヤーの価格が高すぎます。条件（例：より多くの量を注文するなど）を提示し、「If... can」を使って大量購入割引を求めてください。)</span>",
             b: "You are the supplier. Defend your pricing politely, but agree to the condition. Use 'If... will need to' to explain a delivery requirement (e.g., paying an extra fee for fast shipping). <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはサプライヤーです。価格設定を丁寧に弁護しつつ、条件に同意してください。「If... will need to」を使って配送の要件（例：迅速な発送のための追加料金の支払い）を説明してください。)</span>"
         },
@@ -3765,7 +3904,28 @@ const b1Curriculum = [
                 ]
             }
         ],
-        roleplay: {
+grammarPoints: [
+            {
+                point: "1. Adverbs: Expressing effects formally (Therefore / As a result)",
+                explanation: "When we want to express results or effects casually, we use 'so'. To sound more formal and professional, we can use 'Therefore' or 'As a result' at the beginning of the result sentence.",
+                explanationJpn: "結果や影響をカジュアルに表現したい場合は「so」を使用します。よりフォーマルでプロフェッショナルに聞こえさせるためには、結果の文の冒頭で「Therefore（それゆえに）」や「As a result（その結果）」を使用できます。",
+                examples: [
+                    { eng: "They predicted a storm. Therefore, we canceled the event.", jpn: "彼らは嵐を予測しました。それゆえに、私たちはイベントをキャンセルしました。" },
+                    { eng: "The roads are icy. As a result, the office is closed.", jpn: "道路が凍結しています。その結果、オフィスは閉鎖されています。" }
+                ]
+            },
+            {
+                point: "2. Verbs: Describing temporary actions (am/are/is + ing)",
+                explanation: "We can use the present progressive tense to describe actions that are temporary or ongoing for a limited time. This is useful for situations that are pending, like waiting for the weather to improve.",
+                explanationJpn: "現在進行形を使用して、一時的な行動、または限られた期間進行中の行動を説明できます。これは、天気が良くなるのを待っているなど、保留中の状況に役立ちます。",
+                examples: [
+                    { eng: "I am holding off on setting a new date.", jpn: "私は新しい日付を設定するのを（一時的に）保留しています。" },
+                    { eng: "We are staying indoors today due to the storm.", jpn: "嵐のため、私たちは今日（一時的に）屋内に留まっています。" }
+                ]
+            }
+        ],        
+
+roleplay: {
             a: "You planned a business lunch with a client today. Call them to cancel because there is a severe snowstorm. Explain the danger and use 'Therefore' to formally cancel. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(今日、クライアントとのビジネスランチを計画していました。激しい吹雪のため、キャンセルするために電話してください。危険性を説明し、「Therefore」を使ってフォーマルにキャンセルしてください。)</span>",
             b: "You are the client. Agree that safety comes first. Ask if they have a backup date in mind for rescheduling. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはクライアントです。安全が第一であることに同意してください。スケジュールの再調整のために予備の日程を考えているか尋ねてください。)</span>"
         },
@@ -4026,6 +4186,26 @@ const b1Curriculum = [
                     { eng: "I will keep monitoring the forecast and update you.", jpn: "天気予報を監視し続け、最新情報をお伝えします。" },
                     { eng: "Stay safe out there.", jpn: "安全に気をつけてください。" },
                     { eng: "Take your time and drive carefully.", jpn: "ゆっくり来てください、慎重に運転してください。" }
+                ]
+            }
+        ],
+grammarPoints: [
+            {
+                point: "1. Modals: Expectations for an ongoing action in the future (should be + ing)",
+                explanation: "When using the future progressive tense, we can change 'will' to 'should' or 'ought to' to express expectations for what other people are doing now or will be doing soon.",
+                explanationJpn: "未来進行形を使用する際、「will」を「should」または「ought to」に変更して、他の人が今していること、またはもうすぐするであろうことへの期待を表現できます。",
+                examples: [
+                    { eng: "The traffic should be moving soon.", jpn: "交通はまもなく動き始めるはずです。" },
+                    { eng: "The storm should be passing by this afternoon.", jpn: "嵐は今日の午後には通り過ぎているはずです。" }
+                ]
+            },
+            {
+                point: "2. Adverbs: Expressing how long things happen (duration)",
+                explanation: "We can use adverbs of time to express how long something happens for. We can use 'since' to mark the starting point of an action that continues into the present, usually with the present perfect progressive tense.",
+                explanationJpn: "時間の副詞を使って、物事がどれくらい長く続くかを表現できます。現在完了進行形と一緒に「since」を使用して、現在まで続く行動の開始点を示すことができます。",
+                examples: [
+                    { eng: "I have been waiting here since 7 AM.", jpn: "私は午前7時からずっとここで待っています。" },
+                    { eng: "It has been snowing all morning.", jpn: "午前中ずっと雪が降っています。" }
                 ]
             }
         ],
@@ -4653,6 +4833,26 @@ const b1Curriculum = [
                 ]
             }
         ],
+grammarPoints: [
+            {
+                point: "1. Imperatives: Giving polite instructions (Please / Don't)",
+                explanation: "We use the imperative (starting a sentence with a base verb) to give direct instructions or commands. In a professional setting, we soften this by adding 'Please' or 'Don't hesitate to'.",
+                explanationJpn: "直接的な指示や命令を出すには、命令形（動詞の原形で文を始める）を使用します。プロフェッショナルな環境では、「Please」や「Don't hesitate to（遠慮せずに〜する）」を加えることでこれを和らげます。",
+                examples: [
+                    { eng: "Please log in using the temporary password.", jpn: "一時的なパスワードを使ってログインしてください。" },
+                    { eng: "Don't hesitate to ask for help.", jpn: "遠慮せずに助けを求めてください。" }
+                ]
+            },
+            {
+                point: "2. Future Plans: Expressing arranged plans (be going to + verb)",
+                explanation: "To express a plan that has already been decided or arranged for the near future, use 'be going to' followed by a base verb.",
+                explanationJpn: "近い将来のためにすでに決定または手配されている計画を表現するには、「be going to」の後に動詞の原形を使用します。",
+                examples: [
+                    { eng: "We are going to go over your training schedule at 10 AM.", jpn: "午前10時に、あなたのトレーニングスケジュールについて確認する予定です。" },
+                    { eng: "I am going to introduce you to the manager later.", jpn: "後であなたをマネージャーに紹介する予定です。" }
+                ]
+            }
+        ],
         roleplay: {
             a: "You are the manager welcoming a new employee on their first day. Use an imperative to instruct them to log into their computer, and use 'are going to' to explain a plan for the afternoon. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは初日に新入社員を歓迎するマネージャーです。命令形を使ってコンピューターにログインするよう指示し、「are going to」を使って午後の予定を説明してください。)</span>",
             b: "You are the new employee. Express enthusiasm for your first day. Ask a question about where to find office supplies or the breakroom. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは新入社員です。初日の意気込みを表現してください。オフィス用品や休憩室がどこにあるか質問してください。)</span>"
@@ -4914,6 +5114,26 @@ const b1Curriculum = [
                     { eng: "The system will lock you out automatically.", jpn: "システムが自動的にあなたを締め出します。" },
                     { eng: "You have to submit an IT support ticket.", jpn: "ITサポートチケットを提出しなければなりません。" },
                     { eng: "Contact tech support if you get locked out.", jpn: "締め出された場合はテクニカルサポートに連絡してください。" }
+                ]
+            }
+        ],
+grammarPoints: [
+            {
+                point: "1. Causative Verbs: Forced actions (make + object + base verb)",
+                explanation: "We use 'make' to describe an action that one person (or company policy) forces another person to do. We do not use 'to' with 'make'.",
+                explanationJpn: "ある人（または会社の方針）が別の人に強制的に行動させることを説明するために「make」を使用します。「make」と一緒に「to」は使用しません。",
+                examples: [
+                    { eng: "The company makes us change our passwords every 90 days.", jpn: "会社は私たちに90日ごとにパスワードを変更させます。" },
+                    { eng: "Security protocols make employees use VPNs.", jpn: "セキュリティプロトコルは従業員にVPNを使用させます。" }
+                ]
+            },
+            {
+                point: "2. Expressing Purpose (in order to / to + base verb)",
+                explanation: "To explain *why* an action is performed, we use 'to' or 'in order to' followed by a base verb. 'In order to' sounds slightly more formal.",
+                explanationJpn: "なぜその行動が行われるのかを説明するために、「to」または「in order to」の後に動詞の原形を続けて使用します。「in order to」の方が少しフォーマルに聞こえます。",
+                examples: [
+                    { eng: "I downloaded the app in order to log in.", jpn: "ログインするためにアプリをダウンロードしました。" },
+                    { eng: "You need a VPN to access the internal servers.", jpn: "内部サーバーにアクセスするにはVPNが必要です。" }
                 ]
             }
         ],
@@ -5540,7 +5760,27 @@ const b1Curriculum = [
                 ]
             }
         ],
-        roleplay: {
+grammarPoints: [
+            {
+                point: "1. Auxiliary Verbs: Clarifying limits (do/does + base verb)",
+                explanation: "We can use an emphatic 'do' or 'does' before a main verb to show that something is true, but with a specific limit or condition attached. It clarifies exactly how you use something.",
+                explanationJpn: "主動詞の前に強調の「do」または「does」を使用して、何かが事実であることを示しつつ、そこに特定の限界や条件が付随していることを表現できます。これは何かを「どのように」使うかを正確に明確にします。",
+                examples: [
+                    { eng: "I do use AI for emails, but I always specify the tone.", jpn: "私はメールにAIを使いますが（使うのは事実ですが）、常にトーンを指定します。" },
+                    { eng: "The AI does write fast, just not very accurately.", jpn: "そのAIは速く書きますが、あまり正確ではありません。" }
+                ]
+            },
+            {
+                point: "2. Adverbs: Adding emphasis (never ever / not ever)",
+                explanation: "We can use 'never ever' (or 'not ever' with an auxiliary) to add extremely strong emphasis to a negative statement. This is often used for crucial warnings or strict rules.",
+                explanationJpn: "「never ever」（または助動詞を伴う「not ever」）を使って、否定文に非常に強い強調を加えることができます。これは重要な警告や厳格なルールによく使われます。",
+                examples: [
+                    { eng: "You should never ever copy-paste AI text without checking it.", jpn: "確認せずにAIのテキストをコピペすることは絶対に（絶対に）すべきではありません。" },
+                    { eng: "I wouldn't ever put confidential client data into a public AI tool.", jpn: "私は公共のAIツールに機密のクライアントデータを絶対に入れません。" }
+                ]
+            }
+        ],       
+ roleplay: {
             a: "You are trying to write a report using an AI tool, but the output is too generic. Ask a colleague for help. Tell them what you typed and complain about the result. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたはAIツールを使ってレポートを書こうとしていますが、出力が一般的すぎます。同僚に助けを求めてください。何を打ち込んだかを伝え、結果について不満を言ってください。)</span>",
             b: "You are the colleague. Advise them to refine the prompt (e.g., set a word count or tone). Use 'do' to clarify how you use AI, and 'never ever' to warn them about checking facts. <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(あなたは同僚です。プロンプトを洗練させる（例：文字数やトーンを設定する）ようアドバイスしてください。「do」を使って自分がどのようにAIを使っているかを明確にし、「never ever」を使って事実確認について警告してください。)</span>"
         },
@@ -5793,6 +6033,26 @@ const b1Curriculum = [
                     { eng: "Send me a brief summary of the ROI.", jpn: "ROI（投資利益率）の簡単な要約を送ってください。" },
                     { eng: "I will email you the cost-benefit breakdown today.", jpn: "今日中に費用対効果の内訳をメールでお送りします。" },
                     { eng: "If the security checks out, it is a no-brainer.", jpn: "セキュリティに問題がなければ、導入しない手はありません。" }
+                ]
+            }
+        ],
+grammarPoints: [
+            {
+                point: "1. Conjunctions: Expressing hypothetical contrast (Even if)",
+                explanation: "We use 'even if' to show that a particular condition does not change the result. It is highly effective in negotiations to show that a negative factor (like cost) is outweighed by a positive outcome.",
+                explanationJpn: "「even if（たとえ〜だとしても）」を使って、特定の条件が結果を変えないことを示します。交渉において、マイナス要因（コストなど）がプラスの結果によって上回られることを示すのに非常に効果的です。",
+                examples: [
+                    { eng: "Even if the subscription costs $50, it will save us money overall.", jpn: "たとえサブスクリプションに50ドルかかっても、全体的にはお金の節約になります。" },
+                    { eng: "Even if we need a week to learn it, the speed increase is worth it.", jpn: "たとえ学ぶのに1週間必要だとしても、速度の向上にはそれだけの価値があります。" }
+                ]
+            },
+            {
+                point: "2. Verbs: Avoiding repetition of the subject (Compound predicates)",
+                explanation: "In professional speech, we often connect two verbs using 'and' to describe multiple features of a product without repeating 'it'.",
+                explanationJpn: "プロフェッショナルな会話では、「it」を繰り返さずに製品の複数の機能を説明するために、しばしば「and」を使って2つの動詞（述語）を接続します。",
+                examples: [
+                    { eng: "The tool has enterprise security and does not use our data.", jpn: "そのツールはエンタープライズセキュリティを備えており、私たちのデータを使用しません。" },
+                    { eng: "It automates the reporting and frees up our time.", jpn: "それは報告を自動化し、私たちの時間を空けてくれます。" }
                 ]
             }
         ],

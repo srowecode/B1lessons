@@ -89,7 +89,7 @@
         .layout-3col { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); align-items: stretch; gap: 25px; margin-bottom: 25px; }
         .layout-3col .section-card { margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column; }
         .layout-4col { display: grid; grid-template-columns: repeat(4, 1fr); align-items: stretch; gap: 20px; margin-bottom: 25px; }
-        .layout-4col .section-card { margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column; padding: 20px; }
+        .layout-4col .section-card { margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; padding: 20px; }
 
         .goal-overview { background: #eff6ff; border-radius: 12px; padding: 20px 25px; margin-bottom: 25px; border-left: 6px solid var(--primary); }
         .goal-overview p { font-size: 1.1rem; color: var(--text-dark); margin: 0; font-weight: 600;}
@@ -1175,14 +1175,14 @@
         function renderGrammarPoints(lesson, wrapCard = true) {
             if (!lesson.grammarPoints || lesson.grammarPoints.length === 0) return "";
             let htmlStr = wrapCard ? '<div class="section-card" style="margin-bottom: 25px;">' : '';
-            htmlStr += '<h3>Grammar Explanations</h3>';
+            htmlStr += '<h3 style="color: #15803d; border-left-color: #22c55e;">Grammar Explanations</h3>';
             htmlStr += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Review the detailed grammar rules and examples below.</p>';
             
             let gPoints = lesson.grammarPoints || [];
             for (let i = 0; i < gPoints.length; i++) {
                 let g = gPoints[i];
                 const boxId = `grammar-box-${lesson.id}-${i}`;
-                htmlStr += '<div class="grammar-details" id="' + boxId + '">';
+                htmlStr += '<div class="grammar-details" id="' + boxId + '" style="background: white; border-color: #bbf7d0;">';
                 htmlStr += '<div style="display:flex; gap:10px; align-items:flex-start;">';
                 htmlStr += '<input type="checkbox" onchange="toggleComplete(this, \'' + boxId + '\')">';
                 htmlStr += '<div style="flex-grow:1;">';
@@ -1190,7 +1190,7 @@
                 
                 if (g.examples && g.examples.length > 0) {
                     let firstEx = g.examples[0];
-                    htmlStr += '<div style="margin-bottom: 10px; padding: 10px; background: white; border-radius: 6px; border: 1px solid var(--border); box-shadow: 0 1px 2px rgba(0,0,0,0.02);">';
+                    htmlStr += '<div style="margin-bottom: 10px; padding: 10px; background: #f8fafc; border-radius: 6px; border: 1px solid var(--border); box-shadow: 0 1px 2px rgba(0,0,0,0.02);">';
                     htmlStr += '<p style="margin: 0; font-weight: 600; color: var(--text-dark);">' + firstEx.eng + '</p>';
                     htmlStr += '<p class="jpn-text" style="margin: 0; font-size: 0.9rem; color: var(--text-light);">' + firstEx.jpn + '</p>';
                     htmlStr += '</div>';
@@ -1755,22 +1755,56 @@
 
                 if (lesson.type === "opinion") {
                     html += '<div class="layout-4col">';
-                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column;">';
-                    html += '<h3>10 Discussion Questions</h3>';
-                    html += '<ul class="question-list" style="padding-left: 0; list-style: none; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; margin-bottom: 0;">';
+
+                    // Column 1: Discussion Topics (Ask Questions Theme - Purple, 6 Checkboxes - 1 per theme card, Top-Aligned)
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; background: #faf5ff; border: 1px solid #e9d5ff; display: flex; flex-direction: column; justify-content: flex-start;">';
+                    html += '<h3 style="color: #7e22ce; border-left-color: #a855f7;">Discussion Topics</h3>';
+                    html += '<p style="color: #6b21a8; font-weight: 700; margin-top: 0; margin-bottom: 4px; font-size: 0.95rem;">Use this content to ask questions</p>';
+                    html += '<p class="jpn-text" style="color: var(--text-light); margin-top: 0; font-size: 0.85rem;">質問をする際にこの内容を使用してください。</p>';
+                    
+                    const topics = lesson.discussionTopics || (typeof discussionTopicsData !== 'undefined' ? discussionTopicsData[lesson.id] : null);
+                    if (topics) {
+                        html += '<div style="display: flex; flex-direction: column; gap: 15px; margin-top: 15px; justify-content: flex-start;">';
+                        topics.forEach((t, tIdx) => {
+                            const topicCardId = `topic-card-${lesson.id}-${tIdx}`;
+                            html += '<div id="' + topicCardId + '" style="background: white; padding: 15px; border-radius: 8px; border: 1px solid #e9d5ff; box-shadow: 0 2px 4px rgba(0,0,0,0.02); display: flex; gap: 10px; align-items: flex-start;">';
+                            html += '<input type="checkbox" onchange="toggleComplete(this, \'' + topicCardId + '\')">';
+                            html += '<div style="width: 100%;">';
+                            html += '<div style="font-weight: bold; color: var(--text-dark); font-size: 1.05rem;">' + t.theme + '</div>';
+                            html += '<div class="jpn-text" style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 10px;">' + t.themeJpn + '</div>';
+                            html += '<ul style="margin: 0; padding-left: 18px; list-style: disc; font-size: 0.95rem; color: var(--text-dark);">';
+                            t.sub.forEach((s) => {
+                                html += '<li style="margin-bottom: 6px;">';
+                                html += '<div>' + s.eng + '<span class="jpn-text" style="font-size:0.85rem; color:var(--text-light); display:block; margin-top:2px;">' + s.jpn + '</span></div></li>';
+                            });
+                            html += '</ul></div></div>';
+                        });
+                        html += '</div>';
+                    }
+                    html += '</div>';
+
+                    // Column 2: 10 Discussion Questions (Ask Questions Theme - Purple, Top-Aligned)
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; background: #faf5ff; border: 1px solid #e9d5ff; display: flex; flex-direction: column; justify-content: flex-start;">';
+                    html += '<h3 style="color: #7e22ce; border-left-color: #a855f7;">10 Discussion Questions</h3>';
+                    html += '<p style="color: #6b21a8; font-weight: 700; margin-top: 0; margin-bottom: 4px; font-size: 0.95rem;">Use this content to ask questions</p>';
+                    html += '<p class="jpn-text" style="color: var(--text-light); margin-top: 0; font-size: 0.85rem;">質問をする際にこの内容を使用してください。</p>';
+                    html += '<ul class="question-list" style="padding-left: 0; list-style: none; display: flex; flex-direction: column; justify-content: flex-start; gap: 10px; margin-bottom: 0; margin-top: 15px;">';
                     let qs = lesson.questions || [];
                     for (let i = 0; i < qs.length; i++) {
                         let q = qs[i];
                         const qId = `question-box-${i}`;
-                        html += '<li id="' + qId + '" style="display: flex; gap: 10px; align-items: flex-start;">';
+                        html += '<li id="' + qId + '" style="display: flex; gap: 10px; align-items: flex-start; background: white; padding: 10px 12px; border-radius: 8px; border: 1px solid #e9d5ff;">';
                         html += '<input type="checkbox" onchange="toggleComplete(this, \'' + qId + '\')">';
                         html += '<div style="width: 100%;">' + q.eng + '<div class="jpn-text" style="font-size:0.85rem; color:var(--text-light); margin-top:4px;">' + q.jpn + '</div></div></li>';
                     }
                     html += '</ul></div>';
 
-                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; display: flex; flex-direction: column;">';
-                    html += '<h3>Transitional Expressions</h3>';
-                    html += '<div class="expression-box" style="margin-top: 15px; background: #f8fafc; border-color: var(--border);">';
+                    // Column 3: Transitional Expressions / Grammar Explanations (Answer Questions Theme - Green, Top-Aligned)
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; background: #f0fdf4; border: 1px solid #bbf7d0; display: flex; flex-direction: column; justify-content: flex-start;">';
+                    html += '<h3 style="color: #15803d; border-left-color: #22c55e;">Transitional Expressions</h3>';
+                    html += '<p style="color: #166534; font-weight: 700; margin-top: 0; margin-bottom: 4px; font-size: 0.95rem;">Use this content to answer questions</p>';
+                    html += '<p class="jpn-text" style="color: var(--text-light); margin-top: 0; font-size: 0.85rem;">質問に答える際にこの内容を使用してください。</p>';
+                    html += '<div class="expression-box" style="margin-top: 15px; background: white; border-color: #bbf7d0;">';
                     html += '<ul style="padding-left: 0; list-style: none; margin: 0;">';
                     let opExp = lesson.expressions || [];
                     for (let i = 0; i < opExp.length; i++) {
@@ -1783,7 +1817,7 @@
                         if (exp.exampleEng) {
                             html += '<div style="margin-top: 6px;">';
                             html += '<button onclick="toggleElement(\'expr-ex-' + lesson.id + '-' + i + '\')" class="action-btn" style="padding: 4px 10px; font-size: 0.85rem; margin-top: 2px; background: var(--primary-light);">View example</button>';
-                            html += '<div id="expr-ex-' + lesson.id + '-' + i + '" style="display: none; margin-top: 10px; padding: 12px; background: white; border-radius: 6px; border: 1px dashed var(--border);">';
+                            html += '<div id="expr-ex-' + lesson.id + '-' + i + '" style="display: none; margin-top: 10px; padding: 12px; background: #f8fafc; border-radius: 6px; border: 1px dashed var(--border);">';
                             html += '<p style="margin: 0 0 5px 0; font-size: 0.95rem;">' + exp.exampleEng + '</p>';
                             html += '<p class="jpn-text" style="margin: 0; font-size: 0.85rem; color: var(--text-light);">' + exp.exampleJpn + '</p></div></div>';
                         }
@@ -1791,46 +1825,23 @@
                     }
                     html += '</ul></div>';
                     
-                    html += '<div style="flex-grow: 1; display: flex; flex-direction: column; justify-content: flex-end;">';
+                    html += '<div style="margin-top: 15px;">';
                     html += renderGrammarPoints(lesson, false);
                     html += '</div></div>';
-                    
-                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; background: #faf5ff; border: 1px solid #e9d5ff; display: flex; flex-direction: column;">';
-                    html += '<h3 style="color: #9333ea; border-left-color: #a855f7;">Discussion Topics</h3>';
-                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Use these themes and sub-themes to ask questions and discuss.</p>';
-                    
-                    const topics = lesson.discussionTopics || (typeof discussionTopicsData !== 'undefined' ? discussionTopicsData[lesson.id] : null);
-                    if (topics) {
-                        html += '<div style="display: flex; flex-direction: column; gap: 15px; margin-top: 15px; flex-grow: 1; justify-content: space-between;">';
-                        topics.forEach((t, tIdx) => {
-                            html += '<div style="background: white; padding: 15px; border-radius: 8px; border: 1px solid var(--border); box-shadow: 0 2px 4px rgba(0,0,0,0.02);">';
-                            html += '<div style="font-weight: bold; color: var(--text-dark); font-size: 1.05rem;">' + t.theme + '</div>';
-                            html += '<div class="jpn-text" style="font-size: 0.85rem; color: var(--text-light); margin-bottom: 10px;">' + t.themeJpn + '</div>';
-                            html += '<ul style="margin: 0; padding-left: 0; list-style: none; font-size: 0.95rem; color: var(--text-dark);">';
-                            t.sub.forEach((s, sIdx) => {
-                                const topicId = `topic-item-${lesson.id}-${tIdx}-${sIdx}`;
-                                html += '<li id="' + topicId + '" style="margin-bottom: 8px; display: flex; gap: 8px; align-items: flex-start;">';
-                                html += '<input type="checkbox" onchange="toggleComplete(this, \'' + topicId + '\')">';
-                                html += '<div>' + s.eng + '<span class="jpn-text" style="font-size:0.85rem; color:var(--text-light); display:block; margin-top:2px;">' + s.jpn + '</span></div></li>';
-                            });
-                            html += '</ul></div>';
-                        });
-                        html += '</div>';
-                    }
-                    html += '</div>';
 
-                    // 4th Column: Target Vocabulary
-                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; background: #f0fdf4; border: 1px solid #bbf7d0; display: flex; flex-direction: column;">';
+                    // Column 4: Target Vocabulary (Answer Questions Theme - Green, Top-Aligned)
+                    html += '<div class="section-card" style="margin-bottom: 0; min-width: 0; height: 100%; background: #f0fdf4; border: 1px solid #bbf7d0; display: flex; flex-direction: column; justify-content: flex-start;">';
                     html += '<h3 style="color: #15803d; border-left-color: #22c55e;">Target Vocabulary</h3>';
-                    html += '<p class="jpn-text" style="color:var(--text-light); margin-top:0; font-size:0.95rem;">Try to include these words in your answers.</p>';
-                    html += '<ul style="padding-left: 0; list-style: none; margin: 15px 0 0 0; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 10px;">';
+                    html += '<p style="color: #166534; font-weight: 700; margin-top: 0; margin-bottom: 4px; font-size: 0.95rem;">Use this content to answer questions</p>';
+                    html += '<p class="jpn-text" style="color: var(--text-light); margin-top: 0; font-size: 0.85rem;">質問に答える際にこの内容を使用してください。</p>';
+                    html += '<ul style="padding-left: 0; list-style: none; margin: 15px 0 0 0; display: flex; flex-direction: column; justify-content: flex-start; gap: 10px;">';
                     let opVocab = lesson.vocab || [];
                     for (let i = 0; i < opVocab.length; i++) {
                         let v = opVocab[i];
                         const vId = `op-vocab-box-${lesson.id}-${i}`;
                         const cleanWord = stripHtmlTags(v.eng).trim();
                         const yarnUrl = 'https://yarn.co/yarn-find?text=' + encodeURIComponent(cleanWord);
-                        html += '<li id="' + vId + '" style="background: white; padding: 10px 12px; border-radius: 8px; border: 1px solid var(--border); display: flex; gap: 10px; align-items: flex-start; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">';
+                        html += '<li id="' + vId + '" style="background: white; padding: 10px 12px; border-radius: 8px; border: 1px solid #bbf7d0; display: flex; gap: 10px; align-items: flex-start; box-shadow: 0 1px 2px rgba(0,0,0,0.02);">';
                         html += '<input type="checkbox" onchange="toggleComplete(this, \'' + vId + '\')">';
                         html += '<div style="display: flex; justify-content: space-between; align-items: center; width: 100%; gap: 6px;">';
                         html += '<div class="vocab-text">';
