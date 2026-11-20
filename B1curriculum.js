@@ -138,7 +138,7 @@ const b1Curriculum = [
 { eng: "Meet through a mutual friend", jpn: "共通の友人を通じて知り合う", formality: "Neutral expression", exEng: "We met through a mutual friend at a barbecue last summer.", exJpn: "私たちは昨年の夏、バーベキューで共通の友人を通じて知り合いました。" },																									
 { eng: "Put in a good word", jpn: "口添えをする（ 추천・褒める）", formality: "Neutral expression", exEng: "Before I met the director, my colleague put in a good word for me.", exJpn: "私が部長に会う前に、同僚が私について良い口添えをしてくれました。" },																									
 { eng: "Set someone up on a blind date", jpn: "人にブラインドデート（紹介デート）をセッティングする", formality: "Casual expression", exEng: "My sister wants to set me up on a blind date with her coworker.", exJpn: "姉は自分の同僚と私のブラインドデートをセッティングしたがっています。" },																									
-{ eng: "Swipe right on someone", jpn: "（マッチングアプリで）人に「いいね」をする", formality: "Casual expression", exEng: "We matched after I swiped right on his profile picture.", exJpn: "私が彼のプロフィール写真を右にスワイプした後、私たちはマッチしました。" },																									
+{ eng: "Give someone the grand tour", jpn: "誰かにその場所をくまなく案内する", formality: "Neutral expression", exEng: "I gave him the grand tour of my new apartment.", exJpn: "私は彼に、新しいアパートをくまなく案内した。" },																									
 { eng: "Slide into someone's DMs", jpn: "人にさりげなくダイレクトメッセージを送る", formality: "Casual expression", exEng: "He slid into her DMs to ask if she wanted to grab coffee.", exJpn: "彼はコーヒーでもどうかと誘うために、彼女のDMにメッセージを送りました。" },																									
 { eng: "Meet in person", jpn: "直接会う（対面で会う）", formality: "Neutral expression", exEng: "After gaming together online for a year, we finally met in person.", exJpn: "1年間オンラインで一緒にゲームをした後、私たちはついに直接会いました。" },																									
         ],
