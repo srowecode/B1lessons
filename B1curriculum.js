@@ -940,18 +940,18 @@ const b1Curriculum = [
             { eng: "10. How do global TV shows help people from different countries connect?", jpn: "10. グローバルなテレビ番組は、異なる国の人々がつながるのにどのように役立ちますか？" }
         ],
         vocab: [
-            { eng: "binge-watch series", jpn: "シリーズをイッキ見する" },
-            { eng: "catch up on", jpn: "〜の遅れを取り戻す / まとめ見する" },
-            { eng: "give a spoiler", jpn: "ネタバレをする" },
-            { eng: "major plot twist", jpn: "大きな予想外の展開" },
-            { eng: "season finale", jpn: "シーズンの最終回" },
-            { eng: "lead actor", jpn: "主演俳優" },
-            { eng: "supporting role", jpn: "助演の役" },
-            { eng: "special effects", jpn: "特殊効果" },
-            { eng: "good flick", jpn: "良い映画 (くだけた表現)" },
-            { eng: "on the tube", jpn: "テレビで (くだけた表現)" },
-            { eng: "couch potato", jpn: "座ってテレビばかり見ている人" },
-            { eng: "watch a rerun", jpn: "再放送を見る" }
+{ eng: "Binge-watch a show", jpn: "番組を一気見する", formality: "Casual expression", exEng: "I stayed up late to binge-watch the new mystery show.", exJpn: "新しいミステリー番組を一気見するために夜更かしをしました。" },
+{ eng: "Catch a movie", jpn: "映画を観に行く", formality: "Casual expression", exEng: "Do you want to catch a movie after work on Friday?", exJpn: "金曜日の仕事終わりに映画を観に行きませんか？" },
+{ eng: "Watch a rerun", jpn: "再放送を観る", formality: "Neutral expression", exEng: "There was nothing new on TV, so I watched a rerun of my favorite comedy.", exJpn: "テレビで新しい番組が何もやっていなかったので、お気に入りのコメディの再放送を観ました。" },
+{ eng: "Change the channel", jpn: "チャンネルを変える", formality: "Neutral expression", exEng: "This show is boring. Can we change the channel?", exJpn: "この番組はつまらないね。チャンネルを変えてもいい？" },
+{ eng: "Stream a movie", jpn: "映画をストリーミング視聴する", formality: "Neutral expression", exEng: "Most young people prefer to stream movies on their phones or laptops.", exJpn: "ほとんどの若者は、スマホやノートパソコンで映画をストリーミング視聴することを好みます。" },
+{ eng: "Have a movie night", jpn: "映画鑑賞会をする（家で映画を観る夜にする）", formality: "Casual expression", exEng: "Let's buy some pizza and have a movie night this Saturday.", exJpn: "今週の土曜日はピザを買って、家で映画鑑賞会をしよう。" },
+{ eng: "Couch potato", jpn: "テレビばかり見てゴロゴロしている人", formality: "Slang", exEng: "Don't be a couch potato all day—let's go outside for a walk!", exJpn: "一日中テレビばかり見てゴロゴロしてないで、外に散歩に行こうよ！" },
+{ eng: "Be glued to the screen", jpn: "画面に釘付けになる", formality: "Casual expression", exEng: "The action movie was so exciting that we were glued to the screen.", exJpn: "そのアクション映画はとてもワクワクしたので、私たちは画面に釘付けでした。" },
+{ eng: "Tune in", jpn: "（番組を）視聴する・チャンネルを合わせる", formality: "Neutral expression", exEng: "Millions of people tuned in to watch the live music awards.", exJpn: "何百万人もの人が音楽賞の生放送を観るために視聴しました。" },
+{ eng: "Tune out", jpn: "興味を失う（観るのをやめる）", formality: "Casual expression", exEng: "Viewers started to tune out when the story became too slow.", exJpn: "ストーリーがゆっくりになりすぎたとき、視聴者は興味を失って観るのをやめ始めました。" },
+{ eng: "Skip the intro", jpn: "オープニングをスキップする", formality: "Casual expression", exEng: "I always click the button to skip the intro when I watch a series.", exJpn: "シリーズを観るときは、いつもオープニングをスキップするボタンを押します。" },
+{ eng: "Put on a show", jpn: "番組をつける（再生する）", formality: "Casual expression", exEng: "Let's put on a funny show while we eat dinner.", exJpn: "夕食を食べながら面白い番組をつけよう。" },
         ],
         grammarPoints: [
             {
@@ -984,24 +984,26 @@ const b1Curriculum = [
         ],
         homework: {
             vocab: [
-                { eng: "Focus on", jpn: "集中する", exEng: "Try to focus on the character's development.", exJpn: "キャラクターの成長に集中してみてください。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "The delay resulted in a canceled production.", exJpn: "その遅延は制作の中止という結果になりました。" },
-                { eng: "Relate to", jpn: "〜に共感する", exEng: "Many viewers relate to the main character.", exJpn: "多くの視聴者が主人公に共感します。" },
-                { eng: "Invest in", jpn: "〜に投資する", exEng: "Studios invest heavily in special effects.", exJpn: "スタジオは特殊効果に多額の投資をします。" },
-                { eng: "Base on", jpn: "〜に基づく", exEng: "The show is based on a true story.", exJpn: "その番組は実話に基づいています。" },
-                { eng: "Consist of", jpn: "〜から成る", exEng: "The series consists of ten episodes.", exJpn: "そのシリーズは10エピソードから成ります。" },
-                { eng: "Succeed in", jpn: "〜に成功する", exEng: "The director succeeded in surprising the audience.", exJpn: "監督は観客を驚かせることに成功しました。" },
-                { eng: "Compare to", jpn: "〜と比較する", exEng: "This movie is often compared to a classic.", exJpn: "この映画はよく名作と比較されます。" },
-                { eng: "Appeal to", jpn: "〜にアピールする、魅了する", exEng: "The animation style appeals to young adults.", exJpn: "そのアニメーションスタイルは若者にアピールします。" },
-                { eng: "Depend on", jpn: "〜に依存する", exEng: "A good comedy depends on great timing.", exJpn: "良いコメディは素晴らしいタイミングに依存します。" },
-                { eng: "Contribute to", jpn: "〜に貢献する", exEng: "The soundtrack contributes to the sad atmosphere.", exJpn: "サウンドトラックが悲しい雰囲気に貢献しています。" },
-                { eng: "Agree with", jpn: "〜に同意する", exEng: "I don't agree with the critic's review.", exJpn: "私は評論家のレビューに同意しません。" },
-                { eng: "Deal with", jpn: "〜を扱う、対処する", exEng: "The film deals with complex social issues.", exJpn: "その映画は複雑な社会問題を扱っています。" },
-                { eng: "Argue about", jpn: "〜について議論する", exEng: "Fans still argue about the show's ending.", exJpn: "ファンはいまだにその番組の結末について議論しています。" },
-                { eng: "Care about", jpn: "〜を気にかける", exEng: "It is hard to care about badly written characters.", exJpn: "ひどく書かれたキャラクターを気にかけるのは難しいです。" },
-                { eng: "Apologize for", jpn: "〜について謝罪する", exEng: "The network apologized for the broadcast error.", exJpn: "ネットワークは放送ミスについて謝罪しました。" },
-                { eng: "Suffer from", jpn: "〜に苦しむ", exEng: "The sequel suffered from a low budget.", exJpn: "その続編は低予算に苦しみました。" },
-                { eng: "Recover from", jpn: "〜から回復する", exEng: "The actor is recovering from a minor injury.", exJpn: "その俳優は軽傷から回復しつつあります。" }
+{ eng: "Turn up the volume", jpn: "音量を上げる", formality: "Neutral expression", exEng: "Can you turn up the volume? I can't hear what they are saying.", exJpn: "音量を上げてくれる？彼らが何を言っているのか聞こえないんだ。" },																									
+{ eng: "Turn down the volume", jpn: "音量を下げる", formality: "Neutral expression", exEng: "Please turn down the volume; the baby is sleeping.", exJpn: "赤ちゃんが寝ているので、音量を下げてください。" },																									
+{ eng: "Mute the TV", jpn: "テレビを消音にする", formality: "Neutral expression", exEng: "I always mute the TV during the commercials.", exJpn: "コマーシャルの間、私はいつもテレビを消音にします。" },																									
+{ eng: "Fast-forward a scene", jpn: "シーンを早送りする", formality: "Neutral expression", exEng: "She fast-forwarded the scary scenes because she hates horror movies.", exJpn: "彼女はホラー映画が嫌いなので、怖いシーンを早送りしました。" },																									
+{ eng: "Rewind a scene", jpn: "シーンを巻き戻す", formality: "Neutral expression", exEng: "Wait, rewind that scene! I missed what he just said.", exJpn: "待って、そのシーンを巻き戻して！彼が今言ったことを聞き逃した。" },																									
+{ eng: "Pause the movie", jpn: "映画を一時停止する", formality: "Neutral expression", exEng: "Can you pause the movie for a minute? I need to get a drink.", exJpn: "飲み物を取りに行きたいから、1分間映画を一時停止してくれる？" },																									
+{ eng: "Watch with subtitles", jpn: "字幕付きで観る", formality: "Neutral expression", exEng: "I like to watch foreign movies with English subtitles to practice reading.", exJpn: "リーディングの練習のために、外国映画を英語の字幕付きで観るのが好きです。" },																									
+{ eng: "Watch a dubbed movie", jpn: "吹き替え版の映画を観る", formality: "Neutral expression", exEng: "Young children usually watch dubbed movies because they cannot read fast.", exJpn: "小さな子供たちは速く読めないため、通常は吹き替え版の映画を観ます。" },																									
+{ eng: "Catch up on a show", jpn: "溜まった番組を追いついて観る", formality: "Casual expression", exEng: "I have a free Sunday, so I'm going to catch up on my favorite drama.", exJpn: "日曜日は暇なので、お気に入りのドラマの溜まった回を観て追いつくつもりです。" },																									
+{ eng: "Fall asleep during a movie", jpn: "映画の途中で寝落ちする", formality: "Neutral expression", exEng: "I was so tired after work that I fell asleep during the movie.", exJpn: "仕事のあととても疲れていたので、映画の途中で寝落ちしてしまいました。" },																									
+{ eng: "Watch live TV", jpn: "生放送のテレビを観る", formality: "Neutral expression", exEng: "I only watch live TV when there is a big soccer match on.", exJpn: "大きなサッカーの試合があるときだけ生放送のテレビを観ます。" },																									
+{ eng: "Channel surf", jpn: "チャンネルを次々と変える", formality: "Casual expression", exEng: "He sat on the sofa channel surfing for twenty minutes before finding a good show.", exJpn: "彼は良い番組を見つけるまで、ソファに座って20分間チャンネルを次々と変えていました。" },																									
+{ eng: "Hate-watch a show", jpn: "文句を言いながら番組を観る", formality: "Slang", exEng: "The dating show is so silly, but my friends and I love to hate-watch it.", exJpn: "その恋愛番組はすごくバカバカしいけど、友達と文句を言いながら観るのが楽しいんだ。" },																									
+{ eng: "Stay up late watching TV", jpn: "テレビを観て夜更かしする", formality: "Neutral expression", exEng: "If I stay up late watching TV, I feel exhausted at work the next morning.", exJpn: "テレビを観て夜更かしすると、翌朝職場でヘトヘトになります。" },																									
+{ eng: "Flip through channels", jpn: "チャンネルをパッパッと切り替える", formality: "Casual expression", exEng: "She flipped through the channels to see what was on the news.", exJpn: "彼女はニュースで何をやっているか見るために、チャンネルをパッパッと切り替えました。" },																									
+{ eng: "Watch an episode", jpn: "1話（エピソード）を観る", formality: "Neutral expression", exEng: "Let's watch one more episode before we go to bed.", exJpn: "寝る前にもう1話観よう。" },																									
+{ eng: "Miss an episode", jpn: "1話見逃す", formality: "Neutral expression", exEng: "I missed last week's episode, so please don't tell me what happened!", exJpn: "先週の回を見逃したから、何が起きたか絶対に言わないでね！" },																									
+{ eng: "Record a show", jpn: "番組を録画する", formality: "Neutral expression", exEng: "I will record the show tonight and watch it tomorrow evening.", exJpn: "今夜その番組を録画して、明日の晩に観ます。" },																									
+{ eng: "Turn on the TV", jpn: "テレビをつける", formality: "Neutral expression", exEng: "The first thing he does when he gets home is turn on the TV.", exJpn: "彼が帰宅して最初にすることは、テレビをつけることです。" },																									
+{ eng: "Turn off the TV", jpn: "テレビを消す", formality: "Neutral expression", exEng: "Please turn off the TV when you leave the living room.", exJpn: "リビングを出るときはテレビを消してください。" },																									
             ],
             clickingGames: [
                 // Grammar Point 1: Expressing a fairly significant degree - 4 sentences
@@ -1034,19 +1036,18 @@ const b1Curriculum = [
         title: "Lesson 9: How to recommend a show",
         goal: "Give a brief synopsis, recommend media, and express hesitation using 'grouping things' grammar. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(簡単なあらすじを説明し、メディアを推薦し、「物事をグループ化する」文法を使ってためらいを表現する。)</span>",
         vocab: [
-            { eng: "recommend highly", jpn: "強く勧める" },
-            { eng: "give a synopsis", jpn: "あらすじを説明する" },
-            { eng: "catch my attention", jpn: "私の注意を引く" },
-            { eng: "worth watching", jpn: "見る価値がある" },
-            { eng: "set in", jpn: "〜を舞台にする" },
-            { eng: "waste of time", jpn: "時間の無駄" },
-            { eng: "have mixed feelings", jpn: "複雑な感情を抱く" },
-            { eng: "keep you guessing", jpn: "ハラハラさせる / 予測がつかない" },
-            { eng: "must-see", jpn: "必見のもの (くだけた表現)" },
-            { eng: "hype", jpn: "誇大宣伝 / 話題 (くだけた表現)" },
-            { eng: "boring stuff", jpn: "退屈なもの (くだけた表現)" },
-            { eng: "give it a shot", jpn: "試してみる (くだけた表現)" }
-        ],
+{ eng: "Screen time", jpn: "画面を見る時間", formality: "Neutral expression", exEng: "Doctors say we should limit our screen time before going to sleep.", exJpn: "医者は、寝る前に画面を見る時間を制限すべきだと言っています。" },																									
+{ eng: "Watch on a big screen", jpn: "大画面で観る", formality: "Neutral expression", exEng: "Action movies are always better when you watch them on a big screen.", exJpn: "アクション映画は、大画面で観ると常により良いです。" },																									
+{ eng: "Watch on your phone", jpn: "スマホで観る", formality: "Neutral expression", exEng: "I often watch short comedy videos on my phone during my train ride.", exJpn: "電車に乗っている間、よくスマホで短いコメディ動画を観ます。" },																									
+{ eng: "Commercial break", jpn: "コマーシャル（CM）の時間", formality: "Neutral expression", exEng: "Let's quickly make some tea during the commercial break.", exJpn: "CMの間にサッとお茶を入れよう。" },																									
+{ eng: "Subscribe to a channel", jpn: "チャンネルに登録する", formality: "Neutral expression", exEng: "Don't forget to like the video and subscribe to our channel!", exJpn: "動画にいいねをして、私たちのチャンネルに登録するのを忘れないでね！" },																									
+{ eng: "Cancel a subscription", jpn: "サブスクリプションを解約する", formality: "Neutral expression", exEng: "I decided to cancel my subscription because the monthly price went up.", exJpn: "月額料金が上がったので、サブスクリプションを解約することに決めました。" },																									
+{ eng: "Book tickets online", jpn: "オンラインでチケットを予約する", formality: "Neutral expression", exEng: "It is much easier to book tickets online than to wait at the theater.", exJpn: "映画館で待つよりも、オンラインでチケットを予約する方がずっと簡単です。" },																									
+{ eng: "Buy tickets at the door", jpn: "当日窓口でチケットを買う", formality: "Neutral expression", exEng: "The theater wasn't busy, so we were able to buy tickets at the door.", exJpn: "映画館は混んでいなかったので、当日窓口でチケットを買うことができました。" },																									
+{ eng: "Sell out", jpn: "完売する（満席になる）", formality: "Neutral expression", exEng: "The Friday night show sold out two days ago.", exJpn: "金曜日の夜の回は2日前に完売しました。" },																									
+{ eng: "Wait in line", jpn: "列に並ぶ", formality: "Neutral expression", exEng: "We had to wait in line for fifteen minutes to buy popcorn.", exJpn: "ポップコーンを買うために15分間列に並ばなければなりませんでした。" },																									
+{ eng: "Get good seats", jpn: "良い席を取る", formality: "Casual expression", exEng: "Let's arrive early so we can get good seats in the center.", exJpn: "真ん中の良い席を取れるように、早く到着しよう。" },																									
+{ eng: "Sit in the front row", jpn: "最前列に座る", formality: "Neutral expression", exEng: "I hate sitting in the front row because I have to look up the whole time.", exJpn: "ずっと上を見上げていなければならないので、最前列に座るのは嫌いです。" },																									       ],
         dialogue: [
             { speaker: "A", eng: "Are you watching anything interesting these days?", jpn: "最近、何か面白いものを見ていますか？" },
             { speaker: "B", eng: "Actually, yes. I recently got into Orbit. <span class='swappable'>It's so good. </span>", jpn: "実は、はい。最近、Orbitにハマっています。すごくいいんです。" },
@@ -1142,24 +1143,26 @@ const b1Curriculum = [
         },
         homework: {
             vocab: [
-                { eng: "Stand out", jpn: "目立つ", exEng: "Her acting really stood out in that scene.", exJpn: "あのシーンでの彼女の演技は本当に目立っていました。" },
-                { eng: "Break down", jpn: "故障する / 泣き崩れる", exEng: "The main character broke down in tears.", exJpn: "主人公は涙で泣き崩れました。" },
-                { eng: "Look into", jpn: "調査する", exEng: "They are looking into creating a spin-off series.", exJpn: "彼らはスピンオフシリーズの制作を調査（検討）しています。" },
-                { eng: "Base on", jpn: "〜に基づく", exEng: "The script is based on a famous novel.", exJpn: "脚本は有名な小説に基づいています。" },
-                { eng: "Succeed in", jpn: "〜に成功する", exEng: "The show succeeded in capturing my attention.", exJpn: "その番組は私の注意を引くことに成功しました。" },
-                { eng: "Compare to", jpn: "〜と比較する", exEng: "How does the sequel compare to the original?", exJpn: "続編はオリジナルと比べてどうですか？" },
-                { eng: "Appeal to", jpn: "〜にアピールする", exEng: "Does this genre appeal to older audiences?", exJpn: "このジャンルは年配の視聴者にアピールしますか？" },
-                { eng: "Depend on", jpn: "〜に依存する", exEng: "The plot twist depends on a small detail.", exJpn: "予想外の展開は小さな細部に依存しています。" },
-                { eng: "Contribute to", jpn: "〜に貢献する", exEng: "The lighting contributes to the scary mood.", exJpn: "照明が怖い雰囲気に貢献しています。" },
-                { eng: "Agree with", jpn: "〜に同意する", exEng: "I agree with the critics about the acting.", exJpn: "演技について評論家に同意します。" },
-                { eng: "Deal with", jpn: "〜を扱う", exEng: "The documentary deals with climate change.", exJpn: "そのドキュメンタリーは気候変動を扱っています。" },
-                { eng: "Argue about", jpn: "〜について議論する", exEng: "We always argue about which movie to watch.", exJpn: "私たちはいつもどの映画を見るかで議論します。" },
-                { eng: "Care about", jpn: "〜を気にかける", exEng: "You really start to care about the main character.", exJpn: "あなたは本当に主人公を気にかけ始めます。" },
-                { eng: "Apologize for", jpn: "〜について謝罪する", exEng: "The actor apologized for the bad performance.", exJpn: "その俳優はひどい演技について謝罪しました。" },
-                { eng: "Suffer from", jpn: "〜に苦しむ", exEng: "The film suffers from terrible pacing.", exJpn: "その映画はひどいテンポ（ペース配分）に苦しんでいます。" },
-                { eng: "Bring up", jpn: "話題を持ち出す", exEng: "He brought up an interesting point about the ending.", exJpn: "彼は結末について面白い話題を持ち出しました。" },
-                { eng: "Find out", jpn: "見つけ出す", exEng: "I can't wait to find out what happens next.", exJpn: "次に何が起こるか見つけ出す（知る）のが待ちきれません。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "The reviewer pointed out several plot holes.", exJpn: "レビューアーはいくつかの設定の矛盾を指摘しました。" }
+{ eng: "Sit in the back row", jpn: "最後列に座る", formality: "Neutral expression", exEng: "Teenagers often like to sit in the back row of the movie theater.", exJpn: "10代の若者はよく映画館の最後列に座りたがります。" },																									
+{ eng: "Buy popcorn and drinks", jpn: "ポップコーンと飲み物を買う", formality: "Neutral expression", exEng: "For me, a trip to the cinema isn't complete unless I buy popcorn and drinks.", exJpn: "私にとって、ポップコーンと飲み物を買わないと映画館に行った気がしません。" },																									
+{ eng: "Bring your own snacks", jpn: "自分のお菓子を持っていく", formality: "Casual expression", exEng: "Theater food is expensive, so some people bring their own snacks in their bags.", exJpn: "映画館の食べ物は高いので、バッグに自分のお菓子を入れて持っていく人もいます。" },																									
+{ eng: "Watch the trailers", jpn: "予告編を観る", formality: "Neutral expression", exEng: "I love watching the trailers before the main movie starts.", exJpn: "本編が始まる前に予告編を観るのが大好きです。" },																									
+{ eng: "Turn off your phone", jpn: "携帯電話の電源を切る", formality: "Neutral expression", exEng: "Please turn off your phone before the movie begins.", exJpn: "映画が始まる前に携帯電話の電源をお切りください。" },																									
+{ eng: "Silence your phone", jpn: "携帯電話をマナーモードにする", formality: "Neutral expression", exEng: "Remember to silence your phone so it doesn't ring during quiet scenes.", exJpn: "静かなシーンで鳴らないように、携帯電話をマナーモードにするのを忘れないでね。" },																									
+{ eng: "Block someone's view", jpn: "人の視界を遮る", formality: "Neutral expression", exEng: "A very tall man sat right in front of me and blocked my view.", exJpn: "とても背の高い男性が私のすぐ前に座り、私の視界を遮りました。" },																									
+{ eng: "Walk out of a movie", jpn: "映画の途中で席を立つ（退席する）", formality: "Neutral expression", exEng: "The movie was so boring that three people walked out halfway through.", exJpn: "その映画はとても退屈だったので、途中で3人の人が席を立って出ていきました。" },																									
+{ eng: "Stay until the end", jpn: "最後まで残る", formality: "Neutral expression", exEng: "You should stay until the end because there is a funny bonus scene.", exJpn: "面白いおまけのシーンがあるから、最後まで残った方がいいよ。" },																									
+{ eng: "Read the end credits", jpn: "エンドロールを読む", formality: "Neutral expression", exEng: "I always like to read the end credits to see where the movie was filmed.", exJpn: "映画がどこで撮影されたかを知るために、いつもエンドロールを読むのが好きです。" },																									
+{ eng: "Go to a late show", jpn: "レイトショーに行く", formality: "Neutral expression", exEng: "Let's go to a late show after we finish dinner.", exJpn: "夕食を食べ終えたあと、レイトショーに行こう。" },																									
+{ eng: "Go to a morning show", jpn: "朝一番の回に行く", formality: "Neutral expression", exEng: "We went to a morning show because the theater is always very quiet then.", exJpn: "その時間は映画館がいつもとても静かなので、朝一番の回に行きました。" },																									
+{ eng: "Check showtimes", jpn: "上映時間を調べる", formality: "Neutral expression", exEng: "Let me check showtimes on my phone to see when the next movie starts.", exJpn: "次の映画がいつ始まるか、スマホで上映時間を調べてみます。" },																									
+{ eng: "Opening night", jpn: "公開初日の夜", formality: "Neutral expression", exEng: "The theater was packed with excited fans on opening night.", exJpn: "公開初日の夜、映画館は興奮したファンでいっぱいでした。" },																									
+{ eng: "Walk the red carpet", jpn: "レッドカーペットを歩く", formality: "Neutral expression", exEng: "Famous movie stars wore designer clothes to walk the red carpet.", exJpn: "有名な映画スターたちは、レッドカーペットを歩くためにデザイナーの服を着ていました。" },																									
+{ eng: "Attend a film festival", jpn: "映画祭に参加する", formality: "Neutral expression", exEng: "Thousands of movie lovers travel to France every year to attend the Cannes Film Festival.", exJpn: "毎年何千人もの映画ファンがカンヌ映画祭に参加するためにフランスへ旅行します。" },																									
+{ eng: "Movie theater", jpn: "映画館", formality: "Neutral expression", exEng: "There is a brand-new movie theater inside the shopping mall.", exJpn: "ショッピングモールの中に真新しい映画館があります。" },																									
+{ eng: "Ticket counter", jpn: "チケット売り場", formality: "Neutral expression", exEng: "Please show your student ID at the ticket counter to get a discount.", exJpn: "割引を受けるために、チケット売り場で学生証を提示してください。" },																									
+{ eng: "Get a student discount", jpn: "学割を使う", formality: "Neutral expression", exEng: "Movies are much cheaper if you can get a student discount.", exJpn: "学割が使えれば、映画はずっと安くなります。" },																									
+{ eng: "Whisper during a movie", jpn: "映画中に小声で話す", formality: "Neutral expression", exEng: "It is very annoying when people whisper during a movie.", exJpn: "映画中に人が小声で話しているのはとても迷惑です。" },																																																		
             ],
             clickingGames: [
                 // Grammar Point 1: Grouping things (something/nothing/anything + adjective) - 4 sentences
@@ -1239,18 +1242,18 @@ title: "Task 3: Authentic Reading (Layout 9 - Split Cards & Quick Pitch)",
             { eng: "10. Should platforms ban people from sharing passwords with their friends?", jpn: "10. プラットフォームは人々が友人とパスワードを共有することを禁止すべきですか？" }
         ],
         vocab: [
-            { eng: "pay a subscription", jpn: "サブスクリプション料金を支払う" },
-            { eng: "share a password", jpn: "パスワードを共有する" },
-            { eng: "browse the menu", jpn: "メニューを閲覧する" },
-            { eng: "rely on an algorithm", jpn: "アルゴリズムに依存する" },
-            { eng: "produce content", jpn: "コンテンツを制作する" },
-            { eng: "appeal to an audience", jpn: "視聴者にアピールする" },
-            { eng: "cancel a service", jpn: "サービスを解約する" },
-            { eng: "read subtitles", jpn: "字幕を読む" },
-            { eng: "choice overload", jpn: "選択の過多 (くだけた表現)" },
-            { eng: "cord-cutter", jpn: "ケーブルテレビを解約した人 (くだけた表現)" },
-            { eng: "commercial break", jpn: "CM休憩" },
-            { eng: "dubbed version", jpn: "吹き替え版" }
+{ eng: "Laugh out loud", jpn: "声を出して笑う", formality: "Neutral expression", exEng: "The comedy was so funny that the whole audience laughed out loud.", exJpn: "そのコメディがとても面白かったので、観客全員が声を出して笑いました。" },																									
+{ eng: "Burst into tears", jpn: "急に泣き出す", formality: "Neutral expression", exEng: "The ending was so sad that my sister burst into tears.", exJpn: "結末がとても悲しかったので、妹は急に泣き出しました。" },																									
+{ eng: "Cover your eyes", jpn: "目を覆う（手で隠す）", formality: "Neutral expression", exEng: "I always cover my eyes when a scary monster appears on screen.", exJpn: "画面に怖い怪物が現れると、私はいつも手で目を覆います。" },																									
+{ eng: "Jump in your seat", jpn: "（驚いて）席で飛び上がる", formality: "Neutral expression", exEng: "The sudden loud noise made everyone jump in their seats.", exJpn: "突然の大きな音に、みんな席で飛び上がりました。" },																									
+{ eng: "Clap at the end", jpn: "最後に拍手する", formality: "Neutral expression", exEng: "The movie was so good that people started to clap at the end.", exJpn: "映画がとても良かったので、最後に人々が拍手を始めました。" },																									
+{ eng: "Big screen", jpn: "大スクリーン（映画館）", formality: "Neutral expression", exEng: "Some movies are much more exciting on the big screen than on a TV.", exJpn: "映画によっては、テレビよりも大スクリーンで観る方がずっとワクワクします。" },																									
+{ eng: "Small screen", jpn: "小さな画面（テレビ）", formality: "Neutral expression", exEng: "Many famous movie actors are now appearing on the small screen in TV dramas.", exJpn: "現在、多くの有名な映画俳優がテレビドラマという小さな画面にも出演しています。" },																									
+{ eng: "Popcorn bucket", jpn: "ポップコーンのバケツ（容器）", formality: "Neutral expression", exEng: "We shared a huge popcorn bucket during the two-hour movie.", exJpn: "2時間の映画の間、私たちは巨大なポップコーンのバケツをシェアしました。" },																									
+{ eng: "Movie poster", jpn: "映画のポスター", formality: "Neutral expression", exEng: "He has a framed movie poster of his favorite sci-fi film on his bedroom wall.", exJpn: "彼は寝室の壁に、お気に入りのSF映画の額入りポスターを飾っています。" },																									
+{ eng: "Sold-out show", jpn: "満席の回", formality: "Neutral expression", exEng: "We couldn't get in because it was a sold-out show.", exJpn: "満席の回だったので、中に入ることができませんでした。" },																									
+{ eng: "Plot twist", jpn: "どんでん返し（物語の急展開）", formality: "Neutral expression", exEng: "I didn't expect that crazy plot twist at the end of the movie!", exJpn: "映画の最後にそんなすごいどんでん返しがあるとは予想していませんでした！" },																									
+{ eng: "Cliffhanger ending", jpn: "続きが気になる終わり方（クリフハンガー）", formality: "Neutral expression", exEng: "The season ended with a cliffhanger ending, so I can't wait for next year.", exJpn: "そのシーズンは続きが気になる終わり方で終わったので、来年が待ちきれません。" },																																																	
         ],
         grammarPoints: [
             {
@@ -1281,24 +1284,26 @@ title: "Task 3: Authentic Reading (Layout 9 - Split Cards & Quick Pitch)",
         ],
         homework: {
             vocab: [
-                { eng: "Log in", jpn: "ログインする", exEng: "I log in to my account every evening.", exJpn: "私は毎晩自分のアカウントにログインします。" },
-                { eng: "Sign up", jpn: "登録する", exEng: "You can sign up for a free trial online.", exJpn: "オンラインで無料トライアルに登録できます。" },
-                { eng: "Scroll through", jpn: "スクロールして見る", exEng: "She scrolled through the list of movies.", exJpn: "彼女は映画のリストをスクロールして見ました。" },
-                { eng: "Give up", jpn: "諦める", exEng: "I gave up trying to find a good comedy.", exJpn: "良いコメディを見つけようとするのを諦めました。" },
-                { eng: "Look forward to", jpn: "〜を楽しみにする", exEng: "I am looking forward to the season finale.", exJpn: "シーズンの最終回を楽しみにしています。" },
-                { eng: "Turn off", jpn: "消す、不快にさせる", exEng: "The bad acting really turned me off.", exJpn: "ひどい演技には本当にうんざりしました（不快になりました）。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "My friend pointed out a mistake in the plot.", exJpn: "友人がストーリーのミスを指摘しました。" },
-                { eng: "Bring out", jpn: "引き出す、発売する", exEng: "The platform will bring out a new original series.", exJpn: "そのプラットフォームは新しいオリジナルシリーズを発売します。" },
-                { eng: "Depend on", jpn: "〜に依存する", exEng: "Algorithm suggestions depend on your viewing history.", exJpn: "アルゴリズムの提案はあなたの視聴履歴に依存します。" },
-                { eng: "Focus on", jpn: "集中する", exEng: "Independent films often focus on character development.", exJpn: "独立系映画はしばしばキャラクターの成長に集中します。" },
-                { eng: "Suffer from", jpn: "〜に苦しむ", exEng: "Many users suffer from subscription fatigue.", exJpn: "多くのユーザーがサブスクリプション疲れに苦しんでいます。" },
-                { eng: "Compare to", jpn: "〜と比較する", exEng: "Streaming is cheap compared to theater tickets.", exJpn: "ストリーミングは映画館のチケットと比較すると安いです。" },
-                { eng: "Cut down", jpn: "減らす", exEng: "I need to cut down on my monthly streaming expenses.", exJpn: "毎月のストリーミング出費を減らす必要があります。" },
-                { eng: "Opt out", jpn: "脱退する、オプトアウトする", exEng: "You can opt out of their marketing emails anytime.", exJpn: "いつでも彼らのマーケティングメールからオプトアウトできます。" },
-                { eng: "Catch up", jpn: "追いつく、近況を報告し合う", exEng: "I want to catch up on the episodes I missed.", exJpn: "見逃したエピソードの遅れを取り戻したい（まとめ見したい）です。" },
-                { eng: "Rule out", jpn: "除外する", exEng: "We shouldn't rule out independent films.", exJpn: "独立系映画を選択肢から除外すべきではありません。" },
-                { eng: "Pay for", jpn: "〜の代金を支払う", exEng: "I don't want to pay for a service I rarely use.", exJpn: "めったに使わないサービスの代金を支払いたくありません。" },
-                { eng: "Subscribe to", jpn: "〜を定期購読する / 登録する", exEng: "She subscribes to three different music platforms.", exJpn: "彼女は3つの異なる音楽プラットフォームに登録しています。" }
+{ eng: "Plot hole", jpn: "物語の矛盾・つじつまが合わない点", formality: "Neutral expression", exEng: "The movie was fun, even though there was a big plot hole in the middle.", exJpn: "途中に大きな物語の矛盾があったけれど、その映画は楽しめました。" },																									
+{ eng: "Predictable story", jpn: "予想通りのストーリー", formality: "Neutral expression", exEng: "Love stories often have a predictable story, but they are still fun to watch.", exJpn: "恋愛物語は予想通りのストーリーが多いですが、それでも観ていて楽しいです。" },																									
+{ eng: "Main character", jpn: "主人公", formality: "Neutral expression", exEng: "The main character is a young detective who solves difficult crimes.", exJpn: "主人公は難しい事件を解決する若い探偵です。" },																									
+{ eng: "Supporting character", jpn: "脇役・サブキャラクター", formality: "Neutral expression", exEng: "Sometimes a funny supporting character is more interesting than the hero.", exJpn: "時々、面白い脇役の方がヒーローよりも魅力的なことがあります。" },																									
+{ eng: "Bad guy / Villain", jpn: "悪役", formality: "Neutral expression", exEng: "In the end, the hero always catches the bad guy.", exJpn: "最後には、ヒーローがいつも悪役を捕まえます。" },																									
+{ eng: "Happy ending", jpn: "ハッピーエンド", formality: "Neutral expression", exEng: "I love movies with a happy ending because they make me feel good.", exJpn: "気分が良くなるので、ハッピーエンドの映画が大好きです。" },																									
+{ eng: "Sad ending", jpn: "悲しい結末（バッドエンド）", formality: "Neutral expression", exEng: "Be careful—this movie has a very sad ending, so bring tissues!", exJpn: "気をつけて、この映画はとても悲しい結末だからティッシュを持ってきてね！" },																									
+{ eng: "Based on a true story", jpn: "実話に基づいた", formality: "Neutral expression", exEng: "This sports movie is very inspiring because it is based on a true story.", exJpn: "このスポーツ映画は実話に基づいているので、とても感動的です。" },																									
+{ eng: "Based on a book", jpn: "本（小説）を原作とした", formality: "Neutral expression", exEng: "The movie was good, though it was a bit different from the book it was based on.", exJpn: "原作の本とは少し違っていましたが、その映画は良かったです。" },																									
+{ eng: "Flashback scene", jpn: "回想シーン", formality: "Neutral expression", exEng: "A flashback scene showed how the two friends met when they were children.", exJpn: "回想シーンで、2人の友人が子供の頃にどうやって出会ったかが描かれました。" },																									
+{ eng: "Opening scene", jpn: "オープニングシーン（冒頭の場面）", formality: "Neutral expression", exEng: "The opening scene starts with an exciting car chase through the city.", exJpn: "オープニングシーンは、街中を走るワクワクするカーチェイスから始まります。" },																									
+{ eng: "Final scene", jpn: "ラストシーン（最後の場面）", formality: "Neutral expression", exEng: "Everyone in the theater was silent during the emotional final scene.", exJpn: "感動的なラストシーンの間、映画館の全員が静まり返っていました。" },																									
+{ eng: "Action scene", jpn: "アクションシーン", formality: "Neutral expression", exEng: "The action scenes were amazing, especially the fight on top of the train.", exJpn: "アクションシーンは素晴らしく、特に列車の上での戦いは最高でした。" },																									
+{ eng: "Car chase", jpn: "カーチェイス（車の追跡劇）", formality: "Neutral expression", exEng: "Every good spy movie needs at least one fast car chase.", exJpn: "優れたスパイ映画には、少なくとも1つはスピード感のあるカーチェイスが必要です。" },																									
+{ eng: "Love story", jpn: "恋愛物語", formality: "Neutral expression", exEng: "It is a sweet love story about two people who meet at an airport.", exJpn: "それは空港で出会った2人の素敵な恋愛物語です。" },																									
+{ eng: "Ghost story", jpn: "怪談・幽霊の話", formality: "Neutral expression", exEng: "We watched a scary ghost story with all the lights turned off.", exJpn: "私たちは電気を全部消して、怖い幽霊の映画を観ました。" },																									
+{ eng: "Murder mystery", jpn: "殺人ミステリー", formality: "Neutral expression", exEng: "I love trying to guess the killer while watching a murder mystery.", exJpn: "殺人ミステリーを観ながら犯人を当てるのが大好きです。" },																									
+{ eng: "Science fiction (Sci-fi)", jpn: "SF（サイエンス・フィクション）", formality: "Neutral expression", exEng: "Movies about space travel and robots are called science fiction.", exJpn: "宇宙旅行やロボットについての映画はSFと呼ばれます。" },																									
+{ eng: "Romantic comedy (Rom-com)", jpn: "ロマンチックコメディ（ラブコメ）", formality: "Casual expression", exEng: "A romantic comedy is the perfect movie to watch on a relaxing Sunday.", exJpn: "ラブコメは、リラックスした日曜日に観るのにぴったりの映画です。" },																									
+{ eng: "Historical drama", jpn: "歴史ドラマ（時代劇）", formality: "Neutral expression", exEng: "My grandmother loves watching historical dramas about kings and queens.", exJpn: "私の祖母は王様や女王様についての歴史ドラマを観るのが大好きです。" },																																																		
             ],
             clickingGames: [
                 // Grammar Point 1: Expressing 2/2 things (both of) - 4 sentences
@@ -1331,27 +1336,27 @@ title: "Task 3: Authentic Reading (Layout 9 - Split Cards & Quick Pitch)",
         title: "Lesson 11: How to make movie plans",
         goal: "Invite a colleague to a movie, discuss preferences, and finalize plans. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(同僚を映画に誘い、好みを話し合い、計画を確定させる。)</span>",
         vocab: [
-            { eng: "book tickets", jpn: "チケットを予約する" },
-            { eng: "check showtimes", jpn: "上映時間を確認する" },
-            { eng: "grab a seat", jpn: "席を確保する" },
-            { eng: "read reviews", jpn: "レビューを読む" },
-            { eng: "meet up", jpn: "待ち合わせをする" },
-            { eng: "cancel plans", jpn: "予定をキャンセルする" },
-            { eng: "suggest a film", jpn: "映画を提案する" },
-            { eng: "watch a trailer", jpn: "予告編を見る" },
-            { eng: "sold out", jpn: "売り切れ (くだけた表現)" },
-            { eng: "blockbuster", jpn: "大ヒット作 (くだけた表現)" },
-            { eng: "grab a bite", jpn: "軽く食べる (くだけた表現)" },
-            { eng: "chick flick", jpn: "女性向けの映画 (くだけた表現)" }
+{ eng: "Reality TV show", jpn: "リアリティ番組", formality: "Neutral expression", exEng: "Cooking competitions are my favorite kind of reality TV show.", exJpn: "料理対決は、私の一番好きな種類のリアリティ番組です。" },																									
+{ eng: "Talk show", jpn: "トーク番組", formality: "Neutral expression", exEng: "Famous actors often go on late-night talk shows to promote their new movies.", exJpn: "有名な俳優たちは、新しい映画を宣伝するためによく深夜のトーク番組に出演します。" },																									
+{ eng: "Game show", jpn: "クイズ・ゲーム番組", formality: "Neutral expression", exEng: "People can win a lot of money if they answer all the questions on that game show.", exJpn: "そのクイズ番組ですべての質問に答えると、大金を獲得することができます。" },																									
+{ eng: "Soap opera", jpn: "昼ドラ（メロドラマ）", formality: "Neutral expression", exEng: "That soap opera has been on TV every weekday for over thirty years!", exJpn: "その昼ドラは、30年以上も毎平日テレビで放送されています！" },																									
+{ eng: "Animated movie", jpn: "アニメ映画", formality: "Neutral expression", exEng: "Pixar makes great animated movies that both children and adults enjoy.", exJpn: "ピクサーは子供も大人も楽しめる素晴らしいアニメ映画を作っています。" },																									
+{ eng: "Nature documentary", jpn: "自然ドキュメンタリー", formality: "Neutral expression", exEng: "I watched a fascinating nature documentary about animals living in the deep ocean.", exJpn: "深海に住む動物についての魅力的な自然ドキュメンタリーを観ました。" },																									
+{ eng: "Sequel to a movie", jpn: "映画の続編", formality: "Neutral expression", exEng: "The first movie was so popular that they are making a sequel to it next year.", exJpn: "1作目がとても人気だったので、来年その続編が作られます。" },																									
+{ eng: "Prequel", jpn: "前日譚（元の物語より前の時代を描いた作品）", formality: "Neutral expression", exEng: "The new movie is a prequel that shows how the hero got his powers.", exJpn: "新しい映画は、ヒーローがどうやって力を手に入れたかを描く前日譚です。" },																									
+{ eng: "Remake of an old film", jpn: "古い映画のリメイク", formality: "Neutral expression", exEng: "Usually, the original movie is better than a modern remake of an old film.", exJpn: "通常、古い映画の現代版リメイクよりもオリジナルの映画の方が良いです。" },																									
+{ eng: "Trilogy", jpn: "三部作", formality: "Neutral expression", exEng: "The Lord of the Rings is probably the most famous fantasy trilogy ever made.", exJpn: "『ロード・オブ・ザ・リング』はおそらく史上最も有名なファンタジー三部作です。" },																									
+{ eng: "Spin-off show", jpn: "スピンオフ番組（人気キャラなどを主役にした派生番組）", formality: "Neutral expression", exEng: "Fans loved the funny neighbor so much that he got his own spin-off show.", exJpn: "ファンがその面白い隣人をとても気に入ったので、彼自身のスピンオフ番組が作られました。" },																									
+{ eng: "Season finale", jpn: "シーズン最終回", formality: "Neutral expression", exEng: "Everyone at work was talking about the shocking season finale yesterday.", exJpn: "昨日、職場の全員が衝撃のシーズン最終回について話していました。" },																																																																										
         ],
         dialogue: [
-            { speaker: "A", eng: "<span class='swappable'>Are you doing anything special this weekend?</span>", jpn: "今週末、何か特別なことをする予定はありますか？" },
+            { speaker: "A", eng: "Are you doing anything special this weekend?</span>", jpn: "今週末、何か特別なことをする予定はありますか？" },
             { speaker: "B", eng: "Not really. I was just planning to relax at home.", jpn: "いや、特に。家でリラックスしようと思っていたところです。" },
             { speaker: "A", eng: "Well, <span class='swappable'>would you be interested in catching a movie on Saturday?</span>", jpn: "それなら、土曜日に映画を見に行きませんか？" },
-            { speaker: "B", eng: "That sounds like a great idea. <span class='swappable'>What is playing right now?</span>", jpn: "それは素晴らしいアイデアですね。今は何が上映されていますか？" },
+            { speaker: "B", eng: "That sounds like a great idea. What is playing right now?</span>", jpn: "それは素晴らしいアイデアですね。今は何が上映されていますか？" },
             { speaker: "A", eng: "There's a new action blockbuster and a comedy. <span class='swappable'>We can watch either.</span>", jpn: "新しいアクション大作とコメディがあります。どちらでも見られますよ。" },
             { speaker: "B", eng: "<span class='swappable'>I would prefer to watch the comedy.</span> Action movies can be a bit too loud for me.", jpn: "コメディを見る方がいいですね。アクション映画は私には少しうるさすぎるので。" },
-            { speaker: "A", eng: "The comedy it is! <span class='swappable'>Shall I book the tickets online?</span>", jpn: "コメディに決定ですね！オンラインでチケットを予約しましょうか？" },
+            { speaker: "A", eng: "The comedy it is! Shall I book the tickets online?</span>", jpn: "コメディに決定ですね！オンラインでチケットを予約しましょうか？" },
             { speaker: "B", eng: "Yes, please. That would save us a lot of time.", jpn: "はい、お願いします。そうすればかなり時間が節約できます。" },
             { speaker: "A", eng: "Perfect. <span class='swappable'>Shall we grab a bite to eat beforehand?</span>", jpn: "完璧です。事前に軽く食事をしませんか？" },
             { speaker: "B", eng: "Definitely. Let's meet at the diner near the cinema at 6 PM.", jpn: "ぜひ。午後6時に映画館の近くのダイナーで待ち合わせましょう。" },
@@ -1374,33 +1379,33 @@ title: "Task 3: Authentic Reading (Layout 9 - Split Cards & Quick Pitch)",
             {
                 category: "1. Inviting to a movie (映画に誘う)",
                 options: [
-                    { eng: "Would you be interested in catching a movie?", jpn: "映画を見に行きませんか？" },
-                    { eng: "Do you want to go to the cinema?", jpn: "映画館に行きたいですか？" },
-                    { eng: "How about seeing a film together?", jpn: "一緒に映画を見るのはどうですか？" }
+      { eng: "Feel like catching a flick?", jpn: "映画でも見に行く気分？" },
+            { eng: "Care to join me for a movie?", jpn: "よろしければ一緒に映画はいかがですか？" },
+              { eng: "Up for a movie night?", jpn: "今夜映画でもどう？" }
                 ]
             },
             {
                 category: "2. Expressing indifference (どちらでもいいと表現する)",
                 options: [
-                    { eng: "We can watch either.", jpn: "どちらでも見られますよ。" },
+                    { eng: "I'm down to watch either.", jpn: "どっちでも見たいな。" },
                     { eng: "Either option is fine with me.", jpn: "どちらの選択肢でも私は構いません。" },
-                    { eng: "I don't mind either way.", jpn: "どちらでも気にしませんよ。" }
+                    { eng: "I'm good with either.", jpn: "どちらでも構いません。" }
                 ]
             },
             {
                 category: "3. Stating a preference (好みを述べる)",
                 options: [
-                    { eng: "I would prefer to watch the comedy.", jpn: "コメディを見る方がいいですね。" },
-                    { eng: "I'd rather see the action movie.", jpn: "アクション映画を見たいです。" },
-                    { eng: "I lean towards the documentary.", jpn: "ドキュメンタリーに惹かれます。" }
+                    { eng: "I'm in the mood for the comedy.", jpn: "コメディ映画を見る気分です。" },
+                    { eng: "I'd rather see the comedy.", jpn: "コメディ映画を見たいです。" },
+                    { eng: "I'm leaning towards the comedy.", jpn: "コメディに惹かれます。" }
                 ]
             },
             {
                 category: "4. Making a suggestion (提案する)",
                 options: [
-                    { eng: "Shall we grab a bite to eat beforehand?", jpn: "事前に軽く食事をしませんか？" },
-                    { eng: "Why don't we get dinner first?", jpn: "先に夕食をとるのはどうですか？" },
-                    { eng: "Let's meet up for coffee before the show.", jpn: "上映前にコーヒーで待ち合わせましょう。" }
+                    { eng: "Wanna grab a bite to eat beforehand?", jpn: "事前に軽く食事をしませんか？" },
+          { eng: "Fancy grabbing something to eat first?", jpn: "先に何か食べに行きませんか？" },   
+            { eng: "How does getting dinner beforehand sound?", jpn: "事前に夕食をとるというのはどうでしょう？" }
                 ]
             }
         ],
@@ -1431,24 +1436,26 @@ grammarPoints: [
         },
         homework: {
             vocab: [
-                { eng: "Act out", jpn: "演じる、実演する", exEng: "The actors acted out the final scene.", exJpn: "俳優たちは最後のシーンを演じました。" },
-                { eng: "Zoom in", jpn: "ズームインする", exEng: "The camera zoomed in on her face.", exJpn: "カメラが彼女の顔にズームインしました。" },
-                { eng: "Show up", jpn: "現れる", exEng: "He didn't show up for the movie.", exJpn: "彼は映画に現れませんでした。" },
-                { eng: "Sell out", jpn: "売り切れる", exEng: "The tickets sold out in ten minutes.", exJpn: "チケットは10分で売り切れました。" },
-                { eng: "Look forward to", jpn: "〜を楽しみにする", exEng: "I am looking forward to the premiere.", exJpn: "プレミア上映を楽しみにしています。" },
-                { eng: "Dress up", jpn: "ドレスアップする、仮装する", exEng: "Fans dressed up as their favorite characters.", exJpn: "ファンはお気に入りのキャラクターに仮装しました。" },
-                { eng: "Sit through", jpn: "（退屈なものを）最後まで見る", exEng: "I couldn't sit through that boring film.", exJpn: "あの退屈な映画を最後まで見ることはできませんでした。" },
-                { eng: "Tune in", jpn: "チャンネルを合わせる、視聴する", exEng: "Millions tuned in to watch the finale.", exJpn: "何百万人もが最終回を視聴しました。" },
-                { eng: "Catch up", jpn: "遅れを取り戻す、近況を報告し合う", exEng: "Let's catch up before the movie starts.", exJpn: "映画が始まる前に近況を報告し合いましょう。" },
-                { eng: "Turn out", jpn: "〜という結果になる、集まる", exEng: "A huge crowd turned out for the event.", exJpn: "イベントには大群衆が集まりました。" },
-                { eng: "Stand out", jpn: "目立つ", exEng: "The special effects really stand out.", exJpn: "特殊効果が本当に目立っています。" },
-                { eng: "Bring out", jpn: "引き出す、発売する", exEng: "The studio will bring out a sequel next year.", exJpn: "スタジオは来年続編を公開（発売）します。" },
-                { eng: "Build up", jpn: "築き上げる、高める", exEng: "The music builds up the tension.", exJpn: "音楽が緊張感を高めます。" },
-                { eng: "Run into", jpn: "ばったり出会う", exEng: "I ran into a colleague at the theater.", exJpn: "映画館で同僚にばったり出会いました。" },
-                { eng: "Wind down", jpn: "リラックスする、徐々に終わる", exEng: "I watch comedies to wind down after work.", exJpn: "仕事の後、リラックスするためにコメディを見ます。" },
-                { eng: "Write down", jpn: "書き留める", exEng: "Write down the showtimes so we don't forget.", exJpn: "忘れないように上映時間を書き留めてください。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "He pointed out a funny mistake in the background.", exJpn: "彼は背景の面白い間違いを指摘しました。" },
-                { eng: "Work out", jpn: "上手くいく、解決する", exEng: "I hope our plans work out this weekend.", exJpn: "今週末の私たちの計画が上手くいくことを願っています。" }
+{ eng: "Series finale", jpn: "シリーズ最終回（番組全体の完結編）", formality: "Neutral expression", exEng: "After ten years on TV, the show finally aired its series finale last night.", exJpn: "テレビ放送開始から10年を経て、その番組は昨夜ついにシリーズ最終回を放送しました。" },																									
+{ eng: "Spoiler alert", jpn: "ネタバレ注意", formality: "Casual expression", exEng: "Spoiler alert! Do not read this message if you haven't seen the movie yet.", exJpn: "ネタバレ注意！まだ映画を観ていないなら、このメッセージを読まないでね。" },																									
+{ eng: "Give away the ending", jpn: "結末をバラす（ネタバレする）", formality: "Casual expression", exEng: "I'll tell you what the movie is about, but I won't give away the ending.", exJpn: "映画がどんな話かは教えるけど、結末はバラさないでおくね。" },																									
+{ eng: "Kill off a character", jpn: "登場人物を（物語の中で）死なせる", formality: "Casual expression", exEng: "I was so angry when the writers decided to kill off my favorite character.", exJpn: "脚本家たちが私のお気に入りのキャラクターを死なせることに決めたとき、とても怒りました。" },																									
+{ eng: "Slow-moving plot", jpn: "展開が遅いストーリー", formality: "Neutral expression", exEng: "It is a good drama, though some people might find the slow-moving plot a bit boring.", exJpn: "良いドラマですが、展開が遅いストーリーを少し退屈に感じる人もいるかもしれません。" },																									
+{ eng: "Fast-paced story", jpn: "テンポの速いストーリー", formality: "Neutral expression", exEng: "The fast-paced story keeps you interested from the first minute to the last.", exJpn: "テンポの速いストーリーのおかげで、最初から最後まで興味を持ち続けられます。" },																									
+{ eng: "Tear-jerker", jpn: "泣ける映画（お涙頂戴の作品）", formality: "Casual expression", exEng: "That movie about a loyal dog is a real tear-jerker—I cried so much!", exJpn: "忠実な犬についてのあの映画は本当に泣ける映画だよ。すごく泣いちゃった！" },																									
+{ eng: "Cheesy movie", jpn: "安っぽい・ベタな映画", formality: "Slang", exEng: "Christmas love stories are usually very cheesy movies, but they are fun anyway.", exJpn: "クリスマスの恋愛物語はいつもとてもベタな映画だけど、それでも楽しいです。" },																									
+{ eng: "Cliffhanger", jpn: "続きが気になる場面（ハラハラする終わり方）", formality: "Neutral expression", exEng: "You can't stop watching now—the episode just ended on a huge cliffhanger!", exJpn: "今観るのをやめるなんて無理だよ、ちょうどすごく続きが気になる場面で終わったところなのに！" },																									
+{ eng: "Take place in", jpn: "〜を舞台にしている（〜で起こる）", formality: "Neutral expression", exEng: "The story takes place in London during the 1800s.", exJpn: "その物語は1800年代のロンドンを舞台にしています。" },																									
+{ eng: "Set in the future", jpn: "未来を舞台にしている", formality: "Neutral expression", exEng: "The movie is set in the future where humans live on Mars.", exJpn: "その映画は人間が火星に住む未来を舞台にしています。" },																									
+{ eng: "Tell the story of", jpn: "〜の物語を語る", formality: "Neutral expression", exEng: "The film tells the story of a poor boy who becomes a famous musician.", exJpn: "その映画は、貧しい少年が有名な音楽家になる物語を描いています。" },																									
+{ eng: "Follow the life of", jpn: "〜の人生を追う", formality: "Neutral expression", exEng: "This documentary follows the life of a famous wildlife photographer.", exJpn: "このドキュメンタリーは、有名な野生動物写真家の人生を追っています。" },																									
+{ eng: "Turn out to be", jpn: "（最終的に）〜だと判明する", formality: "Neutral expression", exEng: "In the end, the friendly neighbor turned out to be the bank robber!", exJpn: "最後には、親切な隣人が銀行強盗だったと判明しました！" },																									
+{ eng: "End on a high note", jpn: "良い形で終わる（最高の盛り上がりで終わる）", formality: "Casual expression", exEng: "Instead of making too many seasons, the show decided to end on a high note.", exJpn: "シーズンを作りすぎる代わりに、その番組は最高の盛り上がりのまま終わることを決めました。" },																									
+{ eng: "Jump the shark", jpn: "ネタ切れで奇抜な展開になり面白くなくなる", formality: "Slang", exEng: "The comedy jumped the shark in season eight when the characters went to space.", exJpn: "そのコメディは、シーズン8で登場人物が宇宙に行ったときにネタ切れで面白くなくなりました。" },																									
+{ eng: "Play the main role", jpn: "主役を演じる", formality: "Neutral expression", exEng: "A famous British actor was chosen to play the main role in the spy movie.", exJpn: "有名なイギリス人俳優が、そのスパイ映画の主役を演じることになりました。" },																									
+{ eng: "Play the villain", jpn: "悪役を演じる", formality: "Neutral expression", exEng: "He usually plays nice guys, so it was fun to see him play the villain.", exJpn: "彼は普段いい人の役を演じるので、悪役を演じるのを見るのは楽しかったです。" },																									
+{ eng: "Star in a movie", jpn: "映画に主演する", formality: "Neutral expression", exEng: "She is going to star in a new action movie next summer.", exJpn: "彼女は来年の夏、新しいアクション映画に主演する予定です。" },																									
+{ eng: "Supporting actor", jpn: "助演男優", formality: "Neutral expression", exEng: "He won an award for Best Supporting Actor for his role as the hero's best friend.", exJpn: "彼はヒーローの親友役で最優秀助演男優賞を受賞しました。" },																																																		
             ],
             clickingGames: [
                 // Grammar Point 1: Expressing 1/2 things (either) - 4 sentences
@@ -1462,11 +1469,11 @@ grammarPoints: [
                 { prompt: "今夜の上映時間を確認しましょうか？", target: "Shall I check the showtimes for tonight?", words: ["Shall", "I", "check", "the", "showtimes", "for", "tonight?"] },
                 { prompt: "映画の後でコーヒーを飲みに行きましょうか？", target: "Shall we get coffee after the movie?", words: ["Shall", "we", "get", "coffee", "after", "the", "movie?"] }
             ],
-            extendedReading: {
+           extendedReading: {
                 title: "Task 3: Authentic Reading (Layout 1 - Online Cinema Reviews)",
                 instruction: "Read these reviews from moviegoers planning an evening out. Notice how they talk about choices, tickets, and plans.",
-                eng: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Smooth Weekend Plans With Our Team</strong></div><span class='er-author'>By: Kenji S. | Saturday</span></div><p style='margin:0;'>Last week, I asked my coworker if she was doing anything special on Saturday. We checked showtimes online and saw a comedy and an action blockbuster. Either movie sounded fun to me, so I let her choose. She preferred the comedy, and I booked the tickets early so we could grab good seats. Shall we eat first? Yes—we grabbed a bite at a nearby cafe and caught up before the film started. Everything worked out smoothly because we confirmed the time early.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>Check Showtimes Before You Go!</strong></div><span class='er-author'>By: Rina T. | Sunday</span></div><p style='margin:0;'>We decided to catch a movie after work on Friday without booking tickets first. Sadly, the evening show was sold out! Instead of canceling plans completely, we asked if another film was playing at a later time. Either a comedy or a drama was fine with both of us. We watched a trailer on our phones, grabbed a quick dinner at a diner, and went to the 8:15 PM show. Reading reviews and booking ahead would have saved us time, but we still had a relaxing night.</p></div></div>",
-                jpn: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>チームとのスムーズな週末の予定</strong></div><span class='er-author'>投稿者：ケンジ・S | 土曜日</span></div><p style='margin:0;'>先週、同僚に土曜日に何か特別な予定があるか聞きました。オンラインで上映時間を確認すると、コメディとアクション大作がありました。どちらの映画も楽しそうだったので、彼女に選んでもらいました。彼女はコメディの方がいいと言い、良い席を確保できるように早めにチケットを予約しました。先に食事をしようか？はい、映画が始まる前に近くのカフェで軽く食べて近況を話し合いました。早めに時間を確認していたので、すべてがスムーズに進みました。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>行く前に上映時間を確認しよう！</strong></div><span class='er-author'>投稿者：リナ・T | 日曜日</span></div><p style='margin:0;'>金曜日の仕事終わりに、チケットを予約せずに映画を見に行くことにしました。残念ながら、夜の回は売り切れでした！予定を完全にキャンセルする代わりに、別の映画が後の時間に上映されているか尋ねました。2人ともコメディでもドラマでもどちらでも構いませんでした。スマホで予告編を見て、ダイナーでさっと夕食をとり、20時15分の回に行きました。事前にレビューを読んで予約していれば時間を節約できたはずですが、それでもリラックスできる夜になりました。</p></div></div>"
+                eng: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>Smooth Weekend Plans With Our Team</strong></div><span class='er-author'>By: Kenji S. | Saturday</span></div><p style='margin:0;'>Last week, I asked my coworker if she was doing anything special on Saturday. Since we had just finished a big project at the office, we wanted to celebrate with a fun evening out. We checked showtimes online during our lunch break and saw a new comedy and an action blockbuster playing at the downtown theater. Either movie sounded fun to me, so I let her choose. She preferred the comedy because she wanted something light and relaxing, and I booked the tickets early on the app so we could grab good seats near the middle of the auditorium. Shall we eat first? Yes—we met up an hour early, grabbed a bite at a nearby cafe, and caught up over coffee and sandwiches before the film started. Everything worked out smoothly because we confirmed the time early and didn't have to rush through traffic or wait in long lines at the counter.</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>Check Showtimes Before You Go!</strong></div><span class='er-author'>By: Rina T. | Sunday</span></div><p style='margin:0;'>We decided to catch a movie after work on Friday without booking tickets first, thinking a late-night screening wouldn't be too crowded. Sadly, when we arrived at the lobby, the evening show was completely sold out! Instead of canceling plans completely and heading straight home, we asked the staff at the ticket counter if another film was playing at a later time. Either a comedy or a drama was fine with both of us, as long as we could get seats together. We stood near the entrance, watched a couple of trailers on our phones to compare our options, grabbed a quick dinner at a classic diner across the street, and went to the 8:15 PM show. Reading reviews and booking ahead would have saved us a lot of time and stress, but we still had a relaxing night and enjoyed the film.</p></div></div>",
+                jpn: "<div class='er-template er-layout-1'><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐⭐⭐</span> <strong>チームとのスムーズな週末の予定</strong></div><span class='er-author'>投稿者：ケンジ・S | 土曜日</span></div><p style='margin:0;'>先週、同僚に土曜日に何か特別な予定があるか聞きました。職場で大きなプロジェクトを終えたばかりだったので、楽しい夜を過ごしてお祝いをしたかったのです。昼休みにオンラインで上映時間を確認すると、繁華街の映画館で新作のコメディとアクション大作が上映されていました。どちらの映画も楽しそうだったので、彼女に選んでもらいました。彼女は軽くてリラックスできるものがいいと言ってコメディを選び、私はホールの真ん中あたりの良い席を確保できるように、アプリで早めにチケットを予約しました。先に食事をしようか？はい、1時間早めに待ち合わせをし、映画が始まる前に近くのカフェで軽く食べて、コーヒーとサンドイッチを片手に近況を話し合いました。早めに時間を確認していたので、渋滞の中を急いだりカウンターの長蛇の列に並んだりする必要もなく、すべてがスムーズに進みました。</p></div><div class='er-review'><div class='er-review-head'><div><span class='er-stars'>⭐⭐⭐☆☆</span> <strong>行く前に上映時間を確認しよう！</strong></div><span class='er-author'>投稿者：リナ・T | 日曜日</span></div><p style='margin:0;'>金曜日の仕事終わりに、レイトショーならそれほど混まないだろうと思い、チケットを予約せずに映画を見に行くことにしました。残念ながら、ロビーに到着すると夜の回は完全に売り切れでした！予定を完全にキャンセルしてそのまま帰宅する代わりに、チケットカウンターのスタッフに別の映画が後の時間に上映されているか尋ねました。隣同士で座れるのであれば、2人ともコメディでもドラマでもどちらでも構いませんでした。入り口の近くに立って選択肢を比べるためにスマホで予告編をいくつか見てから、通りの向かいにある昔ながらのダイナーでさっと夕食をとり、20時15分の回に行きました。事前にレビューを読んで予約していれば多くの時間とストレスを節約できたはずですが、それでもリラックスできる夜になり、映画を楽しむことができました。</p></div></div>"
             },
             writingTask: {
                 promptEng: "Write a short dialogue where you invite a friend to a movie, discuss what to watch, and make a plan for beforehand.",
@@ -1484,20 +1491,20 @@ grammarPoints: [
             title: "Topic Introduction",
             instruction: "Listen to three professionals introducing today's discussion themes.",
             speakers: [
-                {
+              {
                     name: "Person 1",
-                    eng: "Television shows and movies have an enormous impact on modern culture. They do not just entertain us; they shape how we view the world. For instance, when a show features diverse characters and explores complex social issues, it encourages viewers to think differently about society. Documentaries, in particular, can highlight global crises like climate change or poverty, pushing audiences to take real-world action. However, media can also spread stereotypes if we are not careful. Writers and directors have a massive responsibility to portray characters authentically. I think that parents should actively discuss the themes of popular media with their children. By analyzing what we watch, we can consume media more critically and appreciate the positive social changes it can inspire.",
-                    jpn: "テレビ番組や映画は、現代文化に多大な影響を与えています。それらは単に私たちを楽しませるだけでなく、私たちが世界をどう見るかを形作ります。例えば、番組が多様なキャラクターを登場させ、複雑な社会問題を探求するとき、それは視聴者に社会について違った考え方をするよう促します。特にドキュメンタリーは、気候変動や貧困といった世界的な危機を浮き彫りにし、観客に現実世界の行動を起こすよう後押しすることができます。しかし、気をつけていないとメディアは固定観念を広める可能性もあります。脚本家や監督には、キャラクターを真実に描写する大きな責任があります。私は、親が人気のあるメディアのテーマについて子供たちと積極的に話し合うべきだと思います。私たちが見るものを分析することで、メディアをより批判的に消費し、それが引き起こす可能性のあるポジティブな社会的変化を理解することができます。"
+                    eng: "TV shows and movies have a big influence on modern culture. They do not just entertain us; they also change how we see the world. For example, when a series has many different kinds of characters and talks about real-life problems, it helps viewers think in new ways. Documentaries can also show serious problems like climate change or poverty, inspiring people to take action. However, the media can also give us wrong ideas about others if we are not careful. Writers and directors have a responsibility to show people honestly. I believe parents should talk about the messages in popular shows with their children. When we think carefully about what we watch, we can enjoy it more and learn useful lessons from it.",
+                    jpn: "テレビ番組や映画は、現代の文化に大きな影響を与えています。それらは単に私たちを楽しませるだけでなく、私たちが世界をどう見るかも変えます。例えば、あるシリーズに多くの異なる種類のキャラクターが登場し、現実の問題について話すと、視聴者が新しい方法で考える助けになります。ドキュメンタリーも、気候変動や貧困のような深刻な問題を見せることができ、人々に行動を起こすよう刺激を与えることができます。しかし、気をつけていないと、メディアは他の人々について間違ったイメージを与えることもあります。脚本家や監督には、人々を正直に表現する責任があります。私は、親が人気番組のメッセージについて子供たちと話し合うべきだと信じています。私たちが観るものについて注意深く考えることで、それをより楽しみ、そこから役立つ教訓を学ぶことができます。"
                 },
                 {
                     name: "Person 2",
-                    eng: "The globalization of media is one of the most fascinating trends today. Thanks to streaming platforms, a series produced in Spain or South Korea can become a massive hit in the United States overnight. This exposure to foreign languages and customs helps break down cultural barriers. Viewers naturally learn about different lifestyles, historical events, and traditions without ever leaving their living rooms. It builds global empathy. I absolutely love watching international cinema because it offers a completely fresh perspective on familiar themes like love, family, or ambition. Some people complain about reading subtitles, but I believe it is a small price to pay for such rich storytelling. Ultimately, global media proves that human emotions are universal.",
-                    jpn: "メディアのグローバル化は、今日最も魅力的なトレンドの1つです。ストリーミングプラットフォームのおかげで、スペインや韓国で制作されたシリーズが一夜にしてアメリカで大ヒットすることがあります。このように外国語や習慣に触れることは、文化的な障壁を打ち破るのに役立ちます。視聴者は居間から一歩も出ることなく、異なるライフスタイル、歴史的出来事、伝統について自然に学びます。それはグローバルな共感を築きます。私は国際的な映画を見るのが絶対に好きです。なぜなら、愛、家族、野心といった馴染みのあるテーマに対して、全く新鮮な視点を提供してくれるからです。字幕を読むことに不満を言う人もいますが、私はそれがこれほど豊かなストーリーテリングに対する小さな代償だと信じています。最終的に、グローバルメディアは人間の感情が普遍的であることを証明しています。"
+                    eng: "Watching international shows has become a popular trend today. Thanks to streaming services, a series made in Spain or South Korea can quickly become a huge success in the United States. Seeing other languages and lifestyles helps break down cultural walls. Viewers can learn about different customs, history, and traditions right from their living rooms. It builds a stronger feeling of connection with people around the world. I really enjoy watching foreign films because they look at familiar topics like love, family, or dreams in a fresh, original way. Some people dislike reading subtitles, but I think it is worth the effort to enjoy such great stories. In the end, global entertainment proves that people everywhere share the same basic feelings.",
+                    jpn: "国際的な番組を観ることは、今日人気のトレンドになっています。ストリーミングサービスのおかげで、スペインや韓国で作られたシリーズが、アメリカですぐに大成功を収めることがあります。他の言語や生活様式を見ることは、文化の壁を取り払うのに役立ちます。視聴者は自分のリビングルームにいながら、異なる習慣や歴史、伝統について学ぶことができます。それは世界中の人々とのより強いつながりの感覚を築きます。私は外国映画を観るのが本当に好きです。なぜなら、愛や家族、夢といった身近なテーマを新鮮で独創的な方法で扱ってくれるからです。字幕を読むのを嫌がる人もいますが、これほど素晴らしい物語を楽しむためにはその努力をする価値があると思います。結局のところ、グローバルなエンターテインメントは、どこにいても人々は同じ基本的な感情を共有していることを証明しています。"
                 },
                 {
                     name: "Person 3",
-                    eng: "I often think about the psychological effects of binge-watching and media consumption. While watching a gripping thriller can be a great escape from daily stress, spending entire weekends staring at a screen is not healthy. It promotes a sedentary lifestyle and can lead to sleep deprivation. Furthermore, social media platforms are filled with extreme hype and spoilers, which creates an intense pressure to watch shows immediately just to join the conversation. 'Fear of missing out' is a real phenomenon in entertainment today. I try to limit my screen time and focus on quality rather than quantity. Watching one excellent, thought-provoking film a week is much more rewarding for me than passively consuming hours of average television.",
-                    jpn: "私はよく、イッキ見やメディア消費の心理的影響について考えます。手に汗握るスリラーを見ることは日々のストレスからの素晴らしい逃避になり得ますが、週末丸ごと画面を見つめて過ごすことは健康的ではありません。それは座りがちなライフスタイルを助長し、睡眠不足につながる可能性があります。さらに、ソーシャルメディアのプラットフォームは極端な誇大宣伝やネタバレで溢れており、会話に参加するためだけに番組をすぐに見なければならないという強いプレッシャーを生み出しています。「見逃すことへの恐怖（FOMO）」は、今日のエンターテインメントにおける現実の現象です。私はスクリーンタイムを制限し、量よりも質に集中するようにしています。週に1本、考えさせられる素晴らしい映画を見ることは、平均的なテレビ番組を何時間も受動的に消費するよりも、私にとってずっと価値があります。"
+                    eng: "I often think about how watching too much television affects our mental health. Watching an exciting mystery can be a great way to relax after a stressful day, but looking at a screen all weekend is unhealthy. Sitting too much harms our bodies, and staying up late to finish a series makes us exhausted. Also, social media is full of excitement and spoilers, so people feel pressure to watch new shows right away just to join the conversation with friends. The fear of missing out is quite common these days. I try to limit my screen time and choose better programs. Watching one meaningful film that makes me think each week is much more satisfying than wasting hours on boring TV.",
+                    jpn: "私はよく、テレビを観すぎることが私たちのメンタルヘルスにどう影響するかを考えます。ワクワクするミステリーを観ることは、ストレスの多い一日の後にリラックスする素晴らしい方法になりますが、週末中ずっと画面を見ているのは不健康です。座りすぎは体に悪影響がありますし、シリーズを見終えるために夜更かしをすると疲れ切ってしまいます。また、SNSは盛り上がりやネタバレでいっぱいなので、友達との会話に参加するためだけに新しい番組をすぐ観なければならないというプレッシャーを人々は感じます。取り残されることへの恐れは、最近とても一般的です。私は画面を見る時間を制限し、より良い番組を選ぶようにしています。毎週、考えさせられる意味のある映画を1本観る方が、退屈なテレビに何時間も費やすよりもずっと満足感があります。"
                 }
             ]
         },
@@ -1522,18 +1529,18 @@ grammarPoints: [
             { eng: "10. What is a movie that fundamentally changed your perspective on a topic?", jpn: "10. あるトピックに対するあなたの視点を根本的に変えた映画は何ですか？" }
         ],
         vocab: [
-            { eng: "social impact", jpn: "社会的影響" },
-            { eng: "cultural values", jpn: "文化的価値観" },
-            { eng: "challenge stereotypes", jpn: "固定観念に挑む" },
-            { eng: "spark a conversation", jpn: "会話のきっかけを作る" },
-            { eng: "global empathy", jpn: "グローバルな共感" },
-            { eng: "thought-provoking", jpn: "考えさせられる" },
-            { eng: "sedentary lifestyle", jpn: "座りがちなライフスタイル" },
-            { eng: "sleep deprivation", jpn: "睡眠不足" },
-            { eng: "escapism", jpn: "現実逃避 (くだけた表現/心理学用語)" },
-            { eng: "FOMO (fear of missing out)", jpn: "見逃すことへの恐怖 (くだけた表現)" },
-            { eng: "eye-opening", jpn: "驚くべき / 啓発的な (くだけた表現)" },
-            { eng: "mind-blowing", jpn: "圧倒的な / 驚異的な (くだけた表現)" }
+{ eng: "Steal the show", jpn: "主役を食う（一番の注目を集める）", formality: "Casual expression", exEng: "The cute little dog completely stole the show in every scene!", exJpn: "そのかわいい小さな犬が、すべてのシーンで完全に主役を食っていました！" },																									
+{ eng: "Great chemistry", jpn: "（俳優同士の）素晴らしい相性", formality: "Neutral expression", exEng: "The two lead actors have great chemistry, so their romance feels very real.", exJpn: "2人の主演俳優は相性が素晴らしいので、彼らの恋愛がとてもリアルに感じられます。" },																									
+{ eng: "Bad acting", jpn: "下手な演技", formality: "Neutral expression", exEng: "The story was interesting, but the bad acting made it hard to watch.", exJpn: "ストーリーは面白かったけれど、下手な演技のせいで観るのがつらかったです。" },																									
+{ eng: "Amazing performance", jpn: "素晴らしい演技", formality: "Neutral expression", exEng: "She gave an amazing performance as a young singer trying to succeed.", exJpn: "彼女は成功しようとする若い歌手として素晴らしい演技を見せました。" },																									
+{ eng: "Do your own stunts", jpn: "スタントマンを使わず自分でアクションをこなす", formality: "Neutral expression", exEng: "Jackie Chan is famous for doing his own stunts without using safety wires.", exJpn: "ジャッキー・チェンは、安全ワイヤーを使わずに自分でスタントをこなすことで有名です。" },																									
+{ eng: "Stunt double", jpn: "スタントマン（危険な場面の代役）", formality: "Neutral expression", exEng: "A stunt double drove the car during the dangerous crash scene.", exJpn: "危険な衝突シーンでは、スタントマンが車を運転しました。" },																									
+{ eng: "Voice actor", jpn: "声優", formality: "Neutral expression", exEng: "Many famous movie stars work as voice actors for animated films.", exJpn: "多くの有名な映画スターが、アニメ映画の声優として働いています。" },																									
+{ eng: "Child actor", jpn: "子役", formality: "Neutral expression", exEng: "He started his career as a child actor in TV commercials.", exJpn: "彼はテレビCMの子役としてキャリアをスタートさせました。" },																									
+{ eng: "Cameo appearance", jpn: "カメオ出演（有名人のちょっとした特別出演）", formality: "Neutral expression", exEng: "The author of the book made a quick cameo appearance as a waiter in the restaurant.", exJpn: "その本の著者が、レストランのウェイター役でちょっとしたカメオ出演をしました。" },																									
+{ eng: "Cast of characters", jpn: "登場人物たち（キャスト陣）", formality: "Neutral expression", exEng: "The show has a large cast of characters, so it takes time to remember their names.", exJpn: "その番組は登場人物が多いので、名前を覚えるのに時間がかかります。" },																									
+{ eng: "All-star cast", jpn: "オールスターキャスト（豪華出演陣）", formality: "Neutral expression", exEng: "The movie features an all-star cast with five Oscar winners.", exJpn: "その映画は5人のオスカー受賞者を含む豪華出演陣が特徴です。" },																									
+{ eng: "Play a role", jpn: "役を演じる", formality: "Neutral expression", exEng: "She had to cut her hair very short to play the role of a soldier.", exJpn: "彼女は兵士の役を演じるために、髪をとても短く切らなければなりませんでした。" },																																																		
         ],
         grammarPoints: [
             {
@@ -1564,24 +1571,26 @@ grammarPoints: [
         ],
         homework: {
             vocab: [
-                { eng: "Relate to", jpn: "〜に共感する", exEng: "Many people relate to the struggles of the main character.", exJpn: "多くの人が主人公の苦悩に共感します。" },
-                { eng: "Think about", jpn: "〜について考える", exEng: "We should think about the message of this film.", exJpn: "私たちはこの映画のメッセージについて考えるべきです。" },
-                { eng: "Lead to", jpn: "〜につながる", exEng: "Binge-watching can lead to sleep deprivation.", exJpn: "イッキ見は睡眠不足につながる可能性があります。" },
-                { eng: "Focus on", jpn: "〜に焦点を当てる", exEng: "The documentary focuses on environmental issues.", exJpn: "そのドキュメンタリーは環境問題に焦点を当てています。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "Good representation results in greater empathy.", exJpn: "良い表現（描写）はより大きな共感という結果になります。" },
-                { eng: "Contribute to", jpn: "〜に貢献する", exEng: "Media stereotypes contribute to social misunderstandings.", exJpn: "メディアの固定観念は社会的な誤解に貢献（助長）します。" },
-                { eng: "Identify with", jpn: "〜に自分を重ね合わせる", exEng: "Teenagers easily identify with the heroes in these movies.", exJpn: "10代の若者はこれらの映画のヒーローに自分を簡単に重ね合わせます。" },
-                { eng: "Depend on", jpn: "〜に依存する", exEng: "The movie's success depends on word of mouth.", exJpn: "その映画の成功は口コミに依存しています。" },
-                { eng: "Learn from", jpn: "〜から学ぶ", exEng: "We can learn a lot from historical dramas.", exJpn: "歴史ドラマから多くのことを学ぶことができます。" },
-                { eng: "Expose to", jpn: "〜にさらす、触れさせる", exEng: "Streaming exposes us to diverse foreign cultures.", exJpn: "ストリーミングは私たちを多様な外国文化に触れさせます。" },
-                { eng: "Worry about", jpn: "〜について心配する", exEng: "Parents worry about excessive screen time.", exJpn: "親は過度なスクリーンタイムについて心配します。" },
-                { eng: "Believe in", jpn: "〜を信じる", exEng: "I believe in the educational value of television.", exJpn: "私はテレビの教育的価値を信じています。" },
-                { eng: "Base on", jpn: "〜に基づく", exEng: "The film is based on a shocking true story.", exJpn: "その映画は衝撃的な実話に基づいています。" },
-                { eng: "Respond to", jpn: "〜に反応する", exEng: "How did the audience respond to the plot twist?", exJpn: "観客はその予想外の展開にどう反応しましたか？" },
-                { eng: "Protect from", jpn: "〜から保護する", exEng: "We must protect children from violent content.", exJpn: "暴力的なコンテンツから子供たちを保護しなければなりません。" },
-                { eng: "Engage in", jpn: "〜に参加する、従事する", exEng: "Fans engage in deep discussions online.", exJpn: "ファンはオンラインで深い議論に参加します。" },
-                { eng: "Succeed in", jpn: "〜に成功する", exEng: "The director succeeded in sparking a global conversation.", exJpn: "監督はグローバルな会話のきっかけを作ることに成功しました。" },
-                { eng: "Appeal to", jpn: "〜にアピールする", exEng: "This documentary will appeal to history lovers.", exJpn: "このドキュメンタリーは歴史愛好家にアピールするでしょう。" }
+{ eng: "Get into character", jpn: "役に入り込む", formality: "Neutral expression", exEng: "He listens to classical music before filming to help him get into character.", exJpn: "彼は撮影前にクラシック音楽を聴いて、役に入り込む助けにしています。" },																									
+{ eng: "Break character", jpn: "役から素に戻る（笑ってしまうなど）", formality: "Neutral expression", exEng: "The joke was so funny that the actors broke character and started laughing.", exJpn: "ジョークがあまりにも面白かったので、俳優たちは役から素に戻って笑い出してしまいました。" },																									
+{ eng: "Be typecast", jpn: "同じような役ばかり振られる", formality: "Neutral expression", exEng: "Because he is very tall and strong, he is always typecast as a bodyguard.", exJpn: "彼はとても背が高くて強そうなので、いつもボディガード役ばかり振られます。" },																									
+{ eng: "Big break", jpn: "大ブレイクのきっかけ", formality: "Casual expression", exEng: "Getting cast in that popular Netflix series was her big break.", exJpn: "その人気Netflixシリーズに配役されたことが、彼女の大ブレイクのきっかけでした。" },																									
+{ eng: "A-list star", jpn: "超一流のスター", formality: "Casual expression", exEng: "Only A-list stars get paid twenty million dollars for a single movie.", exJpn: "1本の映画で2000万ドルものギャラをもらえるのは、超一流のスターだけです。" },																									
+{ eng: "Heartthrob", jpn: "イケメン俳優（女性ファンに大人気のスター）", formality: "Casual expression", exEng: "He became a teenage heartthrob after starring in the high school romance movie.", exJpn: "彼は高校の恋愛映画に主演した後、10代に大人気のイケメン俳優になりました。" },																									
+{ eng: "Extra", jpn: "エキストラ（背景の通行人などの端役）", formality: "Neutral expression", exEng: "My cousin worked as an extra in a crowd scene for a Hollywood movie.", exJpn: "私のいとこは、ハリウッド映画の群衆シーンでエキストラとして働きました。" },																									
+{ eng: "Makeup artist", jpn: "メイクアップアーティスト", formality: "Neutral expression", exEng: "A skilled makeup artist made the young actor look eighty years old.", exJpn: "熟練したメイクアップアーティストが、若い俳優を80歳に見えるようにしました。" },																									
+{ eng: "Costume designer", jpn: "衣装デザイナー", formality: "Neutral expression", exEng: "The costume designer made hundreds of beautiful dresses for the royal party scene.", exJpn: "衣装デザイナーは王室のパーティーシーンのために何百着もの美しいドレスを作りました。" },																									
+{ eng: "Film director", jpn: "映画監督", formality: "Neutral expression", exEng: "Steven Spielberg is one of the most successful film directors in history.", exJpn: "スティーブン・スピルバーグは史上最も成功した映画監督の1人です。" },																									
+{ eng: "Rehearse a scene", jpn: "シーンのリハーサルをする", formality: "Neutral expression", exEng: "The actors rehearsed the dance scene for two weeks before the cameras rolled.", exJpn: "俳優たちはカメラが回る前に、2週間そのダンスシーンのリハーサルをしました。" },																									
+{ eng: "Read from a script", jpn: "脚本を読んで演技する", formality: "Neutral expression", exEng: "News presenters usually read from a script on a screen in front of the camera.", exJpn: "ニュースキャスターは通常、カメラの前の画面にある原稿を読んで話します。" },																									
+{ eng: "Relate to a character", jpn: "登場人物に共感する", formality: "Neutral expression", exEng: "I really related to the main character because she was also nervous about starting a new job.", exJpn: "彼女も新しい仕事を始めることに緊張していたので、私は主人公に本当に共感しました。" },																									
+{ eng: "Root for the hero", jpn: "ヒーローを応援する", formality: "Casual expression", exEng: "It is hard to enjoy a movie if you don't root for the hero.", exJpn: "ヒーローを応援できなければ、映画を楽しむのは難しいです。" },																									
+{ eng: "Love to hate", jpn: "憎らしいけれど見ていて楽しい（魅力的な悪役に対して）", formality: "Casual expression", exEng: "The evil queen is a character that audiences love to hate.", exJpn: "その邪悪な女王は、観客が「憎らしいけど見ていて楽しい」と思うキャラクターです。" },																									
+{ eng: "A natural actor", jpn: "天性の俳優（演技が自然な人）", formality: "Neutral expression", exEng: "Even though she never went to acting school, she is a natural actor.", exJpn: "彼女は演技学校に行ったことがないにもかかわらず、天性の俳優です。" },																									
+{ eng: "Overact", jpn: "大げさに演技する", formality: "Neutral expression", exEng: "The actor overacted so much during the sad scene that it looked fake.", exJpn: "悲しいシーンで俳優があまりにも大げさに演技したので、嘘っぽく見えました。" },																									
+{ eng: "Show emotion", jpn: "感情を表現する", formality: "Neutral expression", exEng: "Good actors can show emotion just with their eyes without saying a word.", exJpn: "良い俳優は一言も発さずに目だけで感情を表現することができます。" },																									
+{ eng: "Work with a director", jpn: "監督と一緒に仕事をする", formality: "Neutral expression", exEng: "Many actors dream of working with a famous director like Christopher Nolan.", exJpn: "多くの俳優がクリストファー・ノーランのような有名な監督と一緒に仕事をすることを夢見ています。" },																									
+{ eng: "Star alongside someone", jpn: "〜と共演する", formality: "Neutral expression", exEng: "She will star alongside Brad Pitt in the upcoming thriller.", exJpn: "彼女は今度公開されるスリラーでブラッド・ピットと共演します。" },																																																
             ],
             clickingGames: [
                 // Grammar Point 1: Expressing certainty (definitely/probably) - 4 sentences
@@ -1595,11 +1604,11 @@ grammarPoints: [
                 { prompt: "浅はかなステレオタイプよりも、真実味のある描写が求められています。", target: "Audiences want authentic portrayal rather than shallow stereotypes.", words: ["Audiences", "want", "authentic", "portrayal", "rather", "than", "shallow", "stereotypes."] },
                 { prompt: "週末丸ごと画面を見るよりも、外に出かけるべきです。", target: "We should go outside rather than staring at a screen all weekend.", words: ["We", "should", "go", "outside", "rather", "than", "staring", "at", "a", "screen", "all", "weekend."] }
             ],
-            extendedReading: {
+          extendedReading: {
                 title: "Task 3: Authentic Reading (Layout 2 - Workplace Forum)",
                 instruction: "Read this forum discussion about how movies and TV shows affect culture, empathy, and daily habits.",
-                eng: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>MediaLearner asks:</strong><br>Do you think TV shows and movies really change how people think in real life? Sometimes I watch a drama and feel inspired, while other times I just feel tired after binge-watching all weekend.</div><div class='er-forum-a'>💬 <strong>Reply by GlobalViewer:</strong><br>Without a doubt, stories can shape our views. Thanks to streaming, I watch foreign films and learn about customs in other countries. That definitely builds empathy rather than keeping us stuck in one point of view. In particular, historical dramas help me understand how people lived in the past.</div><div class='er-forum-a'>💬 <strong>Reply by HealthCheck:</strong><br>I agree that documentaries can spark helpful talks about social issues, and creators have a responsibility to avoid stereotypes. However, too much screen time can lead to sleep deprivation. Watching one thought-provoking movie rather than spending all Sunday in front of a screen is probably healthier for most of us.</div></div>",
-                jpn: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>MediaLearnerの質問：</strong><br>テレビ番組や映画は、現実世界で人々の考え方を本当に変えると思いますか？ドラマを見て刺激を受けることもあれば、週末ずっとイッキ見をして疲れるだけのこともあります。</div><div class='er-forum-a'>💬 <strong>GlobalViewerの返信：</strong><br>間違いなく、物語は私たちの見方を形作ることができます。ストリーミングのおかげで、私は外国映画を見て他国の習慣について学んでいます。それは1つの視点にとどまるのではなく、間違いなく共感を育みます。特に歴史ドラマは、過去の生活を理解する助けになります。</div><div class='er-forum-a'>💬 <strong>HealthCheckの返信：</strong><br>ドキュメンタリーが社会問題について役立つ話し合いのきっかけになり得ることや、クリエイターにステレオタイプを避ける責任があることには同意します。しかし、画面を見る時間が長すぎると睡眠不足につながる可能性があります。日曜日を画面の前で過ごすよりも、考えさせられる映画を1本見る方が、私たちにとってはおそらくより健康的です。</div></div>"
+                eng: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>MediaLearner asks:</strong><br>Do you think TV shows and movies really change how people think in real life? Sometimes I watch a drama and feel inspired, while other times I just feel tired after binge-watching all weekend.</div><div class='er-forum-a'>💬 <strong>Reply by GlobalViewer:</strong><br>Without a doubt, stories can shape our views. Thanks to streaming, I watch foreign films and learn about customs in other countries. That definitely builds empathy rather than keeping us stuck in one point of view. In particular, historical dramas help me understand how people lived in the past.</div><div class='er-forum-a'>💬 <strong>Reply by HealthCheck:</strong><br>I agree that documentaries can spark helpful talks about social issues, and creators have a responsibility to avoid stereotypes. However, too much screen time can lead to sleep deprivation. Watching one thought-provoking movie rather than spending all Sunday in front of a screen is probably healthier for most of us.</div><div class='er-forum-a'>💬 <strong>Reply by FamilyFirst:</strong><br>That is why I try to watch popular shows with my kids instead of letting them watch alone. Talking about the characters' choices helps them think critically about what they see on screen rather than just accepting everything as real.</div><div class='er-forum-a'>💬 <strong>Reply by TrendWatcher:</strong><br>For me, the biggest issue is social media pressure. Everyone talks about new series at work on Monday, so I often feel forced to binge-watch just to avoid spoilers and join the conversation.</div><div class='er-forum-a'>💬 <strong>Reply by CinemaFan99:</strong><br>I think it really depends on what you choose to watch. A gripping thriller is a great escape after a stressful week at the office, as long as you set a timer and turn off the TV before midnight.</div><div class='er-forum-a'>💬 <strong>Reply by SubtitleLover:</strong><br>Going back to GlobalViewer's point, international shows have completely changed my weekends. Reading subtitles forces me to put my phone away and actually focus on the story, which feels much more rewarding than passive background TV.</div></div>",
+                jpn: "<div class='er-template er-forum er-layout-2'><div class='er-forum-q'>👤 <strong>MediaLearnerの質問：</strong><br>テレビ番組や映画は、現実世界で人々の考え方を本当に変えると思いますか？ドラマを見て刺激を受けることもあれば、週末ずっとイッキ見をして疲れるだけのこともあります。</div><div class='er-forum-a'>💬 <strong>GlobalViewerの返信：</strong><br>間違いなく、物語は私たちの見方を形作ることができます。ストリーミングのおかげで、私は外国映画を見て他国の習慣について学んでいます。それは1つの視点にとどまるのではなく、間違いなく共感を育みます。特に歴史ドラマは、過去の生活を理解する助けになります。</div><div class='er-forum-a'>💬 <strong>HealthCheckの返信：</strong><br>ドキュメンタリーが社会問題について役立つ話し合いのきっかけになり得ることや、クリエイターにステレオタイプを避ける責任があることには同意します。しかし、画面を見る時間が長すぎると睡眠不足につながる可能性があります。日曜日を画面の前で過ごすよりも、考えさせられる映画を1本見る方が、私たちにとってはおそらくより健康的です。</div><div class='er-forum-a'>💬 <strong>FamilyFirstの返信：</strong><br>だからこそ、私は子供たちだけで見せるのではなく、一緒に人気番組を見るようにしています。キャラクターの選択について話し合うことで、画面で見るすべてをそのまま現実として受け入れるのではなく、批判的に考える力が身につきます。</div><div class='er-forum-a'>💬 <strong>TrendWatcherの返信：</strong><br>私にとって一番の問題はSNSのプレッシャーです。月曜日に職場でみんなが新作シリーズの話をしているので、ネタバレを避けて会話に入るためだけに、無理してイッキ見をしてしまうことがよくあります。</div><div class='er-forum-a'>💬 <strong>CinemaFan99の返信：</strong><br>何を選んで見るか次第だと思います。タイマーをセットして真夜中前にテレビを消すようにさえすれば、ストレスの多い1週間の後に手に汗握るスリラーを見るのは素晴らしい気分転換になりますよ。</div><div class='er-forum-a'>💬 <strong>SubtitleLoverの返信：</strong><br>GlobalViewerさんの意見に戻りますが、海外の番組のおかげで私の週末はすっかり変わりました。字幕を読むことでスマホを置いて物語に集中せざるを得なくなるので、受動的にテレビを流し見するよりもずっと充実感があります。</div></div>"
             },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think movies and TV shows have a positive or negative impact on society? Use adverbs of certainty and 'rather than'.",
@@ -1607,61 +1616,52 @@ grammarPoints: [
             }
         }
     },
-    {
+ {
         id: 13,
         chapter: "Chapter 2: Movies & TV Shows",
         type: "casestudy",
-        title: "Lesson 13: Case Study - The Failing Streaming Service",
-        goal: "Analyze business problems in a media company, identify causes, and propose a restructuring plan using passive voice. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(メディア企業のビジネス問題を分析し、原因を特定し、受動態を使って再編計画を提案する。)</span>",
+        title: "Lesson 13: Case Study - Trouble at StreamLine",
+        goal: "Analyze business challenges in a media company, identify underlying causes, and propose a restructuring plan using passive voice. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(メディア企業のビジネス課題を分析し、根本的な原因を特定し、受動態を使って再編計画を提案する。)</span>",
         vocab: [
-            { eng: "cancel subscription", jpn: "サブスクリプションを解約する" },
-            { eng: "lose market share", jpn: "市場シェアを失う" },
-            { eng: "increase budget", jpn: "予算を増やす" },
-            { eng: "produce original content", jpn: "オリジナルコンテンツを制作する" },
-            { eng: "user interface (UI)", jpn: "ユーザーインターフェース" },
-            { eng: "technical glitch", jpn: "技術的な不具合" },
-            { eng: "customer retention", jpn: "顧客維持" },
-            { eng: "licensing fee", jpn: "ライセンス料" },
-            { eng: "flop", jpn: "大失敗 (くだけた表現)" },
-            { eng: "buggy", jpn: "バグが多い (くだけた表現)" },
-            { eng: "burn money", jpn: "お金を浪費する (くだけた表現)" },
-            { eng: "tune out", jpn: "興味を失う / 聞くのをやめる (くだけた表現)" }
+  { eng: "Box office hit", jpn: "大ヒット映画", formality: "Neutral expression", exEng: "The new superhero movie was a huge box office hit around the world.", exJpn: "新しいスーパーヒーロー映画は世界中で大ヒット映画となりました。" },																									
+{ eng: "Blockbuster movie", jpn: "超大作映画（大ヒット作）", formality: "Neutral expression", exEng: "Summer is the best season for big blockbuster movies with lots of action.", exJpn: "夏はアクション満載の超大作映画にとって最高の季節です。" },																									
+{ eng: "Total flop", jpn: "完全な大失敗作", formality: "Casual expression", exEng: "They spent millions of dollars on the movie, but it was a total flop.", exJpn: "彼らはその映画に何百万ドルも使いましたが、完全な大失敗作に終わりました。" },																									
+{ eng: "Get good reviews", jpn: "良い評価（レビュー）を得る", formality: "Neutral expression", exEng: "Let's watch this comedy—it got really good reviews online.", exJpn: "このコメディを観ようよ。ネットですごく良い評価を得ているんだ。" },																									
+{ eng: "Get bad reviews", jpn: "悪い評価（レビュー）を得る", formality: "Neutral expression", exEng: "The movie got bad reviews because the story was too confusing.", exJpn: "ストーリーが分かりにくすぎたため、その映画は悪い評価を得ました。" },																									
+{ eng: "Highly recommended", jpn: "強くおすすめされる（イチオシの）", formality: "Neutral expression", exEng: "This documentary is highly recommended if you want to learn about ocean life.", exJpn: "海の生き物について学びたいなら、このドキュメンタリーは強くおすすめします。" },																									
+{ eng: "Worth watching", jpn: "観る価値がある", formality: "Neutral expression", exEng: "The first episode is a little slow, but the series is definitely worth watching.", exJpn: "第1話は少しゆっくりですが、そのシリーズは間違いなく観る価値があります。" },																									
+{ eng: "Waste of time", jpn: "時間の無駄", formality: "Casual expression", exEng: "Don't watch that horror movie; it's a complete waste of time.", exJpn: "あのホラー映画は観ない方がいいよ。完全な時間の無駄だから。" },																									
+{ eng: "Must-see movie", jpn: "必見の映画", formality: "Casual expression", exEng: "Everyone is talking about it—it's the must-see movie of the year.", exJpn: "みんなその話をしているよ。今年必見の映画だね。" },																									
+{ eng: "Binge-worthy show", jpn: "一気見したくなるほど面白い番組", formality: "Slang", exEng: "That crime drama is so binge-worthy that I watched five episodes in one night.", exJpn: "あの犯罪ドラマは一気見したくなるほど面白くて、一晩で5話も観てしまいました。" },																									
+{ eng: "Overrated show", jpn: "過大評価されている番組", formality: "Casual expression", exEng: "I think that popular comedy is a bit overrated; it's not that funny.", exJpn: "あの人気コメディは少し過大評価されていると思うな。それほど面白くないよ。" },																									
+{ eng: "Underrated movie", jpn: "過小評価されている映画（隠れた名作）", formality: "Casual expression", exEng: "Not many people know about this film, so I think it's a very underrated movie.", exJpn: "この映画を知っている人はあまりいないので、とても過小評価されている隠れた名作だと思います。" },																									
         ],
-        situation: {
-            eng: "StreamLine was once a highly successful global streaming platform. However, over the past twelve months, the company has lost over two million subscribers. The CEO is extremely worried because the company is burning money on producing original content, but revenue is dropping fast. Customers are angry, investors are nervous, and the technical team is overwhelmed. The platform's reputation is severely damaged. You must carefully read the statements from six different employees and stakeholders to find out the true causes of this massive decline. Your goal is to build a smart, step-by-step plan to fix the streaming service, restructure the budget, and win back the audience.",
-            jpn: "StreamLineはかつて、大成功を収めたグローバルなストリーミングプラットフォームでした。しかし、過去12ヶ月間で、会社は200万人以上の加入者を失いました。オリジナルコンテンツの制作にお金を浪費しているにもかかわらず収益が急速に落ち込んでいるため、CEOは非常に心配しています。顧客は怒り、投資家は神経質になり、技術チームは圧倒されています。プラットフォームの評判は深刻なダメージを受けています。この大規模な衰退の本当の原因を見つけ出すために、6人の異なる従業員と関係者の発言を注意深く読まなければなりません。あなたの目標は、ストリーミングサービスを修正し、予算を再構築し、視聴者を取り戻すためのスマートで段階的な計画を立てることです。"
+   situation: {
+            eng: "StreamLine was once one of the most popular video streaming services in the world. For years, more and more people joined the service, and families everywhere loved watching its shows. Recently, however, the company has had big problems. Over the past year, business has gone down fast, and the company leaders have called an emergency meeting to talk about the future. The top bosses know that the business is in trouble, but they have very different ideas about why. Some bosses think viewers just want different kinds of shows now, while others think the teams inside the company are not working well together. As an outside business helper, you have been asked to check the situation fairly. You must carefully read what four different people at the company say—each talking about a different part of the business—to find out what the real problem is and why it is happening. Once you understand what is going wrong, your goal is to make a simple, step-by-step plan to fix the budget and help the company succeed again.",
+            jpn: "StreamLineはかつて、世界で最も人気のある動画ストリーミングサービスの1つでした。何年もの間、ますます多くの人がサービスに参加し、世界中の家族がその番組を見るのを愛していました。しかし最近、会社は大きな問題を抱えています。過去1年間で業績は急速に下がり、会社のリーダーたちは将来について話し合うための緊急会議を開きました。トップの上司たちはビジネスが困った状況にあることを知っていますが、その理由については全く異なる考えを持っています。視聴者が今は違う種類の番組を求めているだけだと考える上司もいれば、社内のチームがうまく連携できていないと考える上司もいます。外部のビジネスアドバイザーとして、あなたは状況を公平に調べるよう頼まれました。本当の問題が何であり、なぜそれが起きているのかを見つけ出すために、それぞれビジネスの異なる部分について話している社内の4人の発言を注意深く読まなければなりません。何が間違っているのかを理解したら、予算を直し会社が再び成功するためのシンプルで段階的な計画を立てることがあなたの目標です。"
         },
         people: [
             {
-                name: "Person 1: Mark (Content Director)",
-                eng: "We spent 200 million dollars producing three massive sci-fi shows this year. Unfortunately, all three were total flops. The scripts were rushed, and the special effects were poor. The original content was not tested with focus groups before release.",
-                jpn: "私たちは今年、3つの巨大なSF番組を制作するために2億ドルを費やしました。残念ながら、3つとも大失敗でした。脚本は急いで作られ、特殊効果もひどいものでした。オリジナルコンテンツは、リリース前にフォーカスグループでテストされていませんでした。"
+                name: "Person 1: Mark Content Director",
+                eng: "In my view on the show-making team, we are taking big risks without getting ready first. Over the past year, a lot of money was spent making three expensive space shows, plus many smaller programs. Bosses wanted to beat other companies by putting out new shows every single week, so we had to work too fast. Stories were not checked carefully, and computer effects were finished at the very last minute. Even worse, the original content was not tested with small viewer groups before release, so we had no idea if people would like it. Sadly, all three big shows were total flops, and viewers quickly tuned out after the first part. At the same time, many popular old movies were removed from our list because their licensing fees were too high to pay again. Now, our list feels full of boring shows that nobody really asked for, while the favorite movies that first brought viewers in are all gone.",
+                jpn: "番組制作チームの私の視点から見ると、私たちは最初に準備をせずに大きなリスクを取っています。過去1年間で、多くの小規模な番組に加えて、3本の高価な宇宙番組を作るためにたくさんのお金が使われました。上司たちは毎週新しい番組を出すことで他社に勝ちたいと考えていたため、私たちは急ぎすぎて仕事をしなければなりませんでした。物語は注意深くチェックされず、コンピューター効果は本当に土壇場で仕上げられました。さらに悪いことに、オリジナルコンテンツは公開前に小さな視聴者グループでテストされなかったため、人々がそれを好きになるかどうか全く分かりませんでした。残念なことに、3つの大きな番組はすべて大失敗に終わり、視聴者は最初のパートの後すぐに興味を失って離れてしまいました。同時に、ライセンス料が高すぎて再契約できなかったため、多くの人気のある古い映画がリストから削除されました。現在、私たちのリストは誰も本当に求めていない退屈な番組でいっぱいに感じられる一方で、最初に視聴者を呼び込んでいたお気に入りの映画はすべて消えてしまいました。"
             },
             {
-                name: "Person 2: Sarah (Lead App Developer)",
-                eng: "Our user interface is incredibly buggy. The app crashes frequently, especially on smart TVs. The server maintenance budget was cut last year to pay for more movies. Now, the technical issues are not being fixed quickly enough.",
-                jpn: "私たちのユーザーインターフェースは信じられないほどバグが多いです。アプリは頻繁にクラッシュし、特にスマートTVで顕著です。より多くの映画の代金を支払うために、昨年サーバーのメンテナンス予算が削減されました。現在、技術的な問題は十分に早く修正されていません。"
+                name: "Person 2: Sarah Lead App Developer",
+                eng: "Honestly, it does not matter how good a movie is if people cannot even watch it easily. Right now, our user interface is super buggy, and watching shows on it is a terrible experience. Last year, the computer and engineering budget was cut so the company could spend more money on making shows. Because of that choice, our small tech team has way too much work to do. The app crashes often, especially on smart TVs and older phones, and videos often freeze right in the middle of exciting final episodes. Even worse, our suggestion system is broken—it keeps showing random shows that make no sense instead of matching what users actually like to watch. Customers send us hundreds of complaints every day, but the technical glitches are not being fixed fast enough because we simply do not have enough workers and computer power. Until real money is put back into our basic tech, users will keep getting angry every time they open the app.",
+                jpn: "正直なところ、人々が映画を簡単に見ることすらできないのであれば、どれほど良い映画であっても関係ありません。現在、私たちのユーザーインターフェースはすごくバグが多く、それで番組を見るのはひどい体験になっています。昨年、会社が番組制作にもっとお金を使えるようにするため、コンピューターとエンジニアリングの予算が削減されました。その選択のせいで、私たちの小さな技術チームはやるべき仕事が多すぎる状態です。アプリはよくクラッシュし、特にスマートTVや古い携帯電話で顕著で、動画はワクワクする最終回の真っ最中によくフリーズします。さらに悪いことに、おすすめシステムも壊れており、ユーザーが実際に好んで見るものに合わせるのではなく、意味のないランダムな番組ばかりを表示し続けています。顧客からは毎日何百もの苦情が寄せられていますが、スタッフとコンピューターの力が単純に足りないため、技術的な不具合は十分に早く直されていません。基本技術に再びしっかりとお金が投じられるまで、ユーザーはアプリを開くたびに怒り続けるでしょう。"
             },
             {
-                name: "Person 3: James (Customer Service Manager)",
-                eng: "Subscribers are furious about the recent price increase. We raised the monthly fee by 30%, but we actually removed many popular classic movies because the licensing fees were too high. Customers feel they are paying more for less content.",
-                jpn: "加入者は最近の価格引き上げに激怒しています。月額料金を30%値上げしましたが、ライセンス料が高すぎたため、実際には多くの人気のあるクラシック映画を削除しました。顧客は、より少ないコンテンツに対してより多く支払っていると感じています。"
+                name: "Person 3: Emily Marketing Executive",
+                eng: "In the ad team, we are having trouble because our ads and our actual shows do not match at all. Six months ago, top bosses decided to bring in younger viewers, so a big part of our ad budget was spent on bright social media ads made for teenagers and college students. However, when those young users visit our site, they see that our list mostly has slow history shows and quiet true-story movies that older adults enjoy. Because of this, the right target group is not being reached, and our ad money is basically being wasted. Meanwhile, our loyal older members feel completely left out because none of our new ads are made for them anymore. On top of that, bad reviews about our new shows are spreading fast online, and no clear plan has been made to answer the complaints. People are confused about what StreamLine actually offers.",
+                jpn: "広告チームでは、私たちの広告と実際の番組がまったく一致していないため困っています。6ヶ月前、トップの上司たちが若い視聴者を呼び込むことを決めたため、広告予算の大部分が10代の若者や大学生向けに作られた派手なSNS広告に使われました。しかし、その若いユーザーたちが私たちのサイトを訪れると、リストに主に年配の大人が楽しむゆったりとした歴史番組や静かな実話映画があることに気づきます。このため、適切なターゲット層に届いておらず、広告費は基本的に無駄になっています。一方で、私たちの忠実な年配の会員たちは、新しい広告のどれもがもはや自分たち向けに作られていないため、完全に仲間外れにされたと感じています。それに加えて、新しい番組に関する悪いレビューがオンラインで急速に広まっていますが、その苦情に答えるための明確な計画は何も作られていません。人々はStreamLineが実際に何を提供しているのか混乱しています。"
             },
             {
-                name: "Person 4: Emily (Marketing Executive)",
-                eng: "The marketing strategy is completely confused. We are advertising heavily to teenagers on social media, but our actual content library mostly consists of slow historical dramas that appeal to older adults. The target audience is not being reached.",
-                jpn: "マーケティング戦略は完全に混乱しています。私たちはソーシャルメディアで10代の若者に大々的に宣伝していますが、実際のコンテンツライブラリは、年配の大人にアピールするゆったりとした歴史ドラマでほとんど構成されています。ターゲット層に届いていません。"
-            },
-            {
-                name: "Person 5: David (Financial Analyst)",
-                eng: "We are burning money too fast. The company is producing 50 new shows a year, which is ridiculous. Quality is sacrificed for quantity. The budget must be restructured immediately, or we will go bankrupt in eighteen months.",
-                jpn: "私たちはお金を浪費するのが早すぎます。会社は年間50本もの新番組を制作していますが、これは馬鹿げています。量のために質が犠牲になっています。直ちに予算を再構築しなければ、18ヶ月後には倒産するでしょう。"
-            },
-            {
-                name: "Person 6: Jessica (Former Subscriber)",
-                eng: "I cancelled my subscription last month. The app always froze during the season finales, which ruined the experience. Also, the recommendation algorithm is terrible; it keeps suggesting boring stuff that I hate. It's just a waste of time and money now.",
-                jpn: "私は先月サブスクリプションを解約しました。シーズンの最終回中にアプリがいつもフリーズし、体験が台無しになりました。また、推薦アルゴリズムもひどいです。私が嫌いな退屈なものばかり提案してきます。今となっては単なる時間とお金の無駄です。"
+                name: "Person 4: David Financial Analyst",
+                eng: "Looking at the money reports, the company is burning money way too fast. Over the last year, show-making costs were increased by 45%, while total money coming in dropped fast. To pay for these higher costs, bosses raised the monthly subscription fee by 30% six months ago without giving users anything better. That choice failed right away. Customer retention dropped badly, and over two million members have cancelled their accounts since the price went up. People simply feel they are paying much more money for a worse service, so we are losing market share to cheaper companies every single week. At the same time, people who put money into our company are getting super worried because our cash is running low fast. If extra spending is not stopped and the whole company budget is not fixed right away, StreamLine will run out of money and close down within eighteen months.",
+                jpn: "お金のレポートを見ると、会社はお金をあまりにも早く浪費しています。過去1年間で、番組制作費は45%増えた一方で、入ってくる合計のお金は急速に減りました。これらの高くなったコストを支払うため、上司たちは6ヶ月前にユーザーに何も良いものを与えることなく月額サブスクリプション料金を30%引き上げました。その選択はすぐに失敗に終わりました。顧客維持率はひどく下がり、値上げ以降200万人以上の会員がアカウントを解約しました。人々は単により悪いサービスに対してはるかに多くのお金を払っていると感じているため、私たちは毎週のように安い会社に市場シェアを奪われています。同時に、私たちの会社にお金を出している人々は、現金が急速に少なくなっているためすごく心配になっています。余分な支出が止められず、会社全体の予算が直ちに直されなければ、StreamLineはお金を使い果たし、18ヶ月以内に閉鎖することになるでしょう。"
             }
+        
         ],
         grammarPoints: [
             {
@@ -1678,8 +1678,8 @@ grammarPoints: [
                 explanation: "Use the present continuous passive to express an action that is currently happening (or not happening) to a subject.",
                 explanationJpn: "現在進行形の受動態を使って、現在主語に対して起こっている（または起こっていない）行動を表現します。",
                 examples: [
-                    { eng: "The technical issues are not being fixed quickly enough.", jpn: "技術的な問題は十分に早く修正されていません。" },
-                    { eng: "The target audience is not being reached.", jpn: "ターゲット層に到達していません（リーチされていません）。" }
+                    { eng: "The technical glitches are not being fixed quickly enough.", jpn: "技術的な不具合は十分に早く修正されていません。" },
+                    { eng: "The right target audience is not being reached.", jpn: "適切なターゲット層に到達していません（リーチされていません）。" }
                 ]
             },
             {
@@ -1687,14 +1687,14 @@ grammarPoints: [
                 explanation: "Use modal + 'be' + past participle to recommend necessary actions or restructuring in business proposals.",
                 explanationJpn: "ビジネス提案で必要な行動や再編を推奨するには、「法助動詞 + be + 過去分詞」を使います。",
                 examples: [
-                    { eng: "The budget must be restructured immediately.", jpn: "予算は直ちに再構築されなければなりません。" },
+                    { eng: "The company budget must be restructured immediately.", jpn: "会社の予算は直ちに再構築されなければなりません。" },
                     { eng: "Popular classic movies should be brought back.", jpn: "人気のクラシック映画は復活させるべきです。" }
                 ]
             }
         ],
         discussionPoints: [
-            { eng: "What is the main problem StreamLine is facing?", jpn: "StreamLineが直面している主な問題は何ですか？" },
-            { eng: "What are the different causes of the problem regarding content, technology, and finances?", jpn: "コンテンツ、技術、財務に関する問題の様々な原因は何ですか？" },
+            { eng: "Based on the four statements, what is the main problem StreamLine is facing?", jpn: "4人の発言に基づいて、StreamLineが直面している主な問題は何ですか？" },
+            { eng: "How do the four different areas (content, technology, marketing, and finance) contribute to the problem?", jpn: "4つの異なる分野（コンテンツ、技術、マーケティング、財務）は、その問題にどのように影響していますか？" },
             { eng: "What are some potential solutions to save the company?", jpn: "会社を救うための考えられる解決策は何ですか？" }
         ],
         expressions: [
@@ -1704,50 +1704,52 @@ grammarPoints: [
             { eng: "Therefore...", jpn: "それゆえに..." },
             { eng: "Ultimately...", jpn: "最終的には..." }
         ],
-        roleplay: "Role-play presenting your solution to management. Do the following using a simple three-slide structure. 1. The problem 2. The causes 3. The solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 問題 2. 原因 3. 解決策)</span>",
+        roleplay: "Role-play presenting your findings and solution to management. Do the following using a simple three-slide structure: 1. Identify the main problem 2. Explain the four causes 3. Propose your solution <br><span class='jpn-text' style='color:var(--text-light); font-size:0.9rem;'>(経営陣に調査結果と解決策を提案するロールプレイを行ってください。シンプルな3スライドの構成を使って、以下のことを行ってください。 1. 主な問題の特定 2. 4つの原因の説明 3. 解決策の提案)</span>",
         homework: {
             vocab: [
-                { eng: "Point out", jpn: "指摘する", exEng: "The analyst pointed out the budget flaws.", exJpn: "アナリストは予算の欠陥を指摘しました。" },
-                { eng: "Cut down", jpn: "減らす、削減する", exEng: "We must cut down on production costs.", exJpn: "制作費を削減しなければなりません。" },
-                { eng: "Bring back", jpn: "戻す、復活させる", exEng: "We should bring back the classic movies.", exJpn: "クラシック映画を復活させるべきです。" },
-                { eng: "Focus on", jpn: "集中する", exEng: "We need to focus on improving the UI.", exJpn: "UIの改善に集中する必要があります。" },
-                { eng: "Give up", jpn: "諦める", exEng: "Subscribers gave up on the buggy app.", exJpn: "加入者はバグの多いアプリに見切りをつけました（諦めました）。" },
-                { eng: "Work out", jpn: "解決する、策定する", exEng: "They need to work out a new strategy.", exJpn: "彼らは新しい戦略を策定（解決）する必要があります。" },
-                { eng: "Look into", jpn: "調査する", exEng: "The tech team is looking into the server crashes.", exJpn: "技術チームがサーバーのクラッシュを調査しています。" },
-                { eng: "Turn around", jpn: "好転させる", exEng: "A good plan can turn around the failing business.", exJpn: "良い計画は失敗しているビジネスを好転させることができます。" },
-                { eng: "Figure out", jpn: "理解する、解決策を見つける", exEng: "We must figure out what the audience wants.", exJpn: "私たちは視聴者が何を求めているのかを見つけ出さなければなりません。" },
-                { eng: "Depend on", jpn: "〜に依存する", exEng: "Success depends on fixing the technical bugs.", exJpn: "成功は技術的なバグの修正にかかっています（依存しています）。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "The price increase resulted in angry customers.", exJpn: "値上げは顧客の怒りという結果になりました。" },
-                { eng: "Deal with", jpn: "〜に対処する", exEng: "Management must deal with investor complaints.", exJpn: "経営陣は投資家からの苦情に対処しなければなりません。" },
-                { eng: "Rely on", jpn: "〜に頼る", exEng: "We cannot rely on expensive original content alone.", exJpn: "高価なオリジナルコンテンツだけに頼ることはできません。" },
-                { eng: "Invest in", jpn: "〜に投資する", exEng: "The company must invest in server upgrades.", exJpn: "会社はサーバーのアップグレードに投資しなければなりません。" },
-                { eng: "Suffer from", jpn: "〜に苦しむ", exEng: "The app suffers from terrible loading times.", exJpn: "そのアプリはひどいロード時間に苦しんでいます。" },
-                { eng: "Appeal to", jpn: "〜にアピールする", exEng: "The new shows do not appeal to our target demographic.", exJpn: "新しい番組は私たちのターゲット層にアピールしていません。" },
-                { eng: "Apologize for", jpn: "〜について謝罪する", exEng: "We should apologize for the service interruptions.", exJpn: "サービスの中断について謝罪するべきです。" },
-                { eng: "Lead to", jpn: "〜につながる", exEng: "Poor quality control led to massive subscription cancellations.", exJpn: "ずさんな品質管理が大規模なサブスクリプションの解約につながりました。" }
+         { eng: "Classic movie", jpn: "名作映画（時代を超えた定番映画）", formality: "Neutral expression", exEng: "The Wizard of Oz is a classic movie that families have watched for generations.", exJpn: "『オズの魔法使』は、何世代にもわたって家族で観られてきた名作映画です。" },																									
+{ eng: "Cult classic", jpn: "カルト的名作（一部のファンに熱狂的に愛される作品）", formality: "Neutral expression", exEng: "The weird sci-fi movie wasn't popular at first, but now it's a cult classic.", exJpn: "その奇妙なSF映画は最初は人気がありませんでしたが、今ではカルト的名作です。" },																									
+{ eng: "Word of mouth", jpn: "口コミ", formality: "Neutral expression", exEng: "The small comedy became famous purely through positive word of mouth.", exJpn: "その小規模なコメディは、純粋に良い口コミだけで有名になりました。" },																									
+{ eng: "Live up to the hype", jpn: "事前の期待（前評判）に応える", formality: "Casual expression", exEng: "Everyone said the movie was amazing, and it really lived up to the hype.", exJpn: "みんなその映画は素晴らしいと言っていたけれど、本当にその前評判通りの面白さでした。" },																									
+{ eng: "Win an award", jpn: "賞を受賞する", formality: "Neutral expression", exEng: "The animated film won an award for its beautiful music.", exJpn: "そのアニメ映画は美しい音楽で賞を受賞しました。" },																									
+{ eng: "Win an Oscar", jpn: "オスカー（アカデミー賞）を受賞する", formality: "Neutral expression", exEng: "She cried on stage when she won an Oscar for Best Actress.", exJpn: "彼女は最優秀主演女優賞でオスカーを受賞したとき、ステージ上で泣きました。" },																									
+{ eng: "Be nominated for an award", jpn: "賞にノミネートされる", formality: "Neutral expression", exEng: "Even if you don't win, it is a great honor to be nominated for an award.", exJpn: "たとえ受賞しなくても、賞にノミネートされることは大きな名誉です。" },																									
+{ eng: "Big fan of", jpn: "〜の大ファン", formality: "Neutral expression", exEng: "I am a big fan of mystery shows, especially British detective series.", exJpn: "私はミステリー番組、特にイギリスの探偵シリーズの大ファンです。" },																									
+{ eng: "Guilty pleasure", jpn: "後ろめたい楽しみ（質は低いがなぜか好きな番組）", formality: "Casual expression", exEng: "Watching silly reality dating shows is my secret guilty pleasure.", exJpn: "バカバカしい恋愛リアリティ番組を観ることが、私の密かな後ろめたい楽しみです。" },																									
+{ eng: "Popcorn movie", jpn: "気軽に楽しめる娯楽映画", formality: "Slang", exEng: "You don't have to think too hard—it's just a fun summer popcorn movie.", exJpn: "深く考える必要はないよ。ただの楽しい夏の娯楽映画だから。" },																									
+{ eng: "Heartwarming movie", jpn: "心温まる映画", formality: "Neutral expression", exEng: "It is a heartwarming movie about a teacher who helps her students succeed.", exJpn: "それは生徒たちの成功を助ける先生についての心温まる映画です。" },																									
+{ eng: "Thought-provoking film", jpn: "考えさせられる映画", formality: "Neutral expression", exEng: "We talked about that thought-provoking film for hours after leaving the theater.", exJpn: "映画館を出たあと、私たちはその考えさせられる映画について何時間も話し合いました。" },																									
+{ eng: "Keep you on the edge of your seat", jpn: "ハラハラドキドキさせる", formality: "Casual expression", exEng: "The thriller was so exciting that it kept me on the edge of my seat.", exJpn: "そのスリラーはとてもワクワクして、私をずっとハラハラドキドキさせました。" },																									
+{ eng: "Leave a strong impression", jpn: "強い印象を残す", formality: "Neutral expression", exEng: "The documentary about climate change left a strong impression on me.", exJpn: "気候変動についてのそのドキュメンタリーは、私に強い印象を残しました。" },																									
+{ eng: "Change your perspective", jpn: "物の見方（視点）を変える", formality: "Neutral expression", exEng: "Watching movies from different countries can really change your perspective on the world.", exJpn: "さまざまな国の映画を観ることで、世界に対する物の見方が本当に変わることがあります。" },																									
+{ eng: "Viral hit", jpn: "SNSなどで爆発的に話題になった作品", formality: "Casual expression", exEng: "That Korean drama became a massive viral hit on social media.", exJpn: "あの韓国ドラマはSNSで爆発的な話題作になりました。" },																									
+{ eng: "Read movie reviews", jpn: "映画のレビューを読む", formality: "Neutral expression", exEng: "I always read movie reviews before I buy tickets.", exJpn: "チケットを買う前に、いつも映画のレビューを読みます。" },																									
+{ eng: "Write a review", jpn: "レビューを書く", formality: "Neutral expression", exEng: "If you really liked the show, you should write a review online to support it.", exJpn: "その番組が本当に気に入ったなら、応援するためにネットでレビューを書くべきです。" },																									
+{ eng: "Five-star rating", jpn: "5つ星の評価", formality: "Neutral expression", exEng: "Almost every viewer gave the nature series a five-star rating.", exJpn: "ほぼすべての視聴者が、その自然シリーズに5つ星の評価をつけました。" },																									
+{ eng: "Film critic", jpn: "映画批評家", formality: "Neutral expression", exEng: "She works as a film critic for a major newspaper in New York.", exJpn: "彼女はニューヨークの主要新聞の映画批評家として働いています。" },																									
             ],
             clickingGames: [
                 // Grammar Point 1: Past passive (was/were + PP) - 4 sentences
                 { prompt: "オリジナルコンテンツはテストされませんでした。", target: "The original content was not tested.", words: ["The", "original", "content", "was", "not", "tested."] },
                 { prompt: "サーバーのメンテナンス予算は昨年削減されました。", target: "The server maintenance budget was cut last year.", words: ["The", "server", "maintenance", "budget", "was", "cut", "last", "year."] },
-                { prompt: "3つのSF番組はすべて大失敗でした。", target: "All three sci-fi shows were total flops.", words: ["All", "three", "sci-fi", "shows", "were", "total", "flops."] },
+                { prompt: "制作スケジュールは急かされました。", target: "Production schedules were rushed.", words: ["Production", "schedules", "were", "rushed."] },
                 { prompt: "人気のクラシック映画は多くが削除されました。", target: "Many popular classic movies were removed.", words: ["Many", "popular", "classic", "movies", "were", "removed."] },
                 // Grammar Point 2: Present continuous passive (is/are + being + PP) - 4 sentences
-                { prompt: "技術的な問題は十分に早く修正されていません。", target: "The technical issues are not being fixed quickly enough.", words: ["The", "technical", "issues", "are", "not", "being", "fixed", "quickly", "enough."] },
-                { prompt: "ターゲット層に到達していません。", target: "The target audience is not being reached.", words: ["The", "target", "audience", "is", "not", "being", "reached."] },
-                { prompt: "アプリの技術的な不具合は現在調査中です。", target: "The technical glitches are being investigated now.", words: ["The", "technical", "glitches", "are", "being", "investigated", "now."] },
+                { prompt: "技術的な不具合は十分に早く修正されていません。", target: "The technical glitches are not being fixed quickly enough.", words: ["The", "technical", "glitches", "are", "not", "being", "fixed", "quickly", "enough."] },
+                { prompt: "適切なターゲット層に到達していません。", target: "The right target audience is not being reached.", words: ["The", "right", "target", "audience", "is", "not", "being", "reached."] },
+                { prompt: "広告費は無駄にされています。", target: "Our ad money is being wasted.", words: ["Our", "ad", "money", "is", "being", "wasted."] },
                 { prompt: "新しいマーケティング戦略が作成されています。", target: "A new marketing strategy is being developed.", words: ["A", "new", "marketing", "strategy", "is", "being", "developed."] },
                 // Grammar Point 3: Passive voice with modals (must/should be + PP) - 4 sentences
-                { prompt: "予算は直ちに再構築されなければなりません。", target: "The budget must be restructured immediately.", words: ["The", "budget", "must", "be", "restructured", "immediately."] },
+                { prompt: "会社の予算は直ちに再構築されなければなりません。", target: "The company budget must be restructured immediately.", words: ["The", "company", "budget", "must", "be", "restructured", "immediately."] },
                 { prompt: "人気のクラシック映画は復活させるべきです。", target: "Popular classic movies should be brought back.", words: ["Popular", "classic", "movies", "should", "be", "brought", "back."] },
                 { prompt: "スマートTVのバグは早急に修正されるべきです。", target: "Smart TV bugs should be fixed right away.", words: ["Smart", "TV", "bugs", "should", "be", "fixed", "right", "away."] },
                 { prompt: "推薦アルゴリズムは改善されなければなりません。", target: "The recommendation algorithm must be improved.", words: ["The", "recommendation", "algorithm", "must", "be", "improved."] }
             ],
-            extendedReading: {
+          extendedReading: {
                 title: "Task 3: Authentic Reading (Layout 3 - Business Case Blog)",
                 instruction: "Read this case study blog analyzing why StreamLine lost subscribers and how passive voice describes company problems and fixes.",
-                eng: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>Case Study: Why StreamLine Lost Two Million Viewers</h3><span class='er-blog-meta'>By: Business Editor Hana | 📅 October 28</span><p>Last year, StreamLine spent heavily on new shows while losing market share. Several expensive original series were released without focus group testing, and many turned out to be flops. At the same time, the server maintenance budget was cut to pay for production. Because of that choice, the app became buggy and crashed during season finales. Subscribers got frustrated when popular classic movies were removed while monthly prices went up.</p><p>Right now, technical glitches on smart TVs are not being fixed quickly enough, and the right audience is not being reached by the ads. Therefore, the company needs a clear recovery plan. The content budget must be restructured so quality is not lost for quantity. In addition, server stability should be improved before new launches, and customer retention should be supported with fair pricing. Ultimately, fixing basic reliability is the first step to winning back trust.</p></div>",
-                jpn: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>ケーススタディ：なぜStreamLineは200万人の視聴者を失ったのか</h3><span class='er-blog-meta'>執筆者：ビジネス編集者 ハナ | 📅 10月28日</span><p>昨年、StreamLineは新作番組に多額の費用をかける一方で市場シェアを失いました。いくつかの高額なオリジナルシリーズはフォーカスグループでのテストなしにリリースされ、多くが大失敗に終わりました。同時に、制作費を賄うためにサーバーのメンテナンス予算が削減されました。その選択のせいで、アプリはバグだらけになり、シーズン最終回中にクラッシュしました。月額料金が上がった一方で人気のクラシック映画が削除されたとき、加入者は不満を募らせました。</p><p>現在、スマートTVの技術的な不具合は十分に早く修正されておらず、広告によって適切な視聴者層に届いていません。そのため、同社には明確な再生計画が必要です。量のために質が失われないよう、コンテンツ予算は直ちに再構築されなければなりません。さらに、新規公開の前にサーバーの安定性を改善すべきであり、公正な価格設定によって顧客維持を支えるべきです。最終的に、基本的な信頼性を直すことが信頼を取り戻す第一歩となります。</p></div>"
+                eng: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>Case Study: Why StreamLine Lost Two Million Viewers</h3><span class='er-blog-meta'>By: Business Editor Hana | 📅 October 28</span><p>Last year, StreamLine was one of the most popular video streaming services in the world, but it soon ran into big trouble. In just twelve months, over two million members cancelled their accounts, and the company lost a large part of its market share to cheaper competitors. Many business experts studied the company to find out what went wrong. They discovered that several serious mistakes were made by the management team at the exact same time. First, huge amounts of money were spent on making dozens of new original shows every month. Because the managers wanted to beat bigger companies quickly, production schedules were rushed. Scripts were not checked carefully, and computer effects were finished at the very last minute. Worse still, these expensive new series were released without being tested with small viewer groups first. As a result, most of the new shows turned out to be total flops, and audiences quickly stopped watching after the first episode.</p><p>At the same time, other important parts of the business were ignored. To pay for all the expensive new shows, the computer and engineering budget was cut by a large amount. Because of that poor choice, the app became very buggy and crashed often, especially on smart TVs and older phones. Videos frequently froze right in the middle of exciting season finales, which made users angry. Even worse, many popular classic movies were removed from the list because their licensing fees were too expensive to pay again. Then, to cover the rising production costs, the monthly subscription fee was raised by 30% without giving users anything better. Customers felt they were paying much more money for a much worse service. Meanwhile, a lot of money was spent on bright social media ads aimed at teenagers and college students, even though the library mostly had slow history dramas and quiet documentaries that older adults enjoyed.</p><p>Right now, the situation is still difficult, and the company is running out of cash fast. Technical glitches on smart TVs are not being fixed quickly enough because the small tech team has too much work, and the right target audience is still not being reached by the online ads. In addition, bad reviews are spreading fast, and complaints are not being answered properly. Therefore, StreamLine needs a smart, step-by-step recovery plan before it goes out of business. First, the whole company budget must be restructured so that quality is chosen over quantity. Unnecessary spending on rushed shows must be stopped, and more money should be invested back into basic server power and app stability. Next, popular classic movies should be brought back to the library, and fair pricing should be offered to improve customer retention. Finally, future ads should be aimed at the right viewers. Ultimately, fixing basic reliability and listening to users is the first step to winning back trust.</p></div>",
+                jpn: "<div class='er-template er-blog er-layout-3'><h3 class='er-blog-title'>ケーススタディ：なぜStreamLineは200万人の視聴者を失ったのか</h3><span class='er-blog-meta'>執筆者：ビジネス編集者 ハナ | 📅 10月28日</span><p>昨年、StreamLineは世界で最も人気のある動画ストリーミングサービスの1つでしたが、すぐに大きなトラブルに直面しました。わずか12ヶ月で200万人以上の会員がアカウントを解約し、同社はより安い競合他社に市場シェアの大きな部分を奪われました。多くのビジネス専門家が、何が間違っていたのかを調べるために同社を研究しました。彼らは、まったく同じ時期に経営陣によっていくつかの深刻なミスが犯されていたことを発見しました。まず、毎月何十本もの新しいオリジナル番組を作るために莫大な資金が使われました。マネージャーたちが大手企業に早く勝ちたいと考えたため、制作スケジュールは急かされました。脚本は注意深くチェックされず、コンピューター効果は本当に土壇場で仕上げられました。さらに悪いことに、これらの高価な新シリーズは、最初に小さな視聴者グループでテストされることなく公開されました。その結果、新作番組のほとんどが大失敗に終わり、視聴者は第1話の後すぐに観るのをやめてしまいました。</p><p>同時に、ビジネスの他の重要な部分が無視されていました。すべての高価な新作番組の費用を支払うため、コンピューターとエンジニアリングの予算が大幅に削減されました。その悪い選択のせいで、アプリはバグだらけになり、特にスマートTVや古い携帯電話でよくクラッシュするようになりました。動画はワクワクするシーズン最終回の真っ最中に頻繁にフリーズし、ユーザーを怒らせました。さらに悪いことに、ライセンス料が高すぎて再契約できなかったため、多くの人気クラシック映画がリストから削除されました。そして、上昇する制作費を賄うため、ユーザーに何も良いものを与えることなく月額サブスクリプション料金が30%引き上げられました。顧客は、はるかに悪いサービスに対してはるかに多くのお金を払っていると感じました。一方、ライブラリには主に年配の大人が楽しむゆったりとした歴史ドラマや静かなドキュメンタリーがあったにもかかわらず、10代の若者や大学生に向けた派手なSNS広告に多くのお金が使われました。</p><p>現在も状況は厳しく、会社は急速に現金を使い果たしつつあります。小さな技術チームが抱える仕事が多すぎるため、スマートTVの技術的な不具合は十分に早く直されておらず、オンライン広告によって適切なターゲット層にまだ届いていません。さらに、悪いレビューが急速に広まっており、苦情に対しても適切に回答されていません。そのため、StreamLineは倒産する前にスマートで段階的な再生計画を必要としています。まず、量よりも質が選ばれるように、会社全体の予算が再構築されなければなりません。急いで作られる番組への不要な支出は止められなければならず、基本的なサーバーの力とアプリの安定性にもっとお金が再投資されるべきです。次に、人気のクラシック映画がライブラリに復活させられるべきであり、顧客維持を改善するために公正な価格設定が提供されるべきです。最後に、今後の広告は適切な視聴者に向けられるべきです。最終的に、基本的な信頼性を直し、ユーザーの声に耳を傾けることが、信頼を取り戻す第一歩となります。</p></div>"
             },
             writingTask: {
                 promptEng: "Write a short paragraph outlining your proposed solution for StreamLine. Use passive voice (e.g., 'The budget must be reduced') and transitional expressions.",
@@ -1762,18 +1764,18 @@ grammarPoints: [
         title: "Lesson 14: Speaking Test - Media Impact",
         goal: "Prepare and deliver a short speech about a movie or TV show using the PREP method. <br><span class='jpn-text' style='font-size:0.9rem; color:var(--text-light);'>(PREP法を使って、映画やテレビ番組についての短いスピーチを準備し、発表する。)</span>",
         vocab: [
-            { eng: "recommend highly", jpn: "強く勧める" },
-            { eng: "leave an impression", jpn: "印象を残す" },
-            { eng: "explore a theme", jpn: "テーマを探求する" },
-            { eng: "relate to characters", jpn: "キャラクターに共感する" },
-            { eng: "predict the ending", jpn: "結末を予測する" },
-            { eng: "change my perspective", jpn: "私の視点を変える" },
-            { eng: "discuss the plot", jpn: "あらすじについて話し合う" },
-            { eng: "award-winning", jpn: "受賞歴のある" },
-            { eng: "must-see", jpn: "必見のもの (くだけた表現)" },
-            { eng: "spoiler alert", jpn: "ネタバレ注意 (くだけた表現)" },
-            { eng: "binge-worthy", jpn: "イッキ見する価値のある (くだけた表現)" },
-            { eng: "tearjerker", jpn: "お涙頂戴の映画 / 泣ける映画 (くだけた表現)" }
+  { eng: "Mixed feelings", jpn: "複雑な気持ち（賛否両論の感想）", formality: "Neutral expression", exEng: "I had mixed feelings about the movie—the acting was great, but the ending was weak.", exJpn: "その映画には複雑な感想を持ちました。演技は素晴らしかったけれど、結末が弱かったです。" },																									
+{ eng: "Hold up well", jpn: "（古い映画が）今でも古臭くなく楽しめる", formality: "Casual expression", exEng: "That movie was made in 1985, but it still holds up really well today.", exJpn: "あの映画は1985年に作られましたが、今日でも本当に古臭くなく楽しめます。" },																									
+{ eng: "Age badly", jpn: "時代遅れになる（今見ると古臭く感じる）", formality: "Casual expression", exEng: "The computer effects in that old sci-fi movie have aged badly.", exJpn: "あの古いSF映画のコンピューター効果は時代遅れになってしまいました。" },																									
+{ eng: "Jump scare", jpn: "突然の大きな音や映像で驚かせる演出", formality: "Casual expression", exEng: "I hate horror movies that use too many cheap jump scares.", exJpn: "安っぽい驚かせ演出を使いすぎるホラー映画は嫌いです。" },																									
+{ eng: "Easy to watch", jpn: "気楽に観られる（難しいことを考えずに楽しめる）", formality: "Neutral expression", exEng: "After a long day at work, I just want a comedy that is easy to watch.", exJpn: "長い一日の仕事のあとは、ただ気楽に観られるコメディが観たいです。" },																									
+{ eng: "Hard to follow", jpn: "（話が複雑で）理解しにくい・ついていきにくい", formality: "Neutral expression", exEng: "There were too many characters, so the plot was hard to follow.", exJpn: "登場人物が多すぎて、あらすじが理解しにくかったです。" },																									
+{ eng: "Slow start", jpn: "スロースタート（最初はゆっくり始まること）", formality: "Neutral expression", exEng: "The show has a slow start, but it gets much more exciting in episode three.", exJpn: "その番組は最初はゆっくり始まりますが、第3話からずっとワクワクするようになります。" },																									
+{ eng: "Satisfying ending", jpn: "満足のいく結末", formality: "Neutral expression", exEng: "After watching for five years, fans were happy to get a satisfying ending.", exJpn: "5年間観続けたあと、ファンたちは満足のいく結末を迎えられて喜びました。" },																									
+{ eng: "Disappointing ending", jpn: "がっかりする結末", formality: "Neutral expression", exEng: "The movie was great until the last ten minutes, which had a very disappointing ending.", exJpn: "最後の10分までは素晴らしい映画でしたが、とてもがっかりする結末でした。" },																									
+{ eng: "Popular hit", jpn: "大衆に人気のヒット作", formality: "Neutral expression", exEng: "The family adventure film became a huge popular hit over the holidays.", exJpn: "その家族向けアドベンチャー映画は、休暇中に大きな人気ヒット作となりました。" },																									
+{ eng: "Target audience", jpn: "ターゲット層（狙っている視聴者層）", formality: "Neutral expression", exEng: "Teenagers are the main target audience for this new high school drama.", exJpn: "10代の若者が、この新しい高校ドラマの主なターゲット層です。" },																									
+{ eng: "General public", jpn: "一般大衆（普通の視聴者）", formality: "Neutral expression", exEng: "Critics hated the comedy, but the general public loved it.", exJpn: "批評家たちはそのコメディを嫌いましたが、一般大衆はそれを愛しました。" },																									
         ],
         prompt: {
             main: "Describe a movie or TV show that had a strong impact on you.",
@@ -1784,30 +1786,32 @@ grammarPoints: [
                 "Explain why it had such a strong impact on your perspective"
             ]
         },
-        exampleSpeech: {
-            eng: "Today, I would like to talk about a documentary series that had a profound impact on me. The show is called 'Planet Earth,' and I first watched it a few years ago during a quiet weekend at home.\n\nThe series explores various natural environments around the world, from deep oceans to vast deserts. There are no traditional actors; instead, the 'characters' are the incredible animals fighting to survive in the wild. The general plot focuses on the daily struggles and triumphs of these creatures, beautifully narrated by a famous British presenter.\n\nWhile watching it, I felt completely amazed but also rather sad. The visual effects and camera work were stunning, but seeing how climate change destroys animal habitats was heartbreaking. It was a very emotional experience.\n\nIn my opinion, this series was highly significant because it changed my perspective on the environment. It proved that human actions have serious global consequences. Because of this show, I started recycling more and trying to reduce my plastic waste. It is definitely a must-see for everyone.",
-            jpn: "本日は、私に深い影響を与えたドキュメンタリーシリーズについてお話ししたいと思います。番組名は『プラネット・アース』で、数年前、家で静かに過ごす週末に初めて見ました。\n\nこのシリーズは、深海から広大な砂漠まで、世界中の様々な自然環境を探求します。伝統的な俳優はおらず、代わりに野生で生き残るために戦う驚くべき動物たちが「キャラクター」です。全体的なあらすじは、これらの生き物たちの日々の闘いと勝利に焦点を当てており、有名なイギリスのプレゼンターによって美しくナレーションされています。\n\n見ている間、私は完全に驚嘆しましたが、同時にかなり悲しくも感じました。視覚効果やカメラワークは見事でしたが、気候変動が動物の生息地を破壊していく様子を見るのは胸が痛むものでした。非常に感情を揺さぶられる体験でした。\n\n私の意見では、このシリーズは環境に対する私の視点を変えてくれたため、非常に重要なものでした。人間の行動が深刻な世界規模の結果をもたらすことを証明してくれました。この番組のおかげで、私はもっとリサイクルをし、プラスチックごみを減らすように努力し始めました。間違いなく、すべての人にとって必見の作品です。"
+exampleSpeech: {
+            eng: "Today, I would like to talk about a nature show that had a big effect on me. The show is called 'Planet Earth,' and I first watched it a few years ago during a quiet weekend at home.\n\nThe show looks at many different places around the world, from deep oceans to huge deserts. There are no normal actors; instead, the 'characters' are the amazing animals fighting to live in nature. The main story is about the daily lives and hard times of these animals, and a famous British speaker tells the story very nicely.\n\nWhile watching it, I felt completely surprised and happy, but also quite sad. The pictures and camera work were wonderful, but seeing how climate change destroys animal homes was very sad. It made me feel many strong emotions.\n\nIn my opinion, this show was very important because it changed how I think about nature. It showed that what humans do causes big problems all over the world. Because of this show, I started recycling more and trying to use less plastic. Everyone should definitely watch it.",
+            jpn: "本日は、私に大きな影響を与えた自然番組についてお話ししたいと思います。番組名は『プラネット・アース』で、数年前、家で静かに過ごす週末に初めて見ました。\n\nこの番組は、深海から巨大な砂漠まで、世界中の多くの異なる場所を取り上げています。普通の俳優はおらず、代わりに自然の中で生きるために戦う素晴らしい動物たちが「キャラクター」です。主な内容は、これらの動物たちの日々の暮らしや大変な時期についての話で、有名なイギリスの話し手がとても素敵に物語を語ってくれます。\n\n見ている間、私はすっかり驚いて嬉しい気持ちになりましたが、同時にかなり悲しくも感じました。映像やカメラワークは素晴らしかったですが、気候変動が動物たちの住処を壊しているのを見るのはとても悲しかったです。強い感情が湧き上がる体験でした。\n\n私の意見では、この番組は自然に対する私の考え方を変えてくれたので、とても大切でした。人間がしていることが世界中で大きな問題を引き起こしていることを教えてくれました。この番組のおかげで、私はもっとリサイクルをするようになり、プラスチックを使う量を減らすよう努力し始めました。みんな絶対に観るべきです。"
         },
         homework: {
             vocab: [
-                { eng: "Base on", jpn: "〜に基づく", exEng: "My speech is based on a true story.", exJpn: "私のスピーチは実話に基づいています。" },
-                { eng: "Relate to", jpn: "〜に共感する", exEng: "I could easily relate to the main character.", exJpn: "主人公に簡単に共感できました。" },
-                { eng: "Focus on", jpn: "〜に集中する / 焦点を当てる", exEng: "The documentary focuses on climate change.", exJpn: "そのドキュメンタリーは気候変動に焦点を当てています。" },
-                { eng: "Depend on", jpn: "〜に依存する", exEng: "A good movie depends on excellent writing.", exJpn: "良い映画は優れた脚本に依存します。" },
-                { eng: "Succeed in", jpn: "〜に成功する", exEng: "The actor succeeded in making me cry.", exJpn: "その俳優は私を泣かせることに成功しました。" },
-                { eng: "Lead to", jpn: "〜につながる", exEng: "The plot twist led to a surprising conclusion.", exJpn: "その予想外の展開は驚くべき結末につながりました。" },
-                { eng: "Contribute to", jpn: "〜に貢献する", exEng: "The music contributed to the sad atmosphere.", exJpn: "音楽が悲しい雰囲気に貢献しました。" },
-                { eng: "Result in", jpn: "〜という結果になる", exEng: "His mistake resulted in a huge disaster.", exJpn: "彼のミスは大きな大惨事という結果になりました。" },
-                { eng: "Suffer from", jpn: "〜に苦しむ", exEng: "The hero suffers from a terrible illness.", exJpn: "ヒーローは恐ろしい病気に苦しみます。" },
-                { eng: "Care about", jpn: "〜を気にかける", exEng: "You really start to care about their relationship.", exJpn: "あなたは本当に彼らの関係を気にかけ始めます。" },
-                { eng: "Agree with", jpn: "〜に同意する", exEng: "I don't completely agree with the movie's message.", exJpn: "その映画のメッセージには完全には同意しません。" },
-                { eng: "Argue about", jpn: "〜について議論する", exEng: "People still argue about the show's ending.", exJpn: "人々はいまだにその番組の結末について議論しています。" },
-                { eng: "Apologize for", jpn: "〜について謝罪する", exEng: "The character never apologized for his mistakes.", exJpn: "そのキャラクターは自分の間違いについて決して謝罪しませんでした。" },
-                { eng: "Look forward to", jpn: "〜を楽しみにする", exEng: "I always looked forward to the next episode.", exJpn: "私はいつも次のエピソードを楽しみにしていました。" },
-                { eng: "Point out", jpn: "指摘する", exEng: "My friend pointed out a hidden detail.", exJpn: "友人が隠された詳細を指摘しました。" },
-                { eng: "Figure out", jpn: "理解する、解決する", exEng: "It took me a while to figure out the mystery.", exJpn: "その謎を解明する（理解する）のにしばらく時間がかかりました。" },
-                { eng: "Turn out", jpn: "〜という結果になる", exEng: "The villain turned out to be his father.", exJpn: "悪役は彼の父親であるという結果になりました（判明しました）。" },
-                { eng: "Catch up", jpn: "追いつく、まとめ見する", exEng: "I need to catch up on the latest season.", exJpn: "最新シーズンの遅れを取り戻す（まとめ見する）必要があります。" }
+          { eng: "Loyal fans", jpn: "忠実な（熱心な）ファン", formality: "Neutral expression", exEng: "The show survived for ten seasons thanks to its loyal fans.", exJpn: "その番組は、忠実なファンのおかげで10シーズンも続きました。" },																									
+{ eng: "Family-friendly movie", jpn: "家族みんなで安心して観られる映画", formality: "Neutral expression", exEng: "We are looking for a family-friendly movie that our young kids can watch too.", exJpn: "小さな子供たちも一緒に観られる、家族向けの映画を探しています。" },																									
+{ eng: "Not for kids", jpn: "子供向けではない", formality: "Neutral expression", exEng: "This cartoon looks cute, but it has scary scenes so it is definitely not for kids.", exJpn: "このアニメは可愛く見えますが、怖いシーンがあるので絶対に子供向けではありません。" },																									
+{ eng: "Age limit", jpn: "年齢制限", formality: "Neutral expression", exEng: "That violent action movie has an age limit of 16 and older.", exJpn: "その暴力的なアクション映画には16歳以上という年齢制限があります。" },																									
+{ eng: "Parental guidance", jpn: "保護者の指導・助言（PG指定）", formality: "Neutral expression", exEng: "Some parts of the movie might scare young children, so parental guidance is suggested.", exJpn: "映画の一部は小さな子供を怖がらせる可能性があるため、保護者の助言が推奨されています。" },																									
+{ eng: "Give two thumbs up", jpn: "大絶賛する（親指を2本立てて褒める）", formality: "Casual expression", exEng: "I give this movie two thumbs up—it's the best comedy I've seen all year!", exJpn: "この映画は大絶賛するよ。今年観た中で最高のコメディだ！" },																									
+{ eng: "Shoot a movie", jpn: "映画を撮影する", formality: "Neutral expression", exEng: "They traveled to New Zealand to shoot the movie in the mountains.", exJpn: "彼らは山の中で映画を撮影するためにニュージーランドへ旅立ちました。" },																									
+{ eng: "Film on location", jpn: "ロケ撮影をする（実際の場所で撮影する）", formality: "Neutral expression", exEng: "Instead of building fake streets, the crew decided to film on location in Rome.", exJpn: "偽の街並みを作る代わりに、スタッフはローマでロケ撮影をすることに決めました。" },																									
+{ eng: "Film in a studio", jpn: "スタジオで撮影する", formality: "Neutral expression", exEng: "Most TV sitcoms are filmed in a studio in front of a live audience.", exJpn: "ほとんどのテレビのシットコムは、観客を入れてスタジオで撮影されます。" },																									
+{ eng: "Behind the scenes", jpn: "舞台裏・メイキング", formality: "Neutral expression", exEng: "I love watching behind-the-scenes videos to see how they make special effects.", exJpn: "特殊効果をどうやって作っているか見るために、舞台裏の動画を観るのが大好きです。" },																									
+{ eng: "Special effects", jpn: "特殊効果", formality: "Neutral expression", exEng: "The space battles looked so real because of the amazing special effects.", exJpn: "素晴らしい特殊効果のおかげで、宇宙での戦いがとてもリアルに見えました。" },																									
+{ eng: "Green screen", jpn: "グリーンスクリーン（合成用の緑の背景）", formality: "Neutral expression", exEng: "The actors stood in front of a green screen, and the city was added later by computers.", exJpn: "俳優たちはグリーンスクリーンの前に立ち、街の背景は後からコンピューターで追加されました。" },																									
+{ eng: "Movie soundtrack", jpn: "映画のサウンドトラック（音楽集）", formality: "Neutral expression", exEng: "I listen to the movie soundtrack while I study because the music helps me focus.", exJpn: "音楽が集中するのを助けてくれるので、勉強中に映画のサウンドトラックを聴いています。" },																									
+{ eng: "Theme song", jpn: "テーマソング（主題歌）", formality: "Neutral expression", exEng: "Everyone knows the famous theme song from the TV show Friends.", exJpn: "テレビ番組『フレンズ』の有名なテーマソングは誰もが知っています。" },																									
+{ eng: "Sound effects", jpn: "効果音", formality: "Neutral expression", exEng: "The sound effects of footsteps and creaking doors made the ghost movie much scarier.", exJpn: "足音やきしむドアの効果音が、その幽霊映画をずっと怖くしていました。" },																									
+{ eng: "Camera work", jpn: "カメラワーク（撮影技術）", formality: "Neutral expression", exEng: "The camera work in the nature show was incredible, especially the underwater shots.", exJpn: "その自然番組のカメラワークは信じられないほど素晴らしく、特に水中の映像は最高でした。" },																									
+{ eng: "Close-up shot", jpn: "クローズアップ（顔のアップなどの撮影）", formality: "Neutral expression", exEng: "The camera did a close-up shot of her face so we could see her crying.", exJpn: "彼女が泣いているのが見えるように、カメラは彼女の顔のクローズアップを撮りました。" },																									
+{ eng: "Edit a video", jpn: "映像を編集する", formality: "Neutral expression", exEng: "It takes many months to edit a two-hour movie after filming finishes.", exJpn: "撮影が終わったあと、2時間の映画を編集するのには何ヶ月もかかります。" },																									
+{ eng: "Cut a scene", jpn: "シーンをカットする（削除する）", formality: "Neutral expression", exEng: "The movie was too long, so the director had to cut a scene from the middle.", exJpn: "映画が長すぎたため、監督は中盤から1つのシーンをカットしなければなりませんでした。" },																									
+{ eng: "Reshoot a scene", jpn: "シーンを再撮影する", formality: "Neutral expression", exEng: "The audio was bad because of the wind, so they had to reshoot the scene.", exJpn: "風のせいで音声が悪かったため、彼らはそのシーンを再撮影しなければなりませんでした。" },																									
             ],
             clickingGames: [
                 // Chapter 2 Review Point 1: Degree, Limits & Grouping (too + adj / something + adj) - 4 sentences
@@ -1821,11 +1825,11 @@ grammarPoints: [
                 { prompt: "そのシリーズは間違いなく見る価値があります。", target: "The series is definitely worth watching.", words: ["The", "series", "is", "definitely", "worth", "watching."] },
                 { prompt: "受動的にスクロールするよりも、良い映画を1本見る方が好きです。", target: "I prefer watching one good film rather than scrolling passively.", words: ["I", "prefer", "watching", "one", "good", "film", "rather", "than", "scrolling", "passively."] }
             ],
-            extendedReading: {
+           extendedReading: {
                 title: "Task 3: Authentic Reading (Layout 4 - Study Group Chat)",
                 instruction: "Read this study chat where learners practice talking about a movie or show that changed their perspective.",
-                eng: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #speaking-prep-ch2</div><div class='er-chat-msg'><span class='er-chat-time'>[07:05 PM]</span> <span class='er-chat-user'>@Daiki:</span> Hi everyone! I'm preparing my speech on a show that left a strong impression on me. I watched a nature series last year about ocean life.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:08 PM]</span> <span class='er-chat-user'>@Mei:</span> Nice! How did you feel while watching it? Did it change your perspective on daily habits?</div><div class='er-chat-msg'><span class='er-chat-time'>[07:10 PM]</span> <span class='er-chat-user'>@Daiki:</span> Yes, some of the scenes were fairly sad when I saw plastic waste near the coast. It was too real to ignore, so I started carrying a reusable bottle rather than buying plastic ones every day.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:13 PM]</span> <span class='er-chat-user'>@Mei:</span> That's a great example for the PREP method. I'm talking about a drama that explores family life and work balance. The main character was easy to relate to, and the ending was not predictable at all.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:16 PM]</span> <span class='er-chat-user'>@Daiki:</span> Sounds binge-worthy! Make sure you explain why the story mattered to you rather than just summarizing the whole plot.</div></div>",
-                jpn: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #speaking-prep-ch2</div><div class='er-chat-msg'><span class='er-chat-time'>[07:05 PM]</span> <span class='er-chat-user'>@Daiki:</span> みんな、こんにちは！私に強い印象を残した番組についてのスピーチを準備しています。去年、海の生き物についての自然シリーズを見ました。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:08 PM]</span> <span class='er-chat-user'>@Mei:</span> いいね！見ている間はどう感じましたか？日常の習慣に対する視点が変わりましたか？</div><div class='er-chat-msg'><span class='er-chat-time'>[07:10 PM]</span> <span class='er-chat-user'>@Daiki:</span> うん、海岸近くのプラスチックごみを見たとき、いくつかのシーンはかなり悲しかったです。無視するには現実的すぎて、毎日プラスチックボトルを買うのではなく、マイボトルを持ち歩くようにしました。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:13 PM]</span> <span class='er-chat-user'>@Mei:</span> それはPREP法にぴったりの良い例だね。私は家族生活と仕事のバランスを探求するドラマについて話すよ。主人公に共感しやすく、結末もまったく予測できませんでした。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:16 PM]</span> <span class='er-chat-user'>@Daiki:</span> イッキ見したくなるね！あらすじ全体をまとめるだけでなく、なぜその物語が自分にとって大切だったのかを必ず説明しよう。</div></div>"
+                eng: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #speaking-prep-ch2</div><div class='er-chat-msg'><span class='er-chat-time'>[07:05 PM]</span> <span class='er-chat-user'>@Daiki:</span> Hi everyone! I'm preparing my speech on a show that left a strong impression on me. I watched a nature series last year about ocean life, and I still think about it often.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:08 PM]</span> <span class='er-chat-user'>@Mei:</span> Nice! I love nature documentaries because the camera work is usually amazing. How did you feel while watching it? Did it change how you think about your daily habits?</div><div class='er-chat-msg'><span class='er-chat-time'>[07:10 PM]</span> <span class='er-chat-user'>@Daiki:</span> Yes, definitely. At first, I was amazed by the colorful fish and deep oceans. However, some scenes were quite sad when I saw plastic waste floating near the coast and hurting sea animals. It felt too real to ignore, so I started carrying my own water bottle instead of buying plastic ones every day.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:12 PM]</span> <span class='er-chat-user'>@Ken:</span> That's a great real-life example for your speech! Showing how a show changed your behavior makes your story much stronger. Has anyone else chosen their topic yet?</div><div class='er-chat-msg'><span class='er-chat-time'>[07:14 PM]</span> <span class='er-chat-user'>@Mei:</span> I have! I'm going to talk about a family drama I watched over the winter holidays. It is about a busy office worker who moves back to her small hometown to help run her parents' bakery.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:16 PM]</span> <span class='er-chat-user'>@Daiki:</span> That sounds like a warm, relaxing story. What made it special for you?</div><div class='er-chat-msg'><span class='er-chat-time'>[07:18 PM]</span> <span class='er-chat-user'>@Mei:</span> The main character was very easy to understand because she felt stressed about her career, just like many of us. Also, the ending was not predictable at all. Instead of becoming rich and famous, she learned to enjoy simple moments with her family. It reminded me that spending time with loved ones is more important than working late every night.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:20 PM]</span> <span class='er-chat-user'>@Ken:</span> That's a wonderful message! For my speech, I chose an international movie from South Korea about a high school music club. I had to read subtitles, which took a little effort at first, but the acting was fantastic.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:22 PM]</span> <span class='er-chat-user'>@Mei:</span> Oh, I love foreign films! Watching stories from other cultures really helps us see the world in a fresh way. Did that movie inspire you to change anything in your own life?</div><div class='er-chat-msg'><span class='er-chat-time'>[07:24 PM]</span> <span class='er-chat-user'>@Ken:</span> Yes! Seeing the students practice together every day made me miss playing the guitar. After the movie finished, I dusted off my old guitar and started practicing for twenty minutes every evening instead of scrolling on my phone.</div><div class='er-chat-msg'><span class='er-chat-time'>[07:26 PM]</span> <span class='er-chat-user'>@Daiki:</span> All of our topics sound great! Just remember the teacher's advice: don't spend too much time explaining the whole plot. Focus on your feelings and why the story mattered to you. Good luck with your practice, everyone!</div></div>",
+                jpn: "<div class='er-template er-chat er-layout-4'><div style='font-weight:bold; margin-bottom:10px;'>💬 #speaking-prep-ch2</div><div class='er-chat-msg'><span class='er-chat-time'>[07:05 PM]</span> <span class='er-chat-user'>@Daiki:</span> みんな、こんにちは！私に強い印象を残した番組についてのスピーチを準備しています。去年、海の生き物についての自然シリーズを観たんだけど、今でもよく思い出します。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:08 PM]</span> <span class='er-chat-user'>@Mei:</span> いいね！自然ドキュメンタリーはカメラワークがいつも素晴らしいから大好き。観ている間はどう感じた？日々の習慣についての考え方が変わった？</div><div class='er-chat-msg'><span class='er-chat-time'>[07:10 PM]</span> <span class='er-chat-user'>@Daiki:</span> うん、間違いなく変わったよ。最初はカラフルな魚や深い海に感動したんだ。でも、海岸近くにプラスチックごみが浮かんでいて海の動物を傷つけている場面を見たときは、かなり悲しかった。無視するにはあまりにも現実的すぎて、毎日ペットボトルを買う代わりにマイボトルを持ち歩くようにしたんだ。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:12 PM]</span> <span class='er-chat-user'>@Ken:</span> スピーチにぴったりの素晴らしい実体験だね！番組が自分の行動をどう変えたかを示すと、話がずっと説得力のあるものになるよね。他にテーマを決めた人はいる？</div><div class='er-chat-msg'><span class='er-chat-time'>[07:14 PM]</span> <span class='er-chat-user'>@Mei:</span> 私は決めたよ！冬休みに観た家族ドラマについて話すつもり。忙しい会社員が、両親のパン屋を手伝うために小さな故郷に戻る話なんだ。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:16 PM]</span> <span class='er-chat-user'>@Daiki:</span> 温かくてリラックスできそうな物語だね。どんなところが特別だったの？</div><div class='er-chat-msg'><span class='er-chat-time'>[07:18 PM]</span> <span class='er-chat-user'>@Mei:</span> 主人公が私たちの多くと同じようにキャリアにストレスを感じていたから、すごく気持ちが理解しやすかったの。それに、結末もまったく予想できなかったよ。お金持ちや有名人になるのではなく、家族とのシンプルな時間を楽しむことを学んだんだ。毎晩遅くまで働くことよりも、大切な人と時間を過ごすことの方が大事だと思い出させてくれたよ。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:20 PM]</span> <span class='er-chat-user'>@Ken:</span> 素敵なメッセージだね！僕のスピーチには、高校の音楽部を描いた韓国の映画を選んだんだ。字幕を読まなければならなくて最初は少し大変だったけど、演技が素晴らしかったよ。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:22 PM]</span> <span class='er-chat-user'>@Mei:</span> ああ、外国映画っていいよね！他の文化の物語を観ると、新鮮な見方で世界を見る助けになるよね。その映画を見て、自分の生活で何か変えようと思ったことはあった？</div><div class='er-chat-msg'><span class='er-chat-time'>[07:24 PM]</span> <span class='er-chat-user'>@Ken:</span> うん！生徒たちが毎日一緒に練習しているのを見て、ギターを弾くのが恋しくなったんだ。映画を観終わった後、古いギターのほこりを払って、スマホをダラダラ見る代わりに毎晩20分間練習を始めたよ。</div><div class='er-chat-msg'><span class='er-chat-time'>[07:26 PM]</span> <span class='er-chat-user'>@Daiki:</span> みんなのテーマ、どれもすごく良さそうだね！先生のアドバイスを忘れないようにしよう。あらすじ全体の説明に時間をかけすぎず、自分の感情やなぜその物語が自分にとって大切だったのかに焦点を当てること。みんな、練習がんばろう！</div></div>"
             },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Describe a movie or TV show that changed your opinion on a specific topic. Explain what the topic was and how your view changed.",
@@ -1845,18 +1849,18 @@ grammarPoints: [
             speakers: [
                 {
                     name: "Person 1",
-                    eng: "I have been traveling for work since I joined the sales team five years ago. At first, I found it extremely glamorous to stay in nice hotels and eat at fancy restaurants. However, constantly packing a suitcase and rushing to airports is becoming more and more exhausting. Business travel disrupts your daily routine, making it hard to exercise regularly or maintain a healthy diet. You often eat fast food because you are rushing between meetings. Additionally, jet lag is a serious problem for international travelers. Despite these challenges, traveling allows me to meet our clients face-to-face. I firmly believe that shaking hands and having dinner together builds a much stronger relationship than just sending an email. It shows the client that they are truly important to our company.",
-                    jpn: "私は5年前に営業チームに参加して以来、仕事のために出張を続けています。最初は、素敵なホテルに泊まり、高級なレストランで食事をすることを非常に魅力的に感じていました。しかし、常にスーツケースに荷物を詰め、空港に急ぐことは、ますます疲れ果てるものになってきています。出張は日々のルーティンを乱し、定期的に運動したり健康的な食事を維持したりすることを難しくします。会議と会議の間を急いでいるため、ファストフードを食べることがよくあります。さらに、海外出張者にとって時差ぼけは深刻な問題です。これらの課題にもかかわらず、出張することでクライアントと直接会うことができます。握手をして一緒に夕食をとることは、ただメールを送るよりもはるかに強い関係を築くと私は固く信じています。それは、クライアントが私たちの会社にとって本当に重要であることを示しているのです。"
+                    eng: "I have been traveling for work since I joined the sales team five years ago. At first, I thought it was very exciting to stay in nice hotels and eat at expensive restaurants. However, always packing a suitcase and rushing to airports is becoming more and more tiring. Business travel changes your daily routine, making it hard to exercise regularly or keep a healthy diet. You often eat fast food because you are rushing between meetings. Also, jet lag is a serious problem for international travelers. Even with these difficulties, traveling allows me to meet our clients face-to-face. I strongly believe that shaking hands and having dinner together builds a much stronger relationship than just sending an email. It shows the client that they are really important to our company.",
+                    jpn: "私は5年前に営業チームに入って以来、仕事で出張を続けています。最初は、素敵なホテルに泊まったり、高いレストランで食事をしたりするのはとてもワクワクすると思っていました。しかし、いつもスーツケースに荷物を詰めて空港へ急ぐのは、だんだん疲れるようになってきました。出張は毎日の生活リズムを変えるので、定期的に運動したり、健康的な食生活を続けたりするのが難しくなります。会議と会議の間を急いでいるため、ファストフードを食べることがよくあります。また、海外出張者にとって時差ぼけは深刻な問題です。こうした難しさがあっても、出張することでクライアントと直接会うことができます。握手をして一緒に夕食をとることは、ただメールを送るよりもずっと強い関係を築けると私は強く信じています。それは、クライアントが私たちの会社にとって本当に大切だということを示すのです。"
                 },
                 {
                     name: "Person 2",
-                    eng: "In my experience, the financial cost of corporate travel is something every company must carefully consider. Flight tickets, accommodation, and daily allowances add up very quickly. With the rise of reliable video conferencing software, many executives are questioning if business trips are actually worth the expense. Why spend two thousand dollars on a flight when you can negotiate a contract online for free? That being said, some situations definitely require an in-person visit. If you are inspecting a new factory, checking product quality, or resolving a major conflict, being there in reality is crucial. I think companies are getting smarter and smarter about this. They are reducing unnecessary domestic trips but still approving travel for high-value strategic meetings.",
-                    jpn: "私の経験では、企業出張の金銭的コストは、どの会社も慎重に考慮しなければならないものです。航空券、宿泊費、日当は非常に早く積み重なります。信頼性の高いビデオ会議ソフトウェアの普及により、多くの幹部が出張に実際それだけの費用をかける価値があるのかと疑問視しています。オンラインで無料で契約交渉ができるのに、なぜフライトに2000ドルも費やす必要があるのでしょうか？そうは言っても、状況によっては絶対に直接の訪問が必要になります。新しい工場を視察したり、製品の品質を確認したり、大きな対立を解決したりする場合、実際にその場にいることが極めて重要です。企業はこの点についてますます賢くなってきていると思います。不要な国内出張は減らしていますが、価値の高い戦略的な会議のための出張は依然として承認しています。"
+                    eng: "In my experience, the cost of business travel is something every company must think about carefully. Flight tickets, hotel stays, and daily expenses add up very quickly. Now that we have good video call software, many managers are asking if business trips are really worth the cost. Why spend two thousand dollars on a flight when you can make a deal online for free? Still, some situations definitely need an in-person visit. If you are checking a new factory, testing product quality, or solving a big problem, being there in person is very important. I think companies are getting smarter about this. They are cutting down on unnecessary trips inside the country, but still paying for travel to important business meetings.",
+                    jpn: "私の経験では、出張の費用は、どの会社も慎重に考えなければならないことです。航空券、宿泊費、日々の経費は非常に早く積み重なります。今では優れたビデオ通話ソフトウェアがあるので、多くの管理職が出張に本当にお金をかける価値があるのか疑問に思っています。オンラインで無料で契約できるのに、なぜフライトに2,000ドルも使うのでしょうか？それでも、直接訪問することがどうしても必要な状況もあります。新しい工場をチェックしたり、製品の品質を確かめたり、大きな問題を解決したりするときは、実際にその場に行くことがとても大切です。企業はこの点についてますます賢くなっていると思います。国内の不要な出張は減らしつつ、重要なビジネス会議のための出張にはお金を出しています。"
                 },
                 {
                     name: "Person 3",
-                    eng: "For me, the best part of traveling for work is the opportunity for cultural exchange. Visiting a foreign country gives you a totally different perspective on how business operates globally. You learn how to adapt your communication style and respect local customs. This makes you a more flexible and empathetic professional. On the downside, being away from home frequently can be tough on your family. Missing a child's birthday or leaving your partner to manage everything alone creates a lot of guilt. Companies that force employees to travel too much often see high burnout rates. A good employer should offer flexible schedules and extra days off to employees after long business trips. Striking a healthy balance between career ambition and family life is the key to enjoying business travel.",
-                    jpn: "私にとって、仕事で旅行することの最も良い部分は、文化交流の機会です。外国を訪れることは、ビジネスがグローバルにどのように機能しているかについて全く異なる視点を与えてくれます。自分のコミュニケーションスタイルを適応させ、現地の習慣を尊重する方法を学びます。これにより、より柔軟で共感力のあるプロフェッショナルになることができます。マイナス面としては、頻繁に家を空けることは家族にとってつらいことです。子供の誕生日を逃したり、パートナーにすべてを一人で任せて家を離れることは、多くの罪悪感を生み出します。従業員に過度な出張を強いる企業は、しばしば高い燃え尽き症候群（バーンアウト）の割合を目にします。良い雇用主は、長い出張の後に従業員に柔軟なスケジュールや追加の休暇を提供するべきです。キャリアへの野心と家族生活との間に健康的なバランスを打ち立てることが、出張を楽しむための鍵です。"
+                    eng: "For me, the best part of traveling for work is the chance to learn about other cultures. Visiting a foreign country gives you a completely different view of how business works around the world. You learn how to change the way you talk to people and respect local customs. This makes you a more open-minded and understanding worker. On the negative side, being away from home often can be hard on your family. Missing a child's birthday or leaving your partner to handle everything alone makes you feel very guilty. Companies that make employees travel too much often see high levels of stress. A good employer should offer flexible schedules and extra days off to staff after long business trips. Finding a healthy balance between career goals and family life is the key to enjoying business travel.",
+                    jpn: "私にとって、仕事で出張することの一番良い部分は、他の文化について学ぶチャンスがあることです。外国を訪れると、世界中でビジネスがどのように動いているかについて、まったく違う見方ができるようになります。人との話し方を変えたり、現地の習慣を尊重したりする方法を学びます。これにより、より柔軟な考えを持ち、相手を理解できる社会人になれます。マイナス面としては、家を空けることが多いと家族にとってつらいことです。子どもの誕生日を逃したり、パートナーにすべてを一人で任せたりすると、とても申し訳ない気持ちになります。従業員に出張をさせすぎる会社では、高いレベルのストレスが見られます。良い雇用主は、長い出張のあとにスタッフに柔軟なスケジュールや追加の休日を提供するべきです。キャリアの目標と家庭生活との間に健康的なバランスを見つけることが、出張を楽しむための鍵です。"
                 }
             ]
         },
@@ -1954,11 +1958,11 @@ grammarPoints: [
                 { prompt: "フライトの費用はますます高くなってきています。", target: "Flight costs are getting higher and higher.", words: ["Flight", "costs", "are", "getting", "higher", "and", "higher."] },
                 { prompt: "ビデオ会議はますます便利になってきています。", target: "Video meetings are becoming more and more convenient.", words: ["Video", "meetings", "are", "becoming", "more", "and", "more", "convenient."] }
             ],
-            extendedReading: {
+extendedReading: {
                 title: "Task 3: Authentic Reading (Layout 5 - Workplace FAQ)",
                 instruction: "Read this company travel FAQ. Notice how present perfect progressive and continuous change expressions are used.",
-                eng: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>✈️ Corporate Travel Policy: Common Questions</h3><div class='er-faq-item'><span class='er-faq-q'>Q: Why has our team been flying less for regular updates?</span><div class='er-faq-a'>We have been using video calls for routine team meetings for two years now. Travel expenses are becoming more and more costly, so online check-ins help us save budget and time. That being said, we still approve face-to-face trips for important client deals.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: How can travelers avoid burnout on long trips?</span><div class='er-faq-a'>Employees who have been traveling all month often deal with jet lag and tired routines. On the downside, rushing between airports and hotels makes healthy meals harder. In my experience, taking a short rest day after long international travel helps people recover well.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: When is an in-person visit still necessary?</span><div class='er-faq-a'>Despite good video tools, visiting a factory or solving a serious problem face-to-face is still important. Customers are getting more and more selective about partnerships, and shaking hands builds trust that a screen cannot replace.</div></div></div>",
-                jpn: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>✈️ 企業出張ポリシー：よくある質問</h3><div class='er-faq-item'><span class='er-faq-q'>Q: なぜ私たちのチームは定例報告でのフライトを減らしているのですか？</span><div class='er-faq-a'>私たちは2年前から定例のチーム会議にビデオ通話を使い続けています。出張経費はますます高くなってきているため、オンラインでの連絡は予算と時間の節約に役立ちます。そうは言っても、重要なクライアントとの商談のための対面出張は引き続き承認しています。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 長期出張で出張者が燃え尽きるのを防ぐにはどうすればよいですか？</span><div class='er-faq-a'>1ヶ月間ずっと出張し続けている従業員は、しばしば時差ぼけや生活リズムの乱れに直面します。マイナス面としては、空港とホテルの間を急ぐと健康的な食事が難しくなります。私の経験では、長い海外出張の後に短い休息日をとることが、しっかり回復するのに役立ちます。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: どのような場合に直接の訪問がまだ必要ですか？</span><div class='er-faq-a'>優れたビデオツールがあっても、工場を視察したり深刻な問題を解決したりするには、対面が依然として重要です。顧客はパートナーシップに対してますます慎重になってきており、握手をすることで画面では代替できない信頼が築かれます。</div></div></div>"
+                eng: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>✈️ Company Travel Policy: Common Questions</h3><div class='er-faq-item'><span class='er-faq-q'>Q: Why has our team been flying less for regular updates?</span><div class='er-faq-a'>We have been using video calls for routine team meetings for two years now. Flight tickets, hotel stays, and daily expenses are becoming more and more expensive, so online check-ins help us save both budget and valuable work hours. Also, domestic flights often cause delays and take employees away from their desks for whole days. Still, we approve face-to-face trips when you need to negotiate a major deal with a client or launch a new project.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: How can travelers avoid burnout on long trips?</span><div class='er-faq-a'>Employees who have been traveling all month often deal with serious jet lag, poor sleep, and broken daily routines. On the negative side, rushing between busy airports and late meetings makes regular exercise and healthy meals much harder to maintain. In my experience, booking direct flights when possible and keeping a simple evening routine can make a huge difference. Also, our updated policy allows staff to take a paid rest day after long international travel so they can recover well before returning to the office.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: When is an in-person visit still necessary?</span><div class='er-faq-a'>Despite good video tools, inspecting a factory, checking product quality, or solving a serious problem face-to-face is still essential. Customers are getting more and more selective about business partnerships, and shaking hands or sharing a meal builds personal trust that a computer screen cannot replace. Being there in person also helps you understand local customs and notice small details that you might easily miss during an online call.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: How has the booking process been changing recently?</span><div class='er-faq-a'>Our finance department has been updating our internal travel system since last spring to make approvals faster and easier. Approval times are getting shorter and shorter because managers can now review trip requests directly on their phones. However, employees still need to submit their travel plans at least two weeks early to avoid high last-minute ticket prices. If a sudden emergency happens, you can contact the travel desk directly for immediate support.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: What support does the company offer for family life?</span><div class='er-faq-a'>We know that being away from home frequently can put extra stress on your partner and children. Over the past year, HR has been listening closely to employee feedback about work-life balance. Because of this, weekend travel is becoming less and less common across all departments. Whenever a trip requires you to work over a weekend, your manager will help you plan flexible hours or extra days off during the following week.</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: Are we doing anything to make business travel greener?</span><div class='er-faq-a'>Yes, our company has been tracking pollution from flights and rental cars since 2023. Environmental rules are becoming stricter and stricter around the world, and our clients expect us to take responsibility. For shorter distances, we strongly encourage employees to take high-speed trains instead of short flights. Choosing eco-friendly hotels and sharing taxis with coworkers are other simple ways we are reducing our environmental impact every month.</div></div></div>",
+                jpn: "<div class='er-template er-faq er-layout-5'><h3 style='margin-top:0;'>✈️ 社内出張ポリシー：よくある質問</h3><div class='er-faq-item'><span class='er-faq-q'>Q: なぜ私たちのチームは定例報告でのフライトを減らしているのですか？</span><div class='er-faq-a'>私たちは2年前から定例のチーム会議にビデオ通話を使い続けています。航空券、宿泊費、日々の経費はますます高くなってきているため、オンラインでの連絡は予算と貴重な勤務時間の両方を節約するのに役立ちます。また、国内線のフライトは遅れが出ることが多く、従業員が丸一日デスクを離れる原因にもなります。それでも、クライアントと大きな契約の交渉をする場合や新しいプロジェクトを立ち上げる場合は、対面での出張を承認しています。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 長い出張で燃え尽きるのを防ぐにはどうすればよいですか？</span><div class='er-faq-a'>1ヶ月間ずっと出張し続けている従業員は、しばしば深刻な時差ぼけ、睡眠不足、日々の生活リズムの乱れに直面します。マイナス面としては、混雑した空港と遅い時間の会議の間を急ぐと、定期的な運動や健康的な食事を続けるのがずっと難しくなります。私の経験では、可能な限り直行便を予約し、シンプルな夜の習慣を保つことで大きな違いが生まれます。また、改定されたポリシーでは、長い海外出張の後にスタッフが有給の休息日をとることが認められており、オフィスに戻る前にしっかり回復することができます。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: どのような場合に直接の訪問がまだ必要ですか？</span><div class='er-faq-a'>優れたビデオツールがあっても、工場を視察したり、製品の品質を確認したり、深刻な問題を解決したりするには、対面が依然として不可欠です。顧客はビジネスパートナーシップに対してますます慎重になってきており、握手をしたり食事を共にしたりすることで、パソコンの画面では代わりにならない個人的な信頼が築かれます。実際にその場に行くことは、現地の習慣を理解し、オンライン通話では見逃しやすい細かい点に気づくのにも役立ちます。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 最近、予約プロセスはどのように変わっていますか？</span><div class='er-faq-a'>経理部門は承認をより速く簡単にするため、昨年の春から社内の出張システムを更新し続けています。管理職が自分のスマートフォンで直接出張申請を確認できるようになったため、承認時間はますます短くなっています。ただし、直前の高額なチケット代を避けるため、従業員は依然として少なくとも2週間前に出張計画を提出する必要があります。突然の緊急事態が発生した場合は、出張デスクに直接連絡してすぐに対応を受けることができます。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 家庭生活のために会社はどのようなサポートをしていますか？</span><div class='er-faq-a'>頻繁に家を空けることが、パートナーや子どもたちに余分なストレスをかける可能性があることを私たちは理解しています。この1年間、人事部はワークライフバランスに関する従業員の意見にしっかり耳を傾けてきました。そのため、すべての部署で週末の出張はますます少なくなっています。週末に仕事をする必要がある出張の場合は、翌週に柔軟な勤務時間や追加の休日を設定できるよう上司がサポートします。</div></div><div class='er-faq-item'><span class='er-faq-q'>Q: 出張をより環境に優しいものにするために何かしていますか？</span><div class='er-faq-a'>はい、当社は2023年からフライトやレンタカーによる環境汚染を追跡し続けています。世界中で環境規制はますます厳しくなっており、クライアントも私たちが責任を果たすことを期待しています。短距離の移動については、短いフライトの代わりに新幹線や高速鉄道を利用することを強く推奨しています。環境に配慮したホテルを選んだり、同僚とタクシーを相乗りしたりすることも、毎月環境への影響を減らすためのシンプルな方法です。</div></div></div>"
             },
             writingTask: {
                 promptEng: "Write a short paragraph answering this question: Do you think companies should reduce business travel in the future? Use 'present perfect progressive' and transitional expressions.",
@@ -1989,16 +1993,16 @@ grammarPoints: [
         dialogue: [
             { speaker: "A", eng: "I need to organize the travel arrangements for our conference in Singapore.", jpn: "シンガポールでのカンファレンスのための旅行手配を整理する必要があります。" },
             { speaker: "B", eng: "Sure. <span class='swappable'>When exactly will you be departing?</span>", jpn: "もちろんです。正確にはいつ出発する予定ですか？" },
-            { speaker: "A", eng: "<span class='swappable'>I will be leaving on Monday morning at 9 AM.</span>", jpn: "月曜日の午前9時に出発する予定です。" },
+            { speaker: "A", eng: "I will be leaving on Monday morning at 9 AM.</span>", jpn: "月曜日の午前9時に出発する予定です。" },
             { speaker: "B", eng: "Alright. Let me look up some flights. Do you have a seating preference?", jpn: "わかりました。いくつかフライトを調べてみます。座席の希望はありますか？" },
             { speaker: "A", eng: "Yes, <span class='swappable'>I would like a window seat in economy class, please.</span>", jpn: "はい、エコノミークラスの窓側の席をお願いします。" },
             { speaker: "B", eng: "I found a direct flight on a budget airline. However, their website is having issues.", jpn: "格安航空会社の直行便を見つけました。しかし、彼らのウェブサイトに問題があります。" },
             { speaker: "A", eng: "What's wrong with it?", jpn: "どうしたのですか？" },
             { speaker: "B", eng: "<span class='swappable'>The payment page won't load.</span> It seems to be frozen.", jpn: "支払いページが読み込まれません（どうしても動こうとしません）。フリーズしているようです。" },
-            { speaker: "A", eng: "That's frustrating. <span class='swappable'>Can we try booking through a different travel portal?</span>", jpn: "それはイライラしますね。別の旅行ポータルから予約してみることはできますか？" },
+            { speaker: "A", eng: "That's frustrating. <span class='swappable'>Well, in that case, Can we try booking through a different travel portal?</span>", jpn: "そうですね、それなら、別の旅行サイトから予約してみるのはどうでしょうか？" },
             { speaker: "B", eng: "Yes, I will do that now. Also, where do you want to stay in Singapore?", jpn: "はい、今そうしてみます。それと、シンガポールではどこに泊まりたいですか？" },
-            { speaker: "A", eng: "<span class='swappable'>Could you reserve a room at a hotel near the conference center?</span>", jpn: "カンファレンスセンターの近くのホテルに部屋を予約していただけますか？" },
-            { speaker: "B", eng: "I will check for availability right away. I'll send you the boarding pass later.", jpn: "すぐに空き状況を確認します。搭乗券は後でお送りしますね。" }
+            { speaker: "A", eng: "Could you reserve a room at a hotel near the conference center?</span>", jpn: "カンファレンスセンターの近くのホテルに部屋を予約していただけますか？" },
+            { speaker: "B", eng: "I will check for availability right away. I'll send you a confirmation email when everything is done.", jpn: "すぐに空き状況を確認します。すべての手続きが完了次第、確認メールをお送りします。" }
         ],
         dialogueStructure: [
             { eng: "State the task (travel arrangements)", jpn: "タスク（旅行の手配）を述べる", indent: false },
@@ -2018,7 +2022,7 @@ grammarPoints: [
             {
                 category: "1. Asking about departure (出発について尋ねる)",
                 options: [
-                    { eng: "When exactly will you be departing?", jpn: "正確にはいつ出発する予定ですか？" },
+                    { eng: "What time does your flight depart?", jpn: "ご搭乗便は何時に出発しますか？" },
                     { eng: "What time are you flying out?", jpn: "何時に出発するのですか？" },
                     { eng: "When is your scheduled departure?", jpn: "予定されている出発はいつですか？" }
                 ]
@@ -2026,25 +2030,25 @@ grammarPoints: [
             {
                 category: "2. Stating seating preference (座席の希望を述べる)",
                 options: [
-                    { eng: "I would like a window seat, please.", jpn: "窓側の席をお願いします。" },
+                    { eng: "I’d prefer an aisle seat, if one is available.", jpn: "空いていれば、通路側の席がいいのですが。" },
                     { eng: "I prefer an aisle seat if possible.", jpn: "可能であれば通路側の席がいいです。" },
-                    { eng: "Could I get a seat near the front?", jpn: "前の方の席をもらえますか？" }
+                    { eng: "Anywhere except the middle seat is fine with me.", jpn: "真ん中の席以外ならどこでも大丈夫です。" }
                 ]
             },
             {
-                category: "3. Expressing malfunction with 'won't' (モノが動かないことを表現する)",
+                category: "3. Expressing malfunction  (モノが動かないことを表現する)",
                 options: [
-                    { eng: "The payment page won't load.", jpn: "支払いページが読み込まれません。" },
-                    { eng: "My credit card won't go through.", jpn: "クレジットカードが通りません。" },
-                    { eng: "The booking system won't accept this date.", jpn: "予約システムがこの日付を受け付けません。" }
+                    { eng: "I keep getting an error message when I try to pay.", jpn: "支払いをしようとすると、何度もエラーメッセージが出ます。" },
+                    { eng: "The app crashes every time I try to confirm my booking.", jpn: "予約を確定しようとするたびにアプリが落ちます。" },
+                    { eng: "The booking system is refusing to accept this date.", jpn: "予約システムがこの日付を受け付けません。" }
                 ]
             },
             {
                 category: "4. Suggesting alternatives (代替案を提案する)",
                 options: [
-                    { eng: "Can we try booking through a different portal?", jpn: "別の旅行ポータルから予約してみることはできますか？" },
-                    { eng: "Should we call the airline directly?", jpn: "航空会社に直接電話するべきでしょうか？" },
-                    { eng: "Why don't we try another hotel?", jpn: "別のホテルを試してみませんか？" }
+                    { eng: "Then, maybe we should try using a different portal?", jpn: "それなら、別のポータルを使ってみるべきかもしれませんね？" },
+                    { eng: "In that case, we could always call the airline directly?", jpn: "それなら、いつでも航空会社に直接電話すればいいんじゃないですか？" },
+                    { eng: "Well, then do you want to try booking two separate one-way tickets?", jpn: "それなら、片道チケットを2枚別々に予約してみてはいかがでしょうか？" }
                 ]
             }
         ],
@@ -2105,11 +2109,11 @@ grammarPoints: [
                 { prompt: "予約システムがこの日付を受け付けません。", target: "The booking system won't accept this date.", words: ["The", "booking", "system", "won't", "accept", "this", "date."] },
                 { prompt: "そのドアの鍵が開きません。", target: "The hotel room door won't open.", words: ["The", "hotel", "room", "door", "won't", "open."] }
             ],
-            extendedReading: {
+extendedReading: {
                 title: "Task 3: Authentic Reading (Layout 6 - Internal Job / Role Brief)",
                 instruction: "Read this role brief for a corporate travel assistant. Notice future progressive plans and 'won't' for system glitches.",
-                eng: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 Travel &amp; Logistics Coordinator Brief</h3><span class='er-job-tag'>Operations</span> <span class='er-job-tag'>Hybrid Office</span><p><strong>Role Overview:</strong><br>Our team supports engineers and managers who travel to client sites and conferences. You will be helping travelers book flights, reserve rooms near meeting venues, and confirm bookings ahead of busy travel weeks. When a manager asks, 'When will you be departing for the expo?', you need clear schedules and backup options ready.</p><p><strong>💼 Daily Responsibilities:</strong></p><ul><li>Compare economy class flights, check baggage rules, and watch out for hidden fees or budget airline limits.</li><li>Reserve rooms at clean hotels close to the conference center so travelers avoid long morning rides.</li><li>Troubleshoot booking portals when a payment page won't load or a card won't go through, then sort out a fast alternative.</li><li>Check travelers in online, send boarding passes early, and keep them updated if a flight is full or delayed.</li></ul></div>",
-                jpn: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 トラベル＆ロジスティクス・コーディネーター概要</h3><span class='er-job-tag'>オペレーション</span> <span class='er-job-tag'>ハイブリッド勤務</span><p><strong>役割の概要：</strong><br>私たちのチームは、クライアント先やカンファレンスに出張するエンジニアやマネージャーをサポートします。繁忙期の出張の前に、フライトの予約、会議会場近くの部屋の手配、予約の確認を手伝います。マネージャーから「いつ展示会へ出発する予定ですか？」と聞かれた際、明確なスケジュールと代替案を用意しておく必要があります。</p><p><strong>💼 日々の業務：</strong></p><ul><li>エコノミークラスのフライトを比較し、手荷物ルールを確認し、隠れた手数料や格安航空会社の制限に注意する。</li><li>出張者が朝の長い移動を避けられるよう、カンファレンスセンターに近い清潔なホテルの部屋を予約する。</li><li>支払いページが読み込まれない、またはカードが通らないといった予約ポータルの不具合に対応し、素早く代替案を手配する。</li><li>オンラインでチェックインを行い、搭乗券を早めに送り、フライトが満席や遅延になった場合は最新情報を伝える。</li></ul></div>"
+                eng: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 Travel &amp; Booking Coordinator Brief</h3><span class='er-job-tag'>Operations</span> <span class='er-job-tag'>Hybrid Office</span> <span class='er-job-tag'>Full-Time</span><p><strong>Role Overview:</strong><br>Our team supports engineers, sales staff, and managers who travel to client offices, factories, and big conferences all year. In this role, you will be helping travelers book flights, reserve rooms near meeting places, and check travel plans before busy weeks. Because our engineering teams will be flying out almost every Monday morning next month, good organization is very important. When a manager asks, 'When will you be leaving for the event?' or 'Which hotel will the team be staying at?', you need clear schedules and good backup plans ready right away.</p><p><strong>💼 Daily Tasks:</strong></p><ul><li>Compare economy class flights, check baggage rules, and watch out for extra seat fees or strict budget airline limits.</li><li>Reserve rooms at clean, good hotels close to the meeting center so travelers avoid long morning rides and bad traffic.</li><li>Write down seating choices carefully, making sure long-flight travelers get an aisle seat or a window seat when possible.</li><li>Fix booking website problems when a payment page won't load, a discount code won't work, or a company card won't go through, then find a fast backup option.</li><li>Call airlines or partner hotels directly when an online system won't accept a date change or a group booking request.</li><li>Check travelers in online 24 hours early, send mobile boarding passes ahead of time, and keep them updated if a flight is full, canceled, or delayed.</li></ul><p><strong>🗓️ Weekly Planning &amp; Support:</strong></p><ul><li>Check upcoming travel calendars every Thursday afternoon to see who will be traveling during the next week.</li><li>Book airport rides, train tickets, and rental cars so staff can move easily between airports and client offices.</li><li>Record travel receipts and daily meal costs in our finance system after workers return from their trips.</li></ul><p><strong>✅ Who We Are Looking For:</strong><br>We want a calm, careful problem solver who communicates clearly even when things get busy. When a flight is suddenly canceled or a booking website won't work properly, you stay positive and quickly suggest useful alternatives. Experience with travel booking websites, spreadsheets, and different time zones will be a big help because you will be working closely with international offices every day.</p></div>",
+                jpn: "<div class='er-template er-job er-layout-6'><h3 class='er-job-title'>📌 トラベル＆予約コーディネーター概要</h3><span class='er-job-tag'>オペレーション</span> <span class='er-job-tag'>ハイブリッド勤務</span> <span class='er-job-tag'>フルタイム</span><p><strong>役割の概要：</strong><br>私たちのチームは、年間を通してクライアントのオフィス、工場、大きな会議に出張するエンジニア、営業スタッフ、マネージャーをサポートします。この役割では、忙しい週の前に、出張者がフライトを予約したり、会議場所の近くの部屋を確保したり、旅行計画を確認したりするのを手伝います。来月はエンジニアリングチームがほぼ毎週月曜日の朝に出発する予定なので、しっかりしたスケジュール管理がとても大切です。マネージャーから「いつイベントに出発する予定ですか？」や「チームはどのホテルに泊まる予定ですか？」と聞かれたとき、わかりやすいスケジュールと良い代替案をすぐに用意しておく必要があります。</p><p><strong>💼 毎日の仕事：</strong></p><ul><li>エコノミークラスのフライトを比べ、手荷物のルールを確認し、追加の座席料金や格安航空会社の厳しい制限に気をつける。</li><li>出張者が朝の長い移動やひどい渋滞を避けられるよう、会議センターに近い清潔で良いホテルの部屋を予約する。</li><li>座席の希望を丁寧にメモし、長いフライトに乗る人ができるだけ通路側や窓側の席をとれるようにする。</li><li>支払いページが読み込まれない、割引コードが使えない、または会社のカードが通らないといった予約サイトの問題を解決し、素早く別の方法を見つける。</li><li>オンラインシステムが日付の変更やグループ予約のリクエストを受け付けないときは、航空会社や提携ホテルに直接電話をする。</li><li>24時間前にオンラインでチェックインを行い、モバイル搭乗券を早めに送り、フライトが満席・欠航・遅延になった場合は最新情報を伝える。</li></ul><p><strong>🗓️ 週間計画とサポート：</strong></p><ul><li>毎週木曜日の午後に今後の出張カレンダーを確認し、次の週に誰が出張する予定になっているかを把握する。</li><li>スタッフが空港とクライアントのオフィスの間をスムーズに移動できるよう、空港からの移動手段、電車のチケット、レンタカーを予約する。</li><li>社員が出張から戻ったあと、経理システムに出張の領収書や毎日の食費を記録する。</li></ul><p><strong>✅ 求める人物像：</strong><br>忙しいときでも落ち着いて丁寧に問題解決ができ、わかりやすくコミュニケーションをとれる方を求めています。フライトが急に欠航になったり、予約サイトがうまく動かなかったりしたときでも、前向きな気持ちを保ち、役立つ代替案を素早く提案できる方を歓迎します。毎日海外のオフィスと協力して仕事を進めるため、旅行予約サイト、表計算ソフト、時差に関する経験があると大きな助けになります。</p></div>"
             },
             writingTask: {
                 promptEng: "Write a short dialogue where you ask a travel agent to book a flight for you. State your departure time politely using 'will be -ing' and describe a technical issue using 'won't'.",
@@ -13289,9 +13293,9 @@ const coreRules = [
     },
 
     {
-        title: "Elision in 'Next step' (Hint 11)",
-        eng: "When saying 'next step', the first 't' is often dropped. It sounds like 'neks step'.",
-        jpn: "「next step」と言う時、最初の「t」は省略されることがよくあります。「ネクス・ステップ」のように聞こえます。"
+        title: "Omitting Do you (Hint 11)",
+        eng: "When extending invitations, you can omit Do you e.g. Do you feel like seeing a movie = Feel like seeing a movie?",
+        jpn: "招待をする際、「do you」を省略することもできます。例：Do you feel like seeing a movie = Feel like seeing a movie?"
     },
 
     {
